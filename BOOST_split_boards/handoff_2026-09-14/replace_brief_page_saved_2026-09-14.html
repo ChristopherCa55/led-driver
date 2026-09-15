@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOOST Re-place Brief</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap">
+<style id="brief-css">
+:root {
+  color-scheme: light;
+  --ground: #E9EEF0;
+  --sheet: #F8FAFA;
+  --ink: #172027;
+  --ink-2: #34424B;
+  --muted: #5B6871;
+  --rule: #C6D0D5;
+  --rule-soft: #DEE4E7;
+  --copper: #994D1B;
+  --copper-soft: #F3E4D8;
+  --copper-band: rgba(153, 77, 27, 0.15);
+  --ok: #2A6A4B;
+  --ok-soft: #DCEDE3;
+  --open: #855600;
+  --open-soft: #F6EACB;
+  --stop: #A8291F;
+  --stop-soft: #F6DDD9;
+  --raised: #FFFFFF;
+  --shadow: 0 12px 32px rgba(20, 32, 40, 0.18), 0 2px 6px rgba(20, 32, 40, 0.08);
+  --focus: #1F6FB8;
+  --display: "Barlow Semi Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0D1215;
+    --sheet: #141B1F;
+    --ink: #E2E8EB;
+    --ink-2: #C0CAD0;
+    --muted: #8E9BA3;
+    --rule: #2E3A40;
+    --rule-soft: #212A2F;
+    --copper: #E59C66;
+    --copper-soft: #36261A;
+    --copper-band: rgba(229, 156, 102, 0.2);
+    --ok: #7ACB9F;
+    --ok-soft: #17322A;
+    --open: #E7B657;
+    --open-soft: #362B12;
+    --stop: #F28C80;
+    --stop-soft: #3C1D1A;
+    --raised: #1B2429;
+    --shadow: 0 12px 32px rgba(0, 0, 0, 0.55), 0 2px 6px rgba(0, 0, 0, 0.4);
+    --focus: #72B3F2;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0D1215;
+  --sheet: #141B1F;
+  --ink: #E2E8EB;
+  --ink-2: #C0CAD0;
+  --muted: #8E9BA3;
+  --rule: #2E3A40;
+  --rule-soft: #212A2F;
+  --copper: #E59C66;
+  --copper-soft: #36261A;
+  --copper-band: rgba(229, 156, 102, 0.2);
+  --ok: #7ACB9F;
+  --ok-soft: #17322A;
+  --open: #E7B657;
+  --open-soft: #362B12;
+  --stop: #F28C80;
+  --stop-soft: #3C1D1A;
+  --raised: #1B2429;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.55), 0 2px 6px rgba(0, 0, 0, 0.4);
+  --focus: #72B3F2;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font: 400 15px/1.55 var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+a { color: inherit; }
+p { margin: 0; }
+h1, h2, h3, h4 { margin: 0; font-family: var(--display); text-wrap: balance; }
+.mono, code { font-family: var(--mono); font-size: 0.87em; }
+
+.page { max-width: 1080px; margin: 0 auto; padding: 28px 20px 140px; display: grid; gap: 28px; }
+
+/* ---------- title block ---------- */
+.titleblock {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  background: var(--rule);
+  gap: 1px;
+  border: 1px solid var(--rule);
+}
+.titleblock > * { background: var(--sheet); }
+.tb-main { padding: 26px 28px 24px; display: grid; gap: 12px; align-content: start; }
+.eyebrow {
+  font: 600 12px/1.2 var(--display);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--copper);
+}
+.tb-main h1 { font-size: 38px; line-height: 1.02; font-weight: 700; letter-spacing: -0.005em; }
+.tb-lede { color: var(--ink-2); max-width: 62ch; }
+.tb-fields { display: grid; grid-template-columns: 1fr; background: var(--rule); gap: 1px; }
+.tb-field { background: var(--sheet); padding: 9px 16px 10px; display: grid; gap: 1px; }
+.tb-key {
+  font: 600 11px/1.3 var(--display);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.tb-val { font-size: 14px; color: var(--ink); overflow-wrap: anywhere; }
+.tb-progress { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); background: var(--rule); gap: 1px; }
+.tb-progress > * { background: var(--sheet); padding: 10px 16px 12px; display: grid; gap: 2px; text-decoration: none; }
+a.tb-stat:hover { background: var(--copper-soft); }
+.tb-num { font: 600 22px/1.1 var(--display); font-variant-numeric: tabular-nums; }
+.tb-num small { font-size: 15px; color: var(--muted); font-weight: 500; }
+
+/* ---------- sections ---------- */
+.section { background: var(--sheet); border: 1px solid var(--rule); }
+.section-head { padding: 22px 28px 18px; border-bottom: 1px solid var(--rule); display: grid; gap: 6px; }
+.section-head h2 { font-size: 28px; line-height: 1.1; font-weight: 700; }
+.section-head p { color: var(--ink-2); max-width: 70ch; }
+
+/* ---------- decisions ---------- */
+.decision {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 18px 32px;
+  padding: 24px 28px 26px;
+}
+.decision + .decision { border-top: 1px solid var(--rule); }
+.d-info { display: grid; gap: 10px; align-content: start; }
+.d-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.d-id { font: 500 14px/1 var(--mono); color: var(--copper); }
+.d-head h3 { font-size: 22px; line-height: 1.15; font-weight: 600; flex: 1 1 14ch; }
+.d-why { color: var(--ink-2); max-width: 60ch; }
+.d-affects { font-size: 13px; color: var(--muted); }
+.d-affects b { font: 600 11px/1 var(--display); letter-spacing: 0.1em; text-transform: uppercase; margin-right: 6px; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font: 600 12px/1 var(--display); letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 5px 9px 5px 8px; border-radius: 999px; white-space: nowrap;
+  background: var(--open-soft); color: var(--open);
+}
+.pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.pill[data-state="decided"] { background: var(--ok-soft); color: var(--ok); }
+
+.d-options { display: grid; gap: 8px; align-content: start; }
+.opt {
+  display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 12px;
+  padding: 11px 14px 12px; border: 1px solid var(--rule); border-radius: 6px;
+  cursor: pointer; background: var(--sheet);
+  transition: border-color 120ms ease, background-color 120ms ease;
+}
+.opt:hover { border-color: var(--muted); }
+.opt.is-selected { border-color: var(--copper); background: var(--copper-soft); }
+.opt input { margin: 3px 0 0; width: 16px; height: 16px; accent-color: var(--copper); }
+.opt-body { display: grid; gap: 3px; }
+.opt-title { font-weight: 600; color: var(--ink); }
+.opt-key { font: 500 12px/1 var(--mono); color: var(--copper); margin-right: 6px; }
+.opt-text { font-size: 14px; color: var(--ink-2); }
+.d-either { font-size: 14px; color: var(--ink-2); padding: 2px 2px 0; }
+.d-either b { font: 600 11px/1 var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
+.d-foot { display: grid; gap: 6px; }
+.d-foot-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.d-foot label { font: 600 11px/1 var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+textarea {
+  width: 100%; min-height: 58px; resize: vertical;
+  font: 400 14px/1.45 var(--body); color: var(--ink);
+  background: var(--raised); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px;
+}
+textarea::placeholder { color: var(--muted); }
+.linkbtn {
+  font: 600 12px/1 var(--display); letter-spacing: 0.06em; text-transform: uppercase;
+  background: none; border: 0; padding: 2px 0; color: var(--muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+}
+.linkbtn:hover { color: var(--ink); }
+
+.widths { overflow-x: auto; }
+.widths table { border-collapse: collapse; width: 100%; min-width: 360px; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.widths caption { text-align: left; font: 600 11px/1.3 var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding-bottom: 6px; }
+.widths th, .widths td { padding: 5px 8px; border-bottom: 1px solid var(--rule-soft); text-align: right; white-space: nowrap; }
+.widths th:first-child, .widths td:first-child { text-align: left; white-space: normal; }
+.widths thead th { font: 600 12px/1.2 var(--display); letter-spacing: 0.04em; color: var(--muted); border-bottom-color: var(--rule); }
+
+/* ---------- stages and rules ---------- */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); align-items: center; }
+.legend .ruler { width: 120px; }
+.lg-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+
+.stage + .stage { border-top: 1px solid var(--rule); }
+.stage-head {
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: start;
+  padding: 20px 28px 12px;
+}
+.stage-no {
+  font: 700 34px/0.9 var(--display); color: var(--copper); font-variant-numeric: tabular-nums;
+  min-width: 28px;
+}
+.stage-head h3 { font-size: 21px; line-height: 1.15; font-weight: 600; }
+.stage-head p { color: var(--ink-2); font-size: 14.5px; max-width: 70ch; margin-top: 2px; }
+.count { font: 600 13px/1 var(--display); letter-spacing: 0.04em; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; padding-top: 6px; }
+.count[data-state="done"] { color: var(--ok); }
+
+.rules { list-style: none; margin: 0; padding: 0 28px 16px 72px; }
+.rule {
+  display: grid; grid-template-columns: 24px minmax(0, 1fr) minmax(0, 330px); gap: 6px 16px;
+  padding: 14px 0; border-top: 1px solid var(--rule-soft);
+}
+.rule input[type="checkbox"] { width: 18px; height: 18px; margin: 3px 0 0; accent-color: var(--ok); cursor: pointer; }
+.rule-text { display: grid; gap: 4px; align-content: start; }
+.rule-text h4 { font: 600 15.5px/1.3 var(--body); }
+.rule-text h4 label { cursor: pointer; }
+.rule-text p { font-size: 14px; color: var(--ink-2); max-width: 62ch; }
+.rule.is-done .rule-text h4 { color: var(--ok); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.needs {
+  font: 600 11px/1 var(--display); letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 4px 7px; border-radius: 4px; border: 1px dashed var(--open); color: var(--open);
+}
+.needs[data-state="decided"] { border-style: solid; border-color: var(--ok); color: var(--ok); }
+
+.measures { display: grid; gap: 10px; align-content: start; }
+.m { display: grid; gap: 3px; }
+.m-label { display: flex; justify-content: space-between; gap: 10px; font-size: 12.5px; color: var(--muted); }
+.m-label em { font-style: normal; font-family: var(--mono); font-size: 11.5px; color: var(--copper); white-space: nowrap; }
+.m-now { font: 400 12.5px/1.35 var(--mono); color: var(--ink); font-variant-numeric: tabular-nums; }
+.m-note { font-size: 13px; color: var(--ink-2); }
+
+.ruler { position: relative; display: block; height: 12px; }
+.ruler::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--rule); }
+.ruler::after {
+  content: ""; position: absolute; left: 0; top: 1px; bottom: 1px;
+  width: calc(var(--t) / 70 * 100%);
+  background: var(--copper-band); border-right: 1.5px solid var(--copper);
+}
+.ruler i {
+  position: absolute; z-index: 1; top: 50%;
+  left: calc(var(--v) / 70 * 100%);
+  width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%;
+  background: var(--ok); box-shadow: 0 0 0 1.5px var(--sheet);
+}
+.ruler i.over { background: var(--stop); }
+
+/* ---------- gates ---------- */
+.gates { list-style: none; margin: 0; padding: 4px 28px 18px; counter-reset: gate; }
+.gate {
+  display: grid; grid-template-columns: 34px 24px minmax(0, 1fr); gap: 6px 12px;
+  padding: 14px 0; border-top: 1px solid var(--rule-soft); counter-increment: gate;
+}
+.gate:first-child { border-top: 0; }
+.gate::before { content: counter(gate); font: 700 22px/1 var(--display); color: var(--copper); padding-top: 1px; }
+.gate input[type="checkbox"] { width: 18px; height: 18px; margin: 3px 0 0; accent-color: var(--ok); cursor: pointer; }
+.gate.is-done .rule-text h4 { color: var(--ok); }
+
+.notes { padding: 18px 28px 22px; display: grid; gap: 8px; font-size: 13.5px; color: var(--muted); }
+.notes h3 { font: 600 11px/1.2 var(--display); letter-spacing: 0.1em; text-transform: uppercase; }
+.notes ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; max-width: 90ch; }
+
+/* ---------- save bar ---------- */
+.savebar {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+  width: min(680px, calc(100% - 24px));
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  padding: 10px 10px 10px 18px;
+  background: var(--raised); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 10px; box-shadow: var(--shadow);
+  z-index: 10;
+}
+.savebar-msg { font-size: 14px; }
+.savebar-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.btn {
+  font: 600 14px/1 var(--body); padding: 9px 14px; border-radius: 7px; cursor: pointer;
+  border: 1px solid var(--rule); background: var(--sheet); color: var(--ink);
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--copper); border-color: var(--copper); color: var(--raised); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn:disabled { opacity: 0.6; cursor: progress; }
+
+@media (max-width: 860px) {
+  .titleblock { grid-template-columns: 1fr; }
+  .tb-progress { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .decision { grid-template-columns: 1fr; }
+  .rules { padding-left: 28px; }
+  .rule { grid-template-columns: 24px minmax(0, 1fr); }
+  .measures { grid-column: 2; }
+}
+@media (max-width: 520px) {
+  .tb-main, .section-head, .decision, .stage-head, .notes { padding-left: 16px; padding-right: 16px; }
+  .rules, .gates { padding-left: 16px; padding-right: 16px; }
+  .tb-main h1 { font-size: 31px; }
+  .stage-head { grid-template-columns: auto minmax(0, 1fr); }
+  .stage-head .count { grid-column: 2; padding-top: 0; }
+  .savebar { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .opt { transition: none; }
+}
+</style>
+</head>
+<body>
+<div id="brief">
+<div class="page">
+
+  <header class="titleblock">
+    <div class="tb-main">
+      <p class="eyebrow">BOOST · 3-channel 100 W LED driver · power board</p>
+      <h1>Re-place brief</h1>
+      <p class="tb-lede">The 14 Sep layout added 64 vias and 13 copper patches, and none of the audit’s 10 failed checks passes yet. The cause is placement: parts on each high-current path sit 30–60&nbsp;mm apart, and each rail FET’s nearest output caps belong to other rails. Settle the five decisions first, because each changes footprints, keep-outs or part heights. Then place in the order below and run each check before moving on.</p>
+      <p class="tb-lede">Pick an option for each decision, tick rules as the placement meets them, and save. Everyone who opens this page sees what was saved.</p>
+    </div>
+    <div class="tb-fields">
+      <div class="tb-field"><span class="tb-key">Board</span><span class="tb-val mono">BOOST_power.kicad_pcb</span></div>
+      <div class="tb-field"><span class="tb-key">Outline</span><span class="tb-val">74 × 86 mm · 8 copper layers · 121 parts</span></div>
+      <div class="tb-field"><span class="tb-key">Replaces</span><span class="tb-val">Layout of 2026-09-14 · <span class="mono">f4807690…</span></span></div>
+      <div class="tb-field"><span class="tb-key">Based on</span><span class="tb-val"><span class="mono">BOOST_AUDIT.md</span>, <span class="mono">AUDIT_RESPONSE.md</span>, pad positions from the board file</span></div>
+      <div class="tb-field"><span class="tb-key">Last saved</span><span class="tb-val" data-saved="">Not saved yet</span></div>
+    </div>
+    <nav class="tb-progress" aria-label="Progress">
+      <a class="tb-stat" href="#decide"><span class="tb-key">Decisions</span><span class="tb-num"><span data-progress="decisions">0</span> <small>of 5</small></span></a>
+      <a class="tb-stat" href="#place"><span class="tb-key">Placement rules</span><span class="tb-num"><span data-progress="rules">0</span> <small>of 20</small></span></a>
+      <a class="tb-stat" href="#check"><span class="tb-key">Route &amp; checks</span><span class="tb-num"><span data-progress="gates">0</span> <small>of 5</small></span></a>
+      <div class="tb-stat"><span class="tb-key">Audit stop-ship items</span><span class="tb-num">4 <small>of 5 still open</small></span></div>
+    </nav>
+  </header>
+
+  <!-- ================= DECISIONS ================= -->
+  <section class="section" id="decide" aria-labelledby="decide-h">
+    <div class="section-head">
+      <p class="eyebrow">Before placing</p>
+      <h2 id="decide-h">Decide these first</h2>
+      <p>Each of these changes a footprint, a keep-out or a part height. Placing before they’re settled means placing twice.</p>
+    </div>
+
+    <article class="decision" data-decision="D1">
+      <div class="d-info">
+        <div class="d-head"><span class="d-id">D1</span><h3>Switching edges and FET package</h3><span class="pill" data-status="">Open</span></div>
+        <p class="d-why">Every commutation loop runs through three TO-220 packages: M1, the LX-side FET and the rail FET’s body diode. At 8&nbsp;A/ns the copper alone puts 74 / 137 / 99&nbsp;V on LX for channels 1 / 2 / 3, and the audit puts the loop with package leads above 350&nbsp;V. The 70&nbsp;V target allows 4.3&nbsp;nH in the whole loop.</p>
+        <p class="d-affects"><b>Changes</b>FET footprints · underside layout · tab keep-outs · stack height</p>
+      </div>
+      <div class="d-options" role="radiogroup" aria-label="D1 options">
+        <label class="opt"><input type="radio" name="D1" value="A"><span class="opt-body"><span class="opt-title"><span class="opt-key">A</span>Keep TO-220s, slow the edges</span><span class="opt-text">Raise the gate resistors until the edges run at roughly 0.7–0.8&nbsp;A/ns, which holds a 42–50&nbsp;nH loop near 70&nbsp;V. Costs switching loss in M1 and the channel FETs, so re-run the LTspice model to size the resistors. Tab-down mounting and case-floor cooling stay.</span></span></label>
+        <label class="opt"><input type="radio" name="D1" value="B"><span class="opt-body"><span class="opt-title"><span class="opt-key">B</span>Change to surface-mount FETs</span><span class="opt-text">D2PAK or TOLL packages cut lead inductance, so copper sets the overshoot again. Heat then leaves through board copper and thermal vias instead of a bolted tab, which changes the underside, the 4.6&nbsp;mm body gap and every washer keep-out. The biggest re-place of the three.</span></span></label>
+        <label class="opt"><input type="radio" name="D1" value="C"><span class="opt-body"><span class="opt-title"><span class="opt-key">C</span>Leave it to the clamp</span><span class="opt-text">Keep 8&nbsp;A/ns and let D19 (about 82&nbsp;V at 45&nbsp;A) or M1’s avalanche rating absorb the overshoot on every edge. Not recommended: the clamp takes energy every cycle, and D19 only protects M1 if it sits at M1.</span></span></label>
+        <div class="d-foot">
+          <div class="d-foot-row"><label for="note-D1">Notes</label><button type="button" class="linkbtn" data-clear="D1" hidden="">Clear choice</button></div>
+          <textarea id="note-D1" data-note="D1" rows="2" placeholder="Simulation results, part numbers, reasons"></textarea>
+        </div>
+      </div>
+    </article>
+
+    <article class="decision" data-decision="D2">
+      <div class="d-info">
+        <div class="d-head"><span class="d-id">D2</span><h3>Current-sense connections</h3><span class="pill" data-status="">Open</span></div>
+        <p class="d-why">U25 taps the 20.7&nbsp;A Vin and rsense_lo pours 41&nbsp;mm from R1, so it reads 32&nbsp;% high and RESET trips at 30.6&nbsp;A instead of 40.5&nbsp;A. Each sink op-amp senses 42–270&nbsp;mΩ of track upstream of its shunt, so the LEDs get 45–84&nbsp;% less current than set.</p>
+        <p class="d-affects"><b>Changes</b>schematic nets · shunt footprints · where U25, U6, U11 and U12 go</p>
+      </div>
+      <div class="d-options" role="radiogroup" aria-label="D2 options">
+        <label class="opt"><input type="radio" name="D2" value="A"><span class="opt-body"><span class="opt-title"><span class="opt-key">A</span>Net-ties at all four shunts</span><span class="opt-text">Add dedicated sense nets (for example ISNS_P and ISNS_N at R1, ISNS1–3 at R52, R53 and R7), each joined to its power net by a net-tie footprint at the shunt pad. Keeps the stock 2512 parts, and the router can no longer merge a sense line into a pour.</span></span></label>
+        <label class="opt"><input type="radio" name="D2" value="B"><span class="opt-body"><span class="opt-title"><span class="opt-key">B</span>Four-terminal R1, net-ties on the sinks</span><span class="opt-text">Use a Kelvin 2512 shunt with separate sense pads for R1, which carries 20.7&nbsp;A and sets RESET. The 50&nbsp;mΩ sink shunts keep net-ties. Needs a four-terminal part in the BOM.</span></span></label>
+        <p class="d-either"><b>Either way</b>Put U25 beside R1 and each sink op-amp beside its shunt.</p>
+        <div class="d-foot">
+          <div class="d-foot-row"><label for="note-D2">Notes</label><button type="button" class="linkbtn" data-clear="D2" hidden="">Clear choice</button></div>
+          <textarea id="note-D2" data-note="D2" rows="2" placeholder="Net names, footprint or part chosen"></textarea>
+        </div>
+      </div>
+    </article>
+
+    <article class="decision" data-decision="D3">
+      <div class="d-info">
+        <div class="d-head"><span class="d-id">D3</span><h3>Copper weight</h3><span class="pill" data-status="">Open</span></div>
+        <p class="d-why">Neither board declares a stackup. The gerber job says 1&nbsp;oz on every layer, and a JLCPCB order that doesn’t say otherwise gets 1&nbsp;oz outer / 0.5&nbsp;oz inner. Every width in the re-route follows from this.</p>
+        <div class="widths">
+          <table>
+            <caption>Track width for a 20&nbsp;°C rise (IPC-2221)</caption>
+            <thead><tr><th scope="col">Current and layer</th><th scope="col">0.5 oz</th><th scope="col">1 oz</th><th scope="col">2 oz</th></tr></thead>
+            <tbody>
+              <tr><td>20.7 A, outer (Vin, rsense_lo)</td><td>—</td><td>12.9 mm</td><td>6.4 mm</td></tr>
+              <tr><td>8.35 A, inner (Vout_3, m4_source)</td><td>19.2 mm</td><td>9.6 mm</td><td>4.8 mm</td></tr>
+              <tr><td>2.63 A, inner (LED sink)</td><td>3.9 mm</td><td>1.9 mm</td><td>1.0 mm</td></tr>
+              <tr><td>2.63 A, outer (LED sink)</td><td>—</td><td>0.75 mm</td><td>0.37 mm</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="d-affects"><b>Changes</b>every power track width · J10/J11 annular ring · fab rules</p>
+      </div>
+      <div class="d-options" role="radiogroup" aria-label="D3 options">
+        <label class="opt"><input type="radio" name="D3" value="A"><span class="opt-body"><span class="opt-title"><span class="opt-key">A</span>1 oz outer, 0.5 oz inner</span><span class="opt-text">The fab default. Inner layers can’t carry the rail currents at any practical width. Not recommended.</span></span></label>
+        <label class="opt"><input type="radio" name="D3" value="B"><span class="opt-body"><span class="opt-title"><span class="opt-key">B</span>1 oz on all layers</span><span class="opt-text">Matches the current gerber job. Rail and switch paths need outer-layer pours or very wide inner copper.</span></span></label>
+        <label class="opt"><input type="radio" name="D3" value="C"><span class="opt-body"><span class="opt-title"><span class="opt-key">C</span>2 oz outer, 1 oz inner</span><span class="opt-text">Halves the outer widths. Inner layers carry LED-sink and signal currents comfortably.</span></span></label>
+        <label class="opt"><input type="radio" name="D3" value="D"><span class="opt-body"><span class="opt-title"><span class="opt-key">D</span>2 oz on all layers</span><span class="opt-text">Narrowest power copper. JLCPCB’s 2&nbsp;oz rules (0.15&nbsp;mm track and space, 0.254&nbsp;mm annular ring) fail J10/J11’s 0.175&nbsp;mm ring, so those pads grow.</span></span></label>
+        <p class="d-either"><b>Either way</b>Write the stackup into both board files so the gerber job and the order agree.</p>
+        <div class="d-foot">
+          <div class="d-foot-row"><label for="note-D3">Notes</label><button type="button" class="linkbtn" data-clear="D3" hidden="">Clear choice</button></div>
+          <textarea id="note-D3" data-note="D3" rows="2" placeholder="Quote, cost difference, fab confirmation"></textarea>
+        </div>
+      </div>
+    </article>
+
+    <article class="decision" data-decision="D4">
+      <div class="d-info">
+        <div class="d-head"><span class="d-id">D4</span><h3>Board-to-board link, J10 / J11</h3><span class="pill" data-status="">Open</span></div>
+        <p class="d-why">J10 and J11 are both male and mirrored, so they can’t mate. The ten analog pins (21–30) have no ground among them, the feedback dividers are split across the link, and neither connector is in the schematic.</p>
+        <p class="d-affects"><b>Changes</b>connector footprints · pinout · where the control card can sit</p>
+      </div>
+      <div class="d-options" role="radiogroup" aria-label="D4 options">
+        <label class="opt"><input type="radio" name="D4" value="A"><span class="opt-body"><span class="opt-title"><span class="opt-key">A</span>Ribbon cable</span><span class="opt-text">Shrouded 2&nbsp;×&nbsp;15 1.27&nbsp;mm headers on both boards with the same pin-1 orientation, joined by an IDC cable. The control card can sit wherever the cable reaches.</span></span></label>
+        <label class="opt"><input type="radio" name="D4" value="B"><span class="opt-body"><span class="opt-title"><span class="opt-key">B</span>Stacking header and socket</span><span class="opt-text">Header on the power board, matching socket on the control card, placed so pin&nbsp;n meets pin&nbsp;n. This fixes where the card sits, so decide D5 with it.</span></span></label>
+        <p class="d-either"><b>Either way</b>Add J10/J11 to the schematic, give every analog pin an adjacent GND, and keep both resistors of each divider on the same board.</p>
+        <div class="d-foot">
+          <div class="d-foot-row"><label for="note-D4">Notes</label><button type="button" class="linkbtn" data-clear="D4" hidden="">Clear choice</button></div>
+          <textarea id="note-D4" data-note="D4" rows="2" placeholder="Connector part numbers, new pinout"></textarea>
+        </div>
+      </div>
+    </article>
+
+    <article class="decision" data-decision="D5">
+      <div class="d-info">
+        <div class="d-head"><span class="d-id">D5</span><h3>Control card size and fixing</h3><span class="pill" data-status="">Open</span></div>
+        <p class="d-why">No 60&nbsp;×&nbsp;60&nbsp;mm card inside the 78&nbsp;×&nbsp;90&nbsp;mm case can avoid L1, which is 19&nbsp;mm tall, so the stack is 36.5&nbsp;mm against 33&nbsp;mm. The card also has no mounting holes.</p>
+        <p class="d-affects"><b>Changes</b>control card outline · keep-outs on the power board · standoffs</p>
+      </div>
+      <div class="d-options" role="radiogroup" aria-label="D5 options">
+        <label class="opt"><input type="radio" name="D5" value="A"><span class="opt-body"><span class="opt-title"><span class="opt-key">A</span>Shrink the card to about 42 × 42 mm</span><span class="opt-text">Site it over the capacitor field, clear of L1. The fit study’s stack was 23.95&nbsp;mm; with 16.5&nbsp;mm-tall 220&nbsp;µF cans it’s about 28&nbsp;mm, still under 33. The control card gets re-placed too.</span></span></label>
+        <label class="opt"><input type="radio" name="D5" value="B"><span class="opt-body"><span class="opt-title"><span class="opt-key">B</span>Keep 60 × 60 mm</span><span class="opt-text">Find at least 3.5&nbsp;mm of height: a lower-profile inductor, or a lower header than J9’s 8.5&nbsp;mm. Both are part changes.</span></span></label>
+        <p class="d-either"><b>Either way</b>Add mounting holes and standoffs, and confirm the 220&nbsp;µF can height: Panasonic lists EEH-ZU1H221P at 16.5&nbsp;mm, but the footprint name says 10.5&nbsp;mm.</p>
+        <div class="d-foot">
+          <div class="d-foot-row"><label for="note-D5">Notes</label><button type="button" class="linkbtn" data-clear="D5" hidden="">Clear choice</button></div>
+          <textarea id="note-D5" data-note="D5" rows="2" placeholder="Card size, standoff height, measured can height"></textarea>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ================= PLACEMENT ================= -->
+  <section class="section" id="place" aria-labelledby="place-h">
+    <div class="section-head">
+      <p class="eyebrow">Placement</p>
+      <h2 id="place-h">Place in this order</h2>
+      <p>Power loops first, each stage building on the last. Tick a rule when the placement meets it. Distances under “now” are measured on the current board.</p>
+      <div class="legend" aria-hidden="true">
+        <span><span class="ruler" style="--t:15"><i style="--v:8"></i><i class="over" style="--v:45"></i></span></span>
+        <span>Ruler runs 0–70&nbsp;mm; shaded band is the target</span>
+        <span><span class="lg-dot" style="background:var(--ok)"></span>part within target today</span>
+        <span><span class="lg-dot" style="background:var(--stop)"></span>outside target</span>
+      </div>
+    </div>
+
+    <div class="stage" data-stage="s1">
+      <header class="stage-head">
+        <span class="stage-no">1</span>
+        <div><h3>Input loop and M1</h3><p>The 20.7&nbsp;A loop from the input caps through R1, L1 and M1 and back. Place it first; everything else hangs off it.</p></div>
+        <span class="count" data-count="s1">0 / 5</span>
+      </header>
+      <ul class="rules">
+        <li class="rule">
+          <input type="checkbox" id="c-r1a" data-check="r1a">
+          <div class="rule-text">
+            <h4><label for="c-r1a">Input caps hug R1 and M1</label></h4>
+            <p>C40, C69 and C85 carry the loop’s AC current. Their Vin pads go to R1.2 and their GND pads to M1’s source through short outer-layer pours.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Vin pad → R1.2 <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:17.2"></i><i class="over" style="--v:21.2"></i><i class="over" style="--v:31.2"></i></span><span class="m-now">C85 17 · C40 21 · C69 31 mm</span></div>
+            <div class="m"><span class="m-label">GND pad → M1 source <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:27.8"></i><i class="over" style="--v:37.2"></i><i class="over" style="--v:38.8"></i></span><span class="m-now">C85 28 · C69 37 · C40 39 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r1b" data-check="r1b">
+          <div class="rule-text">
+            <h4><label for="c-r1b">R1 between the caps and L1, on one outer layer</label></h4>
+            <p>rsense_lo and Vin stay as pours, not via hops. Keep the J1/J2 lugs on the edge nearest this cluster.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">R1.1 → L1.2 <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:10.6"></i></span><span class="m-now">10.6 mm, already close</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r1c" data-check="r1c">
+          <div class="rule-text">
+            <h4><label for="c-r1c">D19 right across M1</label></h4>
+            <p>The TVS only clamps M1 if its own loop is short. Put it at M1’s drain and source pins.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">LX pad → M1 drain <em>≤ 5 mm</em></span><span class="ruler" style="--t:5" aria-hidden="true"><i class="over" style="--v:29.2"></i></span><span class="m-now">29 mm</span></div>
+            <div class="m"><span class="m-label">GND pad → M1 source <em>≤ 5 mm</em></span><span class="ruler" style="--t:5" aria-hidden="true"><i class="over" style="--v:26.5"></i></span><span class="m-now">27 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r1d" data-check="r1d">
+          <div class="rule-text">
+            <h4><label for="c-r1d">U19 beside M1’s gate</label></h4>
+            <p>A short gate and return path for the 20&nbsp;A switch.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">U19 → M1 gate <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:14.8"></i></span><span class="m-now">15 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r1e" data-check="r1e">
+          <div class="rule-text">
+            <h4><label for="c-r1e">U25 beside R1</label></h4>
+            <p>With D2’s sense connection, the INA241 reads R1’s element instead of the pours.</p>
+            <div class="tags"><span class="needs" data-needs="D2">Needs D2</span></div>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">U25 IN− → R1.1 <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:40.7"></i></span><span class="m-now">41 mm</span></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="stage" data-stage="s2">
+      <header class="stage-head">
+        <span class="stage-no">2</span>
+        <div><h3>LX node</h3><p>L1’s switch pad feeds M1 and the three channel FETs. Keep the node small and on outer copper.</p></div>
+        <span class="count" data-count="s2">0 / 2</span>
+      </header>
+      <ul class="rules">
+        <li class="rule">
+          <input type="checkbox" id="c-r2a" data-check="r2a">
+          <div class="rule-text">
+            <h4><label for="c-r2a">L1’s LX pad in the middle of the four LX drains</label></h4>
+            <p>M1, M7, M6 and M5 on one outer-layer pour. M5 leaves the LED-sink row, where it sits today.</p>
+            <div class="tags"><span class="needs" data-needs="D1">Needs D1</span></div>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">L1 LX pad → drain <em>≤ 15 mm</em></span><span class="ruler" style="--t:15" aria-hidden="true"><i style="--v:10.4"></i><i class="over" style="--v:19.1"></i><i class="over" style="--v:31.2"></i><i class="over" style="--v:59.3"></i></span><span class="m-now">M7 10 · M1 19 · M6 31 · M5 59 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r2b" data-check="r2b">
+          <div class="rule-text">
+            <h4><label for="c-r2b">No LX copper on In3 or In5</label></h4>
+            <p>Those layers face the In4 5V plane. The old LX pours there coupled 232&nbsp;pF into the logic supply.</p>
+          </div>
+          <div class="measures">
+            <p class="m-note">Removed in the 14 Sep layout (232 → 20 pF). Keep it that way.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="stage" data-stage="s3">
+      <header class="stage-head">
+        <span class="stage-no">3</span>
+        <div><h3>Channel switch pairs</h3><p>Each channel is a back-to-back FET pair sharing a source, driven by one UCC21520.</p></div>
+        <span class="count" data-count="s3">0 / 2</span>
+      </header>
+      <ul class="rules">
+        <li class="rule">
+          <input type="checkbox" id="c-r3a" data-check="r3a">
+          <div class="rule-text">
+            <h4><label for="c-r3a">Each LX FET directly beside its rail FET</label></h4>
+            <p>M7 beside M2, M6 beside M3, M5 beside M4, with the shared source joined by short, wide copper.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Source pin ↔ source pin <em>adjacent, 11.25 mm</em></span><span class="ruler" style="--t:11.25" aria-hidden="true"><i style="--v:11.2"></i><i class="over" style="--v:22"></i></span><span class="m-now">M7–M2 11 · M6–M3 11 · M5–M4 22 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r3b" data-check="r3b">
+          <div class="rule-text">
+            <h4><label for="c-r3b">Gate driver beside its pair</label></h4>
+            <p>U15 drives M2 and M7, U10 drives M3 and M6, U8 drives M4 and M5.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Driver → gate <em>≤ 15 mm</em></span><span class="ruler" style="--t:15" aria-hidden="true"><i style="--v:11.3"></i><i style="--v:13.3"></i><i class="over" style="--v:18"></i><i class="over" style="--v:19.5"></i><i class="over" style="--v:27"></i><i class="over" style="--v:28.4"></i></span><span class="m-now">U15 13 / 18 · U10 20 / 27 · U8 11 / 28 mm</span></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="stage" data-stage="s4">
+      <header class="stage-head">
+        <span class="stage-no">4</span>
+        <div><h3>Output banks and LED pads</h3><p>Lay each channel out as one strip: rail FET, its three caps, the LED pads, then the sink FET and its shunt.</p></div>
+        <span class="count" data-count="s4">0 / 3</span>
+      </header>
+      <ul class="rules">
+        <li class="rule">
+          <input type="checkbox" id="c-r4a" data-check="r4a">
+          <div class="rule-text">
+            <h4><label for="c-r4a">Each rail’s three caps at its own rail FET</label></h4>
+            <p>Vout_1: C70, C86, C88 at M2. Vout_2: C71, C78, C87 at M3. Vout_3: C74, C75, C77 at M4. All nine are the same 220&nbsp;µF part, and today each FET’s nearest caps belong to the other rails.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">M2 → Vout_1 caps <em>≤ 15 mm</em></span><span class="ruler" style="--t:15" aria-hidden="true"><i class="over" style="--v:34.1"></i><i class="over" style="--v:44.5"></i><i class="over" style="--v:54.8"></i></span><span class="m-now">C86 34 · C70 45 · C88 55 mm</span></div>
+            <div class="m"><span class="m-label">M3 → Vout_2 caps <em>≤ 15 mm</em></span><span class="ruler" style="--t:15" aria-hidden="true"><i class="over" style="--v:32.3"></i><i class="over" style="--v:34.4"></i><i class="over" style="--v:48.3"></i></span><span class="m-now">C87 32 · C78 34 · C71 48 mm</span></div>
+            <div class="m"><span class="m-label">M4 → Vout_3 caps <em>≤ 15 mm</em></span><span class="ruler" style="--t:15" aria-hidden="true"><i class="over" style="--v:29.9"></i><i class="over" style="--v:55.1"></i><i class="over" style="--v:67.3"></i></span><span class="m-now">C74 30 · C77 55 · C75 67 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r4b" data-check="r4b">
+          <div class="rule-text">
+            <h4><label for="c-r4b">Bank grounds return to M1 on outer copper</label></h4>
+            <p>Each bank’s GND pads reach M1’s source and the input caps through outer-layer pour plus the In1/In6 planes, never through a single via.</p>
+          </div>
+          <div class="measures">
+            <p class="m-note">Today the M1 return via at (78.7, 38.0) runs at 2.7× its rating.</p>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r4c" data-check="r4c">
+          <div class="rule-text">
+            <h4><label for="c-r4c">Each channel’s LED pads side by side at the edge</label></h4>
+            <p>J3 + J4 for channel 1, J8 + J7 for channel 2, J5 + J6 for channel 3.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Anode pad ↔ cathode pad <em>≤ 8 mm</em></span><span class="ruler" style="--t:8" aria-hidden="true"><i style="--v:6"></i><i style="--v:6.2"></i><i class="over" style="--v:41"></i></span><span class="m-now">ch1 6 · ch2 41 · ch3 6 mm</span></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="stage" data-stage="s5">
+      <header class="stage-head">
+        <span class="stage-no">5</span>
+        <div><h3>LED sinks</h3><p>2.63&nbsp;A per channel through a TO-220 and a 50&nbsp;mΩ shunt, regulated by an MCP6241. This stage clears the audit’s first stop-ship item.</p></div>
+        <span class="count" data-count="s5">0 / 4</span>
+      </header>
+      <ul class="rules">
+        <li class="rule">
+          <input type="checkbox" id="c-r5a" data-check="r5a">
+          <div class="rule-text">
+            <h4><label for="c-r5a">Shunt at the sink FET’s source pin</label></h4>
+            <p>R52 at M10 (channel 1), R53 at M9 (channel 2), R7 at M8 (channel 3). Today the 2.63&nbsp;A runs through 50–101&nbsp;mm of 0.15&nbsp;mm track to reach them.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Source pin → shunt <em>≤ 5 mm</em></span><span class="ruler" style="--t:5" aria-hidden="true"><i class="over" style="--v:33.2"></i><i class="over" style="--v:39"></i><i class="over" style="--v:47.6"></i></span><span class="m-now">M10 48 · M9 33 · M8 39 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r5b" data-check="r5b">
+          <div class="rule-text">
+            <h4><label for="c-r5b">LED cathode pad at the sink FET’s drain</label></h4>
+            <p>J4 at M10, J7 at M9, J6 at M8.</p>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Drain → LED pad <em>≤ 15 mm</em></span><span class="ruler" style="--t:15" aria-hidden="true"><i class="over" style="--v:48.8"></i><i class="over" style="--v:50.8"></i><i class="over" style="--v:61.3"></i></span><span class="m-now">M10 49 · M9 61 · M8 51 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r5c" data-check="r5c">
+          <div class="rule-text">
+            <h4><label for="c-r5c">Sink op-amp between its shunt and its FET</label></h4>
+            <p>U11 for R52 and M10, U12 for R53 and M9, U6 for R7 and M8, sensing at the shunt pad through D2’s sense net.</p>
+            <div class="tags"><span class="needs" data-needs="D2">Needs D2</span></div>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">IN− → shunt <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:13"></i><i class="over" style="--v:24.2"></i><i class="over" style="--v:24.9"></i></span><span class="m-now">U11 25 · U12 24 · U6 13 mm</span></div>
+            <div class="m"><span class="m-label">OUT → FET gate <em>≤ 10 mm</em></span><span class="ruler" style="--t:10" aria-hidden="true"><i class="over" style="--v:26.8"></i><i class="over" style="--v:28.8"></i><i class="over" style="--v:42"></i></span><span class="m-now">U11 27 · U12 29 · U6 42 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r5d" data-check="r5d">
+          <div class="rule-text">
+            <h4><label for="c-r5d">Shunt GND pads straight into the planes</label></h4>
+            <p>At least two vias per shunt return, sized to share the 2.63&nbsp;A.</p>
+          </div>
+          <div class="measures">
+            <p class="m-note">Today R53’s return rides on two Ø0.25&nbsp;mm vias (worst 2.0×) and R7’s worst via runs at 2.3×.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="stage" data-stage="s6">
+      <header class="stage-head">
+        <span class="stage-no">6</span>
+        <div><h3>Keep-outs and mechanical</h3><p>Draw these before any copper, so the router can’t use the space.</p></div>
+        <span class="count" data-count="s6">0 / 4</span>
+      </header>
+      <ul class="rules">
+        <li class="rule">
+          <input type="checkbox" id="c-r6a" data-check="r6a">
+          <div class="rule-text">
+            <h4><label for="c-r6a">Washer keep-out at every tab hole</label></h4>
+            <p>No copper or parts within 3.75&nbsp;mm of each TO-220 hole centre (a 7&nbsp;mm M3 washer plus 0.25&nbsp;mm), on every layer, drawn as rule areas. Today copper reaches 0.2&nbsp;mm from the hole edge and 17 parts sit inside.</p>
+            <div class="tags"><span class="needs" data-needs="D1">Needs D1</span></div>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">Nearest parts to a hole centre <em>≥ 3.75 mm</em></span><span class="m-now">R14 2.46 · D12 2.59 · R104 2.76 mm</span></div>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r6b" data-check="r6b">
+          <div class="rule-text">
+            <h4><label for="c-r6b">Nothing on the underside taller than the TO-220 gap</label></h4>
+            <p>U16 (LM2940, TO-263) stands 4.83&nbsp;mm against a 4.6&nbsp;mm body gap. Move it to F.Cu.</p>
+            <div class="tags"><span class="needs" data-needs="D1">Needs D1</span></div>
+          </div>
+          <div class="measures">
+            <p class="m-note">U16 is on B.Cu at (71.3, 55.6).</p>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r6c" data-check="r6c">
+          <div class="rule-text">
+            <h4><label for="c-r6c">Control-card outline and standoffs on the power board</label></h4>
+            <p>Place the card’s outline, mounting holes and connector as keep-outs, so tall parts stay clear of it.</p>
+            <div class="tags"><span class="needs" data-needs="D4">Needs D4</span><span class="needs" data-needs="D5">Needs D5</span></div>
+          </div>
+          <div class="measures">
+            <p class="m-note">The control board has no mounting holes today.</p>
+          </div>
+        </li>
+        <li class="rule">
+          <input type="checkbox" id="c-r6d" data-check="r6d">
+          <div class="rule-text">
+            <h4><label for="c-r6d">J10 outside the switching loop</label></h4>
+            <p>J10’s GND pins are the control board’s ground reference. Inside M1’s return current they shift the LED setpoints by up to 8.5&nbsp;mV.</p>
+            <div class="tags"><span class="needs" data-needs="D4">Needs D4</span></div>
+          </div>
+          <div class="measures">
+            <div class="m"><span class="m-label">J10 GND pins → M1 source <em>out of the loop</em></span><span class="m-now">7–19 mm</span></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= ROUTE AND CHECK ================= -->
+  <section class="section" id="check" aria-labelledby="check-h">
+    <div class="section-head">
+      <p class="eyebrow">After placement</p>
+      <h2 id="check-h">Route and check, in order</h2>
+      <p>Don’t start a step until the one before it passes.</p>
+    </div>
+    <ol class="gates">
+      <li class="gate">
+        <input type="checkbox" id="c-g1" data-check="g1">
+        <div class="rule-text">
+          <h4><label for="c-g1">Review the placement before any copper</label></h4>
+          <p>Plot both sides and re-measure every distance above against its target.</p>
+        </div>
+      </li>
+      <li class="gate">
+        <input type="checkbox" id="c-g2" data-check="g2">
+        <div class="rule-text">
+          <h4><label for="c-g2">Set netclasses and rules</label></h4>
+          <p>Move <span class="mono">Net-(M8-S)</span>, <span class="mono">Net-(M9-S)</span> and <span class="mono">Net-(M10-S)</span> into the Power class. Add a custom rule for minimum via hole and track width on Power nets, so the router can’t fall back to 0.25&nbsp;mm vias. Widths come from D3.</p>
+          <div class="tags"><span class="needs" data-needs="D3">Needs D3</span></div>
+        </div>
+      </li>
+      <li class="gate">
+        <input type="checkbox" id="c-g3" data-check="g3">
+        <div class="rule-text">
+          <h4><label for="c-g3">Draw and solve the power copper</label></h4>
+          <p>Draw pours and wide tracks path by path, then solve each branch: neck rise ≤ 20&nbsp;°C (IPC-2221) and every via within its rating (Ø0.40 ≤ 0.97&nbsp;A, Ø0.25 ≤ 0.71&nbsp;A).</p>
+        </div>
+      </li>
+      <li class="gate">
+        <input type="checkbox" id="c-g4" data-check="g4">
+        <div class="rule-text">
+          <h4><label for="c-g4">Lock the power copper, then route signals</label></h4>
+          <p>Autoroute signals only once the power copper is fixed, so no signal track can split a pour.</p>
+        </div>
+      </li>
+      <li class="gate">
+        <input type="checkbox" id="c-g5" data-check="g5">
+        <div class="rule-text">
+          <h4><label for="c-g5">Final checks on the saved file</label></h4>
+          <p>DRC with 0 errors and 0 unconnected under the 1.0 / 0.15&nbsp;mm silk rule; no untied copper islands; In1 and In6 carry only GND; no LX on In3 or In5; solver table re-run.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="notes" style="border-top:1px solid var(--rule)">
+      <h3>About the numbers</h3>
+      <ul>
+        <li>“Now” is the straight-line pad-to-pad distance on the current <span class="mono">BOOST_power.kicad_pcb</span>. The copper path is always longer.</li>
+        <li>Targets are layout goals for this re-place, not audit thresholds.</li>
+        <li>Track widths use IPC-2221 for a long conductor at a 20&nbsp;°C rise, so short necks are conservative.</li>
+        <li>The D1 edge rates use the audit’s typical TO-220 lead inductance (4.5 + 7.5&nbsp;nH per package) and a 35.5&nbsp;V base. HYG180N10’s datasheet doesn’t state lead inductance.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+<div class="savebar" data-savebar="" hidden="">
+  <p class="savebar-msg" data-savebar-msg="" role="status" aria-live="polite"></p>
+  <div class="savebar-actions">
+    <button type="button" class="btn" data-discard="">Discard</button>
+    <button type="button" class="btn primary" data-save="">Save to page</button>
+  </div>
+</div>
+</div>
+<script type="application/json" id="brief-state">{"decisions":{"D1":{"choice":"C","note":"Can you explain why the fet package or slower edges would improve anything?\n\nIn the simulation, the tvs diode was not even clamping at all. There was no current going through it. The only time the lx node could get a high current was during the switch between m1 being on and an output being on(once the inductor is charged up). The way I have the circuit is that it selects an output, charges up the inductor to the amount of current it needs to for that output, and during this time, it also turns on one of the output mosfets that has the body diode reversed. So even if there is a large delay and high current, all of that will just go through the other mosfet's body diode, and won't allow node lx get to a very high voltage."},"D2":{"choice":"B","note":"is it supposed to be 40.5A, since in my simulation, reset tripped around 47A. "},"D3":{"choice":"C","note":"can you give an estimate for the cost of each of these?"},"D4":{"choice":"B","note":"I would also be ok with a ribbon cable, but I would want standoffs. "},"D5":{"choice":"A","note":"I see a lot of empty space on the control card, so I think it should be possible to shrink it while still adding mounting holes."}},"checks":{"r1a":false,"r1b":false,"r1c":false,"r1d":false,"r1e":false,"r2a":false,"r2b":false,"r3a":false,"r3b":false,"r4a":false,"r4b":false,"r4c":false,"r5a":false,"r5b":false,"r5c":false,"r5d":false,"r6a":false,"r6b":false,"r6c":false,"r6d":false,"g1":false,"g2":false,"g3":false,"g4":false,"g5":false},"updated":"2026-09-14T11:53:49.313Z"}</script>
+<script id="brief-app">
+(function () {
+  "use strict";
+  var TITLE = "BOOST Re-place Brief";
+  var FONT_HREF = "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap";
+  var DRAFT_KEY = "boost-replace-brief:draft";
+  var READ_ONLY_CODES = ["not_writer", "not_granted", "consent_required", "capability_disabled", "capability_removed", "not_declared"];
+
+  var root = document.getElementById("brief");
+  // The served markup, before this script touches it: the canonical page source for republishing.
+  var PRISTINE = root.outerHTML;
+
+  var bar = root.querySelector("[data-savebar]");
+  var barMsg = root.querySelector("[data-savebar-msg]");
+  var saveBtn = root.querySelector("[data-save]");
+  var discardBtn = root.querySelector("[data-discard]");
+
+  var served = normalize(parseServed());
+  var working = clone(served);
+  var artifactApi = null;
+  var apiResolved = false;
+  var apiPromise = null;
+  var readOnly = false;
+  var saving = false;
+  var notice = "";
+  var noticeTimer = 0;
+  var draftTimer = 0;
+
+  function parseServed() {
+    try { return JSON.parse(document.getElementById("brief-state").textContent); } catch (e) { return {}; }
+  }
+  function clone(o) { return JSON.parse(JSON.stringify(o)); }
+
+  function normalize(s) {
+    s = s || {};
+    var out = { decisions: {}, checks: {}, updated: typeof s.updated === "string" ? s.updated : null };
+    root.querySelectorAll("[data-decision]").forEach(function (sec) {
+      var id = sec.getAttribute("data-decision");
+      var d = (s.decisions && s.decisions[id]) || {};
+      out.decisions[id] = {
+        choice: typeof d.choice === "string" ? d.choice : null,
+        note: typeof d.note === "string" ? d.note : ""
+      };
+    });
+    root.querySelectorAll("input[data-check]").forEach(function (cb) {
+      var id = cb.getAttribute("data-check");
+      out.checks[id] = !!(s.checks && s.checks[id]);
+    });
+    return out;
+  }
+  function content(st) { return JSON.stringify({ decisions: st.decisions, checks: st.checks }); }
+
+  function changeCount() {
+    var n = 0, id;
+    for (id in working.decisions) {
+      if (working.decisions[id].choice !== served.decisions[id].choice) n++;
+      if (working.decisions[id].note !== served.decisions[id].note) n++;
+    }
+    for (id in working.checks) if (working.checks[id] !== served.checks[id]) n++;
+    return n;
+  }
+
+  /* ---------- DOM ---------- */
+  function applyToDom(st) {
+    root.querySelectorAll("[data-decision]").forEach(function (sec) {
+      var d = st.decisions[sec.getAttribute("data-decision")];
+      sec.querySelectorAll('input[type="radio"]').forEach(function (r) { r.checked = r.value === d.choice; });
+      var ta = sec.querySelector("textarea[data-note]");
+      if (ta && ta.value !== d.note) ta.value = d.note;
+    });
+    root.querySelectorAll("input[data-check]").forEach(function (cb) {
+      cb.checked = !!st.checks[cb.getAttribute("data-check")];
+    });
+    renderDerived();
+  }
+
+  function renderDerived() {
+    var decided = 0;
+    root.querySelectorAll("[data-decision]").forEach(function (sec) {
+      var id = sec.getAttribute("data-decision");
+      var d = working.decisions[id];
+      var pill = sec.querySelector("[data-status]");
+      if (d.choice) {
+        decided++;
+        pill.textContent = "Decided: " + d.choice;
+        pill.setAttribute("data-state", "decided");
+      } else {
+        pill.textContent = "Open";
+        pill.setAttribute("data-state", "open");
+      }
+      sec.querySelectorAll(".opt").forEach(function (o) {
+        o.classList.toggle("is-selected", o.querySelector("input").checked);
+      });
+      var clear = sec.querySelector("[data-clear]");
+      if (clear) clear.hidden = !d.choice;
+    });
+
+    root.querySelectorAll("[data-needs]").forEach(function (chip) {
+      var id = chip.getAttribute("data-needs");
+      var ok = !!(working.decisions[id] && working.decisions[id].choice);
+      chip.setAttribute("data-state", ok ? "decided" : "open");
+      chip.textContent = ok ? id + " decided" : "Needs " + id;
+    });
+
+    var rulesDone = 0, rulesTotal = 0;
+    root.querySelectorAll("[data-stage]").forEach(function (stage) {
+      var boxes = stage.querySelectorAll("input[data-check]");
+      var done = 0;
+      boxes.forEach(function (cb) {
+        var on = !!working.checks[cb.getAttribute("data-check")];
+        cb.closest(".rule").classList.toggle("is-done", on);
+        if (on) done++;
+      });
+      rulesDone += done; rulesTotal += boxes.length;
+      var c = stage.querySelector("[data-count]");
+      c.textContent = done + " / " + boxes.length;
+      c.setAttribute("data-state", done === boxes.length ? "done" : "open");
+    });
+
+    var gatesDone = 0;
+    root.querySelectorAll(".gate input[data-check]").forEach(function (cb) {
+      var on = !!working.checks[cb.getAttribute("data-check")];
+      cb.closest(".gate").classList.toggle("is-done", on);
+      if (on) gatesDone++;
+    });
+
+    setText('[data-progress="decisions"]', decided);
+    setText('[data-progress="rules"]', rulesDone);
+    setText('[data-progress="gates"]', gatesDone);
+
+    var savedEl = root.querySelector("[data-saved]");
+    if (served.updated) {
+      var dt = new Date(served.updated);
+      savedEl.textContent = isNaN(dt) ? served.updated : dt.toLocaleString(undefined, { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" });
+    } else {
+      savedEl.textContent = "Not saved yet";
+    }
+  }
+  function setText(sel, v) { var el = root.querySelector(sel); if (el) el.textContent = String(v); }
+
+  function setNotice(text, autoHideMs) {
+    notice = text;
+    clearTimeout(noticeTimer);
+    if (autoHideMs) noticeTimer = setTimeout(function () { notice = ""; updateBar(); }, autoHideMs);
+    updateBar();
+  }
+
+  function updateBar() {
+    var n = changeCount();
+    var cantSave = readOnly || (apiResolved && !artifactApi);
+    bar.hidden = !(n > 0 || notice);
+    var countText = n === 1 ? "1 unsaved change" : n + " unsaved changes";
+    var msg = notice;
+    if (!msg && n > 0) {
+      msg = countText;
+      if (readOnly) msg += ". This view is read-only, so they can't be saved.";
+      else if (apiResolved && !artifactApi) msg += ". Saving isn't available in this view.";
+    }
+    barMsg.textContent = msg;
+    saveBtn.hidden = n === 0 || cantSave;
+    saveBtn.disabled = saving;
+    saveBtn.textContent = saving ? "Saving…" : "Save to page";
+    discardBtn.hidden = n === 0 || saving;
+  }
+
+  /* ---------- drafts (survive a reload in this tab) ---------- */
+  function readDraft() {
+    try { var raw = sessionStorage.getItem(DRAFT_KEY); return raw ? JSON.parse(raw) : null; } catch (e) { return null; }
+  }
+  function writeDraft(isSaving) {
+    try {
+      if (changeCount() === 0 && !isSaving) { sessionStorage.removeItem(DRAFT_KEY); return; }
+      sessionStorage.setItem(DRAFT_KEY, JSON.stringify({ base: served, next: working, saving: !!isSaving }));
+    } catch (e) { /* storage unavailable: edits stay in memory only */ }
+  }
+  function clearDraft() { try { sessionStorage.removeItem(DRAFT_KEY); } catch (e) {} }
+
+  function restoreDraft() {
+    var dr = readDraft();
+    if (!dr) return;
+    var base = normalize(dr.base), next = normalize(dr.next);
+    if (content(next) === content(served)) {
+      clearDraft();
+      if (dr.saving) setNotice("Saved. Everyone who opens this page now sees these choices.", 5000);
+      return;
+    }
+    // Re-apply only the fields this viewer changed, on top of whatever version is now served.
+    var applied = 0, id, k;
+    for (id in next.decisions) {
+      for (k of ["choice", "note"]) {
+        if (next.decisions[id][k] !== base.decisions[id][k] && working.decisions[id][k] !== next.decisions[id][k]) {
+          working.decisions[id][k] = next.decisions[id][k]; applied++;
+        }
+      }
+    }
+    for (id in next.checks) {
+      if (next.checks[id] !== base.checks[id] && working.checks[id] !== next.checks[id]) {
+        working.checks[id] = next.checks[id]; applied++;
+      }
+    }
+    if (!applied) { clearDraft(); return; }
+    writeDraft(false);
+    setNotice(dr.saving
+      ? "A newer version was saved before yours. Your edits are re-applied on top of it; review them, then save again."
+      : "Your unsaved edits from this tab are restored.");
+  }
+
+  /* ---------- editing ---------- */
+  function afterEdit(debounceDraft) {
+    if (notice && !readOnly) { notice = ""; clearTimeout(noticeTimer); }
+    clearTimeout(draftTimer);
+    if (debounceDraft) draftTimer = setTimeout(function () { writeDraft(false); }, 400);
+    else writeDraft(false);
+    renderDerived();
+    updateBar();
+  }
+
+  root.addEventListener("change", function (e) {
+    var t = e.target;
+    if (t.matches('input[type="radio"]')) {
+      working.decisions[t.closest("[data-decision]").getAttribute("data-decision")].choice = t.value;
+    } else if (t.matches("input[data-check]")) {
+      working.checks[t.getAttribute("data-check")] = t.checked;
+    } else {
+      return;
+    }
+    afterEdit(false);
+  });
+
+  root.addEventListener("input", function (e) {
+    var t = e.target;
+    if (!t.matches("textarea[data-note]")) return;
+    working.decisions[t.getAttribute("data-note")].note = t.value;
+    afterEdit(true);
+  });
+
+  root.addEventListener("click", function (e) {
+    var clear = e.target.closest("[data-clear]");
+    if (clear) {
+      var id = clear.getAttribute("data-clear");
+      working.decisions[id].choice = null;
+      root.querySelectorAll('[data-decision="' + id + '"] input[type="radio"]').forEach(function (r) { r.checked = false; });
+      afterEdit(false);
+      return;
+    }
+    if (e.target.closest("[data-discard]")) {
+      working = clone(served);
+      clearDraft();
+      notice = "";
+      applyToDom(working);
+      updateBar();
+      return;
+    }
+    if (e.target.closest("[data-save]")) save();
+  });
+
+  /* ---------- saving ---------- */
+  function escapeJson(obj) { return JSON.stringify(obj).replace(/</g, "\\u003c"); }
+
+  function buildDocument(next) {
+    var css = document.getElementById("brief-css").textContent;
+    var app = document.getElementById("brief-app").textContent;
+    return "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n" +
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" +
+      "<title>" + TITLE + "</title>\n" +
+      "<link rel=\"stylesheet\" href=\"" + FONT_HREF.replace(/&/g, "&amp;") + "\">\n" +
+      "<style id=\"brief-css\">" + css + "</style>\n</head>\n<body>\n" +
+      PRISTINE + "\n" +
+      "<script type=\"application/json\" id=\"brief-state\">" + escapeJson(next) + "<\/script>\n" +
+      "<script id=\"brief-app\">" + app + "<\/script>\n</body>\n</html>\n";
+  }
+
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  async function save() {
+    if (saving || readOnly || changeCount() === 0) return;
+    if (!apiResolved && apiPromise) await apiPromise;
+    if (!artifactApi) { updateBar(); return; }
+    clearTimeout(draftTimer);
+    saving = true;
+    notice = "";
+    updateBar();
+    var next = clone(working);
+    next.updated = new Date().toISOString();
+    writeDraft(true);
+    var html = buildDocument(next);
+    try {
+      try {
+        await artifactApi.publish(html);
+      } catch (err) {
+        if (err && err.code === "upstream_error") {
+          await wait(700 + Math.random() * 900);
+          await artifactApi.publish(html);
+        } else {
+          throw err;
+        }
+      }
+      setNotice("Saved. Reloading the page…");
+    } catch (err) {
+      handleSaveError(err && err.code);
+    }
+  }
+
+  function handleSaveError(code) {
+    if (code === "conflict") {
+      // The view is already reloading to the newer version; the draft re-applies these edits.
+      setNotice("Someone saved a newer version first. Reloading; your edits will be re-applied.");
+      return;
+    }
+    saving = false;
+    writeDraft(false);
+    if (READ_ONLY_CODES.indexOf(code) !== -1) {
+      readOnly = true;
+      setNotice("This view is read-only, so changes can't be saved here. Your ticks stay in this tab only.");
+    } else if (code === "rate_limited") {
+      setNotice("Saved too often in a short time. Wait a minute, then save again.");
+    } else if (code === "too_large" || code === "invalid_content" || code === "transform_error" || code === "read_only_path") {
+      setNotice("This version was rejected, so nothing was saved. Your changes are still here.");
+    } else {
+      setNotice("The save didn't go through. Your changes are still here; try Save again.");
+    }
+  }
+
+  /* ---------- start ---------- */
+  restoreDraft();
+  applyToDom(working);
+  updateBar();
+
+  if (window.claude && typeof window.claude.use === "function") {
+    apiPromise = window.claude.use("artifact").then(function (ns) {
+      artifactApi = ns; apiResolved = true; updateBar();
+    }, function () {
+      artifactApi = null; apiResolved = true; updateBar();
+    });
+  } else {
+    apiResolved = true;
+    updateBar();
+  }
+})();
+</script>
+</body>
+</html>

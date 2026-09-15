@@ -1,0 +1,43 @@
+* ---------------------------------------------------------------------------
+* LEDCOT - constant off-time, peak-current LED channel controller
+*
+* Real-part mapping (this is what you build on the PCB):
+*   current comparator .......... MCP6561R or TLV3201   (SNSF -> IN-, VREF -> IN+)
+*   SR latch .................... 2 gates of a 74HC132  (cross-coupled NAND)
+*   off-time one-shot ........... 3rd 74HC132 gate used as a Schmitt inverter,
+*                                 driven by the external Rtim / Ctim
+*   timing-cap discharge ........ small NFET (2N7002) gated by GATE
+*   gate driver ................. UCC27517A (or MMBT3904/3906 totem pole)
+*   PWM blanking ................ BAT54 from latch reset to the buffered PWM
+*
+* Operation: latch is SET when the Ctim ramp crosses the Schmitt threshold
+* (~2.9 V), which also turns on the discharge FET. It is RESET when the
+* filtered sense voltage exceeds VREF, or whenever PWM is low. Off-time is
+* therefore fixed at t_off = Rtim*Ctim*ln(V5/(V5-Vth)) and the inductor
+* ripple is (Vf+Vd)*t_off/L - independent of the 44 V rail. That is what
+* keeps LED current flat across the LED's whole Vf tolerance band.
+* ---------------------------------------------------------------------------
+.subckt LEDCOT SNSF VREF PWM TIM GATE V5 GND
+
+Bhold  hold GND V = {5-V(PWM,GND)}
+
+Rq     q    GND 10k
+Sq     V5   q   q    GND  COT_LATCH
+Sset   V5   q   TIM  GND  COT_SET
+Srst   q    GND SNSF VREF COT_RST
+Shld   q    GND hold GND  COT_HLD
+Sdis   TIM  GND q    GND  COT_DIS
+
+* push-pull gate driver
+Sdh    V5   GATE q   GND  COT_DRVH
+Sdl    GATE GND  GND q    COT_DRVL
+Rgl    GATE GND  1meg
+
+.model COT_LATCH SW(Ron=100 Roff=1e9 Vt=2.5  Vh=0.5)
+.model COT_SET   SW(Ron=20  Roff=1e9 Vt=2.9  Vh=0.03)
+.model COT_RST   SW(Ron=1   Roff=1e9 Vt=0    Vh=0.003)
+.model COT_HLD   SW(Ron=1   Roff=1e9 Vt=2.5  Vh=0.2)
+.model COT_DIS   SW(Ron=20  Roff=1e9 Vt=2.5  Vh=0.5)
+.model COT_DRVH  SW(Ron=2   Roff=1e9 Vt=2.5  Vh=0.3)
+.model COT_DRVL  SW(Ron=2   Roff=1e9 Vt=-2.5 Vh=0.3)
+.ends LEDCOT

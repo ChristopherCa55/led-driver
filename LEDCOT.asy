@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 0 0 160 160
+WINDOW 0 80 -8 Bottom 2
+WINDOW 3 80 168 Top 2
+SYMATTR Value LEDCOT
+SYMATTR Prefix X
+SYMATTR Description Constant off-time peak-current LED controller (comparator + NAND latch + gate driver)
+PIN 0 32 LEFT 8
+PINATTR PinName SNSF
+PINATTR SpiceOrder 1
+PIN 0 64 LEFT 8
+PINATTR PinName VREF
+PINATTR SpiceOrder 2
+PIN 0 96 LEFT 8
+PINATTR PinName PWM
+PINATTR SpiceOrder 3
+PIN 0 128 LEFT 8
+PINATTR PinName TIM
+PINATTR SpiceOrder 4
+PIN 160 32 RIGHT 8
+PINATTR PinName GATE
+PINATTR SpiceOrder 5
+PIN 64 0 TOP 8
+PINATTR PinName V5
+PINATTR SpiceOrder 6
+PIN 64 160 BOTTOM 8
+PINATTR PinName GND
+PINATTR SpiceOrder 7

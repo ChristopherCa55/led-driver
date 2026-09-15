@@ -1,0 +1,20 @@
+ERC: {} total 0
+   ok   ISNS_P = ['R1.2', 'U25.8']
+   ok   ISNS_N = ['R1.3', 'U25.1']
+   ok   R1.1 and J1.1 on Vin, U25.8 off Vin
+   ok   R1.4 and L1.2 on rsense_lo, U25.1 off it (rsense_lo = ['L1.2', 'R1.4'])
+   ok   SNS_CH1 = ['NT1.1', 'U11.4']
+   ok   M10.3, R52.1, NT1.2 on Net-(M10-S); U11.4 not
+   ok   SNS_CH2 = ['NT2.1', 'U12.4']
+   ok   M9.3, R53.1, NT2.2 on Net-(M9-S); U12.4 not
+   ok   SNS_CH3 = ['NT3.1', 'U6.4']
+   ok   M8.3, R7.1, NT3.2 on Net-(M8-S); U6.4 not
+   ok   M1_INHIBIT = ['D1.1', 'D15.1', 'D24.1', 'D27.1', 'R26.1', 'U104.1']
+   ok   ARD_M1_INHIBIT = ['D27.2', 'J9.11', 'R105.1']; R105.2 on GND
+   ok   D12 gone; R15.2 and M1.1 on GATE_M1; R15.1 on Net-(U19-OUTA)
+   ok   R15 = 10; R13/R23/R47 = ['220', '220', '220']
+   ok   J10/J11 pin n on its pinout net (mismatches [])
+   ok   every netlist ref has a board (missing [])
+   ok   both resistors of every divider on CONTROL
+   ok   board-crossing nets == header nets (extra [], missing [])
+RESULT: 0 failures

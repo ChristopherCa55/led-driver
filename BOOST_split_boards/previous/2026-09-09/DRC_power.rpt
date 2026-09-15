@@ -1,0 +1,32 @@
+** Drc report for BOOST_power.kicad_pcb **
+** Created on 2026-09-09T23:52:37 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 2 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(76.0000 mm, 86.7000 mm): Track [rsense_lo] on F.Cu, length 0.1000 mm
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CSCF3218-6R8MC'
+    Local override; warning
+    @(48.5000 mm, 46.8750 mm): Footprint L1
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(30.6000 mm, 30.6000 mm): Zone [GND] on F.Cu, priority 3
+    @(30.6000 mm, 30.6000 mm): Zone [GND] on B.Cu, priority 2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(30.6000 mm, 30.6000 mm): Zone [GND] on F.Cu, priority 3
+    @(30.6000 mm, 30.6000 mm): Zone [GND] on B.Cu, priority 2
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Dominick Junior\AppData\Local\Temp\claude\C--Users-Dominick-Junior-Downloads-UCSD-Stuff-2025-2026-robotx-boat-code-stuff-rx26-asv\f9992ea6-ae1d-40d1-8331-d525af1a19f1\scratchpad\place\psa4.py", line 21, in <module>
+    random.seed(int(sys.argv[3]))
+                ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '80R'

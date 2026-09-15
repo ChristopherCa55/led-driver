@@ -1,0 +1,114 @@
+deleted 31 wires
+deleted D12 (ltspice:diode)
+deleted R1 (ltspice:res)
+labels on deleted wiring (removed): [('rsense_lo', (207.01, 129.54))]
+R15 Value: 5.1 -> 10
+R13 Value: 100 -> 150
+R23 Value: 100 -> 150
+R47 Value: 100 -> 150
+M1 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M2 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M3 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M4 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M5 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M6 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M7 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M8 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M9 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+M10 Footprint: Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown -> Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp
+C70 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C70 + MPN = EEH-ZU1H221P
+C86 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C86 + MPN = EEH-ZU1H221P
+C88 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C88 + MPN = EEH-ZU1H221P
+C71 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C71 + MPN = EEH-ZU1H221P
+C78 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C78 + MPN = EEH-ZU1H221P
+C87 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C87 + MPN = EEH-ZU1H221P
+C74 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C74 + MPN = EEH-ZU1H221P
+C75 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C75 + MPN = EEH-ZU1H221P
+C77 Footprint: Capacitor_SMD:CP_Elec_10x10.5 -> BOOST:CP_Elec_10x16.5
+C77 + MPN = EEH-ZU1H221P
+C40 + MPN = EEH-ZU1E681UP
+C40 + LCSC = C29664285
+C69 + MPN = EEH-ZU1E681UP
+C69 + LCSC = C29664285
+C85 + MPN = EEH-ZU1E681UP
+C85 + LCSC = C29664285
+J9 -> Conn_01x11, PinHeader_1x11_P2.54mm_Horizontal, pin 11 added
+UCC21520DW pin 14 VSSA type power_in -> passive
+lib symbols added: 5
+R1 -> Device:R_Shunt at (201.93, 134.62) rot 90; force pins on Vin/rsense_lo junctions
+label rsense_lo at (207.01, 134.62)
+label ISNS_P at (199.39, 132.08)
+label ISNS_N at (204.47, 132.08)
+label ISNS_P at (237.49, 97.79)
+label ISNS_N at (237.49, 102.87)
+label SNS_CH1 at (280.67, 143.51)
+label SNS_CH1 at (269.24, 139.7)
+NT1 pin 2 on shunt junction (285.75, 143.51), pin 1 = SNS_CH1; U11.4 -> SNS_CH1
+label SNS_CH2 at (284.48, 179.07)
+label SNS_CH2 at (273.05, 175.26)
+NT2 pin 2 on shunt junction (289.56, 179.07), pin 1 = SNS_CH2; U12.4 -> SNS_CH2
+label SNS_CH3 at (280.67, 213.36)
+label SNS_CH3 at (267.97, 209.55)
+NT3 pin 2 on shunt junction (285.75, 213.36), pin 1 = SNS_CH3; U6.4 -> SNS_CH3
+label M1_INHIBIT at (463.55, 123.19)
+label ARD_M1_INHIBIT at (298.45, 356.87)
+label ARD_M1_INHIBIT at (331.47, 364.49)
+label M1_INHIBIT at (331.47, 369.57)
+label ARD_M1_INHIBIT at (346.71, 364.49)
+D27 anode ARD_M1_INHIBIT cathode M1_INHIBIT; R105 100k ARD_M1_INHIBIT-GND
+label M1_ON at (198.12, 360.68)
+label M2_ON at (210.82, 360.68)
+label ena_out_1 at (198.12, 363.22)
+label out_2_on at (210.82, 363.22)
+label ena_out_2 at (198.12, 365.76)
+label out_3_on at (210.82, 365.76)
+label ena_out_3 at (198.12, 368.3)
+label 5V at (210.82, 368.3)
+label Vout_1 at (198.12, 373.38)
+label Output1_drain at (210.82, 373.38)
+label Vout_2 at (198.12, 375.92)
+label Output2_drain at (210.82, 375.92)
+label Vout_3 at (198.12, 378.46)
+label Output3_drain at (210.82, 378.46)
+label 12V at (198.12, 381.0)
+label analog_5V at (210.82, 383.54)
+label Current at (198.12, 386.08)
+label IREF1_input at (210.82, 388.62)
+label IREF2_input at (198.12, 391.16)
+label IREF3_input at (210.82, 393.7)
+J10 placed with the 30-pin pinout
+label M1_ON at (248.92, 360.68)
+label M2_ON at (261.62, 360.68)
+label ena_out_1 at (248.92, 363.22)
+label out_2_on at (261.62, 363.22)
+label ena_out_2 at (248.92, 365.76)
+label out_3_on at (261.62, 365.76)
+label ena_out_3 at (248.92, 368.3)
+label 5V at (261.62, 368.3)
+label Vout_1 at (248.92, 373.38)
+label Output1_drain at (261.62, 373.38)
+label Vout_2 at (248.92, 375.92)
+label Output2_drain at (261.62, 375.92)
+label Vout_3 at (248.92, 378.46)
+label Output3_drain at (261.62, 378.46)
+label 12V at (248.92, 381.0)
+label analog_5V at (261.62, 383.54)
+label Current at (248.92, 386.08)
+label IREF1_input at (261.62, 388.62)
+label IREF2_input at (248.92, 391.16)
+label IREF3_input at (261.62, 393.7)
+J11 placed with the 30-pin pinout
+H1-H8 mounting holes added
+assignment: 287 refs ({'POWER': 121, 'CONTROL': 166})
+wrote C:/Users/DOMINI~1/AppData/Local/Temp/claude/C--Users-Dominick-Junior-Downloads-UCSD-Stuff-2025-2026-robotx-boat-code-stuff-rx26-asv/f9992ea6-ae1d-40d1-8331-d525af1a19f1/scratchpad/sch/proj1/BOOST.kicad_sch (1127868 -> 1227225 bytes)
+
+2026-09-14 19:10 R13/R23/R47 150 -> 220 ohm (user decision after dead-time sims; the value was already 220 in the saved file when checked). ERC 0 violations, netcheck 0 failures. Schematic SHA-256 fe2b8b3baa0e149f
+2026-09-15 J10 -> PinSocket_2x15 (Samtec ESQ-115-44-G-D, power board top), J11 -> PinHeader_2x15 (Samtec TSW-115-07-G-D, card underside); card gap 21.21 mm (user decision). ERC 0, netcheck 0 failures. SHA-256 295fd9154603e91c

@@ -1,0 +1,41 @@
+* ---------------------------------------------------------------------------
+* BOOSTPCM - fixed-frequency peak-current-mode boost controller
+*
+* Real part: LM5155 (preferred - 110 mV sense threshold, internal slope comp,
+* soft start, 1 A driver) or UC3843 with a sense-scaling / offset network.
+*
+* Ksl sets slope compensation.  A boost at D>0.5 needs Se >= 0.5*Sf or it
+* goes subharmonic; this design targets Se ~ Sf so it stays clean down to
+* 10.5 V in (D = 0.76).
+* ---------------------------------------------------------------------------
+.subckt BOOSTPCM FB CS COMP GATE VCC GND Fsw=200k Ksl=0.13 Vthmax=0.42
+
+V5i   v5i  GND 5
+V10   v10  GND 10
+Vclk  clk  GND PULSE(0 5 0 30n 30n 80n {1/Fsw})
+Vramp ramp GND PULSE(0 1 0 {0.92/Fsw} 20n 1n {1/Fsw})
+Vpor  por  GND PWL(0 5 200u 5 202u 0)
+
+* transconductance error amplifier, 2 mA/V, +/-1 mA output clamp
+Bea   GND  COMP I = {max(min((2.5-V(FB,GND))*2e-3,1e-3),-1e-3)}
+Rcx   COMP GND 100meg
+Bvth  vth  GND  V = {max(min(V(COMP,GND),Vthmax),0.001)}
+Bsum  csum GND  V = {V(CS,GND)+Ksl*V(ramp,GND)}
+
+Rq    q    GND 10k
+Sq    v5i  q   q    GND  BST_LATCH
+Sset  v5i  q   clk  GND  BST_CLK
+Srst  q    GND csum vth  BST_RST
+Shld  q    GND por  GND  BST_HLD
+
+Sdh   v10  GATE q   GND  BST_DRVH
+Sdl   GATE GND  GND q    BST_DRVL
+Rgl   GATE GND  1meg
+
+.model BST_LATCH SW(Ron=100 Roff=1e9 Vt=2.5  Vh=0.5)
+.model BST_CLK   SW(Ron=20  Roff=1e9 Vt=2.5  Vh=0.5)
+.model BST_RST   SW(Ron=1   Roff=1e9 Vt=0    Vh=0.003)
+.model BST_HLD   SW(Ron=1   Roff=1e9 Vt=2.5  Vh=0.2)
+.model BST_DRVH  SW(Ron=2   Roff=1e9 Vt=2.5  Vh=0.3)
+.model BST_DRVL  SW(Ron=2   Roff=1e9 Vt=-2.5 Vh=0.3)
+.ends BOOSTPCM

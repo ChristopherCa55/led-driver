@@ -1,0 +1,21 @@
+** Drc report for BOOST_power.kicad_pcb **
+** Created on 2026-09-14T02:49:12 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 1 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'CSCF3218-6R8MC'
+    Local override; warning
+    @(48.5000 mm, 46.8750 mm): Footprint L1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

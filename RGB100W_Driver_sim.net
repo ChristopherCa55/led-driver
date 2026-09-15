@@ -1,0 +1,132 @@
+* ===========================================================================
+*  100 W COMMON-ANODE RGB LED DRIVER  -  verified simulation netlist
+*  12-16 V in  |  44 V rail  |  3 x 900 mA constant current  |  true-PWM dim
+*
+*  This is the electrical twin of RGB100W_Driver.asc and it calls the SAME
+*  LEDCOT.sub / BOOSTPCM.sub controller models the schematic uses.
+*  Power switches are modelled as voltage-controlled switches with the real
+*  Rds(on) so it converges fast; the .asc uses full VDMOS models instead.
+*  The input fuse / reverse-polarity FET / TVS and the 74HCT14 PWM input
+*  conditioning are on the schematic but omitted here - they do not change
+*  the power result.
+*
+*    ngspice -b RGB100W_Driver_sim.net
+*
+*  Sweepable .param values: VIN, DR/DG/DB (PWM duty 0..1), TP (PWM period).
+* ===========================================================================
+*  100 W COMMON-ANODE RGB LED DRIVER  -  12..16 V in
+*  Stage 1 : peak-current-mode boost  12-16V -> 44V
+*  Stage 2 : 3 x high-side-LED buck CC, constant off-time, 900 mA
+* =====================================================================
+.options reltol=2e-3 abstol=1e-9 vntol=1e-5 chgtol=1e-14 trtol=7 method=gear
+.param RCZ=2.2k CCZ=220n CPP=4.7n
+.param VIN=12 FSW=200k LB=15u RSB=0.012 KSL=0.13 VTHMAX=0.42
+.param LCH=150u CTIM=470p RS=0.33 VREF=0.340
+.param RTGB=3.09k RTR=4.53k
+.param DR=1 DG=1 DB=1 TP=1m
+
+Vin   vin 0 {VIN}
+V5    v5  0 5
+
+* ============================ BOOST STAGE ============================
+Lb    vin  lbx {LB}
+Rlb1  lbx  swb 0.008
+Db    swb  rail DBST
+Ssb   swb  snb  qb 0 PWRSWB
+Rsb   snb  0 {RSB}
+Cout1 rail co1 220u  ic=44
+Resr1 co1 0 0.045
+Cout2 rail co2 220u  ic=44
+Resr2 co2 0 0.045
+Ccer  rail 0 10u   ic=44
+Cin1  vin  0 470u
+Rload rail 0 100k
+
+* --- feedback + type II compensation ---
+Rfb1  rail fb 100k
+Rfb2  fb  0  6.04k
+Cff   rail fb 100p
+Rcz   comp cz {RCZ}
+Ccz   cz 0 {CCZ}
+Cp    comp 0 {CPP}
+* --- sense leading-edge filter ---
+Rlb   snb snbf 100
+Clb   snbf 0 220p
+* --- controller (same subcircuit the .asc uses) ---
+XU1   fb snbf comp gb vin 0 BOOSTPCM Fsw={FSW} Ksl={KSL} Vthmax={VTHMAX}
+Rgb   gb qb 10
+Rgbp  qb 0 10k
+
+* ============================ LED + 3 CHANNELS ============================
+* common anode of the RGB die sits on the 44 V rail
+XR rail cr q_r RED   CHAN  PARAMS: LCH={LCH} RTIM={RTR}  CT={CTIM} RSNS={RS} VR={VREF}
+XG rail cg q_g GRN   CHAN  PARAMS: LCH={LCH} RTIM={RTGB} CT={CTIM} RSNS={RS} VR={VREF}
+XB rail cb q_b BLU   CHAN  PARAMS: LCH={LCH} RTIM={RTGB} CT={CTIM} RSNS={RS} VR={VREF}
+
+* LED dice, common anode on 'rail'
+Dr rail r1 DLED
+Vr r1 r2 22.71
+Rr r2 cr 1.2
+Dg rail g1 DLED
+Vg g1 g2 33.44
+Rg g2 cg 1.5
+Db2 rail b1 DLED
+Vb b1 b2 33.44
+Rb b2 cb 1.5
+Rlkr cr 0 10meg
+Rlkg cg 0 10meg
+Rlkb cb 0 10meg
+
+* Arduino PWM inputs (after Schmitt conditioning)
+Vpr RED 0 PULSE(0 5 250u 100n 100n {DR*TP} {TP})
+Vpg GRN 0 PULSE(0 5 250u 100n 100n {DG*TP} {TP})
+Vpb BLU 0 PULSE(0 5 250u 100n 100n {DB*TP} {TP})
+
+.subckt CHAN rail c qout pwm LCH=150u RTIM=3.09k CT=470p RSNS=0.33 VR=0.340
+V5l  v5l 0 5
+Vrfl ref 0 {VR}
+Lc   c  lx {LCH}
+Rlc  lx sw 0.15
+Dfw  sw rail DSCH
+Ssw  sw sns qout 0 PWRSW
+Rsn  sns 0 {RSNS}
+Rlef sns snsf 220
+Clef snsf 0 470p
+Rt   v5l ntim {RTIM}
+Ct   ntim 0 {CT}
+XU   snsf ref pwm ntim qout v5l 0 LEDCOT
+.ends
+
+.include LEDCOT.sub
+.include BOOSTPCM.sub
+.model PWRSW   SW(Ron=0.05 Roff=1e6 Vt=2.5 Vh=0.5)
+.include LEDCOT.sub
+.include BOOSTPCM.sub
+.model PWRSWB  SW(Ron=0.006 Roff=1e6 Vt=2.5 Vh=0.5)
+.model LATCHSW SW(Ron=100  Roff=1e9 Vt=2.5 Vh=0.5)
+.model SETSW   SW(Ron=20   Roff=1e9 Vt=2.9 Vh=0.03)
+.model RSTSW   SW(Ron=1    Roff=1e9 Vt=0   Vh=0.003)
+.model HLDSW   SW(Ron=1    Roff=1e9 Vt=2.5 Vh=0.2)
+.model CLKSW   SW(Ron=20   Roff=1e9 Vt=2.5 Vh=0.5)
+.model DISSW   SW(Ron=20   Roff=1e9 Vt=2.5 Vh=0.5)
+.model DLED  D(IS=1e-9 N=0.4 RS=1m)
+.model DSCH  D(IS=5e-8 N=1.2 RS=0.05 CJO=50p)
+.model DBST  D(IS=5e-7 N=1.15 RS=0.012 CJO=300p)
+
+.control
+tran 5n 2.0m 0 20n uic
+let ir = -i(vr)
+let ig = -i(vg)
+let ib = -i(vb)
+meas tran IR_avg AVG ir from=1.7m to=2.0m
+meas tran IG_avg AVG ig from=1.7m to=2.0m
+meas tran IB_avg AVG ib from=1.7m to=2.0m
+meas tran VRAIL  AVG v(rail) from=1.7m to=2.0m
+meas tran VRmin  MIN v(rail) from=1.7m to=2.0m
+meas tran VRmax  MAX v(rail) from=1.7m to=2.0m
+meas tran IIN    AVG i(vin)  from=1.7m to=2.0m
+meas tran ILBpk  MAX i(lb)   from=1.7m to=2.0m
+meas tran ILBav  AVG i(lb)   from=1.7m to=2.0m
+meas tran VCOMP  AVG v(comp) from=1.7m to=2.0m
+.endc
+.end

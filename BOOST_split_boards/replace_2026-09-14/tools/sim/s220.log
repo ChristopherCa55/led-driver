@@ -1,0 +1,182 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\f541f33b-33a8-45e7-9198-b34885b80e4e\scratchpad\sim\BOOST.asc
+Start Time: Mon Sep 14 19:04:03 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+gmin = 1e-13
+c69: Increased Cpar to 6.8e-10
+c86: Increased Cpar to 2.2e-10
+c40: Increased Cpar to 6.8e-10
+c70: Increased Cpar to 2.2e-10
+c71: Increased Cpar to 2.2e-10
+c78: Increased Cpar to 2.2e-10
+c74: Increased Cpar to 2.2e-10
+c85: Increased Cpar to 6.8e-10
+c77: Increased Cpar to 2.2e-10
+c87: Increased Cpar to 2.2e-10
+c75: Increased Cpar to 2.2e-10
+c88: Increased Cpar to 2.2e-10
+Unknown node in .ic card: "c10" -- ignoring
+Unknown node in .ic card: "c5" -- ignoring
+Unknown node in .ic card: "c2" -- ignoring
+WARNING: Less than two connections to node 5.  This node is used by r:§u8:out4:out.
+WARNING: Less than two connections to node 6.  This node is used by r:§u8:out5:out.
+WARNING: Less than two connections to node 7.  This node is used by r:§u8:out6:out.
+WARNING: Less than two connections to node 8.  This node is used by r:§u8:out7:out.
+WARNING: Less than two connections to node 9.  This node is used by r:§u8:out8:out.
+WARNING: Less than two connections to node 10.  This node is used by r:§u8:out9:out.
+WARNING: Less than two connections to node n015.  This node is used by r:§u8:out59:out.
+WARNING: Less than two connections to node nc_01.  This node is used by s:§u9:3.
+WARNING: Less than two connections to node nc_02.  This node is used by s:§u9:5.
+WARNING: Less than two connections to node nc_03.  This node is used by s:§u9:6.
+WARNING: Less than two connections to node nc_04.  This node is used by s:§u9:7.
+Per .tran options, skipping operating point for transient analysis.
+Heightened Def Con from 0.000825412 to 0.000825417
+Heightened Def Con from 0.00156373 to 0.00156373
+Heightened Def Con from 0.00201423 to 0.00201424
+Heightened Def Con from 0.00232596 to 0.00232597
+Heightened Def Con from 0.00289774 to 0.00289774
+Heightened Def Con from 0.00514766 to 0.00514766
+Heightened Def Con from 0.00557603 to 0.00557603
+Heightened Def Con from 0.00595915 to 0.00595916
+Heightened Def Con from 0.00646384 to 0.00646384
+Heightened Def Con from 0.00652694 to 0.00652694
+Heightened Def Con from 0.006773 to 0.00677301
+Heightened Def Con from 0.0072185 to 0.00721851
+Heightened Def Con from 0.00756538 to 0.00756538
+Heightened Def Con from 0.00757731 to 0.00757731
+Heightened Def Con from 0.00892366 to 0.00892366
+Heightened Def Con from 0.00917732 to 0.00917732
+Heightened Def Con from 0.0096158 to 0.0096158
+Heightened Def Con from 0.0105105 to 0.0105105
+Heightened Def Con from 0.0105686 to 0.0105686
+Heightened Def Con from 0.0110832 to 0.0110832
+Heightened Def Con from 0.0118796 to 0.0118796
+Heightened Def Con from 0.0122625 to 0.0122625
+Heightened Def Con from 0.0125499 to 0.0125499
+Heightened Def Con from 0.0129016 to 0.0129016
+Heightened Def Con from 0.013221 to 0.013221
+Heightened Def Con from 0.0135358 to 0.0135358
+Heightened Def Con from 0.0135733 to 0.0135733
+Heightened Def Con from 0.0139199 to 0.0139199
+Heightened Def Con from 0.0139891 to 0.0139891
+Heightened Def Con from 0.0149506 to 0.0149507
+Heightened Def Con from 0.0154319 to 0.0154319
+Heightened Def Con from 0.0168081 to 0.0168081
+Heightened Def Con from 0.0180043 to 0.0180043
+Heightened Def Con from 0.0180362 to 0.0180362
+Heightened Def Con from 0.0182941 to 0.0182941
+Heightened Def Con from 0.0184874 to 0.0184874
+Heightened Def Con from 0.0185841 to 0.0185841
+Heightened Def Con from 0.0193577 to 0.0193577
+Heightened Def Con from 0.0199004 to 0.0199004
+Heightened Def Con from 0.0201638 to 0.0201638
+Heightened Def Con from 0.0212292 to 0.0212292
+Heightened Def Con from 0.0213531 to 0.0213531
+Heightened Def Con from 0.0217408 to 0.0217408
+Heightened Def Con from 0.0219076 to 0.0219076
+Heightened Def Con from 0.0231684 to 0.0231684
+Heightened Def Con from 0.0243331 to 0.0243331
+Heightened Def Con from 0.0243983 to 0.0243983
+Heightened Def Con from 0.0252072 to 0.0252072
+Heightened Def Con from 0.0254986 to 0.0254986
+Heightened Def Con from 0.0271779 to 0.0271779
+Heightened Def Con from 0.0282857 to 0.0282857
+Heightened Def Con from 0.0299397 to 0.0299397
+Heightened Def Con from 0.0303611 to 0.0303611
+Heightened Def Con from 0.0304584 to 0.0304584
+Heightened Def Con from 0.0308478 to 0.0308478
+Heightened Def Con from 0.0310696 to 0.0310696
+Heightened Def Con from 0.0326005 to 0.0326005
+Heightened Def Con from 0.0330172 to 0.0330172
+Heightened Def Con from 0.0330875 to 0.0330875
+Heightened Def Con from 0.0333924 to 0.0333924
+Heightened Def Con from 0.033445 to 0.033445
+Heightened Def Con from 0.0334771 to 0.0334771
+Heightened Def Con from 0.0349657 to 0.0349657
+Heightened Def Con from 0.0354529 to 0.0354529
+Heightened Def Con from 0.0358156 to 0.0358156
+Heightened Def Con from 0.0358809 to 0.0358809
+Heightened Def Con from 0.0360105 to 0.0360105
+Heightened Def Con from 0.0363682 to 0.0363682
+Heightened Def Con from 0.0364978 to 0.0364978
+Heightened Def Con from 0.0368877 to 0.0368877
+Heightened Def Con from 0.0383178 to 0.0383178
+Heightened Def Con from 0.0386103 to 0.0386103
+
+
+Measurement "il_pk" FAIL'ed
+
+Measurement "verr_max" FAIL'ed
+
+Measurement "vo1_avg" FAIL'ed
+
+Measurement "vo2_avg" FAIL'ed
+
+Measurement "vo3_avg" FAIL'ed
+
+Measurement "iled1_avg" FAIL'ed
+
+Measurement "iled2_avg" FAIL'ed
+
+Measurement "iled3_avg" FAIL'ed
+
+Measurement "vlx_max" FAIL'ed
+
+Measurement "vlx_min" FAIL'ed
+
+Measurement "ptvs" FAIL'ed
+
+Measurement "etvs" FAIL'ed
+
+Measurement "itvs_clamp" FAIL'ed
+
+Measurement "itvs_pk" FAIL'ed
+
+Measurement "vdspin_m2" FAIL'ed
+
+Measurement "vdspin_m3" FAIL'ed
+
+Measurement "vdspin_m4" FAIL'ed
+
+Measurement "vdspin_m7" FAIL'ed
+
+Measurement "vdspin_m6" FAIL'ed
+
+Measurement "vdspin_m5" FAIL'ed
+
+Measurement "irev_m2" FAIL'ed
+
+Measurement "irev_m3" FAIL'ed
+
+Measurement "irev_m4" FAIL'ed
+
+Measurement "qrev_m2" FAIL'ed
+
+Measurement "qrev_m3" FAIL'ed
+
+Measurement "qrev_m4" FAIL'ed
+
+Measurement "vdsdie_m1" FAIL'ed
+
+Measurement "vdsdie_m2" FAIL'ed
+
+Measurement "vdsdie_m3" FAIL'ed
+
+Measurement "vdsdie_m4" FAIL'ed
+
+Measurement "vdsdie_m5" FAIL'ed
+
+Measurement "vdsdie_m6" FAIL'ed
+
+Measurement "vdsdie_m7" FAIL'ed
+
+Measurement "vls_m1" FAIL'ed
+
+Measurement "didt_m1" FAIL'ed
+
+Total elapsed time: 1537.912 seconds.
+

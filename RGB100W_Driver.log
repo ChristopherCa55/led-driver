@@ -1,0 +1,16 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Dominick Junior\Downloads\UCSD Stuff\2025-2026\robotx\led-driver\RGB100W_Driver.asc
+Start Time: Sun Aug 16 09:54:14 2026
+Questionable use of curly braces in "bea gnd comp i = {max(min((2.5-v(fb,gnd))*2e-3,1e-3),-1e-3)}"
+    Error: undefined symbol in: "max(min((2.5-[v](fb,gnd))*2e-3,1e-3),-1e-3)"
+Questionable use of curly braces in "bvth vth gnd  v={max(min(v(comp,gnd),{vthmax}),0.001)}"
+    Error: undefined symbol in: "max(min([v](comp,gnd),(vthmax)),0.001)"
+Questionable use of curly braces in "bsum csum gnd  v={v(cs,gnd)+{ksl}*v(ramp,gnd)}"
+    Error: undefined symbol in: "[v](cs,gnd)+(ksl)*v(ramp,gnd)"
+Questionable use of curly braces in "bhold hold gnd v = {5-v(pwm,gnd)}"
+    Error: undefined symbol in: "5-[v](pwm,gnd)"
+Questionable use of curly braces in "bhold hold gnd v = {5-v(pwm,gnd)}"
+    Error: undefined symbol in: "5-[v](pwm,gnd)"
+Questionable use of curly braces in "bhold hold gnd v = {5-v(pwm,gnd)}"
+    Error: undefined symbol in: "5-[v](pwm,gnd)"
+Fatal Error: q5: Only a level 9 B3SOI can have 6 nodes

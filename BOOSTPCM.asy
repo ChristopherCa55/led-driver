@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 0 0 160 160
+WINDOW 0 80 -8 Bottom 2
+WINDOW 3 80 168 Top 2
+SYMATTR Value BOOSTPCM
+SYMATTR Prefix X
+SYMATTR Description Peak-current-mode boost controller with slope compensation (LM5155 / UC3843 class)
+PIN 0 32 LEFT 8
+PINATTR PinName FB
+PINATTR SpiceOrder 1
+PIN 0 64 LEFT 8
+PINATTR PinName CS
+PINATTR SpiceOrder 2
+PIN 0 96 LEFT 8
+PINATTR PinName COMP
+PINATTR SpiceOrder 3
+PIN 160 32 RIGHT 8
+PINATTR PinName GATE
+PINATTR SpiceOrder 4
+PIN 64 0 TOP 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 5
+PIN 64 160 BOTTOM 8
+PINATTR PinName GND
+PINATTR SpiceOrder 6

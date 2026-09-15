@@ -1,0 +1,81 @@
+components: 276 -> 287
+   removed C41    ('1n', 'Capacitor_SMD:C_0603_1608Metric')
+   removed C44    ('1n', 'Capacitor_SMD:C_0603_1608Metric')
+   removed C45    ('1n', 'Capacitor_SMD:C_0603_1608Metric')
+   removed D12    ('D', 'Diode_SMD:D_SOD-123')
+   added   D27    ('D', 'Diode_SMD:D_SOD-123')
+   added   H1     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H2     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H3     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H4     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H5     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H6     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H7     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   H8     ('MountingHole_M3', 'MountingHole:MountingHole_3.2mm_M3')
+   added   J10    ('Conn_02x15_2.54mm', 'Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical')
+   added   J11    ('Conn_02x15_2.54mm', 'Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical')
+   added   NT1    ('NetTie_2', 'NetTie:NetTie-2_SMD_Pad0.5mm')
+   added   NT2    ('NetTie_2', 'NetTie:NetTie-2_SMD_Pad0.5mm')
+   added   NT3    ('NetTie_2', 'NetTie:NetTie-2_SMD_Pad0.5mm')
+   added   R105   ('100k', 'Resistor_SMD:R_0603_1608Metric')
+   changed C70    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C71    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C74    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C75    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C77    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C78    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C86    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C87    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed C88    ('220µ', 'Capacitor_SMD:CP_Elec_10x10.5') -> ('220µ', 'BOOST:CP_Elec_10x16.5')
+   changed J9     ('Conn_01x10', 'Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical') -> ('Conn_01x11', 'Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Horizontal')
+   changed M1     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M10    ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M2     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M3     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M4     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M5     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M6     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M7     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M8     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed M9     ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown') -> ('HYG180N10', 'Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp')
+   changed R1     ('2m', 'Resistor_SMD:R_2512_6332Metric') -> ('2m', 'BOOST:R_Bourns_CSS4J-4026')
+   changed R13    ('100', 'Resistor_SMD:R_0603_1608Metric') -> ('220', 'Resistor_SMD:R_0603_1608Metric')
+   changed R15    ('5.1', 'Resistor_SMD:R_0805_2012Metric') -> ('10', 'Resistor_SMD:R_0805_2012Metric')
+   changed R23    ('100', 'Resistor_SMD:R_0603_1608Metric') -> ('220', 'Resistor_SMD:R_0603_1608Metric')
+   changed R47    ('100', 'Resistor_SMD:R_0603_1608Metric') -> ('220', 'Resistor_SMD:R_0603_1608Metric')
+nets: 180 -> 186
+   net 12V: +['J10.19', 'J11.19'] -[]
+   net 5V: +['J10.10', 'J11.10'] -[]
+   net Current: +['J10.23', 'J11.23'] -[]
+   net GATE_M1: +[] -['D12.2']
+   net GND: +['J10.1', 'J10.11', 'J10.12', 'J10.2', 'J10.20', 'J10.21', 'J10.24', 'J10.25', 'J10.28', 'J10.29', 'J11.1', 'J11.11', 'J11.12', 'J11.2', 'J11.20', 'J11.21', 'J11.24', 'J11.25', 'J11.28', 'J11.29', 'R105.2'] -['C41.2', 'C44.2', 'C45.2']
+   net IREF1_input: +['J10.26', 'J11.26'] -['C45.1']
+   net IREF2_input: +['J10.27', 'J11.27'] -['C44.1']
+   net IREF3_input: +['J10.30', 'J11.30'] -['C41.1']
+   net M1_ON: +['J10.3', 'J11.3'] -[]
+   net M2_ON: +['J10.4', 'J11.4'] -[]
+   net Net-(D1--) -> M1_INHIBIT: +['D27.1'] -[]
+   net Net-(D12--) -> Net-(U19-OUTA): +[] -['D12.1']
+   net Net-(M10-S): +['NT1.2'] -['U11.4']
+   net Net-(M8-S): +['NT3.2'] -['U6.4']
+   net Net-(M9-S): +['NT2.2'] -['U12.4']
+   net Output1_drain: +['J10.14', 'J11.14'] -[]
+   net Output2_drain: +['J10.16', 'J11.16'] -[]
+   net Output3_drain: +['J10.18', 'J11.18'] -[]
+   net Vin: +['R1.1'] -['R1.2', 'U25.8']
+   net Vout_1: +['J10.13', 'J11.13'] -[]
+   net Vout_2: +['J10.15', 'J11.15'] -[]
+   net Vout_3: +['J10.17', 'J11.17'] -[]
+   net analog_5V: +['J10.22', 'J11.22'] -[]
+   net ena_out_1: +['J10.5', 'J11.5'] -[]
+   net ena_out_2: +['J10.7', 'J11.7'] -[]
+   net ena_out_3: +['J10.9', 'J11.9'] -[]
+   net out_2_on: +['J10.6', 'J11.6'] -[]
+   net out_3_on: +['J10.8', 'J11.8'] -[]
+   net rsense_lo: +['R1.4'] -['R1.1', 'U25.1']
+   new net ARD_M1_INHIBIT (['D27.2', 'J9.11', 'R105.1'])
+   new net ISNS_N (['R1.3', 'U25.1'])
+   new net ISNS_P (['R1.2', 'U25.8'])
+   new net SNS_CH1 (['NT1.1', 'U11.4'])
+   new net SNS_CH2 (['NT2.1', 'U12.4'])
+   new net SNS_CH3 (['NT3.1', 'U6.4'])
