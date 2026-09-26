@@ -1,0 +1,311 @@
+<title>BOOST Case Assembly</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #eef0ec; --surface: #ffffff; --ink: #1b2320; --muted: #5a6762; --line: #d5dad4;
+  --accent: #17664f; --accent-soft: #d8ebe3; --flag: #b3261e; --flag-soft: #f9dedb; --ok: #2f6b3a;
+  --canvas: #e4e8e3; --chip: #f4f6f3;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111614; --surface: #19201d; --ink: #e4ebe7; --muted: #98a6a0; --line: #2b3531;
+    --accent: #5cc3a0; --accent-soft: #1d3a31; --flag: #ff8f86; --flag-soft: #3d1f1d; --ok: #7fcf8d;
+    --canvas: #1c2421; --chip: #212a26; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111614; --surface: #19201d; --ink: #e4ebe7; --muted: #98a6a0; --line: #2b3531;
+  --accent: #5cc3a0; --accent-soft: #1d3a31; --flag: #ff8f86; --flag-soft: #3d1f1d; --ok: #7fcf8d;
+  --canvas: #1c2421; --chip: #212a26; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 14px; line-height: 1.45; }
+.wrap { padding-inline: 16px; padding-block: 16px 32px; max-width: 1480px; margin: 0 auto; display: grid; gap: 16px;
+  grid-template-columns: minmax(0, 1fr) 420px; align-items: start; }
+header { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+h1 { font-size: 22px; font-weight: 600; margin: 0; letter-spacing: 0.01em; text-wrap: balance; }
+header p { margin: 0; color: var(--muted); max-width: 72ch; }
+.stage { position: sticky; top: env(safe-area-inset-top, 0px); background: var(--canvas); border: 1px solid var(--line);
+  border-radius: 6px; overflow: hidden; height: min(78vh, 760px); min-height: 380px; }
+#view { width: 100%; height: 100%; display: block; touch-action: none; }
+.hud { position: absolute; left: 10px; bottom: 10px; right: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.hud button, .seg button { font: 500 12px var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+.hud button:hover, .seg button:hover { border-color: var(--accent); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.status { position: absolute; top: 10px; left: 10px; font: 12px var(--mono); color: var(--muted); background: var(--surface);
+  padding: 4px 8px; border-radius: 4px; border: 1px solid var(--line); }
+aside { display: grid; gap: 16px; }
+section.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; display: grid; gap: 10px; }
+h2 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0; }
+.toggles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 12px; }
+.toggles label { display: flex; gap: 8px; align-items: center; cursor: pointer; }
+.toggles input { accent-color: var(--accent); }
+.clip { display: grid; gap: 4px; }
+.clip input { width: 100%; accent-color: var(--accent); }
+.clip .val { font: 12px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+td, th { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 500; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.stack td:first-child { color: var(--muted); }
+.list { max-height: 520px; overflow-y: auto; border: 1px solid var(--line); border-radius: 4px; }
+.row { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 8px; padding: 7px 10px; border-bottom: 1px solid var(--line);
+  cursor: pointer; background: var(--surface); text-align: left; width: 100%; border-left: 3px solid transparent; font: inherit; color: inherit; }
+.row:hover { background: var(--chip); }
+.row.on { background: var(--accent-soft); }
+.row.flag { border-left-color: var(--flag); }
+.row .mm { font: 500 13px var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+.row.flag .mm { color: var(--flag); }
+.row .what { font-size: 12.5px; min-width: 0; overflow-wrap: anywhere; }
+.row .what b { font-weight: 600; }
+.row .what span { color: var(--muted); display: block; }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button.on { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+.note { color: var(--muted); font-size: 12.5px; margin: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+@media (max-width: 980px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); }
+  .stage { position: relative; height: 62vh; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>BOOST case assembly</h1>
+    <p>Power board, control card, standoffs, thermal pads and the case, from the release-candidate boards of 2026-09-24. Drag to orbit, scroll to zoom, right-drag to pan. Pick a clearance to see its two parts.</p>
+  </header>
+  <div class="stage">
+    <canvas id="view" aria-label="3D view of the assembly"></canvas>
+    <div class="status" id="status">loading model...</div>
+    <div class="hud">
+      <button type="button" data-view="iso">Iso</button>
+      <button type="button" data-view="top">Top</button>
+      <button type="button" data-view="south">From south</button>
+      <button type="button" data-view="west">From west</button>
+      <button type="button" data-view="under">Underside</button>
+      <button type="button" id="clearsel">Clear highlight</button>
+    </div>
+  </div>
+  <aside>
+    <section class="panel">
+      <h2>Show</h2>
+      <div class="toggles" id="toggles"></div>
+      <div class="clip">
+        <label for="clipz">Cut away everything above</label>
+        <input id="clipz" type="range" min="0" max="36" step="0.1" value="36">
+        <span class="val" id="clipval">36.0 mm (no cut)</span>
+      </div>
+      <div class="legend">
+        <span><i style="background:#e6c74d;opacity:.6"></i>screwdriver access, r 4.0</span>
+        <span><i style="background:#e05252;opacity:.6"></i>penetrator keep-out</span>
+        <span><i style="background:#f08fa0"></i>thermal pad</span>
+        <span><i style="background:#b0271c"></i>J9 wires</span>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>Clearances (mm, solid to solid)</h2>
+      <div class="seg" id="filters">
+        <button type="button" data-f="flag" class="on">Under 1 mm</button>
+        <button type="button" data-f="vent">Vent 2 mm</button>
+        <button type="button" data-f="all">All</button>
+      </div>
+      <div class="list" id="list"></div>
+      <p class="note">Can heights at the datasheet maximum (220 &micro;F 16.8 mm, 680 &micro;F 12.8 mm). Boards are modelled 1.654 mm thick against the nominal 1.6, so the lid and card figures are 0.05 mm pessimistic.</p>
+    </section>
+    <section class="panel">
+      <h2>Stack (height above the case floor)</h2>
+      <table class="stack" id="stack"></table>
+    </section>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="assembly_glb.js"></script>
+<script>
+const DATA = {"rows": [{"check": "card to tall power part", "a": "C77", "b": "card U106", "mm": 3.1, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C75", "b": "card C67", "mm": 4.73, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C78", "b": "card U104", "mm": 3.1, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C70", "b": "card C64", "mm": 3.25, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C40", "b": "card D7", "mm": 7.59, "flag": "", "note": "part top 19.67"}, {"check": "card to tall power part", "a": "C88", "b": "card J11 post", "mm": 3.67, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C87", "b": "card U104", "mm": 3.1, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C85", "b": "card D7", "mm": 9.18, "flag": "", "note": "part top 19.67"}, {"check": "card to tall power part", "a": "C69", "b": "card BOOST_control_RC1_PCB", "mm": 18.62, "flag": "", "note": "part top 19.67"}, {"check": "card to tall power part", "a": "C74", "b": "card C67", "mm": 4.07, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C86", "b": "card BOOST_control_RC1_PCB", "mm": 13.09, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "C71", "b": "card BOOST_control_RC1_PCB", "mm": 6.59, "flag": "", "note": "part top 23.67"}, {"check": "card to tall power part", "a": "M10", "b": "card J9 cable-tie head (5.0 x 4.5 x 3.5 ASSUMED)", "mm": 11.62, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M7", "b": "card J11 post", "mm": 15.54, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M1", "b": "card BOOST_control_RC1_PCB", "mm": 24.21, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M2", "b": "card J11 post", "mm": 10.86, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M3", "b": "card BOOST_control_RC1_PCB", "mm": 15.86, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M5", "b": "card U106", "mm": 13.22, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M8", "b": "card J11 post", "mm": 7.96, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M9", "b": "card J9 cable-tie head (5.0 x 4.5 x 3.5 ASSUMED)", "mm": 14.48, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M4", "b": "card U106", "mm": 14.49, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "M6", "b": "card C97", "mm": 15.18, "flag": "", "note": "part top 13.55"}, {"check": "card to tall power part", "a": "L1 CSCF3218-6R8MC body 22.5 x 32.0 x 19.0", "b": "card BOOST_control_RC1_PCB", "mm": 7.82, "flag": "", "note": "part top 26.15"}, {"check": "vent clearance above can (max height)", "a": "C70 EEH-ZU1H221P 16.8 max", "b": "card C64", "mm": 2.95, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C71 EEH-ZU1H221P 16.8 max", "b": "card BOOST_control_RC1_PCB", "mm": 6.07, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C74 EEH-ZU1H221P 16.8 max", "b": "card C67", "mm": 3.55, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C75 EEH-ZU1H221P 16.8 max", "b": "hardware H8 female-female HNSM3-20-5.5-1 (hex 5.5 AF x 20)", "mm": 2.99, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C77 EEH-ZU1H221P 16.8 max", "b": "card U106", "mm": 2.8, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C78 EEH-ZU1H221P 16.8 max", "b": "card U104", "mm": 2.8, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C86 EEH-ZU1H221P 16.8 max", "b": "card BOOST_control_RC1_PCB", "mm": 12.74, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C87 EEH-ZU1H221P 16.8 max", "b": "card U104", "mm": 2.8, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C88 EEH-ZU1H221P 16.8 max", "b": "card J11 Samtec TSW-115-07-G-D insulator (2.54)", "mm": 3.29, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C40 EEH-ZU1E681UP 12.8 max", "b": "hardware H6 female-female HNSM3-20-5.5-1 (hex 5.5 AF x 20)", "mm": 3.2, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C69 EEH-ZU1E681UP 12.8 max", "b": "hardware M1 tab screw M2.5 x 12 pan head (ISO 7045 max: 5.0 x 1.75)", "mm": 11.27, "flag": "", "note": ""}, {"check": "vent clearance above can (max height)", "a": "C85 EEH-ZU1E681UP 12.8 max", "b": "card D7", "mm": 8.68, "flag": "", "note": ""}, {"check": "card outline to L1 body, in plan", "a": "card board", "b": "L1", "mm": 7.42, "flag": "", "note": "positive = not overlapping"}, {"check": "card to L1, 3D", "a": "L1 body", "b": "card BOOST_control_RC1_PCB", "mm": 7.82, "flag": "", "note": ""}, {"check": "J9 wire exit", "a": "J9 wires (11 x 26-28 AWG, bundle 1.5 mm deep ASSUMED)", "b": "hardware H7 washers 3 x TR NWE-34815-M3", "mm": 1.39, "flag": "", "note": ""}, {"check": "J9 wire exit", "a": "J9 cable-tie head (5.0 x 4.5 x 3.5 ASSUMED)", "b": "C87 EEH-ZU1H221P 16.8 max", "mm": 3.68, "flag": "", "note": ""}, {"check": "lid (33.0) to", "a": "H8 card screw 97790803211 head (5.5 x 2.1)", "b": "lid underside", "mm": 0.65, "flag": "UNDER 1 mm", "note": ""}, {"check": "lid (33.0) to", "a": "H7 card screw 97790803211 head (5.5 x 2.1)", "b": "lid underside", "mm": 0.65, "flag": "UNDER 1 mm", "note": ""}, {"check": "lid (33.0) to", "a": "H6 card screw 97790803211 head (5.5 x 2.1)", "b": "lid underside", "mm": 0.65, "flag": "UNDER 1 mm", "note": ""}, {"check": "lid (33.0) to", "a": "H5 card screw 97790803211 head (5.5 x 2.1)", "b": "lid underside", "mm": 0.65, "flag": "UNDER 1 mm", "note": ""}, {"check": "lid (33.0) to", "a": "U28", "b": "lid underside", "mm": 0.98, "flag": "UNDER 1 mm", "note": ""}, {"check": "lid (33.0) to", "a": "U18", "b": "lid underside", "mm": 0.98, "flag": "UNDER 1 mm", "note": ""}, {"check": "standoff stack to nearest part", "a": "H5 (with H1 on the card)", "b": "card D6", "mm": 0.4, "flag": "UNDER 1 mm", "note": ""}, {"check": "standoff stack to nearest part", "a": "H6 (with H2 on the card)", "b": "card R94", "mm": 0.43, "flag": "UNDER 1 mm", "note": ""}, {"check": "standoff stack to nearest part", "a": "H7 (with H3 on the card)", "b": "card D3", "mm": 0.61, "flag": "UNDER 1 mm", "note": ""}, {"check": "standoff stack to nearest part", "a": "H8 (with H4 on the card)", "b": "card R84", "mm": 0.73, "flag": "UNDER 1 mm", "note": ""}, {"check": "screwdriver access (r 4.0 above the head, to the lid)", "a": "M1", "b": "power C69", "mm": 0.7, "flag": "UNDER 1 mm", "note": "touching = 0.00"}, {"check": "screwdriver access, power-board parts only", "a": "M1", "b": "power C69", "mm": 0.7, "flag": "UNDER 1 mm", "note": "the 4.0 mm / 3 mm rule"}, {"check": "screwdriver access blocked by the card?", "a": "M1", "b": "card board", "mm": 17.81, "flag": "", "note": "card clear of the access cylinder"}, {"check": "screwdriver access (r 4.0 above the head, to the lid)", "a": "M8", "b": "card U101", "mm": 0.0, "flag": "UNDER 1 mm", "note": "touching = 0.00"}, {"check": "screwdriver access, power-board parts only", "a": "M8", "b": "power C87", "mm": 1.6, "flag": "", "note": "the 4.0 mm / 3 mm rule"}, {"check": "screwdriver access blocked by the card?", "a": "M8", "b": "card board", "mm": 0.0, "flag": "UNDER 1 mm", "note": "card over the screw: fit this screw before the card"}, {"check": "screwdriver access (r 4.0 above the head, to the lid)", "a": "M9", "b": "power C71", "mm": 0.7, "flag": "UNDER 1 mm", "note": "touching = 0.00"}, {"check": "screwdriver access, power-board parts only", "a": "M9", "b": "power C71", "mm": 0.7, "flag": "UNDER 1 mm", "note": "the 4.0 mm / 3 mm rule"}, {"check": "screwdriver access blocked by the card?", "a": "M9", "b": "card board", "mm": 3.22, "flag": "", "note": "card clear of the access cylinder"}, {"check": "screwdriver access (r 4.0 above the head, to the lid)", "a": "M10", "b": "card J9 wires (11 x 26-28 AWG, bundle 1.5 mm deep ASSUMED)", "mm": 0.39, "flag": "UNDER 1 mm", "note": "touching = 0.00"}, {"check": "screwdriver access, power-board parts only", "a": "M10", "b": "power M9", "mm": 7.15, "flag": "", "note": "the 4.0 mm / 3 mm rule"}, {"check": "screwdriver access blocked by the card?", "a": "M10", "b": "card board", "mm": 6.39, "flag": "", "note": "card clear of the access cylinder"}, {"check": "penetrator keep-out", "a": "penetrator keep-out box (9.5, 3.5), 15 x 10", "b": "nothing within 25 mm (the Arduino, CAN module and LED are not modelled)", "mm": 25.0, "flag": "", "note": ""}, {"check": "penetrator keep-out", "a": "penetrator keep-out box (118.5, 3.5), 15 x 10", "b": "power BOOST_power_RC1_PCB", "mm": 3.0, "flag": "", "note": ""}], "stack": {"pad": 0.93, "power_underside": 5.5, "power_top_model": 7.154, "ff_standoff": [7.1, 27.1], "card_underside": 28.6, "card_top_model": 30.254, "esq_top": 25.824, "tsw_bottom": 26.060000000000002, "lid": 33.0}};
+const S = 0.001;                                   // model units are metres; the page talks in mm
+const g = (x, y, z) => new THREE.Vector3(x * S, z * S, -y * S);   // case frame (Z up) -> glTF (Y up)
+const canvas = document.getElementById('view');
+const statusEl = document.getElementById('status');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+renderer.localClippingEnabled = true;
+renderer.outputEncoding = THREE.sRGBEncoding;
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(35, 1, 0.001, 5);
+const controls = new THREE.OrbitControls(camera, canvas);
+controls.enableDamping = true;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x444a48, 0.85));
+const key = new THREE.DirectionalLight(0xffffff, 0.85); key.position.set(0.05, 0.25, 0.15); scene.add(key);
+const fill = new THREE.DirectionalLight(0xffffff, 0.35); fill.position.set(-0.2, 0.1, -0.2); scene.add(fill);
+const clipPlane = new THREE.Plane(new THREE.Vector3(0, -1, 0), 0.036);
+
+function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+function applyTheme() { scene.background = new THREE.Color(cssVar('--canvas') || '#e4e8e3'); }
+applyTheme();
+try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme); } catch (e) {}
+new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+function resize() {
+  const r = canvas.parentElement.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width / Math.max(r.height, 1);
+  camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', resize);
+
+// ---- groups for the toggles ----
+const GROUPS = [
+  ['power', 'Power board', true], ['card', 'Control card', true], ['hardware', 'Standoffs and screws', true],
+  ['pads', 'Thermal pads', true], ['floor', 'Case floor', true], ['walls', 'Case walls', false],
+  ['lid', 'Lid (33.0)', false], ['keep', 'Penetrator keep-outs', true], ['access', 'Screwdriver access', true],
+];
+const members = {}; GROUPS.forEach(([k]) => members[k] = []);
+const byName = {};
+// three.js sanitises node names (spaces to underscores, dots and colons dropped): compare on a normalised form
+const norm = s => String(s || '').replace(/_/g, ' ').replace(/[.:\[\]\/]/g, '');
+function classify(node) {
+  const n = norm(node.name);
+  const chain = [];
+  for (let q = node; q; q = q.parent) chain.push(norm(q.name));
+  if (chain.includes('power board')) return 'power';
+  if (chain.includes('control card')) return 'card';
+  if (/^lid/.test(n)) return 'lid';
+  if (/^case wall/.test(n)) return 'walls';
+  if (/^case floor/.test(n)) return 'floor';
+  if (/penetrator/.test(n)) return 'keep';
+  if (/screwdriver access/.test(n)) return 'access';
+  if (/thermal pad/.test(n)) return 'pads';
+  if (/^(L1|R1|J10) /.test(n)) return 'power';
+  if (/^(J11|J9) /.test(n)) return 'card';
+  return 'hardware';
+}
+const toggles = document.getElementById('toggles');
+GROUPS.forEach(([k, label, on]) => {
+  const id = 'show_' + k;
+  const l = document.createElement('label');
+  l.innerHTML = `<input type="checkbox" id="${id}" ${on ? 'checked' : ''}> ${label}`;
+  toggles.appendChild(l);
+  l.querySelector('input').addEventListener('change', e => members[k].forEach(o => o.visible = e.target.checked));
+});
+
+// ---- highlight ----
+let lit = [];
+const litMat = new THREE.MeshStandardMaterial({ color: 0xff5a36, emissive: 0x7a1a08, roughness: 0.5, clippingPlanes: [clipPlane] });
+function clearLit() { lit.forEach(([m, mat]) => m.material = mat); lit = []; document.querySelectorAll('.row.on').forEach(r => r.classList.remove('on')); }
+function light(names) {
+  clearLit();
+  const box = new THREE.Box3();
+  names.forEach(n => (byName[n] || []).forEach(obj => {
+    obj.traverse(m => { if (m.isMesh) { lit.push([m, m.material]); m.material = litMat; } });
+    box.expandByObject(obj);
+  }));
+  if (!box.isEmpty()) frame(box, 3.2);
+}
+document.getElementById('clearsel').addEventListener('click', clearLit);
+
+function frame(box, pad) {
+  const c = box.getCenter(new THREE.Vector3());
+  const size = box.getSize(new THREE.Vector3()).length() * (pad || 1.2) + 0.012;
+  const dir = camera.position.clone().sub(controls.target).normalize();
+  controls.target.copy(c);
+  camera.position.copy(c.clone().add(dir.multiplyScalar(size)));
+}
+const C = [89, -45, 14];
+const VIEWS = {
+  iso: [[-10, -200, 150], C], top: [[C[0], C[1] - 0.01, 260], [C[0], C[1], 0]],
+  south: [[C[0], -260, 15], [C[0], 0, 15]], west: [[-200, C[1], 15], [0, C[1], 15]], under: [[70, -130, -130], [C[0], C[1], 3]],
+};
+function setView(v) {
+  const [p, t] = VIEWS[v];
+  camera.position.copy(g(...p)); controls.target.copy(g(...t)); camera.up.set(0, 1, 0);
+  if (v === 'top') camera.up.set(0, 0, -1);
+  controls.update();
+}
+document.querySelectorAll('[data-view]').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
+
+// ---- clip slider ----
+const clipz = document.getElementById('clipz'), clipval = document.getElementById('clipval');
+clipz.addEventListener('input', () => {
+  const z = parseFloat(clipz.value);
+  clipPlane.constant = z * S;
+  clipval.textContent = z >= 36 ? '36.0 mm (no cut)' : z.toFixed(1) + ' mm above the floor';
+});
+
+// ---- clearance list ----
+const list = document.getElementById('list');
+function names(r) {
+  const out = [];
+  [r.a, r.b].forEach(s => {
+    if (!s) return;
+    const t = norm(String(s).replace(/^(power|card|hardware) /, ''));
+    if (byName[t]) { out.push(t); return; }
+    const first = t.split(' ')[0];
+    Object.keys(byName).forEach(k => { if (k === first || k.startsWith(t.slice(0, 16))) out.push(k); });
+    if (/^H\d/.test(first)) Object.keys(byName).forEach(k => { if (k.startsWith(first + ' ')) out.push(k); });
+  });
+  return [...new Set(out)];
+}
+function renderList(f) {
+  list.innerHTML = '';
+  (DATA.rows || []).filter(r => f === 'all' || (f === 'flag' ? r.flag && r.flag.trim() : /vent/.test(r.check)))
+    .sort((a, b) => (a.mm ?? 1e9) - (b.mm ?? 1e9))
+    .forEach(r => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'row' + (r.flag && r.flag.trim() ? ' flag' : '');
+      b.innerHTML = `<span class="mm">${r.mm == null ? '&ndash;' : r.mm.toFixed(2)}</span><span class="what"><b>${r.a}</b> &harr; ${String(r.b).replace(/^(power|card|hardware) /, '')}<span>${r.check}${r.note ? ' &middot; ' + r.note : ''}</span></span>`;
+      b.addEventListener('click', () => { light(names(r)); b.classList.add('on'); });
+      list.appendChild(b);
+    });
+}
+document.querySelectorAll('#filters button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('#filters button').forEach(x => x.classList.toggle('on', x === b));
+  renderList(b.dataset.f);
+}));
+
+// ---- stack table ----
+const st = DATA.stack, stackEl = document.getElementById('stack');
+[['Lid underside', st.lid], ['Card top (model)', st.card_top_model], ['Card underside', st.card_underside],
+ ['TSW insulator underside', st.tsw_bottom], ['ESQ body top', st.esq_top], ['Standoff top', st.ff_standoff[1]],
+ ['Power board top (model)', st.power_top_model], ['Power board underside', st.power_underside], ['Thermal pad top / FET tab', st.pad]]
+  .forEach(([k, v]) => stackEl.insertAdjacentHTML('beforeend', `<tr><td>${k}</td><td class="num">${v.toFixed(2)}</td></tr>`));
+
+// ---- load ----
+resize();
+setView('iso');
+function glbBuffer() {
+  const s = atob(window.ASSEMBLY_GLB_B64 || ''); const u = new Uint8Array(s.length);
+  for (let i = 0; i < s.length; i++) u[i] = s.charCodeAt(i);
+  return u.buffer;
+}
+new THREE.GLTFLoader().parse(glbBuffer(), '', gltf => {
+  const root = gltf.scene;
+  root.traverse(o => {
+    if (o.name) { const k = norm(o.name); (byName[k] = byName[k] || []).push(o); }
+    if (o.isMesh) {
+      const mats = Array.isArray(o.material) ? o.material : [o.material];
+      mats.forEach(m => { m.clippingPlanes = [clipPlane]; m.side = THREE.DoubleSide; if (m.transparent) m.depthWrite = false; });
+    }
+  });
+  // top-level membership: every named node directly under the three groups
+  root.traverse(o => {
+    const p = o.parent && norm(o.parent.name);
+    if (p === 'power board' || p === 'control card' || p === 'hardware case and keepouts') members[classify(o)].push(o);
+  });
+  GROUPS.forEach(([k, , on]) => members[k].forEach(o => o.visible = on));
+  scene.add(root);
+  statusEl.textContent = 'case frame in mm, floor at 0';
+  renderList('flag');
+}, err => { statusEl.textContent = 'model failed to load: ' + (err && err.message || err); });
+
+(function loop() { requestAnimationFrame(loop); controls.update(); renderer.render(scene, camera); })();
+</script>

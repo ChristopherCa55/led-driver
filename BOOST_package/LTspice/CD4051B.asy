@@ -1,0 +1,74 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 304 288 112 32
+TEXT 208 20 Center 2 CD4051B
+TEXT 208 300 Center 2 8-Ch Analog Mux/Demux
+PIN 80 48 RIGHT 8
+PINATTR PinName IO4
+PINATTR SpiceOrder 9
+PIN 80 80 RIGHT 8
+PINATTR PinName IO6
+PINATTR SpiceOrder 11
+PIN 80 112 RIGHT 8
+PINATTR PinName IOC
+PINATTR SpiceOrder 13
+PIN 80 144 RIGHT 8
+PINATTR PinName IO7
+PINATTR SpiceOrder 12
+PIN 80 176 RIGHT 8
+PINATTR PinName IO5
+PINATTR SpiceOrder 10
+PIN 80 208 RIGHT 8
+PINATTR PinName INH
+PINATTR SpiceOrder 4
+PIN 80 240 RIGHT 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 16
+PIN 80 272 RIGHT 8
+PINATTR PinName VSS
+PINATTR SpiceOrder 15
+PIN 336 48 LEFT 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 14
+PIN 336 80 LEFT 8
+PINATTR PinName IO2
+PINATTR SpiceOrder 7
+PIN 336 112 LEFT 8
+PINATTR PinName IO1
+PINATTR SpiceOrder 6
+PIN 336 144 LEFT 8
+PINATTR PinName IO0
+PINATTR SpiceOrder 5
+PIN 336 176 LEFT 8
+PINATTR PinName IO3
+PINATTR SpiceOrder 8
+PIN 336 208 LEFT 8
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 336 240 LEFT 8
+PINATTR PinName B
+PINATTR SpiceOrder 2
+PIN 336 272 LEFT 8
+PINATTR PinName C
+PINATTR SpiceOrder 3
+LINE Normal 112 48 80 48
+LINE Normal 112 80 80 80
+LINE Normal 112 112 80 112
+LINE Normal 112 144 80 144
+LINE Normal 112 176 80 176
+LINE Normal 112 208 80 208
+LINE Normal 112 240 80 240
+LINE Normal 112 272 80 272
+LINE Normal 304 48 336 48
+LINE Normal 304 80 336 80
+LINE Normal 304 112 336 112
+LINE Normal 304 144 336 144
+LINE Normal 304 176 336 176
+LINE Normal 304 208 336 208
+LINE Normal 304 240 336 240
+LINE Normal 304 272 336 272
+WINDOW 0 208 32 Center 2
+WINDOW 3 208 288 Center 2
+SYMATTR Prefix X
+SYMATTR Value 4051
+SYMATTR Description CD4051B 8-Channel Analog Multiplexer/Demultiplexer (SwitchAna.Lib "4051" model, Sw-based). Requires .param Vcc=<supply voltage> Vel=1 on the schematic. Sw-based channels (Ron=100, Vh=1m) instead of the 4066 MOSFET transmission gates used by 4051a - same pins, same 3To8 decoder, far better convergence.

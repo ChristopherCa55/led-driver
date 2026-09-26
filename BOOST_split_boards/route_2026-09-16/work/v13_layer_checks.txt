@@ -1,0 +1,12 @@
+In1/In6 GND-only and no LX on In3/In5: PASS
+zone copper by layer (mm2):
+   F.Cu    GND 3121, Vin 298, Vout_2 266, LX 228, Vout_3 162, rsense_lo 98, Vout_1 92, Output3_drain 25, Net-(M8-S) 18, m2_source 15, m4_source 13, Net-(M10-S) 13, m3_source 12, Net-(M9-S) 11
+   In1.Cu  GND 4885
+   In2.Cu  GND 2434, LX 1353, Vin 524, rsense_lo 257, Vout_3 195, Vout_2 62, m2_source 15, m4_source 13, m3_source 12
+   In3.Cu  GND 2324, Vin 1026, Vout_3 539, Vout_1 476, rsense_lo 257, Vout_2 66, m2_source 15, m4_source 13, m3_source 12
+   In4.Cu  5V 4713
+   In5.Cu  GND 1439, Vin 1017, Vout_2 920, Vout_3 534, Vout_1 253, rsense_lo 249, m2_source 15, m4_source 13, m3_source 12
+   In6.Cu  GND 4885
+   B.Cu    GND 2683, LX 235, rsense_lo 194, Output2_drain 148, Vout_3 112, Vout_1 112, Output1_drain 100, Vin 89, Vout_2 75, Output3_drain 49, m2_source 15, m4_source 13, m3_source 12
+tracks: 1697
+vias by net group and drill: {('GND', 0.3): 4, ('GND', 0.4): 165, ('GND', 0.5): 6, ('LX', 0.4): 113, ('LX', 0.5): 4, ('Vin', 0.4): 112, ('Vin', 0.5): 32, ('other', 0.3): 125, ('other', 0.4): 228, ('other', 0.5): 16, ('rsense_lo', 0.5): 60}

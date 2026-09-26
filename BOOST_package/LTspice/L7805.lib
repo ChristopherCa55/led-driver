@@ -1,0 +1,19 @@
+* ============================================================================
+* L7805CV - 5V 1.5A linear regulator (TO-220), behavioural model
+* NOT an ST model. Reproduces regulation and dropout only.
+*
+* Dropout modelled at the datasheet WORST CASE of 2.0 V, so it needs Vin > 7 V.
+* At the ~6 mA the digital rail draws, the real part drops far less (~0.5 V),
+* so this model is pessimistic - which is the safe direction.
+*
+* Sized for: digital 5 V rail (comparators, CD4017, CD4051, 74AC logic,
+* UCC21520 VCCI) ~ 5.5 mA. Dissipation from 15 V = 55 mW. No heatsink needed.
+*
+* NOT MODELLED: current limit, thermal shutdown, PSRR vs frequency,
+* startup ramp, load/line regulation detail, minimum load requirement.
+* ============================================================================
+.SUBCKT L7805 IN OUT GND
+BR n1 GND V=min(V(IN)-V(GND)-2.0, 5.0)
+RO n1 OUT 0.05
+IQ IN GND 5m
+.ENDS L7805

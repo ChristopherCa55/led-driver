@@ -1,0 +1,19 @@
+* ============================================================================
+* LM78L05ACZ - 5V 100mA linear regulator (TO-92), behavioural model
+* NOT a TI/onsemi model. Reproduces regulation and dropout only.
+*
+* Intended for the ANALOG 5 V rail only: 6x MCP6241 + INA241A3 = ~3.5 mA,
+* i.e. 3.5% of its 100 mA rating. Dissipation from 15 V = 35 mW, well inside
+* the ~600 mW a TO-92 can shed without a heatsink.
+*
+* Feed it from the RAW INPUT, not from the digital 5 V rail - the point of a
+* second regulator is supply isolation, which you lose if you daisy-chain it.
+*
+* Output impedance is modelled at 0.5 ohm (higher than the TO-220 parts).
+* NOT MODELLED: current limit, thermal shutdown, PSRR vs frequency, startup.
+* ============================================================================
+.SUBCKT LM78L05 IN OUT GND
+BR n1 GND V=min(V(IN)-V(GND)-1.7, 5.0)
+RO n1 OUT 0.5
+IQ IN GND 3m
+.ENDS LM78L05

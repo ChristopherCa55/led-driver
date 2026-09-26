@@ -1,0 +1,97 @@
+{
+ "tracks": [],
+ "vias": [
+  {
+   "net": "GND",
+   "x": 82.55,
+   "y": 30.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In1.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 78.25,
+   "y": 37.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "B.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 63.75,
+   "y": 57.95,
+   "dia": 0.6,
+   "drill": 0.3,
+   "layers": [
+    "In6.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 67.65,
+   "y": 113.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 39.35,
+   "y": 30.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 73.75,
+   "y": 40.35,
+   "dia": 0.6,
+   "drill": 0.3,
+   "layers": [
+    "In6.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 56.15,
+   "y": 69.25,
+   "dia": 0.6,
+   "drill": 0.3,
+   "layers": [
+    "In6.Cu",
+    "B.Cu"
+   ]
+  }
+ ],
+ "log": [
+  "board rasterised in 5.0 s",
+  "ok   GND                0.0 mm, 1 via(s) 0.8/0.4, w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s) 0.8/0.4, w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s) 0.6/0.3, w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s) 0.8/0.4, w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s) 0.8/0.4, w 0.50, gap 0.0",
+  "FAIL GND: island 0 (497291 cells; C77.2 C41.2 U6.2 C83.2 +78) to island 1 (U19.4 U19.5), gap 0.0 mm",
+  "ok   GND                0.0 mm, 1 via(s) 0.6/0.3, w 0.50, gap 0.0",
+  "FAIL GND: island 0 (497291 cells; C77.2 C41.2 U6.2 C83.2 +79) to island 2 (U19.2), gap 0.0 mm",
+  "ok   GND                0.0 mm, 1 via(s) 0.6/0.3, w 0.50, gap 0.0",
+  "FAIL GND: island 1 (592 cells; U19.4 U19.5) to island 2 (U19.2), gap 1.2 mm",
+  "     GND              done in 90.9 s (3 failed)"
+ ],
+ "failures": 3
+}

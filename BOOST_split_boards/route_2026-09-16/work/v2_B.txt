@@ -1,0 +1,29 @@
+Vin J1->R1 (DC)              18.40 A  R   1.544 mOhm   28.41 mV   0.52 W | neck  257.1 C on In3.Cu w  3.05 mm share  54% at (89.4, 60.5) | vias used 82, over 1, worst 1.01 A 1.04x at (71.7, 41.5)
+Vin caps->R1 (ripple)         9.50 A  R   0.313 mOhm    2.97 mV   0.03 W | neck    6.8 C on In2.Cu w  7.20 mm share  40% at (74.2, 41.3) | vias used 69, over 0, worst 0.82 A 0.84x at (84.0, 42.7)
+rsense_lo R1->L1             20.70 A  R   0.196 mOhm    4.07 mV   0.08 W | neck   32.7 C on In2.Cu w  9.83 mm share  46% at (64.3, 36.8) | vias used 76, over 5, worst 1.35 A 1.39x at (62.2, 37.0)
+LX L1->M1                    15.80 A  R   0.472 mOhm    7.46 mV   0.12 W | neck   46.0 C on In2.Cu w 14.89 mm share  94% at (70.4, 51.0) | vias used 41, over 0, worst 0.91 A 0.93x at (64.4, 49.0)
+LX L1->M7                     7.05 A  R   0.537 mOhm    3.79 mV   0.03 W | neck   23.2 C on In2.Cu w  4.81 mm share  69% at (76.7, 59.3) | vias used 41, over 0, worst 0.45 A 0.47x at (64.4, 56.1)
+LX L1->M6                     7.69 A  R   0.943 mOhm    7.25 mV   0.06 W | neck   85.8 C on In2.Cu w  2.85 mm share  77% at (49.7, 63.8) | vias used 32, over 1, worst 1.12 A 1.16x at (50.0, 60.7)
+LX L1->M5                     8.35 A  R   2.139 mOhm   17.86 mV   0.15 W | neck   63.3 C on In2.Cu w  2.98 mm share  64% at (88.4, 87.8) | vias used 67, over 0, worst 0.68 A 0.70x at (85.5, 82.0)
+m2_source M7->M2              7.05 A  R   0.037 mOhm    0.26 mV   0.00 W | neck    5.6 C on In5.Cu w  2.05 mm share  20% at (77.6, 63.5) | vias used 0, over 0, worst -
+m3_source M6->M3              7.69 A  R   0.042 mOhm    0.32 mV   0.00 W | neck    7.8 C on In5.Cu w  1.87 mm share  20% at (45.7, 65.0) | vias used 0, over 0, worst -
+m4_source M5->M4              8.35 A  R   0.041 mOhm    0.35 mV   0.00 W | neck    9.5 C on In5.Cu w  1.75 mm share  19% at (92.6, 89.0) | vias used 0, over 0, worst -
+Vout_1 M2->bank+J3            7.05 A  R   0.125 mOhm    0.88 mV   0.01 W | neck   21.0 C on In2.Cu w  3.23 mm share  49% at (76.2, 68.2) | vias used 22, over 0, worst 0.64 A 0.66x at (74.6, 68.8)
+Vout_2 M3->bank+J8            7.69 A  R   0.417 mOhm    3.20 mV   0.02 W | neck   18.8 C on F.Cu   w  1.23 mm share  48% at (42.6, 67.2) | vias used 26, over 1, worst 1.09 A 1.12x at (33.9, 69.5)
+Vout_3 M4->bank+J5            8.35 A  R   0.120 mOhm    1.01 mV   0.01 W | neck    7.6 C on In3.Cu w  9.81 mm share  59% at (96.3, 89.4) | vias used 29, over 0, worst 0.58 A 0.60x at (93.0, 86.4)
+Vout_1 M2->J3 (LED DC)        2.63 A  R   7.598 mOhm   19.98 mV   0.05 W | neck    9.8 C on In3.Cu w  3.51 mm share 100% at (50.5, 86.4) | vias used 15, over 0, worst 0.30 A 0.31x at (66.9, 66.2)
+Vout_2 M3->J8 (LED DC)        2.37 A  R   2.955 mOhm    7.00 mV   0.02 W | neck    6.2 C on In5.Cu w  4.02 mm share 100% at (44.3, 96.5) | vias used 17, over 0, worst 0.14 A 0.14x at (33.9, 69.5)
+Vout_3 M4->J5 (LED DC)        2.37 A  R   1.463 mOhm    3.47 mV   0.01 W | neck    1.7 C on In3.Cu w  8.82 mm share 100% at (67.5, 111.5) | vias used 22, over 0, worst 0.09 A 0.10x at (84.0, 98.5)
+Output1_drain J4->M10         2.63 A  R   1.611 mOhm    4.24 mV   0.01 W | neck    5.2 C on B.Cu   w  1.70 mm share 100% at (50.7, 99.4) | vias used 0, over 0, worst -
+Output2_drain J7->M9          2.37 A  R   2.606 mOhm    6.18 mV   0.01 W | neck    7.8 C on B.Cu   w  1.15 mm share 100% at (43.0, 96.0) | vias used 0, over 0, worst -
+Output3_drain J6->M8          2.37 A  R   3.026 mOhm    7.17 mV   0.02 W | neck    5.2 C on F.Cu   w  1.47 mm share 100% at (59.9, 104.4) | vias used 0, over 0, worst -
+M10-S M10->R52                2.63 A  R   0.310 mOhm    0.81 mV   0.00 W | neck    3.9 C on F.Cu   w  2.02 mm share 100% at (53.2, 96.0) | vias used 0, over 0, worst -
+M9-S M9->R53                  2.37 A  R   0.284 mOhm    0.67 mV   0.00 W | neck   10.4 C on F.Cu   w  0.97 mm share 100% at (41.8, 87.9) | vias used 0, over 0, worst -
+M8-S M8->R7                   2.37 A  R   0.236 mOhm    0.56 mV   0.00 W | neck    1.8 C on F.Cu   w  2.76 mm share 100% at (62.4, 101.6) | vias used 0, over 0, worst -
+GND M1->input caps+J2        15.80 A  R   0.133 mOhm    2.11 mV   0.03 W | neck   18.0 C on In6.Cu w 12.46 mm share  55% at (79.0, 51.3) | vias used 23, over 2, worst 1.11 A 1.15x at (85.6, 51.4)
+GND ch1 bank->input           7.05 A  R   0.215 mOhm    1.51 mV   0.01 W | neck    4.9 C on In5.Cu w  2.77 mm share  23% at (76.0, 55.2) | vias used 42, over 0, worst 0.63 A 0.65x at (80.5, 86.0)
+GND ch2 bank->input           7.69 A  R   0.327 mOhm    2.51 mV   0.02 W | neck    6.6 C on In5.Cu w  2.38 mm share  22% at (76.0, 55.2) | vias used 45, over 1, worst 1.05 A 1.08x at (49.9, 92.4)
+GND ch3 bank->input           8.35 A  R   0.208 mOhm    1.74 mV   0.01 W | neck    2.1 C on In1.Cu w 21.19 mm share  58% at (88.9, 71.2) | vias used 30, over 2, worst 1.14 A 1.18x at (93.0, 83.5)
+GND R52 return                2.63 A  R   0.356 mOhm    0.94 mV   0.00 W | neck    0.3 C on In5.Cu w  1.53 mm share  12% at (76.0, 55.2) | vias used 25, over 0, worst 0.51 A 0.52x at (61.1, 94.9)
+GND R53 return                2.37 A  R   0.440 mOhm    1.04 mV   0.00 W | neck    0.4 C on In5.Cu w  1.97 mm share  17% at (76.0, 55.2) | vias used 28, over 0, worst 0.48 A 0.50x at (42.3, 96.0)
+GND R7 return                 2.37 A  R   0.411 mOhm    0.97 mV   0.00 W | neck    0.2 C on In5.Cu w  1.55 mm share  11% at (76.0, 55.2) | vias used 23, over 0, worst 0.50 A 0.52x at (63.4, 109.5)

@@ -1,0 +1,37 @@
+* ============================================================================
+* Littelfuse 5KP series TVS diodes - behavioural models for the LX clamp
+* NOT Littelfuse models. Reproduce breakdown and clamping voltage vs current.
+*
+* CONNECT CATHODE TO LX, ANODE TO GROUND.
+*
+* Three different voltages matter, and none of them is "the clamp voltage":
+*   VRWM (standoff)  - max CONTINUOUS voltage before it starts conducting
+*   VBR  (breakdown) - where conduction begins, at 1 mA
+*   VC   (clamping)  - where it ends up at FULL rated surge current
+* The clamp voltage RISES WITH CURRENT between VBR and VC. It does not depend
+* on your supply voltage - a TVS is a two-terminal device.
+*
+* CHOOSING ONE: LX sits at approximately Vout during the discharge phase, so
+*   VRWM must be ABOVE your maximum rail, and
+*   VC at your peak current must be BELOW the MOSFET VDSS (100 V) with margin.
+*
+*   part      VRWM   VBRmin   VC@50A   margin under 100V   max usable rail
+*   5KP48A    48 V   53.3 V    71.6 V       28.4 V              ~44 V
+*   5KP51A    51 V   56.7 V    77.5 V       22.5 V              ~47 V
+*   5KP54A    54 V   60.0 V    83.1 V       16.9 V              ~50 V   <== for 50 V rails
+*
+* VERIFIED in ngspice: 5KP54A gives 87.41 V at 58.6 A (datasheet 87.1 V),
+* and 83.43 V at 50 A. 5KP48A gives 77.71 V at 65.9 A (datasheet 77.4 V).
+*
+* Use with LTspice's standard diode symbol - set its Value to the model name.
+*
+* NOT MODELLED: peak pulse energy limits, thermal derating, degradation from
+* repetitive pulsing. This model clamps forever; a real TVS has a duty rating,
+* and clamping ~20 ns every switching cycle is repetitive duty that the
+* 5 kW / 10-1000 us rating does NOT cover. Check the package runs cool.
+*
+* CJO=2n is an estimate and ADDS to your LX node capacitance (~14 nF already).
+* ============================================================================
+.model TVS_5KP48A D(IS=1e-12 N=1 RS=0.366 BV=53.3 IBV=1e-3 CJO=2n VJ=0.7 M=0.4)
+.model TVS_5KP51A D(IS=1e-12 N=1 RS=0.415 BV=56.7 IBV=1e-3 CJO=2n VJ=0.7 M=0.4)
+.model TVS_5KP54A D(IS=1e-12 N=1 RS=0.463 BV=60.0 IBV=1e-3 CJO=2n VJ=0.7 M=0.4)

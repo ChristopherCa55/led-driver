@@ -1,0 +1,171 @@
+board rasterised in 1.0 s
+loaded 3111 committed route items
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.0 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.1 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 13 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.1 s
+     Net-(U4-In+)     done in 0.0 s
+     Net-(U14-In+)    done in 0.0 s
+     Net-(U21-In+)    done in 0.0 s
+     Net-(U21-In-)    done in 0.0 s
+     Net-(Q1-E)       done in 0.0 s
+
+
+fan  GND              U28.4: nearest via needs 2.2 mm, not fanned out
+fan  GND              C26.2: nearest via needs 1.8 mm, not fanned out
+fan  GND              C29.2: nearest via needs 2.4 mm, not fanned out
+fan  GND              U21.2: no via reachable
+fan  GND              U13.2: no via reachable
+fan  GND              C54.2: no via reachable
+fan  GND              U26.7: no via reachable
+fan  GND              U26.20: nearest via needs 3.0 mm, not fanned out
+     FANOUT:GND       0 vias, 8 pads skipped, 0.4 s
+fan  5V               C26.1: nearest via needs 2.3 mm, not fanned out
+fan  5V               C24.1: no via reachable
+fan  5V               U5.5: no via reachable
+fan  5V               U4.5: nearest via needs 1.6 mm, not fanned out
+fan  5V               U26.17: no via reachable
+     FANOUT:5V        0 vias, 5 pads skipped, 0.2 s
+
+     analog_5V        done in 0.0 s
+     12V              done in 0.0 s
+     Net-(U106A-B)    done in 0.0 s
+     .1Vref_2         done in 0.0 s
+     IREF2_input      done in 0.0 s
+     IREF3_input      done in 0.0 s
+     .1Vref_3         done in 0.0 s
+     Net-(D4-+)       done in 0.0 s
+     .1Vref_1         done in 0.0 s
+     Net-(U106C-B)    done in 0.0 s
+     Net-(U26A-P0B)   done in 0.0 s
+     Voltage_err_2    done in 0.0 s
+rip  IREF1_input      ripping Net-(U26A-P0B), IREF2, Net-(U106A-B), 5V did not free a path
+rip  IREF1_input      ripping IREF2_input, IREF2, Net-(U106A-B), Net-(U26A-P0B), SCL, Vref_3, 0A_hi, Net-(U26E-~{RESET}) did not free a path
+FAIL IREF1_input: island 0 (228 cells; J11.26) to island 1 (U26.12), gap 13.5 mm
+     IREF1_input      done in 13.2 s (1 failed)
+     Vref_1           done in 0.0 s
+     Net-(D23-+)      done in 0.0 s
+     Vout_2           done in 0.0 s
+     Output2_drain    done in 0.0 s
+     Net-(U106B-B)    done in 0.0 s
+     Net-(U26C-P2B)   done in 0.0 s
+     Verr1            done in 0.0 s
+     Net-(U106C-A)    done in 0.0 s
+     Voltage_err_1    done in 0.0 s
+     Net-(D25-+)      done in 0.0 s
+     Net-(D26-+)      done in 0.0 s
+     Verr2            done in 0.0 s
+     Voltage_err_3    done in 0.0 s
+     Output3_drain    done in 0.0 s
+     Vref_2           done in 0.0 s
+rip  Net-(U24-In+)    ripped Net-(U106B-B), Net-(U18-Q3), Net-(U106C-A), Net-(U103B-Y), but Net-(U18-Q3) then failed; undone
+rip  Net-(U24-In+)    ripped Net-(U106B-B), Voltage_err_3, Net-(U106C-A), Net-(U18-Q3), Net-(U106C-B), analog_5V, ena_out_3, Net-(U103A-A), but analog_5V then failed; undone
+rip  Net-(U24-In+)    ripped analog_5V, Voltage_err_3, Net-(U103B-Y), Net-(U106A-B), Net-(U106B-B), Net-(U103A-A), Net-(U26A-P0B), but Net-(U106B-B) then failed; undone
+FAIL Net-(U24-In+): island 0 (216 cells; U24.3 C68.1) to island 1 (R96.2 R97.1), gap 3.7 mm
+     Net-(U24-In+)    done in 31.7 s (1 failed)
+     Vref_3           done in 0.0 s
+rip  Net-(U13-In-)    ripped Voltage_err_3, Output2_drain, Net-(U106C-B), Net-(U106B-B), but Net-(U106B-B) then failed; undone
+rip  Net-(U13-In-)    ripped Voltage_err_3, Net-(D26-+), Net-(U106C-B), .1Vref_1, Output2_drain, Net-(U106B-B), Net-(D25-+), Net-(D24-+), but Net-(D26-+) then failed; undone
+rip  Net-(U13-In-)    ripped Output2_drain, Voltage_err_3, Net-(U106B-B), but Net-(U106B-B) then failed; undone
+FAIL Net-(U13-In-): island 0 (79 cells; R39.1) to island 2 (R40.2), gap 0.6 mm
+rip  Net-(U13-In-)    ripped Voltage_err_3, Output2_drain, Net-(U106B-B), Net-(U103A-A), but Voltage_err_3 then failed; undone
+rip  Net-(U13-In-)    ripped Voltage_err_3, Net-(U106B-B), Net-(U106C-B), Net-(U103A-A), Output2_drain, analog_5V, Net-(U103B-Y), Net-(D24-+), but Voltage_err_3 then failed; undone
+rip  Net-(U13-In-)    ripped Voltage_err_3, analog_5V, Net-(U24-In+), but Voltage_err_3 then failed; undone
+FAIL Net-(U13-In-): island 0 (79 cells; R39.1) to island 1 (U13.4), gap 6.4 mm
+FAIL Net-(U13-In-): island 1 (82 cells; U13.4) to island 2 (R40.2), gap 6.9 mm
+     Net-(U13-In-)    done in 67.7 s (3 failed)
+     Output1_drain    done in 0.0 s
+     Net-(U3-In-)     done in 0.0 s
+     Net-(U22-In+)    done in 0.0 s
+     Verr3            done in 0.0 s
+     Net-(U7-In-)     done in 0.0 s
+     Net-(U23-In+)    done in 0.0 s
+     .1Vout_3         done in 0.0 s
+     Net-(U26B-P1B)   done in 0.0 s
+     .1Vout_2         done in 0.0 s
+     Net-(U106A-A)    done in 0.0 s
+     Net-(U106B-A)    done in 0.0 s
+     Vout_1           done in 0.0 s
+     Vout_3           done in 0.0 s
+     .1Vout_1         done in 0.0 s
+     Net-(D4--)       done in 0.0 s
+     Net-(D3-+)       done in 0.0 s
+     Net-(D24-+)      done in 0.0 s
+     VerrGT0          done in 0.0 s
+rip  0err_hi          ripping Net-(U4-In+), IREF3, 12V, Net-(D24-+) did not free a path
+rip  0err_hi          ripping Verr2, Net-(U4-In+), 5V, IREF3, 12V, Net-(U103A-A), Net-(D24-+), 0A_hi did not free a path
+FAIL 0err_hi: island 0 (2328 cells; R66.1 D1.2 R18.1 D3.1 +1) to island 1 (U4.1), gap 0.1 mm
+     0err_hi          done in 18.2 s (1 failed)
+     Out-             done in 0.0 s
+     Net-(U103B-Y)    done in 0.0 s
+rip  Net-(U102B-A)    ripping Net-(U4-In+), Net-(U103A-A), 12V, 0err_hi did not free a path
+rip  Net-(U102B-A)    ripping 12V, Net-(U4-In+), Net-(U103A-A), IREF3, 0err_hi, Net-(D24-+), 5V, Net-(U21-In-) did not free a path
+FAIL Net-(U102B-A): island 0 (560 cells; U18.3 U102.4) to island 1 (U28.11), gap 19.1 mm
+     Net-(U102B-A)    done in 12.1 s (1 failed)
+rip  Net-(U102C-A)    ripping Net-(U103A-A), Net-(U4-In+), 0err_hi, 12V did not free a path
+rip  Net-(U102C-A)    ripping 0err_hi, Net-(U4-In+), 12V, Net-(U103A-A), Net-(U21-In-), Net-(D24-+), Net-(U21-In+), IREF3 did not free a path
+FAIL Net-(U102C-A): island 0 (522 cells; U18.2 U102.10) to island 1 (U28.10), gap 20.5 mm
+     Net-(U102C-A)    done in 12.0 s (1 failed)
+     0A_hi            done in 0.0 s
+     IREF3            done in 0.0 s
+     IREF1            done in 0.0 s
+     ena_out_2        done in 0.0 s
+     IREF2            done in 0.0 s
+     Net-(D7--)       done in 0.0 s
+     Net-(U103A-A)    done in 0.0 s
+rip  Reset_raw        ripping 12V, Verr1, 0A_hi, 5V did not free a path
+rip  Reset_raw        ripping Verr1, 12V, 0A_hi, 5V, IREF3 did not free a path
+FAIL Reset_raw: island 0 (120 cells; U101.4) to island 1 (U5.1), gap 22.4 mm
+     Reset_raw        done in 14.0 s (1 failed)
+     low_error_timeout done in 0.0 s
+     Net-(U102A-Y)    done in 0.0 s
+     Net-(U102D-Y)    done in 0.0 s
+     ARD_M1_INHIBIT   done in 0.0 s
+     ena_out_3        done in 0.0 s
+     M1_ON            done in 0.0 s
+     ena_out_1        done in 0.0 s
+     Net-(D20-+)      done in 0.0 s
+     Net-(D5--)       done in 0.0 s
+     out_3_on         done in 0.0 s
+rip  SDA              ripped SCL, Net-(U26B-P1B), .1Vref_3, low_error_timeout, but Net-(U26B-P1B) then failed; undone
+rip  SDA              ripped Net-(U101A-Y), SCL, 0A_hi, Net-(U26B-P1B), VerrGT0, RESET-, .1Vref_3, IREF2_input, but Net-(U26B-P1B) then failed; undone
+rip  SDA              ripped Vref_3, 12V, Net-(U3-In-), IREF1, .1Vref_1, IREF2_input, analog_5V, Reset_raw, Voltage_err_1, M1_ON, .1Vref_2, Net-(U26A-P0B), but Voltage_err_1 then failed; undone
+FAIL SDA: island 0 (309 cells; J9.8) to island 1 (U26.6), gap 11.1 mm
+     SDA              done in 26.4 s (1 failed)
+     out_2_on         done in 0.0 s
+     M2_ON            done in 0.0 s
+     Net-(D20--)      done in 0.0 s
+     SCL              done in 0.0 s
+     Net-(U18-Q3)     done in 0.0 s
+     RESET-           done in 0.0 s
+     Net-(D5-+)       done in 0.0 s
+     Out              done in 0.0 s
+     M1_INHIBIT       done in 0.0 s
+     Vref_3_arduino   done in 0.0 s
+     Vref_2_arduino   done in 0.0 s
+     Vref_1_arduino   done in 0.0 s
+     Net-(C8-Pad2)    done in 0.0 s
+     Net-(D7-+)       done in 0.0 s
+     Net-(U26E-HVC{slash}A0) done in 0.0 s
+     Net-(U26E-A1)    done in 0.0 s
+     Net-(U26E-~{RESET}) done in 0.0 s
+     Net-(U101A-Y)    done in 0.0 s
+     Net-(C17-Pad2)   done in 0.0 s
+     set-             done in 0.0 s
+     Net-(C9-Pad2)    done in 0.0 s
+     Net-(C19-Pad1)   done in 0.0 s
+rip  5V               ripped Net-(U26E-~{RESET}), Net-(U26E-A1), SCL, Net-(U26C-P2B), but Net-(U26E-A1) then failed; undone
+rip  5V               ripped Net-(U26E-A1), Net-(U26E-~{RESET}), Vref_3_arduino, SCL, Net-(U106A-B), Vref_3, Net-(U26C-P2B), Net-(U26A-P0B), but Vref_3 then failed; undone
+rip  5V               ripped Net-(U26C-P2B), IREF3_input, Vref_3_arduino, but Net-(U26C-P2B) then failed; undone
+FAIL 5V: island 0 (122159 cells; U28.16 U101.14 C52.1 R82.1 +34) to island 1 (U26.17), gap 0.0 mm
+rip  5V               ripping 12V, 0A_hi, IREF3 did not free a path
+rip  5V               ripping 12V, Verr1, 0A_hi, IREF3, Net-(U4-In+), Verr3, 0err_hi, Reset_raw did not free a path
+FAIL 5V: island 0 (122159 cells; U28.16 U101.14 C52.1 R82.1 +34) to island 2 (C24.1 U5.5), gap 0.0 mm
+rip  5V               ripping Net-(U26E-~{RESET}), Net-(U26E-A1), SCL, Net-(U26C-P2B) did not free a path
+rip  5V               ripping Net-(U26E-A1), Net-(U26E-~{RESET}), Vref_3_arduino, SCL, Net-(U106A-B), Vref_3, Net-(U26C-P2B), Net-(U26A-P0B) did not free a path
+FAIL 5V: island 1 (59 cells; U26.17) to island 2 (C24.1 U5.5), gap 21.4 mm
+     5V               done in 42.5 s (3 failed)
+     GND              done in 0.0 s
+tracks 2721, vias 390, failures 13, 242 s

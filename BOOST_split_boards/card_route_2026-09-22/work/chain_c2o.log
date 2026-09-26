@@ -1,0 +1,90 @@
+== pre-route c2o (00:45)
+tracks 517, vias 128, failures 4, 117 s
+added 517 tracks, 128 vias -> work/pre_c2o.kicad_pcb
+{('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 188
+== DSN + Freerouting 20 passes (00:48)
+wrote work/fr/c2o.dsn: 109 keep-out polygons, classes {'logic': 44, 'analog': 37, 'sense': 6, 'rail12': 0, 'railA': 1, 'gnd': 1, 'p5v': 1, 'sens_cur': 1, 'sens_inp': 1, 'sens_verr': 1, 'nc': 28, 'done': 12}
+  [AD4F60\008302] Auto-routing stage completed: started with 295 unrouted nets, completed in 3277.00 seconds, final score: 573.29 (54 unrouted and 545 violations), using 3
+== import (01:42)
+{'session_items_on_sensitive_nets_removed': {'Net-(U2-In+)': 16}, 'session_tracks_widened_to_0p13': 0, 'net_flips': [], 'sensitive_identical_to_pre': True}
+{('via_dangling', 'warning'): 3, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 36
+1787 tracks, 264 vias (135 / 100 kept fixed) -> work/fr/c2o_routes.json
+== repair (01:42)
+exported 133 nets, 41 barrels, 513 pads
+added 1787 tracks, 264 vias -> work/sig_c2of_1.kicad_pcb
+{('via_dangling', 'warning'): 3, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 36
+exported 133 nets, 305 barrels, 513 pads
+tracks 2403, vias 315, failures 20, 652 s
+added 2403 tracks, 315 vias -> work/sig_c2of_2.kicad_pcb
+{('track_dangling', 'warning'): 2, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+exported 133 nets, 356 barrels, 513 pads
+tracks 2403, vias 315, failures 25, 573 s
+added 2403 tracks, 315 vias -> work/sig_c2of_3.kicad_pcb
+{('track_dangling', 'warning'): 2, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+exported 133 nets, 356 barrels, 513 pads
+tracks 2403, vias 315, failures 25, 566 s
+added 2403 tracks, 315 vias -> work/sig_c2of_4.kicad_pcb
+{('track_dangling', 'warning'): 2, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+exported 133 nets, 356 barrels, 513 pads
+tracks 2403, vias 315, failures 25, 565 s
+added 2403 tracks, 315 vias -> work/sig_c2of_5.kicad_pcb
+{('track_dangling', 'warning'): 2, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+exported 133 nets, 356 barrels, 513 pads
+tracks 2403, vias 315, failures 25, 564 s
+added 2403 tracks, 315 vias -> work/sig_c2of_6.kicad_pcb
+{('track_dangling', 'warning'): 2, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+exported 133 nets, 356 barrels, 513 pads
+tracks 2403, vias 315, failures 25, 567 s
+{('track_dangling', 'warning'): 2, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+  U Pad 2 [analog_5V] of C37 on F.Cu @(79.53,91.38) || Pad 1 [analog_5V] of R96 on F.Cu @(83.52,92.69)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND planes' [GND] on In1.Cu and In6.Cu, priority  @(45.89,70.02)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [Verr1] on F.Cu, length 1.2714 mm @(63.41,103.30) || Pad 14 [Verr1] of U28 on F.Cu @(78.10,103.70)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Pad 1 [0err_hi] of R18 on B.Cu @(76.32,100.38)
+  U Track [Net-(U26A-P0B)] on B.Cu, length 1.3435 mm @(74.68,90.88) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(D23-+)] of D23 on B.Cu @(51.43,90.29) || Track [Net-(D23-+)] on In3.Cu, length 0.7071 mm @(48.35,90.45)
+  U Track [Net-(U13-In-)] on B.Cu, length 0.3000 mm @(78.85,92.95) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 1 [Voltage_err_2] of R32 on B.Cu @(83.59,81.13) || Track [Voltage_err_2] on In4.Cu, length 1.0020 mm @(87.39,82.79)
+  U Track [.1Vref_3] on B.Cu, length 1.1568 mm @(53.23,86.81) || Pad 1 [.1Vref_3] of C42 on B.Cu @(76.16,89.31)
+  U PTH pad 15 [Vout_2] of J11 @(69.48,91.94) || Pad 2 [Vout_2] of R35 on B.Cu @(78.04,83.48)
+removed .1Vref_1 In4.Cu 0.000 mm at (67.878, 98.253)
+removed Net-(D25-+) B.Cu 0.000 mm at (76.529, 84.716)
+removed via IREF3_input at (55.273, 94.215)
+removed 3 of 3 flagged tracks and vias -> work/sig_c2ofp.kicad_pcb
+{('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 15
+  U Pad 2 [analog_5V] of C37 on F.Cu @(79.53,91.38) || Pad 1 [analog_5V] of R96 on F.Cu @(83.52,92.69)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [Verr1] on F.Cu, length 1.2714 mm @(63.41,103.30) || Pad 14 [Verr1] of U28 on F.Cu @(78.10,103.70)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Pad 1 [0err_hi] of R18 on B.Cu @(76.32,100.38)
+  U Track [Net-(U26A-P0B)] on B.Cu, length 1.3435 mm @(74.68,90.88) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(D23-+)] of D23 on B.Cu @(51.43,90.29) || Track [Net-(D23-+)] on In3.Cu, length 0.7071 mm @(48.35,90.45)
+  U Track [Net-(U13-In-)] on B.Cu, length 0.2828 mm @(78.55,92.95) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 1 [Voltage_err_2] of R32 on B.Cu @(83.59,81.13) || Track [Voltage_err_2] on In4.Cu, length 1.0020 mm @(87.39,82.79)
+  U Track [.1Vref_3] on B.Cu, length 1.1568 mm @(53.23,86.81) || Pad 1 [.1Vref_3] of C42 on B.Cu @(76.16,89.31)
+  U PTH pad 15 [Vout_2] of J11 @(69.48,91.94) || Pad 2 [Vout_2] of R35 on B.Cu @(78.04,83.48)
+routes: work/g_c2of_6.json
+final: work/sig_c2ofp.kicad_pcb
+== done (02:41)
+
+real	116m5.532s
+user	0m0.949s
+sys	0m0.939s

@@ -1,0 +1,24 @@
+board rasterised in 2.0 s
+loaded 4901 committed route items
+first: 4 nets from earlier passes routed ahead of the plane fan-outs
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+     Net-(U7-In-)     done in 0.0 s
+rip  Vref_3_arduino   ripped Net-(U106A-B), Net-(D23-+), 0A_hi, Vref_3, but 0A_hi then failed; undone
+rip  Vref_3_arduino   ripped Net-(U106A-B), Net-(D23-+), 0A_hi, Net-(U22-In+), Net-(U26E-~{RESET}), Vref_3, Net-(U26C-P2B), Net-(D4-+), but Net-(U22-In+) then failed; undone
+rip  Vref_3_arduino   ripped and re-routed Net-(U106A-B)
+     ok   Net-(U106A-B)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(U106A-B)     16.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 12.3
+     ok   Net-(U106A-B)     35.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 30.1
+     Vref_3_arduino   done in 46.1 s
+     IREF2_input      done in 0.0 s
+     IREF1_input      done in 0.0 s
+tracks 4483, vias 440, failures 0, 55 s
+
+real	0m55.779s
+user	0m0.000s
+sys	0m0.015s

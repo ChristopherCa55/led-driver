@@ -1,5 +1,19 @@
-Traceback (most recent call last):
-  File "C:\Users\Dominick Junior\AppData\Local\Temp\claude\C--Users-Dominick-Junior-Downloads-UCSD-Stuff-2025-2026-robotx-boat-code-stuff-rx26-asv\f9992ea6-ae1d-40d1-8331-d525af1a19f1\scratchpad\place\psa4.py", line 21, in <module>
-    random.seed(int(sys.argv[3]))
-                ^^^^^^^^^^^^^^^^
-ValueError: invalid literal for int() with base 10: '80T'
+it       0 T  20.000 step  6.00 cur   14291.1 best   14291.1
+it    7500 T  14.159 step  5.56 cur    2168.3 best    2168.3
+it   15000 T  10.024 step  5.12 cur    1917.2 best    1917.2
+it   22500 T   7.096 step  4.70 cur    1973.1 best    1897.0
+it   30000 T   5.024 step  4.29 cur    1785.9 best    1785.9
+it   45000 T   2.518 step  3.51 cur    1665.4 best    1665.3
+it   52500 T   1.783 step  3.14 cur    1639.1 best    1639.1
+it   60000 T   1.262 step  2.79 cur    1601.6 best    1600.3
+it   67500 T   0.893 step  2.45 cur    1577.7 best    1577.6
+it   75000 T   0.632 step  2.12 cur    1571.9 best    1571.6
+it   82500 T   0.448 step  1.81 cur    1561.5 best    1557.6
+it   90000 T   0.317 step  1.52 cur    1556.8 best    1556.8
+it   97500 T   0.224 step  1.24 cur    1534.1 best    1534.1
+it  105000 T   0.159 step  0.99 cur    1530.9 best    1530.4
+it  112500 T   0.112 step  0.75 cur    1528.4 best    1528.4
+it  120000 T   0.080 step  0.54 cur    1521.8 best    1521.8
+it  127500 T   0.056 step  0.35 cur    1519.1 best    1519.1
+it  135000 T   0.040 step  0.20 cur    1514.2 best    1514.2
+final exact cost 1511.8 (tracked 1511.8)

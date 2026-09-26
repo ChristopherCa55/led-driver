@@ -1,0 +1,13 @@
+board rasterised in 1.9 s
+loaded 5035 committed route items
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+ok   Verr1              0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Verr1              1.0 mm, 0 via(s), w 0.20, gap 0.7
+ok   Verr1             14.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 12.4
+     Verr1            done in 1.0 s
+tracks 4662, vias 393, failures 0, 10 s

@@ -1,0 +1,276 @@
+{
+ "tracks": [
+  {
+   "net": "12V",
+   "layer": "In3.Cu",
+   "width": 0.4,
+   "length_mm": 3.1,
+   "max_A_per_mm": 0.44,
+   "x": 63.55,
+   "y": 69.95
+  },
+  {
+   "net": "12V",
+   "layer": "In5.Cu",
+   "width": 0.4,
+   "length_mm": 4.4,
+   "max_A_per_mm": 0.28,
+   "x": 69.35,
+   "y": 111.75
+  },
+  {
+   "net": "12V",
+   "layer": "In5.Cu",
+   "width": 0.4,
+   "length_mm": 7.2,
+   "max_A_per_mm": 0.84,
+   "x": 76.95,
+   "y": 42.15
+  },
+  {
+   "net": "GATE_M2",
+   "layer": "B.Cu",
+   "width": 0.3,
+   "length_mm": 0.2,
+   "max_A_per_mm": 0.25,
+   "x": 81.25,
+   "y": 72.55
+  },
+  {
+   "net": "GATE_M2",
+   "layer": "F.Cu",
+   "width": 0.3,
+   "length_mm": 3.8,
+   "max_A_per_mm": 0.54,
+   "x": 75.05,
+   "y": 71.95
+  },
+  {
+   "net": "GATE_M4",
+   "layer": "B.Cu",
+   "width": 0.3,
+   "length_mm": 5.9,
+   "max_A_per_mm": 1.02,
+   "x": 88.35,
+   "y": 85.65
+  },
+  {
+   "net": "GATE_M4",
+   "layer": "In2.Cu",
+   "width": 0.3,
+   "length_mm": 7.6,
+   "max_A_per_mm": 1.12,
+   "x": 84.35,
+   "y": 85.35
+  },
+  {
+   "net": "SNS_CH1",
+   "layer": "F.Cu",
+   "width": 0.2,
+   "length_mm": 0.4,
+   "max_A_per_mm": 0.26,
+   "x": 54.95,
+   "y": 93.35
+  },
+  {
+   "net": "Vin",
+   "layer": "B.Cu",
+   "width": 1.0,
+   "length_mm": 1.9,
+   "max_A_per_mm": 0.36,
+   "x": 60.35,
+   "y": 32.05
+  },
+  {
+   "net": "analog_5V",
+   "layer": "In5.Cu",
+   "width": 0.4,
+   "length_mm": 2.7,
+   "max_A_per_mm": 0.62,
+   "x": 71.25,
+   "y": 38.75
+  },
+  {
+   "net": "ena_out_1",
+   "layer": "B.Cu",
+   "width": 0.2,
+   "length_mm": 0.5,
+   "max_A_per_mm": 0.25,
+   "x": 80.65,
+   "y": 74.25
+  },
+  {
+   "net": "ena_out_1",
+   "layer": "In5.Cu",
+   "width": 0.2,
+   "length_mm": 5.6,
+   "max_A_per_mm": 0.47,
+   "x": 75.45,
+   "y": 55.15
+  },
+  {
+   "net": "m2_source",
+   "layer": "B.Cu",
+   "width": 1.0,
+   "length_mm": 0.1,
+   "max_A_per_mm": 0.25,
+   "x": 79.95,
+   "y": 73.55
+  },
+  {
+   "net": "out_3_on",
+   "layer": "In3.Cu",
+   "width": 0.2,
+   "length_mm": 4.3,
+   "max_A_per_mm": 0.27,
+   "x": 77.15,
+   "y": 72.45
+  }
+ ],
+ "vias": {
+  "GND": {
+   "count": 8,
+   "peak": 0.77
+  },
+  "Net-(U6-OUT)": {
+   "count": 0,
+   "peak": 0.22
+  },
+  "IREF3_input": {
+   "count": 1,
+   "peak": 0.26
+  },
+  "SNS_CH3": {
+   "count": 1,
+   "peak": 0.26
+  },
+  "analog_5V": {
+   "count": 9,
+   "peak": 0.83
+  },
+  "Vin": {
+   "count": 8,
+   "peak": 0.63
+  },
+  "5V": {
+   "count": 5,
+   "peak": 0.77
+  },
+  "Vout_2": {
+   "count": 1,
+   "peak": 0.48
+  },
+  "M1_ON": {
+   "count": 2,
+   "peak": 0.51
+  },
+  "M2_ON": {
+   "count": 2,
+   "peak": 0.43
+  },
+  "ena_out_1": {
+   "count": 3,
+   "peak": 0.84
+  },
+  "out_2_on": {
+   "count": 1,
+   "peak": 0.6
+  },
+  "ena_out_2": {
+   "count": 4,
+   "peak": 0.92
+  },
+  "out_3_on": {
+   "count": 2,
+   "peak": 0.95
+  },
+  "ena_out_3": {
+   "count": 0,
+   "peak": 0.19
+  },
+  "12V": {
+   "count": 13,
+   "peak": 1.08
+  },
+  "Current": {
+   "count": 4,
+   "peak": 1.83
+  },
+  "IREF1_input": {
+   "count": 2,
+   "peak": 1.12
+  },
+  "IREF2_input": {
+   "count": 0,
+   "peak": 0.08
+  },
+  "ISNS_N": {
+   "count": 2,
+   "peak": 0.95
+  },
+  "m4_source": {
+   "count": 1,
+   "peak": 0.65
+  },
+  "GATE_M4": {
+   "count": 1,
+   "peak": 0.85
+  },
+  "LX": {
+   "count": 2,
+   "peak": 0.61
+  },
+  "m2_source": {
+   "count": 6,
+   "peak": 0.94
+  },
+  "GATE_M7": {
+   "count": 1,
+   "peak": 1.4
+  },
+  "Net-(D22--)": {
+   "count": 0,
+   "peak": 0.06
+  },
+  "m3_source": {
+   "count": 4,
+   "peak": 1.53
+  },
+  "Net-(D11--)": {
+   "count": 2,
+   "peak": 0.93
+  },
+  "Net-(D21--)": {
+   "count": 2,
+   "peak": 0.68
+  },
+  "Net-(U8-VDDA)": {
+   "count": 1,
+   "peak": 0.48
+  },
+  "Net-(D8--)": {
+   "count": 1,
+   "peak": 0.39
+  },
+  "Net-(D14--)": {
+   "count": 0,
+   "peak": 0.04
+  },
+  "Net-(D10--)": {
+   "count": 2,
+   "peak": 0.87
+  },
+  "Net-(U15-VDDA)": {
+   "count": 2,
+   "peak": 0.82
+  },
+  "Net-(D9--)": {
+   "count": 1,
+   "peak": 0.64
+  },
+  "Net-(D2--)": {
+   "count": 2,
+   "peak": 0.87
+  }
+ }
+}

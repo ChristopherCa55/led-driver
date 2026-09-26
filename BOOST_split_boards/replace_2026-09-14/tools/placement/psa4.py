@@ -11,6 +11,10 @@ CONFIG keys: fixed {ref: [x, y, rot, side]}, singles {ref: side}, init {ref: [x,
 macros {name: {members: [[ref, dx, dy, rot, side], ...], init: [x, y, rot]}}, swap_groups [[mover, ...]],
 zones {ref: [l, t, r, b]}, in_card [refs], screwed, corner, card_size, card_x, card_y_range, card_y0,
 weights {ov, t, ko, far, card}, iters, T0, T1, step0.
+Optional ramp {term: final multiplier} with ramp_end (fraction of the run, default 0.8): the named weights
+grow geometrically from their base value to base * multiplier by ramp_end, so early moves may pass through
+overlaps while the end state must be legal. Weights change at each checkpoint; the running and best costs
+are re-evaluated under the new weights.
 """
 import sys, json, math, random
 import pmodel as M
@@ -21,7 +25,10 @@ OUT = sys.argv[2]
 random.seed(int(sys.argv[3]))
 W = dict(ov=20.0, t=10.0, ko=30.0, far=3.0, card=20.0)
 W.update(cfg.get('weights', {}))
-CS = cfg.get('card_size', 42.0)
+W0 = dict(W)
+RAMP = cfg.get('ramp', {})
+RAMP_END = cfg.get('ramp_end', 0.8)
+CS =cfg.get('card_size', 42.0)
 CORNER = tuple(cfg['corner'])
 SCREWED = set(cfg['screwed'])
 CARD_X = cfg.get('card_x', 30.0)
@@ -260,6 +267,24 @@ def checkpoint(b, it):
     write_result(b[1], b[2], OUT + '.json', dict(final=False, it=it, cost=b[0]))
 
 
+def restore(snap):
+    global card_x, card_y
+    pls, (card_x, card_y) = snap
+    for n, pl in pls.items():
+        place(n, pl)
+
+
+def set_weights(frac):
+    """Apply the ramp; return True if any weight changed."""
+    changed = False
+    f = min(1.0, frac / RAMP_END) if RAMP_END > 0 else 1.0
+    for k, m in RAMP.items():
+        w = W0[k] * m ** f
+        changed |= abs(w - W[k]) > 1e-12
+        W[k] = w
+    return changed
+
+
 ONLY = set(cfg.get('only_move') or NAMES)       # restrict a clean-up pass to a neighbourhood
 NAMES_MOVE = [n for n in NAMES if n in ONLY]
 GROUPS = [[n for n in g if n in MOVERS and n in ONLY] for g in cfg.get('swap_groups', [])]
@@ -274,6 +299,16 @@ for it in range(N):
     frac = it / N
     T = T0 * (T1 / T0) ** frac
     step = max(0.2, cfg.get('step0', 10.0) * (1 - frac) ** 1.5)
+    if it % max(1, N // 20) == 0:          # before the move branches, so no checkpoint or weight step is skipped
+        if RAMP and set_weights(frac):
+            here = snapshot()
+            restore(best[1:])
+            bcost = total()
+            restore(here)
+            cur = total()
+            best = (cur,) + here if cur <= bcost else (bcost,) + best[1:]
+        print('it %7d T %7.3f step %5.2f cur %9.1f best %9.1f' % (it, T, step, cur, best[0]), flush=True)
+        checkpoint(best, it)
     u = random.random()
     if u < 0.04 and not cfg.get('card_fixed'):
         # the card carries J10 and the standoffs with it
@@ -333,9 +368,6 @@ for it in range(N):
             best = (cur,) + snapshot()
     else:
         place(name, old)
-    if it % max(1, N // 20) == 0:
-        print('it %7d T %7.3f step %5.2f cur %9.1f best %9.1f' % (it, T, step, cur, best[0]), flush=True)
-        checkpoint(best, it)
 
 
 _, pls, (card_x, card_y) = best

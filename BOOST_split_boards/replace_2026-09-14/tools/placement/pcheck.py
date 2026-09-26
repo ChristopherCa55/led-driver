@@ -6,6 +6,50 @@ import math
 import pmodel as M
 from pmodel import pad, d
 
+
+# Gate-loop parts, added 2026-09-15 at the user's request: the series gate resistor and the gate pulldown
+# (and the anti-parallel turn-off diode, same loop) belong at the gate pin. Pad numbers are the gate-net pads.
+GATE_PARTS = {
+    'M1': [('series', 'R15', '2'), ('pulldown', 'R104', '1')],
+    'M2': [('series', 'R13', '1'), ('pulldown', 'R75', '2'), ('diode', 'D11', '2')],
+    'M3': [('series', 'R23', '2'), ('pulldown', 'R61', '2'), ('diode', 'D14', '2')],
+    'M4': [('series', 'R47', '1'), ('pulldown', 'R73', '2'), ('diode', 'D13', '2')],
+    'M5': [('series', 'R59', '1'), ('pulldown', 'R74', '2'), ('diode', 'D22', '2')],
+    'M6': [('series', 'R70', '2'), ('pulldown', 'R49', '1'), ('diode', 'D8', '2')],
+    'M7': [('series', 'R60', '2'), ('pulldown', 'R76', '2'), ('diode', 'D2', '2')],
+    'M8': [('series', 'R22', '1')],
+    'M9': [('series', 'R50', '1')],
+    'M10': [('series', 'R56', '1')],
+}
+
+# Commutation loop per channel: M1 drain -> LX FET drain -> LX source -> rail source -> rail drain ->
+# nearest rail ceramic -> GND -> M1 source. Reported only (no target): see the 2026-09-15 check-in.
+# (LX FET, rail FET, 4.7 uF bulk ceramic, 100 nF ceramic). The loop closes through the BULK cap: commutating
+# ~25 A in 20 ns moves ~500 nC, which is 5 V on 100 nF but 0.1 V on 4.7 uF, so the 100 nF cannot hold the edge.
+COMMUTATION = {
+    'ch1': ('M7', 'M2', 'C1', 'C72'),
+    'ch2': ('M6', 'M3', 'C73', 'C3'),
+    'ch3': ('M5', 'M4', 'C4', 'C76'),
+}
+
+
+def cap_of(segs):
+    return segs[4][0].split(' -> ')[1]
+
+
+def loop_segments(L, ch):
+    """[(label, mm)] for one channel's commutation loop through the 4.7 uF, or None if a part is missing."""
+    lx, rail, bulk, small = COMMUTATION[ch]
+    if any(r not in L for r in (lx, rail, 'M1', bulk, small)):
+        return None
+    cap = bulk
+    return [('M1 drain -> %s drain' % lx, M.d(L, 'M1', '2', lx, '2')),
+            ('%s drain -> source' % lx, M.d(L, lx, '2', lx, '3')),
+            ('%s source -> %s source' % (lx, rail), M.d(L, lx, '3', rail, '3')),
+            ('%s source -> drain' % rail, M.d(L, rail, '3', rail, '2')),
+            ('%s drain -> %s' % (rail, cap), M.d(L, rail, '2', cap, '1')),
+            ('%s GND -> M1 source' % cap, M.d(L, cap, '2', 'M1', '3'))]
+
 TARGETS = []
 
 
@@ -23,6 +67,7 @@ def distances(L):
         T(1, '%s GND -> M1 source' % c, d(L, c, '2', 'M1', '3'), 10)
     T(1, 'R1 rsense_lo pad -> L1.2', d(L, 'R1', '4', 'L1', '2'), 10)
     T(1, 'J1 -> R1 Vin pad (report)', d(L, 'J1', '1', 'R1', '1'), 99)
+    T(1, 'J2 GND lug -> M1 source', d(L, 'J2', '1', 'M1', '3'), 35)
     T(1, 'D19 LX -> M1 drain', d(L, 'D19', '1', 'M1', '2'), 5)
     T(1, 'D19 GND -> M1 source', d(L, 'D19', '2', 'M1', '3'), 5)
     T(1, 'U19 OUTA -> M1 gate', d(L, 'U19', '15', 'M1', '1'), 10)
@@ -44,6 +89,34 @@ def distances(L):
         T(5, '%s drain -> %s' % (fet, j), d(L, fet, '2', j, '1'), 15)
         T(5, '%s IN- -> %s (net tie)' % (u, nt), d(L, u, '4', nt, '1'), 10)
         T(5, '%s OUT -> %s gate' % (u, fet), d(L, u, '1', fet, '1'), 10)
+    for fet, parts in GATE_PARTS.items():
+        for role, ref, padnum in parts:
+            T(6, '%s (%s) -> %s gate pin' % (ref, role, fet), d(L, ref, padnum, fet, '1'), 5)
+    # driver bypass (user, 2026-09-17): capacitor pad -> IC supply / return pin. U19's VDDA cap is the tight one (M1
+    # hard-switches every cycle); the channel-B caps of U15/U10/U8 are not in the OUTB -> VSSB -> source loop, so looser
+    for cap, cp, ic, ip, what, lim in (
+            ('C31', '1', 'U19', '16', 'VDDA', 3), ('C31', '2', 'U19', '14', 'VSSA', 3),
+            ('C48', '1', 'U19', '3', 'VCCI', 5), ('C48', '2', 'U19', '4', 'GND', 5),
+            ('C51', '1', 'U15', '11', 'VDDB', 5), ('C51', '2', 'U15', '9', 'VSSB', 5),
+            ('C18', '1', 'U15', '11', 'VDDB', 10), ('C18', '2', 'U15', '9', 'VSSB', 10),
+            ('C62', '2', 'U15', '3', 'VCCI', 3), ('C62', '1', 'U15', '4', 'GND', 3),
+            ('C50', '1', 'U10', '11', 'VDDB', 3), ('C50', '2', 'U10', '9', 'VSSB', 3),
+            ('C16', '1', 'U10', '11', 'VDDB', 99), ('C16', '2', 'U10', '9', 'VSSB', 99),
+            ('C90', '1', 'U10', '3', 'VCCI', 3), ('C90', '2', 'U10', '4', 'GND', 3),
+            ('C61', '1', 'U8', '11', 'VDDB', 3), ('C61', '2', 'U8', '9', 'VSSB', 3),
+            ('C60', '1', 'U8', '11', 'VDDB', 99), ('C60', '2', 'U8', '9', 'VSSB', 99),
+            ('C89', '2', 'U8', '3', 'VCCI', 5), ('C89', '1', 'U8', '4', 'GND', 5)):
+        T(8, '%s -> %s %s pin %s' % (cap, ic, what, ip), d(L, cap, cp, ic, ip), lim)
+    # report-only rows; these use pmodel.d directly so a probe on pcheck.d keeps one entry per row
+    for ch in ('ch1', 'ch2', 'ch3'):
+        lx, rail, bulk, small = COMMUTATION[ch]
+        T(6, '%s (4.7 uF loop ceramic) -> %s drain' % (bulk, rail), d(L, bulk, '1', rail, '2'), 6)
+        T(6, '%s (100 nF) -> %s drain' % (small, rail), d(L, small, '1', rail, '2'), 6)
+        segs = loop_segments(L, ch)
+        if segs:
+            T(7, '%s M1 drain -> %s drain' % (ch, lx), segs[0][1], 99)
+            T(7, '%s %s drain -> %s (4.7 uF)' % (ch, rail, bulk), segs[4][1], 99)
+            T(7, '%s commutation loop, M1 drain -> %s -> %s -> %s -> GND -> M1 source' % (ch, lx, COMMUTATION[ch][1], cap_of(segs)), sum(v for s, v in segs), 99)
     return TARGETS
 
 
@@ -62,13 +135,16 @@ def mechanical(L, meta):
                     continue          # FET bodies sit under the board: the screw passes beside the tab only
                 if M.rect_circle_dist(r, sx, sy) < 3.75:
                     msgs.append('washer keep-out %s: %s %s (%.2f mm)' % (s, ref, kind, M.rect_circle_dist(r, sx, sy)))
-    # tall parts over screws (screwdriver path): anything taller than 3 mm within 5 mm
+    # tall parts over screws (screwdriver / nut-driver path): anything taller than 3 mm within the clearance
+    # radius (meta tall_tab_mm for FET tab screws, tall_standoff_mm for standoffs; 5.5 mm as in psa4/psa5)
     for s, (sx, sy) in screws.items():
+        lim = meta.get('tall_standoff_mm', 5.5) if s.startswith('H') else meta.get('tall_tab_mm', 5.5)
         for ref, h in M.HEIGHT.items():
             if ref in L and h > 3:
                 for side, r, kind in M.areas(L, ref):
-                    if side == 'F' and M.rect_circle_dist(r, sx, sy) < 5.0:
-                        msgs.append('screwdriver path %s blocked by %s (h %.1f)' % (s, ref, h))
+                    if side == 'F' and M.rect_circle_dist(r, sx, sy) < lim:
+                        msgs.append('screwdriver path %s blocked by %s (h %.1f, %.2f mm < %.2f)' % (
+                            s, ref, h, M.rect_circle_dist(r, sx, sy), lim))
     # 15 mm rule
     for m in M.FETS:
         if m in meta['screwed'] or m not in L:

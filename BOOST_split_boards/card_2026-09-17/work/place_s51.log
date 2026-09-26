@@ -1,0 +1,41 @@
+it       0 T 8.000 cost 22088.5 acc 1.00 (0 s)
+it   50000 T 4.856 cost 4240.9 acc 0.21 (31 s)
+it  100000 T 2.947 cost 3776.7 acc 0.15 (63 s)
+it  150000 T 1.789 cost 3518.1 acc 0.12 (90 s)
+it  200000 T 1.086 cost 3594.0 acc 0.09 (118 s)
+it  250000 T 0.659 cost 3771.9 acc 0.08 (144 s)
+it  300000 T 0.400 cost 4103.0 acc 0.07 (176 s)
+it  350000 T 0.243 cost 4551.0 acc 0.06 (208 s)
+it  400000 T 0.147 cost 5167.0 acc 0.06 (239 s)
+it  450000 T 0.089 cost 6231.6 acc 0.06 (271 s)
+it  500000 T 0.054 cost 7822.4 acc 0.06 (301 s)
+it  550000 T 0.033 cost 9017.0 acc 0.06 (328 s)
+legalized in 40 rounds
+shove U101 -> (59.58, 84.23) rot 90 B, displaces D27, R2, R8, R9
+shove U105 -> (48.37, 109.16) rot 180 B, displaces nothing
+shove U18 -> (61.37, 109.49) rot 0 B, displaces nothing
+shove U28 -> (61.47, 107.78) rot 180 F, displaces nothing
+legalized in 40 rounds
+shove U101 -> (60.32, 84.25) rot 90 B, displaces D27, R2, R8
+shove U105 -> (48.37, 109.16) rot 180 B, displaces nothing
+shove U18 -> (61.37, 109.49) rot 0 B, displaces nothing
+shove U28 -> (61.47, 107.78) rot 180 F, displaces nothing
+legalized in 40 rounds
+shove U101 -> (60.14, 84.25) rot 90 B, displaces D27, R2, R8
+shove U105 -> (48.37, 109.16) rot 180 B, displaces nothing
+shove U18 -> (61.37, 109.49) rot 0 B, displaces nothing
+shove U28 -> (61.47, 107.78) rot 180 F, displaces nothing
+legalized in 40 rounds
+shove U105 -> (48.37, 109.16) rot 180 B, displaces nothing
+shove U18 -> (61.37, 109.49) rot 0 B, displaces nothing
+shove U28 -> (61.47, 107.78) rot 180 F, displaces nothing
+legalized in 40 rounds
+shove U105 -> (48.37, 109.16) rot 180 B, displaces nothing
+shove U18 -> (61.37, 109.49) rot 0 B, displaces nothing
+shove U28 -> (61.47, 107.78) rot 180 F, displaces nothing
+legalized in 40 rounds
+shove U105 -> (48.37, 109.16) rot 180 B, displaces nothing
+shove U18 -> (61.37, 109.49) rot 0 B, displaces nothing
+shove U28 -> (61.47, 107.78) rot 180 F, displaces nothing
+legalized in 40 rounds
+done: overlap 2.512 mm2, outside 14.000 mm2, keep-out 6.055, weighted wire length 2301; 71 F / 89 B (450 s)

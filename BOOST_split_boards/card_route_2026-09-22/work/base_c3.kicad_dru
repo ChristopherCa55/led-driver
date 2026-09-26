@@ -1,0 +1,26 @@
+(version 1)
+
+# Control card routing rules (2026-09-22). Tightening only: the shipped BOOST_control.kicad_pro is unchanged.
+
+# Via drill >= 0.3 mm (user, check-in 2 routing plan). The board minimum is 0.25 mm; 0.25 mm drills cost extra at JLCPCB.
+(rule "via drill 0.3"
+	(condition "A.Type == 'Via'")
+	(constraint hole_size (min 0.3mm)))
+
+# U2 In+ and Current: no via of another net (GND stitching excepted) within 2 mm of their copper (user, 2026-09-22).
+# clearance covers layers where the via is flashed, hole_clearance the layers where its unused annulus is removed.
+(rule "U2 In+ foreign via 2 mm"
+	(condition "A.NetName == 'Net-(U2-In+)' && B.Type == 'Via' && B.NetName != 'GND' && B.NetName != 'Net-(U2-In+)'")
+	(constraint clearance (min 2mm))
+	(constraint hole_clearance (min 2mm)))
+
+(rule "Current foreign via 2 mm"
+	(condition "A.NetName == 'Current' && B.Type == 'Via' && B.NetName != 'GND' && B.NetName != 'Current'")
+	(constraint clearance (min 2mm))
+	(constraint hole_clearance (min 2mm)))
+
+# Copper keeps the 0.3 mm board-edge clearance from non-plated holes (J9 tie slots count as board edge in DRC;
+# the fill otherwise stops at the 0.2 mm hole clearance).
+(rule "NPTH 0.3"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_clearance (min 0.3mm)))

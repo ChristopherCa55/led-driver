@@ -7,7 +7,9 @@ inv_power.json (fpinventory.py). Transform (to verify against pcbnew before use)
 """
 import json, math, os
 HERE = os.path.dirname(os.path.abspath(__file__))
-INV = json.load(open(os.path.join(HERE, 'inv_power2.json')))   # netlist after J10 -> ESQ socket, R13/R23/R47 220
+# inv_power2.json: netlist after J10 -> ESQ socket, R13/R23/R47 220 (all runs up to p12).
+# inv_power3.json: + C30 tantalum, C7/C55 1210, C41/C44/C45, NoHole FETs (2026-09-15). Select with PMODEL_INV.
+INV = json.load(open(os.path.join(HERE, os.environ.get('PMODEL_INV', 'inv_power2.json'))))
 
 BOARD = [(30, 30), (86, 30), (86, 42), (104, 42), (104, 116), (30, 116)]   # notch top-right
 PENETRATOR = (96.5, 31.5, 7.5)
@@ -16,8 +18,12 @@ for r in ('C70', 'C86', 'C88', 'C71', 'C78', 'C87', 'C74', 'C75', 'C77'):
     HEIGHT[r] = 16.8
 for r in ('C40', 'C69', 'C85'):
     HEIGHT[r] = 12.8
-for r in ('C7', 'C30', 'C55'):
-    HEIGHT[r] = 5.7
+if 'Tantalum' in INV.get('C30', {}).get('fp', ''):
+    HEIGHT['C30'] = 3.1       # Vishay TR3 case D: 2.8 +/- 0.3 mm (datasheet 40080)
+    HEIGHT['C7'] = HEIGHT['C55'] = 2.7   # GRM32ER 1210: T code E, 2.5 +/- 0.2 mm (Murata code; not re-read this session)
+else:
+    for r in ('C7', 'C30', 'C55'):
+        HEIGHT[r] = 5.7       # 6.3 x 5.4 electrolytic cans (inv_power2)
 FETS = ['M%d' % i for i in range(1, 11)]
 CAN_VENT_CLEAR = 2.0
 CARD_GAP = 21.21          # ESQ-115-44 + TSW-115-07 (user decision 2026-09-15); L1 never under the card

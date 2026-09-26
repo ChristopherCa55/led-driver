@@ -1,0 +1,47 @@
+board rasterised in 1.9 s
+loaded 4486 committed route items
+first: 8 nets from earlier passes routed ahead of the plane fan-outs
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+ok   IREF3              4.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.7
+ok   IREF3             32.1 mm, 2 via(s) 0.5/0.3, w 0.20, gap 27.6
+     IREF3            done in 1.9 s
+ok   Net-(C8-Pad2)      1.0 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(C8-Pad2)     26.1 mm, 3 via(s) 0.5/0.3, w 0.20, gap 22.0
+     Net-(C8-Pad2)    done in 1.1 s
+ok   Net-(D5-+)         4.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.7
+ok   Net-(D5-+)        24.5 mm, 3 via(s) 0.5/0.3, w 0.20, gap 20.5
+     Net-(D5-+)       done in 1.4 s
+ok   Net-(U103B-Y)     38.5 mm, 3 via(s) 0.5/0.3, w 0.20, gap 33.1
+     Net-(U103B-Y)    done in 1.6 s
+ok   Net-(U106A-B)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U106A-B)     16.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 12.3
+ok   Net-(U106A-B)     34.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 30.1
+     Net-(U106A-B)    done in 2.1 s
+rip  Net-(U13-In-)    ripped analog_5V, Net-(U106A-B), Net-(D26-+), Voltage_err_3, but analog_5V then failed; undone
+rip  Net-(U13-In-)    ripped Net-(U106A-B), Net-(D26-+), Voltage_err_3, analog_5V, Net-(U24-In+), Net-(U106C-B), Net-(U102B-A), .1Vout_3, but Net-(U24-In+) then failed; undone
+rip  Net-(U13-In-)    ripped and re-routed Net-(U102B-A), Net-(U106A-B)
+     ok   Net-(U106A-B)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(U106A-B)     16.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 12.3
+     ok   Net-(U106A-B)     35.0 mm, 2 via(s) 0.5/0.3, w 0.20, gap 30.1
+     ok   Net-(U102B-A)     15.0 mm, 2 via(s) 0.5/0.3, w 0.20, gap 14.1
+     ok   Net-(U102B-A)     22.0 mm, 3 via(s) 0.5/0.3, w 0.20, gap 19.1
+rip  Net-(U13-In-)    ripped Net-(U102B-A), Net-(U102C-A), Net-(U106B-B), analog_5V, but Net-(U106B-B) then failed; undone
+rip  Net-(U13-In-)    ripped Net-(U102B-A), Net-(U102D-Y), analog_5V, Net-(U106B-B), Net-(U102C-A), Net-(U103A-A), Out-, IREF2, but Net-(U106B-B) then failed; undone
+rip  Net-(U13-In-)    ripped IREF1, analog_5V, Net-(D25-+), Net-(U102B-A), .1Vref_3, Net-(U24-In+), Net-(U103A-A), but analog_5V then failed; undone
+FAIL Net-(U13-In-): island 0 (664 cells; R39.1 R40.2) to island 1 (U13.4), gap 6.5 mm
+     Net-(U13-In-)    done in 270.9 s (1 failed)
+ok   Output2_drain     14.5 mm, 1 via(s) 0.5/0.3, w 0.15, gap 13.1
+     Output2_drain    done in 1.3 s
+ok   12V               65.4 mm, 3 via(s) 0.5/0.3, w 0.30, gap 6.5
+ok   12V               22.8 mm, 3 via(s) 0.5/0.3, w 0.30, gap 15.7
+     12V              done in 13.4 s
+tracks 4664, vias 436, failures 1, 302 s
+
+real	5m2.812s
+user	0m0.000s
+sys	0m0.015s

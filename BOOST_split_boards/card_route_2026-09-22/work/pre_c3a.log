@@ -1,0 +1,189 @@
+board rasterised in 0.5 s
+pre-route mode: sensitive nets, other comparator inputs, stitching, decoupling links, plane fan-outs, then every net with a pin inside a sensitive zone
+ok   Current            1.3 mm, 0 via(s), w 0.20, gap 1.1
+ok   Current            1.6 mm, 0 via(s), w 0.20, gap 1.4
+prot Current          track zone on In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.2 s
+ok   Net-(U2-In+)       0.1 mm, 1 via(s) 0.5/0.3, w 0.15, gap 0.0
+ok   Net-(U2-In+)       2.9 mm, 2 via(s) 0.5/0.3, w 0.15, gap 1.9
+ok   Net-(U2-In+)       7.8 mm, 1 via(s) 0.5/0.3, w 0.15, gap 6.0
+prot Net-(U2-In+)     track zone on F.Cu/In5.Cu/B.Cu, via zone all layers; 10 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+ok   V_err             13.1 mm, 1 via(s) 0.5/0.3, w 0.15, gap 0.0
+ok   V_err              1.2 mm, 0 via(s), w 0.15, gap 0.6
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 12 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+FAIL Net-(U4-In+): island 0 (76 cells; R19.1) to island 2 (R20.1), gap 0.8 mm
+FAIL Net-(U4-In+): island 1 (74 cells; R18.2) to island 2 (R20.1), gap 0.8 mm
+ok   Net-(U4-In+)       1.3 mm, 0 via(s), w 0.20, gap 0.9
+ok   Net-(U4-In+)       3.7 mm, 0 via(s), w 0.20, gap 3.2
+     Net-(U4-In+)     done in 3.6 s (2 failed)
+ok   Net-(U14-In+)      0.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U14-In+)      1.5 mm, 0 via(s), w 0.20, gap 1.2
+ok   Net-(U14-In+)      3.7 mm, 0 via(s), w 0.20, gap 2.3
+     Net-(U14-In+)    done in 0.2 s
+ok   Net-(U21-In+)      0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U21-In+)      1.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+ok   Net-(U21-In+)      1.4 mm, 0 via(s), w 0.20, gap 1.1
+     Net-(U21-In+)    done in 0.2 s
+ok   Net-(U21-In-)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U21-In-)      2.4 mm, 0 via(s), w 0.20, gap 2.0
+     Net-(U21-In-)    done in 0.1 s
+ok   Net-(Q1-E)         0.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(Q1-E)         3.9 mm, 0 via(s), w 0.20, gap 2.3
+ok   Net-(Q1-E)        20.0 mm, 0 via(s), w 0.20, gap 14.0
+     Net-(Q1-E)       done in 0.2 s
+stch Net-(U2-In+)     4 GND vias beside its In5.Cu run
+stch Current          2 GND vias beside its B.Cu run
+stch V_err            0 GND vias beside its In5.Cu run
+stch J9.10            2 GND vias beside the thermal-relief pad
+dcap 5V               C104.1 -> U103.14: 1.1 mm, 0 via(s), w 0.30
+dcap 5V               C98.1 -> U4.5: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C28.1 -> U2.5: 1.3 mm, 0 via(s), w 0.30
+dcap 5V               C53.2 -> U21.5: 0.9 mm, 0 via(s), w 0.30
+dcap 5V               C24.1 -> U5.5: 1.3 mm, 0 via(s), w 0.30
+dcap 5V               C12.1 -> U14.5: 1.1 mm, 0 via(s), w 0.30
+dcap 5V               C58.1 -> U104.14: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C23.1 -> U106.14: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C52.1 -> U18.16: 0.9 mm, 0 via(s), w 0.30
+dcap 5V               C91.2 -> U102.14: 5.7 mm, 0 via(s), w 0.30
+dcap 5V               C22.1 -> U101.14: 4.8 mm, 0 via(s), w 0.30
+dcap analog_5V        C63.1 -> U22.5: 1.1 mm, 0 via(s), w 0.30
+dcap analog_5V        C37.2 -> U24.5: 1.3 mm, 0 via(s), w 0.30
+dcap analog_5V        C38.2 -> U23.5: 2.9 mm, 0 via(s), w 0.30
+dcap analog_5V        C36.2 -> U7.5: 3.7 mm, 0 via(s), w 0.30
+dcap analog_5V        C32.1 -> U13.5: 9.4 mm, 2 via(s), w 0.30
+     DECAP            16 direct links, 1.0 s
+fan  GND              C10.1: 0.5 mm stub, via 0.5/0.3
+fan  GND              C43.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U3.2: 0.2 mm stub, via 0.5/0.3
+fan  GND              U28.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U28.4: 1.4 mm stub, via 0.5/0.3
+fan  GND              U28.5: 0.3 mm stub, via 0.5/0.3
+fan  GND              U28.7: 0.2 mm stub, via 0.5/0.3
+fan  GND              U28.12: 0.3 mm stub, via 0.5/0.3
+fan  GND              U28.13: 0.1 mm stub, via 0.5/0.3
+fan  GND              C14.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U101.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C52.2: 0.5 mm stub, via 0.5/0.3
+fan  GND              C37.1: nearest via needs 2.0 mm, not fanned out
+fan  GND              C22.2: 0.7 mm stub, via 0.5/0.3
+fan  GND              U103.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              U18.8: 0.0 mm stub, via 0.5/0.3
+fan  GND              C59.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U14.2: no via reachable
+fan  GND              C104.2: 0.8 mm stub, via 0.5/0.3
+fan  GND              C46.2: 0.7 mm stub, via 0.5/0.3
+fan  GND              C54.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C63.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U22.2: 0.3 mm stub, via 0.5/0.3
+fan  GND              C91.1: 0.1 mm stub, via 0.5/0.3
+fan  GND              C102.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C92.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C8.1: 0.5 mm stub, via 0.5/0.3
+fan  GND              U105.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C12.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C26.2: 0.9 mm stub, via 0.5/0.3
+fan  GND              C99.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U24.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U102.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C15.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U106.7: 0.1 mm stub, via 0.5/0.3
+fan  GND              C94.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C66.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C42.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C103.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C29.2: 0.2 mm stub, via 0.5/0.3
+fan  GND              C32.2: 0.2 mm stub, via 0.5/0.3
+fan  GND              C68.2: no via reachable
+fan  GND              U21.2: no via reachable
+fan  GND              U7.2: 0.3 mm stub, via 0.5/0.3
+fan  GND              U4.2: 1.2 mm stub, via 0.5/0.3
+fan  GND              U13.2: nearest via needs 1.8 mm, not fanned out
+fan  GND              C13.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C23.2: 0.5 mm stub, via 0.5/0.3
+fan  GND              C93.2: 0.8 mm stub, via 0.5/0.3
+fan  GND              Q1.3: 1.2 mm stub, via 0.5/0.3
+fan  GND              C9.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              U2.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C95.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C97.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C58.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C53.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C36.1: nearest via needs 2.2 mm, not fanned out
+fan  GND              C47.2: 0.2 mm stub, via 0.5/0.3
+fan  GND              U23.2: 1.2 mm stub, via 0.5/0.3
+fan  GND              U26.7: no via reachable
+fan  GND              U26.10: 0.5 mm stub, via 0.5/0.3
+fan  GND              U26.20: 0.8 mm stub, via 0.5/0.3
+fan  GND              C101.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U104.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C19.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C98.2: 0.0 mm stub, via 0.5/0.3
+     FANOUT:GND       59 vias, 7 pads skipped, 1.8 s
+fan  5V               U28.16: no via reachable
+fan  5V               U101.14: 0.0 mm stub, via 0.5/0.3
+fan  5V               C52.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C22.1: 0.4 mm stub, via 0.5/0.3
+fan  5V               U103.14: 0.0 mm stub, via 0.5/0.3
+fan  5V               U18.16: 0.0 mm stub, via 0.5/0.3
+fan  5V               U14.5: 0.1 mm stub, via 0.5/0.3
+fan  5V               C104.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C54.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C91.2: 0.0 mm stub, via 0.5/0.3
+fan  5V               C92.1: 0.1 mm stub, via 0.5/0.3
+fan  5V               U105.14: 0.0 mm stub, via 0.5/0.3
+fan  5V               C12.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C26.1: 0.8 mm stub, via 0.5/0.3
+fan  5V               C99.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               U102.14: 0.0 mm stub, via 0.5/0.3
+fan  5V               U106.14: 0.0 mm stub, via 0.5/0.3
+fan  5V               C24.1: no via reachable
+fan  5V               U5.5: no via reachable
+fan  5V               C29.1: nearest via needs 2.1 mm, not fanned out
+fan  5V               U21.5: 0.1 mm stub, via 0.5/0.3
+fan  5V               U4.5: 1.0 mm stub, via 0.5/0.3
+fan  5V               C23.1: 0.4 mm stub, via 0.5/0.3
+fan  5V               U2.5: 0.5 mm stub, via 0.5/0.3
+fan  5V               C95.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C97.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C58.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               U26.17: no via reachable
+fan  5V               C96.1: 0.6 mm stub, via 0.5/0.3
+fan  5V               U104.14: 0.1 mm stub, via 0.5/0.3
+     FANOUT:5V        25 vias, 5 pads skipped, 0.5 s
+zone nets (9): 0A_hi 0err_hi Net-(C8-Pad2) Net-(D24-+) Net-(U106C-B) Reset_raw Verr1 Verr2 Verr3
+ok   0A_hi             12.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+ok   0A_hi             22.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 21.3
+ok   0err_hi            1.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+ok   0err_hi            5.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.5
+ok   0err_hi           14.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 5.3
+ok   0err_hi           31.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 25.3
+ok   0err_hi           21.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 19.3
+ok   Net-(C8-Pad2)      0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(C8-Pad2)     25.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 22.0
+ok   Net-(D24-+)        3.7 mm, 1 via(s) 0.5/0.3, w 0.15, gap 0.8
+ok   Net-(D24-+)       58.8 mm, 4 via(s) 0.5/0.3, w 0.20, gap 45.1
+ok   Net-(U106C-B)      5.6 mm, 0 via(s), w 0.20, gap 4.8
+ok   Net-(U106C-B)     11.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 10.5
+ok   Net-(U106C-B)     13.7 mm, 0 via(s), w 0.20, gap 10.9
+rip  Reset_raw        ripped 0A_hi, 5V, but 5V then failed; undone
+rip  Reset_raw        ripped 0A_hi, 5V, Net-(U4-In+), 0err_hi, but Net-(U4-In+) then failed; undone
+rip  Reset_raw        ripped and re-routed 0A_hi, 0err_hi
+     ok   0err_hi            1.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+     ok   0err_hi            5.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.5
+     ok   0err_hi           14.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 5.3
+     ok   0err_hi           31.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 25.3
+     ok   0err_hi           21.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 19.3
+     ok   0A_hi             12.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+     ok   0A_hi             24.8 mm, 4 via(s) 0.5/0.3, w 0.20, gap 21.3
+ok   Verr1              0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Verr1              1.0 mm, 0 via(s), w 0.20, gap 0.8
+ok   Verr1             28.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 12.4
+ok   Verr2              1.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.4
+ok   Verr2              2.8 mm, 0 via(s), w 0.20, gap 1.0
+ok   Verr2              2.9 mm, 0 via(s), w 0.20, gap 2.6
+ok   Verr3              1.1 mm, 0 via(s), w 0.20, gap 0.9
+ok   Verr3              1.3 mm, 0 via(s), w 0.20, gap 1.0
+ok   Verr3              1.4 mm, 0 via(s), w 0.20, gap 1.2
+tracks 543, vias 130, failures 2, 31 s

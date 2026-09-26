@@ -1,0 +1,164 @@
+exported 133 nets, 41 barrels, 513 pads
+added 3142 tracks, 409 vias -> work/sig_c3or_1.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 48, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 36
+exported 133 nets, 450 barrels, 513 pads
+tracks 3413, vias 429, failures 15, 522 s
+added 3413 tracks, 429 vias -> work/sig_c3or_2.kicad_pcb
+{('starved_thermal', 'error'): 2, ('via_dangling', 'warning'): 43, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 31
+exported 133 nets, 470 barrels, 513 pads
+tracks 3423, vias 427, failures 15, 456 s
+added 3423 tracks, 427 vias -> work/sig_c3or_3.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 39, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 28
+exported 133 nets, 468 barrels, 513 pads
+tracks 3484, vias 429, failures 14, 356 s
+added 3484 tracks, 429 vias -> work/sig_c3or_4.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 38, ('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 25
+exported 133 nets, 470 barrels, 513 pads
+tracks 3494, vias 430, failures 14, 389 s
+added 3494 tracks, 430 vias -> work/sig_c3or_5.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 38, ('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 24
+exported 133 nets, 471 barrels, 513 pads
+tracks 3420, vias 429, failures 11, 330 s
+added 3420 tracks, 429 vias -> work/sig_c3or_6.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 38, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 21
+exported 133 nets, 470 barrels, 513 pads
+tracks 3475, vias 431, failures 10, 281 s
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 38, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  starved_thermal  Thermal relief connection to zone incomple | Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || PTH pad 10 [GND] of J9 @(62.49,98.44)
+unconnected 21
+  U Via [Net-(U24-In+)] on F.Cu - B.Cu @(75.45,90.05) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(74.45,72.25)
+  U Via [Reset_raw] on F.Cu - B.Cu @(71.15,106.15) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20) || Via [Reset_raw] on F.Cu - B.Cu @(57.65,86.95)
+  U Track [Net-(U26E-HVC/A0)] on In2.Cu, length 2.5456 mm @(58.35,86.65) || Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75)
+  U Pad 1 [Vref_3] of R41 on F.Cu @(58.46,89.95) || Via [Vref_3] on F.Cu - B.Cu @(61.25,89.05)
+  U Pad 1 [Vref_3] of C47 on B.Cu @(61.86,89.95) || Via [Vref_3] on F.Cu - B.Cu @(61.25,89.05)
+  U Via [Net-(D4-+)] on F.Cu - B.Cu @(49.05,79.85) || Track [Net-(D4-+)] on F.Cu, length 0.7071 mm @(49.25,80.85)
+  U Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40) || Via [Net-(D4-+)] on F.Cu - B.Cu @(49.55,108.15)
+  U Via [Net-(U22-In+)] on F.Cu - B.Cu @(50.35,92.65) || Pad 3 [Net-(U22-In+)] of U22 on F.Cu @(50.45,91.52)
+  U Via [Net-(D25-+)] on F.Cu - B.Cu @(69.25,70.65) || Pad 2 [Net-(D25-+)] of D25 on F.Cu @(69.42,71.30)
+  U Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48) || Via [.1Vout_3] on F.Cu - B.Cu @(79.05,94.05)
+  U Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Via [Net-(U26E-~{RESET})] on F.Cu - B.Cu @(53.85,92.35) || Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Via [Net-(D26-+)] on F.Cu - B.Cu @(75.45,97.45) || Pad 2 [Net-(D26-+)] of D26 on B.Cu @(75.92,97.60)
+  U Via [Net-(D26-+)] on F.Cu - B.Cu @(77.65,89.25) || Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31)
+  U Via [Net-(D26-+)] on F.Cu - B.Cu @(78.75,96.05) || Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U Via [out_2_on] on F.Cu - B.Cu @(53.25,81.75) || Pad 6 [out_2_on] of U104 on B.Cu @(55.21,81.76)
+removed via Net-(U24-In+) at (75.450, 90.050)
+removed via Net-(U7-In-) at (74.450, 72.250)
+removed via Net-(U3-In-) at (71.850, 92.150)
+removed Net-(U102C-A) In2.Cu 0.100 mm at (79.150, 78.650)
+removed via Verr2 at (80.950, 104.950)
+removed via Verr2 at (77.950, 102.150)
+removed via Reset_raw at (57.650, 86.950)
+removed via Reset_raw at (71.150, 106.150)
+removed via Output2_drain at (80.850, 94.150)
+removed via M1_INHIBIT at (56.050, 75.250)
+removed via .1Vout_1 at (73.550, 92.050)
+removed via ena_out_3 at (83.650, 85.150)
+removed via Net-(U21-In-) at (77.350, 111.250)
+removed via Net-(D20-+) at (89.750, 70.750)
+removed via Net-(U18-Q3) at (80.950, 86.350)
+removed via Net-(U18-Q3) at (74.650, 82.350)
+removed via Vref_3 at (61.250, 89.050)
+removed via Net-(D4--) at (46.850, 79.350)
+removed via Net-(D4-+) at (49.050, 79.850)
+removed via Net-(D4-+) at (49.550, 108.150)
+removed via Net-(U22-In+) at (50.350, 92.650)
+removed via Net-(U14-In+) at (47.650, 87.850)
+removed via Net-(D25-+) at (69.250, 70.650)
+removed via Net-(D3-+) at (49.950, 108.850)
+removed via .1Vout_3 at (79.050, 94.050)
+removed via Net-(D7-+) at (84.050, 71.050)
+removed via Voltage_err_3 at (76.550, 95.750)
+removed via Net-(U26E-~{RESET}) at (53.850, 92.350)
+removed via IREF1 at (82.750, 88.550)
+removed via Vout_3 at (71.950, 94.150)
+removed via Net-(D26-+) at (77.650, 89.250)
+removed via Net-(D26-+) at (75.450, 97.450)
+removed via Net-(U13-In-) at (77.950, 84.950)
+removed via ena_out_2 at (49.450, 77.850)
+removed via ena_out_2 at (81.250, 77.150)
+removed via Net-(U106B-B) at (76.550, 83.450)
+removed via Vout_2 at (71.350, 70.650)
+removed via out_2_on at (53.250, 81.750)
+removed 38 of 39 flagged tracks and vias -> work/sig_c3orp.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  starved_thermal  Thermal relief connection to zone incomple | Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || PTH pad 10 [GND] of J9 @(62.49,98.44)
+unconnected 9
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Track [Net-(U26E-HVC/A0)] on In2.Cu, length 2.5456 mm @(58.35,86.65) || Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75)
+  U Pad 1 [Vref_3] of R41 on F.Cu @(58.46,89.95) || Pad 1 [Vref_3] of C47 on B.Cu @(61.86,89.95)
+  U Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48) || Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27) || PTH pad 4 [IREF1] of J9 @(54.88,98.44)
+  U Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31) || Via [Net-(D26-+)] on F.Cu - B.Cu @(78.75,96.05)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+removed 0 of 1 flagged tracks and vias -> work/sig_c3orp.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  starved_thermal  Thermal relief connection to zone incomple | Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || PTH pad 10 [GND] of J9 @(62.49,98.44)
+unconnected 9
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Track [Net-(U26E-HVC/A0)] on In2.Cu, length 2.5456 mm @(58.35,86.65) || Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75)
+  U Pad 1 [Vref_3] of R41 on F.Cu @(58.46,89.95) || Pad 1 [Vref_3] of C47 on B.Cu @(61.86,89.95)
+  U Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48) || Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27) || PTH pad 4 [IREF1] of J9 @(54.88,98.44)
+  U Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31) || Via [Net-(D26-+)] on F.Cu - B.Cu @(78.75,96.05)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+removed 0 of 1 flagged tracks and vias -> work/sig_c3orp.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  starved_thermal  Thermal relief connection to zone incomple | Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || PTH pad 10 [GND] of J9 @(62.49,98.44)
+unconnected 9
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Track [Net-(U26E-HVC/A0)] on In2.Cu, length 2.5456 mm @(58.35,86.65) || Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75)
+  U Pad 1 [Vref_3] of R41 on F.Cu @(58.46,89.95) || Pad 1 [Vref_3] of C47 on B.Cu @(61.86,89.95)
+  U Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48) || Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27) || PTH pad 4 [IREF1] of J9 @(54.88,98.44)
+  U Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31) || Via [Net-(D26-+)] on F.Cu - B.Cu @(78.75,96.05)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+removed 0 of 1 flagged tracks and vias -> work/sig_c3orp.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  starved_thermal  Thermal relief connection to zone incomple | Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || PTH pad 10 [GND] of J9 @(62.49,98.44)
+unconnected 9
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Track [Net-(U26E-HVC/A0)] on In2.Cu, length 2.5456 mm @(58.35,86.65) || Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75)
+  U Pad 1 [Vref_3] of R41 on F.Cu @(58.46,89.95) || Pad 1 [Vref_3] of C47 on B.Cu @(61.86,89.95)
+  U Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48) || Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27) || PTH pad 4 [IREF1] of J9 @(54.88,98.44)
+  U Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31) || Via [Net-(D26-+)] on F.Cu - B.Cu @(78.75,96.05)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+removed 0 of 1 flagged tracks and vias -> work/sig_c3orp.kicad_pcb
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  starved_thermal  Thermal relief connection to zone incomple | Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || PTH pad 10 [GND] of J9 @(62.49,98.44)
+unconnected 9
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Track [Net-(U26E-HVC/A0)] on In2.Cu, length 2.5456 mm @(58.35,86.65) || Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75)
+  U Pad 1 [Vref_3] of R41 on F.Cu @(58.46,89.95) || Pad 1 [Vref_3] of C47 on B.Cu @(61.86,89.95)
+  U Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48) || Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27) || PTH pad 4 [IREF1] of J9 @(54.88,98.44)
+  U Pad 1 [Net-(D26-+)] of U24 on F.Cu @(77.96,90.31) || Via [Net-(D26-+)] on F.Cu - B.Cu @(78.75,96.05)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+routes: work/g_c3or_6.json
+final: work/sig_c3orp.kicad_pcb
+
+real	40m45.852s
+user	0m0.709s
+sys	0m1.194s

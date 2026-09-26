@@ -1,0 +1,62 @@
+net                class         mm layers (mm)                        widths (mm: mm)        vias
+analog_5V          Rail,Def   161.7 In5 59, B 43, F 43, In3 10, In2 7  0.4: 114, 0.8: 47      0.6/0.3 x21
+12V                Rail,Def   135.1 B 77, F 27, In5 26, In2 5          0.4: 55, 0.8: 80       0.6/0.3 x11
+Vin                Power,De   110.9 B 60, In3 31, F 20                 1.0: 111               0.8/0.4 x13
+Current            Default     93.2 B 49, In5 30, F 14                 0.2: 93                0.6/0.3 x4
+m4_source          Power,De    72.3 B 46, In3 13, F 11, In5 3          1.0: 72                0.8/0.4 x4
+Net-(D10--)        Default     60.2 F 32, B 19, In5 8                  0.2: 60                0.6/0.3 x4
+Net-(U15-VDDA)     Default     57.2 B 27, In5 18, In3 12               0.2: 57                0.6/0.3 x6
+m3_source          Power,De    52.2 F 17, In2 13, B 12, In5 10         1.0: 52                0.8/0.4 x5
+Vout_2             Power,De    47.1 B 32, In5 16                       1.0: 47                0.8/0.4 x1
+out_2_on           Default     46.3 In5 36, In3 10                     0.2: 46                0.6/0.3 x2
+ena_out_2          Default     44.5 In5 40, F 4                        0.2: 44                0.6/0.3 x3
+m2_source          Power,De    44.4 B 30, F 6, In3 5, In5 2            1.0: 44                0.8/0.4 x3
+M1_ON              Default     43.3 F 35, B 9                          0.2: 43                0.6/0.3 x1
+Net-(D13--)        Default     35.1 F 14, B 10, In2 7, In3 4           0.2: 35                0.6/0.3 x4
+Net-(D11--)        Default     34.1 In5 21, B 10, F 3                  0.2: 34                0.6/0.3 x3
+GATE_M4            Gate,Def    33.0 In5 19, F 9, B 4                   0.3: 30, 0.5: 3        0.6/0.3 x3
+IREF2_input        Default     32.4 F 19, B 9, In3 5                   0.2: 32                0.6/0.3 x2
+Net-(U10-VDDA)     Default     30.8 F 17, B 14                         0.2: 31                0.6/0.3 x3
+ena_out_3          Default     29.7 B 23, In2 6                        0.2: 30                0.6/0.3 x1
+ena_out_1          Default     29.5 F 23, B 6                          0.2: 30                0.6/0.3 x1
+Net-(U8-VDDA)      Default     29.1 In2 11, B 8, F 6, In3 4            0.2: 29                0.6/0.3 x6
+Net-(D9--)         Default     28.6 In5 20, In3 8, B 0                 0.2: 29                0.6/0.3 x3
+out_3_on           Default     28.5 In2 10, In5 10, B 9                0.2: 28                0.6/0.3 x2
+Net-(D21--)        Default     26.2 F 14, B 12                         0.2: 26                0.6/0.3 x2
+IREF1_input        Default     24.8 B 12, F 9, In5 4                   0.2: 25                0.6/0.3 x3
+Net-(D14--)        Default     24.6 B 16, F 9                          0.2: 25                0.6/0.3 x2
+GATE_M7            Gate,Def    24.4 In5 14, In3 7, B 3, F 1            0.5: 24                0.6/0.3 x4
+Output2_drain      Power,De    24.3 B 24                               1.0: 24                
+M2_ON              Default     21.2 F 21, B 1                          0.2: 21                0.6/0.3 x1
+Net-(U6-OUT)       Default     19.1 In5 12, F 7                        0.2: 19                0.6/0.3 x2
+Output1_drain      Power,De    17.0 In5 17                             1.0: 17                
+IREF3_input        Default     15.3 F 11, In2 4                        0.2: 15                0.6/0.3 x1
+Net-(D8--)         Default     14.7 B 15                               0.2: 15                
+SNS_CH3            Sense,De    14.7 In2 10, F 5                        0.2: 15                0.6/0.3 x2
+Net-(D22--)        Default     14.0 F 11, B 3                          0.2: 14                0.6/0.3 x1
+Net-(D2--)         Default     13.8 In3 13, B 0                        0.2: 14                0.6/0.3 x3
+Net-(U12-OUT)      Default     12.6 F 13                               0.2: 13                
+GND                Power,De    10.8 F 5, B 5, In3 1                    0.5: 11                0.8/0.4 x13, 0.6/0.3 x2
+GATE_M2            Gate,Def    10.4 B 10, F 0                          0.5: 10                0.6/0.3 x1
+ISNS_P             Sense,De     9.4 F 9                                0.2: 9                 
+5V                 Rail,Def     9.2 B 9, F 0                           0.4: 1, 0.8: 8         0.6/0.3 x17
+GATE_M3            Gate,Def     9.1 In3 7, B 2                         0.5: 9                 0.6/0.3 x1
+ISNS_N             Sense,De     8.5 F 7, B 2                           0.2: 8                 0.6/0.3 x2
+Output3_drain      Power,De     8.2 B 8                                1.0: 8                 
+SNS_CH2            Sense,De     7.7 F 8                                0.2: 8                 
+SNS_CH1            Sense,De     7.0 F 7                                0.2: 7                 
+GATE_M6            Gate,Def     6.7 In3 4, F 2, B 0                    0.5: 7                 0.6/0.3 x2
+Vout_3             Power,De     6.1 In5 6                              1.0: 6                 
+GATE_M5            Gate,Def     3.6 F 3, B 1                           0.5: 4                 
+LX                 Power,De     2.9 F 2, B 1                           1.0: 3                 0.8/0.4 x2
+GATE_M1            Gate,Def     2.5 F 1, B 1                           0.5: 2                 
+Net-(U11-OUT)      Default      2.1 F 2                                0.2: 2                 
+Vout_1             Power,De     1.9 In5 2                              1.0: 2                 
+Net-(U19-OUTA)     Default      1.5 B 2                                0.2: 2                 
+Net-(M10-G)        Default      1.4 F 1                                0.2: 1                 
+Net-(U19-OUTB)     Default      1.4 B 1                                0.2: 1                 
+Net-(M8-G)         Default      1.1 B 1                                0.2: 1                 0.6/0.3 x1
+Net-(M9-G)         Default      1.1 F 1                                0.2: 1                 
+_isns_pair {'n_samples': 92, 'centre_spacing_median_mm': 0.7, 'centre_spacing_p90_mm': 0.78, 'centre_spacing_max_mm': 1.52}
+_totals {'tracks': 1697, 'track_mm': 1658.3, 'vias_added': 168}
+wrote renders_v13/v13_routes_by_layer.png

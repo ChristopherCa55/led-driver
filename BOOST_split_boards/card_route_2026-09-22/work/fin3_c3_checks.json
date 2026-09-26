@@ -1,0 +1,76 @@
+{
+ "board": "work/fin3_c3.kicad_pcb",
+ "layer_violations": [
+  "5V pour on In3 in 2 pieces (must be one)"
+ ],
+ "vias": 393,
+ "min_via_drill": 0.3,
+ "via_in_pad": 150,
+ "track_mm_by_layer": {
+  "B.Cu": 482.2,
+  "F.Cu": 485.3,
+  "In2.Cu": 445.4,
+  "In3.Cu": 299.2,
+  "In4.Cu": 356.5,
+  "In5.Cu": 437.4
+ },
+ "track_mm_by_layer_class": {
+  "B.Cu 5V": 18.9,
+  "B.Cu GND": 6.6,
+  "B.Cu analog": 257.2,
+  "B.Cu logic": 156.4,
+  "B.Cu rail": 43.1,
+  "F.Cu 5V": 21.2,
+  "F.Cu GND": 12.3,
+  "F.Cu analog": 176.9,
+  "F.Cu logic": 229.5,
+  "F.Cu rail": 45.4,
+  "In2.Cu analog": 140.2,
+  "In2.Cu logic": 294.3,
+  "In2.Cu rail": 10.9,
+  "In3.Cu 5V": 2.6,
+  "In3.Cu analog": 59.4,
+  "In3.Cu logic": 222.6,
+  "In3.Cu rail": 14.6,
+  "In4.Cu analog": 129.2,
+  "In4.Cu logic": 198.0,
+  "In4.Cu rail": 29.3,
+  "In5.Cu analog": 152.1,
+  "In5.Cu logic": 236.1,
+  "In5.Cu rail": 49.2
+ },
+ "gnd_pad_connections": {
+  "J11.1": 2,
+  "J11.2": 2,
+  "J11.11": 2,
+  "J11.12": 2,
+  "J11.20": 2,
+  "J11.21": 2,
+  "J11.24": 2,
+  "J11.25": 2,
+  "J11.28": 2,
+  "J11.29": 2,
+  "J9.10": 1
+ },
+ "gnd_pad_connections_ok": true,
+ "stackup_8_copper": true,
+ "plan": "open (2026-09-24)",
+ "plane_pieces": {
+  "In4.Cu GND": {
+   "pieces": 12,
+   "mm2": 1255.7
+  },
+  "In1.Cu GND": {
+   "pieces": 2,
+   "mm2": 1510.8
+  },
+  "In6.Cu GND": {
+   "pieces": 2,
+   "mm2": 1510.8
+  },
+  "In3.Cu 5V": {
+   "pieces": 2,
+   "mm2": 1243.6
+  }
+ }
+}

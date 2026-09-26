@@ -1,0 +1,189 @@
+exported 133 nets, 41 barrels, 513 pads
+tracks 3256, vias 424, failures 13, 753 s
+added 3256 tracks, 424 vias -> work/sig_c3n_1.kicad_pcb
+{('via_dangling', 'warning'): 38, ('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 29
+exported 133 nets, 465 barrels, 513 pads
+tracks 3329, vias 435, failures 24, 341 s
+added 3329 tracks, 435 vias -> work/sig_c3n_2.kicad_pcb
+{('via_dangling', 'warning'): 38, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 23
+exported 133 nets, 476 barrels, 513 pads
+tracks 3388, vias 436, failures 19, 302 s
+added 3388 tracks, 436 vias -> work/sig_c3n_3.kicad_pcb
+{('via_dangling', 'warning'): 36, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 21
+exported 133 nets, 477 barrels, 513 pads
+tracks 3373, vias 434, failures 29, 272 s
+added 3373 tracks, 434 vias -> work/sig_c3n_4.kicad_pcb
+{('via_dangling', 'warning'): 36, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 21
+exported 133 nets, 475 barrels, 513 pads
+tracks 3343, vias 433, failures 29, 301 s
+added 3343 tracks, 433 vias -> work/sig_c3n_5.kicad_pcb
+{('via_dangling', 'warning'): 35, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 20
+exported 133 nets, 474 barrels, 513 pads
+tracks 3354, vias 436, failures 29, 277 s
+added 3354 tracks, 436 vias -> work/sig_c3n_6.kicad_pcb
+{('via_dangling', 'warning'): 35, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 20
+exported 133 nets, 477 barrels, 513 pads
+tracks 3354, vias 436, failures 29, 271 s
+{('via_dangling', 'warning'): 35, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 20
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Via [Net-(U7-In-)] on F.Cu - B.Cu @(74.45,72.25) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(75.75,79.75)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(74.45,72.25)
+  U Pad 1 [Voltage_err_1] of R3 on B.Cu @(62.53,91.71) || Pad 1 [Voltage_err_1] of U3 on F.Cu @(61.85,89.83)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Via [5V] on F.Cu - B.Cu @(70.75,108.85)
+  U Via [Net-(C17-Pad2)] on F.Cu - B.Cu @(76.25,72.15) || Track [Net-(C17-Pad2)] on F.Cu, length 0.4243 mm @(77.05,71.75)
+  U Track [0A_hi] on B.Cu, length 0.2000 mm @(71.25,107.45) || Via [0A_hi] on F.Cu - B.Cu @(71.15,108.15)
+  U Track [0A_hi] on B.Cu, length 0.6000 mm @(74.05,99.05) || Via [0A_hi] on F.Cu - B.Cu @(75.05,98.85)
+  U Via [Net-(U22-In+)] on F.Cu - B.Cu @(50.35,92.65) || Pad 3 [Net-(U22-In+)] of U22 on F.Cu @(50.45,91.52)
+  U Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu @(69.38,71.55) || Pad 1 [Net-(C9-Pad2)] of R79 on B.Cu @(79.46,74.15)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 1.8385 mm @(88.75,97.65)
+  U PTH pad 5 [ena_out_1] of J11 @(69.48,79.24) || Track [ena_out_1] on In2.Cu, length 0.5657 mm @(84.05,82.05)
+  U Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U PTH pad 18 [Output3_drain] of J11 @(66.94,94.48) || Pad 1 [Output3_drain] of R87 on B.Cu @(77.83,95.16)
+  U Via [M2_ON] on F.Cu - B.Cu @(56.75,78.35) || Track [M2_ON] on In3.Cu, length 0.7000 mm @(57.05,78.95)
+  U Track [out_2_on] on B.Cu, length 0.1000 mm @(52.85,82.25) || Via [out_2_on] on F.Cu - B.Cu @(53.25,81.75)
+removed via Net-(U7-In-) at (74.450, 72.250)
+removed via Voltage_err_1 at (62.350, 103.650)
+removed via Net-(U102B-A) at (78.850, 107.350)
+removed Net-(U102B-A) In2.Cu 0.200 mm at (76.750, 84.450)
+removed via Net-(C17-Pad2) at (76.250, 72.150)
+removed via Net-(D20--) at (85.950, 90.650)
+removed via Net-(D20--) at (78.250, 71.150)
+removed via 0A_hi at (71.150, 108.150)
+removed via 0A_hi at (75.050, 98.850)
+removed via Net-(U101A-Y) at (51.650, 74.350)
+removed via Net-(U101A-Y) at (56.350, 86.950)
+removed via Out at (61.450, 80.550)
+removed via M1_INHIBIT at (56.050, 75.250)
+removed via .1Vout_1 at (73.650, 92.050)
+removed via ena_out_3 at (83.950, 95.950)
+removed via ena_out_3 at (83.650, 85.150)
+removed via Net-(U21-In-) at (77.350, 111.250)
+removed via Net-(D20-+) at (89.750, 70.750)
+removed via Net-(U18-Q3) at (81.050, 87.150)
+removed via Net-(D4--) at (46.850, 79.350)
+removed via Net-(U22-In+) at (50.350, 92.650)
+removed via Net-(D3-+) at (49.950, 108.850)
+removed via Net-(C9-Pad2) at (80.350, 73.850)
+removed via Net-(C9-Pad2) at (69.150, 71.950)
+removed via Net-(D7-+) at (84.050, 71.050)
+removed via Net-(C8-Pad2) at (88.750, 97.450)
+removed via Vout_3 at (71.950, 94.850)
+removed via Net-(U106C-B) at (78.250, 97.650)
+removed via Net-(U106C-B) at (88.650, 102.450)
+removed via Net-(U13-In-) at (77.950, 84.950)
+removed via Net-(U106B-B) at (76.550, 83.450)
+removed via Vout_1 at (73.350, 89.850)
+removed via Vout_2 at (71.350, 70.650)
+removed via M2_ON at (56.750, 78.350)
+removed via out_2_on at (53.250, 81.750)
+removed via out_3_on at (51.050, 82.850)
+removed 36 of 36 flagged tracks and vias -> work/sig_c3np.kicad_pcb
+{('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 14
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(75.75,79.75)
+  U Pad 1 [Voltage_err_1] of U3 on F.Cu @(61.85,89.83) || Pad 1 [Voltage_err_1] of R3 on B.Cu @(62.53,91.71)
+  U Track [Voltage_err_1] on B.Cu, length 3.5355 mm @(64.85,101.05) || Pad 1 [Voltage_err_1] of R27 on B.Cu @(62.60,104.15)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Via [5V] on F.Cu - B.Cu @(70.75,108.85)
+  U Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu @(69.38,71.55) || Pad 1 [Net-(C9-Pad2)] of R79 on B.Cu @(79.46,74.15)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 1.8385 mm @(88.75,97.65)
+  U PTH pad 5 [ena_out_1] of J11 @(69.48,79.24) || Track [ena_out_1] on In2.Cu, length 0.5657 mm @(84.05,82.05)
+  U Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U PTH pad 18 [Output3_drain] of J11 @(66.94,94.48) || Pad 1 [Output3_drain] of R87 on B.Cu @(77.83,95.16)
+removed Voltage_err_1 B.Cu 3.535 mm at (64.850, 101.050)
+removed Net-(C8-Pad2) In2.Cu 0.100 mm at (88.750, 97.550)
+removed 2 of 2 flagged tracks and vias -> work/sig_c3np.kicad_pcb
+{('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 14
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(75.75,79.75)
+  U Pad 1 [Voltage_err_1] of U3 on F.Cu @(61.85,89.83) || Pad 1 [Voltage_err_1] of R3 on B.Cu @(62.53,91.71)
+  U Pad 1 [Voltage_err_1] of R27 on B.Cu @(62.60,104.15) || Track [Voltage_err_1] on B.Cu, length 1.3000 mm @(64.85,99.75)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Via [5V] on F.Cu - B.Cu @(70.75,108.85)
+  U Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu @(69.38,71.55) || Pad 1 [Net-(C9-Pad2)] of R79 on B.Cu @(79.46,74.15)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 1.8385 mm @(88.75,97.65)
+  U PTH pad 5 [ena_out_1] of J11 @(69.48,79.24) || Track [ena_out_1] on In2.Cu, length 0.5657 mm @(84.05,82.05)
+  U Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U PTH pad 18 [Output3_drain] of J11 @(66.94,94.48) || Pad 1 [Output3_drain] of R87 on B.Cu @(77.83,95.16)
+removed Voltage_err_1 B.Cu 1.300 mm at (64.850, 99.750)
+removed Net-(C8-Pad2) In2.Cu 1.839 mm at (88.750, 97.650)
+removed 2 of 2 flagged tracks and vias -> work/sig_c3np.kicad_pcb
+{('via_dangling', 'warning'): 1, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 14
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(75.75,79.75)
+  U Pad 1 [Voltage_err_1] of U3 on F.Cu @(61.85,89.83) || Pad 1 [Voltage_err_1] of R3 on B.Cu @(62.53,91.71)
+  U Track [Voltage_err_1] on In3.Cu, length 0.9900 mm @(65.55,99.05) || Pad 1 [Voltage_err_1] of R27 on B.Cu @(62.60,104.15)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Via [5V] on F.Cu - B.Cu @(70.75,108.85)
+  U Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu @(69.38,71.55) || Pad 1 [Net-(C9-Pad2)] of R79 on B.Cu @(79.46,74.15)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 0.8000 mm @(87.45,98.95)
+  U PTH pad 5 [ena_out_1] of J11 @(69.48,79.24) || Track [ena_out_1] on In2.Cu, length 0.5657 mm @(84.05,82.05)
+  U Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U PTH pad 18 [Output3_drain] of J11 @(66.94,94.48) || Pad 1 [Output3_drain] of R87 on B.Cu @(77.83,95.16)
+removed via Voltage_err_1 at (64.850, 99.750)
+removed Net-(C8-Pad2) In2.Cu 0.800 mm at (87.450, 98.950)
+removed 2 of 2 flagged tracks and vias -> work/sig_c3np.kicad_pcb
+{('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 14
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(75.75,79.75)
+  U Pad 1 [Voltage_err_1] of U3 on F.Cu @(61.85,89.83) || Pad 1 [Voltage_err_1] of R3 on B.Cu @(62.53,91.71)
+  U Track [Voltage_err_1] on In3.Cu, length 0.9900 mm @(65.55,99.05) || Pad 1 [Voltage_err_1] of R27 on B.Cu @(62.60,104.15)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Via [5V] on F.Cu - B.Cu @(70.75,108.85)
+  U Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu @(69.38,71.55) || Pad 1 [Net-(C9-Pad2)] of R79 on B.Cu @(79.46,74.15)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 11.8794 mm @(87.45,99.75)
+  U PTH pad 5 [ena_out_1] of J11 @(69.48,79.24) || Track [ena_out_1] on In2.Cu, length 0.5657 mm @(84.05,82.05)
+  U Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U PTH pad 18 [Output3_drain] of J11 @(66.94,94.48) || Pad 1 [Output3_drain] of R87 on B.Cu @(77.83,95.16)
+removed Voltage_err_1 In3.Cu 0.990 mm at (65.550, 99.050)
+removed Net-(C8-Pad2) In2.Cu 11.879 mm at (87.450, 99.750)
+removed 2 of 2 flagged tracks and vias -> work/sig_c3np.kicad_pcb
+{('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 14
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Pad 1 [Net-(U7-In-)] of R31 on F.Cu @(75.42,71.39) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(75.75,79.75)
+  U Pad 1 [Voltage_err_1] of U3 on F.Cu @(61.85,89.83) || Pad 1 [Voltage_err_1] of R3 on B.Cu @(62.53,91.71)
+  U Pad 1 [Voltage_err_1] of R27 on B.Cu @(62.60,104.15) || Track [Voltage_err_1] on In3.Cu, length 5.0000 mm @(65.55,94.05)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Via [5V] on F.Cu - B.Cu @(70.75,108.85)
+  U Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu @(69.38,71.55) || Pad 1 [Net-(C9-Pad2)] of R79 on B.Cu @(79.46,74.15)
+  U Track [Net-(C8-Pad2)] on In2.Cu, length 0.7000 mm @(79.05,108.15) || Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80)
+  U PTH pad 5 [ena_out_1] of J11 @(69.48,79.24) || Track [ena_out_1] on In2.Cu, length 0.5657 mm @(84.05,82.05)
+  U Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U PTH pad 18 [Output3_drain] of J11 @(66.94,94.48) || Pad 1 [Output3_drain] of R87 on B.Cu @(77.83,95.16)
+routes: work/g_c3n_6.json
+final: work/sig_c3np.kicad_pcb
+
+real	43m23.755s
+user	0m0.983s
+sys	0m1.047s

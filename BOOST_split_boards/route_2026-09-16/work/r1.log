@@ -1,0 +1,175 @@
+board rasterised in 2.1 s
+ok   SNS_CH1            6.5 mm, 0 via(s), w 0.20
+     SNS_CH1          done in 0.1 s
+     SNS_CH1          done in 0.1 s
+ok   SNS_CH2            7.2 mm, 0 via(s), w 0.20
+     SNS_CH2          done in 0.1 s
+     SNS_CH2          done in 0.1 s
+ok   SNS_CH3           14.5 mm, 0 via(s), w 0.20
+     SNS_CH3          done in 0.1 s
+     SNS_CH3          done in 0.1 s
+ok   ISNS_P             9.2 mm, 0 via(s), w 0.20
+     ISNS_P           done in 0.1 s
+     ISNS_P           done in 0.1 s
+ok   ISNS_N             8.0 mm, 2 via(s), w 0.20
+     ISNS_N           done in 0.1 s
+     ISNS_N           done in 0.1 s
+ok   Net-(U19-OUTA)     1.2 mm, 0 via(s), w 0.20
+     Net-(U19-OUTA)   done in 0.1 s
+ok   GATE_M1            1.0 mm, 0 via(s), w 0.40
+ok   GATE_M1            1.0 mm, 0 via(s), w 0.40
+     GATE_M1          done in 0.2 s
+     GATE_M1          done in 0.2 s
+ok   Net-(U19-OUTB)     1.1 mm, 0 via(s), w 0.20
+     Net-(U19-OUTB)   done in 0.1 s
+ok   Net-(D2--)        19.1 mm, 2 via(s), w 0.20
+ok   Net-(D2--)         0.6 mm, 0 via(s), w 0.20
+     Net-(D2--)       done in 0.3 s
+ok   GATE_M7            1.1 mm, 0 via(s), w 0.40
+FAIL GATE_M7: island 0 (596 cells) to island 2, gap 1.2 mm
+     GATE_M7          done in 2.1 s (1 failed)
+ok   Net-(D11--)        5.5 mm, 1 via(s), w 0.20
+FAIL Net-(D11--): island 0 (324 cells) to island 1, gap 13.5 mm
+     Net-(D11--)      done in 2.3 s (1 failed)
+ok   GATE_M2           22.0 mm, 0 via(s), w 0.40
+ok   GATE_M2            4.5 mm, 0 via(s), w 0.40
+     GATE_M2          done in 0.4 s
+ok   Net-(D8--)         8.8 mm, 0 via(s), w 0.20
+ok   Net-(D8--)         4.0 mm, 0 via(s), w 0.20
+     Net-(D8--)       done in 0.3 s
+ok   GATE_M6            1.8 mm, 1 via(s), w 0.40
+ok   GATE_M6            1.5 mm, 0 via(s), w 0.40
+     GATE_M6          done in 0.3 s
+ok   Net-(D14--)       21.4 mm, 2 via(s), w 0.20
+ok   Net-(D14--)        1.7 mm, 0 via(s), w 0.20
+     Net-(D14--)      done in 0.4 s
+ok   GATE_M3            5.1 mm, 1 via(s), w 0.40
+ok   GATE_M3            1.0 mm, 0 via(s), w 0.40
+     GATE_M3          done in 0.3 s
+ok   Net-(D22--)       10.6 mm, 1 via(s), w 0.20
+ok   Net-(D22--)        2.3 mm, 0 via(s), w 0.20
+     Net-(D22--)      done in 0.3 s
+ok   GATE_M5            0.8 mm, 0 via(s), w 0.40
+ok   GATE_M5            1.1 mm, 0 via(s), w 0.40
+     GATE_M5          done in 0.3 s
+ok   Net-(D13--)       48.6 mm, 0 via(s), w 0.20
+ok   Net-(D13--)        2.7 mm, 0 via(s), w 0.20
+     Net-(D13--)      done in 2.3 s
+ok   GATE_M4            2.9 mm, 0 via(s), w 0.40
+ok   GATE_M4           53.6 mm, 1 via(s), w 0.40
+     GATE_M4          done in 2.2 s
+     GATE_M4          done in 2.2 s
+ok   Net-(U11-OUT)      1.9 mm, 0 via(s), w 0.20
+     Net-(U11-OUT)    done in 0.1 s
+     Net-(U11-OUT)    done in 0.1 s
+ok   Net-(M10-G)        1.1 mm, 0 via(s), w 0.20
+     Net-(M10-G)      done in 0.1 s
+     Net-(M10-G)      done in 0.1 s
+ok   Net-(U12-OUT)     12.4 mm, 0 via(s), w 0.20
+     Net-(U12-OUT)    done in 0.1 s
+     Net-(U12-OUT)    done in 0.1 s
+ok   Net-(M9-G)         0.9 mm, 0 via(s), w 0.20
+     Net-(M9-G)       done in 0.1 s
+     Net-(M9-G)       done in 0.1 s
+ok   Net-(U6-OUT)      19.9 mm, 3 via(s), w 0.20
+     Net-(U6-OUT)     done in 0.2 s
+     Net-(U6-OUT)     done in 0.2 s
+ok   Net-(M8-G)         0.9 mm, 1 via(s), w 0.20
+     Net-(M8-G)       done in 0.1 s
+ok   Net-(U15-VDDA)     4.7 mm, 0 via(s), w 0.20
+FAIL Net-(U15-VDDA): island 0 (384 cells) to island 1, gap 5.7 mm
+     Net-(U15-VDDA)   done in 2.1 s (1 failed)
+ok   Net-(U10-VDDA)     6.1 mm, 0 via(s), w 0.20
+ok   Net-(U10-VDDA)    21.9 mm, 0 via(s), w 0.20
+     Net-(U10-VDDA)   done in 0.6 s
+ok   Net-(U8-VDDA)      6.0 mm, 2 via(s), w 0.20
+ok   Net-(U8-VDDA)     12.6 mm, 2 via(s), w 0.20
+     Net-(U8-VDDA)    done in 0.5 s
+     Net-(U8-VDDA)    done in 0.5 s
+ok   Net-(D10--)       31.0 mm, 2 via(s), w 0.20
+     Net-(D10--)      done in 0.3 s
+     Net-(D10--)      done in 0.3 s
+FAIL Net-(D21--): island 0 (121 cells) to island 1, gap 20.5 mm
+     Net-(D21--)      done in 1.9 s (1 failed)
+     Net-(D21--)      done in 1.9 s (1 failed)
+ok   Net-(D9--)        27.7 mm, 0 via(s), w 0.20
+     Net-(D9--)       done in 0.2 s
+     Net-(D9--)       done in 0.2 s
+FAIL m2_source: island 0 (91 cells) to island 4, gap 0.3 mm
+     m2_source        done in 1.9 s (1 failed)
+ok   m3_source          5.7 mm, 1 via(s), w 1.00
+ok   m3_source         38.6 mm, 1 via(s), w 1.00
+     m3_source        done in 3.2 s
+     m3_source        done in 3.2 s
+FAIL m4_source: island 0 (1401 cells) to island 2, gap 3.5 mm
+     m4_source        done in 2.2 s (1 failed)
+ok   IREF1_input        7.3 mm, 0 via(s), w 0.20
+ok   IREF1_input       19.0 mm, 1 via(s), w 0.20
+     IREF1_input      done in 0.5 s
+ok   IREF2_input        1.0 mm, 0 via(s), w 0.20
+ok   IREF2_input       29.7 mm, 1 via(s), w 0.20
+     IREF2_input      done in 0.4 s
+ok   IREF3_input        4.0 mm, 1 via(s), w 0.20
+ok   IREF3_input       10.3 mm, 0 via(s), w 0.20
+     IREF3_input      done in 0.3 s
+     IREF3_input      done in 0.3 s
+FAIL Current: island 0 (139 cells) to island 1, gap 65.1 mm
+     Current          done in 2.6 s (1 failed)
+     Current          done in 2.6 s (1 failed)
+ok   M1_ON             36.1 mm, 1 via(s), w 0.20
+     M1_ON            done in 0.3 s
+     M1_ON            done in 0.3 s
+ok   M2_ON             19.6 mm, 1 via(s), w 0.20
+     M2_ON            done in 0.2 s
+     M2_ON            done in 0.2 s
+ok   ena_out_1         25.4 mm, 1 via(s), w 0.20
+     ena_out_1        done in 0.3 s
+     ena_out_1        done in 0.3 s
+ok   out_2_on          40.4 mm, 2 via(s), w 0.20
+     out_2_on         done in 0.6 s
+     out_2_on         done in 0.6 s
+ok   ena_out_2         44.0 mm, 1 via(s), w 0.20
+     ena_out_2        done in 2.9 s
+     ena_out_2        done in 2.9 s
+ok   out_3_on          28.7 mm, 0 via(s), w 0.20
+     out_3_on         done in 3.2 s
+     out_3_on         done in 3.2 s
+ok   ena_out_3         22.5 mm, 1 via(s), w 0.20
+     ena_out_3        done in 0.3 s
+ok   analog_5V          1.7 mm, 2 via(s), w 0.50
+FAIL analog_5V: island 0 (323 cells) to island 4, gap 62.8 mm
+     analog_5V        done in 2.5 s (1 failed)
+ok   12V                7.5 mm, 0 via(s), w 0.50
+FAIL 12V: island 0 (1636 cells) to island 5, gap 5.3 mm
+     12V              done in 2.2 s (1 failed)
+ok   5V                 3.6 mm, 0 via(s), w 0.50
+ok   5V                 4.4 mm, 0 via(s), w 0.50
+     5V               done in 49.0 s
+     5V               done in 49.0 s
+ok   LX                 2.1 mm, 2 via(s), w 1.00
+     LX               done in 1.4 s
+ok   Vin               14.1 mm, 2 via(s), w 1.00
+FAIL Vin: island 0 (114572 cells) to island 1, gap 18.6 mm
+     Vin              done in 9.4 s (1 failed)
+     Vin              done in 9.4 s (1 failed)
+ok   Vout_1             1.8 mm, 0 via(s), w 1.00
+     Vout_1           done in 1.3 s
+     Vout_1           done in 1.3 s
+FAIL Vout_2: island 0 (97808 cells) to island 1, gap 13.1 mm
+     Vout_2           done in 3.2 s (1 failed)
+     Vout_2           done in 3.2 s (1 failed)
+ok   Vout_3             5.6 mm, 0 via(s), w 1.00
+     Vout_3           done in 0.8 s
+     Vout_3           done in 0.8 s
+ok   Output1_drain     15.8 mm, 0 via(s), w 1.00
+     Output1_drain    done in 0.5 s
+     Output1_drain    done in 0.5 s
+ok   Output2_drain     24.2 mm, 1 via(s), w 1.00
+     Output2_drain    done in 0.6 s
+     Output2_drain    done in 0.6 s
+ok   Output3_drain      7.9 mm, 0 via(s), w 1.00
+     Output3_drain    done in 0.3 s
+ok   Output3_drain      7.9 mm, 0 via(s), w 1.00
+     Output3_drain    done in 0.3 s
+     GND              done in 0.0 s
+tracks 776, vias 60, failures 11, 111 s

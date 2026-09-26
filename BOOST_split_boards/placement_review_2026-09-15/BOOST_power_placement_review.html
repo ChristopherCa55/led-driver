@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOOST Power Placement Review</title>
+<meta name="description" content="Placement check-in for the re-placed BOOST power board: decisions, KiCad plots, distance table and DRC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --ground: #f3f5f1;
+  --surface: #ffffff;
+  --sunk: #e8ece6;
+  --ink: #1a2320;
+  --ink-2: #4a5550;
+  --ink-3: #75807a;
+  --rule: #c9d1cb;
+  --mask: #1f4a38;
+  --copper: #a95f24;
+  --copper-soft: #f4e6d9;
+  --ok: #2d6e47;
+  --ok-soft: #dcefe2;
+  --miss: #a3322a;
+  --miss-soft: #f7e0dd;
+  --warn: #8a5a00;
+  --warn-soft: #f6ecd3;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #111614; --surface: #18201c; --sunk: #202a25; --ink: #e2e8e3; --ink-2: #aab5ae; --ink-3: #7f8a84;
+    --rule: #34403a; --mask: #6fb393; --copper: #e0955a; --copper-soft: #3a2a1d; --ok: #7ccf9c; --ok-soft: #1d3527;
+    --miss: #f08a80; --miss-soft: #3e2220; --warn: #e2b04f; --warn-soft: #372c16;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #111614; --surface: #18201c; --sunk: #202a25; --ink: #e2e8e3; --ink-2: #aab5ae; --ink-3: #7f8a84;
+  --rule: #34403a; --mask: #6fb393; --copper: #e0955a; --copper-soft: #3a2a1d; --ok: #7ccf9c; --ok-soft: #1d3527;
+  --miss: #f08a80; --miss-soft: #3e2220; --warn: #e2b04f; --warn-soft: #372c16;
+}
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.55;
+  padding: 0 20px; margin: 0; -webkit-font-smoothing: antialiased; }
+.page { max-width: 1060px; margin: 0 auto; padding-block: 28px 64px; display: grid; gap: 44px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: 0.01em; text-wrap: balance; margin: 0; line-height: 1.1; }
+h2 { font-size: 30px; color: var(--ink); padding-bottom: 8px; border-bottom: 2px solid var(--mask); }
+h3 { font-size: 21px; color: var(--ink); }
+p { margin: 0; max-width: 68ch; }
+.mono, .num, code { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+code { font-size: 0.9em; background: var(--sunk); padding: 1px 5px; border-radius: 3px; }
+section { display: grid; gap: 18px; }
+.lede { color: var(--ink-2); }
+
+/* title block, as on a drawing */
+.titleblock { display: grid; grid-template-columns: 2.2fr repeat(4, 1fr); border: 1.5px solid var(--ink); background: var(--surface); }
+.titleblock > div { padding: 10px 14px; border-left: 1px solid var(--ink); display: grid; gap: 2px; align-content: start; }
+.titleblock > div:first-child { border-left: 0; }
+.tb-label { font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+.tb-value { font-family: var(--mono); font-size: 14px; }
+.titleblock h1 { font-size: 34px; }
+.titleblock .status { background: var(--copper-soft); }
+.titleblock .status .tb-value { color: var(--copper); font-weight: 500; }
+@media (max-width: 760px) {
+  .titleblock { grid-template-columns: 1fr 1fr; }
+  .titleblock > div:first-child { grid-column: 1 / -1; }
+  .titleblock > div { border-left: 0; border-top: 1px solid var(--ink); }
+  .titleblock > div:first-child { border-top: 0; }
+}
+
+/* at-a-glance readings */
+.readings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.reading { padding: 14px 16px; display: grid; gap: 4px; border-left: 1px solid var(--rule); }
+.reading:first-child { border-left: 0; padding-left: 0; }
+.reading .v { font-family: var(--display); font-size: 34px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+.reading .k { font-size: 13px; color: var(--ink-2); }
+.v.good { color: var(--ok); }
+.v.copper { color: var(--copper); }
+@media (max-width: 760px) { .readings { grid-template-columns: 1fr 1fr; } .reading:nth-child(3) { border-left: 0; padding-left: 0; } }
+
+/* decisions */
+.decisions { display: grid; gap: 14px; }
+.decision { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; display: grid; gap: 12px; }
+.decision header { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.decision .q { font-family: var(--display); font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--copper); border: 1px solid var(--copper); border-radius: 3px; padding: 1px 7px; }
+.decision ul { margin: 0; padding-left: 20px; display: grid; gap: 4px; max-width: 72ch; }
+.decision .rec { color: var(--ink-2); font-size: 14px; }
+.decision .rec strong { color: var(--ink); }
+
+/* tables */
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 7px 12px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+thead th { font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-2); background: var(--sunk); white-space: nowrap; }
+tbody tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+td.dim { color: var(--ink-3); }
+td.new { font-weight: 500; }
+tr.stage th { font-family: var(--display); font-size: 16px; font-weight: 600; background: var(--ground); color: var(--mask);
+  border-bottom: 1px solid var(--rule); padding-top: 12px; }
+.stage-no { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); margin-right: 6px; }
+tr.missrow td.path { box-shadow: inset 3px 0 0 var(--miss); }
+.chip { display: inline-block; font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 0 7px; border-radius: 3px; line-height: 1.6; }
+.chip.ok { color: var(--ok); background: var(--ok-soft); }
+.chip.miss { color: var(--miss); background: var(--miss-soft); }
+.chip.warn { color: var(--warn); background: var(--warn-soft); }
+.hard { font-family: var(--display); font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--copper); margin-left: 6px; }
+.compact td, .compact th { padding: 6px 12px; }
+
+/* plots */
+.plots { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+figure { margin: 0; display: grid; gap: 8px; }
+figure img { width: 100%; max-width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--rule); background: #d7dbe8; display: block; }
+figure.wide { grid-column: 1 / -1; }
+figure.wide img { background: #ffffff; }
+figcaption { font-size: 13px; color: var(--ink-2); max-width: 70ch; }
+@media (max-width: 760px) { .plots { grid-template-columns: 1fr; } }
+
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 74ch; }
+.note { font-size: 13px; color: var(--ink-3); }
+.files { font-family: var(--mono); font-size: 13px; display: grid; gap: 3px; }
+a { color: var(--copper); }
+:focus-visible { outline: 2px solid var(--copper); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="titleblock" aria-label="Title block">
+  <div><span class="tb-label">Board</span><h1>BOOST power board: placement check-in</h1></div>
+  <div><span class="tb-label">Layout</span><span class="tb-value">p15_b10_k2</span></div>
+  <div><span class="tb-label">Date</span><span class="tb-value">2026-09-15</span></div>
+  <div><span class="tb-label">Stage</span><span class="tb-value">Handoff step 4</span></div>
+  <div class="status"><span class="tb-label">Status</span><span class="tb-value">Accepted · 1 item open</span></div>
+</header>
+
+<section aria-labelledby="summary">
+  <h2 id="summary">Where it stands</h2>
+  <p class="lede">You accepted this placement as the base for copper on 2026-09-15, with changes. They are in the board below: gate resistors, pulldowns and turn-off diodes moved to their gate pins, the standoffs turned into board-to-case fixings with H8 pulled toward the unsupported corner, and the commutation loop added to the reported distances. No copper has been drawn and nothing shipped has been replaced.</p>
+  <div class="readings">
+    <div class="reading"><span class="v good">0</span><span class="k">placement DRC errors, no exclusions</span></div>
+    <div class="reading"><span class="v">57<span style="font-size:20px;color:var(--ink-3)">/72</span></span><span class="k">agreed goals met (72 rows: the gate loops are new)</span></div>
+    <div class="reading"><span class="v">50<span style="font-size:20px;color:var(--ink-3)">/72</span></span><span class="k">brief targets met</span></div>
+    <div class="reading"><span class="v copper">1</span><span class="k">decision still open: the 4.0 mm tab-screw clearance</span></div>
+  </div>
+</section>
+
+<section aria-labelledby="decide">
+  <h2 id="decide">Decisions</h2>
+  <div class="decisions">
+
+    <article class="decision">
+      <header><span class="q">Open</span><h3>Tall parts 4.0 mm from a FET tab-screw centre</h3></header>
+      <p>You asked which hardware this needs before deciding. The standard TO-220 shoulder washer is <strong>Aavid/Boyd 7721-7PPSG</strong> (40 % glass-filled PPS): shoulder &#216;3.43 mm into the HYG180N10&#8217;s &#216;3.60 mm tab hole, flange &#216;5.46 mm, 1.02 mm thick, &#216;2.95 mm bore &#8212; so a #4-40 or M2.5 screw, not M3.</p>
+      <ul>
+        <li><strong>The bushing never touches the top-side keep-out.</strong> Its flange sits under the board, between the gap spacer and the tab, and so does the ~3.3 mm spacer that fills the board-to-tab gap.</li>
+        <li><strong>What the top side must clear</strong> is the screw head and the driver: M2.5 pan head &#216;5.0 (2.5 mm radius), M3 &#216;6.0 (3.0 mm), driver shaft 4&#8211;6 mm. All inside the existing 3.75 mm washer keep-out; 4.0 mm adds margin beside a 16.8 mm can.</li>
+        <li><strong>5.5 mm is still not solvable.</strong> Making the standoffs case fixings changed nothing here, because the rules already counted them as screws. A polish at 5.5 mm with 17 parts free over 12 seeds still left 4.23 mm of intrusion, and about 180 global runs at 5.5 mm never produced a legal layout.</li>
+      </ul>
+      <p class="rec"><strong>Yours to call:</strong> 4.0 mm with that hardware, or reject it and pull a bigger lever (fewer screw points, a wider LED-pad zone, or a re-place).</p>
+    </article>
+
+    <article class="decision">
+      <header><span class="q">Accepted</span><h3>Standoffs in their card quadrant, as board-to-case fixings</h3></header>
+      <ul>
+        <li>H5&#8211;H8 now carry the board to the case floor: male-female nylon standoff through the board into a tapped boss, with a ~5.6 mm insulating spacer under the board to clear the 5.57 mm FET gap.</li>
+        <li><strong>H8 moved</strong> (75.1, 109.0) &#8594; (85.1, 109.5), the farthest legal point toward the bottom-right corner: that corner&#8217;s nearest fixing goes from 29.7 mm to <strong>20.0 mm</strong>.</li>
+        <li>Corner to nearest fixing: top-left 41.4 mm, notch corner 10.7, bottom-right 20.0, bottom-left 18.3. No fifth fixing fits at the top-left &#8212; L1 covers x 30.3&#8211;65.1, y 30.3&#8211;62.8 and the nearest legal point is 53.6 mm from that corner. M3&#8217;s body sits under L1 on its 1 mm pad and carries the 60.7 g inductor there.</li>
+        <li>The 25 mm screw-distance rule is unchanged and met: the worst unscrewed FET is M4 at 22.6 mm.</li>
+      </ul>
+    </article>
+
+    <article class="decision">
+      <header><span class="q">Accepted</span><h3>p15_b10_k1 as the base for copper</h3></header>
+      <ul>
+        <li>No global re-place was run, and the can-to-rail assignment is untouched, as you established it is optimal.</li>
+        <li><strong>M2 &#8594; C70 (20.1 mm) and M3 &#8594; C87 (18.8 mm) cannot be improved.</strong> An exhaustive scan of every position on a 0.5 mm grid with four rotations found no legal spot closer than 20.0 mm for C70 &#8212; even with H6 free to move &#8212; or 18.6 mm for C87. C70 is boxed in by M5&#8217;s pin row and H6; C87 by C71 and C78.</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<section aria-labelledby="gates">
+  <h2 id="gates">Gate loops</h2>
+  <p class="lede">New rule in the target list: the series gate resistor, the gate pulldown and the anti-parallel turn-off diode all within 5 mm of the gate pin. The small-part placer now works to an explicit order &#8212; per channel, the rail&#8217;s loop ceramic first, then the LX FET&#8217;s gate parts, then the rail FET&#8217;s.</p>
+  <div class="tablewrap">
+    <table class="compact">
+      <thead><tr><th>Part</th><th>Role</th><th class="num">Before</th><th class="num">Now</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">R60</td><td>M7 series, 5 &#937;</td><td class="num">21.1 mm</td><td class="num">5.2 mm</td></tr>
+        <tr><td class="mono">R76</td><td>M7 pulldown</td><td class="num">16.4 mm</td><td class="num">9.8 mm</td></tr>
+        <tr><td class="mono">D2</td><td>M7 turn-off diode</td><td class="num">12.7 mm</td><td class="num">2.6 mm</td></tr>
+        <tr><td class="mono">R70</td><td>M6 series, 5.1 &#937;</td><td class="num">22.8 mm</td><td class="num">4.2 mm</td></tr>
+        <tr><td class="mono">D8</td><td>M6 turn-off diode</td><td class="num">20.6 mm</td><td class="num">3.0 mm</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Of the 23 gate parts, 19 are now within 5 mm. Over: R75 5.3, R23 5.3 and R60 5.2 mm, all marginal, plus D13 at 9.7 mm &#8212; M4&#8217;s diode, the slowest edge of the six, in the tightest pocket. Every row is in the table below.</p>
+</section>
+
+<section aria-labelledby="loop">
+  <h2 id="loop">Commutation loop</h2>
+  <p class="lede">Added to the reported distances as its own stage, measured M1 drain &#8594; LX FET drain &#8594; its source &#8594; the rail FET&#8217;s source &#8594; rail drain &#8594; nearest rail ceramic &#8594; GND &#8594; M1 source, straight-line pad to pad.</p>
+  <div class="tablewrap">
+    <table class="compact">
+      <thead><tr><th>Channel</th><th class="num">M1 drain &#8594; LX drain</th><th class="num">Rail drain &#8594; loop ceramic</th><th class="num">Loop total</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">ch1 &#8212; M7 / M2</td><td class="num">10.9 mm</td><td class="num">3.2 mm (C72)</td><td class="num">38.0 mm</td></tr>
+        <tr><td class="mono">ch2 &#8212; M6 / M3</td><td class="num">33.1 mm</td><td class="num">5.3 mm (C3)</td><td class="num">89.4 mm</td></tr>
+        <tr><td class="mono">ch3 &#8212; M5 / M4</td><td class="num">41.9 mm</td><td class="num">4.4 mm (C76)</td><td class="num">90.6 mm</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The M1-drain-to-LX-drain figures match yours exactly. My loop totals run about 8 mm longer than your ~29 / 82 / 82 because I measure the return straight from the ceramic&#8217;s GND pad to M1&#8217;s source pad. Prioritising the loop ceramics mattered: placing the gate parts first pushed C76 out to 23.8 mm and stretched ch3 to 116.6 mm.</p>
+  <p>Carried into routing, recorded in <code>tools/replace_notes.md</code>: In1 and In6 stay continuous under the entire LX and Vout path, with no splits and no single-via chokepoints; after routing, estimate the per-channel loop inductance and re-check ch3 against the simulation&#8217;s 4.85 / 12.74 / 7.91 nH and 68 V at the M1 die.</p>
+</section>
+
+<section aria-labelledby="cable">
+  <h2 id="cable">Battery cable</h2>
+  <div class="two">
+    <div style="display:grid;gap:10px">
+      <h3>The run: fine</h3>
+      <ul class="plain">
+        <li>At board level the right-hand strip is blocked &#8212; U16 reaches x 103.7 of the 104 mm edge, and the lug bodies fill the rest.</li>
+        <li>Over U16 (4.8 mm tall) there is <strong>21 mm of headroom</strong> to the lid, and 13 mm over the 12.8 mm input cans. Two 10 AWG conductors at about 5.5 mm each clear that comfortably.</li>
+        <li>So the cable comes up through the notch penetrator and runs south over U16 to the lugs, not at board level.</li>
+      </ul>
+    </div>
+    <div style="display:grid;gap:10px">
+      <h3>The terminations: a problem</h3>
+      <ul class="plain">
+        <li>J1 (Vin) and J2 (GND) pads are <strong>9.2 mm apart</strong>, and a 10 AWG M4 ring terminal is about 10&#8211;12 mm across, so two opposite-polarity rings would overlap.</li>
+        <li>They cannot simply be spread: U16 blocks J2 above y 73.9 and C74 blocks J1 below about y 85.5, which caps the pitch near 11.6 mm.</li>
+        <li>Options: move U16 in a local polish to open the strip, or terminate differently (direct solder, or a stud block off-board).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="plots">
+  <h2 id="plots">Both sides</h2>
+  <div class="plots">
+    <figure>
+      <img src="render_top.png" alt="KiCad 3D render of the power board top side with L1 outline at top left, R1 and input capacitors across the top, lugs on the right edge, J10 down the middle and LED pads along the bottom left." width="1568" height="1768">
+      <figcaption><strong>Top, KiCad render.</strong> L1 shows as an outline (its footprint has no 3D model). Grey circles are the four standoff holes.</figcaption>
+    </figure>
+    <figure>
+      <img src="render_bottom.png" alt="KiCad 3D render of the power board bottom side, viewed from below, showing the ten TO-220 bodies, gate drivers and J10 pin rows." width="1568" height="1768">
+      <figcaption><strong>Bottom, KiCad render, viewed from below (mirrored).</strong> Screwed FETs M1, M8, M9, M10 show a board hole through the tab; M2–M7 use the no-hole footprint.</figcaption>
+    </figure>
+    <figure class="wide">
+      <img src="model.png" alt="Two-panel placement plot, top and bottom seen from the top, with red circles at the eight screw points, the card outline shaded green and every part's courtyard." width="1700" height="1050">
+      <figcaption><strong>Placement model, both sides seen from the top.</strong> Red circles: tab screws and standoffs. Green area: the 45 mm control card. Checked against KiCad: every pad in the distance table matches the saved board to 0.0000 mm.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section aria-labelledby="distances">
+  <h2 id="distances">Distances against the brief and the agreed goals</h2>
+  <p class="lede">Straight-line pad-to-pad, measured on the saved board. “Brief” is <code>REPLACE_BRIEF_v2.md</code>; “goal” is what we agreed at check-in 3; “shipped” is today's board. Red edge: agreed goal missed.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Path</th><th class="num">Brief</th><th class="num">Goal</th><th class="num">Shipped</th><th class="num">New</th><th>Brief</th><th>Goal</th></tr></thead>
+      <tbody>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 1</span> Input loop and M1</th></tr>
+<tr class="missrow"><td class="path">C40 Vin → R1 Vin force pad</td><td class="num">≤ 10</td><td class="num">≤ 20</td><td class="num dim">21</td><td class="num new">37.2</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">C40 GND → M1 source</td><td class="num">≤ 10</td><td class="num">≤ 20</td><td class="num dim">39</td><td class="num new">20.0</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">C69 Vin → R1 Vin force pad</td><td class="num">≤ 10</td><td class="num">≤ 20</td><td class="num dim">31</td><td class="num new">13.8</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">C69 GND → M1 source</td><td class="num">≤ 10</td><td class="num">≤ 20</td><td class="num dim">37</td><td class="num new">7.3</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">C85 Vin → R1 Vin force pad</td><td class="num">≤ 10</td><td class="num">≤ 20</td><td class="num dim">17</td><td class="num new">20.3</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">C85 GND → M1 source</td><td class="num">≤ 10</td><td class="num">≤ 20</td><td class="num dim">28</td><td class="num new">15.5</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">R1 rsense_lo pad → L1.2</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">10.6</td><td class="num new">11.2</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">J1 → R1 Vin pad (report)</td><td class="num">-</td><td class="num">-</td><td class="num dim">49</td><td class="num new">48.2</td><td></td><td></td></tr>
+<tr><td class="path">D19 LX → M1 drain <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 5</td><td class="num">≤ 5.5</td><td class="num dim">29</td><td class="num new">5.2</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">D19 GND → M1 source <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 5</td><td class="num">≤ 5.5</td><td class="num dim">27</td><td class="num new">5.1</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U19 OUTA → M1 gate</td><td class="num">≤ 10</td><td class="num">≤ 12</td><td class="num dim">15</td><td class="num new">5.8</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U25 IN+ → R1 sense P</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">41</td><td class="num new">10.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U25 IN- → R1 sense N</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">41</td><td class="num new">9.3</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 2</span> LX node</th></tr>
+<tr class="missrow"><td class="path">L1 LX pad → M1 drain <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">19</td><td class="num new">16.5</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">L1 LX pad → M7 drain</td><td class="num">≤ 15</td><td class="num">≤ 22</td><td class="num dim">10</td><td class="num new">17.1</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">L1 LX pad → M6 drain</td><td class="num">≤ 15</td><td class="num">≤ 22</td><td class="num dim">31</td><td class="num new">17.8</td><td><span class="chip miss">miss</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">L1 LX pad → M5 drain</td><td class="num">≤ 15</td><td class="num">≤ 22</td><td class="num dim">59</td><td class="num new">45.2</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 3</span> Switch pairs</th></tr>
+<tr><td class="path">M7 source ↔ M2 source</td><td class="num">≤ 11.25</td><td class="num">≤ 11.25</td><td class="num dim">11</td><td class="num new">2.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U15 OUTA → M2 gate</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">13</td><td class="num new">14.9</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U15 OUTB → M7 gate</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">18</td><td class="num new">10.6</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M6 source ↔ M3 source</td><td class="num">≤ 11.25</td><td class="num">≤ 11.25</td><td class="num dim">11</td><td class="num new">2.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U10 OUTA → M3 gate</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">20</td><td class="num new">14.7</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U10 OUTB → M6 gate</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">27</td><td class="num new">11.3</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M5 source ↔ M4 source</td><td class="num">≤ 11.25</td><td class="num">≤ 11.25</td><td class="num dim">22</td><td class="num new">2.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U8 OUTA → M4 gate</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">11</td><td class="num new">14.9</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U8 OUTB → M5 gate</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">28</td><td class="num new">8.9</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 4</span> Output banks and LED pads</th></tr>
+<tr class="missrow"><td class="path">M2 drain → C70 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">34</td><td class="num new">20.1</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">M2 drain → C86 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">45</td><td class="num new">11.8</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M2 drain → C88 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">55</td><td class="num new">9.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M3 drain → C71 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">32</td><td class="num new">15.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M3 drain → C78 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">34</td><td class="num new">14.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">M3 drain → C87 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">48</td><td class="num new">18.8</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">M4 drain → C74 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">30</td><td class="num new">8.1</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M4 drain → C75 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">55</td><td class="num new">15.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M4 drain → C77 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">67</td><td class="num new">13.7</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">LED pads J3-J4</td><td class="num">≤ 8</td><td class="num">≤ 8</td><td class="num dim">6</td><td class="num new">6.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">LED pads J8-J7</td><td class="num">≤ 8</td><td class="num">≤ 8</td><td class="num dim">41</td><td class="num new">6.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">LED pads J5-J6</td><td class="num">≤ 8</td><td class="num">≤ 8</td><td class="num dim">6</td><td class="num new">6.5</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 5</span> LED sinks</th></tr>
+<tr><td class="path">M10 source → R52 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">48</td><td class="num new">3.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M10 drain → J4</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">49</td><td class="num new">14.4</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U11 IN- → NT1 (net tie)</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">25</td><td class="num new">6.2</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">U11 OUT → M10 gate</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">27</td><td class="num new">4.8</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M9 source → R53 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">33</td><td class="num new">3.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">M9 drain → J7</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">61</td><td class="num new">24.4</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">U12 IN- → NT2 (net tie)</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">24</td><td class="num new">8.1</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">U12 OUT → M9 gate</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">29</td><td class="num new">14.7</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">M8 source → R7 <span class="hard" title="Hard goal (check-in 3)">hard</span></td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">39</td><td class="num new">3.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">M8 drain → J6</td><td class="num">≤ 15</td><td class="num">≤ 15</td><td class="num dim">51</td><td class="num new">13.1</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">U6 IN- → NT3 (net tie)</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">13</td><td class="num new">11.7</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr class="missrow"><td class="path">U6 OUT → M8 gate</td><td class="num">≤ 10</td><td class="num">≤ 10</td><td class="num dim">42</td><td class="num new">15.3</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 6</span> Gate loops</th></tr>
+<tr><td class="path">R15 (series) → M1 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.6</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R104 (pulldown) → M1 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">3.0</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R13 (series) → M2 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">4.3</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">R75 (pulldown) → M2 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">5.3</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">D11 (diode) → M2 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">3.2</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">R23 (series) → M3 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">5.3</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">R61 (pulldown) → M3 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">4.8</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">D14 (diode) → M3 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.4</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R47 (series) → M4 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.2</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R73 (pulldown) → M4 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">3.8</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">D13 (diode) → M4 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">9.7</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">R59 (series) → M5 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">4.2</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R74 (pulldown) → M5 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.9</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">D22 (diode) → M5 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">4.3</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R70 (series) → M6 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">4.2</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R49 (pulldown) → M6 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.2</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">D8 (diode) → M6 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">3.1</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="missrow"><td class="path">R60 (series) → M7 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">5.2</td><td><span class="chip miss">miss</span></td><td><span class="chip miss">miss</span></td></tr>
+<tr><td class="path">R76 (pulldown) → M7 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">4.8</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">D2 (diode) → M7 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.9</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R22 (series) → M8 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.4</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R50 (series) → M9 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.3</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr><td class="path">R56 (series) → M10 gate pin</td><td class="num">≤ 5</td><td class="num">≤ 5</td><td class="num dim">-</td><td class="num new">2.9</td><td><span class="chip ok">met</span></td><td><span class="chip ok">met</span></td></tr>
+<tr class="stage"><th colspan="7" scope="rowgroup"><span class="stage-no">Stage 7</span> Commutation loop (report)</th></tr>
+<tr><td class="path">ch1 M1 drain → M7 drain</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">10.9</td><td></td><td></td></tr>
+<tr><td class="path">ch1 M2 drain → C72 (loop ceramic)</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">3.2</td><td></td><td></td></tr>
+<tr><td class="path">ch1 commutation loop, M1 drain → M7 → M2 → C72 → GND → M1 source</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">38.0</td><td></td><td></td></tr>
+<tr><td class="path">ch2 M1 drain → M6 drain</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">33.1</td><td></td><td></td></tr>
+<tr><td class="path">ch2 M3 drain → C3 (loop ceramic)</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">5.3</td><td></td><td></td></tr>
+<tr><td class="path">ch2 commutation loop, M1 drain → M6 → M3 → C3 → GND → M1 source</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">89.4</td><td></td><td></td></tr>
+<tr><td class="path">ch3 M1 drain → M5 drain</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">41.9</td><td></td><td></td></tr>
+<tr><td class="path">ch3 M4 drain → C76 (loop ceramic)</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">4.4</td><td></td><td></td></tr>
+<tr><td class="path">ch3 commutation loop, M1 drain → M5 → M4 → C76 → GND → M1 source</td><td class="num">-</td><td class="num">-</td><td class="num dim">-</td><td class="num new">90.6</td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section aria-labelledby="drc">
+  <h2 id="drc">DRC</h2>
+  <div class="two">
+    <div style="display:grid;gap:12px">
+      <p><code>kicad-cli pcb drc</code> (KiCad 10.0.0) on the WIP board, using a copy of the shipped <code>BOOST_power.kicad_pro</code> rules, no exclusions.</p>
+      <ul class="plain">
+        <li><strong>0 errors.</strong> No courtyard, clearance, edge, keep-out or shorting violations.</li>
+        <li><strong>45 silkscreen warnings.</strong> Reference text over pads or other text; cleared at routing, under the 1.0 / 0.15 mm silk rule.</li>
+        <li><strong>270 unconnected items.</strong> Expected: there is no copper yet.</li>
+        <li><strong>Mechanical checks</strong> (washer keep-outs, tool paths, screw distance, card, lug corner): 0 messages under decisions 1 and 2.</li>
+      </ul>
+    </div>
+    <div class="tablewrap">
+      <table class="compact"><thead><tr><th>Warning</th><th class="num">Count</th></tr></thead><tbody><tr><td class="mono">silk_over_copper</td><td class="num">24</td></tr><tr><td class="mono">silk_overlap</td><td class="num">20</td></tr><tr><td class="mono">silk_edge_clearance</td><td class="num">1</td></tr></tbody></table>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="changed">
+  <h2 id="changed">Also done this session</h2>
+  <div class="two">
+    <div style="display:grid;gap:10px">
+      <h3>Schematic (ERC 0 / 0, netcheck 0 failures)</h3>
+      <ul class="plain">
+        <li><strong>C30</strong> → Vishay TR3D476K025C0250, your choice: 47 µF, case D, ESR ≤ 0.25 Ω (datasheet), LCSC/JLCPCB C4979367, 107 in stock. The planned TPSC226K025R0275 had 2 in stock.</li>
+        <li><strong>C7, C55</strong> → 22 µF X7R 1210 Murata GRM32ER71E226KE15L, JLCPCB C21397, 77,742 in stock.</li>
+        <li><strong>C41 / C44 / C45 restored</strong> (you left it to me): 1 nF at the sink op-amp inputs on the power board. The IREF setpoints (25–131 mV) now cross the header and run past the power stage from a kilohm source, and nothing filters them there. They can be left unfitted at bring-up.</li>
+        <li><strong>M2–M7</strong> → no-hole TO-220 footprint (pads identical to TabUp).</li>
+        <li>Backups of every pre-edit state are in <code>previous/2026-09-15/</code>; the netlist diff shows only these changes.</li>
+      </ul>
+    </div>
+    <div style="display:grid;gap:10px">
+      <h3>Found and fixed</h3>
+      <ul class="plain">
+        <li><strong>Shipped <code>BOOST_power.kicad_pro</code>.</strong> KiCad opened and closed the power project at 14:26 and rewrote the file without the Power/Gate/Rail netclasses. I restored it from git with your OK; the rewritten copy is in <code>previous/2026-09-15/</code>.</li>
+        <li><strong>L1 land pattern</strong> checked against Codaca's CSCF3218 drawing: pad sizes and positions match. The terminals really do stick out past the body.</li>
+        <li><strong>Pipeline:</strong> old-account paths, net-ties placed over a FET pin, and the small-part placer ignoring tool paths. All fixed and noted in <code>tools/replace_notes.md</code>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="open">
+  <h2 id="open">Open items</h2>
+  <ul class="plain">
+    <li><span class="chip warn">decide</span> <strong>J1/J2 lug pitch</strong>: 9.2 mm against a 10&#8211;12 mm ring terminal for 10 AWG (see above).</li>
+    <li><span class="chip warn">check</span> <strong>D19</strong>: the value reads <code>TVS_5KP54A</code>, but the footprint is SMD <code>D_SMC</code>. As far as I know the 5KP series is an axial (P600) part. I haven't verified which part you intend.</li>
+    <li><span class="chip warn">check</span> <strong>MCP4451 resistance variant</strong> (schematic says <code>-xxxx</code>): with 1 nF, the IREF filter time constant runs from about 1.6 µs (5 kΩ) to about 27 µs (100 kΩ).</li>
+    <li><span class="chip warn">unverified</span> C7/C55 height taken as 2.7 mm from Murata's part code; I couldn't open a datasheet page. It only decides whether they count as “tall” (over 3 mm).</li>
+    <li>Carried over: tab-screw spacer and insulating bushing hardware; LTspice <code>BOOST.asc</code> updates; who runs the remaining simulations.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="files">
+  <h2 id="files">Files</h2>
+  <div class="files">
+    <span>BOOST_split_boards/replace_2026-09-14/tools/placement/BOOST_power_p15_WIP_NOT_FOR_FAB.kicad_pcb (+ .kicad_pro, .distances.md, .drc.json, .top.svg, .bottom.svg)</span>
+    <span>BOOST_split_boards/replace_2026-09-14/HANDOFF_SUMMARY_2026-09-15.md (§11 this session, §12 next steps)</span>
+    <span>BOOST_split_boards/replace_2026-09-14/tools/replace_notes.md (every number and source)</span>
+    <span>BOOST-github/BOOST/BOOST.kicad_sch · BOOST_9-15_nohole.net · ERC_9-15_nohole.rpt</span>
+  </div>
+  <p class="note">Nothing in BOOST_split_boards/BOOST_power.kicad_pcb or BOOST_control.kicad_pcb has been replaced. No git commits were made.</p>
+</section>
+
+</div>
+</body>
+</html>

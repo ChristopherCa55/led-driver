@@ -100,7 +100,7 @@ if sys.argv[1] == '--check':
 
 SRC, NET, ASSIGN, BOARD, OUT = sys.argv[1:6]
 KLIB = r'C:\Program Files\KiCad\10.0\share\kicad\footprints'
-PROJ = r'C:\Users\Dominick Junior\Downloads\UCSD Stuff\2025-2026\robotx\led-driver\BOOST-github\BOOST'
+PROJ = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..', 'BOOST-github', 'BOOST'))
 comps, padnet = parse_netlist(NET)
 assign = json.load(open(ASSIGN))
 want = sorted(r for r in comps if assign.get(r) == BOARD)

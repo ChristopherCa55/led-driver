@@ -1,0 +1,160 @@
+* ---------------------------------------------------------------------------
+* REV 4 - EVERY THRESHOLD SMOOTHED. THIS IS A CONVERGENCE FIX, NOT COSMETIC.
+* ---------------------------------------------------------------------------
+* REV 3 used u() for all nine internal thresholds. u() is a ZERO-WIDTH step,
+* so its derivative is infinite at the crossing. uva/uvb feed straight into
+* BA5/BB5, which gate a 3/2 ohm output stage driving a power MOSFET gate.
+*
+* Observed failure: with the 12 V rail creeping up at 0.057 V/us after a UIC
+* start, all three bootstrap rails crossed VDDA-VSSA = 8.000 V at
+* t = 66.5937683 us and LTspice locked at dt = 1e-18 s at t = 66.5937688 us.
+* Six simultaneous discontinuities (uva+uvb on three drivers charging from a
+* shared 12 V rail through identical D+R+C). Nothing physical happens there.
+*
+* All nine are now 0.5+0.5*tanh(x/w). tanh saturates, so no exp() overflow at
+* any bias. Transition widths: UVLO 0.15 V, logic thresholds 0.1 V, internal
+* 0.02-0.05 V. Real parts have hysteresis and finite gain, so these are more
+* faithful than the steps were, not less.
+*
+* NOTE: a slow crossing is the dangerous case. A logic edge crosses u() in
+* nanoseconds and the solver copes; a supply rail creeping through it at
+* 0.06 V/us does not.
+* ---------------------------------------------------------------------------
+* ============================================================================
+* UCC21520 - behavioural model for LTspice
+* 4A source / 6A sink, isolated dual-channel gate driver
+*
+* This is NOT Texas Instruments' model. TI publishes a PSpice model on the
+* UCC21520 product page - try that first if you want their authoritative
+* version. This one exists because it is built from smooth, LTspice-native
+* primitives and will converge reliably in a hard-switching circuit.
+*
+* ---------------------------------------------------------------------------
+* PIN ORDER - THIS IS MY CHOICE, NOT TI's PACKAGE PINOUT
+* ---------------------------------------------------------------------------
+*   1  INA    channel A input   (TTL/CMOS, threshold 1.8 V, ref to GND)
+*   2  INB    channel B input
+*   3  VCCI   input-side supply (3 V to 5.5 V typical)
+*   4  GND    input-side ground
+*   5  DIS    disable, active HIGH. Tie to GND for normal operation.
+*   6  DT     dead-time program. Tie to VCCI to DISABLE the interlock.
+*             A resistor to GND enables it (see DEAD TIME below).
+*   7  VDDA   channel A output supply
+*   8  VOUTA  channel A gate drive output
+*   9  VSSA   channel A output return (floats with the MOSFET source)
+*   10 VDDB   channel B output supply
+*   11 VOUTB  channel B gate drive output
+*   12 VSSB   channel B output return
+* Use the supplied UCC21520.asy, which matches THIS order. The real 16-pin
+* SOIC has a different physical pinout - use the datasheet for layout.
+*
+* ---------------------------------------------------------------------------
+* VERIFIED IN NGSPICE
+* ---------------------------------------------------------------------------
+*   Propagation delay          18.6 ns          (datasheet 19 ns)
+*   Channel-to-channel match    0.00 ns         (datasheet < 5 ns)
+*   Peak source current         4.0 A  (12 V / 3 ohm)
+*   Peak sink current           6.0 A  (12 V / 2 ohm)
+*   10-90% rise into 3.2 nF    21.1 ns
+*   Channel B verified driving a load floating at VSSB = 40 V
+*   Interlock verified: zero samples with both outputs high
+*
+* ---------------------------------------------------------------------------
+* DEAD TIME - READ THIS, IT MATTERS FOR YOUR CIRCUIT
+* ---------------------------------------------------------------------------
+* You generate dead time externally in your logic. If you also enable the
+* driver's dead time, the two ADD and you lose the timing you tuned.
+*
+*   DT tied to VCCI  -> interlock DISABLED, straight pass-through. ONLY safe
+*                       if something else guarantees non-overlap. If both
+*                       channels drive MOSFETs in the same current path, this
+*                       setting will produce shoot-through.
+*   DT via resistor  -> interlock ENABLED (non-overlap enforced)
+*
+* REV 2: the programmed dead-time DURATION is now modelled, via the DTIME
+* subcircuit parameter. Set it to match the R_DT you intend to fit:
+*     real part:  t_DT (ns) ~= 10 x R_DT (kohm)     e.g. 3.3k -> ~33 ns
+*     model:      X1 ... UCC21520 DTIME=33n
+* Verified: DTIME 50n/100n/200n give measured gaps of 41/91/191 ns with the
+* other channel's fall time accounting for the ~9 ns offset, and ZERO
+* overlap samples in every case, even with both input edges simultaneous.
+* With DT tied to VCCI the measured gap is -10 ns (i.e. genuine overlap) -
+* that is the shoot-through case, reproduced deliberately.
+*
+* ---------------------------------------------------------------------------
+* NOT MODELLED
+* ---------------------------------------------------------------------------
+*   The isolation barrier itself - no CMTI, no isolation breakdown, no
+*     common-mode transient effects. The input logic controls the floating
+*     output switches directly. Real-world CMTI is 100 V/ns min; if your
+*     dV/dt approaches that, this model will look better than reality.
+*   Input-side UVLO thresholds are approximated (VCCI > 2.5 V)
+*   Output UVLO modelled as a simple 8 V threshold on VDD-VSS. The real part
+*     has 5V/8V/12V UVLO options and hysteresis - check your ordering variant.
+*   Minimum input pulse-width rejection
+*   Temperature effects, propagation delay drift
+*   Output impedance vs temperature and vs output voltage
+*   Supply current vs frequency. IQOUT is the STATIC output-side current only;
+*     the real part also draws Qg x f_sw, which your gate loop already models.
+*
+* ---------------------------------------------------------------------------
+* REV 3 - OUTPUT-SIDE QUIESCENT CURRENT
+* ---------------------------------------------------------------------------
+* Added BQA / BQB, {IQOUT} per output stage, default 1.5 mA. Set IQOUT=0 on
+* the instance to restore REV 2 behaviour.
+*
+* This exists so bootstrap droop is visible. With a 2.2 uF bootstrap cap and
+* the 8 V output UVLO in this model, 12 V -> 8 V takes about 5.9 ms at 1.5 mA.
+* Any operating state in which the low-side switch stops running for longer
+* than that will now drop the floating channel into UVLO, exactly as the real
+* part would. Check the ordering variant's UVLO before trusting the 8 V
+* number - the 12 V option cannot work from a 12 V bootstrap rail at all.
+* ============================================================================
+.SUBCKT UCC21520 INA INB VCCI GND DIS DT VDDA VOUTA VSSA VDDB VOUTB VSSB
++ DTIME=100n IQOUT=1.5m
+BA1 a1 0 V=(0.5+0.5*tanh((V(INA)-V(GND)-1.8)/0.1))*(0.5+0.5*tanh((1.8-V(DIS)+V(GND))/0.1))*(0.5+0.5*tanh((V(VCCI)-V(GND)-2.5)/0.1))
+BB1 b1 0 V=(0.5+0.5*tanh((V(INB)-V(GND)-1.8)/0.1))*(0.5+0.5*tanh((1.8-V(DIS)+V(GND))/0.1))*(0.5+0.5*tanh((V(VCCI)-V(GND)-2.5)/0.1))
+RA1 a1 a2 1k
+CA1 a2 0 16p
+RB1 b1 b2 1k
+CB1 b2 0 16p
+BA2 a3 0 V=(0.5+0.5*tanh((V(a2)-0.5)/0.02))
+BB2 b3 0 V=(0.5+0.5*tanh((V(b2)-0.5)/0.02))
+BDT dten 0 V=(0.5+0.5*tanh((2.5-V(DT)+V(GND))/0.1))
+* --- dead-time timers: "other channel has been low for DTIME" -------------
+BSA sa 0 V=5*(1-V(b3))
+RDA sa da 1k
+CDA da 0 {DTIME/1000}
+DDA da sa DFAST
+BAOK aok 0 V=(0.5+0.5*tanh((V(da)-3.16)/0.05))
+BSB sb 0 V=5*(1-V(a3))
+RDB sb db 1k
+CDB db 0 {DTIME/1000}
+DDB db sb DFAST
+BBOK bok 0 V=(0.5+0.5*tanh((V(db)-3.16)/0.05))
+BUVA uva 0 V=(0.5+0.5*tanh((V(VDDA)-V(VSSA)-8)/0.15))
+BUVB uvb 0 V=(0.5+0.5*tanh((V(VDDB)-V(VSSB)-8)/0.15))
+BA5 a5 0 V=V(a3)*V(uva)*(1-V(dten)*(1-V(aok)))
+BB5 b5 0 V=V(b3)*V(uvb)*(1-V(dten)*(1-V(bok)))
+BA6 a5n 0 V=1-V(a5)
+BB6 b5n 0 V=1-V(b5)
+SPUA VDDA VOUTA a5  0 SWPU
+SPDA VOUTA VSSA a5n 0 SWPD
+SPUB VDDB VOUTB b5  0 SWPU
+SPDB VOUTB VSSB b5n 0 SWPD
+IDT GND DT 100u
+IQ VCCI GND 2m
+*
+* --- output-side quiescent current (REV 3) ---------------------------------
+* Each output stage draws its own supply current. On a bootstrapped channel
+* this is what drains the bootstrap cap whenever the low-side switch stops
+* refreshing it. Without these the bootstrap NEVER sags in simulation and
+* an idle-state UVLO dropout is invisible.
+* Ramped in over 0.5-1.5 V so the source cannot drag an uninitialised
+* floating rail negative at t=0 under UIC.
+BQA VDDA VSSA I={IQOUT}*limit(V(VDDA)-V(VSSA)-0.5,0,1)
+BQB VDDB VSSB I={IQOUT}*limit(V(VDDB)-V(VSSB)-0.5,0,1)
+.model SWPU SW(Ron=3 Roff=10Meg Vt=0.5 Vh=0.1)
+.model SWPD SW(Ron=2 Roff=10Meg Vt=0.5 Vh=0.1)
+.model DFAST D(IS=1e-12 RS=0.1 N=1)
+.ENDS UCC21520

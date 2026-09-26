@@ -1,0 +1,52 @@
+exported 74 nets, 765 barrels, 355 pads
+tracks 1794, vias 157, failures 4, 434 s
+added 1794 tracks, 157 vias -> work/sig_35_1.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 6
+exported 74 nets, 922 barrels, 355 pads
+tracks 1796, vias 164, failures 3, 230 s
+added 1796 tracks, 164 vias -> work/sig_35_2.kicad_pcb
+{('via_dangling', 'warning'): 4, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 4
+exported 74 nets, 929 barrels, 355 pads
+tracks 1920, vias 176, failures 1, 192 s
+added 1920 tracks, 176 vias -> work/sig_35_3.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 941 barrels, 355 pads
+tracks 1935, vias 176, failures 1, 163 s
+added 1935 tracks, 176 vias -> work/sig_35_4.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 941 barrels, 355 pads
+tracks 1939, vias 177, failures 1, 107 s
+added 1939 tracks, 177 vias -> work/sig_35_5.kicad_pcb
+{('track_width', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 942 barrels, 355 pads
+tracks 1939, vias 178, failures 1, 112 s
+{('track_width', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 1.7000 mm @(65.55,66.75)
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 0.1000 mm @(65.15,64.65)
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 0.1414 mm @(65.65,66.85)
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 0.5657 mm @(65.55,65.05)
+unconnected 1
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00)
+removed Vout_1 F.Cu 0.100 mm at (65.150, 64.650)
+removed 1 of 1 flagged tracks and vias -> work/sig_35p.kicad_pcb
+{('track_width', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 1.7000 mm @(65.55,66.75)
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 0.1414 mm @(65.65,66.85)
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 0.5657 mm @(65.55,65.05)
+unconnected 1
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00)
+removed Vout_1 F.Cu 0.566 mm at (65.550, 65.050)
+removed 1 of 1 flagged tracks and vias -> work/sig_35p.kicad_pcb
+{('track_width', 'error'): 2, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 1.7000 mm @(65.55,66.75)
+  track_width      Track width (board setup constraints min w | Track [Vout_1] on F.Cu, length 0.1414 mm @(65.65,66.85)
+unconnected 1
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00)
+routes: work/g_35_5.json
+final: work/sig_35p.kicad_pcb
+PIPELINE_DONE

@@ -1,0 +1,1638 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-24T05:12:47",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "sig_c3nf_3.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                },
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                },
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                },
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(U7-In-)] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 75.625,
+                        "y": 71.675
+                    },
+                    "uuid": "017f7376-63a8-4357-8cdb-8627969d22ef"
+                },
+                {
+                    "description": "Via [Net-(U7-In-)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.525,
+                        "y": 72.275
+                    },
+                    "uuid": "e8e82cc1-2465-4732-9278-c676efe2e41c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone '5V pour' [5V] on In3.Cu, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "3269bdb2-5c06-4967-bce8-02646d68c1b0"
+                },
+                {
+                    "description": "Zone '5V pour' [5V] on In3.Cu, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "3269bdb2-5c06-4967-bce8-02646d68c1b0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 73.325,
+                        "y": 96.525
+                    },
+                    "uuid": "02d14d76-5acc-428b-b3d6-78dcebd91ba0"
+                },
+                {
+                    "description": "Pad 1 [5V] of C28 on B.Cu",
+                    "pos": {
+                        "x": 72.2454,
+                        "y": 98.0551
+                    },
+                    "uuid": "abb2c875-e003-4694-91d7-ceff39d13344"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [5V] of C98 on B.Cu",
+                    "pos": {
+                        "x": 79.8002,
+                        "y": 103.9804
+                    },
+                    "uuid": "2abf778e-9ac9-4d6c-9700-8828889e9f82"
+                },
+                {
+                    "description": "Track [5V] on In3.Cu, length 0.2000 mm",
+                    "pos": {
+                        "x": 80.575,
+                        "y": 102.825
+                    },
+                    "uuid": "d3029b7f-9167-48db-be67-ed1b1e85498d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [0A_hi] on B.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 71.225,
+                        "y": 108.675
+                    },
+                    "uuid": "72884666-222a-485f-b8e0-621860f698fc"
+                },
+                {
+                    "description": "Via [0A_hi] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 71.225,
+                        "y": 108.125
+                    },
+                    "uuid": "05ad53bd-85c7-43f2-a461-eab46099f77f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [0A_hi] on In5.Cu, length 0.8500 mm",
+                    "pos": {
+                        "x": 74.425,
+                        "y": 98.625
+                    },
+                    "uuid": "d084b3fd-47b1-4b17-bcfe-f2763b0fb175"
+                },
+                {
+                    "description": "Via [0A_hi] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.025,
+                        "y": 98.925
+                    },
+                    "uuid": "5590d377-0f35-457b-b65f-271d7ef3eb34"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [Out-] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 59.025,
+                        "y": 72.825
+                    },
+                    "uuid": "80662fb8-7f88-433e-a565-0b8a469d0826"
+                },
+                {
+                    "description": "Pad 1 [Out-] of R51 on F.Cu",
+                    "pos": {
+                        "x": 59.0965,
+                        "y": 72.1022
+                    },
+                    "uuid": "5e08f23d-cff7-4e9f-b3d3-1b258ff24ef8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Vref_3_arduino] on In2.Cu, length 0.2500 mm",
+                    "pos": {
+                        "x": 53.525,
+                        "y": 90.475
+                    },
+                    "uuid": "7e70fa8e-35de-45e0-ac46-06305a8b9b22"
+                },
+                {
+                    "description": "Pad 1 [Vref_3_arduino] of R77 on F.Cu",
+                    "pos": {
+                        "x": 53.6102,
+                        "y": 89.9678
+                    },
+                    "uuid": "0b9ad315-98e0-4f39-ac02-a4bb8ad2976a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 9 [IREF2_input] of U26 on B.Cu",
+                    "pos": {
+                        "x": 59.8231,
+                        "y": 85.7549
+                    },
+                    "uuid": "01e54d9b-f0fc-4ed6-8efb-c0e1acb59f6f"
+                },
+                {
+                    "description": "Via [IREF2_input] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 59.725,
+                        "y": 87.425
+                    },
+                    "uuid": "421354ea-ec3f-4918-be4f-c4d824d6b22b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [IREF1_input] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 59.525,
+                        "y": 92.675
+                    },
+                    "uuid": "d77fe2a1-30a1-4b8a-84da-f209d84a454f"
+                },
+                {
+                    "description": "Pad 12 [IREF1_input] of U26 on B.Cu",
+                    "pos": {
+                        "x": 59.8231,
+                        "y": 91.4799
+                    },
+                    "uuid": "e72c7f9f-f2e1-40b1-9974-4c85d13d2398"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Power' clearance 0.2500 mm; actual 0.2418 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of R34 on F.Cu",
+                    "pos": {
+                        "x": 70.7183,
+                        "y": 71.3764
+                    },
+                    "uuid": "0b82a889-23a1-4841-b359-2c4717a2bd7d"
+                },
+                {
+                    "description": "Via [Vout_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 71.375,
+                        "y": 70.725
+                    },
+                    "uuid": "1f63f225-9f7b-473d-95ea-907253ae458b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Power' clearance 0.2500 mm; actual 0.2250 mm)",
+            "items": [
+                {
+                    "description": "Track [Output2_drain] on In3.Cu, length 0.8500 mm",
+                    "pos": {
+                        "x": 79.625,
+                        "y": 94.125
+                    },
+                    "uuid": "9d3ad0e2-fd68-4cce-bf78-e5e7c800e768"
+                },
+                {
+                    "description": "Via [Voltage_err_3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 79.925,
+                        "y": 93.675
+                    },
+                    "uuid": "d06e5f70-91b9-445b-968b-4d371675eb9d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Power' clearance 0.2500 mm; actual 0.2250 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(U13-In-)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 78.325,
+                        "y": 93.625
+                    },
+                    "uuid": "82acac85-f454-4129-906e-36401c079796"
+                },
+                {
+                    "description": "Track [Output2_drain] on In3.Cu, length 6.6000 mm",
+                    "pos": {
+                        "x": 72.975,
+                        "y": 94.075
+                    },
+                    "uuid": "9ece9400-af91-4939-9f45-7288adc525e3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Voltage_err_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.025,
+                        "y": 83.125
+                    },
+                    "uuid": "bc81ca6c-1f27-4ad6-b95c-fe5dbf4aa352"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U7-In-)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.525,
+                        "y": 72.275
+                    },
+                    "uuid": "e8e82cc1-2465-4732-9278-c676efe2e41c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Voltage_err_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 62.475,
+                        "y": 103.725
+                    },
+                    "uuid": "51cac71a-c193-4d09-af12-f7b8941111ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U103A-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 87.725,
+                        "y": 96.025
+                    },
+                    "uuid": "1d22d58e-d6bf-464e-9bcb-eb3e0b940341"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U103A-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.325,
+                        "y": 109.925
+                    },
+                    "uuid": "26839f22-9817-4503-94e3-448c325e2070"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102C-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.575,
+                        "y": 86.375
+                    },
+                    "uuid": "c642b1a4-fca1-4d63-9ac9-16d996c8421c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102C-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.225,
+                        "y": 74.625
+                    },
+                    "uuid": "d3acbce8-fdc3-4c40-baa3-05ddf010546f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102C-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.325,
+                        "y": 108.675
+                    },
+                    "uuid": "fc8c5b0c-8649-4cd6-8b64-ea2a8e10c8db"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102B-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.825,
+                        "y": 86.375
+                    },
+                    "uuid": "70ad4717-4f83-407b-8ebe-ef076d26f0f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D20--)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 78.275,
+                        "y": 71.175
+                    },
+                    "uuid": "5e0da147-68b3-4eac-a763-53e6c9db7e9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D20--)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 83.675,
+                        "y": 81.325
+                    },
+                    "uuid": "a137177b-0df3-432b-ad67-5e262b5cf064"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D20--)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 85.975,
+                        "y": 90.675
+                    },
+                    "uuid": "d373d10b-0afc-4d45-b7eb-a80cae38e304"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [0A_hi] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 71.225,
+                        "y": 108.125
+                    },
+                    "uuid": "05ad53bd-85c7-43f2-a461-eab46099f77f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [0A_hi] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.025,
+                        "y": 98.925
+                    },
+                    "uuid": "5590d377-0f35-457b-b65f-271d7ef3eb34"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [M1_ON] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 55.975,
+                        "y": 76.575
+                    },
+                    "uuid": "ccea1c43-756a-4ee3-ad78-43b6bc5bc546"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Out] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 61.525,
+                        "y": 80.525
+                    },
+                    "uuid": "5a96bc39-6150-4241-b82f-846e3b6fd547"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [set-] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 58.975,
+                        "y": 80.525
+                    },
+                    "uuid": "71561984-bdc4-484a-9cf3-64059347da8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U106B-A)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.675,
+                        "y": 92.375
+                    },
+                    "uuid": "3637dda9-b0ab-4a69-a707-238447b84e8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [M1_INHIBIT] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 56.025,
+                        "y": 75.275
+                    },
+                    "uuid": "d1b7197c-f343-4c01-a36e-6b6584e97b7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D5-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 85.175,
+                        "y": 96.025
+                    },
+                    "uuid": "b3f7057b-4ebf-4c1e-9075-555181f8c0b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [ena_out_3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 83.675,
+                        "y": 85.125
+                    },
+                    "uuid": "88468c5a-8344-4eea-b2d0-5c1095047719"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U103B-Y)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.375,
+                        "y": 96.025
+                    },
+                    "uuid": "579a052a-82ab-4bde-b241-8559259f85ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U103B-Y)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.525,
+                        "y": 81.625
+                    },
+                    "uuid": "8f0e8a4b-920c-4246-9235-bc9aa123227f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U21-In-)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.375,
+                        "y": 111.325
+                    },
+                    "uuid": "839a81e5-ad62-47bd-a16c-f9dd14bac024"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D20-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.775,
+                        "y": 70.775
+                    },
+                    "uuid": "598cb257-630f-4f5a-bbf4-60bdd68a802d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U18-Q3)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.525,
+                        "y": 82.375
+                    },
+                    "uuid": "9b8e9902-ff2c-4dd9-973f-233113a0836a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U18-Q3)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 80.925,
+                        "y": 86.375
+                    },
+                    "uuid": "cdc8c54f-682b-4710-8cb7-75b05b4c18af"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [low_error_timeout] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 62.175,
+                        "y": 71.375
+                    },
+                    "uuid": "1c5cdcd9-df81-4f97-922d-d833656b9874"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [low_error_timeout] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 46.675,
+                        "y": 85.425
+                    },
+                    "uuid": "b06dc939-821b-45b3-8e7f-358b6bd1635e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vref_3_arduino] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 54.175,
+                        "y": 89.725
+                    },
+                    "uuid": "0db8ece2-dcfb-4e28-94da-db868195051b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U14-In+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 46.625,
+                        "y": 87.675
+                    },
+                    "uuid": "769d5347-5d55-49c2-8bd8-0acc0a308d89"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D3-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.825,
+                        "y": 108.825
+                    },
+                    "uuid": "6738c31c-ef89-4244-8b11-7c1f0b5aa883"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(C9-Pad2)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 69.275,
+                        "y": 71.975
+                    },
+                    "uuid": "cf30f24f-653a-42a6-8bf5-f9e109a413d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D7-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 84.175,
+                        "y": 71.025
+                    },
+                    "uuid": "b08d5d4a-f3e8-4532-8aeb-4068851c790c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D23-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.075,
+                        "y": 103.975
+                    },
+                    "uuid": "7ac7f352-903c-4a5e-a85a-c0157ab0f9ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D23-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 51.625,
+                        "y": 90.175
+                    },
+                    "uuid": "8f31a9b2-ac2f-404c-9602-298da1a52398"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D23-+)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 48.475,
+                        "y": 91.025
+                    },
+                    "uuid": "aea8d93d-ba7b-4716-b5e7-a7c46f5a5061"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [ena_out_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 83.525,
+                        "y": 82.975
+                    },
+                    "uuid": "6043870b-0b6c-4856-9d2b-39c25fe367a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [ena_out_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 86.175,
+                        "y": 78.425
+                    },
+                    "uuid": "f16e5db1-5cdd-4a78-9b36-3107e9532857"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D5--)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 83.625,
+                        "y": 83.875
+                    },
+                    "uuid": "55509f2f-f046-4121-807d-4f02489b8e8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vout_3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 72.025,
+                        "y": 94.925
+                    },
+                    "uuid": "2fa9d857-9c29-41f3-9652-a617d19df091"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vref_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 50.375,
+                        "y": 103.925
+                    },
+                    "uuid": "6c7733f1-641c-4152-beff-d30643e7cf5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vref_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 59.675,
+                        "y": 104.175
+                    },
+                    "uuid": "cd437e5c-f84e-4483-9782-53c34e845f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102A-Y)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 86.175,
+                        "y": 77.175
+                    },
+                    "uuid": "4fb3db10-9c3d-4f39-b576-7acc511bde60"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102A-Y)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 54.425,
+                        "y": 77.825
+                    },
+                    "uuid": "b4210024-0149-4f66-abd6-a7d22ce08771"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102D-Y)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.275,
+                        "y": 75.875
+                    },
+                    "uuid": "255417b0-c835-4b36-aa29-e18135c64926"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U102D-Y)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 54.625,
+                        "y": 80.175
+                    },
+                    "uuid": "ef9a36a5-bf73-4364-98bf-a58808e4b490"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [ena_out_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.475,
+                        "y": 77.825
+                    },
+                    "uuid": "fb38800f-e0cb-40f4-aa4e-b4e2a3e11b1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vref_1_arduino] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 50.025,
+                        "y": 92.525
+                    },
+                    "uuid": "825bd514-e146-4160-bfe3-4151963b5c9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(U106B-B)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 76.575,
+                        "y": 83.325
+                    },
+                    "uuid": "c5e9997f-0832-4594-8479-1e12f001c4a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vout_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 73.275,
+                        "y": 89.825
+                    },
+                    "uuid": "d3da828a-5849-4f28-a70d-01b2c5f31dd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Vref_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 51.625,
+                        "y": 91.425
+                    },
+                    "uuid": "2fd93981-883f-4964-a4f2-ee116ae96d25"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Net-(D7--)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.475,
+                        "y": 76.575
+                    },
+                    "uuid": "feb20940-dce9-4567-8e8b-f8444ab7eab2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [IREF2_input] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 59.725,
+                        "y": 87.425
+                    },
+                    "uuid": "421354ea-ec3f-4918-be4f-c4d824d6b22b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [IREF1_input] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 59.525,
+                        "y": 92.675
+                    },
+                    "uuid": "d77fe2a1-30a1-4b8a-84da-f209d84a454f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [out_3_on] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.475,
+                        "y": 82.925
+                    },
+                    "uuid": "15059ba9-67ae-40cd-a4ae-59dffe464e18"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "ec0d407d-73c7-463e-aa11-5dcf43b6cbff"
+                },
+                {
+                    "description": "Reference field of R35",
+                    "pos": {
+                        "x": 71.8732,
+                        "y": 69.6602
+                    },
+                    "uuid": "34213f25-4c3e-4bad-a784-a19d834e1930"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D1 on F.Silkscreen",
+                    "pos": {
+                        "x": 54.1541,
+                        "y": 75.204
+                    },
+                    "uuid": "35a95b97-8906-4af7-ba6c-42521d9d63f4"
+                },
+                {
+                    "description": "Reference field of D27",
+                    "pos": {
+                        "x": 54.7606,
+                        "y": 77.5629
+                    },
+                    "uuid": "6ff71297-10f5-44fc-8b42-cf655a510bed"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U101 on F.Silkscreen",
+                    "pos": {
+                        "x": 53.3814,
+                        "y": 85.8672
+                    },
+                    "uuid": "e5bad22b-1bb5-41a8-8831-69f1b2c6ed4c"
+                },
+                {
+                    "description": "Reference field of R105",
+                    "pos": {
+                        "x": 53.8417,
+                        "y": 81.6737
+                    },
+                    "uuid": "f95903b2-4bc8-4463-8f36-eb27a87bed8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R96 on F.Silkscreen",
+                    "pos": {
+                        "x": 82.935858,
+                        "y": 93.21
+                    },
+                    "uuid": "4bfb12a4-d220-4ca3-a825-df6408961918"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 82.138,
+                        "y": 92.8079
+                    },
+                    "uuid": "b0385cc4-96d8-4a23-a3d8-bc6ece01e764"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R96 on F.Silkscreen",
+                    "pos": {
+                        "x": 82.935858,
+                        "y": 92.165
+                    },
+                    "uuid": "5b46b7c4-847f-4c15-a77b-031981559add"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 82.138,
+                        "y": 92.8079
+                    },
+                    "uuid": "b0385cc4-96d8-4a23-a3d8-bc6ece01e764"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of H2",
+                    "pos": {
+                        "x": 75.070812,
+                        "y": 71.600733
+                    },
+                    "uuid": "5afa365c-d2de-454b-93f3-fa9837a84809"
+                },
+                {
+                    "description": "Segment of R31 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.833558,
+                        "y": 71.9085
+                    },
+                    "uuid": "e04d2ff4-cb7e-414b-912f-ba065170210c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R105",
+                    "pos": {
+                        "x": 53.8417,
+                        "y": 81.6737
+                    },
+                    "uuid": "f95903b2-4bc8-4463-8f36-eb27a87bed8e"
+                },
+                {
+                    "description": "Pad 14 [5V] of U101 on F.Cu",
+                    "pos": {
+                        "x": 54.0064,
+                        "y": 81.3322
+                    },
+                    "uuid": "bebb129e-fbbd-45de-90b6-9ee5305c0692"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of D27",
+                    "pos": {
+                        "x": 54.7606,
+                        "y": 77.5629
+                    },
+                    "uuid": "6ff71297-10f5-44fc-8b42-cf655a510bed"
+                },
+                {
+                    "description": "Pad 2 [0err_hi] of D1 on F.Cu",
+                    "pos": {
+                        "x": 55.1541,
+                        "y": 79.214
+                    },
+                    "uuid": "703faf19-9110-4619-b95c-e2af55203482"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 82.138,
+                        "y": 92.8079
+                    },
+                    "uuid": "b0385cc4-96d8-4a23-a3d8-bc6ece01e764"
+                },
+                {
+                    "description": "Pad 2 [Net-(U24-In+)] of R96 on F.Cu",
+                    "pos": {
+                        "x": 81.8736,
+                        "y": 92.6875
+                    },
+                    "uuid": "bec9fbc1-37cd-4343-9630-33fd5693f074"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 82.138,
+                        "y": 92.8079
+                    },
+                    "uuid": "b0385cc4-96d8-4a23-a3d8-bc6ece01e764"
+                },
+                {
+                    "description": "Pad 1 [analog_5V] of R96 on F.Cu",
+                    "pos": {
+                        "x": 83.5236,
+                        "y": 92.6875
+                    },
+                    "uuid": "5050c6be-9f89-424f-88f4-944ecf91c8bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R43",
+                    "pos": {
+                        "x": 73.2635,
+                        "y": 96.1313
+                    },
+                    "uuid": "4cc3af05-8642-426f-af5b-6b78e9bde61a"
+                },
+                {
+                    "description": "Pad 1 [GND] of C10 on F.Cu",
+                    "pos": {
+                        "x": 74.2797,
+                        "y": 96.2934
+                    },
+                    "uuid": "89f64633-5883-4e09-823d-bd410767485a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R43",
+                    "pos": {
+                        "x": 73.2635,
+                        "y": 96.1313
+                    },
+                    "uuid": "4cc3af05-8642-426f-af5b-6b78e9bde61a"
+                },
+                {
+                    "description": "Pad 1 [.1Vref_1] of C46 on F.Cu",
+                    "pos": {
+                        "x": 72.2861,
+                        "y": 96.3828
+                    },
+                    "uuid": "b19cbcfd-eb59-4322-b226-ef12968cec8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of H2",
+                    "pos": {
+                        "x": 75.070812,
+                        "y": 71.600733
+                    },
+                    "uuid": "5afa365c-d2de-454b-93f3-fa9837a84809"
+                },
+                {
+                    "description": "Pad 1 [Net-(U7-In-)] of R31 on F.Cu",
+                    "pos": {
+                        "x": 75.4213,
+                        "y": 71.386
+                    },
+                    "uuid": "bd1793df-051a-403e-9e62-88d7ee316b86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 74.2784,
+                        "y": 90.3076
+                    },
+                    "uuid": "64384e5f-d54c-4054-a4c0-4ccb29015e26"
+                },
+                {
+                    "description": "Pad 1 [Net-(U26A-P0B)] of C100 on B.Cu",
+                    "pos": {
+                        "x": 74.6758,
+                        "y": 90.8838
+                    },
+                    "uuid": "23f24c00-b224-4d2e-a822-7c5e3add1126"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R9",
+                    "pos": {
+                        "x": 74.2784,
+                        "y": 90.3076
+                    },
+                    "uuid": "64384e5f-d54c-4054-a4c0-4ccb29015e26"
+                },
+                {
+                    "description": "Pad 2 [GND] of C42 on B.Cu",
+                    "pos": {
+                        "x": 74.6112,
+                        "y": 89.3058
+                    },
+                    "uuid": "5091c410-409f-4fd8-bb51-3cfffd5d1502"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J11",
+                    "pos": {
+                        "x": 68.206545,
+                        "y": 71.778008
+                    },
+                    "uuid": "4cded61e-830d-4577-b31d-53c843618afc"
+                },
+                {
+                    "description": "Pad 2 [Net-(C9-Pad2)] of C9 on B.Cu",
+                    "pos": {
+                        "x": 69.3769,
+                        "y": 71.5518
+                    },
+                    "uuid": "a5213abd-6250-4cc1-8d6d-42840cfefd4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J11",
+                    "pos": {
+                        "x": 68.206545,
+                        "y": 71.778008
+                    },
+                    "uuid": "4cded61e-830d-4577-b31d-53c843618afc"
+                },
+                {
+                    "description": "Pad 1 [GND] of C9 on B.Cu",
+                    "pos": {
+                        "x": 67.8269,
+                        "y": 71.5518
+                    },
+                    "uuid": "a7877924-670a-4fd4-bbac-cd74dc28aa5c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

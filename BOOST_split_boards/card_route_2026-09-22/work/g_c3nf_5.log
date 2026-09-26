@@ -1,0 +1,143 @@
+board rasterised in 2.0 s
+loaded 4885 committed route items
+first: 10 nets from earlier passes routed ahead of the plane fan-outs
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+     Net-(U4-In+)     done in 0.0 s
+     Net-(U14-In+)    done in 0.0 s
+     Net-(U21-In+)    done in 0.0 s
+     Net-(U21-In-)    done in 0.0 s
+     Net-(Q1-E)       done in 0.0 s
+
+
+     SDA              done in 0.0 s
+     .1Vout_3         done in 0.0 s
+     Voltage_err_3    done in 0.0 s
+     Net-(U106B-B)    done in 0.0 s
+     IREF1            done in 0.0 s
+     Net-(U26E-HVC{slash}A0) done in 0.0 s
+     Reset_raw        done in 0.0 s
+     Vref_3           done in 0.0 s
+     Net-(D26-+)      done in 0.0 s
+     SCL              done in 0.0 s
+fan  GND              C26.2: no via reachable
+fan  GND              C32.2: no via reachable
+fan  GND              U21.2: no via reachable
+fan  GND              U13.2: no via reachable
+     FANOUT:GND       0 vias, 4 pads skipped, 0.7 s
+fan  5V               C26.1: nearest via needs 4.8 mm, not fanned out
+fan  5V               C24.1: no via reachable
+fan  5V               U5.5: no via reachable
+fan  5V               U4.5: no via reachable
+     FANOUT:5V        0 vias, 4 pads skipped, 0.5 s
+
+     analog_5V        done in 0.0 s
+     12V              done in 0.0 s
+     .1Vref_2         done in 0.0 s
+     Net-(U106A-B)    done in 0.0 s
+     Net-(U23-In+)    done in 0.0 s
+     Voltage_err_2    done in 0.0 s
+     IREF2_input      done in 0.0 s
+     IREF3_input      done in 0.0 s
+     Net-(D25-+)      done in 0.0 s
+     .1Vref_3         done in 0.0 s
+     Net-(D4-+)       done in 0.0 s
+     Net-(U106C-A)    done in 0.0 s
+     Net-(U106C-B)    done in 0.0 s
+     Output1_drain    done in 0.0 s
+     .1Vref_1         done in 0.0 s
+     Net-(U7-In-)     done in 0.0 s
+     Net-(U26B-P1B)   done in 0.0 s
+     Net-(U26A-P0B)   done in 0.0 s
+     Vout_2           done in 0.0 s
+     IREF1_input      done in 0.0 s
+     Vref_1           done in 0.0 s
+     Net-(D23-+)      done in 0.0 s
+     Output2_drain    done in 0.0 s
+     Net-(U26C-P2B)   done in 0.0 s
+     Verr1            done in 0.0 s
+     Voltage_err_1    done in 0.0 s
+     Output3_drain    done in 0.0 s
+     Vref_2           done in 0.0 s
+     Net-(U24-In+)    done in 0.0 s
+     Net-(U13-In-)    done in 0.0 s
+     Net-(U3-In-)     done in 0.0 s
+     Verr2            done in 0.0 s
+     Net-(U22-In+)    done in 0.0 s
+     Verr3            done in 0.0 s
+     Net-(U106A-A)    done in 0.0 s
+     Net-(U106B-A)    done in 0.0 s
+     Vout_1           done in 0.0 s
+     Vout_3           done in 0.0 s
+     .1Vout_1         done in 0.0 s
+     Net-(D4--)       done in 0.0 s
+     Net-(D3-+)       done in 0.0 s
+     .1Vout_2         done in 0.0 s
+     Net-(D24-+)      done in 0.0 s
+     VerrGT0          done in 0.0 s
+     0err_hi          done in 0.0 s
+     Out-             done in 0.0 s
+     Net-(U103B-Y)    done in 0.0 s
+     Net-(D5--)       done in 0.0 s
+     low_error_timeout done in 0.0 s
+     Net-(U102B-A)    done in 0.0 s
+     Net-(U102C-A)    done in 0.0 s
+     0A_hi            done in 0.0 s
+     IREF3            done in 0.0 s
+     ena_out_2        done in 0.0 s
+     Net-(D7--)       done in 0.0 s
+     Net-(D5-+)       done in 0.0 s
+     IREF2            done in 0.0 s
+     Net-(C8-Pad2)    done in 0.0 s
+     Net-(U103A-A)    done in 0.0 s
+     Net-(U102A-Y)    done in 0.0 s
+     Net-(U102D-Y)    done in 0.0 s
+     ARD_M1_INHIBIT   done in 0.0 s
+     ena_out_3        done in 0.0 s
+     Net-(D20--)      done in 0.0 s
+     M1_ON            done in 0.0 s
+     Net-(D20-+)      done in 0.0 s
+     ena_out_1        done in 0.0 s
+     out_3_on         done in 0.0 s
+     set-             done in 0.0 s
+     Net-(U101A-Y)    done in 0.0 s
+     out_2_on         done in 0.0 s
+     M2_ON            done in 0.0 s
+     Net-(C17-Pad2)   done in 0.0 s
+     Net-(C9-Pad2)    done in 0.0 s
+     Net-(U18-Q3)     done in 0.0 s
+     RESET-           done in 0.0 s
+     Out              done in 0.0 s
+     M1_INHIBIT       done in 0.0 s
+     Vref_3_arduino   done in 0.0 s
+     Vref_2_arduino   done in 0.0 s
+     Net-(D7-+)       done in 0.0 s
+     Vref_1_arduino   done in 0.0 s
+     Net-(U26E-A1)    done in 0.0 s
+     Net-(U26E-~{RESET}) done in 0.0 s
+     Net-(C19-Pad1)   done in 0.0 s
+     5V               done in 0.0 s
+rip  GND              ripping Net-(U13-In-), Net-(D26-+), analog_5V, Voltage_err_3 did not free a path
+rip  GND              ripping Net-(U24-In+), IREF1, Net-(D26-+), Net-(U13-In-), Voltage_err_3, Net-(D25-+), analog_5V, Net-(U103B-Y) did not free a path
+rip  GND              ripped .1Vout_3, but .1Vout_3 then failed; undone
+FAIL GND: island 0 (604732 cells; C10.1 C43.2 R46.1 U3.2 +104) to island 1 (R42.2), gap 0.0 mm
+FAIL GND: island 0 (604732 cells; C10.1 C43.2 R46.1 U3.2 +104) to island 2 (R92.2), gap 0.0 mm
+FAIL GND: island 0 (604732 cells; C10.1 C43.2 R46.1 U3.2 +104) to island 3 (C100.2), gap 0.0 mm
+FAIL GND: island 0 (604732 cells; C10.1 C43.2 R46.1 U3.2 +104) to island 4 (U26.11), gap 0.0 mm
+FAIL GND: island 0 (604732 cells; C10.1 C43.2 R46.1 U3.2 +104) to island 5 (R88.2), gap 0.0 mm
+FAIL GND: island 1 (1923 cells; R42.2) to island 3 (C100.2), gap 0.9 mm
+FAIL GND: island 1 (1923 cells; R42.2) to island 5 (R88.2), gap 0.9 mm
+FAIL GND: island 3 (1203 cells; C100.2) to island 5 (R88.2), gap 3.7 mm
+FAIL GND: island 1 (1923 cells; R42.2) to island 4 (U26.11), gap 11.9 mm
+FAIL GND: island 3 (1203 cells; C100.2) to island 4 (U26.11), gap 12.8 mm
+FAIL GND: island 1 (1923 cells; R42.2) to island 2 (R92.2), gap 13.4 mm
+FAIL GND: island 2 (1006 cells; R92.2) to island 5 (R88.2), gap 14.1 mm
+FAIL GND: island 2 (1006 cells; R92.2) to island 3 (C100.2), gap 16.9 mm
+FAIL GND: island 4 (2429 cells; U26.11) to island 5 (R88.2), gap 17.5 mm
+FAIL GND: island 2 (1006 cells; R92.2) to island 4 (U26.11), gap 21.8 mm
+     GND              done in 218.3 s (15 failed)
+tracks 4446, vias 439, failures 15, 230 s

@@ -11,7 +11,7 @@ import pcbnew
 
 NET, ASSIGN, BOARD, OUT = sys.argv[1:5]
 KLIB = r'C:\Program Files\KiCad\10.0\share\kicad\footprints'
-PROJ = r'C:\Users\Dominick Junior\Downloads\UCSD Stuff\2025-2026\robotx\led-driver\BOOST-github\BOOST'
+PROJ = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..', 'BOOST-github', 'BOOST'))
 MM = pcbnew.ToMM
 
 t = open(NET, encoding='utf8').read()

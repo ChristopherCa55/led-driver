@@ -1,5 +1,36 @@
 # BOOST LED driver — two-board split, routed (KiCad 10)
 
+## Current state (2026-09-25): start here
+
+**The release package is `FINAL_2026-09-25/`** (scenario A: 5 bare PCBs of each board, 2 complete sets assembled
+by JLCPCB). Start with `FINAL_2026-09-25/README.md` and its `7_docs/ORDER_CHECKLIST.md`.
+
+**Schematic rev6 is in `BOOST-github/BOOST/BOOST.kicad_sch`** (written 2026-09-25 on the user's OK).
+- Rev5 is backed up in `previous/2026-09-25/schematic_rev5/`.
+- ERC 0/0, the same report as rev5; netlist `BOOST_9-25_rev6.net`.
+- Netdiff: six values only. Parity 0 on both boards. DRC 0 errors, 0 unconnected.
+- Nothing is open before ordering; follow `fab_2026-09-24/ORDER_CHECKLIST.md`.
+
+The re-designed boards are not the `BOOST_power.kicad_pcb` / `BOOST_control.kicad_pcb` in this folder. Those are the
+older routing described below, kept as shipped. The current boards (working copies keep `_NOT_FOR_FAB`; the release
+copies are in `FINAL_2026-09-25/2_boards/`):
+
+| | Board | Status |
+|---|---|---|
+| Power | `route_2026-09-16/BOOST_power_route_v19_NOT_FOR_FAB.kicad_pcb` | **release (RC2)**: v18 + rev6 values |
+| Power | `route_2026-09-16/BOOST_power_route_v18_NOT_FOR_FAB.kicad_pcb` | v17 + via moves + J10 1.05 mm (approved 2026-09-24) |
+| Power | `route_2026-09-16/BOOST_power_route_v17_NOT_FOR_FAB.kicad_pcb` | frozen v16 + MOSFET orientation silk |
+| Card | `card_route_2026-09-22/BOOST_control_route_c3b_NOT_FOR_FAB.kicad_pcb` | **release (RC2)**: c3 + J11 1.05 mm |
+| Card | `card_route_2026-09-22/BOOST_control_route_c3_NOT_FOR_FAB.kicad_pcb` | accepted 2026-09-24 |
+
+- Fabrication + assembly package: `fab_2026-09-24/README.md` (RC2), `COST_SUMMARY.md`, `ORDER_CHECKLIST.md`.
+- Assembly pack: `BUILD_NOTES.md` and `case_drilling_2026-09-15/` (rev B).
+- 3D model and clearances: `assembly_3d_2026-09-24/` (rebuilt 2026-09-25 with the chosen hardware).
+- M1 turn-off re-check with the routed loop: `sim_m1_2026-09-24/README.md` (accepted 2026-09-25).
+- `BOOST_power.kicad_pro` carries netclass priorities (2026-09-24; backup in `previous/2026-09-24/`).
+
+The rest of this file describes the older routing and is kept for reference.
+
 | file | what |
 |---|---|
 | `BOOST_power.kicad_pcb` + `.kicad_pro` | 74 × 86 mm, 8 layers, 121 footprints |

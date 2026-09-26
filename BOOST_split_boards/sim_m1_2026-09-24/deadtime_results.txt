@@ -1,0 +1,96 @@
+== m1_routed_nom.raw  (threshold 1.8 V, 123 M1 turn-offs in 35-39 ms)
+ ch1 M2: 41 events
+   rail driver output rises           min    4.3  median    4.8  max    5.7 ns
+   M1 die Vds > 5 V                   min   25.4  median   25.4  max   25.4 ns
+   rail FET die Vgs > Vth             min   66.4  median   67.0  max   67.9 ns
+   M1 die Vgs < Vth                   min  107.9  median  107.9  max  108.0 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   41.0  median   41.6  max   42.5 ns
+ ch2 M3: 41 events
+   rail driver output rises           min    4.5  median    5.1  max    5.6 ns
+   M1 die Vds > 5 V                   min   23.3  median   23.3  max   23.3 ns
+   rail FET die Vgs > Vth             min   69.4  median   70.0  max   70.5 ns
+   M1 die Vgs < Vth                   min  124.6  median  124.6  max  124.7 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   46.1  median   46.7  max   47.2 ns
+ ch3 M4: 41 events
+   rail driver output rises           min    4.1  median    4.7  max    5.8 ns
+   M1 die Vds > 5 V                   min   23.3  median   23.3  max   23.3 ns
+   rail FET die Vgs > Vth             min   69.3  median   69.8  max   70.8 ns
+   M1 die Vgs < Vth                   min  124.5  median  124.5  max  124.5 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   46.0  median   46.4  max   47.5 ns
+ all channels: margin min 41.0 ns, median 46.4 ns (pass >= ~20 ns)
+ reverse current into M2 drain: peak 1.06 A (pass <= ~2 A)
+ reverse current into M3 drain: peak 0.97 A (pass <= ~2 A)
+ reverse current into M4 drain: peak 1.04 A (pass <= ~2 A)
+ M1 die Vds peak 67.6 V; LX pin peak 60.8 V; TVS avg 10.0 mW
+== m1_pess_nom.raw  (threshold 1.8 V, 122 M1 turn-offs in 35-39 ms)
+ ch1 M2: 40 events
+   rail driver output rises           min    4.4  median    5.0  max    5.6 ns
+   M1 die Vds > 5 V                   min   25.5  median   25.6  max   25.6 ns
+   rail FET die Vgs > Vth             min   65.4  median   65.9  max   66.4 ns
+   M1 die Vgs < Vth                   min  116.4  median  116.4  max  116.5 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   39.9  median   40.3  max   40.8 ns
+ ch2 M3: 41 events
+   rail driver output rises           min    4.5  median    5.1  max    5.7 ns
+   M1 die Vds > 5 V                   min   23.4  median   23.4  max   23.5 ns
+   rail FET die Vgs > Vth             min   68.4  median   68.9  max   69.4 ns
+   M1 die Vgs < Vth                   min  135.6  median  135.6  max  135.7 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   45.0  median   45.5  max   46.0 ns
+ ch3 M4: 41 events
+   rail driver output rises           min    4.5  median    4.9  max    5.7 ns
+   M1 die Vds > 5 V                   min   23.4  median   23.4  max   23.5 ns
+   rail FET die Vgs > Vth             min   68.8  median   69.2  max   69.8 ns
+   M1 die Vgs < Vth                   min  135.3  median  135.4  max  135.5 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   45.4  median   45.7  max   46.3 ns
+ all channels: margin min 39.9 ns, median 45.4 ns (pass >= ~20 ns)
+ reverse current into M2 drain: peak 1.20 A (pass <= ~2 A)
+ reverse current into M3 drain: peak 0.99 A (pass <= ~2 A)
+ reverse current into M4 drain: peak 0.99 A (pass <= ~2 A)
+ M1 die Vds peak 67.9 V; LX pin peak 61.3 V; TVS avg 22.3 mW
+== m1_routed_lv.raw  (threshold 1.0 V, 123 M1 turn-offs in 35-39 ms)
+ ch1 M2: 41 events
+   rail driver output rises           min    4.4  median    5.2  max    5.7 ns
+   M1 die Vds > 5 V                   min   29.7  median   29.7  max   29.7 ns
+   rail FET die Vgs > Vth             min   48.2  median   48.8  max   49.1 ns
+   M1 die Vgs < Vth                   min  143.5  median  143.6  max  143.6 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   18.6  median   19.1  max   19.5 ns
+ ch2 M3: 41 events
+   rail driver output rises           min    4.2  median    5.2  max    5.9 ns
+   M1 die Vds > 5 V                   min   27.1  median   27.2  max   27.2 ns
+   rail FET die Vgs > Vth             min   50.8  median   51.4  max   51.8 ns
+   M1 die Vgs < Vth                   min  161.0  median  161.0  max  161.0 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   23.7  median   24.2  max   24.6 ns
+ ch3 M4: 41 events
+   rail driver output rises           min    4.4  median    4.9  max    5.7 ns
+   M1 die Vds > 5 V                   min   27.1  median   27.2  max   27.2 ns
+   rail FET die Vgs > Vth             min   51.0  median   51.3  max   51.8 ns
+   M1 die Vgs < Vth                   min  161.0  median  161.0  max  161.1 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   23.8  median   24.1  max   24.6 ns
+ all channels: margin min 18.6 ns, median 24.0 ns (pass >= ~20 ns)
+ reverse current into M2 drain: peak 1.01 A (pass <= ~2 A)
+ reverse current into M3 drain: peak 1.06 A (pass <= ~2 A)
+ reverse current into M4 drain: peak 1.06 A (pass <= ~2 A)
+ M1 die Vds peak 64.7 V; LX pin peak 59.4 V; TVS avg 1.7 mW
+== m1_pess_lv.raw  (threshold 1.0 V, 123 M1 turn-offs in 35-39 ms)
+ ch1 M2: 41 events
+   rail driver output rises           min    4.4  median    4.9  max    5.7 ns
+   M1 die Vds > 5 V                   min   29.8  median   29.9  max   29.9 ns
+   rail FET die Vgs > Vth             min   48.5  median   48.8  max   49.4 ns
+   M1 die Vgs < Vth                   min  155.1  median  155.2  max  155.2 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   18.6  median   19.0  max   19.5 ns
+ ch2 M3: 41 events
+   rail driver output rises           min    4.5  median    4.7  max    5.7 ns
+   M1 die Vds > 5 V                   min   27.4  median   27.4  max   27.4 ns
+   rail FET die Vgs > Vth             min   51.4  median   51.5  max   52.1 ns
+   M1 die Vgs < Vth                   min  175.1  median  175.1  max  175.1 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   24.0  median   24.1  max   24.7 ns
+ ch3 M4: 41 events
+   rail driver output rises           min    4.4  median    4.9  max    5.6 ns
+   M1 die Vds > 5 V                   min   27.4  median   27.4  max   27.4 ns
+   rail FET die Vgs > Vth             min   51.4  median   51.7  max   52.2 ns
+   M1 die Vgs < Vth                   min  175.1  median  175.2  max  175.2 ns
+   MARGIN (Vds>5 V -> rail Vgs>Vth)   min   24.0  median   24.3  max   24.8 ns
+ all channels: margin min 18.6 ns, median 24.1 ns (pass >= ~20 ns)
+ reverse current into M2 drain: peak 0.85 A (pass <= ~2 A)
+ reverse current into M3 drain: peak 0.98 A (pass <= ~2 A)
+ reverse current into M4 drain: peak 1.05 A (pass <= ~2 A)
+ M1 die Vds peak 66.3 V; LX pin peak 60.5 V; TVS avg 4.1 mW

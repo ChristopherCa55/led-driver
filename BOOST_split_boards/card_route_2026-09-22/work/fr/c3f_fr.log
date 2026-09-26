@@ -1,0 +1,72 @@
+2026-09-23 15:13:11.572 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-23 15:13:14.179 INFO   [12CF58\C7A9DE] Loading board file 'c3f.dsn'...
+2026-09-23 15:13:15.032 INFO   Layer 'In1.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 15:13:15.033 INFO   Layer 'In3.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 15:13:15.034 INFO   Layer 'In4.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 15:13:15.034 INFO   Layer 'In6.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 15:13:15.150 INFO   [12CF58\C7A9DE] Job '12CF58\C7A9DE' started at 2026-09-23T22:13:15.150170300Z.
+2026-09-23 15:13:16.990 INFO   [12CF58\C7A9DE] Fanout stage started on board '6a4b3b7b95c16ea7ba9e43056923002a' with 425 of 472 SMD pins needing fanout (47 already connected, 0 netless).
+2026-09-23 15:15:15.159 INFO   [12CF58\C7A9DE] Fanout pass #1 on board 'b203f24020b46219b83fbc55fbbf2e59' completed in 116.99 seconds with 202 SMD pins fanouted, 150 not routed, 0 insert errors, +41 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-23 15:15:59.508 INFO   [12CF58\C7A9DE] Fanout pass #2 on board 'd3fc229d08e69abf5d0f1e996b5624cf' completed in 44.25 seconds with 48 SMD pins fanouted, 145 not routed, 0 insert errors, +12 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-23 15:16:41.240 INFO   [12CF58\C7A9DE] Fanout pass #3 on board 'd85dd54fe1eb81fd4e49beb14f327df6' completed in 41.65 seconds with 24 SMD pins fanouted, 148 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=300).
+2026-09-23 15:17:22.851 INFO   [12CF58\C7A9DE] Fanout pass #4 on board '30074257174e06483cee094b8a7751bc' completed in 41.52 seconds with 28 SMD pins fanouted, 145 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=400).
+2026-09-23 15:18:07.772 INFO   [12CF58\C7A9DE] Fanout pass #5 on board '34cd966c5d252a3f96616ddb3d234c10' completed in 44.83 seconds with 24 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-09-23 15:18:46.981 INFO   [12CF58\C7A9DE] Fanout pass #6 on board 'a495a2791e644ecb815b0d8f8d2c33a4' completed in 39.11 seconds with 27 SMD pins fanouted, 145 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=600).
+2026-09-23 15:19:26.274 INFO   [12CF58\C7A9DE] Fanout pass #7 on board 'b81cb69864588aa246b7d7a1c3f614aa' completed in 39.20 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=700).
+2026-09-23 15:20:06.410 INFO   [12CF58\C7A9DE] Fanout pass #8 on board '6df70f07d65fa4a6d09ce73c88391c60' completed in 40.05 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=800).
+2026-09-23 15:20:47.676 INFO   [12CF58\C7A9DE] Fanout pass #9 on board 'f61624c6834f16871955d9f8dcc7fe26' completed in 41.18 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=900).
+2026-09-23 15:21:27.785 INFO   [12CF58\C7A9DE] Fanout pass #10 on board '040279ce3c838c120957570630245c9e' completed in 40.02 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1000).
+2026-09-23 15:22:08.705 INFO   [12CF58\C7A9DE] Fanout pass #11 on board '95a1174351789cfb5a0c8d599d616a3c' completed in 40.83 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1100).
+2026-09-23 15:22:47.321 INFO   [12CF58\C7A9DE] Fanout pass #12 on board '698c65daa1ecc6e1162930e43394e5e3' completed in 38.53 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1200).
+2026-09-23 15:23:36.623 INFO   [12CF58\C7A9DE] Fanout pass #13 on board '4d5c19d7825380562e6a988216605a72' completed in 49.18 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1300).
+2026-09-23 15:24:25.103 INFO   [12CF58\C7A9DE] Fanout pass #14 on board '2fe491da1cc853bd863dc91e1bd3e0d0' completed in 48.38 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1400).
+2026-09-23 15:25:02.788 INFO   [12CF58\C7A9DE] Fanout pass #15 on board 'cc15267dc55875999b53577f864d8f03' completed in 37.60 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1500).
+2026-09-23 15:25:42.034 INFO   [12CF58\C7A9DE] Fanout pass #16 on board 'a801a853296eb80d3ed3a60a216ee349' completed in 39.16 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1600).
+2026-09-23 15:26:18.911 INFO   [12CF58\C7A9DE] Fanout pass #17 on board '060bd52456f187096bf081cd8de5374f' completed in 36.80 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1700).
+2026-09-23 15:26:54.613 INFO   [12CF58\C7A9DE] Fanout pass #18 on board '96fc009d5d2fed9df14029c135fbff17' completed in 35.62 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1800).
+2026-09-23 15:27:28.433 INFO   [12CF58\C7A9DE] Fanout pass #19 on board '704052623481176d99c733f6c2d1f56e' completed in 33.70 seconds with 23 SMD pins fanouted, 147 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1900).
+2026-09-23 15:28:07.448 INFO   [12CF58\C7A9DE] Fanout pass #20 on board 'cc9ed5d2cff45dd8c760685a2ab5eb5b' completed in 38.93 seconds with 26 SMD pins fanouted, 145 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=2000).
+2026-09-23 15:28:11.042 INFO   [12CF58\C7A9DE] Fanout stage completed: started with 472 total SMD pins, completed in 892.96 seconds, escaped pins: 317/472 (67.2%), using 865.45 total CPU seconds, 951.77 GB total allocated, and 410.4 MB peak heap usage.
+2026-09-23 15:28:11.284 INFO   [12CF58\C7A9DE] Auto-routing stage started on board 'cc9ed5d2cff45dd8c760685a2ab5eb5b' for 152 unrouted items.
+2026-09-23 15:29:15.044 WARN   offset_shapes: shape is empty
+2026-09-23 15:29:15.046 WARN   offset_shapes: shape is empty
+2026-09-23 15:29:15.049 WARN   offset_shapes: shape is empty
+2026-09-23 15:29:15.050 WARN   offset_shapes: shape is empty
+2026-09-23 15:30:33.293 WARN   offset_shapes: shape is empty
+2026-09-23 15:30:33.294 WARN   offset_shapes: shape is empty
+2026-09-23 15:30:41.011 WARN   offset_shapes: shape is empty
+2026-09-23 15:30:41.013 WARN   offset_shapes: shape is empty
+2026-09-23 15:32:24.376 INFO   [12CF58\C7A9DE] Auto-routing pass #1 on board 'cc9ed5d2cff45dd8c760685a2ab5eb5b' was completed in 244.66 seconds with score 432.80 (110 unrouted and 539 violations), using 1111.13 CPU seconds and the job allocated 1521.73 GB of memory so far.
+2026-09-23 15:33:14.879 WARN   offset_shapes: shape is empty
+2026-09-23 15:33:14.880 WARN   offset_shapes: shape is empty
+2026-09-23 15:33:14.880 WARN   offset_shapes: shape is empty
+2026-09-23 15:33:14.880 WARN   offset_shapes: shape is empty
+2026-09-23 15:36:10.404 INFO   [12CF58\C7A9DE] Auto-routing pass #2 on board 'fea8f4dadbb3e33db575048b1158fa57' was completed in 222.40 seconds with score 448.43 (104 unrouted and 539 violations), using 1330.50 CPU seconds and the job allocated 2055.04 GB of memory so far.
+2026-09-23 15:36:47.364 WARN   offset_shapes: shape is empty
+2026-09-23 15:36:47.365 WARN   offset_shapes: shape is empty
+2026-09-23 15:36:47.365 WARN   offset_shapes: shape is empty
+2026-09-23 15:36:47.365 WARN   offset_shapes: shape is empty
+2026-09-23 15:37:38.493 WARN   offset_shapes: shape is empty
+2026-09-23 15:37:38.494 WARN   offset_shapes: shape is empty
+2026-09-23 15:38:29.953 WARN   offset_shapes: shape is empty
+2026-09-23 15:38:29.953 WARN   offset_shapes: shape is empty
+2026-09-23 15:39:04.845 INFO   [12CF58\C7A9DE] Auto-routing pass #3 on board '3b117e0f6c27c949aefe460200aae812' was completed in 170.56 seconds with score 479.68 (92 unrouted and 539 violations), using 1500.53 CPU seconds and the job allocated 2485.65 GB of memory so far.
+2026-09-23 15:40:28.838 WARN   offset_shapes: shape is empty
+2026-09-23 15:40:28.839 WARN   offset_shapes: shape is empty
+2026-09-23 15:41:36.863 INFO   [12CF58\C7A9DE] Auto-routing pass #4 on board 'c6e3fe40a37acd495984f2fe03fbe490' was completed in 148.63 seconds with score 492.70 (87 unrouted and 539 violations), using 1649.11 CPU seconds and the job allocated 2890.67 GB of memory so far.
+2026-09-23 15:44:27.896 INFO   [12CF58\C7A9DE] Auto-routing pass #5 on board 'd755460026d02502e44832924114dedc' was completed in 167.61 seconds with score 495.30 (86 unrouted and 539 violations), using 1814.19 CPU seconds and the job allocated 3332.85 GB of memory so far.
+2026-09-23 15:44:46.874 WARN   offset_shapes: shape is empty
+2026-09-23 15:44:46.874 WARN   offset_shapes: shape is empty
+2026-09-23 15:44:46.875 WARN   offset_shapes: shape is empty
+2026-09-23 15:44:46.875 WARN   offset_shapes: shape is empty
+2026-09-23 15:46:03.950 WARN   offset_shapes: shape is empty
+2026-09-23 15:46:03.950 WARN   offset_shapes: shape is empty
+2026-09-23 15:47:07.259 INFO   [12CF58\C7A9DE] Auto-routing pass #6 on board '2cc3f5fd33a7355b89b525f2901a53db' was completed in 156.24 seconds with score 495.30 (86 unrouted and 539 violations), using 1968.92 CPU seconds and the job allocated 3766.78 GB of memory so far.
+2026-09-23 15:47:10.306 INFO   [12CF58\C7A9DE] Auto-routing stage completed: started with 290 unrouted nets, completed in 2033.49 seconds, final score: 495.30 (86 unrouted and 539 violations), using 1971.95 total CPU seconds, 3776.13 GB total allocated, and 902.1 MB peak heap usage.
+2026-09-23 15:47:10.335 INFO   [12CF58\C7A9DE] Job '12CF58\C7A9DE' finished with state: COMPLETED (elapsed: 33 minutes 55.18 seconds, finished at UTC: 2026-09-23T22:47:10.334806800Z).
+2026-09-23 15:47:10.727 INFO   Saving output file 'C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\card_route_2026-09-22\work\fr\c3f.ses' (SES)...
+2026-09-23 15:47:10.734 INFO   Successfully saved output file 'C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\card_route_2026-09-22\work\fr\c3f.ses' (71570 bytes).
+
+real	34m1.966s
+user	0m0.061s
+sys	0m0.076s

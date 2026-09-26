@@ -1,0 +1,22 @@
+== DRC
+{('starved_thermal', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 9
+== sensitive nets
+Net-(U2-In+)   tracks {'F.Cu': 0.1, 'B.Cu': 1.17, 'In5.Cu': 9.55}, vias 4 | foreign vias <2mm: 0 | foreign tracks <2mm: 6 (+2 of its parts' pin nets) | logic <2mm plan: 34 | guard 100.0% planes 100.0% | GND vias <2mm 9
+               GND plane next to the whole length: 73.6% (100.0% off its own vias / pads, 0 gap points)
+Current        tracks {'B.Cu': 2.9}, vias 0 | foreign vias <2mm: 0 | foreign tracks <2mm: 0 (+2 of its parts' pin nets) | logic <2mm plan: 13 | guard 80.0% planes 86.7% | GND vias <2mm 6
+               GND plane next to the whole length: 86.7% (86.7% off its own vias / pads, 2 gap points)
+V_err          tracks {'F.Cu': 5.59, 'B.Cu': 7.74}, vias 1 | foreign vias <2mm: 0 | foreign tracks <2mm: 0 (+0 of its parts' pin nets) | logic <2mm plan: 9 | guard None% planes None% | GND vias <2mm 5
+               GND plane next to the whole length: 91.2% (100.0% off its own vias / pads, 0 gap points)
+== layer plan
+layer-plan (open (2026-09-24)) violations: 1
+  5V pour on In3 in 2 pieces (must be one)
+inner planes / pours: {'In4.Cu GND': {'pieces': 9, 'mm2': 1171.8}, 'In1.Cu GND': {'pieces': 1, 'mm2': 1514.4}, 'In6.Cu GND': {'pieces': 1, 'mm2': 1514.4}, 'In3.Cu 5V': {'pieces': 2, 'mm2': 1202.2}}
+vias 392, smallest drill 0.30 mm, via-in-pad 142
+track mm by layer: {'B.Cu': 462.5, 'F.Cu': 410.3, 'In2.Cu': 521.8, 'In3.Cu': 357.5, 'In4.Cu': 431.8, 'In5.Cu': 423.2}
+J11 GND pads solid and J9.10 thermal: True; stackup with 8 copper layers: True
+== parity (rev5 netlist)
+check sig_c3orp.kicad_pcb: 166 footprints (want 166), 3811 tracks/vias, 7 zones; parity failures 0
+== overlay (power v16)
+ok   card outline = power-board card rect x 45.8905-90.8905, y 70.0226-115.0226 (outline centre lines)
+13 checks, 0 failed

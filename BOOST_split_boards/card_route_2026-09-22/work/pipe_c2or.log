@@ -1,0 +1,215 @@
+exported 133 nets, 41 barrels, 513 pads
+added 2726 tracks, 395 vias -> work/sig_c2or_1.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 59, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 42
+exported 133 nets, 436 barrels, 513 pads
+tracks 2722, vias 390, failures 17, 443 s
+added 2722 tracks, 390 vias -> work/sig_c2or_2.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 47, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 31
+exported 133 nets, 431 barrels, 513 pads
+tracks 2708, vias 389, failures 13, 313 s
+added 2708 tracks, 389 vias -> work/sig_c2or_3.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 43, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 28
+exported 133 nets, 430 barrels, 513 pads
+tracks 2708, vias 390, failures 13, 263 s
+added 2708 tracks, 390 vias -> work/sig_c2or_4.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 43, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 28
+exported 133 nets, 431 barrels, 513 pads
+tracks 2721, vias 390, failures 13, 261 s
+added 2721 tracks, 390 vias -> work/sig_c2or_5.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 43, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 27
+exported 133 nets, 431 barrels, 513 pads
+tracks 2721, vias 390, failures 13, 242 s
+added 2721 tracks, 390 vias -> work/sig_c2or_6.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 43, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 27
+exported 133 nets, 431 barrels, 513 pads
+tracks 2721, vias 390, failures 13, 243 s
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 43, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+  clearance        Clearance violation (netclass 'Power' clea | Via [.1Vref_1] on F.Cu - B.Cu @(71.65,95.65) || Pad 2 [GND] of C28 on B.Cu @(72.25,96.51)
+unconnected 27
+  U Via [Net-(U24-In+)] on F.Cu - B.Cu @(75.45,90.05) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45) || Track [Net-(U24-In+)] on F.Cu, length 0.3000 mm @(82.55,91.55)
+  U Track [.1Vref_1] on B.Cu, length 0.1000 mm @(75.65,94.65) || Via [.1Vref_1] on F.Cu - B.Cu @(75.15,95.05)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [5V] on F.Cu, length 0.8000 mm @(58.15,92.65) || Pad 17 [5V] of U26 on B.Cu @(56.57,91.48)
+  U Pad 5 [5V] of U5 on B.Cu @(74.53,105.20) || Pad 5 [5V] of U4 on B.Cu @(78.19,104.18)
+  U Via [Reset_raw] on F.Cu - B.Cu @(71.15,106.15) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20) || Via [Reset_raw] on F.Cu - B.Cu @(57.65,86.95)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Track [IREF2] on In2.Cu, length 0.9000 mm @(63.85,87.25)
+  U Track [0err_hi] on In5.Cu, length 0.1414 mm @(77.85,110.05) || Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45)
+  U Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75) || Via [Net-(U26E-HVC/A0)] on F.Cu - B.Cu @(56.55,84.75)
+  U Track [Net-(U26C-P2B)] on F.Cu, length 0.6000 mm @(56.65,92.05) || Pad 18 [Net-(U26C-P2B)] of U26 on B.Cu @(55.92,91.48)
+  U Via [Net-(D4-+)] on F.Cu - B.Cu @(49.05,79.85) || Track [Net-(D4-+)] on F.Cu, length 0.4000 mm @(49.65,80.85)
+  U Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40) || Via [Net-(D4-+)] on F.Cu - B.Cu @(49.55,108.15)
+  U Via [Net-(U22-In+)] on F.Cu - B.Cu @(50.35,92.65) || Pad 3 [Net-(U22-In+)] of U22 on F.Cu @(50.45,91.52)
+  U Track [Net-(C8-Pad2)] on In2.Cu, length 0.1000 mm @(88.75,97.55) || Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80)
+  U Via [Net-(U13-In-)] on F.Cu - B.Cu @(79.15,92.65) || Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39)
+  U Via [Net-(U13-In-)] on F.Cu - B.Cu @(79.15,92.65) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Pad 1 [Net-(U26E-A1)] of R99 on B.Cu @(53.22,91.52) || Via [Net-(U26E-A1)] on F.Cu - B.Cu @(53.75,91.05)
+  U Pad 16 [Net-(U26E-A1)] of U26 on B.Cu @(57.22,91.48) || Via [Net-(U26E-A1)] on F.Cu - B.Cu @(57.35,92.55)
+  U Via [IREF2_input] on F.Cu - B.Cu @(59.75,84.75) || Pad 9 [IREF2_input] of U26 on B.Cu @(59.82,85.75)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+  U Via [IREF1_input] on F.Cu - B.Cu @(59.95,90.25) || Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48)
+  U Pad 4 [M2_ON] of U104 on B.Cu @(55.21,79.22) || Via [M2_ON] on F.Cu - B.Cu @(56.75,78.35)
+  U Track [out_2_on] on B.Cu, length 0.1000 mm @(52.85,82.25) || Via [out_2_on] on F.Cu - B.Cu @(53.25,81.75)
+removed via Net-(U24-In+) at (75.450, 90.050)
+removed via Net-(U24-In+) at (78.450, 89.150)
+removed via .1Vref_1 at (71.650, 95.650)
+removed via .1Vref_1 at (61.550, 102.250)
+removed via .1Vref_1 at (75.150, 95.050)
+removed via .1Vref_1 at (61.350, 91.750)
+removed via Verr2 at (80.950, 104.950)
+removed via Reset_raw at (71.150, 106.150)
+removed via Reset_raw at (57.650, 86.950)
+removed via IREF2 at (82.650, 89.850)
+removed via 0err_hi at (77.150, 100.150)
+removed via 0err_hi at (49.550, 79.050)
+removed via 0err_hi at (56.650, 79.150)
+removed via 0err_hi at (49.950, 105.350)
+removed via M1_INHIBIT at (56.050, 75.250)
+removed via M1_INHIBIT at (52.050, 72.950)
+removed via Net-(U26C-P2B) at (55.950, 92.450)
+removed via .1Vout_1 at (73.550, 92.050)
+removed via Net-(U21-In-) at (77.350, 111.250)
+removed via low_error_timeout at (46.750, 85.350)
+removed via low_error_timeout at (62.350, 81.050)
+removed via Net-(D4--) at (46.850, 79.350)
+removed via Net-(D4-+) at (49.050, 79.850)
+removed via Net-(D4-+) at (49.550, 108.150)
+removed via Net-(U22-In+) at (50.350, 92.650)
+removed via Net-(U14-In+) at (47.650, 87.850)
+removed via Net-(D3-+) at (49.950, 108.850)
+removed via Net-(D7-+) at (84.050, 71.750)
+removed via Net-(C8-Pad2) at (88.750, 97.450)
+removed via Vout_3 at (71.950, 94.150)
+removed via Net-(U13-In-) at (79.150, 92.650)
+removed via Net-(U13-In-) at (77.950, 84.950)
+removed via Net-(U102A-Y) at (54.350, 77.850)
+removed via Net-(U102A-Y) at (87.750, 77.550)
+removed via Net-(U26E-A1) at (53.750, 91.050)
+removed via Net-(U26E-A1) at (57.350, 92.550)
+removed via Net-(D7--) at (49.450, 76.550)
+removed via IREF2_input at (59.750, 84.750)
+removed via IREF1_input at (59.950, 90.250)
+removed via M2_ON at (56.750, 78.350)
+removed via out_2_on at (53.250, 81.750)
+removed via out_3_on at (51.050, 82.850)
+removed 42 of 43 flagged tracks and vias -> work/sig_c2orp.kicad_pcb
+{('via_dangling', 'warning'): 1, ('track_dangling', 'warning'): 3, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 16
+  U Track [Net-(U24-In+)] on F.Cu, length 0.3000 mm @(82.55,91.55) || Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [5V] on F.Cu, length 0.8000 mm @(58.15,92.65) || Pad 17 [5V] of U26 on B.Cu @(56.57,91.48)
+  U Pad 5 [5V] of U5 on B.Cu @(74.53,105.20) || Pad 5 [5V] of U4 on B.Cu @(78.19,104.18)
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Track [IREF2] on In2.Cu, length 0.9000 mm @(63.85,87.25)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Track [0err_hi] on In5.Cu, length 0.1414 mm @(77.85,110.05)
+  U Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75) || Via [Net-(U26E-HVC/A0)] on F.Cu - B.Cu @(56.55,84.75)
+  U Pad 18 [Net-(U26C-P2B)] of U26 on B.Cu @(55.92,91.48) || Track [Net-(U26C-P2B)] on F.Cu, length 0.6000 mm @(56.65,92.05)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 0.1000 mm @(88.75,97.55)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Track [Net-(U26E-A1)] on B.Cu, length 0.1000 mm @(53.75,90.95) || Pad 1 [Net-(U26E-A1)] of R99 on B.Cu @(53.22,91.52)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(U26C-P2B) In5.Cu 0.283 mm at (56.250, 92.650)
+removed Net-(C8-Pad2) In2.Cu 0.100 mm at (88.750, 97.550)
+removed Net-(U26E-A1) B.Cu 0.100 mm at (53.750, 90.950)
+removed 3 of 4 flagged tracks and vias -> work/sig_c2orp.kicad_pcb
+{('via_dangling', 'warning'): 1, ('track_dangling', 'warning'): 3, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 16
+  U Track [Net-(U24-In+)] on F.Cu, length 0.4243 mm @(82.85,91.25) || Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [5V] on F.Cu, length 0.8000 mm @(58.15,92.65) || Pad 17 [5V] of U26 on B.Cu @(56.57,91.48)
+  U Pad 5 [5V] of U5 on B.Cu @(74.53,105.20) || Pad 5 [5V] of U4 on B.Cu @(78.19,104.18)
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Track [IREF2] on In2.Cu, length 0.9000 mm @(63.85,87.25)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Track [0err_hi] on In5.Cu, length 8.8000 mm @(77.85,101.25)
+  U Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75) || Via [Net-(U26E-HVC/A0)] on F.Cu - B.Cu @(56.55,84.75)
+  U Pad 18 [Net-(U26C-P2B)] of U26 on B.Cu @(55.92,91.48) || Track [Net-(U26C-P2B)] on F.Cu, length 0.6000 mm @(56.65,92.05)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 0.9899 mm @(88.65,97.55)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Track [Net-(U26E-A1)] on B.Cu, length 0.2828 mm @(53.75,90.85) || Pad 1 [Net-(U26E-A1)] of R99 on B.Cu @(53.22,91.52)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(U26C-P2B) In5.Cu 0.400 mm at (56.650, 92.650)
+removed Net-(C8-Pad2) In2.Cu 0.990 mm at (88.650, 97.550)
+removed Net-(U26E-A1) B.Cu 0.283 mm at (53.750, 90.850)
+removed 3 of 4 flagged tracks and vias -> work/sig_c2orp.kicad_pcb
+{('via_dangling', 'warning'): 2, ('track_dangling', 'warning'): 2, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 16
+  U Track [Net-(U24-In+)] on F.Cu, length 0.3000 mm @(82.55,91.55) || Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [5V] on F.Cu, length 0.8000 mm @(58.15,92.65) || Pad 17 [5V] of U26 on B.Cu @(56.57,91.48)
+  U Pad 5 [5V] of U5 on B.Cu @(74.53,105.20) || Pad 5 [5V] of U4 on B.Cu @(78.19,104.18)
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Track [IREF2] on In2.Cu, length 0.9000 mm @(63.85,87.25)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Track [0err_hi] on In5.Cu, length 8.8000 mm @(77.85,101.25)
+  U Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75) || Via [Net-(U26E-HVC/A0)] on F.Cu - B.Cu @(56.55,84.75)
+  U Track [Net-(U26C-P2B)] on F.Cu, length 0.6000 mm @(56.65,92.05) || Pad 18 [Net-(U26C-P2B)] of U26 on B.Cu @(55.92,91.48)
+  U Track [Net-(C8-Pad2)] on In2.Cu, length 0.1000 mm @(87.95,98.25) || Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Track [Net-(U26E-A1)] on B.Cu, length 0.1000 mm @(53.95,90.65) || Pad 1 [Net-(U26E-A1)] of R99 on B.Cu @(53.22,91.52)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed via Net-(U26C-P2B) at (56.650, 92.650)
+removed Net-(C8-Pad2) In2.Cu 0.100 mm at (87.950, 98.250)
+removed Net-(U26E-A1) B.Cu 0.100 mm at (53.950, 90.650)
+removed 3 of 4 flagged tracks and vias -> work/sig_c2orp.kicad_pcb
+{('via_dangling', 'warning'): 1, ('track_dangling', 'warning'): 2, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 16
+  U Track [Net-(U24-In+)] on F.Cu, length 0.3000 mm @(82.55,91.55) || Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [5V] on F.Cu, length 0.8000 mm @(58.15,92.65) || Pad 17 [5V] of U26 on B.Cu @(56.57,91.48)
+  U Pad 5 [5V] of U5 on B.Cu @(74.53,105.20) || Pad 5 [5V] of U4 on B.Cu @(78.19,104.18)
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Track [IREF2] on In2.Cu, length 0.9000 mm @(63.85,87.25)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Track [0err_hi] on In5.Cu, length 8.8000 mm @(77.85,101.25)
+  U Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75) || Via [Net-(U26E-HVC/A0)] on F.Cu - B.Cu @(56.55,84.75)
+  U Pad 18 [Net-(U26C-P2B)] of U26 on B.Cu @(55.92,91.48) || Track [Net-(U26C-P2B)] on F.Cu, length 0.6000 mm @(56.65,92.05)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 0.1414 mm @(87.95,98.35)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Track [Net-(U26E-A1)] on B.Cu, length 0.1000 mm @(53.95,90.55) || Pad 1 [Net-(U26E-A1)] of R99 on B.Cu @(53.22,91.52)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(C8-Pad2) In2.Cu 0.141 mm at (87.950, 98.350)
+removed Net-(U26E-A1) B.Cu 0.100 mm at (53.950, 90.550)
+removed 2 of 3 flagged tracks and vias -> work/sig_c2orp.kicad_pcb
+{('via_dangling', 'warning'): 1, ('track_dangling', 'warning'): 2, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 16
+  U Track [Net-(U24-In+)] on F.Cu, length 0.4243 mm @(82.85,91.25) || Pad 1 [Net-(U24-In+)] of C68 on B.Cu @(78.51,89.45)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 3 [Net-(U102B-A)] of U18 on F.Cu @(75.94,87.18) || Pad 11 [Net-(U102B-A)] of U28 on F.Cu @(78.10,107.51)
+  U Track [5V] on F.Cu, length 0.8000 mm @(58.15,92.65) || Pad 17 [5V] of U26 on B.Cu @(56.57,91.48)
+  U Pad 5 [5V] of U5 on B.Cu @(74.53,105.20) || Pad 5 [5V] of U4 on B.Cu @(78.19,104.18)
+  U Pad 4 [Reset_raw] of U101 on F.Cu @(57.82,86.28) || Pad 1 [Reset_raw] of U5 on B.Cu @(72.26,105.20)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Track [IREF2] on In2.Cu, length 0.9000 mm @(63.85,87.25)
+  U Pad 1 [0err_hi] of U4 on B.Cu @(78.19,106.45) || Track [0err_hi] on In5.Cu, length 8.8000 mm @(77.85,101.25)
+  U Pad 4 [Net-(U26E-HVC/A0)] of U26 on B.Cu @(56.57,85.75) || Via [Net-(U26E-HVC/A0)] on F.Cu - B.Cu @(56.55,84.75)
+  U Pad 18 [Net-(U26C-P2B)] of U26 on B.Cu @(55.92,91.48) || Track [Net-(U26C-P2B)] on F.Cu, length 0.6000 mm @(56.65,92.05)
+  U Pad 2 [Net-(C8-Pad2)] of C8 on F.Cu @(89.40,97.80) || Track [Net-(C8-Pad2)] on In2.Cu, length 3.5000 mm @(87.85,98.45)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 6 [SDA] of U26 on B.Cu @(57.87,85.75) || PTH pad 8 [SDA] of J9 @(59.95,98.44)
+  U Track [Net-(U26E-A1)] on B.Cu, length 0.1000 mm @(54.05,90.55) || Pad 1 [Net-(U26E-A1)] of R99 on B.Cu @(53.22,91.52)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+routes: work/g_c2or_6.json
+final: work/sig_c2orp.kicad_pcb
+
+real	31m15.719s
+user	0m1.209s
+sys	0m1.320s

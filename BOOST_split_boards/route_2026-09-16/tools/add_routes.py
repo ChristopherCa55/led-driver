@@ -1,0 +1,54 @@
+"""Add routed tracks and vias to a board, refill zones, save (KiCad Python).
+
+usage: python.exe add_routes.py BOARD_IN.kicad_pcb ROUTES.json BOARD_OUT.kicad_pcb [ROUTES2.json ...]
+"""
+import json, sys
+import pcbnew
+
+src, out = sys.argv[1], sys.argv[3]
+route_files = [sys.argv[2]] + sys.argv[4:]
+board = pcbnew.LoadBoard(src)
+FMM = pcbnew.FromMM
+nt = nv = 0
+added = []      # (item, routed net name)
+for rf in route_files:
+    r = json.load(open(rf))
+    for t in r['tracks']:
+        tr = pcbnew.PCB_TRACK(board)
+        tr.SetStart(pcbnew.VECTOR2I(FMM(t['x0']), FMM(t['y0'])))
+        tr.SetEnd(pcbnew.VECTOR2I(FMM(t['x1']), FMM(t['y1'])))
+        tr.SetWidth(FMM(t['w']))
+        tr.SetLayer(board.GetLayerID(t['layer']))
+        tr.SetNet(board.FindNet(t['net']))
+        board.Add(tr)
+        added.append((tr, t['net']))
+        nt += 1
+    for v in r['vias']:
+        via = pcbnew.PCB_VIA(board)
+        via.SetPosition(pcbnew.VECTOR2I(FMM(v['x']), FMM(v['y'])))
+        via.SetWidth(FMM(v['dia']))
+        via.SetDrill(FMM(v['drill']))
+        via.SetLayerPair(pcbnew.F_Cu, pcbnew.B_Cu)
+        via.SetNet(board.FindNet(v['net']))
+        via.Padstack().SetUnconnectedLayerMode(pcbnew.UNCONNECTED_LAYER_MODE_REMOVE_ALL)
+        board.Add(via)
+        added.append((via, v['net']))
+        nv += 1
+# via flashing (unconnected layers removed) depends on connectivity, which must include the new items before the
+# filler decides whether to clear a via's pad or only its hole; fill twice so zone-to-via connections settle
+board.BuildConnectivity()
+pcbnew.ZONE_FILLER(board).Fill(board.Zones())
+board.BuildConnectivity()
+pcbnew.ZONE_FILLER(board).Fill(board.Zones())
+# KiCad can move a new item to another net it sees the item connected to (r35: a GND stub and via inside the Vout_1
+# bank came back as Vout_1, which DRC cannot flag). Put the routed net back so DRC judges the copper as routed.
+flipped = [(it, net) for it, net in added if it.GetNetname() != net]
+for it, net in flipped:
+    print('net changed by KiCad, restored: %s at (%.3f, %.3f) %s -> %s' % (
+        it.GetClass(), pcbnew.ToMM(it.GetPosition().x), pcbnew.ToMM(it.GetPosition().y), net, it.GetNetname()))
+    it.SetNet(board.FindNet(net))
+if flipped:
+    board.BuildConnectivity()
+    pcbnew.ZONE_FILLER(board).Fill(board.Zones())
+pcbnew.SaveBoard(out, board)
+print('added %d tracks, %d vias -> %s' % (nt, nv, out))

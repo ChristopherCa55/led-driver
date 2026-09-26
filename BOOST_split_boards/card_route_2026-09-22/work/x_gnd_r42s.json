@@ -1,0 +1,53 @@
+{
+ "tracks": [
+  {
+   "net": "GND",
+   "layer": "F.Cu",
+   "w": 0.2,
+   "x0": 77.3,
+   "y0": 94.075,
+   "x1": 77.3,
+   "y1": 94.05,
+   "keep": false
+  },
+  {
+   "net": "GND",
+   "layer": "F.Cu",
+   "w": 0.2,
+   "x0": 77.3,
+   "y0": 94.05,
+   "x1": 77.25,
+   "y1": 94.0,
+   "keep": false
+  }
+ ],
+ "vias": [
+  {
+   "net": "GND",
+   "x": 77.25,
+   "y": 94.0,
+   "dia": 0.5,
+   "drill": 0.3,
+   "layers": [
+    "F.Cu",
+    "In4.Cu"
+   ],
+   "keep": false
+  }
+ ],
+ "log": [
+  "exact_route GND R42.2 -> any"
+ ],
+ "failures": [],
+ "conflicts": {
+  "Output2_drain": [
+   "In3.Cu"
+  ],
+  "Net-(U103B-Y)": [
+   "In5.Cu"
+  ],
+  "Net-(U106A-B)": [
+   "In2.Cu"
+  ]
+ }
+}

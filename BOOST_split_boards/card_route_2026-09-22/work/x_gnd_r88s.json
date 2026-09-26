@@ -1,0 +1,27 @@
+{
+ "tracks": [],
+ "vias": [
+  {
+   "net": "GND",
+   "x": 80.95,
+   "y": 92.925,
+   "dia": 0.5,
+   "drill": 0.3,
+   "layers": [
+    "B.Cu",
+    "In2.Cu"
+   ],
+   "keep": false
+  }
+ ],
+ "log": [
+  "exact_route GND R88.2 -> any"
+ ],
+ "failures": [],
+ "conflicts": {
+  "Net-(U13-In-)": [
+   "B.Cu",
+   "In3.Cu"
+  ]
+ }
+}

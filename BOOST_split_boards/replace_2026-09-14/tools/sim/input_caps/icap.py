@@ -8,7 +8,7 @@ the cable's AC current, Vin ripple, and where the bank current's spectrum sits
 """
 import sys, os
 import numpy as np
-sys.path.insert(0, r"C:\Users\Dominick Junior\Downloads\UCSD Stuff\2025-2026\robotx\led-driver\BOOST_split_boards\handoff_2026-09-14\sim\scripts")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '..', '..', 'handoff_2026-09-14', 'sim', 'scripts'))
 from measure import load, window
 
 

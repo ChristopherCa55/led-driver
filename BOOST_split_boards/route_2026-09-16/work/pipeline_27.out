@@ -1,0 +1,33 @@
+exported 74 nets, 765 barrels, 355 pads
+tracks 1627, vias 153, failures 2, 555 s
+added 1627 tracks, 153 vias -> work/sig_27_1.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 9
+exported 74 nets, 918 barrels, 355 pads
+tracks 1680, vias 159, failures 5, 327 s
+added 1680 tracks, 159 vias -> work/sig_27_2.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 5
+exported 74 nets, 924 barrels, 355 pads
+tracks 1682, vias 163, failures 1, 47 s
+added 1682 tracks, 163 vias -> work/sig_27_3.kicad_pcb
+{('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 2
+exported 74 nets, 928 barrels, 355 pads
+tracks 1682, vias 164, failures 1, 35 s
+added 1682 tracks, 164 vias -> work/sig_27_4.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 929 barrels, 355 pads
+tracks 1682, vias 164, failures 1, 25 s
+added 1682 tracks, 164 vias -> work/sig_27_5.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 929 barrels, 355 pads
+tracks 1682, vias 164, failures 1, 25 s
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+  U Zone 'Vout_2 In5 to J8' [Vout_2] on In5.Cu, priority 18 @(42.87,63.80) || PTH pad 15 [Vout_2] of J10 @(69.48,91.94)
+routes: work/g_27_5.json
+final: work/sig_27_5.kicad_pcb
+PIPELINE_DONE

@@ -1,0 +1,116 @@
+2026-09-23 13:40:02.879 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-23 13:40:04.447 INFO   [9E8967\73920F] Loading board file 'c3d.dsn'...
+2026-09-23 13:40:04.624 INFO   Layer 'In1.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 13:40:04.624 INFO   Layer 'In3.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 13:40:04.624 INFO   Layer 'In4.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 13:40:04.624 INFO   Layer 'In6.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 13:40:04.668 INFO   [9E8967\73920F] Job '9E8967\73920F' started at 2026-09-23T20:40:04.668252300Z.
+2026-09-23 13:40:04.836 INFO   [9E8967\73920F] Fanout stage started on board '094d3b6dbc49a6113f8b1b13af59482a' with 444 of 472 SMD pins needing fanout (28 already connected, 0 netless).
+2026-09-23 13:40:41.798 INFO   [9E8967\73920F] Fanout pass #1 on board 'd93f3a17b7be7ee63e56cb1fd7766216' completed in 36.89 seconds with 299 SMD pins fanouted, 144 not routed, 0 insert errors, +44 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-23 13:41:04.745 INFO   [9E8967\73920F] Fanout pass #2 on board 'c1b2ee273782fe0d43ae016d5e658b93' completed in 22.92 seconds with 109 SMD pins fanouted, 149 not routed, 0 insert errors, +8 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-23 13:41:23.155 INFO   [9E8967\73920F] Fanout pass #3 on board '48cc4a351bcdfa75be8e79e95006c32a' completed in 18.39 seconds with 81 SMD pins fanouted, 153 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-09-23 13:41:41.581 INFO   [9E8967\73920F] Fanout pass #4 on board 'bb266d41ea76934297cece78747b7101' completed in 18.40 seconds with 78 SMD pins fanouted, 154 not routed, 0 insert errors, +2 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-09-23 13:42:00.004 INFO   [9E8967\73920F] Fanout pass #5 on board 'de877508ce2588c4f530e670f22b4e49' completed in 18.40 seconds with 75 SMD pins fanouted, 154 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-09-23 13:42:18.483 INFO   [9E8967\73920F] Fanout pass #6 on board 'efa119705513dec02706e11643d39459' completed in 18.46 seconds with 75 SMD pins fanouted, 154 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=600).
+2026-09-23 13:42:36.878 INFO   [9E8967\73920F] Fanout pass #7 on board 'df71db8124868e2892485461bda3d9cd' completed in 18.37 seconds with 75 SMD pins fanouted, 154 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=700).
+2026-09-23 13:42:55.192 INFO   [9E8967\73920F] Fanout pass #8 on board '247073c0a546c1c6a3c95fddf80ef5ba' completed in 18.29 seconds with 75 SMD pins fanouted, 154 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=800).
+2026-09-23 13:42:55.193 INFO   Fanout stopped after 8 passes: no progress for 3 consecutive passes.
+2026-09-23 13:42:55.955 INFO   [9E8967\73920F] Fanout stage completed: started with 472 total SMD pins, completed in 171.07 seconds, escaped pins: 262/472 (55.5%), using 166.41 total CPU seconds, 652.71 GB total allocated, and 432.1 MB peak heap usage.
+2026-09-23 13:42:56.004 INFO   [9E8967\73920F] Auto-routing stage started on board '247073c0a546c1c6a3c95fddf80ef5ba' for 207 unrouted items.
+2026-09-23 13:44:05.055 WARN   offset_shapes: shape is empty
+2026-09-23 13:44:05.056 WARN   offset_shapes: shape is empty
+2026-09-23 13:44:19.637 WARN   offset_shapes: shape is empty
+2026-09-23 13:44:19.637 WARN   offset_shapes: shape is empty
+2026-09-23 13:44:19.637 WARN   offset_shapes: shape is empty
+2026-09-23 13:44:19.637 WARN   offset_shapes: shape is empty
+2026-09-23 13:45:32.989 INFO   [9E8967\73920F] Auto-routing pass #1 on board '247073c0a546c1c6a3c95fddf80ef5ba' was completed in 155.06 seconds with score 328.64 (152 unrouted and 529 violations), using 318.61 CPU seconds and the job allocated 1278.13 GB of memory so far.
+2026-09-23 13:45:47.021 WARN   offset_shapes: shape is empty
+2026-09-23 13:45:47.021 WARN   offset_shapes: shape is empty
+2026-09-23 13:45:47.022 WARN   offset_shapes: shape is empty
+2026-09-23 13:45:47.022 WARN   offset_shapes: shape is empty
+2026-09-23 13:47:04.949 WARN   offset_shapes: shape is empty
+2026-09-23 13:47:04.949 WARN   offset_shapes: shape is empty
+2026-09-23 13:47:04.950 WARN   offset_shapes: shape is empty
+2026-09-23 13:47:04.950 WARN   offset_shapes: shape is empty
+2026-09-23 13:48:15.823 INFO   [9E8967\73920F] Auto-routing pass #2 on board 'd6fdced6f19e94192ea7f3b711bfc408' was completed in 160.90 seconds with score 362.49 (139 unrouted and 529 violations), using 476.17 CPU seconds and the job allocated 1892.22 GB of memory so far.
+2026-09-23 13:48:28.787 WARN   offset_shapes: shape is empty
+2026-09-23 13:48:28.787 WARN   offset_shapes: shape is empty
+2026-09-23 13:48:28.788 WARN   offset_shapes: shape is empty
+2026-09-23 13:48:28.788 WARN   offset_shapes: shape is empty
+2026-09-23 13:50:19.601 INFO   [9E8967\73920F] Auto-routing pass #3 on board 'c5de4c1782d2389609d9a1e6b83e5f07' was completed in 121.80 seconds with score 385.93 (130 unrouted and 529 violations), using 596.88 CPU seconds and the job allocated 2368.15 GB of memory so far.
+2026-09-23 13:52:56.865 INFO   [9E8967\73920F] Auto-routing pass #4 on board '0cb0df6d2177e92232ff11737a948a59' was completed in 155.25 seconds with score 398.95 (125 unrouted and 529 violations), using 749.08 CPU seconds and the job allocated 2941.39 GB of memory so far.
+2026-09-23 13:54:23.924 WARN   offset_shapes: shape is empty
+2026-09-23 13:54:23.924 WARN   offset_shapes: shape is empty
+2026-09-23 13:55:15.046 INFO   [9E8967\73920F] Auto-routing pass #5 on board 'fcf3fd0a5c37c9e88f94cf3bbdee7839' was completed in 136.21 seconds with score 396.34 (126 unrouted and 529 violations), using 883.06 CPU seconds and the job allocated 3456.86 GB of memory so far.
+2026-09-23 13:58:07.219 INFO   [9E8967\73920F] Auto-routing pass #6 on board 'a9df319e80ddf253a3012043347e11e7' was completed in 170.14 seconds with score 438.01 (110 unrouted and 529 violations), using 1050.61 CPU seconds and the job allocated 4016.88 GB of memory so far.
+2026-09-23 14:01:23.841 INFO   [9E8967\73920F] Auto-routing pass #7 on board 'e5ec3913cf11d216bb7bb5a9daf20395' was completed in 194.13 seconds with score 427.59 (114 unrouted and 529 violations), using 1240.02 CPU seconds and the job allocated 4548.65 GB of memory so far.
+2026-09-23 14:02:00.441 WARN   offset_shapes: shape is empty
+2026-09-23 14:02:00.441 WARN   offset_shapes: shape is empty
+2026-09-23 14:02:00.441 WARN   offset_shapes: shape is empty
+2026-09-23 14:02:00.441 WARN   offset_shapes: shape is empty
+2026-09-23 14:05:38.864 INFO   [9E8967\73920F] Auto-routing pass #8 on board 'd263a6cdb600eafbdebfaa4c6d9140cc' was completed in 252.82 seconds with score 445.82 (107 unrouted and 529 violations), using 1480.83 CPU seconds and the job allocated 5047.05 GB of memory so far.
+2026-09-23 14:10:26.590 INFO   [9E8967\73920F] Auto-routing pass #9 on board 'f989ccf040b0955f70cfcf2052e695a1' was completed in 283.93 seconds with score 443.22 (108 unrouted and 529 violations), using 1749.02 CPU seconds and the job allocated 5579.76 GB of memory so far.
+2026-09-23 14:13:38.040 INFO   [9E8967\73920F] Auto-routing pass #10 on board '02c785da08d135928b6ff5cb8c821a1d' was completed in 187.54 seconds with score 435.40 (111 unrouted and 529 violations), using 1934.92 CPU seconds and the job allocated 6071.31 GB of memory so far.
+2026-09-23 14:15:17.909 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:17.909 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:17.909 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:17.909 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:41.993 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:41.993 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:41.993 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:41.993 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:52.542 WARN   offset_shapes: shape is empty
+2026-09-23 14:15:52.542 WARN   offset_shapes: shape is empty
+2026-09-23 14:16:50.022 INFO   [9E8967\73920F] Auto-routing pass #11 on board '1d356ec9dc93ca5f443c45d91b646c3c' was completed in 189.35 seconds with score 438.01 (110 unrouted and 529 violations), using 2122.61 CPU seconds and the job allocated 6583.56 GB of memory so far.
+2026-09-23 14:20:09.225 INFO   [9E8967\73920F] Auto-routing pass #12 on board 'f989ccf040b0955f70cfcf2052e695a1' was completed in 0.00 seconds with score 445.82 (107 unrouted and 529 violations), using 2316.94 CPU seconds and the job allocated 7122.07 GB of memory so far.
+2026-09-23 14:23:37.504 INFO   [9E8967\73920F] Auto-routing pass #13 on board 'f989ccf040b0955f70cfcf2052e695a1' was completed in 207.01 seconds with score 422.38 (116 unrouted and 529 violations), using 2518.47 CPU seconds and the job allocated 7662.50 GB of memory so far.
+2026-09-23 14:27:05.131 INFO   [9E8967\73920F] Auto-routing pass #14 on board 'a6bf23aede39edf96d2496073a6cbe46' was completed in 205.16 seconds with score 435.40 (111 unrouted and 529 violations), using 2719.70 CPU seconds and the job allocated 8180.34 GB of memory so far.
+2026-09-23 14:30:46.229 INFO   [9E8967\73920F] Auto-routing pass #15 on board '1b167d92a0d5f2a7000c86259fb9ad18' was completed in 217.96 seconds with score 456.24 (103 unrouted and 529 violations), using 2934.31 CPU seconds and the job allocated 8704.40 GB of memory so far.
+2026-09-23 14:34:28.516 INFO   [9E8967\73920F] Auto-routing pass #16 on board '41a4ff7427b4d6a93c69ab99c7fc2763' was completed in 219.26 seconds with score 456.24 (103 unrouted and 529 violations), using 3150.70 CPU seconds and the job allocated 9245.09 GB of memory so far.
+2026-09-23 14:36:09.188 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.188 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.188 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.188 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.190 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.190 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.190 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:09.190 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:49.025 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:49.025 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:49.025 WARN   offset_shapes: shape is empty
+2026-09-23 14:36:49.025 WARN   offset_shapes: shape is empty
+2026-09-23 14:37:56.561 INFO   [9E8967\73920F] Auto-routing pass #17 on board '41a4ff7427b4d6a93c69ab99c7fc2763' was completed in 206.72 seconds with score 448.42 (106 unrouted and 529 violations), using 3354.19 CPU seconds and the job allocated 9775.52 GB of memory so far.
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:39:46.808 WARN   offset_shapes: shape is empty
+2026-09-23 14:41:05.910 INFO   [9E8967\73920F] Auto-routing pass #18 on board 'dc26284a98e2e13dc22049867103a8c1' was completed in 186.59 seconds with score 432.80 (112 unrouted and 529 violations), using 3538.66 CPU seconds and the job allocated 10286.22 GB of memory so far.
+2026-09-23 14:43:10.403 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.404 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.410 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.410 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.414 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.415 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.420 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.421 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.446 WARN   offset_shapes: shape is empty
+2026-09-23 14:43:10.446 WARN   offset_shapes: shape is empty
+2026-09-23 14:44:40.871 INFO   [9E8967\73920F] Auto-routing pass #19 on board '03274261bc046629cb3f1a634f6fa1cd' was completed in 212.33 seconds with score 445.82 (107 unrouted and 529 violations), using 3747.91 CPU seconds and the job allocated 10844.79 GB of memory so far.
+2026-09-23 14:48:35.900 INFO   [9E8967\73920F] Auto-routing pass #20 on board '41a4ff7427b4d6a93c69ab99c7fc2763' was completed in 0.00 seconds with score 456.24 (103 unrouted and 529 violations), using 3978.03 CPU seconds and the job allocated 11444.54 GB of memory so far.
+2026-09-23 14:48:38.664 INFO   [9E8967\73920F] Auto-routing stage completed: started with 389 unrouted nets, completed in 4112.63 seconds, final score: 456.24 (103 unrouted and 529 violations), using 3980.86 total CPU seconds, 11452.62 GB total allocated, and 1408.5 MB peak heap usage.
+2026-09-23 14:48:39.994 INFO   [9E8967\73920F] Optimization stage started on board '18125e8eb4549e9ca85da326097bfb16' with score 432.80 (112 unrouted and 529 violations).
+2026-09-23 14:52:10.481 INFO   [9E8967\73920F] Stopping optimization pass #1 early after 50 consecutive items could not be improved.
+2026-09-23 14:52:11.860 INFO   [9E8967\73920F] Optimizer pass #1 on board '9f635df8cb0c065a5f8c3178252ccebc' was completed in 207.52 seconds with the score of 432.80 (112 unrouted and 529 violations).
+2026-09-23 14:52:13.154 INFO   [9E8967\73920F] Stopping optimizer because the improvement in this pass (0.0001%) is below the threshold (1.00%).
+2026-09-23 14:52:14.549 INFO   [9E8967\73920F] Optimization stage completed: started with score 432.80 (112 unrouted and 529 violations), completed in 213.16 seconds, final score: 432.80 (112 unrouted and 529 violations), using 207.59 total CPU seconds, 593.90 GB total allocated, and 1028.5 MB peak heap usage.
+2026-09-23 14:52:14.582 INFO   [9E8967\73920F] Job '9E8967\73920F' finished with state: COMPLETED (elapsed: 1 hour 12 minutes 9.90 seconds, finished at UTC: 2026-09-23T21:52:14.574243Z).
+2026-09-23 14:52:14.681 INFO   Saving output file 'C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\card_route_2026-09-22\work\fr\c3d.ses' (SES)...
+2026-09-23 14:52:14.696 INFO   Successfully saved output file 'C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\card_route_2026-09-22\work\fr\c3d.ses' (99928 bytes).
+
+real	72m13.012s
+user	0m0.030s
+sys	0m0.000s

@@ -1,0 +1,9544 @@
+{
+ "zones": [
+  {
+   "net": "GND",
+   "layers": [
+    "In1.Cu",
+    "In6.Cu"
+   ],
+   "rects": [
+    [
+     30,
+     30,
+     104,
+     116
+    ]
+   ],
+   "prio": 0,
+   "clearance": 0.25,
+   "name": "GND planes"
+  },
+  {
+   "net": "GND",
+   "layers": [
+    "F.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In5.Cu",
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     30,
+     30,
+     104,
+     116
+    ]
+   ],
+   "prio": 1,
+   "clearance": 0.3,
+   "name": "GND fill"
+  },
+  {
+   "net": "rsense_lo",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     58.5,
+     36.2,
+     65.2,
+     44.9
+    ],
+    [
+     64.8,
+     30.3,
+     66.3,
+     37.0
+    ],
+    [
+     66.3,
+     30.3,
+     74.6,
+     33.4
+    ],
+    [
+     68.0,
+     31.4,
+     74.2,
+     37.0
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "rsense_lo"
+  },
+  {
+   "net": "rsense_lo",
+   "layers": [
+    "In2.Cu",
+    "In3.Cu",
+    "In5.Cu"
+   ],
+   "rects": [
+    [
+     56.5,
+     30.3,
+     76.0,
+     38.6
+    ],
+    [
+     56.5,
+     30.3,
+     65.4,
+     45.3
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "rsense_lo"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     68.0,
+     40.9,
+     74.2,
+     46.4
+    ],
+    [
+     66.4,
+     44.7,
+     68.6,
+     46.4
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Vin R1.1"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     79.3,
+     42.2,
+     90.8,
+     47.3
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Vin C69"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     78.8,
+     59.7,
+     83.7,
+     62.7
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Vin C85"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     80.5,
+     72.5,
+     94.6,
+     82.4
+    ],
+    [
+     94.6,
+     77.75,
+     104,
+     88.3
+    ],
+    [
+     94.3,
+     82.4,
+     104,
+     88.3
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Vin C40-J1"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "In3.Cu",
+    "In5.Cu"
+   ],
+   "rects": [
+    [
+     66.2,
+     38.8,
+     81.8,
+     47.3
+    ],
+    [
+     81.8,
+     41.7,
+     104,
+     82.3
+    ],
+    [
+     94.2,
+     82.3,
+     104,
+     87.3
+    ],
+    [
+     78.8,
+     59.4,
+     81.8,
+     61.7
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vin"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "In2.Cu"
+   ],
+   "rects": [
+    [
+     66.2,
+     38.8,
+     86,
+     45.9
+    ],
+    [
+     86,
+     41.7,
+     104,
+     45.9
+    ],
+    [
+     97.4,
+     45.9,
+     104,
+     87.3
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vin"
+  },
+  {
+   "net": "Vin",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     94.0,
+     77.8,
+     104,
+     87.5
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vin J1 bottom"
+  },
+  {
+   "net": "GND",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     79.2,
+     48.0,
+     92.3,
+     59.6
+    ],
+    [
+     76.5,
+     49.85,
+     79.3,
+     55.6
+    ],
+    [
+     84.3,
+     59.6,
+     104,
+     72.2
+    ],
+    [
+     92.3,
+     52.5,
+     104,
+     59.6
+    ],
+    [
+     94.7,
+     69.9,
+     104,
+     77.4
+    ]
+   ],
+   "prio": 15,
+   "clearance": 0.3,
+   "name": "GND input caps"
+  },
+  {
+   "net": "GND",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     71.3,
+     50.0,
+     79.0,
+     54.5
+    ]
+   ],
+   "prio": 15,
+   "clearance": 0.3,
+   "name": "GND D19-M1.3"
+  },
+  {
+   "net": "GND",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     94.0,
+     68.0,
+     104,
+     77.5
+    ]
+   ],
+   "prio": 15,
+   "clearance": 0.3,
+   "name": "GND J2 bottom"
+  },
+  {
+   "net": "LX",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     58.5,
+     48.2,
+     69.1,
+     57.3
+    ],
+    [
+     69.1,
+     51.45,
+     72.2,
+     54.85
+    ],
+    [
+     72.2,
+     46.8,
+     76.2,
+     60.2
+    ],
+    [
+     76.2,
+     47.3,
+     79.2,
+     49.8
+    ],
+    [
+     76.2,
+     58.1,
+     79.2,
+     60.65
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "LX F L1-M1-M7"
+  },
+  {
+   "net": "LX",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     47.98,
+     60.5,
+     50.5,
+     66.3
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "LX F M6"
+  },
+  {
+   "net": "LX",
+   "layers": [
+    "In2.Cu"
+   ],
+   "rects": [
+    [
+     56.5,
+     46.3,
+     80.0,
+     61.0
+    ],
+    [
+     79.0,
+     46.3,
+     97.0,
+     87.7
+    ],
+    [
+     47.0,
+     46.3,
+     58.5,
+     63.8
+    ],
+    [
+     47.9,
+     63.8,
+     50.5,
+     66.4
+    ],
+    [
+     87.2,
+     87.7,
+     89.9,
+     90.2
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "LX In2"
+  },
+  {
+   "net": "LX",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     71.3,
+     44.7,
+     79.3,
+     49.8
+    ],
+    [
+     79.2,
+     46.9,
+     86.0,
+     50.0
+    ],
+    [
+     76.2,
+     58.1,
+     86.0,
+     61.0
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "LX B M1-M7-D19"
+  },
+  {
+   "net": "LX",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     83.0,
+     68.0,
+     94.2,
+     87.75
+    ],
+    [
+     87.2,
+     87.7,
+     89.8,
+     90.3
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     47.98,
+     64.0,
+     50.5,
+     70.0
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "LX B M6"
+  },
+  {
+   "net": "m2_source",
+   "layers": [
+    "F.Cu",
+    "In3.Cu",
+    "In5.Cu",
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     75.9,
+     60.66,
+     79.1,
+     65.71
+    ]
+   ],
+   "prio": 22,
+   "clearance": 0.3,
+   "name": "m2_source link"
+  },
+  {
+   "net": "m3_source",
+   "layers": [
+    "F.Cu",
+    "In3.Cu",
+    "In5.Cu",
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     43.0,
+     63.78,
+     47.8,
+     66.38
+    ]
+   ],
+   "prio": 22,
+   "clearance": 0.3,
+   "name": "m3_source link"
+  },
+  {
+   "net": "m4_source",
+   "layers": [
+    "F.Cu",
+    "In3.Cu",
+    "In5.Cu",
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     89.82,
+     87.69,
+     94.86,
+     90.29
+    ]
+   ],
+   "prio": 22,
+   "clearance": 0.3,
+   "name": "m4_source link"
+  },
+  {
+   "net": "Vout_1",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     65.5,
+     55.1,
+     76.2,
+     70.2
+    ],
+    [
+     76.2,
+     65.7,
+     79.2,
+     68.3
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_1 bank F"
+  },
+  {
+   "net": "Vout_1",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     71.4,
+     85.2,
+     76.4,
+     88.4
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_1 C70 F"
+  },
+  {
+   "net": "Vout_1",
+   "layers": [
+    "In3.Cu"
+   ],
+   "rects": [
+    [
+     65.5,
+     55.0,
+     79.0,
+     71.0
+    ],
+    [
+     51.0,
+     66.4,
+     65.5,
+     72.5
+    ],
+    [
+     51.0,
+     72.5,
+     55.7,
+     94.7
+    ],
+    [
+     42.6,
+     88.5,
+     55.7,
+     94.7
+    ],
+    [
+     42.6,
+     94.7,
+     47.2,
+     110.6
+    ],
+    [
+     42.1,
+     110.3,
+     46.8,
+     115.2
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_1 In3 to J3"
+  },
+  {
+   "net": "Vout_1",
+   "layers": [
+    "In5.Cu"
+   ],
+   "rects": [
+    [
+     65.5,
+     55.0,
+     72.0,
+     70.2
+    ],
+    [
+     71.5,
+     62.5,
+     81.5,
+     71.9
+    ],
+    [
+     78.9,
+     71.9,
+     81.5,
+     88.3
+    ],
+    [
+     71.5,
+     79.6,
+     81.5,
+     88.3
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_1 In5 bank+C70"
+  },
+  {
+   "net": "Vout_2",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     30.3,
+     61.5,
+     43.0,
+     63.2
+    ],
+    [
+     30.3,
+     62.8,
+     35.7,
+     70.5
+    ],
+    [
+     40.3,
+     61.5,
+     42.7,
+     67.3
+    ],
+    [
+     42.5,
+     66.0,
+     47.85,
+     75.0
+    ],
+    [
+     39.0,
+     74.3,
+     51.0,
+     85.0
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_2 bank F"
+  },
+  {
+   "net": "Vout_2",
+   "layers": [
+    "In5.Cu"
+   ],
+   "rects": [
+    [
+     30.3,
+     66.4,
+     55.5,
+     94.6
+    ],
+    [
+     30.3,
+     61.2,
+     42.87,
+     63.8
+    ],
+    [
+     30.3,
+     62.5,
+     37.8,
+     66.4
+    ],
+    [
+     40.36,
+     63.8,
+     42.87,
+     66.4
+    ],
+    [
+     39.4,
+     94.6,
+     47.2,
+     102.4
+    ],
+    [
+     30.3,
+     102.4,
+     47.2,
+     109.2
+    ],
+    [
+     30.3,
+     102.4,
+     36.5,
+     110.5
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_2 In5 to J8"
+  },
+  {
+   "net": "Vout_3",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     88.0,
+     85.4,
+     97.5,
+     87.69
+    ],
+    [
+     94.6,
+     86.95,
+     97.5,
+     90.3
+    ],
+    [
+     88.4,
+     90.3,
+     97.6,
+     94.3
+    ],
+    [
+     83.2,
+     94.3,
+     97.6,
+     100.9
+    ],
+    [
+     94.6,
+     100.9,
+     97.7,
+     106.5
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_3 bank F"
+  },
+  {
+   "net": "Vout_3",
+   "layers": [
+    "In3.Cu",
+    "In5.Cu"
+   ],
+   "rects": [
+    [
+     89.3,
+     82.6,
+     97.5,
+     90.3
+    ],
+    [
+     83.0,
+     90.3,
+     104,
+     106.3
+    ],
+    [
+     71.8,
+     99.6,
+     81.3,
+     115.7
+    ],
+    [
+     64.2,
+     111.15,
+     81.3,
+     115.7
+    ],
+    [
+     81.3,
+     99.6,
+     98,
+     106.0
+    ]
+   ],
+   "prio": 18,
+   "clearance": 0.3,
+   "name": "Vout_3 inner to J5"
+  },
+  {
+   "net": "Net-(M10-S)",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     50.9,
+     94.8,
+     56.1,
+     97.3
+    ]
+   ],
+   "prio": 22,
+   "clearance": 0.3,
+   "name": "Net-(M10-S)"
+  },
+  {
+   "net": "Net-(M9-S)",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     39.3,
+     87.9,
+     43.1,
+     90.9
+    ]
+   ],
+   "prio": 22,
+   "clearance": 0.3,
+   "name": "Net-(M9-S)"
+  },
+  {
+   "net": "Net-(M8-S)",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     60.4,
+     99.4,
+     64.2,
+     104.5
+    ]
+   ],
+   "prio": 22,
+   "clearance": 0.3,
+   "name": "Net-(M8-S)"
+  },
+  {
+   "net": "Output1_drain",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     46.0,
+     97.3,
+     50.9,
+     110.8
+    ],
+    [
+     46.0,
+     97.3,
+     53.5,
+     99.8
+    ],
+    [
+     46.0,
+     110.5,
+     53.2,
+     115.2
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Output1_drain"
+  },
+  {
+   "net": "Output2_drain",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     36.8,
+     86.0,
+     43.2,
+     109.3
+    ],
+    [
+     36.8,
+     109.0,
+     41.8,
+     113.8
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Output2_drain"
+  },
+  {
+   "net": "Output3_drain",
+   "layers": [
+    "B.Cu"
+   ],
+   "rects": [
+    [
+     58.3,
+     101.3,
+     60.2,
+     110.6
+    ],
+    [
+     53.7,
+     110.9,
+     60.2,
+     115.7
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Output3_drain"
+  },
+  {
+   "net": "Output3_drain",
+   "layers": [
+    "F.Cu"
+   ],
+   "rects": [
+    [
+     58.5,
+     101.0,
+     60.35,
+     111.4
+    ],
+    [
+     56.5,
+     110.9,
+     60.35,
+     113.0
+    ]
+   ],
+   "prio": 20,
+   "clearance": 0.3,
+   "name": "Output3_drain"
+  }
+ ],
+ "vias": [
+  {
+   "net": "rsense_lo",
+   "x": 68.8,
+   "y": 32.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 68.8,
+   "y": 33.02,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 68.8,
+   "y": 33.84,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 68.8,
+   "y": 34.66,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 68.8,
+   "y": 35.48,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 68.8,
+   "y": 36.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 69.48,
+   "y": 32.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 69.48,
+   "y": 33.02,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 69.48,
+   "y": 33.84,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 69.48,
+   "y": 34.66,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 69.48,
+   "y": 35.48,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 69.48,
+   "y": 36.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.16,
+   "y": 32.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.16,
+   "y": 33.02,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.16,
+   "y": 33.84,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.16,
+   "y": 34.66,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.16,
+   "y": 35.48,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.16,
+   "y": 36.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.84,
+   "y": 32.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.84,
+   "y": 33.02,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.84,
+   "y": 33.84,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.84,
+   "y": 34.66,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.84,
+   "y": 35.48,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 70.84,
+   "y": 36.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 71.52,
+   "y": 32.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 71.52,
+   "y": 33.02,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 71.52,
+   "y": 33.84,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 71.52,
+   "y": 34.66,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 71.52,
+   "y": 35.48,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 71.52,
+   "y": 36.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 72.2,
+   "y": 32.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 72.2,
+   "y": 33.02,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 72.2,
+   "y": 33.84,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 72.2,
+   "y": 34.66,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 72.2,
+   "y": 35.48,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 72.2,
+   "y": 36.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.4 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 37.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 37.789,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 38.578,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 39.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 40.156,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 40.944,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 41.733,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 42.522,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 43.311,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 59.3,
+   "y": 44.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 37.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 37.789,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 38.578,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 39.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 40.156,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 40.944,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 41.733,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 42.522,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 43.311,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.02,
+   "y": 44.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 37.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 37.789,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 38.578,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 39.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 40.156,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 40.944,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 41.733,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 42.522,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 43.311,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 60.74,
+   "y": 44.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 37.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 37.789,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 38.578,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 39.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 40.156,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 40.944,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 41.733,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 42.522,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 43.311,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 61.46,
+   "y": 44.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 37.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 37.789,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 38.578,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 39.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 40.156,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 40.944,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 41.733,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 42.522,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 43.311,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.18,
+   "y": 44.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 37.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 37.789,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 38.578,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 39.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 40.156,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 40.944,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 41.733,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 42.522,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 43.311,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "rsense_lo",
+   "x": 62.9,
+   "y": 44.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.2 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 68.7,
+   "y": 41.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 68.7,
+   "y": 42.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 68.7,
+   "y": 43.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 68.7,
+   "y": 43.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 68.7,
+   "y": 44.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 68.7,
+   "y": 45.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 69.45,
+   "y": 41.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 69.45,
+   "y": 42.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 69.45,
+   "y": 43.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 69.45,
+   "y": 43.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 69.45,
+   "y": 44.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 69.45,
+   "y": 45.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.2,
+   "y": 41.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.2,
+   "y": 42.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.2,
+   "y": 43.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.2,
+   "y": 43.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.2,
+   "y": 44.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.2,
+   "y": 45.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.95,
+   "y": 41.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.95,
+   "y": 42.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.95,
+   "y": 43.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.95,
+   "y": 43.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.95,
+   "y": 44.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 70.95,
+   "y": 45.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 71.7,
+   "y": 41.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 71.7,
+   "y": 42.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 71.7,
+   "y": 43.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 71.7,
+   "y": 43.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 71.7,
+   "y": 44.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 71.7,
+   "y": 45.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 67.5,
+   "y": 45.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R1.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 79.8,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 79.8,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 79.8,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 79.8,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 79.8,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 80.85,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 80.85,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 80.85,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 80.85,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 80.85,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 81.9,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 81.9,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 81.9,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 81.9,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 81.9,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 82.95,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 82.95,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 82.95,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 82.95,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 82.95,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 84.0,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 84.0,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 84.0,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 84.0,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 84.0,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 85.05,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 85.05,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 85.05,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 85.05,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 85.05,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 87.15,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 87.15,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 87.15,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 87.15,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 87.15,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 88.2,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 88.2,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 88.2,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 88.2,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 88.2,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 89.25,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 89.25,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 89.25,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 89.25,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 89.25,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 90.3,
+   "y": 42.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 90.3,
+   "y": 43.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 90.3,
+   "y": 44.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 90.3,
+   "y": 45.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 90.3,
+   "y": 46.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69 area"
+  },
+  {
+   "net": "Vin",
+   "x": 79.5,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 79.5,
+   "y": 61.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 80.35,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 80.35,
+   "y": 61.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 81.2,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 81.2,
+   "y": 61.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 82.1,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 82.1,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 82.1,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 83.0,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 83.0,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 83.0,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 85.3,
+   "y": 75.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 85.3,
+   "y": 76.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 85.3,
+   "y": 77.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 85.3,
+   "y": 78.525,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 85.3,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 75.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 76.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 77.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 78.525,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.1,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.9,
+   "y": 75.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.9,
+   "y": 76.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.9,
+   "y": 77.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.9,
+   "y": 78.525,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 86.9,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.1 pad"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 73.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 74.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 76.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 77.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 78.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 80.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 88.3,
+   "y": 81.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 73.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 74.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 76.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 77.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 78.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 80.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 89.6,
+   "y": 81.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 73.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 74.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 76.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 77.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 78.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 80.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 90.9,
+   "y": 81.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 73.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 74.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 76.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 77.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 78.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 80.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 92.2,
+   "y": 81.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 73.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 74.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 76.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 77.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 78.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 80.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 93.5,
+   "y": 81.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40-J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 94.6,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 95.871,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 97.143,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 98.414,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 99.686,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 100.957,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 102.229,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 78.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 79.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 80.786,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 82.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 83.271,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 84.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 85.757,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "Vin",
+   "x": 103.5,
+   "y": 87.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J1 field"
+  },
+  {
+   "net": "GND",
+   "x": 79.8,
+   "y": 50.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 79.8,
+   "y": 51.28,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 79.8,
+   "y": 52.26,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 79.8,
+   "y": 53.24,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 79.8,
+   "y": 54.22,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 79.8,
+   "y": 55.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 80.833,
+   "y": 50.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 80.833,
+   "y": 51.28,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 80.833,
+   "y": 52.26,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 80.833,
+   "y": 53.24,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 80.833,
+   "y": 54.22,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 80.833,
+   "y": 55.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 81.867,
+   "y": 50.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 81.867,
+   "y": 51.28,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 81.867,
+   "y": 52.26,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 81.867,
+   "y": 53.24,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 81.867,
+   "y": 54.22,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 81.867,
+   "y": 55.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 82.9,
+   "y": 50.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 82.9,
+   "y": 51.28,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 82.9,
+   "y": 52.26,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 82.9,
+   "y": 53.24,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 82.9,
+   "y": 54.22,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 82.9,
+   "y": 55.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M1.3 east"
+  },
+  {
+   "net": "GND",
+   "x": 84.1,
+   "y": 51.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.1,
+   "y": 52.275,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.1,
+   "y": 53.15,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.1,
+   "y": 54.025,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.1,
+   "y": 54.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.85,
+   "y": 51.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.85,
+   "y": 52.275,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.85,
+   "y": 53.15,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.85,
+   "y": 54.025,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.85,
+   "y": 54.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.6,
+   "y": 51.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.6,
+   "y": 52.275,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.6,
+   "y": 53.15,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.6,
+   "y": 54.025,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.6,
+   "y": 54.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C69.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 87.9,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 87.9,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 87.9,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 88.75,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 88.75,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 88.75,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 89.6,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 89.6,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 89.6,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 90.45,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 90.45,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 90.45,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 91.3,
+   "y": 60.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 91.3,
+   "y": 61.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 91.3,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C85.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.3,
+   "y": 67.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.3,
+   "y": 68.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.3,
+   "y": 69.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.3,
+   "y": 70.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 85.3,
+   "y": 71.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.1,
+   "y": 67.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.1,
+   "y": 68.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.1,
+   "y": 69.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.1,
+   "y": 70.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.1,
+   "y": 71.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.9,
+   "y": 67.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.9,
+   "y": 68.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.9,
+   "y": 69.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.9,
+   "y": 70.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 86.9,
+   "y": 71.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C40.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 94.4,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 95.6,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 98.0,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 99.2,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 100.4,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 101.6,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 54.657,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 55.814,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 56.971,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 58.129,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 59.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 60.443,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 102.8,
+   "y": 61.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "U16 tab"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 70.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 71.417,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 72.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 73.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 74.767,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 75.883,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 92.2,
+   "y": 77.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 70.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 71.417,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 72.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 73.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 74.767,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 75.883,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 93.2,
+   "y": 77.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 70.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 71.417,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 72.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 73.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 74.767,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 75.883,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 94.2,
+   "y": 77.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "J2 west"
+  },
+  {
+   "net": "GND",
+   "x": 72.2,
+   "y": 50.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "D19.2 area"
+  },
+  {
+   "net": "GND",
+   "x": 72.2,
+   "y": 51.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "D19.2 area"
+  },
+  {
+   "net": "GND",
+   "x": 72.2,
+   "y": 52.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "D19.2 area"
+  },
+  {
+   "net": "GND",
+   "x": 72.2,
+   "y": 53.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "D19.2 area"
+  },
+  {
+   "net": "GND",
+   "x": 72.2,
+   "y": 54.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "D19.2 area"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 59.3,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 60.15,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.0,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 61.85,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 62.7,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 63.55,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 49.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 49.888,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 50.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 51.663,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 52.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 53.438,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 54.325,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 55.212,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 64.4,
+   "y": 56.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "L1.1 pad"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 47.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 48.333,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 49.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 50.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 51.433,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 52.467,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 54.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 55.567,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 56.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 57.633,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 58.667,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 72.7,
+   "y": 59.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 47.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 48.333,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 49.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 50.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 51.433,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 52.467,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 54.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 55.567,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 56.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 57.633,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 58.667,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 73.7,
+   "y": 59.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 47.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 48.333,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 49.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 50.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 51.433,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 52.467,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 54.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 55.567,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 56.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 57.633,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 58.667,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 74.7,
+   "y": 59.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 47.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 48.333,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 49.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 50.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 51.433,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 52.467,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 53.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 54.533,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 55.567,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 56.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 57.633,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 58.667,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 75.7,
+   "y": 59.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F strip"
+  },
+  {
+   "net": "LX",
+   "x": 80.0,
+   "y": 47.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 80.0,
+   "y": 48.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 80.0,
+   "y": 49.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 81.08,
+   "y": 47.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 81.08,
+   "y": 48.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 81.08,
+   "y": 49.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 82.16,
+   "y": 47.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 82.16,
+   "y": 48.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 82.16,
+   "y": 49.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 83.24,
+   "y": 47.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 83.24,
+   "y": 48.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 83.24,
+   "y": 49.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 84.32,
+   "y": 47.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 84.32,
+   "y": 48.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 84.32,
+   "y": 49.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 85.4,
+   "y": 47.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 85.4,
+   "y": 48.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 85.4,
+   "y": 49.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M1"
+  },
+  {
+   "net": "LX",
+   "x": 80.0,
+   "y": 58.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 80.0,
+   "y": 59.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 80.0,
+   "y": 60.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 81.08,
+   "y": 58.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 81.08,
+   "y": 59.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 81.08,
+   "y": 60.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 82.16,
+   "y": 58.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 82.16,
+   "y": 59.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 82.16,
+   "y": 60.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 83.24,
+   "y": 58.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 83.24,
+   "y": 59.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 83.24,
+   "y": 60.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 84.32,
+   "y": 58.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 84.32,
+   "y": 59.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 84.32,
+   "y": 60.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 85.4,
+   "y": 58.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 85.4,
+   "y": 59.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 85.4,
+   "y": 60.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M7"
+  },
+  {
+   "net": "LX",
+   "x": 85.5,
+   "y": 83.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 85.5,
+   "y": 84.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 85.5,
+   "y": 85.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 85.5,
+   "y": 86.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 83.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 84.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 85.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 86.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 87.5,
+   "y": 83.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 87.5,
+   "y": 84.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 87.5,
+   "y": 85.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 87.5,
+   "y": 86.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 88.5,
+   "y": 83.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 88.5,
+   "y": 84.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 88.5,
+   "y": 85.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 88.5,
+   "y": 86.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 70.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 71.571,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 73.143,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 74.714,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 76.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 77.857,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 79.429,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 85.0,
+   "y": 81.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 70.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 71.571,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 73.143,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 74.714,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 76.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 77.857,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 79.429,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 86.5,
+   "y": 81.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 70.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 71.571,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 73.143,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 74.714,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 76.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 77.857,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 79.429,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 88.0,
+   "y": 81.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 70.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 71.571,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 73.143,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 74.714,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 76.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 77.857,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 79.429,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 89.5,
+   "y": 81.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 70.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 71.571,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 73.143,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 74.714,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 76.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 77.857,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 79.429,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 91.0,
+   "y": 81.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 70.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 71.571,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 73.143,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 74.714,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 76.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 77.857,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 79.429,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 92.5,
+   "y": 81.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M5 body"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 61.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F M6"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 61.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F M6"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 62.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX F M6"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 67.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M6"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 67.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M6"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 68.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M6"
+  },
+  {
+   "net": "LX",
+   "x": 49.2,
+   "y": 69.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "LX B M6"
+  },
+  {
+   "net": "Vout_1",
+   "x": 66.9,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 66.9,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 66.9,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 67.75,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 67.75,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 67.75,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 68.6,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 68.6,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 68.6,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.45,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.45,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.45,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.3,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.3,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.3,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.85,
+   "y": 55.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.85,
+   "y": 56.475,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.85,
+   "y": 57.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.85,
+   "y": 58.225,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 69.85,
+   "y": 59.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.65,
+   "y": 55.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.65,
+   "y": 56.475,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.65,
+   "y": 57.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.65,
+   "y": 58.225,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 70.65,
+   "y": 59.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 71.45,
+   "y": 55.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 71.45,
+   "y": 56.475,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 71.45,
+   "y": 57.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 71.45,
+   "y": 58.225,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 71.45,
+   "y": 59.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 73.4,
+   "y": 69.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C1.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 74.25,
+   "y": 69.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C1.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 75.1,
+   "y": 69.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C1.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 73.2,
+   "y": 63.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C72.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 73.2,
+   "y": 64.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C72.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 72.1,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 72.1,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 72.1,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 72.975,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 72.975,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 72.975,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 73.85,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 73.85,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 73.85,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 74.725,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 74.725,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 74.725,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 75.6,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 75.6,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 75.6,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.1 pad"
+  },
+  {
+   "net": "Vout_1",
+   "x": 65.9,
+   "y": 60.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 65.9,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 65.9,
+   "y": 63.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 67.4,
+   "y": 60.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 67.4,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 67.4,
+   "y": 63.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 68.9,
+   "y": 60.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 68.9,
+   "y": 62.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_1",
+   "x": 68.9,
+   "y": 63.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_1 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 33.65,
+   "y": 63.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.1/C3.1"
+  },
+  {
+   "net": "Vout_2",
+   "x": 33.65,
+   "y": 64.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.1/C3.1"
+  },
+  {
+   "net": "Vout_2",
+   "x": 33.65,
+   "y": 65.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.1/C3.1"
+  },
+  {
+   "net": "Vout_2",
+   "x": 33.85,
+   "y": 69.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.1/C3.1"
+  },
+  {
+   "net": "Vout_2",
+   "x": 41.6,
+   "y": 61.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M3.2 north"
+  },
+  {
+   "net": "Vout_2",
+   "x": 41.6,
+   "y": 62.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "M3.2 north"
+  },
+  {
+   "net": "Vout_2",
+   "x": 39.4,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 39.4,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 39.4,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 40.275,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 40.275,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 40.275,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 41.15,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 41.15,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 41.15,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 42.025,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 42.025,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 42.025,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 42.9,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 42.9,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 42.9,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.8,
+   "y": 75.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.8,
+   "y": 76.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.8,
+   "y": 77.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.8,
+   "y": 78.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.8,
+   "y": 79.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.45,
+   "y": 75.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.45,
+   "y": 76.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.45,
+   "y": 77.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.45,
+   "y": 78.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.45,
+   "y": 79.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 50.1,
+   "y": 75.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 50.1,
+   "y": 76.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 50.1,
+   "y": 77.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 50.1,
+   "y": 78.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 50.1,
+   "y": 79.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.6,
+   "y": 80.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.6,
+   "y": 81.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.6,
+   "y": 82.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.6,
+   "y": 83.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 48.6,
+   "y": 84.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.25,
+   "y": 80.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.25,
+   "y": 81.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.25,
+   "y": 82.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.25,
+   "y": 83.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.25,
+   "y": 84.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.9,
+   "y": 80.5,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.9,
+   "y": 81.375,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.9,
+   "y": 82.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.9,
+   "y": 83.125,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 49.9,
+   "y": 84.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.1 pad"
+  },
+  {
+   "net": "Vout_2",
+   "x": 43.2,
+   "y": 67.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 43.2,
+   "y": 68.36,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 43.2,
+   "y": 69.72,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 43.2,
+   "y": 71.08,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 43.2,
+   "y": 72.44,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 43.2,
+   "y": 73.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 44.533,
+   "y": 67.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 44.533,
+   "y": 68.36,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 44.533,
+   "y": 69.72,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 44.533,
+   "y": 71.08,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 44.533,
+   "y": 72.44,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 44.533,
+   "y": 73.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 45.867,
+   "y": 67.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 45.867,
+   "y": 68.36,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 45.867,
+   "y": 69.72,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 45.867,
+   "y": 71.08,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 45.867,
+   "y": 72.44,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 45.867,
+   "y": 73.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 47.2,
+   "y": 67.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 47.2,
+   "y": 68.36,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 47.2,
+   "y": 69.72,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 47.2,
+   "y": 71.08,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 47.2,
+   "y": 72.44,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_2",
+   "x": 47.2,
+   "y": 73.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_2 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.2,
+   "y": 86.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C4.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.1,
+   "y": 86.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C4.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 93.0,
+   "y": 86.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C4.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.1,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.1,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.95,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.95,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.8,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.8,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.65,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.65,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 93.5,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 93.5,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 84.0,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 84.0,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 84.85,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 84.85,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 85.7,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 85.7,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 86.55,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 86.55,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 87.4,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 87.4,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.55,
+   "y": 102.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.55,
+   "y": 103.15,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.55,
+   "y": 104.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.55,
+   "y": 104.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.55,
+   "y": 105.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 102.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 103.15,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 104.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 104.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 105.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.1 pad"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 89.0,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 90.3,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 91.6,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.9,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 94.2,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 95.5,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 91.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 92.257,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 93.514,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 94.771,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 96.029,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 97.286,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 98.543,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "Vout_3",
+   "x": 96.8,
+   "y": 99.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "Vout_3 F field"
+  },
+  {
+   "net": "GND",
+   "x": 61.06,
+   "y": 94.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R52.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.06,
+   "y": 95.633,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R52.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.06,
+   "y": 96.367,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R52.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.06,
+   "y": 97.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R52.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 40.1,
+   "y": 96.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R53.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 40.833,
+   "y": 96.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R53.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 41.567,
+   "y": 96.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R53.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 42.3,
+   "y": 96.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R53.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.2,
+   "y": 109.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R7.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.933,
+   "y": 109.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R7.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 62.667,
+   "y": 109.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R7.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 63.4,
+   "y": 109.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "R7.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 73.4,
+   "y": 66.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C1.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 74.25,
+   "y": 66.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C1.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 75.1,
+   "y": 66.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C1.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 75.1,
+   "y": 63.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C72.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 75.1,
+   "y": 64.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C72.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 58.5,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 58.5,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 58.5,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 59.35,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 59.35,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 59.35,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 60.2,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 60.2,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 60.2,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.05,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.05,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.05,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.9,
+   "y": 64.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.9,
+   "y": 65.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 61.9,
+   "y": 66.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C88.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 69.85,
+   "y": 47.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 69.85,
+   "y": 48.075,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 69.85,
+   "y": 48.95,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 69.85,
+   "y": 49.825,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 69.85,
+   "y": 50.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 70.65,
+   "y": 47.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 70.65,
+   "y": 48.075,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 70.65,
+   "y": 48.95,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 70.65,
+   "y": 49.825,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 70.65,
+   "y": 50.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 71.45,
+   "y": 47.2,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 71.45,
+   "y": 48.075,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 71.45,
+   "y": 48.95,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 71.45,
+   "y": 49.825,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 71.45,
+   "y": 50.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C86.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 80.5,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 80.5,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 80.5,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 81.375,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 81.375,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 81.375,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 82.25,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 82.25,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 82.25,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 83.125,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 83.125,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 83.125,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.0,
+   "y": 86.0,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.0,
+   "y": 86.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 84.0,
+   "y": 87.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C70.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 36.6,
+   "y": 63.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 36.6,
+   "y": 64.8,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 36.6,
+   "y": 65.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C73.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 33.85,
+   "y": 67.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C3.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.8,
+   "y": 67.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.8,
+   "y": 67.975,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.8,
+   "y": 68.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.8,
+   "y": 69.725,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.8,
+   "y": 70.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.45,
+   "y": 67.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.45,
+   "y": 67.975,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.45,
+   "y": 68.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.45,
+   "y": 69.725,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.45,
+   "y": 70.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 50.1,
+   "y": 67.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 50.1,
+   "y": 67.975,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 50.1,
+   "y": 68.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 50.1,
+   "y": 69.725,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 50.1,
+   "y": 70.6,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C78.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.6,
+   "y": 88.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.6,
+   "y": 89.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.6,
+   "y": 90.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.6,
+   "y": 91.525,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 48.6,
+   "y": 92.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.25,
+   "y": 88.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.25,
+   "y": 89.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.25,
+   "y": 90.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.25,
+   "y": 91.525,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.25,
+   "y": 92.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.9,
+   "y": 88.9,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.9,
+   "y": 89.775,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.9,
+   "y": 90.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.9,
+   "y": 91.525,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 49.9,
+   "y": 92.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C87.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 31.0,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 31.0,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 31.0,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 31.875,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 31.875,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 31.875,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 32.75,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 32.75,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 32.75,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 33.625,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 33.625,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 33.625,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 34.5,
+   "y": 79.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 34.5,
+   "y": 80.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 34.5,
+   "y": 80.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C71.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 91.2,
+   "y": 83.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C4.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 92.1,
+   "y": 83.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C4.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 93.0,
+   "y": 83.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C4.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 88.9,
+   "y": 84.64,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C76.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 98.4,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 98.4,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 99.275,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 99.275,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 100.15,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 100.15,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 101.025,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 101.025,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 101.9,
+   "y": 95.3,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 101.9,
+   "y": 96.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C74.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 75.6,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 75.6,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 76.45,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 76.45,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 77.3,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 77.3,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 78.15,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 78.15,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 79.0,
+   "y": 97.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 79.0,
+   "y": 98.45,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C77.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 95.55,
+   "y": 110.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 95.55,
+   "y": 111.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 95.55,
+   "y": 112.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 95.55,
+   "y": 113.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 95.55,
+   "y": 114.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 110.7,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 111.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 112.4,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 113.25,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  },
+  {
+   "net": "GND",
+   "x": 96.8,
+   "y": 114.1,
+   "dia": 0.8,
+   "drill": 0.4,
+   "field": "C75.2 pad"
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "tracks": [
+  {
+   "net": "GND",
+   "layer": "In3.Cu",
+   "w": 0.5,
+   "x0": 63.25,
+   "y0": 59.35,
+   "x1": 63.25,
+   "y1": 59.25
+  },
+  {
+   "net": "GND",
+   "layer": "In3.Cu",
+   "w": 0.5,
+   "x0": 63.25,
+   "y0": 59.25,
+   "x1": 63.55,
+   "y1": 58.95
+  },
+  {
+   "net": "GND",
+   "layer": "In2.Cu",
+   "w": 0.5,
+   "x0": 67.45,
+   "y0": 113.25,
+   "x1": 67.45,
+   "y1": 113.35
+  },
+  {
+   "net": "GND",
+   "layer": "In2.Cu",
+   "w": 0.5,
+   "x0": 67.45,
+   "y0": 113.35,
+   "x1": 67.65,
+   "y1": 113.55
+  },
+  {
+   "net": "GND",
+   "layer": "B.Cu",
+   "w": 0.5,
+   "x0": 62.55,
+   "y0": 35.65,
+   "x1": 62.55,
+   "y1": 37.25
+  },
+  {
+   "net": "GND",
+   "layer": "B.Cu",
+   "w": 0.5,
+   "x0": 62.55,
+   "y0": 37.25,
+   "x1": 62.95,
+   "y1": 37.65
+  },
+  {
+   "net": "GND",
+   "layer": "B.Cu",
+   "w": 0.5,
+   "x0": 62.95,
+   "y0": 37.65,
+   "x1": 63.05,
+   "y1": 37.65
+  },
+  {
+   "net": "GND",
+   "layer": "B.Cu",
+   "w": 0.5,
+   "x0": 63.05,
+   "y0": 37.65,
+   "x1": 63.15,
+   "y1": 37.75
+  },
+  {
+   "net": "GND",
+   "layer": "B.Cu",
+   "w": 0.5,
+   "x0": 63.15,
+   "y0": 37.75,
+   "x1": 63.45,
+   "y1": 37.75
+  },
+  {
+   "net": "GND",
+   "layer": "F.Cu",
+   "w": 0.5,
+   "x0": 56.35,
+   "y0": 68.25,
+   "x1": 56.35,
+   "y1": 68.75
+  }
+ ],
+ "vias": [
+  {
+   "net": "GND",
+   "x": 83.75,
+   "y": 30.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In1.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 76.15,
+   "y": 35.15,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 77.35,
+   "y": 41.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In1.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 63.55,
+   "y": 58.95,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In3.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 48.05,
+   "y": 101.05,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 67.65,
+   "y": 113.55,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In2.Cu",
+    "F.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 32.75,
+   "y": 30.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In1.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 82.85,
+   "y": 30.85,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 74.55,
+   "y": 34.35,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 62.55,
+   "y": 35.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In1.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 65.65,
+   "y": 41.65,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "In6.Cu",
+    "B.Cu"
+   ]
+  },
+  {
+   "net": "GND",
+   "x": 56.35,
+   "y": 68.75,
+   "dia": 0.8,
+   "drill": 0.4,
+   "layers": [
+    "F.Cu",
+    "B.Cu"
+   ]
+  }
+ ],
+ "log": [
+  "board rasterised in 4.7 s",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.5 mm, 1 via(s), w 0.50, gap 0.0",
+  "FAIL GND: island 0 (497504 cells) to island 1, gap 0.0 mm",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.4 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                2.7 mm, 1 via(s), w 0.50, gap 0.0",
+  "ok   GND                0.0 mm, 1 via(s), w 0.50, gap 0.0",
+  "FAIL GND: island 0 (497504 cells) to island 2, gap 0.0 mm",
+  "ok   GND                0.5 mm, 1 via(s), w 0.50, gap 0.0",
+  "FAIL GND: island 1 (132 cells) to island 2, gap 43.5 mm",
+  "     GND              done in 99.2 s (3 failed)"
+ ],
+ "failures": 3
+}

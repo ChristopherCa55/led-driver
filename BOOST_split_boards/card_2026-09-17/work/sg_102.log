@@ -1,0 +1,23 @@
+it       0 T 8.000 cost 52213.8 acc 0.00 (0 s)
+it   50000 T 4.856 cost 4528.2 acc 0.20 (61 s)
+it  100000 T 2.947 cost 4042.3 acc 0.15 (126 s)
+it  150000 T 1.789 cost 3843.0 acc 0.12 (186 s)
+it  200000 T 1.086 cost 3949.1 acc 0.10 (248 s)
+it  250000 T 0.659 cost 4237.1 acc 0.08 (313 s)
+it  300000 T 0.400 cost 4540.1 acc 0.07 (365 s)
+it  350000 T 0.243 cost 4621.2 acc 0.07 (420 s)
+it  400000 T 0.147 cost 4741.9 acc 0.06 (477 s)
+it  450000 T 0.089 cost 5190.3 acc 0.06 (535 s)
+it  500000 T 0.054 cost 6032.2 acc 0.05 (593 s)
+it  550000 T 0.033 cost 6892.9 acc 0.06 (649 s)
+legalized in 40 rounds
+shove U102 -> (85.77, 74.02) rot 270 B, displaces R3, R69
+shove U104 -> (53.39, 87.90) rot 180 B, displaces C102, R29, R4
+shove U26 -> (61.04, 83.82) rot 180 B, displaces C28, D15
+legalized in 40 rounds
+shove U104 -> (53.39, 87.90) rot 180 B, displaces C102, R4
+shove U26 -> (61.04, 83.82) rot 180 B, displaces C28, D15, R57
+legalized in 40 rounds
+shove U26 -> (61.04, 83.82) rot 180 B, displaces C28, D15
+legalized in 1 rounds
+done: overlap 0.000 mm2, outside 0.000 mm2, keep-out 0.000, weighted wire length 2632; 65 F / 95 B (790 s)

@@ -1,0 +1,163 @@
+exported 133 nets, 41 barrels, 513 pads
+tracks 4357, vias 443, failures 8, 1029 s
+added 4357 tracks, 443 vias -> work/sig_c3nf_1.kicad_pcb
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 57, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 13
+exported 133 nets, 484 barrels, 513 pads
+tracks 4480, vias 448, failures 10, 231 s
+added 4480 tracks, 448 vias -> work/sig_c3nf_2.kicad_pcb
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 56, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 10
+exported 133 nets, 489 barrels, 513 pads
+tracks 4482, vias 447, failures 15, 219 s
+added 4482 tracks, 447 vias -> work/sig_c3nf_3.kicad_pcb
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 56, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 13
+exported 133 nets, 488 barrels, 513 pads
+tracks 4446, vias 439, failures 15, 266 s
+added 4446 tracks, 439 vias -> work/sig_c3nf_4.kicad_pcb
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 53, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 8
+exported 133 nets, 480 barrels, 513 pads
+tracks 4446, vias 439, failures 15, 260 s
+added 4446 tracks, 439 vias -> work/sig_c3nf_5.kicad_pcb
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 53, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 8
+exported 133 nets, 480 barrels, 513 pads
+tracks 4446, vias 439, failures 15, 230 s
+added 4446 tracks, 439 vias -> work/sig_c3nf_6.kicad_pcb
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 53, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 8
+exported 133 nets, 480 barrels, 513 pads
+tracks 4446, vias 439, failures 15, 264 s
+{('clearance', 'error'): 3, ('via_dangling', 'warning'): 53, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  clearance        Clearance violation (netclass 'Power' clea | Pad 2 [GND] of R34 on F.Cu @(70.72,71.38) || Via [Vout_2] on F.Cu - B.Cu @(71.38,70.72)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Net-(U13-In-)] on F.Cu - B.Cu @(78.33,93.62) || Track [Output2_drain] on In3.Cu, length 6.6000 mm @(72.97,94.08)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Voltage_err_3] on F.Cu - B.Cu @(79.92,93.67) || Track [Output2_drain] on In3.Cu, length 0.8500 mm @(79.62,94.12)
+unconnected 8
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Track [Net-(U7-In-)] on F.Cu, length 0.2121 mm @(75.62,71.67) || Via [Net-(U7-In-)] on F.Cu - B.Cu @(74.53,72.28)
+  U Via [Out-] on F.Cu - B.Cu @(59.02,72.83) || Pad 1 [Out-] of R51 on F.Cu @(59.10,72.10)
+  U Track [Vref_3_arduino] on In2.Cu, length 0.2500 mm @(53.52,90.47) || Pad 1 [Vref_3_arduino] of R77 on F.Cu @(53.61,89.97)
+  U Pad 9 [IREF2_input] of U26 on B.Cu @(59.82,85.75) || Via [IREF2_input] on F.Cu - B.Cu @(59.73,87.42)
+  U Via [IREF1_input] on F.Cu - B.Cu @(59.52,92.67) || Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48)
+swig/pythonremoved via Voltage_err_2 at (88.025, 83.125)
+removed via Net-(U7-In-) at (74.525, 72.275)
+removed via Voltage_err_1 at (62.475, 103.725)
+removed via Net-(U103A-A) at (87.725, 96.025)
+removed via Net-(U103A-A) at (77.325, 109.925)
+removed via Net-(U102C-A) at (77.325, 108.675)
+removed via Net-(U102C-A) at (81.225, 74.625)
+removed via Net-(U102C-A) at (74.575, 86.375)
+removed via Net-(U102B-A) at (75.825, 86.375)
+removed via Net-(D20--) at (78.275, 71.175)
+removed via Net-(D20--) at (83.675, 81.325)
+removed via Net-(D20--) at (85.975, 90.675)
+removed via M1_ON at (55.975, 76.575)
+removed via Out at (61.525, 80.525)
+removed via set- at (58.975, 80.525)
+removed via Net-(U106B-A) at (82.675, 92.375)
+removed via M1_INHIBIT at (56.025, 75.275)
+removed via Net-(D5-+) at (85.175, 96.025)
+removed via ena_out_3 at (83.675, 85.125)
+removed via Net-(U103B-Y) at (81.375, 96.025)
+removed via Net-(U103B-Y) at (49.525, 81.625)
+removed via Net-(U21-In-) at (77.375, 111.325)
+removed via Net-(D20-+) at (89.775, 70.775)
+removed via Net-(U18-Q3) at (74.525, 82.375)
+removed via Net-(U18-Q3) at (80.925, 86.375)
+removed via low_error_timeout at (46.675, 85.425)
+removed via low_error_timeout at (62.175, 71.375)
+removed via Vref_3_arduino at (54.175, 89.725)
+removed via Net-(U14-In+) at (46.625, 87.675)
+removed via Net-(D3-+) at (49.825, 108.825)
+removed via Net-(C9-Pad2) at (69.275, 71.975)
+removed via Net-(D7-+) at (84.175, 71.025)
+removed via Net-(D23-+) at (49.075, 103.975)
+removed via Net-(D23-+) at (51.625, 90.175)
+removed via Net-(D23-+) at (48.475, 91.025)
+removed via ena_out_1 at (83.525, 82.975)
+removed via ena_out_1 at (86.175, 78.425)
+removed via Vout_3 at (72.025, 94.925)
+removed via Vref_2 at (50.375, 103.925)
+removed via Vref_2 at (59.675, 104.175)
+removed via Net-(U102A-Y) at (54.425, 77.825)
+removed via Net-(U102A-Y) at (86.175, 77.175)
+removed via Net-(U102D-Y) at (54.625, 80.175)
+removed via Net-(U102D-Y) at (81.275, 75.875)
+removed via ena_out_2 at (49.475, 77.825)
+removed via Vref_1_arduino at (50.025, 92.525)
+removed via Net-(U106B-B) at (76.575, 83.325)
+removed via Vout_1 at (73.275, 89.825)
+removed via Vref_1 at (51.625, 91.425)
+removed via Net-(D7--) at (49.475, 76.575)
+removed via IREF2_input at (59.725, 87.425)
+removed via IREF1_input at (59.525, 92.675)
+removed via out_3_on at (49.475, 82.925)
+removed 53 of 53 flagged tracks and vias -> work/sig_c3nfp.kicad_pcb
+{('clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  clearance        Clearance violation (netclass 'Power' clea | Pad 2 [GND] of R34 on F.Cu @(70.72,71.38) || Via [Vout_2] on F.Cu - B.Cu @(71.38,70.72)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Net-(U13-In-)] on F.Cu - B.Cu @(78.33,93.62) || Track [Output2_drain] on In3.Cu, length 6.6000 mm @(72.97,94.08)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Voltage_err_3] on F.Cu - B.Cu @(79.92,93.67) || Track [Output2_drain] on In3.Cu, length 0.8500 mm @(79.62,94.12)
+unconnected 5
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Via [Out-] on F.Cu - B.Cu @(59.02,72.83) || Pad 1 [Out-] of R51 on F.Cu @(59.10,72.10)
+  U Pad 1 [Vref_3_arduino] of R77 on F.Cu @(53.61,89.97) || Track [Vref_3_arduino] on In2.Cu, length 0.2500 mm @(53.52,90.47)
+removed Vref_3_arduino In2.Cu 0.050 mm at (54.175, 89.775)
+removed 1 of 1 flagged tracks and vias -> work/sig_c3nfp.kicad_pcb
+{('clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  clearance        Clearance violation (netclass 'Power' clea | Pad 2 [GND] of R34 on F.Cu @(70.72,71.38) || Via [Vout_2] on F.Cu - B.Cu @(71.38,70.72)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Net-(U13-In-)] on F.Cu - B.Cu @(78.33,93.62) || Track [Output2_drain] on In3.Cu, length 6.6000 mm @(72.97,94.08)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Voltage_err_3] on F.Cu - B.Cu @(79.92,93.67) || Track [Output2_drain] on In3.Cu, length 0.8500 mm @(79.62,94.12)
+unconnected 5
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Via [Out-] on F.Cu - B.Cu @(59.02,72.83) || Pad 1 [Out-] of R51 on F.Cu @(59.10,72.10)
+  U Track [Vref_3_arduino] on In2.Cu, length 0.2500 mm @(53.52,90.47) || Pad 1 [Vref_3_arduino] of R77 on F.Cu @(53.61,89.97)
+removed Vref_3_arduino In2.Cu 0.919 mm at (54.175, 89.825)
+removed 1 of 1 flagged tracks and vias -> work/sig_c3nfp.kicad_pcb
+{('clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  clearance        Clearance violation (netclass 'Power' clea | Pad 2 [GND] of R34 on F.Cu @(70.72,71.38) || Via [Vout_2] on F.Cu - B.Cu @(71.38,70.72)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Net-(U13-In-)] on F.Cu - B.Cu @(78.33,93.62) || Track [Output2_drain] on In3.Cu, length 6.6000 mm @(72.97,94.08)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Voltage_err_3] on F.Cu - B.Cu @(79.92,93.67) || Track [Output2_drain] on In3.Cu, length 0.8500 mm @(79.62,94.12)
+unconnected 5
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Via [Out-] on F.Cu - B.Cu @(59.02,72.83) || Pad 1 [Out-] of R51 on F.Cu @(59.10,72.10)
+  U Pad 1 [Vref_3_arduino] of R77 on F.Cu @(53.61,89.97) || Track [Vref_3_arduino] on In2.Cu, length 0.2500 mm @(53.52,90.47)
+removed Vref_3_arduino In2.Cu 0.250 mm at (53.525, 90.475)
+removed 1 of 1 flagged tracks and vias -> work/sig_c3nfp.kicad_pcb
+{('clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  clearance        Clearance violation (netclass 'Power' clea | Pad 2 [GND] of R34 on F.Cu @(70.72,71.38) || Via [Vout_2] on F.Cu - B.Cu @(71.38,70.72)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Net-(U13-In-)] on F.Cu - B.Cu @(78.33,93.62) || Track [Output2_drain] on In3.Cu, length 6.6000 mm @(72.97,94.08)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Voltage_err_3] on F.Cu - B.Cu @(79.92,93.67) || Track [Output2_drain] on In3.Cu, length 0.8500 mm @(79.62,94.12)
+unconnected 5
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Via [Out-] on F.Cu - B.Cu @(59.02,72.83) || Pad 1 [Out-] of R51 on F.Cu @(59.10,72.10)
+  U Pad 1 [Vref_3_arduino] of R77 on F.Cu @(53.61,89.97) || Track [Vref_3_arduino] on In2.Cu, length 0.3536 mm @(53.52,90.72)
+removed Vref_3_arduino In2.Cu 0.354 mm at (53.525, 90.725)
+removed 1 of 1 flagged tracks and vias -> work/sig_c3nfp.kicad_pcb
+{('clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  clearance        Clearance violation (netclass 'Power' clea | Pad 2 [GND] of R34 on F.Cu @(70.72,71.38) || Via [Vout_2] on F.Cu - B.Cu @(71.38,70.72)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Net-(U13-In-)] on F.Cu - B.Cu @(78.33,93.62) || Track [Output2_drain] on In3.Cu, length 6.6000 mm @(72.97,94.08)
+  clearance        Clearance violation (netclass 'Power' clea | Via [Voltage_err_3] on F.Cu - B.Cu @(79.92,93.67) || Track [Output2_drain] on In3.Cu, length 0.8500 mm @(79.62,94.12)
+unconnected 5
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(45.89,70.02)
+  U Via [Out-] on F.Cu - B.Cu @(59.02,72.83) || Pad 1 [Out-] of R51 on F.Cu @(59.10,72.10)
+  U Pad 1 [Vref_3_arduino] of R77 on F.Cu @(53.61,89.97) || Track [Vref_3_arduino] on In2.Cu, length 0.0500 mm @(53.27,90.97)
+routes: work/g_c3nf_6.json
+final: work/sig_c3nfp.kicad_pcb
+
+real	43m10.330s
+user	0m0.802s
+sys	0m0.984s

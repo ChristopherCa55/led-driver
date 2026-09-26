@@ -12,7 +12,8 @@ if all(h in L for h in ('H5', 'H6', 'H7', 'H8')):
 else:
     scr = {'H%d' % i: p for i, p in enumerate(((card[0] + 4, card[1] + 4), (card[2] - 4, card[1] + 4),
                                                (card[0] + 4, card[3] - 4), (card[2] - 4, card[3] - 4)), 5)}
-meta = dict(screws=scr, screwed=cfg['screwed'], card=card, corner=cfg['corner'], far_mm=cfg.get('far_mm', 15.0))
+meta = dict(screws=scr, screwed=cfg['screwed'], card=card, corner=cfg['corner'], far_mm=cfg.get('far_mm', 15.0),
+            tall_tab_mm=cfg.get('tall_tab_mm', 5.5), tall_standoff_mm=cfg.get('tall_standoff_mm', 5.5))
 lines, msgs = pplot.run(L, meta, sys.argv[3], sys.argv[1].split('/')[-1])
 print('card', [round(v, 1) for v in card])
 print('\n'.join(l for l in lines if 'MISS' in l))

@@ -1,0 +1,46 @@
+exported 74 nets, 765 barrels, 355 pads
+tracks 1773, vias 165, failures 4, 448 s
+added 1773 tracks, 165 vias -> work/sig_32_1.kicad_pcb
+{('clearance', 'error'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 7
+exported 74 nets, 930 barrels, 355 pads
+tracks 1975, vias 184, failures 2, 248 s
+added 1975 tracks, 184 vias -> work/sig_32_2.kicad_pcb
+{('clearance', 'error'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 4
+exported 74 nets, 949 barrels, 355 pads
+tracks 2334, vias 202, failures 0, 236 s
+added 2334 tracks, 202 vias -> work/sig_32_3.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 3, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 0
+exported 74 nets, 967 barrels, 355 pads
+tracks 2568, vias 217, failures 0, 31 s
+added 2568 tracks, 217 vias -> work/sig_32_4.kicad_pcb
+{('clearance', 'error'): 1, ('via_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 0
+exported 74 nets, 982 barrels, 355 pads
+tracks 2839, vias 226, failures 0, 22 s
+added 2839 tracks, 226 vias -> work/sig_32_5.kicad_pcb
+{('clearance', 'error'): 4, ('via_dangling', 'warning'): 3, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 0
+exported 74 nets, 991 barrels, 355 pads
+tracks 3127, vias 234, failures 0, 14 s
+{('clearance', 'error'): 4, ('via_dangling', 'warning'): 3, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [m2_source] on F.Cu - B.Cu @(66.15,56.95) || Track [12V] on In5.Cu, length 0.1000 mm @(65.75,56.35)
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [m2_source] on F.Cu - B.Cu @(66.15,56.95) || Track [12V] on In5.Cu, length 0.9899 mm @(65.65,56.35)
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [Net-(U10-VDDA)] on F.Cu - B.Cu @(52.25,55.75) || Pad 13 [unconnected-(U10-NC-Pad13)] of U10 on B.Cu @(51.69,54.39)
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [m2_source] on F.Cu - B.Cu @(66.15,56.95) || Track [12V] on In5.Cu, length 0.1000 mm @(65.75,56.25)
+unconnected 0
+removed via 5V at (83.250, 32.050)
+removed via 5V at (31.550, 30.750)
+removed via 5V at (62.250, 33.350)
+removed 3 of 3 flagged tracks and vias -> work/sig_32p.kicad_pcb
+{('clearance', 'error'): 4, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [m2_source] on F.Cu - B.Cu @(66.15,56.95) || Track [12V] on In5.Cu, length 0.9899 mm @(65.65,56.35)
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [Net-(U10-VDDA)] on F.Cu - B.Cu @(52.25,55.75) || Pad 13 [unconnected-(U10-NC-Pad13)] of U10 on B.Cu @(51.69,54.39)
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [m2_source] on F.Cu - B.Cu @(66.15,56.95) || Track [12V] on In5.Cu, length 0.1000 mm @(65.75,56.25)
+  clearance        Clearance violation ( clearance 0.2000 mm; | Via [m2_source] on F.Cu - B.Cu @(66.15,56.95) || Track [12V] on In5.Cu, length 0.1000 mm @(65.75,56.35)
+unconnected 0
+routes: work/g_32_5.json
+final: work/sig_32p.kicad_pcb
+PIPELINE_DONE

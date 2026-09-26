@@ -1,0 +1,10 @@
+import pcbnew
+b = pcbnew.LoadBoard('base_p15.kicad_pcb')
+v = pcbnew.PCB_VIA(b)
+print([m for m in dir(v) if any(k in m.lower() for k in ('unconn', 'remove', 'keep', 'padstack', 'width', 'drill', 'viatype', 'tent', 'fill', 'cap'))])
+ps = v.Padstack()
+print([m for m in dir(ps) if 'nconn' in m or 'Mode' in m])
+print([m for m in dir(pcbnew) if m.startswith('UNCONNECTED_LAYER') or m.startswith('PADSTACK_UNCONN')])
+z = pcbnew.ZONE(b)
+print([m for m in dir(z) if any(k in m.lower() for k in ('priority', 'island', 'connect', 'thermal', 'minthick', 'clearance', 'fillmode', 'setnet', 'layer'))])
+print([m for m in dir(pcbnew) if m.startswith('ZONE_CONNECTION') or m.startswith('ISLAND_REMOVAL')])

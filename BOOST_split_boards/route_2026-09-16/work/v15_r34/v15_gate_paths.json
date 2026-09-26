@@ -1,0 +1,329 @@
+[
+ {
+  "fet": "M1",
+  "drive_net": "Net-(U19-OUTA)",
+  "driver_to_R": 1.4727922061357814,
+  "gate_net": "GATE_M1",
+  "R_to_gate": 1.1999999999999957,
+  "gate_net_links": [
+   {
+    "pad": "R104.1",
+    "to_gate_mm": 1.3313708498984727,
+    "vias": 0,
+    "straight_mm": 2.9575760667039455,
+    "other_pad_nets": [
+     "GND"
+    ]
+   },
+   {
+    "pad": "R15.2",
+    "to_gate_mm": 1.1999999999999957,
+    "vias": 0,
+    "straight_mm": 2.649851455415944,
+    "other_pad_nets": [
+     "Net-(U19-OUTA)"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M7",
+  "drive_net": "Net-(D2--)",
+  "driver_to_R": 13.628427124743984,
+  "gate_net": "GATE_M7",
+  "R_to_gate": 5.089949493661167,
+  "driver_to_diode": 18.491168824540946,
+  "diode_to_gate": 1.3828427124746172,
+  "return_to_source_copper": 21.349748175411058,
+  "paired_path": "driver->R->gate",
+  "forward_beside_return_share": 0.7280774077034118,
+  "gate_net_links": [
+   {
+    "pad": "D2.2",
+    "to_gate_mm": 1.3828427124746172,
+    "vias": 0,
+    "straight_mm": 2.9355533368850573,
+    "other_pad_nets": [
+     "Net-(D2--)"
+    ]
+   },
+   {
+    "pad": "R60.2",
+    "to_gate_mm": 5.089949493661167,
+    "vias": 0,
+    "straight_mm": 5.197188104070121,
+    "other_pad_nets": [
+     "Net-(D2--)"
+    ]
+   },
+   {
+    "pad": "R76.2",
+    "to_gate_mm": 3.521320343559641,
+    "vias": 1,
+    "straight_mm": 4.794119367068152,
+    "other_pad_nets": [
+     "m2_source"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M5",
+  "drive_net": "Net-(D22--)",
+  "driver_to_R": 13.54558441227158,
+  "gate_net": "GATE_M5",
+  "R_to_gate": 1.2999999999999972,
+  "driver_to_diode": 2.0970562748477195,
+  "diode_to_gate": 1.0,
+  "return_to_source_copper": 22.712489168102778,
+  "paired_path": "driver->R->gate",
+  "forward_beside_return_share": 0.8248637488564752,
+  "gate_net_links": [
+   {
+    "pad": "D22.2",
+    "to_gate_mm": 1.0,
+    "vias": 0,
+    "straight_mm": 2.4366375936872537,
+    "other_pad_nets": [
+     "Net-(D22--)"
+    ]
+   },
+   {
+    "pad": "R59.1",
+    "to_gate_mm": 1.2999999999999972,
+    "vias": 0,
+    "straight_mm": 2.594894575202811,
+    "other_pad_nets": [
+     "Net-(D22--)"
+    ]
+   },
+   {
+    "pad": "R74.2",
+    "to_gate_mm": 1.3485281374238591,
+    "vias": 0,
+    "straight_mm": 2.8919296622789794,
+    "other_pad_nets": [
+     "m4_source"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M6",
+  "drive_net": "Net-(D8--)",
+  "driver_to_R": 11.39705627484771,
+  "gate_net": "GATE_M6",
+  "R_to_gate": 3.37279220613579,
+  "driver_to_diode": 16.891168531650152,
+  "diode_to_gate": 1.524264068711936,
+  "return_to_source_copper": 15.832590180780446,
+  "paired_path": "driver->R->gate",
+  "forward_beside_return_share": 0.0,
+  "gate_net_links": [
+   {
+    "pad": "D8.2",
+    "to_gate_mm": 1.524264068711936,
+    "vias": 0,
+    "straight_mm": 3.0737053679565607,
+    "other_pad_nets": [
+     "Net-(D8--)"
+    ]
+   },
+   {
+    "pad": "R49.1",
+    "to_gate_mm": 1.1000000000000014,
+    "vias": 0,
+    "straight_mm": 2.174999999999997,
+    "other_pad_nets": [
+     "m3_source"
+    ]
+   },
+   {
+    "pad": "R70.2",
+    "to_gate_mm": 3.37279220613579,
+    "vias": 0,
+    "straight_mm": 4.162499999999994,
+    "other_pad_nets": [
+     "Net-(D8--)"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M2",
+  "drive_net": "Net-(D11--)",
+  "driver_to_R": 25.929646748520796,
+  "gate_net": "GATE_M2",
+  "R_to_gate": 4.469848480983498,
+  "driver_to_diode": 30.52670302336851,
+  "diode_to_gate": 1.548528137423872,
+  "return_to_source_copper": 19.48406204335659,
+  "paired_path": "driver->diode->gate",
+  "forward_beside_return_share": 0.17983427603254662,
+  "gate_net_links": [
+   {
+    "pad": "D11.2",
+    "to_gate_mm": 1.548528137423872,
+    "vias": 0,
+    "straight_mm": 3.2070235421649107,
+    "other_pad_nets": [
+     "Net-(D11--)"
+    ]
+   },
+   {
+    "pad": "R13.1",
+    "to_gate_mm": 4.469848480983498,
+    "vias": 0,
+    "straight_mm": 4.776730021598457,
+    "other_pad_nets": [
+     "Net-(D11--)"
+    ]
+   },
+   {
+    "pad": "R75.2",
+    "to_gate_mm": 6.297056274847727,
+    "vias": 0,
+    "straight_mm": 5.329559682803264,
+    "other_pad_nets": [
+     "m2_source"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M3",
+  "drive_net": "Net-(D14--)",
+  "driver_to_R": 34.771781372252434,
+  "gate_net": "GATE_M3",
+  "R_to_gate": 4.045584412271571,
+  "driver_to_diode": 32.77472509740471,
+  "diode_to_gate": 1.1000000000000014,
+  "return_to_source_copper": 10.587005768508883,
+  "paired_path": "driver->diode->gate",
+  "forward_beside_return_share": 0.0,
+  "gate_net_links": [
+   {
+    "pad": "D14.2",
+    "to_gate_mm": 1.1000000000000014,
+    "vias": 0,
+    "straight_mm": 2.3720427718677395,
+    "other_pad_nets": [
+     "Net-(D14--)"
+    ]
+   },
+   {
+    "pad": "R23.2",
+    "to_gate_mm": 4.045584412271571,
+    "vias": 0,
+    "straight_mm": 5.251256273891131,
+    "other_pad_nets": [
+     "Net-(D14--)"
+    ]
+   },
+   {
+    "pad": "R61.2",
+    "to_gate_mm": 5.245584412271568,
+    "vias": 0,
+    "straight_mm": 6.882495089590833,
+    "other_pad_nets": [
+     "m3_source"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M4",
+  "drive_net": "Net-(D13--)",
+  "driver_to_R": 32.8539105243401,
+  "gate_net": "GATE_M4",
+  "R_to_gate": 1.0999999999999943,
+  "driver_to_diode": 4.938477631085024,
+  "diode_to_gate": 26.58528137423858,
+  "return_to_source_copper": 16.19827560572968,
+  "paired_path": "driver->diode->gate",
+  "forward_beside_return_share": 0.04441094730370107,
+  "gate_net_links": [
+   {
+    "pad": "D13.2",
+    "to_gate_mm": 26.58528137423858,
+    "vias": 2,
+    "straight_mm": 9.660380212274253,
+    "other_pad_nets": [
+     "Net-(D13--)"
+    ]
+   },
+   {
+    "pad": "R47.1",
+    "to_gate_mm": 1.0999999999999943,
+    "vias": 0,
+    "straight_mm": 2.174999999999997,
+    "other_pad_nets": [
+     "Net-(D13--)"
+    ]
+   },
+   {
+    "pad": "R73.2",
+    "to_gate_mm": 2.4727922061358023,
+    "vias": 1,
+    "straight_mm": 3.825000000000003,
+    "other_pad_nets": [
+     "m4_source"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M10",
+  "drive_net": "Net-(U11-OUT)",
+  "driver_to_R": 2.114213562373093,
+  "gate_net": "Net-(M10-G)",
+  "R_to_gate": 1.4071067811865503,
+  "gate_net_links": [
+   {
+    "pad": "R56.1",
+    "to_gate_mm": 1.4071067811865503,
+    "vias": 0,
+    "straight_mm": 2.857534354345548,
+    "other_pad_nets": [
+     "Net-(U11-OUT)"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M9",
+  "drive_net": "Net-(U12-OUT)",
+  "driver_to_R": 12.535533905932729,
+  "gate_net": "Net-(M9-G)",
+  "R_to_gate": 1.0999999999999943,
+  "gate_net_links": [
+   {
+    "pad": "R50.1",
+    "to_gate_mm": 1.0999999999999943,
+    "vias": 0,
+    "straight_mm": 2.34477915198191,
+    "other_pad_nets": [
+     "Net-(U12-OUT)"
+    ]
+   }
+  ]
+ },
+ {
+  "fet": "M8",
+  "drive_net": "Net-(U6-OUT)",
+  "driver_to_R": 17.545079348883746,
+  "gate_net": "Net-(M8-G)",
+  "R_to_gate": 1.0,
+  "gate_net_links": [
+   {
+    "pad": "R22.1",
+    "to_gate_mm": 1.0,
+    "vias": 0,
+    "straight_mm": 2.3964817963005696,
+    "other_pad_nets": [
+     "Net-(U6-OUT)"
+    ]
+   }
+  ]
+ }
+]

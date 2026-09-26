@@ -1,0 +1,701 @@
+board rasterised in 0.5 s
+first: 41 nets from earlier passes routed ahead of the plane fan-outs
+ok   Current            1.3 mm, 0 via(s), w 0.20, gap 1.1
+ok   Current            1.6 mm, 0 via(s), w 0.20, gap 1.4
+prot Current          track zone on In5.Cu/B.Cu, via zone all layers; 24 nets exempt in the track zone
+     Current          sensitive, 0.2 s
+ok   Net-(U2-In+)       0.1 mm, 1 via(s) 0.5/0.3, w 0.15, gap 0.0
+ok   Net-(U2-In+)       2.9 mm, 2 via(s) 0.5/0.3, w 0.15, gap 1.9
+ok   Net-(U2-In+)       7.7 mm, 1 via(s) 0.5/0.3, w 0.15, gap 6.0
+prot Net-(U2-In+)     track zone on F.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+ok   V_err             16.1 mm, 1 via(s) 0.5/0.3, w 0.15, gap 0.0
+ok   V_err              1.2 mm, 0 via(s), w 0.15, gap 0.3
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 13 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+ok   Net-(U4-In+)       1.0 mm, 0 via(s), w 0.20, gap 0.8
+ok   Net-(U4-In+)       1.0 mm, 0 via(s), w 0.20, gap 0.8
+ok   Net-(U4-In+)      16.0 mm, 0 via(s), w 0.20, gap 3.2
+     Net-(U4-In+)     done in 0.2 s
+ok   Net-(U14-In+)      0.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U14-In+)      1.5 mm, 0 via(s), w 0.20, gap 1.2
+ok   Net-(U14-In+)      3.7 mm, 0 via(s), w 0.20, gap 2.3
+     Net-(U14-In+)    done in 0.2 s
+ok   Net-(U21-In+)      0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U21-In+)      1.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+ok   Net-(U21-In+)      1.4 mm, 0 via(s), w 0.20, gap 1.1
+     Net-(U21-In+)    done in 0.2 s
+ok   Net-(U21-In-)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U21-In-)      2.4 mm, 0 via(s), w 0.20, gap 2.0
+     Net-(U21-In-)    done in 0.1 s
+ok   Net-(Q1-E)         0.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(Q1-E)         3.9 mm, 0 via(s), w 0.20, gap 2.3
+ok   Net-(Q1-E)        20.0 mm, 0 via(s), w 0.20, gap 14.0
+     Net-(Q1-E)       done in 0.2 s
+stch Net-(U2-In+)     5 GND vias beside its In5.Cu run
+stch Current          2 GND vias beside its B.Cu run
+stch V_err            0 GND vias beside its In5.Cu run
+stch J9.10            2 GND vias beside the thermal-relief pad
+dcap 5V               C104.1 -> U103.14: 1.1 mm, 0 via(s), w 0.30
+dcap 5V               C98.1 -> U4.5: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C28.1 -> U2.5: 1.3 mm, 0 via(s), w 0.30
+dcap 5V               C53.2 -> U21.5: 0.9 mm, 0 via(s), w 0.30
+dcap 5V               C24.1 -> U5.5: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C12.1 -> U14.5: 1.1 mm, 0 via(s), w 0.30
+dcap 5V               C58.1 -> U104.14: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C23.1 -> U106.14: 1.2 mm, 0 via(s), w 0.30
+dcap 5V               C52.1 -> U18.16: 0.9 mm, 0 via(s), w 0.30
+dcap 5V               C22.1 -> U101.14: 4.8 mm, 0 via(s), w 0.30
+dcap analog_5V        C63.1 -> U22.5: 1.1 mm, 0 via(s), w 0.30
+dcap analog_5V        C38.2 -> U23.5: 1.4 mm, 0 via(s), w 0.30
+dcap analog_5V        C32.1 -> U13.5: 1.4 mm, 0 via(s), w 0.30
+dcap analog_5V        C37.2 -> U24.5: 1.3 mm, 0 via(s), w 0.30
+dcap analog_5V        C36.2 -> U7.5: 1.2 mm, 0 via(s), w 0.30
+     DECAP            15 direct links, 0.9 s
+ok   IREF1_input       16.2 mm, 0 via(s), w 0.20, gap 13.5
+     IREF1_input      done in 0.2 s
+ok   Net-(U26C-P2B)     1.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.4
+ok   Net-(U26C-P2B)     0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U26C-P2B)    20.4 mm, 0 via(s), w 0.20, gap 9.8
+     Net-(U26C-P2B)   done in 0.3 s
+ok   Verr1              0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Verr1              1.0 mm, 0 via(s), w 0.20, gap 0.8
+ok   Verr1             17.9 mm, 0 via(s), w 0.20, gap 12.4
+     Verr1            done in 0.3 s
+ok   Voltage_err_1      2.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.2
+ok   Voltage_err_1     13.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 11.6
+     Voltage_err_1    done in 0.2 s
+ok   Net-(D26-+)        2.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.2
+ok   Net-(D26-+)        4.1 mm, 0 via(s), w 0.20, gap 2.3
+ok   Net-(D26-+)        6.4 mm, 0 via(s), w 0.20, gap 5.0
+     Net-(D26-+)      done in 0.3 s
+ok   Verr2              0.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.4
+ok   Verr2              2.9 mm, 0 via(s), w 0.20, gap 2.6
+ok   Verr2              9.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 5.6
+     Verr2            done in 0.3 s
+ok   Voltage_err_3      4.5 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.3
+ok   Voltage_err_3      5.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 4.6
+     Voltage_err_3    done in 0.2 s
+ok   Output3_drain     10.8 mm, 0 via(s), w 0.15, gap 9.7
+     Output3_drain    done in 0.3 s
+ok   Net-(U24-In+)      1.4 mm, 0 via(s), w 0.20, gap 1.1
+ok   Net-(U24-In+)      2.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.8
+ok   Net-(U24-In+)      7.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.7
+     Net-(U24-In+)    done in 0.3 s
+ok   Net-(U3-In-)       0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U3-In-)       8.2 mm, 0 via(s), w 0.20, gap 6.9
+     Net-(U3-In-)     done in 0.2 s
+ok   Net-(U7-In-)       1.0 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U7-In-)       4.9 mm, 0 via(s), w 0.20, gap 1.9
+     Net-(U7-In-)     done in 0.1 s
+ok   Net-(U23-In+)      0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U23-In+)      1.0 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U23-In+)      1.4 mm, 0 via(s), w 0.20, gap 1.2
+     Net-(U23-In+)    done in 0.2 s
+ok   .1Vout_3           1.2 mm, 0 via(s), w 0.20, gap 1.0
+ok   .1Vout_3           3.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 2.8
+     .1Vout_3         done in 0.2 s
+ok   Net-(U106B-A)      0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(U106B-A)      1.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.1
+     Net-(U106B-A)    done in 0.1 s
+ok   Net-(D24-+)        3.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+ok   Net-(D24-+)       51.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 45.1
+     Net-(D24-+)      done in 0.5 s
+ok   0err_hi            1.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+ok   0err_hi            5.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.5
+rip  0err_hi          ripped and re-routed Verr1, Net-(U4-In+)
+     ok   Net-(U4-In+)       1.0 mm, 0 via(s), w 0.20, gap 0.8
+     ok   Net-(U4-In+)       1.0 mm, 0 via(s), w 0.20, gap 0.8
+     ok   Net-(U4-In+)      14.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.2
+     ok   Verr1              0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Verr1              1.0 mm, 0 via(s), w 0.20, gap 0.8
+     ok   Verr1             18.1 mm, 0 via(s), w 0.20, gap 12.4
+ok   0err_hi           27.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 25.8
+ok   0err_hi           30.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 25.1
+     0err_hi          done in 2.9 s
+ok   Out-               2.8 mm, 0 via(s), w 0.20, gap 2.1
+ok   Out-               4.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.7
+ok   Out-               3.8 mm, 0 via(s), w 0.20, gap 3.2
+ok   Out-               5.9 mm, 0 via(s), w 0.20, gap 4.4
+ok   Out-               6.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 5.8
+ok   Out-              15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.7
+ok   Out-              17.4 mm, 0 via(s), w 0.20, gap 16.3
+     Out-             done in 1.1 s
+ok   Net-(U103B-Y)     37.5 mm, 4 via(s) 0.5/0.3, w 0.20, gap 33.2
+     Net-(U103B-Y)    done in 0.4 s
+ok   Net-(U102B-A)     14.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 14.1
+ok   Net-(U102B-A)     23.1 mm, 2 via(s) 0.5/0.3, w 0.20, gap 19.1
+     Net-(U102B-A)    done in 0.4 s
+ok   Net-(U102C-A)     14.5 mm, 2 via(s) 0.5/0.3, w 0.20, gap 12.9
+rip  Net-(U102C-A)    ripped 0err_hi, Net-(U4-In+), Net-(U102B-A), but 0err_hi then failed; undone
+rip  Net-(U102C-A)    ripped 0err_hi, Net-(U4-In+), Net-(U21-In+), Net-(U21-In-), Net-(U102B-A), but 0err_hi then failed; undone
+rip  Net-(U102C-A)    ripped Net-(U102B-A), Net-(U4-In+), 0err_hi, .1Vout_3, but 0err_hi then failed; undone
+FAIL Net-(U102C-A): island 0 (550 cells; U18.2 U102.10) to island 1 (U28.10), gap 20.5 mm
+     Net-(U102C-A)    done in 16.3 s (1 failed)
+ok   0A_hi             11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+ok   0A_hi             26.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 21.3
+     0A_hi            done in 0.5 s
+ok   Reset_raw         38.6 mm, 2 via(s) 0.5/0.3, w 0.15, gap 22.4
+     Reset_raw        done in 0.6 s
+ok   low_error_timeout   1.1 mm, 0 via(s), w 0.20, gap 0.8
+ok   low_error_timeout   2.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.1
+ok   low_error_timeout  15.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 13.1
+ok   low_error_timeout  15.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.3
+     low_error_timeout done in 0.4 s
+ok   Net-(U102D-Y)     29.6 mm, 3 via(s) 0.5/0.3, w 0.20, gap 25.2
+     Net-(U102D-Y)    done in 0.2 s
+ok   ena_out_3         13.7 mm, 0 via(s), w 0.20, gap 10.3
+ok   ena_out_3         14.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 13.2
+     ena_out_3        done in 0.4 s
+ok   M1_ON             10.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.9
+ok   M1_ON             15.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 11.9
+     M1_ON            done in 0.4 s
+ok   ena_out_1          4.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.7
+ok   ena_out_1         18.4 mm, 0 via(s), w 0.20, gap 13.6
+     ena_out_1        done in 0.2 s
+ok   Net-(D5--)         4.3 mm, 0 via(s), w 0.20, gap 4.1
+ok   Net-(D5--)        13.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 12.0
+     Net-(D5--)       done in 0.2 s
+ok   out_3_on          20.8 mm, 3 via(s) 0.5/0.3, w 0.20, gap 15.0
+     out_3_on         done in 0.2 s
+ok   SDA               29.9 mm, 1 via(s) 0.5/0.3, w 0.15, gap 11.1
+     SDA              done in 0.3 s
+ok   out_2_on          22.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 10.2
+     out_2_on         done in 0.2 s
+ok   M2_ON             19.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 10.2
+     M2_ON            done in 0.2 s
+ok   Net-(D20--)        1.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.5
+ok   Net-(D20--)        9.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.8
+     Net-(D20--)      done in 0.2 s
+rip  SCL              ripped M1_ON, SDA, Net-(U103B-Y), Reset_raw, but SDA then failed; undone
+rip  SCL              ripped and re-routed M1_ON, Out-, Reset_raw, out_3_on, SDA, low_error_timeout, Net-(U103B-Y), 0A_hi
+     ok   Out-               2.8 mm, 0 via(s), w 0.20, gap 2.1
+     ok   Out-               4.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.7
+     ok   Out-               3.8 mm, 0 via(s), w 0.20, gap 3.2
+     ok   Out-               5.9 mm, 0 via(s), w 0.20, gap 4.4
+     ok   Out-               6.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 5.8
+     ok   Out-              15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.7
+     ok   Out-              17.4 mm, 0 via(s), w 0.20, gap 16.3
+     ok   Net-(U103B-Y)     37.5 mm, 4 via(s) 0.5/0.3, w 0.20, gap 33.2
+     ok   0A_hi             11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+     ok   0A_hi             26.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 21.3
+     ok   Reset_raw         39.7 mm, 2 via(s) 0.5/0.3, w 0.15, gap 22.4
+     ok   low_error_timeout   1.1 mm, 0 via(s), w 0.20, gap 0.8
+     ok   low_error_timeout   2.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.1
+     ok   low_error_timeout  15.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 13.1
+     ok   low_error_timeout  15.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.3
+     ok   M1_ON             11.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.9
+     ok   M1_ON             17.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 11.5
+     ok   out_3_on          17.2 mm, 3 via(s) 0.5/0.3, w 0.20, gap 15.0
+     ok   SDA               29.9 mm, 1 via(s) 0.5/0.3, w 0.15, gap 11.1
+     SCL              done in 8.5 s
+ok   Net-(U18-Q3)      13.9 mm, 3 via(s) 0.5/0.3, w 0.20, gap 6.7
+     Net-(U18-Q3)     done in 0.1 s
+ok   Out               17.6 mm, 4 via(s) 0.5/0.3, w 0.20, gap 5.8
+     Out              done in 0.1 s
+ok   M1_INHIBIT         1.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   M1_INHIBIT         0.5 mm, 0 via(s), w 0.20, gap 0.3
+ok   M1_INHIBIT         0.9 mm, 0 via(s), w 0.20, gap 0.6
+ok   M1_INHIBIT         2.1 mm, 0 via(s), w 0.20, gap 0.8
+rip  M1_INHIBIT       ripped Net-(D24-+), Out-, out_2_on, M2_ON, but M2_ON then failed; undone
+rip  M1_INHIBIT       ripped out_2_on, Out-, Net-(D24-+), M2_ON, M1_ON, but M2_ON then failed; undone
+rip  M1_INHIBIT       ripped and re-routed Net-(D24-+)
+     ok   Net-(D24-+)        3.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+     ok   Net-(D24-+)       58.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 45.1
+     M1_INHIBIT       done in 19.7 s
+ok   Vref_1_arduino    10.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.8
+     Vref_1_arduino   done in 0.1 s
+rip  Net-(U101A-Y)    ripped Out, M1_ON, Out-, low_error_timeout, but Out then failed; undone
+rip  Net-(U101A-Y)    ripped and re-routed Out, Out-, low_error_timeout, Reset_raw, M1_ON, SDA, SCL, Net-(U102D-Y)
+     ok   Out-               2.8 mm, 0 via(s), w 0.20, gap 2.1
+     ok   Out-               4.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.7
+     ok   Out-               3.8 mm, 0 via(s), w 0.20, gap 3.2
+     ok   Out-               5.9 mm, 0 via(s), w 0.20, gap 4.4
+     ok   Out-               7.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 6.6
+     ok   Out-              15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.7
+     ok   Out-              17.4 mm, 0 via(s), w 0.20, gap 16.3
+     ok   Reset_raw         39.7 mm, 2 via(s) 0.5/0.3, w 0.15, gap 22.4
+     ok   low_error_timeout   1.1 mm, 0 via(s), w 0.20, gap 0.8
+     ok   low_error_timeout   2.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.1
+     ok   low_error_timeout  15.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 13.1
+     ok   low_error_timeout  15.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.3
+     ok   Net-(U102D-Y)     28.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 25.2
+     ok   M1_ON             11.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.9
+     ok   M1_ON             12.0 mm, 0 via(s), w 0.20, gap 10.4
+     ok   SDA               26.4 mm, 1 via(s) 0.5/0.3, w 0.15, gap 11.1
+     ok   SCL               14.8 mm, 3 via(s) 0.5/0.3, w 0.20, gap 8.6
+     ok   Out                7.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 5.8
+     Net-(U101A-Y)    done in 8.9 s
+ok   Net-(C19-Pad1)     0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(C19-Pad1)     0.9 mm, 0 via(s), w 0.20, gap 0.4
+     Net-(C19-Pad1)   done in 0.1 s
+fan  GND              C10.1: 0.5 mm stub, via 0.5/0.3
+fan  GND              C43.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U3.2: no via reachable
+fan  GND              U28.4: 1.5 mm stub, via 0.5/0.3
+fan  GND              U28.5: 1.3 mm stub, via 0.5/0.3
+fan  GND              U28.6: nearest via needs 1.8 mm, not fanned out
+fan  GND              U28.7: 0.2 mm stub, via 0.5/0.3
+fan  GND              U28.12: no via reachable
+fan  GND              U28.13: no via reachable
+fan  GND              C14.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U101.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C52.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C37.1: 0.1 mm stub, via 0.5/0.3
+fan  GND              C22.2: 0.7 mm stub, via 0.5/0.3
+fan  GND              U103.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              U18.8: 0.1 mm stub, via 0.5/0.3
+fan  GND              C59.2: 0.5 mm stub, via 0.5/0.3
+fan  GND              U14.2: 0.2 mm stub, via 0.5/0.3
+fan  GND              C104.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C46.2: 0.8 mm stub, via 0.5/0.3
+fan  GND              C63.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U22.2: no via reachable
+fan  GND              C91.1: no via reachable
+fan  GND              C102.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C92.2: 0.1 mm stub, via 0.5/0.3
+fan  GND              C8.1: 0.5 mm stub, via 0.5/0.3
+fan  GND              U105.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C12.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C26.2: 1.1 mm stub, via 0.5/0.3
+fan  GND              U24.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              U102.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C15.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C94.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C17.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C24.2: no via reachable
+fan  GND              U5.2: no via reachable
+fan  GND              C42.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C103.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C65.2: nearest via needs 2.2 mm, not fanned out
+fan  GND              C29.2: nearest via needs 2.4 mm, not fanned out
+fan  GND              C32.2: 0.1 mm stub, via 0.5/0.3
+fan  GND              U21.2: no via reachable
+fan  GND              U7.2: nearest via needs 3.9 mm, not fanned out
+fan  GND              U4.2: no via reachable
+fan  GND              U13.2: no via reachable
+fan  GND              C13.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C23.2: 0.4 mm stub, via 0.5/0.3
+fan  GND              C93.2: 0.8 mm stub, via 0.5/0.3
+fan  GND              C9.1: 0.6 mm stub, via 0.5/0.3
+fan  GND              U2.2: nearest via needs 3.0 mm, not fanned out
+fan  GND              C54.2: nearest via needs 2.1 mm, not fanned out
+fan  GND              C95.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C57.1: 0.6 mm stub, via 0.5/0.3
+fan  GND              C97.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C58.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C28.2: no via reachable
+fan  GND              C53.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C36.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C47.2: 1.3 mm stub, via 0.5/0.3
+fan  GND              U23.2: no via reachable
+fan  GND              U26.7: no via reachable
+fan  GND              U26.10: no via reachable
+fan  GND              U26.20: 0.8 mm stub, via 0.5/0.3
+fan  GND              C96.2: 1.0 mm stub, via 0.5/0.3
+fan  GND              C101.2: 0.7 mm stub, via 0.5/0.3
+fan  GND              U104.7: 0.0 mm stub, via 0.5/0.3
+fan  GND              C19.2: nearest via needs 2.3 mm, not fanned out
+fan  GND              C99.2: 0.0 mm stub, via 0.5/0.3
+fan  GND              C11.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C38.1: 0.0 mm stub, via 0.5/0.3
+fan  GND              C98.2: 0.0 mm stub, via 0.5/0.3
+     FANOUT:GND       50 vias, 21 pads skipped, 2.3 s
+fan  5V               U28.16: 0.1 mm stub, via 0.5/0.3
+fan  5V               U101.14: 0.4 mm stub, via 0.5/0.3
+fan  5V               C52.1: 0.2 mm stub, via 0.5/0.3
+fan  5V               C22.1: nearest via needs 1.9 mm, not fanned out
+fan  5V               U103.14: 0.1 mm stub, via 0.5/0.3
+fan  5V               U14.5: 0.1 mm stub, via 0.5/0.3
+fan  5V               C104.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C91.2: 0.0 mm stub, via 0.5/0.3
+fan  5V               C92.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               U105.14: 0.5 mm stub, via 0.5/0.3
+fan  5V               C12.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C26.1: 1.0 mm stub, via 0.5/0.3
+fan  5V               U102.14: 0.2 mm stub, via 0.5/0.3
+fan  5V               U106.14: 0.0 mm stub, via 0.5/0.3
+fan  5V               C24.1: no via reachable
+fan  5V               U5.5: no via reachable
+fan  5V               C29.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               U21.5: 0.1 mm stub, via 0.5/0.3
+fan  5V               U4.5: 1.0 mm stub, via 0.5/0.3
+fan  5V               C23.1: 0.4 mm stub, via 0.5/0.3
+fan  5V               U2.5: 0.5 mm stub, via 0.5/0.3
+fan  5V               C54.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C95.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C97.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               C58.1: 0.0 mm stub, via 0.5/0.3
+fan  5V               U26.17: no via reachable
+fan  5V               C96.1: 0.8 mm stub, via 0.5/0.3
+fan  5V               U104.14: 0.1 mm stub, via 0.5/0.3
+     FANOUT:5V        24 vias, 4 pads skipped, 0.5 s
+rip  analog_5V        ripped and re-routed 0A_hi, Voltage_err_1, Net-(U3-In-), Net-(U103B-Y)
+     ok   Voltage_err_1      2.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.2
+     ok   Voltage_err_1     13.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 11.6
+     ok   Net-(U3-In-)       0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(U3-In-)       8.2 mm, 0 via(s), w 0.20, gap 6.9
+     ok   Net-(U103B-Y)     37.5 mm, 4 via(s) 0.5/0.3, w 0.20, gap 33.2
+     ok   0A_hi             11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+     ok   0A_hi             28.2 mm, 4 via(s) 0.5/0.3, w 0.20, gap 21.3
+ok   analog_5V          4.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 2.1
+ok   analog_5V          5.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 3.2
+ok   analog_5V          6.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.3
+ok   analog_5V          4.6 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.9
+ok   analog_5V          8.7 mm, 1 via(s) 0.5/0.3, w 0.40, gap 4.9
+ok   analog_5V         10.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 5.0
+ok   analog_5V         41.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 8.9
+ok   analog_5V          6.2 mm, 0 via(s), w 0.40, gap 4.5
+ok   analog_5V         30.7 mm, 0 via(s), w 0.40, gap 8.4
+     analog_5V        done in 6.1 s
+ok   12V               21.4 mm, 1 via(s) 0.5/0.3, w 0.40, gap 15.7
+     12V              done in 0.2 s
+ok   Net-(U106A-B)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U106A-B)     86.7 mm, 3 via(s) 0.5/0.3, w 0.20, gap 12.3
+ok   Net-(U106A-B)      5.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 4.4
+     Net-(U106A-B)    done in 1.1 s
+ok   .1Vref_2           1.2 mm, 0 via(s), w 0.20, gap 0.9
+ok   .1Vref_2          14.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.3
+ok   .1Vref_2          25.6 mm, 1 via(s) 0.5/0.3, w 0.15, gap 21.7
+     .1Vref_2         done in 0.9 s
+ok   IREF2_input       73.3 mm, 4 via(s) 0.5/0.3, w 0.15, gap 22.0
+     IREF2_input      done in 1.6 s
+rip  IREF3_input      ripped Net-(U26C-P2B), SDA, but Net-(U26C-P2B) then failed; undone
+rip  IREF3_input      ripped and re-routed Net-(U26C-P2B), Vref_1_arduino, Net-(U106A-B), SDA, Net-(D24-+), 0A_hi, analog_5V, Net-(Q1-E)
+     ok   Net-(Q1-E)         0.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(Q1-E)         3.9 mm, 0 via(s), w 0.20, gap 2.3
+     ok   Net-(Q1-E)        20.3 mm, 0 via(s), w 0.20, gap 14.0
+     ok   Net-(U26C-P2B)     5.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 0.4
+     ok   Net-(U26C-P2B)     0.9 mm, 0 via(s), w 0.20, gap 0.7
+     ok   Net-(U26C-P2B)    21.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 9.5
+     ok   Net-(D24-+)        3.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+     ok   Net-(D24-+)       59.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 45.1
+     ok   0A_hi             11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+     ok   0A_hi             23.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 21.3
+     ok   SDA               74.0 mm, 4 via(s) 0.5/0.3, w 0.20, gap 11.1
+     ok   Vref_1_arduino     6.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.8
+     ok   analog_5V          1.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 1.0
+     ok   analog_5V          4.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 2.1
+     ok   analog_5V          5.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 3.2
+     ok   analog_5V          6.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.3
+     ok   analog_5V          4.6 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.9
+     ok   analog_5V          8.7 mm, 1 via(s) 0.5/0.3, w 0.40, gap 4.9
+     ok   analog_5V         10.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 5.0
+     ok   analog_5V         40.5 mm, 4 via(s) 0.5/0.3, w 0.40, gap 8.9
+     ok   analog_5V          6.8 mm, 1 via(s) 0.5/0.3, w 0.40, gap 4.5
+     ok   analog_5V         31.6 mm, 0 via(s), w 0.40, gap 9.2
+     ok   Net-(U106A-B)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(U106A-B)     86.3 mm, 3 via(s) 0.5/0.3, w 0.15, gap 12.3
+     ok   Net-(U106A-B)     28.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 4.4
+     IREF3_input      done in 10.9 s
+ok   .1Vref_3           1.8 mm, 0 via(s), w 0.20, gap 1.4
+ok   .1Vref_3           1.9 mm, 0 via(s), w 0.20, gap 1.5
+ok   .1Vref_3          53.9 mm, 8 via(s) 0.5/0.3, w 0.15, gap 22.2
+     .1Vref_3         done in 0.5 s
+rip  Net-(D4-+)       ripped Net-(U14-In+), analog_5V, 5V, 0err_hi, but 5V then failed; undone
+rip  Net-(D4-+)       ripped analog_5V, Net-(U14-In+), Net-(Q1-E), .1Vref_3, out_3_on, 0err_hi, 5V, low_error_timeout, but 5V then failed; undone
+rip  Net-(D4-+)       ripped 0err_hi, out_3_on, analog_5V, 5V, Net-(U103B-Y), but Net-(U103B-Y) then failed; undone
+FAIL Net-(D4-+): island 0 (102 cells; D4.2) to island 2 (Q1.1), gap 4.8 mm
+FAIL Net-(D4-+): island 1 (70 cells; R65.1) to island 2 (Q1.1), gap 20.8 mm
+FAIL Net-(D4-+): island 0 (102 cells; D4.2) to island 1 (R65.1), gap 26.1 mm
+     Net-(D4-+)       done in 50.1 s (3 failed)
+rip  .1Vref_1         ripped and re-routed Net-(D26-+), Net-(U106A-B), Output3_drain, Net-(U103B-Y)
+     ok   Net-(D26-+)        2.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.2
+     ok   Net-(D26-+)        4.1 mm, 0 via(s), w 0.20, gap 2.3
+     ok   Net-(D26-+)        6.5 mm, 0 via(s), w 0.20, gap 5.0
+     ok   Output3_drain     11.7 mm, 1 via(s) 0.5/0.3, w 0.15, gap 9.7
+     ok   Net-(U103B-Y)     37.5 mm, 4 via(s) 0.5/0.3, w 0.20, gap 33.2
+     ok   Net-(U106A-B)      0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(U106A-B)    118.3 mm, 6 via(s) 0.5/0.3, w 0.15, gap 12.3
+     ok   Net-(U106A-B)     13.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.3
+rip  .1Vref_1         ripped and re-routed 0A_hi, Voltage_err_1, analog_5V, IREF1_input
+     ok   IREF1_input       16.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 13.5
+     ok   Voltage_err_1      2.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.2
+     ok   Voltage_err_1     18.9 mm, 2 via(s) 0.5/0.3, w 0.15, gap 11.6
+     ok   0A_hi             11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+     ok   0A_hi             24.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 21.3
+     ok   analog_5V          1.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 1.0
+     ok   analog_5V          4.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 2.1
+     ok   analog_5V          5.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 3.2
+     ok   analog_5V          6.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.3
+     ok   analog_5V          4.6 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.9
+     ok   analog_5V          8.7 mm, 1 via(s) 0.5/0.3, w 0.40, gap 4.9
+     ok   analog_5V         10.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 5.0
+     ok   analog_5V         11.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 8.9
+     ok   analog_5V         31.5 mm, 1 via(s) 0.5/0.3, w 0.40, gap 9.1
+     ok   analog_5V         18.2 mm, 0 via(s), w 0.40, gap 11.3
+ok   .1Vref_1           8.8 mm, 0 via(s), w 0.20, gap 7.7
+     .1Vref_1         done in 8.8 s
+ok   Net-(U106C-B)      5.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.1
+ok   Net-(U106C-B)    110.6 mm, 4 via(s) 0.5/0.3, w 0.20, gap 4.8
+ok   Net-(U106C-B)      1.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     Net-(U106C-B)    done in 1.3 s
+ok   Net-(U26A-P0B)     5.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 1.3
+rip  Net-(U26A-P0B)   ripped Net-(U24-In+), analog_5V, Out-, Voltage_err_3, but analog_5V then failed; undone
+rip  Net-(U26A-P0B)   ripped Net-(U24-In+), analog_5V, Net-(D26-+), Out-, Voltage_err_3, Net-(U106B-A), IREF2_input, Net-(D20--), but analog_5V then failed; undone
+rip  Net-(U26A-P0B)   ripped Net-(U24-In+), analog_5V, Voltage_err_3, Net-(U102B-A), but analog_5V then failed; undone
+FAIL Net-(U26A-P0B): island 0 (284 cells; R54.1 C100.1) to island 1 (R29.2), gap 5.6 mm
+ok   Net-(U26A-P0B)    16.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 11.4
+FAIL Net-(U26A-P0B): island 0 (675 cells; R54.1 C100.1 U26.13) to island 1 (R29.2), gap 5.6 mm
+     Net-(U26A-P0B)   done in 34.3 s (2 failed)
+ok   Voltage_err_2      9.1 mm, 2 via(s) 0.5/0.3, w 0.20, gap 4.3
+ok   Voltage_err_2     31.0 mm, 0 via(s), w 0.15, gap 13.6
+     Voltage_err_2    done in 0.3 s
+ok   Vref_1             1.1 mm, 0 via(s), w 0.20, gap 0.9
+rip  Vref_1           ripped and re-routed Net-(Q1-E), 0err_hi, Net-(D24-+), Net-(U106C-B)
+     ok   Net-(Q1-E)         0.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+     ok   Net-(Q1-E)         3.9 mm, 0 via(s), w 0.20, gap 2.3
+     ok   Net-(Q1-E)        20.0 mm, 0 via(s), w 0.20, gap 14.0
+     ok   Net-(D24-+)        3.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+     ok   Net-(D24-+)       59.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 45.1
+     ok   0err_hi            1.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+     ok   0err_hi            5.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.5
+     ok   0err_hi           15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 5.3
+     ok   0err_hi           96.2 mm, 4 via(s) 0.5/0.3, w 0.20, gap 25.8
+     ok   0err_hi           10.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 0.9
+     ok   Net-(U106C-B)      5.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.1
+     ok   Net-(U106C-B)    112.0 mm, 5 via(s) 0.5/0.3, w 0.20, gap 4.8
+     ok   Net-(U106C-B)     10.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.2
+     Vref_1           done in 4.9 s
+ok   Net-(D23-+)        0.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.6
+ok   Net-(D23-+)       22.1 mm, 2 via(s) 0.5/0.3, w 0.15, gap 2.5
+rip  Net-(D23-+)      ripped Net-(Q1-E), Net-(U106A-B), 0err_hi, but Net-(U106A-B) then failed; undone
+rip  Net-(D23-+)      ripped Net-(Q1-E), Net-(U106A-B), 0err_hi, but Net-(U106A-B) then failed; undone
+rip  Net-(D23-+)      ripped Net-(Q1-E), Net-(D24-+), Vref_1_arduino, Net-(U26C-P2B), but Net-(U26C-P2B) then failed; undone
+FAIL Net-(D23-+): island 0 (400 cells; U22.1 D23.2) to island 1 (R90.2 C49.2), gap 11.7 mm
+     Net-(D23-+)      done in 17.9 s (1 failed)
+rip  Vout_2           ripping Out-, ena_out_3, Net-(U102B-A), Net-(U23-In+) did not free a path
+rip  Vout_2           ripped Net-(U18-Q3), Out-, ena_out_3, .1Vref_3, analog_5V, .1Vref_2, Net-(U23-In+), Net-(U102C-A), but Net-(U102C-A) then failed; undone
+rip  Vout_2           ripped Net-(U26A-P0B), Net-(U106C-B), .1Vref_3, IREF2_input, .1Vref_2, Net-(U102B-A), ena_out_3, Out-, but .1Vref_3 then failed; undone
+FAIL Vout_2: island 0 (226 cells; J11.15) to island 1 (R35.2), gap 10.5 mm
+     Vout_2           done in 13.3 s (1 failed)
+rip  Output2_drain    ripping Net-(U24-In+), Out-, .1Vout_3, Voltage_err_3 did not free a path
+rip  Output2_drain    ripping Net-(U102B-A), 0err_hi, Net-(D26-+), Net-(U24-In+), analog_5V, Verr2, Net-(U106A-B), .1Vout_3 did not free a path
+rip  Output2_drain    ripped Net-(U106C-B), Voltage_err_3, Output3_drain, Net-(U26A-P0B), Out-, .1Vout_3, 0err_hi, but Voltage_err_3 then failed; undone
+FAIL Output2_drain: island 0 (228 cells; J11.16) to island 1 (R25.1), gap 13.1 mm
+     Output2_drain    done in 8.3 s (1 failed)
+ok   Net-(U106B-B)      1.4 mm, 0 via(s), w 0.20, gap 1.2
+rip  Net-(U106B-B)    ripping 0err_hi, Net-(D26-+), Net-(U102B-A), Output3_drain did not free a path
+rip  Net-(U106B-B)    ripped Net-(D26-+), 0err_hi, Reset_raw, Net-(U102B-A), .1Vref_3, .1Vout_3, analog_5V, Output3_drain, but Output3_drain then failed; undone
+rip  Net-(U106B-B)    ripped analog_5V, 0err_hi, Net-(D26-+), Voltage_err_3, Out-, Net-(U102B-A), but Net-(U102B-A) then failed; undone
+FAIL Net-(U106B-B): island 1 (342 cells; U106.4 C64.1) to island 2 (R93.1), gap 3.6 mm
+rip  Net-(U106B-B)    ripped ena_out_3, Out-, Net-(U102C-A), Net-(U102B-A), but Net-(U102C-A) then failed; undone
+rip  Net-(U106B-B)    ripped Net-(U18-Q3), ena_out_3, Out-, .1Vref_3, analog_5V, Net-(U102C-A), Net-(U102D-Y), .1Vref_2, but Net-(U102C-A) then failed; undone
+rip  Net-(U106B-B)    ripped Net-(U18-Q3), Voltage_err_3, Net-(U102B-A), Out-, but Voltage_err_3 then failed; undone
+FAIL Net-(U106B-B): island 0 (76 cells; U23.4) to island 1 (U106.4 C64.1), gap 7.4 mm
+FAIL Net-(U106B-B): island 0 (76 cells; U23.4) to island 2 (R93.1), gap 7.9 mm
+     Net-(U106B-B)    done in 21.9 s (3 failed)
+ok   Net-(U106C-A)      3.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 2.5
+rip  Net-(U106C-A)    ripped Voltage_err_2, Net-(U106A-B), Net-(D20--), .1Vref_2, but Net-(U106A-B) then failed; undone
+rip  Net-(U106C-A)    ripped Voltage_err_2, Net-(U106A-B), ena_out_3, analog_5V, Net-(D5--), Net-(D20--), .1Vref_2, Net-(U7-In-), but .1Vref_2 then failed; undone
+rip  Net-(U106C-A)    ripped Net-(U24-In+), Voltage_err_2, IREF2_input, analog_5V, Net-(D5--), Net-(U106A-B), Net-(D20--), Voltage_err_3, ena_out_3, .1Vref_3, Net-(U106C-B), but Voltage_err_3 then failed; undone
+FAIL Net-(U106C-A): island 0 (310 cells; R94.2 R95.1) to island 1 (U106.8), gap 10.9 mm
+     Net-(U106C-A)    done in 18.4 s (1 failed)
+ok   Net-(D25-+)        5.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 2.4
+rip  Net-(D25-+)      ripped Net-(U18-Q3), ena_out_3, Out-, .1Vref_2, but .1Vref_2 then failed; undone
+rip  Net-(D25-+)      ripped ena_out_3, .1Vref_3, Net-(U18-Q3), .1Vref_2, Out-, Net-(U102B-A), Net-(U102C-A), Net-(U106C-A), but Net-(U102C-A) then failed; undone
+rip  Net-(D25-+)      ripped Net-(U18-Q3), analog_5V, Net-(U102C-A), but Net-(U102C-A) then failed; undone
+FAIL Net-(D25-+): island 1 (77 cells; U23.1) to island 2 (D25.2), gap 3.8 mm
+rip  Net-(D25-+)      ripped Net-(U18-Q3), ena_out_3, Out-, .1Vref_2, but .1Vref_2 then failed; undone
+rip  Net-(D25-+)      ripped ena_out_3, .1Vref_3, .1Vref_2, Net-(U18-Q3), Out-, Net-(U102B-A), Net-(U106C-A), Net-(U102C-A), but Net-(U102C-A) then failed; undone
+rip  Net-(D25-+)      ripped Net-(U18-Q3), Net-(U24-In+), .1Vref_3, Net-(U102B-A), but .1Vref_3 then failed; undone
+FAIL Net-(D25-+): island 0 (362 cells; R93.2 C64.2) to island 2 (D25.2), gap 4.9 mm
+FAIL Net-(D25-+): island 0 (362 cells; R93.2 C64.2) to island 1 (U23.1), gap 9.1 mm
+     Net-(D25-+)      done in 25.8 s (3 failed)
+ok   Vref_2             0.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.6
+ok   Vref_2            11.0 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.2
+     Vref_2           done in 0.2 s
+ok   Vref_3             2.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.5
+rip  Vref_3           ripped and re-routed 0A_hi, Net-(U103B-Y), Voltage_err_1, SDA
+     ok   Voltage_err_1      2.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.2
+     ok   Voltage_err_1     18.9 mm, 2 via(s) 0.5/0.3, w 0.15, gap 11.6
+     ok   Net-(U103B-Y)     37.7 mm, 4 via(s) 0.5/0.3, w 0.20, gap 33.2
+     ok   0A_hi             11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.0
+     ok   0A_hi             24.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 21.3
+     ok   SDA               55.0 mm, 3 via(s) 0.5/0.3, w 0.20, gap 11.1
+     Vref_3           done in 3.2 s
+ok   Net-(U13-In-)      0.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.7
+rip  Net-(U13-In-)    ripping ena_out_3, Out-, Net-(U18-Q3), .1Vref_2 did not free a path
+rip  Net-(U13-In-)    ripping ena_out_3, .1Vref_3, Out-, .1Vref_2, Net-(U18-Q3), Net-(U24-In+), analog_5V, Net-(U102C-A) did not free a path
+rip  Net-(U13-In-)    ripped ena_out_3, IREF2_input, .1Vref_2, Net-(U24-In+), Out-, Net-(D25-+), analog_5V, Net-(U18-Q3), but Net-(U24-In+) then failed; undone
+FAIL Net-(U13-In-): island 0 (169 cells; R39.1 R40.2) to island 1 (U13.4), gap 6.6 mm
+     Net-(U13-In-)    done in 6.0 s (1 failed)
+rip  Output1_drain    ripped .1Vref_3, .1Vref_2, Net-(U106C-A), Net-(U102B-A), but .1Vref_2 then failed; undone
+rip  Output1_drain    ripped .1Vref_3, Net-(U18-Q3), .1Vref_2, Reset_raw, 0err_hi, Net-(U26A-P0B), Net-(D25-+), ena_out_3, but Net-(U26A-P0B) then failed; undone
+rip  Output1_drain    ripped .1Vref_2, Net-(U106C-A), but .1Vref_2 then failed; undone
+FAIL Output1_drain: island 0 (222 cells; J11.14) to island 1 (R94.1), gap 6.1 mm
+     Output1_drain    done in 18.3 s (1 failed)
+ok   Net-(U22-In+)      1.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.7
+rip  Net-(U22-In+)    ripped Net-(Q1-E), analog_5V, Net-(U106C-B), Net-(D23-+), but Net-(D23-+) then failed; undone
+rip  Net-(U22-In+)    ripped Net-(Q1-E), analog_5V, Net-(D24-+), Net-(D23-+), Net-(U106C-B), Vref_1_arduino, Net-(U14-In+), Net-(U106A-B), but Net-(D23-+) then failed; undone
+rip  Net-(U22-In+)    ripped Net-(Q1-E), Net-(U106C-B), Vref_1_arduino, Net-(D23-+), analog_5V, but Net-(D23-+) then failed; undone
+FAIL Net-(U22-In+): island 1 (76 cells; U22.3) to island 2 (R89.1), gap 0.9 mm
+ok   Net-(U22-In+)      4.7 mm, 1 via(s) 0.5/0.3, w 0.15, gap 1.7
+FAIL Net-(U22-In+): island 0 (311 cells; C59.1 R44.2 R89.1) to island 1 (U22.3), gap 0.1 mm
+     Net-(U22-In+)    done in 27.0 s (2 failed)
+ok   Verr3              1.1 mm, 0 via(s), w 0.20, gap 0.9
+rip  Verr3            ripped Verr1, 0A_hi, 5V, SDA, but Verr1 then failed; undone
+rip  Verr3            ripped Verr1, 0err_hi, 12V, 0A_hi, SDA, Reset_raw, 5V, Net-(U4-In+), but 0err_hi then failed; undone
+rip  Verr3            ripped Verr1, but Verr1 then failed; undone
+FAIL Verr3: island 1 (170 cells; C10.2 R46.2) to island 2 (U28.1), gap 1.0 mm
+ok   Verr3              1.4 mm, 0 via(s), w 0.20, gap 1.2
+rip  Verr3            ripped Verr1, 0A_hi, 5V, SDA, but Verr1 then failed; undone
+rip  Verr3            ripped Verr1, 0err_hi, 12V, 0A_hi, SDA, Reset_raw, 5V, Net-(U4-In+), but 0err_hi then failed; undone
+rip  Verr3            ripped Verr1, but Verr1 then failed; undone
+FAIL Verr3: island 0 (273 cells; C10.2 R46.2 R45.2) to island 1 (U28.1), gap 1.0 mm
+     Verr3            done in 20.6 s (2 failed)
+ok   Net-(U26B-P1B)     0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(U26B-P1B)     0.9 mm, 0 via(s), w 0.20, gap 0.4
+rip  Net-(U26B-P1B)   ripped SCL, IREF2_input, Reset_raw, analog_5V, but IREF2_input then failed; undone
+rip  Net-(U26B-P1B)   ripped SDA, analog_5V, SCL, IREF2_input, Net-(U103B-Y), Reset_raw, Net-(U101A-Y), Out, but analog_5V then failed; undone
+rip  Net-(U26B-P1B)   ripped and re-routed Reset_raw, SCL, M1_ON
+     ok   Reset_raw         40.5 mm, 2 via(s) 0.5/0.3, w 0.15, gap 22.4
+     ok   M1_ON             11.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.9
+     ok   M1_ON             12.0 mm, 0 via(s), w 0.20, gap 10.4
+     ok   SCL               12.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 8.6
+     Net-(U26B-P1B)   done in 20.1 s
+ok   .1Vout_2           0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   .1Vout_2           1.1 mm, 0 via(s), w 0.20, gap 0.7
+     .1Vout_2         done in 0.1 s
+ok   Net-(U106A-A)      1.0 mm, 0 via(s), w 0.20, gap 0.8
+ok   Net-(U106A-A)      1.0 mm, 0 via(s), w 0.20, gap 0.8
+     Net-(U106A-A)    done in 0.1 s
+rip  Vout_1           ripped Reset_raw, Net-(U26A-P0B), .1Vref_3, Net-(U106C-A), but .1Vref_3 then failed; undone
+rip  Vout_1           ripped Reset_raw, .1Vref_3, Net-(U26A-P0B), .1Vref_2, 0err_hi, Net-(D25-+), Net-(U102B-A), Net-(U106C-B), but Net-(U106C-B) then failed; undone
+rip  Vout_1           ripped .1Vref_2, but .1Vref_2 then failed; undone
+FAIL Vout_1: island 0 (222 cells; J11.13) to island 1 (R9.2), gap 1.7 mm
+     Vout_1           done in 12.8 s (1 failed)
+ok   Vout_3             2.2 mm, 1 via(s) 0.5/0.3, w 0.15, gap 1.6
+     Vout_3           done in 0.2 s
+ok   .1Vout_1           0.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.1
+ok   .1Vout_1           0.7 mm, 0 via(s), w 0.20, gap 0.4
+     .1Vout_1         done in 0.2 s
+ok   Net-(D4--)         0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(D4--)         1.2 mm, 0 via(s), w 0.20, gap 0.6
+     Net-(D4--)       done in 0.1 s
+ok   Net-(D3-+)         0.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.7
+     Net-(D3-+)       done in 0.0 s
+ok   VerrGT0            4.3 mm, 0 via(s), w 0.20, gap 3.2
+ok   VerrGT0           18.0 mm, 3 via(s) 0.5/0.3, w 0.15, gap 5.3
+ok   VerrGT0           23.4 mm, 2 via(s) 0.5/0.3, w 0.20, gap 20.8
+ok   VerrGT0           38.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 24.8
+     VerrGT0          done in 0.8 s
+ok   IREF3              4.2 mm, 0 via(s), w 0.20, gap 3.8
+ok   IREF3             51.5 mm, 2 via(s) 0.5/0.3, w 0.20, gap 27.7
+     IREF3            done in 1.4 s
+ok   IREF1              0.8 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.6
+ok   IREF1             65.8 mm, 3 via(s) 0.5/0.3, w 0.20, gap 26.3
+     IREF1            done in 1.3 s
+ok   ena_out_2         38.7 mm, 5 via(s) 0.5/0.3, w 0.20, gap 11.5
+ok   ena_out_2         19.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 12.5
+     ena_out_2        done in 0.4 s
+rip  IREF2            ripped SDA, analog_5V, 0err_hi, Net-(U26B-P1B), but SDA then failed; undone
+rip  IREF2            ripped SDA, analog_5V, Voltage_err_1, IREF2_input, Reset_raw, Net-(U103B-Y), Net-(U26B-P1B), Net-(U26A-P0B), but Net-(U26A-P0B) then failed; undone
+rip  IREF2            ripped IREF3_input, 0err_hi, Voltage_err_1, .1Vref_1, Net-(U103B-Y), SDA, 0A_hi, Net-(U106C-B), Net-(U26A-P0B), but IREF3_input then failed; undone
+FAIL IREF2: island 0 (134 cells; R30.1) to island 1 (J9.5), gap 9.1 mm
+FAIL IREF2: island 0 (134 cells; R30.1) to island 2 (U106.5), gap 18.6 mm
+FAIL IREF2: island 1 (308 cells; J9.5) to island 2 (U106.5), gap 26.0 mm
+     IREF2            done in 25.5 s (3 failed)
+ok   Net-(D7--)         0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(D7--)        33.6 mm, 0 via(s), w 0.20, gap 28.1
+     Net-(D7--)       done in 0.2 s
+ok   Net-(U103A-A)     29.4 mm, 2 via(s) 0.5/0.3, w 0.15, gap 12.8
+ok   Net-(U103A-A)     20.5 mm, 2 via(s) 0.5/0.3, w 0.15, gap 8.3
+     Net-(U103A-A)    done in 0.6 s
+ok   Net-(U102A-Y)     42.3 mm, 3 via(s) 0.5/0.3, w 0.20, gap 29.9
+     Net-(U102A-Y)    done in 0.2 s
+ok   ARD_M1_INHIBIT     1.0 mm, 0 via(s), w 0.20, gap 0.8
+rip  ARD_M1_INHIBIT   ripped 0err_hi, 5V, out_2_on, low_error_timeout, but 5V then failed; undone
+rip  ARD_M1_INHIBIT   ripped 0err_hi, VerrGT0, Net-(U102A-Y), M2_ON, out_2_on, low_error_timeout, Net-(U106C-B), 5V, but 5V then failed; undone
+rip  ARD_M1_INHIBIT   ripped Net-(U103B-Y), VerrGT0, SCL, 0err_hi, low_error_timeout, 5V, 0A_hi, out_2_on, IREF1_input, SDA, but out_2_on then failed; undone
+FAIL ARD_M1_INHIBIT: island 0 (191 cells; D27.2 R105.1) to island 1 (J9.11), gap 17.4 mm
+     ARD_M1_INHIBIT   done in 49.6 s (1 failed)
+ok   Net-(D20-+)        3.2 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.8
+ok   Net-(D20-+)       14.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.3
+     Net-(D20-+)      done in 0.1 s
+rip  RESET-           ripping VerrGT0, Out, Out-, low_error_timeout did not free a path
+rip  RESET-           ripping Out, VerrGT0, Out-, M1_ON, low_error_timeout, SCL, Net-(U101A-Y), .1Vref_3 did not free a path
+rip  RESET-           ripped Out, out_3_on, Reset_raw, Net-(U26B-P1B), SCL, low_error_timeout, but out_3_on then failed; undone
+FAIL RESET-: island 0 (112 cells; U101.12) to island 1 (U101.6), gap 4.6 mm
+     RESET-           done in 6.8 s (1 failed)
+ok   Net-(D5-+)         5.0 mm, 2 via(s) 0.5/0.3, w 0.20, gap 1.0
+ok   Net-(D5-+)         2.6 mm, 1 via(s) 0.5/0.3, w 0.20, gap 2.3
+     Net-(D5-+)       done in 0.1 s
+ok   Vref_3_arduino     4.8 mm, 0 via(s), w 0.20, gap 4.6
+     Vref_3_arduino   done in 0.1 s
+ok   Vref_2_arduino     4.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.0
+     Vref_2_arduino   done in 0.1 s
+ok   Net-(C8-Pad2)      1.4 mm, 0 via(s), w 0.20, gap 0.9
+rip  Net-(C8-Pad2)    ripped 5V, Net-(U103A-A), Voltage_err_2, Net-(U106A-B), but 5V then failed; undone
+rip  Net-(C8-Pad2)    ripped Net-(U106A-B), 5V, IREF3, Net-(D5-+), Voltage_err_2, Net-(U103A-A), VerrGT0, Net-(U106C-B), but Voltage_err_2 then failed; undone
+rip  Net-(C8-Pad2)    ripped and re-routed Voltage_err_2, IREF3, Net-(U103A-A)
+     ok   Voltage_err_2      8.8 mm, 2 via(s) 0.5/0.3, w 0.20, gap 4.3
+     ok   Voltage_err_2     30.8 mm, 2 via(s) 0.5/0.3, w 0.15, gap 13.6
+     ok   IREF3              4.2 mm, 0 via(s), w 0.20, gap 3.8
+     ok   IREF3             51.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 27.7
+     ok   Net-(U103A-A)     29.4 mm, 2 via(s) 0.5/0.3, w 0.15, gap 12.8
+     ok   Net-(U103A-A)     20.5 mm, 2 via(s) 0.5/0.3, w 0.15, gap 8.3
+     Net-(C8-Pad2)    done in 29.2 s
+ok   Net-(D7-+)         0.9 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(D7-+)         1.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.9
+     Net-(D7-+)       done in 0.1 s
+rip  Net-(U26E-HVC{slash}A0) ripped and re-routed analog_5V, SCL, Net-(U101A-Y), .1Vref_3
+     ok   SCL                9.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 8.6
+     ok   Net-(U101A-Y)      1.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.4
+     ok   analog_5V          1.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 1.0
+     ok   analog_5V          4.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 2.1
+     ok   analog_5V          5.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 3.2
+     ok   analog_5V          6.7 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.3
+     ok   analog_5V          4.6 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.9
+     ok   analog_5V          8.7 mm, 1 via(s) 0.5/0.3, w 0.40, gap 4.9
+     ok   analog_5V         10.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 5.0
+     ok   analog_5V         11.1 mm, 1 via(s) 0.5/0.3, w 0.40, gap 8.9
+     ok   analog_5V         33.0 mm, 3 via(s) 0.5/0.3, w 0.40, gap 9.1
+     ok   analog_5V         16.8 mm, 0 via(s), w 0.40, gap 11.3
+     ok   .1Vref_3           1.8 mm, 0 via(s), w 0.20, gap 1.4
+     ok   .1Vref_3           1.9 mm, 0 via(s), w 0.20, gap 1.5
+     ok   .1Vref_3          53.9 mm, 8 via(s) 0.5/0.3, w 0.15, gap 22.2
+     Net-(U26E-HVC{slash}A0) done in 4.2 s
+ok   Net-(U26E-A1)      6.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.4
+     Net-(U26E-A1)    done in 0.1 s
+rip  Net-(U26E-~{RESET}) ripped Net-(U26C-P2B), 0A_hi, Net-(U26A-P0B), 0err_hi, but Net-(U26C-P2B) then failed; undone
+rip  Net-(U26E-~{RESET}) ripped 0A_hi, Net-(U26C-P2B), SCL, 0err_hi, Net-(U26E-A1), Vref_3, analog_5V, Net-(U26A-P0B), but SCL then failed; undone
+rip  Net-(U26E-~{RESET}) ripped 0err_hi, Net-(U26E-A1), IREF3_input, Net-(U26C-P2B), but IREF3_input then failed; undone
+FAIL Net-(U26E-~{RESET}): island 0 (74 cells; R103.2) to island 1 (U26.15), gap 2.7 mm
+     Net-(U26E-~{RESET}) done in 11.6 s (1 failed)
+ok   Net-(C17-Pad2)     1.0 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(C17-Pad2)     0.9 mm, 0 via(s), w 0.20, gap 0.7
+     Net-(C17-Pad2)   done in 0.1 s
+ok   set-               0.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+rip  set-             ripped and re-routed Out, low_error_timeout, M1_ON, Reset_raw
+     ok   Reset_raw         40.5 mm, 2 via(s) 0.5/0.3, w 0.15, gap 22.4
+     ok   low_error_timeout   1.1 mm, 0 via(s), w 0.20, gap 0.8
+     ok   low_error_timeout   3.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 2.1
+     ok   low_error_timeout  15.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 13.1
+     ok   low_error_timeout  15.4 mm, 3 via(s) 0.5/0.3, w 0.20, gap 13.3
+     ok   M1_ON             11.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 8.9
+     ok   M1_ON             12.0 mm, 0 via(s), w 0.20, gap 10.4
+     ok   Out                7.9 mm, 2 via(s) 0.5/0.3, w 0.15, gap 5.8
+     set-             done in 2.7 s
+ok   Net-(C9-Pad2)      0.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.0
+ok   Net-(C9-Pad2)      0.7 mm, 0 via(s), w 0.20, gap 0.2
+     Net-(C9-Pad2)    done in 0.1 s
+ok   5V                 1.0 mm, 0 via(s), w 0.40, gap 0.0
+ok   5V                 1.0 mm, 1 via(s) 0.5/0.3, w 0.40, gap 0.0
+ok   5V                 0.4 mm, 1 via(s) 0.5/0.3, w 0.40, gap 0.0
+ok   5V                 0.3 mm, 1 via(s) 0.5/0.3, w 0.40, gap 0.0
+ok   5V                 1.4 mm, 0 via(s), w 0.40, gap 0.0
+rip  5V               ripped Net-(U26C-P2B), Net-(U26E-A1), SCL, IREF3_input, but IREF3_input then failed; undone
+rip  5V               ripped Net-(U26C-P2B), 0A_hi, Net-(U26E-A1), Vref_3, analog_5V, 0err_hi, SCL, Net-(U26A-P0B), but Net-(U26A-P0B) then failed; undone
+rip  5V               ripped Net-(U26C-P2B), Net-(U26E-A1), 0err_hi, IREF3_input, but IREF3_input then failed; undone
+FAIL 5V: island 0 (167572 cells; U28.16 U101.14 C52.1 R82.1 +32) to island 1 (U26.17), gap 0.0 mm
+ok   5V                 3.2 mm, 0 via(s), w 0.30, gap 0.0
+ok   5V                 0.8 mm, 0 via(s), w 0.40, gap 0.0
+FAIL 5V: island 0 (167572 cells; U28.16 U101.14 C52.1 R82.1 +34) to island 2 (C24.1 U5.5), gap 0.0 mm
+FAIL 5V: island 0 (167572 cells; U28.16 U101.14 C52.1 R82.1 +34) to island 3 (R17.2), gap 0.0 mm
+FAIL 5V: island 2 (183 cells; C24.1 U5.5) to island 3 (R17.2), gap 5.2 mm
+FAIL 5V: island 1 (59 cells; U26.17) to island 2 (C24.1 U5.5), gap 21.4 mm
+FAIL 5V: island 1 (59 cells; U26.17) to island 3 (R17.2), gap 25.8 mm
+     5V               done in 35.7 s (6 failed)
+     GND              done in 0.0 s
+tracks 2496, vias 306, failures 35, 579 s

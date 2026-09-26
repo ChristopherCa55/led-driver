@@ -1,0 +1,23 @@
+2026-09-23 12:22:25.259 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-23 12:22:26.962 INFO   [A63FF1\794F57] Loading board file 'c3.dsn'...
+2026-09-23 12:22:27.125 INFO   Layer 'In1.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 12:22:27.126 INFO   Layer 'In3.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 12:22:27.126 INFO   Layer 'In4.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 12:22:27.126 INFO   Layer 'In6.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-23 12:22:27.167 INFO   [A63FF1\794F57] Job 'A63FF1\794F57' started at 2026-09-23T19:22:27.166401600Z.
+2026-09-23 12:22:27.393 INFO   [A63FF1\794F57] Fanout stage started on board '7357d9f18028a377ea7653c12f024b90' with 444 of 472 SMD pins needing fanout (28 already connected, 0 netless).
+2026-09-23 12:23:02.646 INFO   [A63FF1\794F57] Fanout pass #1 on board 'ec041c2301100f25013512331828c135' completed in 35.19 seconds with 291 SMD pins fanouted, 152 not routed, 0 insert errors, +44 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-23 12:23:24.810 INFO   [A63FF1\794F57] Fanout pass #2 on board '870a64c390f5562d3a25c1773e2af255' completed in 22.14 seconds with 104 SMD pins fanouted, 157 not routed, 0 insert errors, +8 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-23 12:23:42.734 INFO   [A63FF1\794F57] Fanout pass #3 on board '565b558c7770cbae1ca358c88be21d16' completed in 17.90 seconds with 76 SMD pins fanouted, 161 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-09-23 12:24:00.728 INFO   [A63FF1\794F57] Fanout pass #4 on board 'd551bf234739de3367a9fe7692a98863' completed in 17.97 seconds with 73 SMD pins fanouted, 162 not routed, 0 insert errors, +2 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-09-23 12:24:18.684 INFO   [A63FF1\794F57] Fanout pass #5 on board '0b5d6e128e46740f5aff72affdf4d24d' completed in 17.93 seconds with 70 SMD pins fanouted, 162 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-09-23 12:24:36.439 INFO   [A63FF1\794F57] Fanout pass #6 on board '8525d7792261c7956d68be68030e7b21' completed in 17.73 seconds with 70 SMD pins fanouted, 162 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=600).
+2026-09-23 12:24:54.452 INFO   [A63FF1\794F57] Fanout pass #7 on board 'ea1c55430bb8d28e11bcd4a5e923029c' completed in 17.99 seconds with 70 SMD pins fanouted, 162 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=700).
+2026-09-23 12:25:12.388 INFO   [A63FF1\794F57] Fanout pass #8 on board '8bcee46fbb3505d3b6e0a0ff4ca04b9e' completed in 17.91 seconds with 70 SMD pins fanouted, 162 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=800).
+2026-09-23 12:25:12.389 INFO   Fanout stopped after 8 passes: no progress for 3 consecutive passes.
+2026-09-23 12:25:13.120 INFO   [A63FF1\794F57] Fanout stage completed: started with 472 total SMD pins, completed in 165.68 seconds, escaped pins: 259/472 (54.9%), using 158.19 total CPU seconds, 652.49 GB total allocated, and 421.6 MB peak heap usage.
+2026-09-23 12:25:13.166 INFO   [A63FF1\794F57] Auto-routing stage started on board '8bcee46fbb3505d3b6e0a0ff4ca04b9e' for 210 unrouted items.
+
+real	3m43.777s
+user	0m0.000s
+sys	0m0.045s

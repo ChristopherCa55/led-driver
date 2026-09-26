@@ -1,0 +1,178 @@
+board rasterised in 4.7 s
+ok   SNS_CH1            6.8 mm, 0 via(s), w 0.20, gap 5.4
+     SNS_CH1          done in 0.2 s
+     SNS_CH1          done in 0.2 s
+ok   SNS_CH2            7.6 mm, 0 via(s), w 0.20, gap 7.1
+     SNS_CH2          done in 0.2 s
+     SNS_CH2          done in 0.2 s
+ok   SNS_CH3           15.2 mm, 0 via(s), w 0.20, gap 10.9
+     SNS_CH3          done in 0.2 s
+     SNS_CH3          done in 0.2 s
+ok   ISNS_P             9.4 mm, 0 via(s), w 0.20, gap 7.7
+     ISNS_P           done in 0.2 s
+     ISNS_P           done in 0.2 s
+ok   ISNS_N            27.5 mm, 0 via(s), w 0.20, gap 7.4
+     ISNS_N           done in 0.2 s
+ok   m2_source          7.0 mm, 0 via(s), w 1.00, gap 6.0
+ok   m2_source         15.1 mm, 1 via(s) 0.8/0.4, w 1.00, gap 6.9
+     m2_source        done in 15.6 s (4 failed)
+ok   m3_source          7.4 mm, 0 via(s), w 1.00, gap 5.3
+ok   m3_source         27.8 mm, 2 via(s) 0.8/0.4, w 1.00, gap 9.4
+     m3_source        done in 17.0 s (4 failed)
+ok   m4_source          5.5 mm, 0 via(s), w 1.00, gap 4.5
+ok   m4_source         36.9 mm, 2 via(s) 0.8/0.4, w 1.00, gap 5.6
+     m4_source        done in 2.6 s
+fan  GND              U15.4: no via reachable
+fan  GND              U15.5: no via reachable
+     FANOUT:GND       0 vias, 5 pads skipped, 0.3 s
+     FANOUT:GND       0 vias, 5 pads skipped, 0.3 s
+ok   Net-(U19-OUTA)     1.5 mm, 0 via(s), w 0.20, gap 1.1
+     Net-(U19-OUTA)   done in 0.1 s
+ok   GATE_M1            1.3 mm, 0 via(s), w 0.50, gap 1.0
+ok   GATE_M1            1.2 mm, 0 via(s), w 0.50, gap 0.9
+     GATE_M1          done in 0.4 s
+     GATE_M1          done in 0.4 s
+ok   Net-(U19-OUTB)     1.4 mm, 0 via(s), w 0.20, gap 1.0
+     Net-(U19-OUTB)   done in 0.1 s
+rip  Net-(D2--)       ripped m2_source, but m2_source then failed; undone
+FAIL Net-(D2--): island 0 (149 cells; U15.10) to island 2 (D2.1), gap 8.5 mm
+     Net-(D2--)       done in 49.1 s (3 failed)
+rip  GATE_M7          ripping m2_source did not free a path
+FAIL GATE_M7: island 0 (863 cells; M7.1 R60.2 D2.2) to island 1 (R76.2), gap 2.9 mm
+     GATE_M7          done in 15.0 s (1 failed)
+rip  Net-(D11--)      ripped m2_source, but m2_source then failed; undone
+FAIL Net-(D11--): island 1 (147 cells; U15.15) to island 2 (D11.1), gap 16.5 mm
+     Net-(D11--)      done in 37.2 s (3 failed)
+ok   GATE_M2           11.0 mm, 1 via(s) 0.6/0.3, w 0.50, gap 3.2
+ok   GATE_M2            4.9 mm, 0 via(s), w 0.50, gap 3.4
+     GATE_M2          done in 0.8 s
+ok   Net-(D8--)         4.3 mm, 0 via(s), w 0.20, gap 3.7
+ok   Net-(D8--)         9.1 mm, 0 via(s), w 0.20, gap 8.1
+     Net-(D8--)       done in 0.4 s
+ok   GATE_M6           20.3 mm, 1 via(s) 0.6/0.3, w 0.50, gap 1.0
+ok   GATE_M6            2.8 mm, 0 via(s), w 0.50, gap 1.2
+     GATE_M6          done in 0.7 s
+ok   Net-(D14--)        2.0 mm, 0 via(s), w 0.20, gap 1.6
+ok   Net-(D14--)       23.6 mm, 2 via(s) 0.6/0.3, w 0.20, gap 15.3
+     Net-(D14--)      done in 0.4 s
+ok   GATE_M3            1.2 mm, 0 via(s), w 0.50, gap 1.0
+ok   GATE_M3           15.8 mm, 1 via(s) 0.6/0.3, w 0.50, gap 3.1
+     GATE_M3          done in 0.5 s
+ok   Net-(D22--)        2.6 mm, 0 via(s), w 0.20, gap 2.3
+ok   Net-(D22--)       12.2 mm, 1 via(s) 0.6/0.3, w 0.20, gap 6.6
+     Net-(D22--)      done in 0.5 s
+ok   GATE_M5            1.3 mm, 0 via(s), w 0.50, gap 1.0
+ok   GATE_M5            1.3 mm, 0 via(s), w 0.50, gap 1.1
+     GATE_M5          done in 0.7 s
+ok   Net-(D13--)        4.7 mm, 0 via(s), w 0.20, gap 4.2
+ok   Net-(D13--)       30.3 mm, 4 via(s) 0.6/0.3, w 0.20, gap 13.2
+     Net-(D13--)      done in 0.5 s
+ok   GATE_M4            1.1 mm, 0 via(s), w 0.50, gap 0.9
+ok   GATE_M4           44.4 mm, 3 via(s) 0.6/0.3, w 0.30, gap 7.8
+     GATE_M4          done in 7.1 s
+     GATE_M4          done in 7.1 s
+ok   Net-(U11-OUT)      2.1 mm, 0 via(s), w 0.20, gap 1.6
+     Net-(U11-OUT)    done in 0.2 s
+     Net-(U11-OUT)    done in 0.2 s
+ok   Net-(M10-G)        1.4 mm, 0 via(s), w 0.20, gap 1.0
+     Net-(M10-G)      done in 0.2 s
+     Net-(M10-G)      done in 0.2 s
+ok   Net-(U12-OUT)     12.6 mm, 0 via(s), w 0.20, gap 10.5
+     Net-(U12-OUT)    done in 0.2 s
+     Net-(U12-OUT)    done in 0.2 s
+ok   Net-(M9-G)         1.1 mm, 0 via(s), w 0.20, gap 0.9
+     Net-(M9-G)       done in 0.2 s
+     Net-(M9-G)       done in 0.2 s
+ok   Net-(U6-OUT)      25.9 mm, 2 via(s) 0.6/0.3, w 0.20, gap 16.2
+     Net-(U6-OUT)     done in 0.3 s
+     Net-(U6-OUT)     done in 0.3 s
+ok   Net-(M8-G)         1.0 mm, 0 via(s), w 0.20, gap 0.8
+     Net-(M8-G)       done in 0.2 s
+     Net-(M8-G)       done in 0.2 s
+ok   Net-(D10--)      101.5 mm, 2 via(s) 0.6/0.3, w 0.20, gap 26.6
+     Net-(D10--)      done in 3.4 s
+     Net-(D10--)      done in 3.4 s
+ok   Net-(D21--)       93.4 mm, 3 via(s) 0.6/0.3, w 0.20, gap 20.5
+     Net-(D21--)      done in 3.2 s
+     Net-(D21--)      done in 3.2 s
+ok   Net-(D9--)        30.5 mm, 0 via(s), w 0.20, gap 24.8
+     Net-(D9--)       done in 0.4 s
+rip  Net-(U15-VDDA)   ripped m2_source, but m2_source then failed; undone
+FAIL Net-(U15-VDDA): island 0 (1996 cells; U15.11 C18.1 R21.2) to island 1 (C51.1 U15.16), gap 4.7 mm
+     Net-(U15-VDDA)   done in 88.5 s (3 failed)
+FAIL Net-(U10-VDDA): island 0 (623 cells; C16.1 U10.16 C50.1) to island 1 (U10.11), gap 5.6 mm
+ok   Net-(U10-VDDA)    30.0 mm, 2 via(s) 0.6/0.3, w 0.20, gap 12.6
+     Net-(U10-VDDA)   done in 35.3 s (1 failed)
+ok   Net-(U8-VDDA)      6.2 mm, 2 via(s) 0.6/0.3, w 0.20, gap 5.4
+ok   Net-(U8-VDDA)     11.4 mm, 2 via(s) 0.6/0.3, w 0.20, gap 5.6
+     Net-(U8-VDDA)    done in 1.3 s
+ok   IREF1_input        5.2 mm, 0 via(s), w 0.20, gap 2.9
+ok   IREF1_input       19.3 mm, 1 via(s) 0.6/0.3, w 0.20, gap 15.8
+     IREF1_input      done in 0.6 s
+ok   IREF2_input        1.2 mm, 0 via(s), w 0.20, gap 0.9
+ok   IREF2_input       31.1 mm, 2 via(s) 0.6/0.3, w 0.20, gap 24.9
+     IREF2_input      done in 0.8 s
+rip  IREF3_input      ripped SNS_CH3, Net-(U6-OUT), but SNS_CH3 then failed; undone
+FAIL IREF3_input: island 0 (566 cells; C41.1 J10.30) to island 1 (U6.3), gap 3.7 mm
+     IREF3_input      done in 21.0 s (3 failed)
+     IREF3_input      done in 21.0 s (3 failed)
+ok   Current           86.8 mm, 2 via(s) 0.6/0.3, w 0.20, gap 65.1
+     Current          done in 1.3 s
+     Current          done in 1.3 s
+ok   M1_ON             42.3 mm, 2 via(s) 0.6/0.3, w 0.20, gap 32.6
+     M1_ON            done in 0.8 s
+     M1_ON            done in 0.8 s
+ok   M2_ON             20.6 mm, 1 via(s) 0.6/0.3, w 0.20, gap 17.9
+     M2_ON            done in 0.5 s
+     M2_ON            done in 0.5 s
+ok   ena_out_1         28.2 mm, 1 via(s) 0.6/0.3, w 0.20, gap 22.5
+     ena_out_1        done in 0.7 s
+     ena_out_1        done in 0.7 s
+ok   out_2_on          47.1 mm, 2 via(s) 0.6/0.3, w 0.20, gap 37.3
+     out_2_on         done in 1.1 s
+     out_2_on         done in 1.1 s
+ok   ena_out_2         50.6 mm, 2 via(s) 0.6/0.3, w 0.20, gap 40.1
+     ena_out_2        done in 1.2 s
+     ena_out_2        done in 1.2 s
+ok   out_3_on          29.8 mm, 0 via(s), w 0.20, gap 26.0
+     out_3_on         done in 0.9 s
+     out_3_on         done in 0.9 s
+ok   ena_out_3         29.7 mm, 1 via(s) 0.6/0.3, w 0.20, gap 21.6
+     ena_out_3        done in 0.8 s
+     ok   Net-(U19-OUTB)     1.4 mm, 0 via(s), w 0.20, gap 1.0
+     ok   Current           86.6 mm, 2 via(s) 0.6/0.3, w 0.20, gap 65.1
+     analog_5V        done in 45.3 s (1 failed)
+rip  12V              ripping Net-(U19-OUTA) did not free a path
+FAIL 12V: island 2 (5289 cells; J10.19 U16.3 D9.2) to island 3 (U19.16), gap 28.0 mm
+     12V              done in 208.2 s (13 failed)
+rip  5V               ripping Net-(D8--), out_2_on, GATE_M6, ena_out_2 did not free a path
+FAIL 5V: island 1 (551 cells; U19.6 U19.8) to island 4 (C48.1 C90.1), gap 24.0 mm
+     5V               done in 405.6 s (13 failed)
+     5V               done in 405.6 s (13 failed)
+FAIL LX: island 0 (166 cells; R14.1) to island 1 (L1.1 M7.2 M1.2 D19.1 +2), gap 2.0 mm
+     LX               done in 6.9 s (1 failed)
+rip  Vin              ripping Net-(U15-VDDA) did not free a path
+FAIL Vin: island 1 (96 cells; C84.1) to island 2 (U17.3 U1.3), gap 32.7 mm
+     Vin              done in 85.2 s (3 failed)
+     Vin              done in 85.2 s (3 failed)
+ok   Vout_1             1.8 mm, 0 via(s), w 1.00, gap 1.3
+     Vout_1           done in 2.9 s
+     Vout_1           done in 2.9 s
+ok   Vout_2            65.8 mm, 0 via(s), w 1.00, gap 13.1
+     Vout_2           done in 2.9 s
+     Vout_2           done in 2.9 s
+ok   Vout_3             6.1 mm, 0 via(s), w 1.00, gap 4.7
+     Vout_3           done in 1.6 s
+     Vout_3           done in 1.6 s
+ok   Output1_drain     17.4 mm, 0 via(s), w 1.00, gap 14.8
+     Output1_drain    done in 1.0 s
+     Output1_drain    done in 1.0 s
+ok   Output2_drain     25.8 mm, 1 via(s) 0.8/0.4, w 1.00, gap 22.9
+     Output2_drain    done in 1.3 s
+     Output2_drain    done in 1.3 s
+ok   Output3_drain      8.2 mm, 0 via(s), w 1.00, gap 7.6
+     Output3_drain    done in 0.6 s
+ok   Output3_drain      8.2 mm, 0 via(s), w 1.00, gap 7.6
+     Output3_drain    done in 0.6 s
+     GND              done in 0.0 s
+tracks 1835, vias 85, failures 53, 1080 s

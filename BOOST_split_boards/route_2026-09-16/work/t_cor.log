@@ -1,0 +1,43 @@
+board rasterised in 4.7 s
+ok   SNS_CH1            7.0 mm, 0 via(s), w 0.20, gap 5.4
+     SNS_CH1          done in 0.2 s
+     SNS_CH1          done in 0.2 s
+ok   SNS_CH2            7.7 mm, 0 via(s), w 0.20, gap 7.1
+     SNS_CH2          done in 0.2 s
+     SNS_CH2          done in 0.2 s
+ok   SNS_CH3           12.3 mm, 2 via(s) 0.6/0.3, w 0.20, gap 10.9
+     SNS_CH3          done in 0.2 s
+     SNS_CH3          done in 0.2 s
+ok   ISNS_P             9.4 mm, 0 via(s), w 0.20, gap 7.7
+     ISNS_P           done in 0.2 s
+     ISNS_P           done in 0.2 s
+ok   ISNS_N             9.1 mm, 2 via(s) 0.6/0.3, w 0.20, gap 7.4
+     ISNS_N           done in 0.2 s
+     ISNS_N           done in 0.2 s
+ok   Net-(U19-OUTA)     1.5 mm, 0 via(s), w 0.20, gap 1.1
+     Net-(U19-OUTA)   done in 0.1 s
+ok   GATE_M1            1.3 mm, 0 via(s), w 0.30, gap 1.0
+ok   GATE_M1            1.2 mm, 0 via(s), w 0.30, gap 1.0
+     GATE_M1          done in 0.4 s (direct)
+byp  5V               C62.2 -> U15.3: 1.4 mm, 0 via(s), w 0.40
+byp  GND              C62.1 -> U15.4: 1.1 mm, 2 via(s), w 0.50 beside 5V
+     BYPASS           8.0 s
+loop Net-(D2--)       U15.10 -> R60.1: 16.2 mm, 2 via(s), w 0.20 beside m2_source
+ok   Net-(D2--)         4.7 mm, 2 via(s) 0.6/0.3, w 0.20, gap 1.2
+     GATELOOP:M7      done in 1.7 s
+loop Net-(D22--)      U8.10 -> R59.2: 14.3 mm, 1 via(s), w 0.20 beside m4_source
+ok   Net-(D22--)        2.3 mm, 1 via(s) 0.6/0.3, w 0.20, gap 1.0
+     GATELOOP:M5      done in 8.5 s
+loop Net-(D8--)       U10.10 -> R70.1: 31.4 mm, 0 via(s), w 0.20 beside m3_source
+ok   Net-(D8--)        10.8 mm, 0 via(s), w 0.20, gap 3.7
+     GATELOOP:M6      done in 1.7 s
+loop Net-(D11--)      U15.15 -> D11.1: 43.1 mm, 2 via(s), w 0.20 beside m2_source
+ok   Net-(D11--)        1.0 mm, 1 via(s) 0.6/0.3, w 0.20, gap 0.6
+     GATELOOP:M2      done in 2.3 s
+loop Net-(D14--)      U10.15 -> D14.1: 28.6 mm, 2 via(s), w 0.20 beside m3_source
+ok   Net-(D14--)        2.0 mm, 0 via(s), w 0.20, gap 1.5
+     GATELOOP:M3      done in 1.5 s
+loop Net-(D13--)      U8.15 -> D13.1: 4.9 mm, 0 via(s), w 0.20 beside m4_source
+ok   Net-(D13--)       27.9 mm, 0 via(s), w 0.20, gap 13.2
+     GATELOOP:M4      done in 8.1 s
+tracks 475, vias 31, failures 0, 38 s

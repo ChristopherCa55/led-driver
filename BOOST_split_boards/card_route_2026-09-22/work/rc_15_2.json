@@ -1,0 +1,46 @@
+{
+ "board": "work/sig_15_2.kicad_pcb",
+ "layer_violations": [],
+ "vias": 322,
+ "min_via_drill": 0.3,
+ "via_in_pad": 98,
+ "track_mm_by_layer": {
+  "B.Cu": 561.1,
+  "F.Cu": 563.9,
+  "In2.Cu": 685.9,
+  "In3.Cu": 11.4,
+  "In5.Cu": 537.4
+ },
+ "track_mm_by_layer_class": {
+  "B.Cu 5V": 21.1,
+  "B.Cu GND": 8.9,
+  "B.Cu analog": 247.0,
+  "B.Cu logic": 248.8,
+  "B.Cu rail": 35.3,
+  "F.Cu 5V": 14.1,
+  "F.Cu GND": 11.0,
+  "F.Cu analog": 198.9,
+  "F.Cu logic": 334.9,
+  "F.Cu rail": 4.9,
+  "In2.Cu logic": 685.9,
+  "In3.Cu 5V": 0.5,
+  "In3.Cu rail": 10.9,
+  "In5.Cu analog": 459.3,
+  "In5.Cu rail": 78.1
+ },
+ "gnd_pad_connections": {
+  "J11.1": 2,
+  "J11.2": 2,
+  "J11.11": 2,
+  "J11.12": 2,
+  "J11.20": 2,
+  "J11.21": 2,
+  "J11.24": 2,
+  "J11.25": 2,
+  "J11.28": 2,
+  "J11.29": 2,
+  "J9.10": 1
+ },
+ "gnd_pad_connections_ok": true,
+ "stackup_8_copper": true
+}

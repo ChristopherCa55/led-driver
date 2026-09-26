@@ -1,0 +1,153 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-24T17:43:11",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "BOOST_power_route_v17_NOT_FOR_FAB.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.2500 mm; actual 0.2420 mm)",
+            "items": [
+                {
+                    "description": "Pad 13 [unconnected-(U15-NC-Pad13)] of U15 on B.Cu",
+                    "pos": {
+                        "x": 68.432976,
+                        "y": 55.120708
+                    },
+                    "uuid": "531de0ee-617d-434c-a6e8-619ef162b6e7"
+                },
+                {
+                    "description": "Via [Vout_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 69.9,
+                        "y": 55.0
+                    },
+                    "uuid": "76f71bd9-de99-4eef-8ee2-fe2b9c663895"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2500 mm; actual 0.2423 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [Net-(U15-VDDA)] of U15 on B.Cu",
+                    "pos": {
+                        "x": 68.432976,
+                        "y": 58.930708
+                    },
+                    "uuid": "3fb96e28-0bf6-4cae-bdb4-e74804b6f8ed"
+                },
+                {
+                    "description": "Via [Vout_1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 69.9,
+                        "y": 59.1
+                    },
+                    "uuid": "7d7996a8-1d29-4fb6-8182-356805771c12"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2500 mm; actual 0.2364 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [12V] of U19 on B.Cu",
+                    "pos": {
+                        "x": 73.761381,
+                        "y": 43.205792
+                    },
+                    "uuid": "5a90932f-ac13-41ba-ba5b-92b6e6f5b3a1"
+                },
+                {
+                    "description": "Via [Vin] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 72.25,
+                        "y": 43.25
+                    },
+                    "uuid": "707a5e38-521a-482a-a523-8d4f60167f6d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C87 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.845322,
+                        "y": 82.130166
+                    },
+                    "uuid": "de102786-8cbf-42a3-b7a1-8be012b170b3"
+                },
+                {
+                    "description": "Segment of C71 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815313,
+                        "y": 82.802269
+                    },
+                    "uuid": "e7a5781f-b266-4e6a-86a9-b3cfc06b7d95"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C86 on F.Silkscreen",
+                    "pos": {
+                        "x": 67.890604,
+                        "y": 60.001964
+                    },
+                    "uuid": "6b2b3db1-075b-4080-9dce-15bb2c005fe6"
+                },
+                {
+                    "description": "Segment of C88 on F.Silkscreen",
+                    "pos": {
+                        "x": 68.712571,
+                        "y": 60.094877
+                    },
+                    "uuid": "79aef992-d6fc-4b2f-a196-8b4ede204af9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

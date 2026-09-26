@@ -1,0 +1,33 @@
+{
+ "pre": "work/pre_c3.kicad_pcb",
+ "ses": "work/fr/c3b.ses",
+ "out": "work/fr_c3b_NOT_FOR_FAB.kicad_pcb",
+ "pre_items": 639,
+ "session_items": 1520,
+ "session_items_on_sensitive_nets_removed": {
+  "Net-(U2-In+)": 8,
+  "V_err": 4
+ },
+ "session_items_on_done_nets_removed": {
+  "Net-(U4-In+)": 12,
+  "Net-(U106C-B)": 11,
+  "Net-(C8-Pad2)": 8,
+  "Net-(U14-In+)": 9,
+  "Net-(U21-In-)": 7,
+  "0err_hi": 16,
+  "Net-(U21-In+)": 13,
+  "Net-(D24-+)": 7,
+  "Reset_raw": 2,
+  "0A_hi": 11,
+  "Net-(Q1-E)": 11,
+  "Verr2": 11,
+  "Verr1": 12,
+  "Verr3": 12
+ },
+ "pre_items_readded": 639,
+ "pre_items_already_in_session": 0,
+ "net_flips": [],
+ "net_flips_unsettled": false,
+ "sensitive_identical_to_pre": true,
+ "sensitive_items": 50
+}

@@ -1,0 +1,244 @@
+exported 133 nets, 41 barrels, 513 pads
+added 2202 tracks, 322 vias -> work/sig_mix_1.kicad_pcb
+{('via_dangling', 'warning'): 12, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 32
+exported 133 nets, 363 barrels, 513 pads
+tracks 2306, vias 335, failures 31, 792 s
+added 2306 tracks, 335 vias -> work/sig_mix_2.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('via_dangling', 'warning'): 12, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 28
+exported 133 nets, 376 barrels, 513 pads
+tracks 2428, vias 343, failures 29, 766 s
+net changed by KiCad, restored: PCB_VIA at (75.350, 107.250) GND -> 5V
+net changed by KiCad, restored: PCB_VIA at (75.450, 109.150) GND -> 5V
+net changed by KiCad, restored: PCB_VIA at (72.350, 78.350) GND -> 5V
+added 2428 tracks, 343 vias -> work/sig_mix_3.kicad_pcb
+{('clearance', 'error'): 15, ('hole_clearance', 'error'): 2, ('via_dangling', 'warning'): 15, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 26
+exported 133 nets, 384 barrels, 513 pads
+tracks 2428, vias 344, failures 29, 715 s
+added 2428 tracks, 344 vias -> work/sig_mix_4.kicad_pcb
+{('via_dangling', 'warning'): 12, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 26
+exported 133 nets, 385 barrels, 513 pads
+tracks 2428, vias 344, failures 29, 753 s
+added 2428 tracks, 344 vias -> work/sig_mix_5.kicad_pcb
+{('via_dangling', 'warning'): 12, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 26
+exported 133 nets, 385 barrels, 513 pads
+tracks 2428, vias 344, failures 29, 1458 s
+added 2428 tracks, 344 vias -> work/sig_mix_6.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('via_dangling', 'warning'): 12, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+unconnected 26
+exported 133 nets, 385 barrels, 513 pads
+tracks 2428, vias 344, failures 29, 859 s
+{('tracks_crossing', 'error'): 1, ('via_dangling', 'warning'): 12, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  tracks_crossing  Tracks crossing                            | Track [.1Vref_2] on In5.Cu, length 0.0000 mm @(87.39,84.93) || Track [Voltage_err_2] on In5.Cu, length 5.3358 mm @(87.76,82.45)
+unconnected 26
+  U Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31) || Track [Net-(U24-In+)] on B.Cu, length 0.7240 mm @(76.25,88.46)
+  U Track [Net-(U103A-A)] on F.Cu, length 1.2728 mm @(84.25,99.65) || Pad 4 [Net-(U103A-A)] of U18 on F.Cu @(77.21,87.18)
+  U Track [Net-(U102C-A)] on F.Cu, length 2.2070 mm @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 5 [5V] of U4 on B.Cu @(78.19,104.18) || Track [5V] on B.Cu, length 0.0226 mm @(74.53,105.19)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Track [Net-(D5-+)] on F.Cu, length 1.0055 mm @(69.13,111.63) || Pad 3 [Net-(D5-+)] of U103 on F.Cu @(85.27,96.82)
+  U Pad 9 [Net-(U103B-Y)] of U104 on B.Cu @(50.26,81.76) || Pad 6 [Net-(U103B-Y)] of U103 on F.Cu @(81.46,96.82)
+  U Via [Net-(D4-+)] on F.Cu - B.Cu @(48.75,86.25) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51) || Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48)
+  U Track [.1Vref_3] on F.Cu, length 1.9000 mm @(77.45,88.65) || Pad 2 [.1Vref_3] of R41 on F.Cu @(58.46,88.30)
+  U Pad 13 [Net-(U26A-P0B)] of U26 on B.Cu @(59.17,91.48) || Pad 1 [Net-(U26A-P0B)] of R54 on F.Cu @(72.51,90.91)
+  U Track [Net-(U26A-P0B)] on F.Cu, length 0.9942 mm @(74.69,90.91) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 3 [Net-(D5--)] of U105 on F.Cu @(84.42,84.00) || Track [Net-(D5--)] on F.Cu, length 0.5460 mm @(68.16,111.68)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Track [IREF3] on F.Cu, length 1.1790 mm @(60.63,102.83) || Pad 13 [IREF3] of U106 on B.Cu @(88.38,93.78)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Track [Net-(U102D-Y)] on F.Cu, length 1.4570 mm @(82.01,76.01) || Via [Net-(U102D-Y)] on F.Cu - B.Cu @(62.38,81.31)
+  U Pad 1 [Vref_1_arduino] of R101 on B.Cu @(50.02,91.75) || PTH pad 1 [Vref_1_arduino] of J9 @(51.06,95.90)
+  U Pad 1 [12V] of R84 on B.Cu @(80.53,110.02) || Track [12V] on In3.Cu, length 2.2486 mm @(77.82,93.39)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(75.21,71.22)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed via Net-(U24-In+) at (72.064, 85.335)
+removed via Voltage_err_1 at (62.526, 93.295)
+removed via Out- at (83.453, 77.951)
+removed Out- B.Cu 0.000 mm at (86.133, 81.230)
+removed via Net-(U18-Q3) at (73.669, 83.672)
+removed via Net-(D4-+) at (48.480, 80.752)
+removed via Net-(C9-Pad2) at (68.681, 75.590)
+removed via ena_out_1 at (87.253, 81.414)
+removed via IREF3 at (89.751, 94.263)
+removed via Net-(U102D-Y) at (62.380, 81.306)
+removed via Net-(U102D-Y) at (80.556, 76.010)
+removed via ena_out_2 at (80.611, 76.797)
+removed via ena_out_2 at (52.309, 76.933)
+removed 13 of 13 flagged tracks and vias -> work/sig_mixp.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('track_dangling', 'warning'): 6, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  tracks_crossing  Tracks crossing                            | Track [.1Vref_2] on In5.Cu, length 0.0000 mm @(87.39,84.93) || Track [Voltage_err_2] on In5.Cu, length 5.3358 mm @(87.76,82.45)
+unconnected 26
+  U Track [Net-(U24-In+)] on B.Cu, length 0.7240 mm @(76.25,88.46) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Track [Net-(U103A-A)] on F.Cu, length 0.5000 mm @(84.75,99.65) || Pad 4 [Net-(U103A-A)] of U18 on F.Cu @(77.21,87.18)
+  U Track [Net-(U102C-A)] on F.Cu, length 2.2070 mm @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 5 [5V] of U4 on B.Cu @(78.19,104.18) || Track [5V] on B.Cu, length 0.0226 mm @(74.53,105.19)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Track [Net-(D5-+)] on F.Cu, length 1.0055 mm @(69.13,111.63) || Pad 3 [Net-(D5-+)] of U103 on F.Cu @(85.27,96.82)
+  U Pad 9 [Net-(U103B-Y)] of U104 on B.Cu @(50.26,81.76) || Pad 6 [Net-(U103B-Y)] of U103 on F.Cu @(81.46,96.82)
+  U Track [Net-(D4-+)] on In5.Cu, length 0.8485 mm @(48.15,85.65) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51) || Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48)
+  U Track [.1Vref_3] on F.Cu, length 1.9000 mm @(77.45,88.65) || Pad 2 [.1Vref_3] of R41 on F.Cu @(58.46,88.30)
+  U Pad 13 [Net-(U26A-P0B)] of U26 on B.Cu @(59.17,91.48) || Pad 1 [Net-(U26A-P0B)] of R54 on F.Cu @(72.51,90.91)
+  U Track [Net-(U26A-P0B)] on F.Cu, length 0.9942 mm @(74.69,90.91) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 3 [Net-(D5--)] of U105 on F.Cu @(84.42,84.00) || Track [Net-(D5--)] on F.Cu, length 0.5460 mm @(68.16,111.68)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Track [IREF3] on F.Cu, length 1.1790 mm @(60.63,102.83) || Pad 13 [IREF3] of U106 on B.Cu @(88.38,93.78)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Track [Net-(U102D-Y)] on B.Cu, length 0.2128 mm @(62.38,81.31) || Track [Net-(U102D-Y)] on F.Cu, length 1.4570 mm @(82.01,76.01)
+  U Pad 1 [Vref_1_arduino] of R101 on B.Cu @(50.02,91.75) || PTH pad 1 [Vref_1_arduino] of J9 @(51.06,95.90)
+  U Pad 1 [12V] of R84 on B.Cu @(80.53,110.02) || Track [12V] on In3.Cu, length 2.9370 mm @(76.23,94.98)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(75.21,71.22)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(U24-In+) B.Cu 1.062 mm at (72.064, 85.335)
+removed Net-(D4-+) F.Cu 1.343 mm at (49.823, 80.752)
+removed IREF3 B.Cu 0.677 mm at (89.272, 93.785)
+removed Net-(U102D-Y) F.Cu 1.457 mm at (82.013, 76.010)
+removed Net-(U102D-Y) B.Cu 0.213 mm at (62.380, 81.306)
+removed ena_out_2 F.Cu 0.684 mm at (81.095, 77.280)
+removed 6 of 6 flagged tracks and vias -> work/sig_mixp.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  tracks_crossing  Tracks crossing                            | Track [.1Vref_2] on In5.Cu, length 0.0000 mm @(87.39,84.93) || Track [Voltage_err_2] on In5.Cu, length 5.3358 mm @(87.76,82.45)
+unconnected 26
+  U Track [Net-(U24-In+)] on B.Cu, length 0.7240 mm @(76.25,88.46) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Track [Net-(U103A-A)] on F.Cu, length 1.2728 mm @(84.25,99.65) || Pad 4 [Net-(U103A-A)] of U18 on F.Cu @(77.21,87.18)
+  U Track [Net-(U102C-A)] on F.Cu, length 2.2070 mm @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 5 [5V] of U4 on B.Cu @(78.19,104.18) || Track [5V] on B.Cu, length 0.1390 mm @(74.55,105.21)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Track [Net-(D5-+)] on F.Cu, length 1.0055 mm @(69.13,111.63) || Pad 3 [Net-(D5-+)] of U103 on F.Cu @(85.27,96.82)
+  U Pad 9 [Net-(U103B-Y)] of U104 on B.Cu @(50.26,81.76) || Pad 6 [Net-(U103B-Y)] of U103 on F.Cu @(81.46,96.82)
+  U Track [Net-(D4-+)] on In5.Cu, length 0.8485 mm @(48.15,85.65) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51) || Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48)
+  U Via [.1Vref_3] on F.Cu - B.Cu @(75.55,88.65) || Pad 2 [.1Vref_3] of R41 on F.Cu @(58.46,88.30)
+  U Pad 13 [Net-(U26A-P0B)] of U26 on B.Cu @(59.17,91.48) || Pad 1 [Net-(U26A-P0B)] of R54 on F.Cu @(72.51,90.91)
+  U Track [Net-(U26A-P0B)] on F.Cu, length 0.9942 mm @(74.69,90.91) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 3 [Net-(D5--)] of U105 on F.Cu @(84.42,84.00) || Track [Net-(D5--)] on B.Cu, length 0.5720 mm @(68.16,111.68)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Pad 13 [IREF3] of U106 on B.Cu @(88.38,93.78) || Track [IREF3] on F.Cu, length 1.1790 mm @(60.63,102.83)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Track [Net-(U102D-Y)] on B.Cu, length 4.9510 mm @(62.23,81.46) || Pad 11 [Net-(U102D-Y)] of U102 on F.Cu @(82.01,76.01)
+  U Pad 1 [Vref_1_arduino] of R101 on B.Cu @(50.02,91.75) || PTH pad 1 [Vref_1_arduino] of J9 @(51.06,95.90)
+  U Pad 1 [12V] of R84 on B.Cu @(80.53,110.02) || Track [12V] on In3.Cu, length 2.2486 mm @(77.82,93.39)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(75.21,71.22)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(U24-In+) B.Cu 4.422 mm at (73.126, 85.335)
+removed Net-(U102D-Y) B.Cu 4.951 mm at (62.230, 81.457)
+removed 2 of 2 flagged tracks and vias -> work/sig_mixp.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  tracks_crossing  Tracks crossing                            | Track [.1Vref_2] on In5.Cu, length 0.0000 mm @(87.39,84.93) || Track [Voltage_err_2] on In5.Cu, length 5.3358 mm @(87.76,82.45)
+unconnected 26
+  U Track [Net-(U24-In+)] on B.Cu, length 0.7240 mm @(76.25,88.46) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Track [Net-(U103A-A)] on F.Cu, length 1.2728 mm @(84.25,99.65) || Pad 4 [Net-(U103A-A)] of U18 on F.Cu @(77.21,87.18)
+  U Track [Net-(U102C-A)] on F.Cu, length 2.2070 mm @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 5 [5V] of U4 on B.Cu @(78.19,104.18) || Track [5V] on B.Cu, length 0.1390 mm @(74.55,105.21)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Track [Net-(D5-+)] on F.Cu, length 1.0055 mm @(69.13,111.63) || Pad 3 [Net-(D5-+)] of U103 on F.Cu @(85.27,96.82)
+  U Pad 9 [Net-(U103B-Y)] of U104 on B.Cu @(50.26,81.76) || Pad 6 [Net-(U103B-Y)] of U103 on F.Cu @(81.46,96.82)
+  U Track [Net-(D4-+)] on B.Cu, length 0.1414 mm @(48.75,86.25) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51) || Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48)
+  U Track [.1Vref_3] on B.Cu, length 0.1000 mm @(75.55,88.65) || Pad 2 [.1Vref_3] of R41 on F.Cu @(58.46,88.30)
+  U Pad 13 [Net-(U26A-P0B)] of U26 on B.Cu @(59.17,91.48) || Pad 1 [Net-(U26A-P0B)] of R54 on F.Cu @(72.51,90.91)
+  U Track [Net-(U26A-P0B)] on B.Cu, length 1.0112 mm @(75.39,91.61) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 3 [Net-(D5--)] of U105 on F.Cu @(84.42,84.00) || Track [Net-(D5--)] on B.Cu, length 0.5720 mm @(68.16,111.68)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Pad 13 [IREF3] of U106 on B.Cu @(88.38,93.78) || Track [IREF3] on F.Cu, length 1.1790 mm @(60.63,102.83)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Track [Net-(U102D-Y)] on B.Cu, length 1.3605 mm @(57.28,81.46) || Pad 11 [Net-(U102D-Y)] of U102 on F.Cu @(82.01,76.01)
+  U Pad 1 [Vref_1_arduino] of R101 on B.Cu @(50.02,91.75) || PTH pad 1 [Vref_1_arduino] of J9 @(51.06,95.90)
+  U Pad 1 [12V] of R84 on B.Cu @(80.53,110.02) || Track [12V] on In3.Cu, length 2.9370 mm @(76.23,94.98)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(75.21,71.22)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(U24-In+) B.Cu 0.724 mm at (76.253, 88.462)
+removed Net-(U102D-Y) B.Cu 1.361 mm at (57.279, 81.457)
+removed 2 of 2 flagged tracks and vias -> work/sig_mixp.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('track_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  tracks_crossing  Tracks crossing                            | Track [.1Vref_2] on In5.Cu, length 0.0000 mm @(87.39,84.93) || Track [Voltage_err_2] on In5.Cu, length 5.3358 mm @(87.76,82.45)
+unconnected 26
+  U Track [Net-(U24-In+)] on B.Cu, length 1.3958 mm @(76.98,88.46) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Track [Net-(U103A-A)] on F.Cu, length 1.2728 mm @(84.25,99.65) || Pad 4 [Net-(U103A-A)] of U18 on F.Cu @(77.21,87.18)
+  U Track [Net-(U102C-A)] on F.Cu, length 2.2070 mm @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 5 [5V] of U4 on B.Cu @(78.19,104.18) || Track [5V] on B.Cu, length 0.1390 mm @(74.55,105.21)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Track [Net-(D5-+)] on F.Cu, length 1.0055 mm @(69.13,111.63) || Pad 3 [Net-(D5-+)] of U103 on F.Cu @(85.27,96.82)
+  U Pad 9 [Net-(U103B-Y)] of U104 on B.Cu @(50.26,81.76) || Pad 6 [Net-(U103B-Y)] of U103 on F.Cu @(81.46,96.82)
+  U Track [Net-(D4-+)] on B.Cu, length 0.1414 mm @(48.75,86.25) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51) || Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48)
+  U Track [.1Vref_3] on F.Cu, length 1.9000 mm @(77.45,88.65) || Pad 2 [.1Vref_3] of R41 on F.Cu @(58.46,88.30)
+  U Pad 13 [Net-(U26A-P0B)] of U26 on B.Cu @(59.17,91.48) || Pad 1 [Net-(U26A-P0B)] of R54 on F.Cu @(72.51,90.91)
+  U Track [Net-(U26A-P0B)] on B.Cu, length 1.0112 mm @(75.39,91.61) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 3 [Net-(D5--)] of U105 on F.Cu @(84.42,84.00) || Track [Net-(D5--)] on F.Cu, length 0.5460 mm @(68.16,111.68)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Pad 13 [IREF3] of U106 on B.Cu @(88.38,93.78) || Track [IREF3] on F.Cu, length 1.1790 mm @(60.63,102.83)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Track [Net-(U102D-Y)] on B.Cu, length 1.1030 mm @(56.32,80.50) || Pad 11 [Net-(U102D-Y)] of U102 on F.Cu @(82.01,76.01)
+  U Pad 1 [Vref_1_arduino] of R101 on B.Cu @(50.02,91.75) || PTH pad 1 [Vref_1_arduino] of J9 @(51.06,95.90)
+  U Pad 1 [12V] of R84 on B.Cu @(80.53,110.02) || Track [12V] on In3.Cu, length 2.9370 mm @(76.23,94.98)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(75.21,71.22)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+removed Net-(U24-In+) B.Cu 1.396 mm at (76.977, 88.462)
+removed Net-(U102D-Y) B.Cu 1.103 mm at (56.317, 80.495)
+removed 2 of 2 flagged tracks and vias -> work/sig_mixp.kicad_pcb
+{('tracks_crossing', 'error'): 1, ('silk_edge_clearance', 'warning'): 1, ('silk_overlap', 'warning'): 5, ('silk_over_copper', 'warning'): 11}
+  tracks_crossing  Tracks crossing                            | Track [.1Vref_2] on In5.Cu, length 0.0000 mm @(87.39,84.93) || Track [Voltage_err_2] on In5.Cu, length 5.3358 mm @(87.76,82.45)
+unconnected 26
+  U Track [Net-(U24-In+)] on B.Cu, length 0.5460 mm @(77.96,89.45) || Pad 3 [Net-(U24-In+)] of U24 on F.Cu @(76.06,90.31)
+  U Track [Net-(U103A-A)] on F.Cu, length 1.2728 mm @(84.25,99.65) || Pad 4 [Net-(U103A-A)] of U18 on F.Cu @(77.21,87.18)
+  U Track [Net-(U102C-A)] on F.Cu, length 2.2070 mm @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 5 [5V] of U4 on B.Cu @(78.19,104.18) || Track [5V] on B.Cu, length 0.0226 mm @(74.53,105.19)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Track [Net-(D5-+)] on F.Cu, length 1.0055 mm @(69.13,111.63) || Pad 3 [Net-(D5-+)] of U103 on F.Cu @(85.27,96.82)
+  U Pad 9 [Net-(U103B-Y)] of U104 on B.Cu @(50.26,81.76) || Pad 6 [Net-(U103B-Y)] of U103 on F.Cu @(81.46,96.82)
+  U Track [Net-(D4-+)] on In5.Cu, length 0.8485 mm @(48.15,85.65) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [.1Vout_3] of R39 on F.Cu @(79.54,94.51) || Pad 1 [.1Vout_3] of R42 on F.Cu @(76.00,94.48)
+  U Via [.1Vref_3] on F.Cu - B.Cu @(75.55,88.65) || Pad 2 [.1Vref_3] of R41 on F.Cu @(58.46,88.30)
+  U Pad 13 [Net-(U26A-P0B)] of U26 on B.Cu @(59.17,91.48) || Pad 1 [Net-(U26A-P0B)] of R54 on F.Cu @(72.51,90.91)
+  U Track [Net-(U26A-P0B)] on F.Cu, length 0.9942 mm @(74.69,90.91) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Pad 1 [Voltage_err_3] of R45 on F.Cu @(76.33,95.98) || Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39)
+  U Pad 1 [Voltage_err_3] of R40 on B.Cu @(79.75,93.39) || Pad 1 [Voltage_err_3] of U13 on B.Cu @(79.97,87.71)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 3 [Net-(D5--)] of U105 on F.Cu @(84.42,84.00) || Track [Net-(D5--)] on F.Cu, length 0.5460 mm @(68.16,111.68)
+  U PTH pad 4 [IREF1] of J9 @(54.88,98.44) || Pad 1 [IREF1] of R29 on F.Cu @(81.34,89.27)
+  U Pad 13 [IREF3] of U106 on B.Cu @(88.38,93.78) || Track [IREF3] on F.Cu, length 4.5453 mm @(60.63,101.65)
+  U Pad 2 [Net-(U13-In-)] of R40 on B.Cu @(78.10,93.39) || Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 5 [Net-(U102D-Y)] of U104 on B.Cu @(55.21,80.49) || Pad 11 [Net-(U102D-Y)] of U102 on F.Cu @(82.01,76.01)
+  U Pad 1 [Vref_1_arduino] of R101 on B.Cu @(50.02,91.75) || PTH pad 1 [Vref_1_arduino] of J9 @(51.06,95.90)
+  U Pad 1 [12V] of R84 on B.Cu @(80.53,110.02) || Track [12V] on In3.Cu, length 2.2486 mm @(77.82,93.39)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(75.21,71.22)
+  U Pad 12 [IREF1_input] of U26 on B.Cu @(59.82,91.48) || PTH pad 26 [IREF1_input] of J11 @(66.94,104.64)
+routes: work/g_mix_6.json
+final: work/sig_mixp.kicad_pcb
+
+real	91m19.631s
+user	0m1.411s
+sys	0m1.786s

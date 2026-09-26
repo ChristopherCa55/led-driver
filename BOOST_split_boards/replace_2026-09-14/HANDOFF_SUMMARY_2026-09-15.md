@@ -27,9 +27,9 @@ Ground rules (from the handoff and the user):
 | Step | State |
 |---|---|
 | 1–2 Read, confirm open items | Done (four check-ins, decisions below) |
-| 3 Schematic | Done and verified; three capacitor changes and the unscrewed-FET footprints still to apply |
+| 3 Schematic | Done and verified, including (2026-09-15 afternoon) C30/C7/C55, C41/C44/C45 restored, NoHole on M2–M7 |
 | §8 item 1 simulation | Done (220 Ω chosen) |
-| 4 Power-board placement | In progress: several placement passes, best so far meets 33 of 43 agreed goals; one of five J10-position runs finished (not reviewed), four failed to start |
+| 4 Power-board placement | Accepted by the user (2026-09-15 evening) as the base for copper, with changes applied (§11a). One item open: the 4.0 mm tab-screw clearance. |
 | 5–7 Copper, routing, control card | Not started |
 
 Nothing in `BOOST_split_boards/BOOST_power.kicad_pcb` or `BOOST_control.kicad_pcb` has been replaced yet. KiCad lock
@@ -107,10 +107,9 @@ Records in `BOOST_split_boards/replace_2026-09-14/`:
 - `schematic_edit_log.txt`, `schematic_netcheck.txt`
 - `deadtime_check_2026-09-14.txt`
 
-Still to apply:
-- C30, C7, C55 part swaps (§6).
-- NoHole footprint on the unscrewed FETs once the screw set is final.
-- Then re-export the netlist, ERC, netcheck, and re-sync both boards.
+All applied on 2026-09-15 (§11): C30 → TR3D476K025C0250, C7/C55 → GRM32ER71E226KE15L, C41/C44/C45 restored at
+the sink op-amp inputs, NoHole footprint on M2–M7. Netlist `BOOST_9-15_nohole.net`, ERC 0/0, netcheck 0 failures,
+schematic SHA-256 `a1c93a19…`. The control card has not been re-synced yet (step 7).
 
 ## 5. Simulation (SIMULATION_REPORT §8 item 1, done)
 
@@ -149,6 +148,8 @@ Links:
 - [GRM32ER71E226KE15L (JLCPCB)](https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71E226KE15L/C21397)
 
 ## 7. Stack budget at the 21.21 mm gap
+
+Superseded 2026-09-16 by §11c (board underside 5.50, card gap 21.50).
 
 | Item | Top of item above case floor (mm) |
 |---|---|
@@ -230,12 +231,159 @@ They came from this session's temporary scratchpad (listed below for reference):
   - results `p6l_1.json/.png/.distances.md` and `p7?.json`;
   - `checkin_notes.md`, `fp-lib-table`.
 
-## 11. Next steps
+## 11. Session 2 (2026-09-15 afternoon, account bubba)
 
-1. **Pick the J10 position.** Rerun candidates R, C, T, B (numeric seeds), then review all five with `sa_view.py` and `ptable.py --goals`; pick the best and clear its remaining conflicts: M7 pins vs L1, standoffs vs sinks, M1/M8 screwdriver paths, M3 at 25 mm.
-2. **Capacitor parts.** Confirm LCSC stock for TPSC226K025R0275 (or another low-ESR tantalum inside 0.1–1 Ω). Then set C30 (tantalum, 6032 case-C footprint) and C7/C55 (GRM32ER71E226KE15L, 1210) in the schematic.
-3. **Footprints.** Run `pscrews.py` on the chosen layout; assign `BOOST:TO-220-3_Horizontal_TabUp_NoHole` to the unscrewed FETs (`setfp.py`).
-4. **Rebuild the netlist and boards.** Re-export the netlist, ERC, netcheck, re-sync the boards (`syncboard.py`), refresh `inv_power2.json`.
-5. **Build the WIP board.** Run `run_place.sh`; review the KiCad plots, distance table and DRC. ★ Placement check-in with the user.
-6. **Continue with handoff steps 5–7:** power copper solve at 1 oz / 2 oz, copper-weight decision, routing and checks, report, then the control card at 45 mm.
-7. **Open with the user:** C41/C44/C45 removal; screw spacer and bushing hardware; LTspice `BOOST.asc` updates (not modified); who runs the remaining sims.
+Project now at `C:\Users\bubba\OneDrive\Documents\led-driver`. Details and every number: `tools/replace_notes.md`.
+
+- **J10 candidates:** R, C, T, B rerun (seeds 802–805). None of the five legal; all kept L1 over M2/M7 pins and tall caps in sink screw circles; p7L's standoffs were in a line (no support rule).
+- **C30:** TPSC226K025R0275 (C313069) had 2 in stock. User chose **Vishay TR3D476K025C0250** (47 µF, case D, ESR ≤ 0.25 Ω, C4979367, 107 in stock). C7/C55 GRM32ER71E226KE15L (C21397, 77,742 in stock). KEMET T491C226K025AT is 1.0 Ω max (not 1.4).
+- **C41/C44/C45 (user: "decide"):** restored as 1 nF at the sink op-amp inputs on the power board (the IREF nets now cross the header beside the power stage; nothing filters them there). DNP-able.
+- **Schematic:** `capedit.py` + `setfp.py` (NoHole on M2–M7). ERC 0/0, netcheck 0, netdiff shows only the intended changes. Backups in `previous/2026-09-15/`.
+- **Shipped `BOOST_power.kicad_pro`:** KiCad (GUI) opened and closed the power project at 14:26 and rewrote the file without the Power/Gate/Rail netclasses. Restored from git with the user's OK; the rewritten copy is in `previous/2026-09-15/`.
+- **L1 land pattern** matches Codaca's reference numbers (§13 item 4 of the context doc); its large courtyard is real.
+- **Placement:** ~250 annealing runs (psa5: exact local costing, card and J10 free, standoffs spread across the card). Under the agreed rules no layout was both legal and close on the hard goals. Legal layouts appear once tall parts may come within **4.0 mm** of a tab-screw centre (was 5.5 mm, an interpretation of "clear screwdriver path") with standoffs anywhere in their card quadrant; screw distance stays 25 mm. Chosen: `p15_b10_k1`.
+- **WIP board** `tools/placement/BOOST_power_p15_WIP_NOT_FOR_FAB.kicad_pcb` (+ shipped `.kicad_pro`): 124 parts placed, mechanical checks clean, DRC 0 errors (39 silk warnings, 270 unconnected), brief targets 31/49, agreed goals 38/49. Distances verified against KiCad's saved pads (0.0000 mm).
+- **The check-in itself** (decisions, plots, distance table, DRC): `BOOST_split_boards/placement_review_2026-09-15/BOOST_power_placement_review.html`, also at <https://claude.ai/artifact/RizZaqBSKCshiew2Vd4GhR>.
+
+## 11a. User review of the check-in (2026-09-15 evening)
+
+Accepted: `p15_b10_k1` as the base for copper; standoffs anywhere in their card quadrant; no global re-place.
+The cap-to-rail assignment is confirmed optimal (the user checked all 1,680 permutations). Changes made:
+
+- **Gate loops.** New stage 6 in `pcheck.py`: series gate resistor, pulldown and turn-off diode within 5 mm of
+  the gate pin. `psat.py` gained `place_first` (ordered) and `either_side`; the order that won interleaves per
+  channel — rail ceramic (100 nF), LX FET's gate parts, rail FET's gate parts, 4.7 µF bulk. R60 21.1 → 5.2 mm,
+  R70 22.8 → 4.2 mm, R76 16.4 → 9.8 mm. Still over 5 mm: R75 5.3, R23 5.3, R60 5.2, D13 9.7 (M4, slowest edge).
+- **Standoffs are board-to-case fixings** (male-female nylon standoff into a tapped boss, ~5.6 mm insulating
+  spacer under the board). The rules already counted them as screws, so the 25 mm result is unchanged (worst
+  22.6 mm). H8 moved to (85.1, 109.5), the farthest legal point toward the bottom-right corner: 29.7 → 20.0 mm.
+  No fifth fixing fits at the top-left (L1 covers it); M3's body under L1 carries that corner.
+- **Commutation loop** reported per channel (new stage 7): 38.0 / 89.4 / 90.6 mm, with M1 drain → LX drain
+  10.9 / 33.1 / 41.9 mm and the loop ceramic 3.2 / 5.3 / 4.4 mm from its rail FET drain. Routing rules and the
+  post-routing inductance check are in `tools/replace_notes.md`.
+- **M2→C70 (20.1 mm) and M3→C87 (18.8 mm) cannot be improved**: an exhaustive scan found no legal position
+  closer than 20.0 / 18.6 mm with the rest of the board fixed (C70 is boxed by M5's pins and H6, C87 by C71/C78).
+- **Tab-screw hardware:** Aavid/Boyd 7721-7PPSG shoulder washer (shoulder 3.43, flange 5.46, bore 2.95 → #4-40
+  or M2.5 screw) and the gap spacer both sit under the board, so the top-side radius is set by the screw head
+  (2.5–3.0 mm). 5.5 mm remains unsolvable (p16b and ~180 global runs).
+- **Battery cable:** runs over U16 from the notch to the lugs (21 mm headroom). Open: J1/J2 are 9.2 mm apart and
+  10 AWG ring terminals are 10–12 mm across.
+
+Board state: brief targets 50/72, agreed goals 57/72, mechanical checks 0, DRC 0 errors (45 silk warnings,
+270 unconnected).
+
+## 11b. Third review round (2026-09-15 late)
+
+Applied: loop ceramic redefined as the 4.7 uF (both rail ceramics targeted at 6 mm); tab-screw board hole
+3.5 -> 2.9 mm via `BOOST:TO-220-3_Horizontal_TabUp_M2.5` on M1/M8/M9/M10; D19 -> 5.0SMDJ54A (D_SMC land checked
+against the Bourns drawing and kept); U26 -> MCP4451-103E/ST (10 k, the 5 k is out of stock). Standoffs are
+board-to-case fixings: nylon M/F 6 mm below the board, 22 mm above it, M3 screw at the card.
+Delivered: case-floor drilling drawing, `BOOST_split_boards/case_drilling_2026-09-15/`.
+Open for the user: whether U16 moves to the bottom side, which is what a 12 mm lug pitch needs (0.74 mm to the
+floor); otherwise the lugs stay at 9.2 mm. Strain relief should go on the case, not the board.
+Full detail and every number: `tools/replace_notes.md`.
+
+## 11c. Fourth review round (2026-09-16)
+
+Applied: J1/J2 pads 8.6 -> 7.0 mm at the 9.2 mm pitch (`BOOST:MountingHole_4.3mm_M4_Pad7.0_TopBottom`, 2.21 mm
+copper gap; ERC 0/0, netlist rev3, DRC 0 errors). Drilling drawing rev B: same eight positions, corrected tap
+depths (M3 7.0 / M2.5 6.0 mm full thread in the 10 mm floor) and fixed clipping.
+Approved by the user 2026-09-16: THERM-A-GAP G579 0.050 in pads (published curve and 5-40 % range; Gap Pad 1500
+publishes neither) at 26.8 % nominal; board underside 5.50 on an Essentra HTSN-M3-5-3 nylon M/M stud plus one
+TR NWE-34815-M3 0.5 mm washer; Essentra HNSM3-20-5.5-1 nylon F/F above plus three washers (card gap 21.50);
+all hand-tight. §7 is superseded: card-top parts now top out at 31.95 mm, 1.05 mm under the lid.
+M1 dissipates about 6 W when warm (the LTspice model has no temperature dependence), about 21-22 K across the
+pad; the user's budget puts M1 at about 78 C at 25 C water and 118-125 C with every conservative assumption.
+Full detail and every number: `tools/replace_notes.md`.
+
+## 11d. Step 5: power copper (2026-09-16)
+
+Copper v9 drawn on p15_b10_k2 and solved at 1 oz and 2 oz outer: `BOOST_split_boards/route_2026-09-16/`, check-in
+page `BOOST_split_boards/copper_review_2026-09-16/`. DRC 0 errors, no exclusions, no rule weakened (tightening
+`.kicad_dru` and a Sense netclass in the WIP project copy only). At 1 oz four branches have necks over 20 C (LX at
+M5/M1/M6 pins 58/52/36 C, Vin 24 C) and four have vias over rating, so the rule gives C. At 2 oz three 1-2 mm
+FET-pin throats (22-27 C), one 10 mm Vin neck (23.7 C) and 11 vias (up to 1.39x, at R1 and L1.2) remain.
+Copper-only loop inductance ch1/ch2/ch3 about 0.7/1.2/1.7 nH against the 4.85/12.74/7.91 nH simulated.
+**User decisions (2026-09-16):** copper weight B (1 oz / 1 oz), stackup written into the board; IPC-2221 figures
+stay in reports but are not pass/fail for necks under ~5 mm or vias in plane-connected fields; FET-pin throats and
+R1/L1.2 via crowding accepted; U19 stays; In4 stays one 5 V plane; solid pad connections kept, soldering and
+hardware instructions in `BOOST_split_boards/BUILD_NOTES.md`; the M1 turn-off re-sim is confirmation only (LX
+copper about 600 pF to GND if it is run). Full numbers: `tools/replace_notes.md`.
+
+## 11e. Step 6: signal routing (2026-09-16), handed back
+
+Every signal routed on the v11 power copper: `route_2026-09-16/BOOST_power_route_v13_NOT_FOR_FAB.kicad_pcb`,
+report `route_2026-09-16/ROUTING_REPORT_2026-09-16.md`. The saved file passes DRC (0 errors, 0 unconnected,
+0 exclusions, only the 43 placement silk warnings), the layer-plan, plane, island and rev3 parity checks, and has
+the stackup. The first routed board (v12) was rejected: it cut the power pours (Vout_1 LED path neck 177 C).
+v13 was routed with the solved sheet-current map and fixes that, but the routes to U19/U25 still narrow the R1
+rsense_lo and Vin necks (59 / 38.5 C at IPC, necks 2.5 / 3.6 mm long), a 0.93 mm throat appears in the Vout_3 LED
+path at U6, gate returns are not routed beside the gate tracks, and some Rail/Gate tracks use the fallback width.
+These are the report's section-6 decisions for the user.
+
+## 11f. Step 6 second pass: driver bypass, gate links, gate loops (2026-09-17), handed back
+
+The user decided section 6 on 2026-09-17 (6.1, 6.2, 6.4 accept; 6.3 pair-route the gate loops M7, M5, M6 then
+M2-M4; 6.5 no action) and asked for two fixes first: the driver bypass capacitors at the driver pins (placement
+only) and direct gate-resistor -> gate links. Result:
+`route_2026-09-16/BOOST_power_route_v15_NOT_FOR_FAB.kicad_pcb`, report
+`route_2026-09-16/ROUTING_REPORT_2026-09-17.md`.
+
+- Ten capacitors moved (C31, C48, C51, C18, C50, C16, C90, C61, C60, C89) and three Vout_1 vias shifted 0.6 mm;
+  no other footprint moved, schematic unchanged. C31 is 2.8 / 2.5 mm from U19 pins 16 / 14.
+- Everything routed again from v11's copper (the moves change the space round all four drivers).
+- Saved file: DRC 0 errors / 0 unconnected / 0 exclusions, parity 0, layer, plane and island checks pass, and
+  every router item is on the board with its routed net (new `tools/net_flips.py`).
+- Series R -> gate links are all <= 5.1 mm; M7's went 14.5 -> 5.1 mm. M7 and M5 returns run beside their drive
+  paths (73 %, 82 %); M6 34 %, M2-M4 <= 18 %.
+- Solve vs the unrouted base: rsense_lo 20.1 -> 27.4 C (v13 was 59 C), Vout_3 LED throat fixed (13.7 -> 4.6 C),
+  but LX L1->M5 57.8 -> 84.0 C because the D13 -> M4 gate link crosses the In2 LX pour.
+- Open decisions in the new report's section 8: the D13 link (recommend routing it with the current map), C51's
+  pair link to U15 pins 11/9 (not routable, tied to pins 16/14), the unpaired gate loops, C48's missing 5 V via.
+
+## 11g. Step 6 frozen at v16 (2026-09-17)
+
+The user accepted v15 in principle and asked for one final pass: `route_2026-09-16/ROUTING_FINAL_2026-09-17.md`,
+board `BOOST_power_route_v16_NOT_FOR_FAB.kicad_pcb` (SHA-256 7aaf6f5752ca794b81ea...). Placement identical to v15.
+- D13 -> M4 gate link routed with the current map (31.0 mm, no hot crossing): LX L1->M5 back to 57.3 C / 2.017 mOhm
+  (v15 84.0 C / 2.271), ch3 commutation loop 2.08 -> 2.04 nH.
+- Gate loops hand-routed through chosen corridors (GATE_GUIDES in route_signals.py): M2 147 -> 36 mm2,
+  M3 187 -> 38 mm2, M6 47.7 unchanged, M7 49.1, M5 24.2, M4 59.7 - all <= the user's 60 mm2 target.
+- New: the U15 VDDA pin-row link cuts the F.Cu LX pour for 4.1 mm at 1.28 A/mm (LX L1->M1 +0.028 mOhm, via
+  0.83 -> 0.90x); flagged in the report as the one new crossing.
+- Checks on the saved file: DRC 0/0/0, parity 0, layer/plane/island checks pass, net_flips 0.
+- Placement mechanical checks re-run after the ten moves: washer keep-outs, screwdriver paths, 25 mm rule, card and
+  corner zones all pass (C89 courtyard 4.03 mm from H8 against the 3.75 mm keep-out). Eleven pairs of courtyards
+  now touch (0.011-0.089 mm) without overlapping; KiCad's courtyard check is clean.
+- The user's decisions 8.2(a) (C51 stays tied to U15 pins 16/14) and 8.4 (C48.1's 5 V via at U19.8) are accepted
+  as documented. The power board is frozen; the file keeps NOT_FOR_FAB until there is a fab package.
+
+## 11h. Step 7 control card: J9 wire pads and placement (2026-09-17/18), awaiting the user
+
+Folder `card_2026-09-17/`.
+- **Check-in 1** (`CARD_CHECKIN_1_2026-09-17.md`), both decisions made by the user:
+  - J9 became soldered wire pads. Schematic rev4 (J9 footprint only); ERC 0; netdiff shows only J9; parity 0 for
+    the card and for v16.
+  - Card screw: Würth 97790803211, lid margin 0.70 mm nominal.
+- **Check-in 2** (`CARD_CHECKIN_2_2026-09-18.md`): placement c2, `work/BOOST_control_place_c2_NOT_FOR_FAB.kicad_pcb`.
+  - v16 overlay 13/13; DRC 0 errors (27 silk warnings, 380 unconnected).
+  - 68 SMD parts on top, 92 underneath: double-sided, forced by area.
+  - Current stubs 2.8 / 3.0 mm; every route-proxy separation to I2C, M1_ON and the 74HC14 outputs is ≥ 10.2 mm.
+  - D27 is 2.5 mm from U104.1.
+  - The 1206 caps are underside only.
+  - Open with the user: approve the placement, double-sided assembly, 1206 MPNs, whether Vref_n_arduino is PWM,
+    the U2 In+ spread (11.2 mm), and the routing plan (layers, J11 solid GND pads, via drill ≥ 0.3 mm, stackup).
+- Tools: `tools/card_place.py`, `apply_layout.py`, `card_overlay.py`, `drc_place.py`, `card_check.py`,
+  `layout_metrics.py`, and `check_card.sh` (runs the full check).
+
+## 12. Next steps
+
+Steps 1-5 of the first list are done (§11). The rounds in §11a-§11c settled the 4.0 mm tab-screw clearance,
+the lugs, D19, the MCP4451 variant, the tab-screw and standoff hardware, the thermal pad and the drilling drawing.
+Now:
+
+1. ✔ **Handoff step 6 is done and frozen at v16 (§11g).** Open only if the user wants the one new LX-pour
+   crossing (U15 VDDA link) re-routed or the touching courtyards nudged apart.
+2. **Step 7 (control card):** placed (c2, §11h). The placement check-in is with the user; route only after they
+   approve it.
+3. **Open with the user:** LTspice `BOOST.asc` updates; who runs the remaining sims.

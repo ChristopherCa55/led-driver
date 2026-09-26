@@ -1,0 +1,41 @@
+exported 74 nets, 765 barrels, 355 pads
+tracks 1805, vias 168, failures 0, 325 s
+added 1805 tracks, 168 vias -> work/sig_38_1.kicad_pcb
+{('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 2
+exported 74 nets, 933 barrels, 355 pads
+tracks 1808, vias 172, failures 1, 112 s
+added 1808 tracks, 172 vias -> work/sig_38_2.kicad_pcb
+{('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 937 barrels, 355 pads
+tracks 1808, vias 172, failures 1, 99 s
+net changed by KiCad, restored: PCB_VIA at (84.550, 30.750) GND -> Vin
+net changed by KiCad, restored: PCB_VIA at (65.850, 33.350) GND -> 5V
+added 1808 tracks, 172 vias -> work/sig_38_3.kicad_pcb
+{('via_dangling', 'warning'): 1, ('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 937 barrels, 355 pads
+tracks 1808, vias 174, failures 1, 107 s
+added 1808 tracks, 174 vias -> work/sig_38_4.kicad_pcb
+{('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 939 barrels, 355 pads
+tracks 1808, vias 174, failures 1, 99 s
+net changed by KiCad, restored: PCB_VIA at (62.350, 34.050) GND -> rsense_lo
+added 1808 tracks, 174 vias -> work/sig_38_5.kicad_pcb
+{('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 939 barrels, 355 pads
+tracks 1808, vias 174, failures 1, 98 s
+{('track_dangling', 'warning'): 1, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00)
+removed Net-(D11--) B.Cu 0.100 mm at (77.550, 71.750)
+removed 1 of 1 flagged tracks and vias -> work/sig_38p.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priorit @(104.00,116.00)
+routes: work/g_38_5.json
+final: work/sig_38p.kicad_pcb
+PIPELINE_DONE

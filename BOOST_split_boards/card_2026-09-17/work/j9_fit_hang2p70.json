@@ -1,0 +1,393 @@
+{
+ "card": [
+  45.8905404761626,
+  70.0225755922945,
+  90.8905404761626,
+  115.0225755922945
+ ],
+ "card_under": 28.6,
+ "vent": 2.0,
+ "candidates": [
+  {
+   "name": "1x11 2.54 mm RA header (rev3 J9)",
+   "along": 28.94,
+   "inboard": 5.81,
+   "ext": 15.0,
+   "hang": 2.75,
+   "source": "courtyard: PinHeader_1x11_P2.54mm_Horizontal; plug 15 / 2.75 mm: user",
+   "hang_used": 2.7,
+   "edges": {
+    "west": {
+     "legal_starts": [
+      [
+       70.0,
+       75.3
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "east": {
+     "legal_starts": [
+      [
+       70.0,
+       77.0
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "north": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "J11",
+      "L1"
+     ]
+    },
+    "south": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "case wall",
+      "J11"
+     ]
+    }
+   }
+  },
+  {
+   "name": "JST PH 1x11 2.0 mm, locking (S11B-PH-K)",
+   "along": 24.9,
+   "inboard": 6.75,
+   "ext": 15.0,
+   "hang": null,
+   "source": "courtyard: JST_PH_S11B-PH-K; hang and plug not verified",
+   "hang_used": 2.7,
+   "edges": {
+    "west": {
+     "legal_starts": [
+      [
+       70.0,
+       78.5
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "east": {
+     "legal_starts": [
+      [
+       70.0,
+       81.0
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "north": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "J11",
+      "L1"
+     ]
+    },
+    "south": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "case wall",
+      "J11"
+     ]
+    }
+   }
+  },
+  {
+   "name": "JST GH 1x11 1.25 mm, locking, SMD (SM11B-GHS-TB)",
+   "along": 18.2,
+   "inboard": 6.4,
+   "ext": 15.0,
+   "hang": null,
+   "source": "courtyard: JST_GH_SM11B-GHS-TB; hang and plug not verified",
+   "hang_used": 2.7,
+   "edges": {
+    "west": {
+     "legal_starts": [
+      [
+       70.0,
+       85.4
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "east": {
+     "legal_starts": [
+      [
+       70.0,
+       87.7
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "north": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "J11",
+      "L1"
+     ]
+    },
+    "south": {
+     "legal_starts": [],
+     "blocked_by": [
+      "case wall",
+      "J11",
+      "mounting-hole keep-out"
+     ]
+    }
+   }
+  },
+  {
+   "name": "2x6 2.54 mm RA header",
+   "along": 16.24,
+   "inboard": 8.35,
+   "ext": 15.0,
+   "hang": 5.35,
+   "source": "courtyard: PinHeader_2x06_P2.54mm_Horizontal; hang = two 2.54 rows + 0.27 plug wall, not verified",
+   "hang_used": 2.7,
+   "edges": {
+    "west": {
+     "legal_starts": [
+      [
+       70.0,
+       86.7
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "east": {
+     "legal_starts": [
+      [
+       70.0,
+       89.7
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "north": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "J11",
+      "L1"
+     ]
+    },
+    "south": {
+     "legal_starts": [],
+     "blocked_by": [
+      "case wall",
+      "J11",
+      "mounting-hole keep-out"
+     ]
+    }
+   }
+  },
+  {
+   "name": "JST PHD 2x6 2.0 mm, locking (S12B-PHDSS)",
+   "along": 14.9,
+   "inboard": 10.6,
+   "ext": 15.0,
+   "hang": null,
+   "source": "courtyard: JST_PHD_S12B-PHDSS; hang and plug not verified",
+   "hang_used": 2.7,
+   "edges": {
+    "west": {
+     "legal_starts": [
+      [
+       70.0,
+       88.0
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "east": {
+     "legal_starts": [
+      [
+       70.0,
+       91.0
+      ]
+     ],
+     "blocked_by": [
+      "mounting-hole keep-out"
+     ]
+    },
+    "north": {
+     "legal_starts": [],
+     "blocked_by": [
+      "mounting-hole keep-out",
+      "J11",
+      "L1"
+     ]
+    },
+    "south": {
+     "legal_starts": [],
+     "blocked_by": [
+      "case wall",
+      "mounting-hole keep-out",
+      "J11"
+     ]
+    }
+   }
+  }
+ ],
+ "obstacles": [
+  {
+   "kind": "box",
+   "ref": "L1",
+   "geom": [
+    30.348023,
+    30.290081,
+    65.088023,
+    62.780081
+   ],
+   "top": 26.1
+  },
+  {
+   "kind": "can",
+   "ref": "C70",
+   "geom": [
+    78.060889,
+    86.798686,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C86",
+   "geom": [
+    70.650604,
+    53.151964,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C88",
+   "geom": [
+    64.417008,
+    65.454877,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C71",
+   "geom": [
+    36.965313,
+    80.042269,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C78",
+   "geom": [
+    49.428099,
+    73.032147,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C87",
+   "geom": [
+    49.205322,
+    86.425729,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C74",
+   "geom": [
+    95.963423,
+    95.829956,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C75",
+   "geom": [
+    96.17896,
+    108.176994,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "can",
+   "ref": "C77",
+   "geom": [
+    81.497697,
+    97.916578,
+    5.0
+   ],
+   "top": 23.9
+  },
+  {
+   "kind": "box",
+   "ref": "C40",
+   "geom": [
+    80.620934,
+    66.812159,
+    91.610934,
+    80.102159
+   ],
+   "top": 19.9
+  },
+  {
+   "kind": "box",
+   "ref": "C69",
+   "geom": [
+    79.335847,
+    42.311733,
+    90.325847,
+    55.601733
+   ],
+   "top": 19.9
+  },
+  {
+   "kind": "box",
+   "ref": "C85",
+   "geom": [
+    78.77183,
+    55.701774,
+    92.06183,
+    66.691774
+   ],
+   "top": 19.9
+  }
+ ]
+}

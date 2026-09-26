@@ -1,0 +1,84 @@
+[
+ {
+  "fet": "M1",
+  "drive_net": "Net-(U19-OUTA)",
+  "driver_to_R": 1.4727922061357814,
+  "gate_net": "GATE_M1",
+  "R_to_gate": 1.1999999999999957
+ },
+ {
+  "fet": "M7",
+  "drive_net": "Net-(D2--)",
+  "driver_to_R": 28.091167824541373,
+  "gate_net": "GATE_M7",
+  "R_to_gate": 5.089949493661167,
+  "return_to_source_copper": 19.811269837220813,
+  "drive_beside_return_share": 0.7624594317234036
+ },
+ {
+  "fet": "M2",
+  "drive_net": "Net-(D11--)",
+  "driver_to_R": 25.402438661760428,
+  "gate_net": "GATE_M2",
+  "R_to_gate": 4.469848480983498,
+  "return_to_source_copper": 14.32842712474618,
+  "drive_beside_return_share": 0.0
+ },
+ {
+  "fet": "M6",
+  "drive_net": "Net-(D8--)",
+  "driver_to_R": 28.45634718610169,
+  "gate_net": "GATE_M6",
+  "R_to_gate": 3.37279220613579,
+  "return_to_source_copper": 14.82253967444161,
+  "drive_beside_return_share": 0.3709841406728154
+ },
+ {
+  "fet": "M3",
+  "drive_net": "Net-(D14--)",
+  "driver_to_R": 31.203657992645923,
+  "gate_net": "GATE_M3",
+  "R_to_gate": 4.045584412271571,
+  "return_to_source_copper": 9.949747468305834,
+  "drive_beside_return_share": 0.0
+ },
+ {
+  "fet": "M5",
+  "drive_net": "Net-(D22--)",
+  "driver_to_R": 14.656854249492385,
+  "gate_net": "GATE_M5",
+  "R_to_gate": 1.2999999999999972,
+  "return_to_source_copper": 17.958073580374318,
+  "drive_beside_return_share": 0.23053092879263562
+ },
+ {
+  "fet": "M4",
+  "drive_net": "Net-(D13--)",
+  "driver_to_R": 32.795331880577415,
+  "gate_net": "GATE_M4",
+  "R_to_gate": 1.0999999999999943,
+  "return_to_source_copper": 25.630865786510114,
+  "drive_beside_return_share": 0.0
+ },
+ {
+  "fet": "M10",
+  "drive_net": "Net-(U11-OUT)",
+  "driver_to_R": 2.114213562373093,
+  "gate_net": "Net-(M10-G)",
+  "R_to_gate": 1.4071067811865503
+ },
+ {
+  "fet": "M9",
+  "drive_net": "Net-(U12-OUT)",
+  "driver_to_R": 12.535533905932729,
+  "gate_net": "Net-(M9-G)",
+  "R_to_gate": 1.0999999999999943
+ },
+ {
+  "fet": "M8",
+  "drive_net": "Net-(U6-OUT)",
+  "driver_to_R": 17.54507934888375,
+  "gate_net": "Net-(M8-G)",
+  "R_to_gate": 1.0
+ }
+]

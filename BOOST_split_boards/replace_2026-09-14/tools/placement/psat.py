@@ -8,6 +8,10 @@ in order of how tightly they are tied (fewest anchor pads first is wrong; most s
 gate parts, sense parts, then decoupling, then the rest. Each part takes the nearest free spot
 (spiral on a 0.25 mm grid, rotations 0/90/180/270) on its preferred side, keeping clear of
 courtyards, the board edge and notch, screw washer keep-outs, and FET bodies on the bottom.
+Top-side parts taller than 3 mm also keep the tool-path radius around screws: LAYOUT.json keys
+tall_tab_mm / tall_standoff_mm (default 5.5 mm each, as psa5).
+CONFIG 'place_first' parts are placed before everything else (gate resistors, pulldowns and turn-off diodes
+at their gate pin); CONFIG 'either_side' parts try both sides and take the nearer free spot.
 """
 import sys, json, math
 import pmodel as M
@@ -31,9 +35,9 @@ occupied = {'F': [], 'B': []}
 for ref in L:
     for side, r, kind in rects_of(ref):
         occupied[side].append((r, ref))
-screws = [M.tab_hole(L, m) for m in SCREWED if m in L]
+screws = [M.tab_hole(L, m) + (res.get('tall_tab_mm', 5.5),) for m in SCREWED if m in L]
 for i, c in enumerate(res.get('standoffs', [])):
-    screws.append(tuple(c))
+    screws.append(tuple(c[:2]) + (res.get('tall_standoff_mm', 5.5),))
 
 
 def free(ref, pl):
@@ -49,8 +53,9 @@ def free(ref, pl):
                 break
         if not ok:
             break
-        for sx, sy in screws:
-            if M.rect_circle_dist(r, sx, sy) < 3.75:
+        for sx, sy, tall in screws:
+            lim = tall if (side == 'F' and M.HEIGHT.get(ref, 0) > 3) else 3.75     # washer; tall parts keep the tool path
+            if M.rect_circle_dist(r, sx, sy) < lim:
                 ok = False
                 break
         if not ok:
@@ -91,14 +96,17 @@ def anchor(ref):
 
 
 skip = set(cfg.get('skip', []))
+PLACE_FIRST = cfg.get('place_first', [])        # critical parts get the spots next to their anchor
+EITHER_SIDE = set(cfg.get('either_side', []))   # may go on either side: the nearer spot wins
 queue = []
 for ref in todo:
     if ref in skip:
         continue
     area = M.INV[ref]['cw'] * M.INV[ref]['ch']
-    queue.append((-area if area > 40 else 0.0, ref))     # big parts first
+    rank = PLACE_FIRST.index(ref) if ref in PLACE_FIRST else len(PLACE_FIRST)
+    queue.append((rank, -area if area > 40 else 0.0, ref))     # place_first in its own order, then big parts, then the rest
 queue.sort()
-queue = [ref for big, ref in queue]
+queue = [ref for rank, big, ref in queue]
 
 
 def ready(ref):
@@ -126,21 +134,27 @@ while queue:
     if anc is None:
         failed.append((ref, 'no anchor'))
         continue
-    side = 'B' if ref in B_SIDE else 'F'
-    best = None
-    for rad in [i * 0.25 for i in range(0, 161)]:
-        steps = max(1, int(2 * math.pi * rad / 0.5))
-        for k in range(steps):
-            ang = 2 * math.pi * k / steps
-            x, y = anc[0] + rad * math.cos(ang), anc[1] + rad * math.sin(ang)
-            for rot in (0, 90, 180, 270):
-                if free(ref, (x, y, rot, side)):
-                    best = (x, y, rot, side)
+    pref = 'B' if ref in B_SIDE else 'F'
+    sides = [pref, 'F' if pref == 'B' else 'B'] if ref in EITHER_SIDE else [pref]
+    best, best_rad = None, None
+    for side in sides:
+        for rad in [i * 0.25 for i in range(0, 161)]:
+            if best_rad is not None and rad >= best_rad:
+                break                      # the other side already has a nearer spot
+            hit = None
+            steps = max(1, int(2 * math.pi * rad / 0.5))
+            for k in range(steps):
+                ang = 2 * math.pi * k / steps
+                x, y = anc[0] + rad * math.cos(ang), anc[1] + rad * math.sin(ang)
+                for rot in (0, 90, 180, 270):
+                    if free(ref, (x, y, rot, side)):
+                        hit = (x, y, rot, side)
+                        break
+                if hit:
                     break
-            if best:
+            if hit:
+                best, best_rad = hit, rad
                 break
-        if best:
-            break
     if best is None:
         failed.append((ref, 'no room within 40 mm of (%.1f, %.1f)' % anc))
         continue

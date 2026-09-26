@@ -1,0 +1,22 @@
+board rasterised in 1.9 s
+loaded 4849 committed route items
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+ok   0err_hi            1.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.7
+ok   0err_hi            6.0 mm, 1 via(s) 0.5/0.3, w 0.20, gap 3.4
+rip  0err_hi          ripped Net-(U4-In+), Net-(U106C-B), IREF3, Net-(U102B-A), but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped 0A_hi, Net-(U4-In+), IREF3, Net-(U106C-B), Voltage_err_3, Net-(D26-+), Net-(U102B-A), 5V, but Net-(D26-+) then failed; undone
+rip  0err_hi          ripped Net-(D5--), Net-(U102C-A), Net-(D5-+), Net-(C8-Pad2), Net-(U102B-A), 5V, but 5V then failed; undone
+FAIL 0err_hi: island 2 (289 cells; R18.1) to island 3 (U4.1), gap 6.2 mm
+ok   0err_hi           48.6 mm, 4 via(s) 0.5/0.3, w 0.20, gap 25.8
+ok   0err_hi           34.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.5
+rip  0err_hi          ripped Net-(U4-In+), 5V, Net-(U102B-A), 0A_hi, but 5V then failed; undone
+rip  0err_hi          ripped 0A_hi, Net-(D5-+), Net-(D5--), 5V, Net-(C8-Pad2), Net-(U102C-A), Net-(U102B-A), Net-(U23-In+), but 5V then failed; undone
+rip  0err_hi          ripped Net-(D5--), Net-(U102C-A), Net-(D5-+), Net-(C8-Pad2), Net-(U102B-A), 5V, but 5V then failed; undone
+FAIL 0err_hi: island 0 (8974 cells; R66.1 D1.2 R18.1 D3.1 +1) to island 1 (U4.1), gap 0.3 mm
+     0err_hi          done in 570.3 s (2 failed)
+tracks 4628, vias 391, failures 2, 579 s

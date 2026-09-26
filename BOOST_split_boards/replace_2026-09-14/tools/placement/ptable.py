@@ -28,7 +28,8 @@ NOW = {
     'U11 IN- -> NT1 (net tie)': 25, 'U12 IN- -> NT2 (net tie)': 24, 'U6 IN- -> NT3 (net tie)': 13,
     'U11 OUT -> M10 gate': 27, 'U12 OUT -> M9 gate': 29, 'U6 OUT -> M8 gate': 42,
 }
-STAGE = {1: 'Input loop and M1', 2: 'LX node', 3: 'Switch pairs', 4: 'Output banks and LED pads', 5: 'LED sinks'}
+STAGE = {1: 'Input loop and M1', 2: 'LX node', 3: 'Switch pairs', 4: 'Output banks and LED pads', 5: 'LED sinks',
+         6: 'Gate loops', 7: 'Commutation loop (report)', 8: 'Driver bypass'}
 
 args = [a for a in sys.argv[1:] if not a.startswith('--goals=')]
 goals = {}

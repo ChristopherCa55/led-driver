@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-24T17:52:21",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "v18.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'PinSocket_2x15_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J10",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "287e1643-b0d0-422a-b42a-2838077dc46c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C87 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.845322,
+                        "y": 82.130166
+                    },
+                    "uuid": "de102786-8cbf-42a3-b7a1-8be012b170b3"
+                },
+                {
+                    "description": "Segment of C71 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815313,
+                        "y": 82.802269
+                    },
+                    "uuid": "e7a5781f-b266-4e6a-86a9-b3cfc06b7d95"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C86 on F.Silkscreen",
+                    "pos": {
+                        "x": 67.890604,
+                        "y": 60.001964
+                    },
+                    "uuid": "6b2b3db1-075b-4080-9dce-15bb2c005fe6"
+                },
+                {
+                    "description": "Segment of C88 on F.Silkscreen",
+                    "pos": {
+                        "x": 68.712571,
+                        "y": 60.094877
+                    },
+                    "uuid": "79aef992-d6fc-4b2f-a196-8b4ede204af9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

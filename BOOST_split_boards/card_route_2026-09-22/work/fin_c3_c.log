@@ -1,0 +1,34 @@
+board rasterised in 1.8 s
+loaded 3956 committed route items
+first: 6 nets from earlier passes routed ahead of the plane fan-outs
+rip  Net-(U106B-B)    ripped Net-(D25-+), analog_5V, Net-(U106A-B), Net-(U106C-B), but analog_5V then failed; undone
+rip  Net-(U106B-B)    ripped analog_5V, Net-(D25-+), Net-(U106C-B), Output2_drain, Net-(U106A-B), Net-(U13-In-), Net-(U26C-P2B), Net-(U24-In+), but Net-(U24-In+) then failed; undone
+rip  Net-(U106B-B)    ripped and re-routed Net-(D25-+), Net-(U102B-A)
+     ok   Net-(D25-+)        4.9 mm, 2 via(s) 0.5/0.3, w 0.20, gap 2.3
+     ok   Net-(D25-+)       11.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 9.1
+     ok   Net-(D25-+)       11.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 10.3
+     ok   Net-(U102B-A)     15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 14.1
+     ok   Net-(U102B-A)     20.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 19.1
+     Net-(U106B-B)    done in 147.0 s
+rip  .1Vout_3         ripped Net-(U13-In-), Net-(D26-+), Voltage_err_3, Output2_drain, but Voltage_err_3 then failed; undone
+rip  .1Vout_3         ripped Net-(U106C-B), Voltage_err_3, analog_5V, Net-(U13-In-), Net-(D26-+), Net-(U103B-Y), Net-(U23-In+), Net-(U106A-B), but Voltage_err_3 then failed; undone
+rip  .1Vout_3         ripped Net-(U106C-B), Output3_drain, but Net-(U106C-B) then failed; undone
+FAIL .1Vout_3: island 0 (924 cells; R42.1 R43.1) to island 1 (R39.2), gap 2.7 mm
+     .1Vout_3         done in 39.6 s (1 failed)
+rip  Voltage_err_3    ripped Net-(U106B-B), Net-(U24-In+), Net-(U103A-A), analog_5V, but Net-(U106B-B) then failed; undone
+rip  Voltage_err_3    ripped Net-(U24-In+), Net-(U106B-B), analog_5V, Net-(U13-In-), Net-(U103A-A), Net-(D26-+), IREF2, Net-(U26A-P0B), but Net-(U106B-B) then failed; undone
+rip  Voltage_err_3    ripped Net-(U13-In-), analog_5V, Net-(U106B-B), Net-(U26A-P0B), IREF2, but Net-(U106B-B) then failed; undone
+FAIL Voltage_err_3: island 0 (1433 cells; R45.1 R40.1) to island 1 (U13.1), gap 4.5 mm
+     Voltage_err_3    done in 58.2 s (1 failed)
+ok   IREF1             42.2 mm, 5 via(s) 0.5/0.3, w 0.20, gap 26.3
+     IREF1            done in 1.6 s
+rip  SDA              ripping M1_ON, Net-(U26B-P1B), Net-(U26E-HVC{slash}A0), SCL did not free a path
+rip  SDA              ripping Net-(U26E-HVC{slash}A0), Net-(U26E-~{RESET}), M1_ON, Net-(U26B-P1B), analog_5V, SCL, out_3_on, RESET- did not free a path
+rip  SDA              ripped 12V, Voltage_err_1, .1Vref_1, Net-(U26A-P0B), IREF2, IREF2_input, IREF3, analog_5V, Net-(U3-In-), .1Vref_2, .1Vref_3, Reset_raw, but analog_5V then failed; undone
+FAIL SDA: island 0 (1246 cells; J9.8) to island 1 (U26.6), gap 11.1 mm
+     SDA              done in 122.3 s (1 failed)
+tracks 3616, vias 416, failures 3, 377 s
+
+real	6m17.483s
+user	0m0.000s
+sys	0m0.000s

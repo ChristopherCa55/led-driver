@@ -1,0 +1,23 @@
+board rasterised in 1.9 s
+loaded 4764 committed route items
+first: 3 nets from earlier passes routed ahead of the plane fan-outs
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+ok   Net-(C8-Pad2)      1.0 mm, 0 via(s), w 0.20, gap 0.7
+ok   Net-(C8-Pad2)     25.9 mm, 3 via(s) 0.5/0.3, w 0.20, gap 22.0
+     Net-(C8-Pad2)    done in 1.1 s
+ok   Net-(D24-+)        2.1 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.8
+ok   Net-(D24-+)       69.1 mm, 6 via(s) 0.5/0.3, w 0.20, gap 45.2
+     Net-(D24-+)      done in 2.4 s
+ok   Net-(D5--)         0.9 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.5
+ok   Net-(D5--)        40.0 mm, 3 via(s) 0.5/0.3, w 0.20, gap 31.5
+     Net-(D5--)       done in 1.7 s
+tracks 4661, vias 393, failures 0, 14 s
+
+real	0m14.465s
+user	0m0.015s
+sys	0m0.000s

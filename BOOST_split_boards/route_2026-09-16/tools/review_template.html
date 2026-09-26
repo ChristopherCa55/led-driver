@@ -1,0 +1,254 @@
+<title>BOOST Power Copper Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --ground: #f3f5f1; --surface: #ffffff; --sunk: #e8ece6; --ink: #1a2320; --ink-2: #4a5550; --ink-3: #75807a;
+  --rule: #c9d1cb; --mask: #1f4a38; --copper: #a95f24; --copper-soft: #f4e6d9; --ok: #2d6e47; --ok-soft: #dcefe2;
+  --miss: #a3322a; --miss-soft: #f7e0dd; --warn: #8a5a00; --warn-soft: #f6ecd3;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #111614; --surface: #18201c; --sunk: #202a25; --ink: #e2e8e3; --ink-2: #aab5ae; --ink-3: #7f8a84;
+    --rule: #34403a; --mask: #6fb393; --copper: #e0955a; --copper-soft: #3a2a1d; --ok: #7ccf9c; --ok-soft: #1d3527;
+    --miss: #f08a80; --miss-soft: #3e2220; --warn: #e2b04f; --warn-soft: #372c16;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #111614; --surface: #18201c; --sunk: #202a25; --ink: #e2e8e3; --ink-2: #aab5ae; --ink-3: #7f8a84;
+  --rule: #34403a; --mask: #6fb393; --copper: #e0955a; --copper-soft: #3a2a1d; --ok: #7ccf9c; --ok-soft: #1d3527;
+  --miss: #f08a80; --miss-soft: #3e2220; --warn: #e2b04f; --warn-soft: #372c16;
+}
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.55;
+  padding: 0 20px; margin: 0; -webkit-font-smoothing: antialiased; }
+.page { max-width: 1080px; margin: 0 auto; padding-block: 28px 64px; display: grid; gap: 44px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: 0.01em; text-wrap: balance; margin: 0; line-height: 1.1; }
+h2 { font-size: 30px; padding-bottom: 8px; border-bottom: 2px solid var(--mask); }
+h3 { font-size: 21px; }
+p { margin: 0; max-width: 70ch; }
+.mono, .num, code { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+code { font-size: 0.9em; background: var(--sunk); padding: 1px 5px; border-radius: 3px; }
+section { display: grid; gap: 18px; }
+.lede { color: var(--ink-2); }
+.titleblock { display: grid; grid-template-columns: 2.2fr repeat(4, 1fr); border: 1.5px solid var(--ink); background: var(--surface); }
+.titleblock > div { padding: 10px 14px; border-left: 1px solid var(--ink); display: grid; gap: 2px; align-content: start; }
+.titleblock > div:first-child { border-left: 0; }
+.tb-label { font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+.tb-value { font-family: var(--mono); font-size: 14px; }
+.titleblock h1 { font-size: 34px; }
+.titleblock .status { background: var(--copper-soft); }
+.titleblock .status .tb-value { color: var(--copper); font-weight: 500; }
+@media (max-width: 760px) {
+  .titleblock { grid-template-columns: 1fr 1fr; }
+  .titleblock > div:first-child { grid-column: 1 / -1; }
+  .titleblock > div { border-left: 0; border-top: 1px solid var(--ink); }
+  .titleblock > div:first-child { border-top: 0; }
+}
+.readings { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.reading { padding: 14px 16px; display: grid; gap: 4px; border-left: 1px solid var(--rule); align-content: start; }
+.reading:first-child { border-left: 0; padding-left: 0; }
+.reading .v { font-family: var(--display); font-size: 32px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+.reading .k { font-size: 13px; color: var(--ink-2); }
+.v.good { color: var(--ok); } .v.bad { color: var(--miss); } .v.copper { color: var(--copper); }
+@media (max-width: 760px) { .readings { grid-template-columns: 1fr 1fr; } .reading:nth-child(3) { border-left: 0; padding-left: 0; } }
+.decisions { display: grid; gap: 14px; }
+.decision { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; display: grid; gap: 12px; }
+.decision header { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.decision .q { font-family: var(--display); font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--copper); border: 1px solid var(--copper); border-radius: 3px; padding: 1px 7px; }
+.decision ul { margin: 0; padding-left: 20px; display: grid; gap: 4px; max-width: 76ch; }
+.decision .rec { color: var(--ink-2); font-size: 14px; }
+.decision .rec strong { color: var(--ink); }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+thead th { font-family: var(--display); font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink-2); background: var(--sunk); white-space: nowrap; }
+thead tr.band th { background: var(--ground); text-align: center; border-bottom: 0; color: var(--ink); font-size: 14px; }
+tbody tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+td.dim { color: var(--ink-3); }
+td.where { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
+td.fail { color: var(--miss); font-weight: 600; background: var(--miss-soft); }
+tr.stage th { font-family: var(--display); font-size: 16px; font-weight: 600; background: var(--ground); color: var(--mask); padding-top: 12px; }
+tr.missrow td.path { box-shadow: inset 3px 0 0 var(--miss); }
+td.path { white-space: nowrap; }
+.chip { display: inline-block; font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 0 7px; border-radius: 3px; line-height: 1.6; }
+.chip.ok { color: var(--ok); background: var(--ok-soft); } .chip.miss { color: var(--miss); background: var(--miss-soft); }
+.chip.warn { color: var(--warn); background: var(--warn-soft); }
+figure { margin: 0; display: grid; gap: 8px; }
+figure img { width: 100%; max-width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--rule); background: #ffffff; display: block; }
+figcaption { font-size: 13px; color: var(--ink-2); max-width: 76ch; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; max-width: 76ch; }
+.note { font-size: 13px; color: var(--ink-3); max-width: 76ch; }
+.files { font-family: var(--mono); font-size: 13px; display: grid; gap: 3px; overflow-wrap: anywhere; }
+a { color: var(--copper); }
+:focus-visible { outline: 2px solid var(--copper); outline-offset: 2px; }
+</style>
+
+<div class="page">
+
+<header class="titleblock" aria-label="Title block">
+  <div><span class="tb-label">Board</span><h1>BOOST power board: power copper</h1></div>
+  <div><span class="tb-label">Copper</span><span class="tb-value">{{VERSION}} · p15_b10_k2</span></div>
+  <div><span class="tb-label">Layers</span><span class="tb-value">8 · 1.6 mm</span></div>
+  <div><span class="tb-label">Date</span><span class="tb-value">2026-09-16</span></div>
+  <div class="status"><span class="tb-label">Status</span><span class="tb-value">★ copper weight</span></div>
+</header>
+
+<section>
+  <p class="lede">Handoff step 5. The power copper is drawn on the accepted placement and solved at 1 oz and 2 oz outer copper, so you can choose the weight. Nothing shipped has been replaced. The board is <code>BOOST_power_route_{{VERSION}}_NOT_FOR_FAB.kicad_pcb</code>. Signals are not routed yet.</p>
+  <div class="readings">
+    <div class="reading"><span class="v good">0</span><span class="k">DRC errors on the saved file, no exclusions, no rule weakened (43 silk warnings carried over from placement)</span></div>
+    <div class="reading"><span class="v bad">{{FAIL_B_NECK}} + {{FAIL_B_VIA}}</span><span class="k">branches failing at 1 oz: necks over 20 °C + branches with a via over rating</span></div>
+    <div class="reading"><span class="v copper">{{FAIL_C_NECK}} + {{FAIL_C_VIA}}</span><span class="k">still failing at 2 oz: three of the necks are FET-pin throats 1.1–1.7 mm long</span></div>
+    <div class="reading"><span class="v good">0.7 · 1.2 · 1.7</span><span class="k">nH copper loop inductance ch1 · ch2 · ch3, against 4.85 · 12.74 · 7.91 nH simulated</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Decisions for you</h2>
+  <div class="decisions">
+    <article class="decision">
+      <header><span class="q">★ Decide</span><h3>Copper weight: C (2 oz outer / 1 oz inner)</h3></header>
+      <p>Your rule was: choose B only if every neck is at most 20 °C and every via is within rating at 1 oz, otherwise C. At 1 oz, four branches have necks above 20 °C and four have vias over rating, so the rule gives <strong>C</strong>.</p>
+      <ul>
+        <li>The worst 1 oz necks are LX at the pins of M5 (58 °C), M1 (52 °C) and M6 (36 °C). At 2 oz they drop to 27, 24 and 22 °C, because the outer layers take a larger share of the current at each pin.</li>
+        <li>Via overloads barely change with copper weight, since plating is 20 µm either way. They need layout work at either weight (decision 3).</li>
+        <li>The JLCPCB quote from 2026-09-14 puts C at $141.68 against $106.68 for B (5 boards, before shipping). Once you choose, I write the stackup into the board file.</li>
+      </ul>
+      <p class="rec"><strong>Recommendation:</strong> C.</p>
+    </article>
+
+    <article class="decision">
+      <header><span class="q">★ Decide</span><h3>FET-pin throats that are still over 20 °C at 2 oz</h3></header>
+      <p>At M1.2 (24.4 °C, 1.1 mm long), M5.2 (26.9 °C, 1.3 mm) and M6.2 (22.2 °C, 1.7 mm), the LX current enters the pin through In2's copper in the gap between the neighbouring pins. LX is allowed only on F.Cu, In2 and B.Cu, and F.Cu is blocked at M5 and M6, so In2 carries 37–77 % of the current there. IPC-2221 treats every neck as an infinitely long conductor. Excluding necks shorter than 2 mm, the worst values at 2 oz are 15.2, 20.9 and 16.1 °C.</p>
+      <ul>
+        <li><strong>(a)</strong> Accept these three as short throats, judged by the long-neck figure.</li>
+        <li><strong>(b)</strong> Allow a small LX island, about 6 × 6 mm, on In3 and In5 around M1.2, M5.2 and M6.2 only, joined to In2 by vias. That adds two layers at each pin. It faces the In4 5 V plane with roughly 5 pF per island per layer, against the 232 pF the old pours had. This relaxes your "no LX on In3/In5" rule locally.</li>
+        <li><strong>(c)</strong> Keep the rule as written. I don't have a layout that gets these under 20 °C without (b) or a placement change.</li>
+      </ul>
+      <p class="rec"><strong>Recommendation:</strong> (b) if you are willing, otherwise (a).</p>
+    </article>
+
+    <article class="decision">
+      <header><span class="q">★ Decide</span><h3>Via crowding in the R1 and L1.2 via fields</h3></header>
+      <p>At 2 oz, 11 vias are over rating: 5 in R1.1's field (Vin, worst 1.59 A = 1.39×), and 6 split across R1.4's and L1.2's fields (rsense_lo, worst 1.39 A = 1.22×). All 20.7 A of the input current has to pass between F.Cu and the inner layers in these three pads. U19 (the M1 driver, on B.Cu) sits under R1 and L1.2, and its pins keep vias out of the east 2 mm of each pad. So the vias nearest the incoming current carry 2–3 times the field average. Larger 0.6 mm drills made this worse, because a larger barrel draws more current; a no-pour baffle on the inner layers moved the neck elsewhere.</p>
+      <ul>
+        <li><strong>(a)</strong> Move U19 about 4 mm west, clear of R1's pads, so the via fields cover the whole pads. That is a small placement change near the gate loop, so I would re-check M1's gate distances.</li>
+        <li><strong>(b)</strong> Accept vias up to 1.4× rating. By IPC scaling that is roughly a 20 °C barrel rise instead of 10 °C, in vias soldered into 5 × 5.6 mm pads.</li>
+      </ul>
+      <p class="rec"><strong>Recommendation:</strong> (a). I would test it before routing signals.</p>
+    </article>
+
+    <article class="decision">
+      <header><span class="q">★ Confirm</span><h3>Vin neck at M1's washer, and a use for In4</h3></header>
+      <p>The J1 → R1 DC path has one long neck: 23.7 °C at 2 oz, 10 mm long, on In3/In5 where M1's screw keep-out and the M1 pin column squeeze the inner Vin copper to about 10 mm per layer. The 5 V plane on In4 has no loads east of x ≈ 76 mm, so In4 could carry Vin there as a third inner layer.</p>
+      <p class="rec"><strong>Recommendation:</strong> allow Vin on In4 in the north-east corner only (x &gt; 76 mm, y &lt; 88 mm). The rest of In4 stays the 5 V plane.</p>
+    </article>
+
+    <article class="decision">
+      <header><span class="q">★ Confirm</span><h3>Solid zone connections on power pins</h3></header>
+      <p>Every power zone connects to its pads solidly: the TO-220 pins, the J1–J8 lugs and pads, and the capacitor and shunt pads. Thermal-relief spokes would put 15.8 A through four 0.5 mm spokes. The catch is hand soldering: a TO-220 pin joined solidly to two planes and three pours needs a preheated board or a high-power iron.</p>
+      <p class="rec"><strong>Recommendation:</strong> keep the connections solid, and note preheating in the build instructions.</p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h2>Solver table</h2>
+  <p>RMS currents from <code>ROUTING_SPEC.md</code> §3. For each branch the table gives resistance, the worst IPC-2221 rise at the narrowest equipotential band (neck), how long that neck is, and the worst via barrel current as a multiple of its rating (Ø0.40 0.97 A, Ø0.30 0.80 A, larger drills scaled by area<sup>0.725</sup>). Red cells exceed 20 °C or 1.0×. The location is the 2 oz neck, or the 1 oz neck if the 2 oz one is negligible.</p>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr class="band"><th></th><th></th><th colspan="4">B · 1 oz outer / 1 oz inner</th><th colspan="4">C · 2 oz outer / 1 oz inner</th><th></th></tr>
+        <tr><th>Branch</th><th class="num">I (A)</th><th class="num">R (mΩ)</th><th class="num">Neck °C</th><th class="num">len mm</th><th class="num">Worst via</th>
+            <th class="num">R (mΩ)</th><th class="num">Neck °C</th><th class="num">len mm</th><th class="num">Worst via</th><th>Neck at</th></tr>
+      </thead>
+      <tbody>
+{{ROWS}}
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Vin is solved twice. Holding the lugs and all three capacitors as one 1 V source, as the audit did, makes C69 supply nearly all the current and overloads its vias. Instead, the DC branch comes from J1 alone (18.4 A) and the ripple branch from the three capacitors (9.5 A = √(20.7² − 18.4²)). The output banks are solved with every capacitor and the LED pad as one 0 V sink, the audit's model.</p>
+</section>
+
+<section>
+  <h2>Commutation-loop inductance</h2>
+  <div class="two">
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Channel</th><th class="num">Over-plane 1 oz</th><th class="num">Over-plane 2 oz</th><th class="num">Audit method</th><th class="num">Squares</th><th class="num">Simulated</th></tr></thead>
+        <tbody>
+{{LROWS}}
+        </tbody>
+      </table>
+    </div>
+    <div style="display:grid;gap:10px">
+      <p>These are copper-only figures in nH, for the loop M1 drain → LX FET → shared source → rail FET → its 4.7 µF and 100 nF ceramics → GND → M1 source.</p>
+      <p><strong>Over-plane:</strong> the solved current of every layer is summed at each point and taken over the nearest GND plane at the current-weighted height: L = µ₀∫h·|J|²dA / I². <strong>Audit method:</strong> µ₀ · 0.221 mm · squares, over all four legs, which is how the 4.85 / 12.74 / 7.91 nH used in the simulations were derived. The two methods agree within 10 %.</p>
+      <p class="note">Not included: via barrels, pads, FET leads and die (the simulation's package model), or extra inductance where the plane is perforated under a leg. These go back to the simulation side for the M1 turn-off re-check. ch3 is now the longest loop, because LX runs 41 mm on In2 to M5.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The copper</h2>
+  <figure>
+    <img src="layers_{{VERSION}}.png" alt="Filled copper of F.Cu, In2, In3, In5, B.Cu and the In1 GND plane, coloured by net">
+    <figcaption>F.Cu, In2, In3, In5, B.Cu and In1 after zone fill (In6 matches In1; In4 is left for the 5 V plane). White dots are vias of other nets passing through, or antipads.</figcaption>
+  </figure>
+  <div class="two">
+    <ul class="plain">
+      <li><strong>In1, In6:</strong> GND planes only (checked: no copper of another net).</li>
+      <li><strong>In2:</strong> LX from L1 to M1/M7, west to M6 (looping round M6's pin row), and two paths south-east to M5. Also the Vin and rsense_lo corners north of the LX pour.</li>
+      <li><strong>In3, In5:</strong> Vin (J1 north to R1), rsense_lo, Vout_1 to J3, Vout_2 to J8, Vout_3 to J5, all with GND fill. No LX (checked).</li>
+      <li><strong>F.Cu:</strong> input loop pads, the LX strip beside M1/M7, the output banks, and the sink shunt links, with GND fill around everything else.</li>
+      <li><strong>B.Cu:</strong> D19 at M1, LX under M5 and M6, Vout under M2/M3/M4, the three LED drain runs, rsense_lo above U19, and Vin/GND under the lugs.</li>
+    </ul>
+    <ul class="plain">
+      <li>702 vias, all through-hole with unused annuli removed. Drills: 0.3 mm (2, at C72.2), 0.4 mm and 0.5 mm. No drill below 0.30 mm.</li>
+      <li>All copper is zones and vias, with no tracks yet. 149 connections are unconnected: signals plus low-current power pins (J10 sense pins, regulator inputs, driver VSS and bootstrap parts). Step 6 routes them.</li>
+      <li>Footprints and pad nets match netlist <code>BOOST_9-15_rev3.net</code> (0 parity failures).</li>
+      <li>Rules, in the WIP project copy only: a Sense netclass for <code>ISNS_P/N</code> and <code>SNS_CH1–3</code>; <code>Net-(M8/M9/M10-S)</code> added to Power; and a <code>.kicad_dru</code> that only tightens (every via drill ≥ 0.30 mm, high-current vias ≥ 0.40 mm, Power tracks ≥ 0.5 mm, high-current tracks ≥ 1.0 mm). The shipped <code>BOOST_power.kicad_pro</code> is unchanged.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Method and checks</h2>
+  <div class="two">
+    <ul class="plain">
+      <li>KiCad 10 Python loads the saved board, refills every zone and exports each net's copper per layer (zone fills, pads, vias).</li>
+      <li>The system Python solver rasterises that copper on a 0.1 mm grid (0.05 mm for the shunt links, 0.2 mm for GND). Plated barrels (20 µm) join the layers, the terminal pads are held as equipotentials, and SuperLU solves the conductance mesh.</li>
+      <li>Necks use the co-area formula: cross-section per layer is ∫|∇φ|dA / Δφ, averaged over five equipotential bands.</li>
+      <li>Validation: a 10 × 2 mm strip is within 0.5 % of ρL/wt with the exact IPC rise, and a single via carries its whole branch. A known 1 mm × 1 mm constriction reads 55.8 °C against 53.4 °C expected. Without band averaging the same neck read 78.8 °C, so that averaging is applied throughout.</li>
+    </ul>
+    <ul class="plain">
+      <li>Stackups: JLCPCB 8-layer 1.6 mm with no impedance requirement, from gsuberland/jlcpcb_autogenerated_stackups. Outer copper 0.035 or 0.070 mm, inner "1 oz" 0.030 mm finished (not 0.035). F.Cu–In1 is 0.109 mm at B and 0.203 mm at C.</li>
+      <li>IPC-2221: k = 0.048 outer and 0.024 inner. Via ratings are for a 10 °C rise.</li>
+      <li>Nine design iterations. Found along the way: C86's via walls across In2 LX, GND via walls across the inner Vin column, and C4/C76 (ch3 ceramics) isolated from M4.2 by the J1 pad and M4.3. All fixed.</li>
+      <li>Not yet done: the zone refill/reload/save cycle for release, the stackup in the file, signal routing, and the 5 V plane.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Files</h2>
+  <div class="files">
+    <span>BOOST_split_boards/route_2026-09-16/BOOST_power_route_{{VERSION}}_NOT_FOR_FAB.kicad_pcb (.kicad_pro, .kicad_dru)</span>
+    <span>BOOST_split_boards/route_2026-09-16/copper_{{VERSION}}.py: the copper spec (zones and via fields, readable)</span>
+    <span>BOOST_split_boards/route_2026-09-16/tools/: build_copper, loop_build.sh, export_copper, solve_copper, loop_inductance, layer_checks</span>
+    <span>BOOST_split_boards/route_2026-09-16/work/{{VERSION}}_B.json, {{VERSION}}_C.json, {{VERSION}}_L.json: full solver results</span>
+  </div>
+</section>
+
+</div>

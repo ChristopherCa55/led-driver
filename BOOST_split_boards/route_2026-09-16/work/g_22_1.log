@@ -1,0 +1,99 @@
+board rasterised in 6.0 s
+loaded 1920 committed route items
+     SNS_CH1          done in 0.0 s
+loaded 1920 committed route items
+     SNS_CH1          done in 0.0 s
+     SNS_CH2          done in 0.0 s
+     SNS_CH1          done in 0.0 s
+     SNS_CH2          done in 0.0 s
+     SNS_CH3          done in 0.0 s
+     SNS_CH2          done in 0.0 s
+     SNS_CH3          done in 0.0 s
+     ISNS_P           done in 0.0 s
+     SNS_CH3          done in 0.0 s
+     ISNS_P           done in 0.0 s
+     ISNS_N           done in 0.0 s
+     ISNS_N           done in 0.0 s
+FAIL m2_source: island 0 (91 cells; R76.1) to island 1 (R75.1 M7.3 C51.2 M2.3 +3), gap 0.0 mm
+     m2_source        done in 5.2 s (1 failed)
+FAIL m2_source: island 0 (91 cells; R76.1) to island 1 (R75.1 M7.3 C51.2 M2.3 +3), gap 0.0 mm
+     m2_source        done in 5.2 s (1 failed)
+     m3_source        done in 0.0 s
+     m2_source        done in 5.2 s (1 failed)
+     m3_source        done in 0.0 s
+     m4_source        done in 0.0 s
+fan  GND              U15.4: no via reachable
+fan  GND              U15.5: no via reachable
+     FANOUT:GND       1 vias, 4 pads skipped, 0.6 s
+fan  GND              U15.5: no via reachable
+     FANOUT:GND       1 vias, 4 pads skipped, 0.6 s
+     Net-(U19-OUTA)   done in 0.0 s
+     FANOUT:GND       1 vias, 4 pads skipped, 0.6 s
+     Net-(U19-OUTA)   done in 0.0 s
+     GATE_M1          done in 0.0 s
+     Net-(U19-OUTA)   done in 0.0 s
+     GATE_M1          done in 0.0 s
+     Net-(U19-OUTB)   done in 0.0 s
+rip  Net-(D2--)       ripped m2_source, but m2_source then failed; undone
+FAIL Net-(D2--): island 0 (149 cells; U15.10) to island 2 (D2.1), gap 8.5 mm
+     Net-(D2--)       done in 66.8 s (3 failed)
+rip  GATE_M7          ripping m2_source did not free a path
+FAIL GATE_M7: island 0 (863 cells; M7.1 R60.2 D2.2) to island 1 (R76.2), gap 2.9 mm
+     GATE_M7          done in 19.9 s (1 failed)
+rip  Net-(D11--)      ripped GATE_M2, m2_source, Net-(U15-VDDA), but m2_source then failed; undone
+FAIL Net-(D11--): island 1 (147 cells; U15.15) to island 2 (D11.1), gap 16.5 mm
+     Net-(D11--)      done in 67.9 s (3 failed)
+FAIL Net-(D11--): island 1 (147 cells; U15.15) to island 2 (D11.1), gap 16.5 mm
+     Net-(D11--)      done in 67.9 s (3 failed)
+     GATE_M2          done in 0.0 s
+     Net-(D11--)      done in 67.9 s (3 failed)
+     GATE_M2          done in 0.0 s
+     Net-(D8--)       done in 0.0 s
+     GATE_M2          done in 0.0 s
+     Net-(D8--)       done in 0.0 s
+     GATE_M6          done in 0.0 s
+     Net-(D8--)       done in 0.0 s
+     GATE_M6          done in 0.0 s
+     Net-(D14--)      done in 0.0 s
+     GATE_M6          done in 0.0 s
+     Net-(D14--)      done in 0.0 s
+     GATE_M3          done in 0.0 s
+     Net-(D14--)      done in 0.0 s
+     GATE_M3          done in 0.0 s
+     Net-(D22--)      done in 0.0 s
+     GATE_M3          done in 0.0 s
+     Net-(D22--)      done in 0.0 s
+     GATE_M5          done in 0.1 s
+     Net-(D22--)      done in 0.0 s
+     GATE_M5          done in 0.1 s
+     Net-(D13--)      done in 0.0 s
+     GATE_M5          done in 0.1 s
+     Net-(D13--)      done in 0.0 s
+     GATE_M4          done in 0.0 s
+     Net-(D13--)      done in 0.0 s
+     GATE_M4          done in 0.0 s
+     Net-(U11-OUT)    done in 0.0 s
+     GATE_M4          done in 0.0 s
+     Net-(U11-OUT)    done in 0.0 s
+     Net-(M10-G)      done in 0.0 s
+     Net-(U11-OUT)    done in 0.0 s
+     Net-(M10-G)      done in 0.0 s
+     Net-(U12-OUT)    done in 0.0 s
+     Net-(M10-G)      done in 0.0 s
+     Net-(U12-OUT)    done in 0.0 s
+     Net-(M9-G)       done in 0.0 s
+     Net-(U12-OUT)    done in 0.0 s
+     Net-(M9-G)       done in 0.0 s
+     Net-(U6-OUT)     done in 0.0 s
+     Net-(M9-G)       done in 0.0 s
+     Net-(U6-OUT)     done in 0.0 s
+     Net-(M8-G)       done in 0.0 s
+     Net-(U6-OUT)     done in 0.0 s
+     Net-(M8-G)       done in 0.0 s
+     Net-(D10--)      done in 0.0 s
+     Net-(M8-G)       done in 0.0 s
+     Net-(D10--)      done in 0.0 s
+     Net-(D21--)      done in 0.0 s
+     Net-(D10--)      done in 0.0 s
+     Net-(D21--)      done in 0.0 s
+     Net-(D9--)       done in 0.0 s

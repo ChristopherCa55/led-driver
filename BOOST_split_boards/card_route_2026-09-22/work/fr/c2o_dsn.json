@@ -1,0 +1,428 @@
+{
+ "board": "work/pre_c2o.kicad_pcb",
+ "keepouts": [
+  {
+   "kind": "via",
+   "net": "Current",
+   "dist": 2.0,
+   "polygons": 1,
+   "holes_filled": 0
+  },
+  {
+   "kind": "via",
+   "net": "Net-(U2-In+)",
+   "dist": 2.0,
+   "polygons": 1,
+   "holes_filled": 0
+  },
+  {
+   "kind": "via",
+   "net": "V_err",
+   "dist": 0.3,
+   "polygons": 1,
+   "holes_filled": 1
+  },
+  {
+   "kind": "wire",
+   "net": "Current",
+   "layers": [
+    "B.Cu",
+    "In4.Cu",
+    "In5.Cu"
+   ],
+   "dist": 2.0,
+   "polygons": 1,
+   "holes_filled": 0
+  },
+  {
+   "kind": "wire",
+   "net": "Net-(U2-In+)",
+   "layers": [
+    "In4.Cu",
+    "In5.Cu"
+   ],
+   "dist": 2.0,
+   "polygons": 1,
+   "holes_filled": 0
+  },
+  {
+   "kind": "npth",
+   "count": 6,
+   "dist": 0.3
+  },
+  {
+   "kind": "edge",
+   "box": [
+    45.8405,
+    69.9726,
+    90.9405,
+    115.0726
+   ],
+   "dist": 0.3
+  }
+ ],
+ "pads_inside": [
+  {
+   "keepout": "via Current",
+   "pad": "U5.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "5/21"
+  },
+  {
+   "keepout": "via Current",
+   "pad": "U2.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "via Current",
+   "pad": "J11.22",
+   "net": "analog_5V",
+   "cls": "railA",
+   "side": "B",
+   "points_inside": "4/34"
+  },
+  {
+   "keepout": "via Current",
+   "pad": "J11.26",
+   "net": "IREF1_input",
+   "cls": "analog",
+   "side": "B",
+   "points_inside": "4/34"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "U28.14",
+   "net": "Verr1",
+   "cls": "analog",
+   "side": "F",
+   "points_inside": "10/21"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "U28.16",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "F",
+   "points_inside": "9/21"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "R18.1",
+   "net": "0err_hi",
+   "cls": "logic",
+   "side": "B",
+   "points_inside": "16/21"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "C24.1",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "U5.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "U2.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "5/21"
+  },
+  {
+   "keepout": "via Net-(U2-In+)",
+   "pad": "R17.2",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "via V_err",
+   "pad": "U28.10",
+   "net": "Net-(U102C-A)",
+   "cls": "logic",
+   "side": "F",
+   "points_inside": "7/21"
+  },
+  {
+   "keepout": "via V_err",
+   "pad": "U28.11",
+   "net": "Net-(U102B-A)",
+   "cls": "logic",
+   "side": "F",
+   "points_inside": "12/21"
+  },
+  {
+   "keepout": "via V_err",
+   "pad": "U28.14",
+   "net": "Verr1",
+   "cls": "analog",
+   "side": "F",
+   "points_inside": "10/21"
+  },
+  {
+   "keepout": "via V_err",
+   "pad": "U5.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "10/21"
+  },
+  {
+   "keepout": "via V_err",
+   "pad": "U4.1",
+   "net": "0err_hi",
+   "cls": "logic",
+   "side": "B",
+   "points_inside": "4/21"
+  },
+  {
+   "keepout": "via V_err",
+   "pad": "U4.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "2/21"
+  },
+  {
+   "keepout": "wire Current",
+   "pad": "U5.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "5/21"
+  },
+  {
+   "keepout": "wire Current",
+   "pad": "U2.5",
+   "net": "5V",
+   "cls": "p5v",
+   "side": "B",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "wire Current",
+   "pad": "J11.22",
+   "net": "analog_5V",
+   "cls": "railA",
+   "side": "B",
+   "points_inside": "4/34"
+  },
+  {
+   "keepout": "wire Current",
+   "pad": "J11.26",
+   "net": "IREF1_input",
+   "cls": "analog",
+   "side": "B",
+   "points_inside": "4/34"
+  },
+  {
+   "keepout": "logic clearance Net-(U2-In+)",
+   "pad": "R18.1",
+   "net": "0err_hi",
+   "cls": "logic",
+   "side": "B",
+   "points_inside": "16/21"
+  },
+  {
+   "keepout": "logic clearance V_err",
+   "pad": "U28.10",
+   "net": "Net-(U102C-A)",
+   "cls": "logic",
+   "side": "F",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "logic clearance V_err",
+   "pad": "U28.11",
+   "net": "Net-(U102B-A)",
+   "cls": "logic",
+   "side": "F",
+   "points_inside": "21/21"
+  },
+  {
+   "keepout": "logic clearance V_err",
+   "pad": "U4.1",
+   "net": "0err_hi",
+   "cls": "logic",
+   "side": "B",
+   "points_inside": "21/21"
+  }
+ ],
+ "logic_clearance_layers": {
+  "Net-(U2-In+)": [
+   "F.Cu",
+   "In5.Cu",
+   "B.Cu"
+  ],
+  "V_err": [
+   "F.Cu",
+   "B.Cu"
+  ]
+ },
+ "pad_centre_stubs": 168,
+ "classes": {
+  "logic": 44,
+  "analog": 37,
+  "sense": 6,
+  "rail12": 0,
+  "railA": 1,
+  "gnd": 1,
+  "p5v": 1,
+  "sens_cur": 1,
+  "sens_inp": 1,
+  "sens_verr": 1,
+  "nc": 28,
+  "done": 12
+ },
+ "class_class": [
+  [
+   "logic",
+   "sens_inp",
+   2000,
+   [
+    "F.Cu",
+    "In5.Cu",
+    "B.Cu"
+   ]
+  ],
+  [
+   "logic",
+   "sens_verr",
+   2000,
+   [
+    "F.Cu",
+    "B.Cu"
+   ]
+  ],
+  [
+   "sense",
+   "logic",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "analog",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "railA",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "gnd",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "p5v",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "sens_cur",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "sens_inp",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "sens_verr",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "nc",
+   250,
+   null
+  ],
+  [
+   "sense",
+   "done",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "logic",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "analog",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "railA",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "p5v",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "sens_cur",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "sens_inp",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "sens_verr",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "nc",
+   250,
+   null
+  ],
+  [
+   "gnd",
+   "done",
+   250,
+   null
+  ]
+ ],
+ "keepout_polygons": 109
+}

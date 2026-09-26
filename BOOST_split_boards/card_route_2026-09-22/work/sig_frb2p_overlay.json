@@ -1,0 +1,70 @@
+{
+ "rows": [
+  {
+   "check": "J11 pads on J10 pads",
+   "ok": true,
+   "detail": "30 pads, worst offset 0.0000 mm"
+  },
+  {
+   "check": "J11 on B.Cu",
+   "ok": true,
+   "detail": "B.Cu"
+  },
+  {
+   "check": "J10 on F.Cu (power board)",
+   "ok": true,
+   "detail": "F.Cu"
+  },
+  {
+   "check": "H1 on H5",
+   "ok": true,
+   "detail": "(60.6753, 76.5137), offset 0.0000 mm"
+  },
+  {
+   "check": "H2 on H6",
+   "ok": true,
+   "detail": "(75.0708, 75.7507), offset 0.0000 mm"
+  },
+  {
+   "check": "H3 on H7",
+   "ok": true,
+   "detail": "(54.4567, 106.4637), offset 0.0000 mm"
+  },
+  {
+   "check": "H4 on H8",
+   "ok": true,
+   "detail": "(85.1212, 109.5071), offset 0.0000 mm"
+  },
+  {
+   "check": "J11 locked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "H1 locked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "H2 locked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "H3 locked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "H4 locked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "check": "card outline = power-board card rect",
+   "ok": true,
+   "detail": "x 45.8905-90.8905, y 70.0226-115.0226 (outline centre lines)"
+  }
+ ],
+ "failed": 0
+}

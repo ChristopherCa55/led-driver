@@ -1,0 +1,322 @@
+{
+ "links": [
+  {
+   "cap": "C31.1",
+   "pin": "U19.16",
+   "what": "VDDA 12V",
+   "net": "12V",
+   "centre_mm": 2.8075257869563774,
+   "routed_mm": 2.897056274847716,
+   "vias": 2
+  },
+  {
+   "cap": "C31.2",
+   "pin": "U19.14",
+   "what": "VSSA GND",
+   "net": "GND",
+   "centre_mm": 2.483140609072516,
+   "routed_mm": 0.9071067811865545,
+   "vias": 0
+  },
+  {
+   "cap": "C51.1",
+   "pin": "U15.11",
+   "what": "VDDB",
+   "net": "Net-(U15-VDDA)",
+   "centre_mm": 5.505222988929691,
+   "routed_mm": 7.0899494936611624,
+   "vias": 2
+  },
+  {
+   "cap": "C51.2",
+   "pin": "U15.9",
+   "what": "VSSB",
+   "net": "m2_source",
+   "centre_mm": 6.432284066942315,
+   "routed_mm": 15.398276312834783,
+   "vias": 3
+  },
+  {
+   "cap": "C51.1",
+   "pin": "U15.16",
+   "what": "VDDA",
+   "net": "Net-(U15-VDDA)",
+   "centre_mm": 2.435666594146254,
+   "routed_mm": 1.1899494936611643,
+   "vias": 0
+  },
+  {
+   "cap": "C51.2",
+   "pin": "U15.14",
+   "what": "VSSA",
+   "net": "m2_source",
+   "centre_mm": 2.1038702236212186,
+   "routed_mm": 0.7000000000000028,
+   "vias": 0
+  },
+  {
+   "cap": "C18.1",
+   "pin": "U15.11",
+   "what": "VDDB",
+   "net": "Net-(U15-VDDA)",
+   "centre_mm": 6.084612480498653,
+   "routed_mm": 7.859797974644671,
+   "vias": 0
+  },
+  {
+   "cap": "C18.2",
+   "pin": "U15.9",
+   "what": "VSSB",
+   "net": "m2_source",
+   "centre_mm": 6.7334070720430965,
+   "routed_mm": 5.411269837220818,
+   "vias": 2
+  },
+  {
+   "cap": "C50.1",
+   "pin": "U10.11",
+   "what": "VDDB",
+   "net": "Net-(U10-VDDA)",
+   "centre_mm": 2.3995357141822278,
+   "routed_mm": 1.0485281374238498,
+   "vias": 0
+  },
+  {
+   "cap": "C50.2",
+   "pin": "U10.9",
+   "what": "VSSB",
+   "net": "m3_source",
+   "centre_mm": 3.012267724428889,
+   "routed_mm": 1.872792206135785,
+   "vias": 2
+  },
+  {
+   "cap": "C16.1",
+   "pin": "U10.11",
+   "what": "VDDB",
+   "net": "Net-(U10-VDDA)",
+   "centre_mm": 4.811471604783304,
+   "routed_mm": 2.179898987322322,
+   "vias": 0
+  },
+  {
+   "cap": "C16.2",
+   "pin": "U10.9",
+   "what": "VSSB",
+   "net": "m3_source",
+   "centre_mm": 4.597539799026867,
+   "routed_mm": 2.5727922061357806,
+   "vias": 2
+  },
+  {
+   "cap": "C61.1",
+   "pin": "U8.11",
+   "what": "VDDB",
+   "net": "Net-(U8-VDDA)",
+   "centre_mm": 2.167492768631082,
+   "routed_mm": 0.8999999999999915,
+   "vias": 0
+  },
+  {
+   "cap": "C61.2",
+   "pin": "U8.9",
+   "what": "VSSB",
+   "net": "m4_source",
+   "centre_mm": 2.188968675442392,
+   "routed_mm": 0.9828427124746075,
+   "vias": 0
+  },
+  {
+   "cap": "C60.1",
+   "pin": "U8.11",
+   "what": "VDDB",
+   "net": "Net-(U8-VDDA)",
+   "centre_mm": 4.256377662058194,
+   "routed_mm": 4.555634918610402,
+   "vias": 0
+  },
+  {
+   "cap": "C60.2",
+   "pin": "U8.9",
+   "what": "VSSB",
+   "net": "m4_source",
+   "centre_mm": 3.5642346670874563,
+   "routed_mm": 2.248528137423838,
+   "vias": 0
+  },
+  {
+   "cap": "C48.1",
+   "pin": "U19.3",
+   "what": "VCCI",
+   "net": "5V",
+   "centre_mm": 3.7914673497770006,
+   "routed_mm": null,
+   "vias": null
+  },
+  {
+   "cap": "C48.1",
+   "pin": "U19.8",
+   "what": "VCCI (pin 8, shorted to 3 inside)",
+   "net": "5V",
+   "centre_mm": 3.8068577940901602,
+   "routed_mm": 3.8041637631407093,
+   "vias": 0
+  },
+  {
+   "cap": "C48.2",
+   "pin": "U19.4",
+   "what": "GND",
+   "net": "GND",
+   "centre_mm": 4.028209054210691,
+   "routed_mm": null,
+   "vias": null
+  },
+  {
+   "cap": "C90.1",
+   "pin": "U10.3",
+   "what": "VCCI",
+   "net": "5V",
+   "centre_mm": 2.117320770132859,
+   "routed_mm": 0.7999999999999972,
+   "vias": 0
+  },
+  {
+   "cap": "C90.2",
+   "pin": "U10.4",
+   "what": "GND",
+   "net": "GND",
+   "centre_mm": 2.113384215810273,
+   "routed_mm": 0.8999999999999986,
+   "vias": 0
+  },
+  {
+   "cap": "C89.2",
+   "pin": "U8.3",
+   "what": "VCCI",
+   "net": "5V",
+   "centre_mm": 2.3469036073234832,
+   "routed_mm": 0.7999999999999972,
+   "vias": 0
+  },
+  {
+   "cap": "C89.1",
+   "pin": "U8.4",
+   "what": "GND",
+   "net": "GND",
+   "centre_mm": 2.354340464348345,
+   "routed_mm": 1.0,
+   "vias": 0
+  },
+  {
+   "cap": "C62.2",
+   "pin": "U15.3",
+   "what": "VCCI",
+   "net": "5V",
+   "centre_mm": 2.900416278970317,
+   "routed_mm": 1.4071067811865432,
+   "vias": 0
+  },
+  {
+   "cap": "C62.1",
+   "pin": "U15.4",
+   "what": "GND",
+   "net": "GND",
+   "centre_mm": 4.8436622457925385,
+   "routed_mm": null,
+   "vias": null
+  }
+ ],
+ "vcci_vias": [
+  {
+   "pad": "C48.1",
+   "net": "5V",
+   "via": [
+    65.05,
+    34.05
+   ],
+   "track_mm": 3.8041637631407093,
+   "centre_mm": 4.365561246850169,
+   "through_pads": [
+    "U19.6",
+    "U19.8"
+   ]
+  },
+  {
+   "pad": "C48.2",
+   "net": "GND",
+   "via": [
+    62.25,
+    35.55
+   ],
+   "track_mm": 0.0,
+   "centre_mm": 0.41907636535601067,
+   "through_pads": []
+  },
+  {
+   "pad": "C90.1",
+   "net": "5V",
+   "via": [
+    49.95,
+    42.55
+   ],
+   "track_mm": 0.0,
+   "centre_mm": 0.5202163011671221,
+   "through_pads": []
+  },
+  {
+   "pad": "C90.2",
+   "net": "GND",
+   "via": [
+    51.45,
+    43.35
+   ],
+   "track_mm": 0.0,
+   "centre_mm": 0.5129571132170759,
+   "through_pads": []
+  },
+  {
+   "pad": "C89.2",
+   "net": "5V",
+   "via": [
+    83.05,
+    103.85
+   ],
+   "track_mm": 0.0,
+   "centre_mm": 0.8483218728760965,
+   "through_pads": []
+  },
+  {
+   "pad": "C89.1",
+   "net": "GND",
+   "via": [
+    82.15,
+    106.85
+   ],
+   "track_mm": 1.5242640687119189,
+   "centre_mm": 2.319407251864143,
+   "through_pads": []
+  },
+  {
+   "pad": "C62.2",
+   "net": "5V",
+   "via": [
+    56.65,
+    56.75
+   ],
+   "track_mm": 0.0,
+   "centre_mm": 0.528469495448889,
+   "through_pads": []
+  },
+  {
+   "pad": "C62.1",
+   "net": "GND",
+   "via": [
+    57.35,
+    58.25
+   ],
+   "track_mm": 0.824264068711928,
+   "centre_mm": 1.305439852164783,
+   "through_pads": []
+  }
+ ]
+}

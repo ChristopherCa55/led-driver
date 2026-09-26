@@ -1,0 +1,30 @@
+
+Parker G579 0.050 in (1.27 mm)  [the approved design; not sold at Digi-Key]
+   1.270 mm -> 0.93 mm: 26.8 % nominal, worst case 1.1 .. 47.7 %
+   nominal 7.2 psi -> 7.7 N per FET (x10 FETs = 77 N)
+   worst-case high end: 20 psi, 22 N per FET
+   5.33 K-cm2/W -> 3.42 K/W -> 20.5 K at 6 W -> M1 Tj about 78 C at 25 C water (budget 78 C)
+   Reference: 27 % at the 5.50 mm stack.
+
+Parker 61-06-0909-G579, 0.060 in (1.524 mm), $128.75 for 9 x 9 in
+   1.524 mm -> 0.93 mm: 39.0 % nominal, worst case 17.6 .. 56.5 %
+   nominal 14.1 psi -> 15.1 N per FET (x10 FETs = 151 N)
+   worst-case high end: 28 psi, 30 N per FET
+   5.33 K-cm2/W -> 3.42 K/W -> 20.5 K at 6 W -> M1 Tj about 78 C at 25 C water (budget 78 C)
+   Same stack. 39 % nominal is at the top of Parker's "typical 5-40 %"; the worst case goes to 56 %.
+
+McMaster-Carr 1272N32, 0.060 in (1.524 mm), 3 W/m-K, 40 Shore 00, $26.91 for 4 x 4 in
+   1.524 mm -> 0.93 mm: 39.0 % nominal, worst case 17.6 .. 56.5 %
+   nominal 22.9 psi -> 24.6 N per FET (x10 FETs = 246 N)  [scaled x1.62 from the G579 curve by durometer]
+   worst-case high end: 45 psi, 49 N per FET
+   5.33 K-cm2/W -> 3.42 K/W -> 20.5 K at 6 W -> M1 Tj about 78 C at 25 C water (budget 78 C)
+   No compression curve published: force estimated from its 40 Shore 00 against G579's 30 (x1.62, +/-50 %). Contact resistance assumed equal to G579's. No dielectric strength published.
+
+t-Global TG-AD30, 1.5 mm, 3.0 W/m-K, 20 Shore 00, >= 5 kV/mm  [price not read]
+   1.500 mm -> 0.93 mm: 38.0 % nominal, worst case 16.3 .. 55.8 %
+   nominal 10.8 psi -> 11.6 N per FET (x10 FETs = 116 N)
+   worst-case high end: 22 psi, 24 N per FET
+   3.45 K-cm2/W -> 2.21 K/W -> 13.3 K at 6 W -> M1 Tj about 71 C at 25 C water (budget 78 C)
+   Softest of the three, lowest impedance; curve read between the published 1.0 and 3.0 mm curves.
+
+Rejected on data: t-Global TG-A3500F (27 % needs 50 psi at 1.0 mm), Wurth WE-TGF 3 W/m-K (100 x 100 mm only in 1.0 mm = 7 % or 2.0 mm = 54 %; Wurth recommends 10-30 %).

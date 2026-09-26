@@ -1,0 +1,38 @@
+** Drc report for BOOST_power_route_v17_NOT_FOR_FAB.kicad_pcb **
+** Created on 2026-09-24T17:43:05 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 5 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2500 mm; actual 0.2420 mm)
+    Local override; error
+    @(68.4330 mm, 55.1207 mm): Pad 13 [unconnected-(U15-NC-Pad13)] of U15 on B.Cu
+    @(69.9000 mm, 55.0000 mm): Via [Vout_1] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2500 mm; actual 0.2423 mm)
+    Local override; error
+    @(68.4330 mm, 58.9307 mm): Pad 16 [Net-(U15-VDDA)] of U15 on B.Cu
+    @(69.9000 mm, 59.1000 mm): Via [Vout_1] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2500 mm; actual 0.2364 mm)
+    Local override; error
+    @(73.7614 mm, 43.2058 mm): Pad 16 [12V] of U19 on B.Cu
+    @(72.2500 mm, 43.2500 mm): Via [Vin] on F.Cu - B.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.8453 mm, 82.1302 mm): Segment of C87 on F.Silkscreen
+    @(43.8153 mm, 82.8023 mm): Segment of C71 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(67.8906 mm, 60.0020 mm): Segment of C86 on F.Silkscreen
+    @(68.7126 mm, 60.0949 mm): Segment of C88 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

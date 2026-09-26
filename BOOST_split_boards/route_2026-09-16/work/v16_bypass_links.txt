@@ -1,0 +1,36 @@
+link                       net                 centre mm  routed mm  vias
+C31.1 -> U19.16 VDDA 12V   12V                    2.8       2.9     2
+C31.2 -> U19.14 VSSA GND   GND                    2.5       0.9     0
+C51.1 -> U15.11 VDDB       Net-(U15-VDDA)         5.5       7.1     2
+C51.2 -> U15.9 VSSB        m2_source              6.4      15.4     3
+C51.1 -> U15.16 VDDA       Net-(U15-VDDA)         2.4       1.2     0
+C51.2 -> U15.14 VSSA       m2_source              2.1       0.7     0
+C18.1 -> U15.11 VDDB       Net-(U15-VDDA)         6.1       7.9     0
+C18.2 -> U15.9 VSSB        m2_source              6.7       5.4     2
+C50.1 -> U10.11 VDDB       Net-(U10-VDDA)         2.4       1.0     0
+C50.2 -> U10.9 VSSB        m3_source              3.0       1.9     2
+C16.1 -> U10.11 VDDB       Net-(U10-VDDA)         4.8       2.2     0
+C16.2 -> U10.9 VSSB        m3_source              4.6       2.6     2
+C61.1 -> U8.11 VDDB        Net-(U8-VDDA)          2.2       0.9     0
+C61.2 -> U8.9 VSSB         m4_source              2.2       1.0     0
+C60.1 -> U8.11 VDDB        Net-(U8-VDDA)          4.3       4.6     0
+C60.2 -> U8.9 VSSB         m4_source              3.6       2.2     0
+C48.1 -> U19.3 VCCI        5V                     3.8       n/a     -
+C48.1 -> U19.8 VCCI (pin 8, shorted to 3 inside) 5V                     3.8       3.8     0
+C48.2 -> U19.4 GND         GND                    4.0       n/a     -
+C90.1 -> U10.3 VCCI        5V                     2.1       0.8     0
+C90.2 -> U10.4 GND         GND                    2.1       0.9     0
+C89.2 -> U8.3 VCCI         5V                     2.3       0.8     0
+C89.1 -> U8.4 GND          GND                    2.4       1.0     0
+C62.2 -> U15.3 VCCI        5V                     2.9       1.4     0
+C62.1 -> U15.4 GND         GND                    4.8       n/a     -
+
+VCCI capacitor pad -> nearest via of its net along its copper
+C48.1 5V   via (65.05, 34.05): 4.4 mm from the pad centre, 3.8 mm of track, through U19.6, U19.8 (not its own)
+C48.2 GND  via (62.25, 35.55): 0.4 mm from the pad centre, 0.0 mm of track, own via
+C90.1 5V   via (49.95, 42.55): 0.5 mm from the pad centre, 0.0 mm of track, own via
+C90.2 GND  via (51.45, 43.35): 0.5 mm from the pad centre, 0.0 mm of track, own via
+C89.2 5V   via (83.05, 103.85): 0.8 mm from the pad centre, 0.0 mm of track, own via
+C89.1 GND  via (82.15, 106.85): 2.3 mm from the pad centre, 1.5 mm of track, own via
+C62.2 5V   via (56.65, 56.75): 0.5 mm from the pad centre, 0.0 mm of track, own via
+C62.1 GND  via (57.35, 58.25): 1.3 mm from the pad centre, 0.8 mm of track, own via

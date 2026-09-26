@@ -1,0 +1,118 @@
+ok   Current            1.5 mm, 0 via(s), w 0.20, gap 1.3
+     Current          sensitive, 0.2 s
+ok   Net-(U2-In+)       6.3 mm, 2 via(s) 0.6/0.3, w 0.15, gap 5.9
+     Net-(U2-In+)     sensitive, 0.2 s
+ok   V_err              1.1 mm, 0 via(s), w 0.15, gap 0.8
+     V_err            sensitive, 0.2 s
+prot Net-(U2-In+)     track zone on F.Cu/In5.Cu/B.Cu, via zone all layers; 4 nets exempt in the track zone
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 12 nets exempt in the track zone (logic nets only)
+stch Current          1 GND vias beside its B.Cu run
+stch V_err            0 GND vias beside its In5.Cu run
+dcap analog_5V        C36.2 -> U7.5: 1.0 mm, 0 via(s), w 0.30
+     DECAP            15 direct links, 1.0 s
+fan  GND              C98.2: 0.0 mm stub, via 0.6/0.3
+     FANOUT:GND       80 vias, 13 pads skipped, 2.9 s
+fan  5V               C98.1: no via reachable
+     FANOUT:5V        0 vias, 40 pads skipped, 1.1 s
+ok   analog_5V         13.1 mm, 1 via(s) 0.6/0.3, w 0.40, gap 11.2
+     analog_5V        done in 2.9 s
+ok   12V               20.4 mm, 1 via(s) 0.6/0.3, w 0.40, gap 15.7
+     12V              done in 0.3 s
+ok   Net-(D3-+)         0.8 mm, 1 via(s) 0.6/0.3, w 0.20, gap 0.6
+     Net-(D3-+)       done in 0.0 s
+ok   Net-(D4--)         1.1 mm, 0 via(s), w 0.20, gap 0.5
+     Net-(D4--)       done in 0.1 s
+ok   .1Vout_1           0.8 mm, 0 via(s), w 0.20, gap 0.2
+     .1Vout_1         done in 0.2 s
+ok   Vout_3             2.0 mm, 0 via(s), w 0.30, gap 1.5
+     Vout_3           done in 0.1 s
+ok   Vout_1             1.8 mm, 0 via(s), w 0.30, gap 1.6
+     Vout_1           done in 0.1 s
+ok   Net-(U21-In-)      2.3 mm, 0 via(s), w 0.20, gap 1.9
+     Net-(U21-In-)    done in 0.1 s
+ok   Net-(U106B-A)      1.5 mm, 1 via(s) 0.6/0.3, w 0.20, gap 1.0
+     Net-(U106B-A)    done in 0.2 s
+ok   Net-(U106A-A)      0.9 mm, 0 via(s), w 0.20, gap 0.7
+     Net-(U106A-A)    done in 0.2 s
+ok   .1Vout_2           0.9 mm, 0 via(s), w 0.20, gap 0.6
+     .1Vout_2         done in 0.2 s
+ok   Net-(U26B-P1B)     4.5 mm, 2 via(s) 0.6/0.3, w 0.20, gap 2.0
+     Net-(U26B-P1B)   done in 0.3 s
+FAIL Net-(U21-In+): island 0 (363 cells; R86.2 R82.2 R85.1) to island 1 (U21.3), gap 0.7 mm
+     Net-(U21-In+)    done in 15.3 s (2 failed)
+ok   .1Vout_3           3.7 mm, 0 via(s), w 0.20, gap 2.7
+     .1Vout_3         done in 0.2 s
+ok   Net-(U23-In+)      1.3 mm, 0 via(s), w 0.20, gap 1.1
+     Net-(U23-In+)    done in 0.3 s
+ok   Net-(U7-In-)       3.8 mm, 2 via(s) 0.6/0.3, w 0.20, gap 1.8
+     Net-(U7-In-)     done in 0.1 s
+ok   Net-(U14-In+)      3.7 mm, 0 via(s), w 0.20, gap 2.2
+     Net-(U14-In+)    done in 0.2 s
+ok   Verr3              1.3 mm, 0 via(s), w 0.20, gap 1.1
+     Verr3            done in 0.3 s
+ok   Net-(U22-In+)      2.4 mm, 0 via(s), w 0.20, gap 1.5
+     Net-(U22-In+)    done in 0.3 s
+FAIL Net-(U4-In+): island 1 (91 cells; R18.2) to island 2 (U4.3), gap 3.4 mm
+     Net-(U4-In+)     done in 26.8 s (3 failed)
+ok   Net-(U3-In-)      22.6 mm, 1 via(s) 0.6/0.3, w 0.20, gap 6.8
+     Net-(U3-In-)     done in 1.1 s
+ok   Output1_drain     38.7 mm, 2 via(s) 0.6/0.3, w 0.30, gap 6.0
+     Output1_drain    done in 1.3 s
+ok   Net-(U13-In-)      7.5 mm, 2 via(s) 0.5/0.3, w 0.20, gap 6.4
+     Net-(U13-In-)    done in 0.3 s
+ok   Vref_3             7.3 mm, 0 via(s), w 0.20, gap 5.7
+     Vref_3           done in 0.2 s
+ok   Net-(U24-In+)     18.4 mm, 1 via(s) 0.6/0.3, w 0.20, gap 3.5
+     Net-(U24-In+)    done in 0.3 s
+ok   Vref_2            11.7 mm, 0 via(s), w 0.20, gap 8.1
+     Vref_2           done in 0.2 s
+ok   Output3_drain     46.5 mm, 2 via(s) 0.6/0.3, w 0.30, gap 9.6
+     Output3_drain    done in 1.4 s
+FAIL Voltage_err_3: island 0 (669 cells; R45.1 U13.1) to island 1 (R40.1), gap 3.2 mm
+     Voltage_err_3    done in 34.0 s (3 failed)
+ok   Verr2              8.8 mm, 1 via(s) 0.6/0.3, w 0.20, gap 5.4
+     Verr2            done in 0.4 s
+ok   Net-(D26-+)       15.5 mm, 1 via(s) 0.6/0.3, w 0.20, gap 4.9
+     Net-(D26-+)      done in 0.4 s
+FAIL Net-(D25-+): island 0 (227 cells; D25.2 U23.1) to island 2 (R93.2), gap 6.3 mm
+     Net-(D25-+)      done in 97.0 s (3 failed)
+ok   Voltage_err_1     13.9 mm, 1 via(s) 0.6/0.3, w 0.20, gap 11.5
+     Voltage_err_1    done in 0.3 s
+FAIL Net-(U106C-A): island 0 (802 cells; U106.8 R95.1) to island 1 (R94.2), gap 2.4 mm
+     Net-(U106C-A)    done in 51.2 s (3 failed)
+ok   Verr1             30.0 mm, 3 via(s) 0.6/0.3, w 0.20, gap 12.3
+     Verr1            done in 0.3 s
+ok   Net-(U26C-P2B)    20.6 mm, 0 via(s), w 0.20, gap 9.6
+     Net-(U26C-P2B)   done in 0.4 s
+ok   Net-(U106B-B)     11.1 mm, 1 via(s) 0.6/0.3, w 0.20, gap 7.3
+     Net-(U106B-B)    done in 0.4 s
+     ok   Net-(U106B-B)      3.3 mm, 1 via(s) 0.6/0.3, w 0.20, gap 0.3
+     Output2_drain    done in 16.6 s
+FAIL Vout_2: island 0 (242 cells; J11.15) to island 1 (R35.2), gap 10.4 mm
+     Vout_2           done in 20.1 s (1 failed)
+ok   Net-(D23-+)       12.7 mm, 0 via(s), w 0.20, gap 11.6
+     Net-(D23-+)      done in 0.3 s
+ok   Vref_1            18.1 mm, 0 via(s), w 0.20, gap 11.6
+     Vref_1           done in 0.3 s
+ok   Net-(Q1-E)        15.7 mm, 2 via(s) 0.6/0.3, w 0.20, gap 13.9
+     Net-(Q1-E)       done in 0.2 s
+ok   IREF1_input       34.8 mm, 1 via(s) 0.6/0.3, w 0.20, gap 13.4
+     IREF1_input      done in 1.6 s
+ok   Voltage_err_2     17.3 mm, 2 via(s) 0.6/0.3, w 0.20, gap 13.5
+     Voltage_err_2    done in 0.2 s
+FAIL Net-(U26A-P0B): island 1 (157 cells; R29.2) to island 2 (U26.13), gap 21.2 mm
+     Net-(U26A-P0B)   done in 61.0 s (3 failed)
+ok   Net-(U106C-B)     14.8 mm, 1 via(s) 0.6/0.3, w 0.20, gap 12.2
+     Net-(U106C-B)    done in 71.3 s (2 failed)
+FAIL .1Vref_1: island 0 (902 cells; U3.3 R6.2) to island 2 (D26.1), gap 13.6 mm
+     .1Vref_1         done in 99.2 s (3 failed)
+ok   Net-(D4-+)        22.7 mm, 2 via(s) 0.6/0.3, w 0.20, gap 20.7
+     Net-(D4-+)       done in 0.2 s
+     ok   Net-(Q1-E)        17.6 mm, 2 via(s) 0.6/0.3, w 0.20, gap 13.9
+     .1Vref_3         done in 6.8 s
+ok   IREF3_input      118.1 mm, 4 via(s) 0.6/0.3, w 0.20, gap 20.0
+     IREF3_input      done in 1.8 s
+     ok   Net-(U26B-P1B)     6.6 mm, 1 via(s) 0.6/0.3, w 0.20, gap 2.0
+     IREF2_input      done in 7.6 s
+FAIL .1Vref_2: island 0 (2695 cells; C43.1 R33.2 D25.1) to island 1 (U7.3), gap 0.0 mm
+     .1Vref_2         done in 56.9 s (2 failed)

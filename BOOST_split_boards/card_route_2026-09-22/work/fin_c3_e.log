@@ -1,0 +1,24 @@
+board rasterised in 1.9 s
+loaded 4143 committed route items
+first: 2 nets from earlier passes routed ahead of the plane fan-outs
+prot Current          track zone on In4.Cu/In5.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.1 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.3 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.2 s
+rip  .1Vout_3         ripped Voltage_err_3, IREF1, analog_5V, Net-(U106C-B), Net-(U13-In-), Net-(D26-+), Net-(U103B-Y), Net-(U23-In+), Net-(U106A-B), Net-(U26C-P2B), Output2_drain, 0err_hi, but Net-(U106C-B) then failed; undone
+rip  .1Vout_3         ripped IREF1, analog_5V, Voltage_err_3, Net-(U13-In-), 0err_hi, Net-(U106C-B), Net-(U24-In+), Net-(U26C-P2B), Net-(D25-+), Net-(D24-+), Net-(D26-+), Net-(U106B-B), Net-(U23-In+), Net-(U106A-B), Output2_drain, Net-(U103A-A), Net-(U103B-Y), Net-(U102C-A), ena_out_3, .1Vout_1, 5V, Net-(U4-In+), Verr3, .1Vref_1, but Net-(U106B-B) then failed; undone
+rip  .1Vout_3         ripped Net-(U106C-B), Output3_drain, but Net-(U106C-B) then failed; undone
+FAIL .1Vout_3: island 0 (924 cells; R42.1 R43.1) to island 1 (R39.2), gap 2.7 mm
+     .1Vout_3         done in 103.0 s (1 failed)
+rip  SDA              ripping Net-(U26E-HVC{slash}A0), analog_5V, Net-(U26E-~{RESET}), M1_ON, Net-(U26B-P1B), SCL, out_3_on, RESET-, Net-(D24-+), Out-, 0A_hi, .1Vref_3 did not free a path
+rip  SDA              ripping analog_5V, M1_ON, Net-(U26E-HVC{slash}A0), IREF2, Net-(U26C-P2B), .1Vref_3, Net-(D24-+), Net-(U26E-A1), Out-, Net-(U26E-~{RESET}), Vref_3, SCL, Net-(U103B-Y), Net-(U26B-P1B), ena_out_2, 0err_hi, out_3_on, Out, ARD_M1_INHIBIT, Net-(U102D-Y), Voltage_err_1, 5V, M2_ON, IREF3_input did not free a path
+rip  SDA              ripped 12V, Voltage_err_1, .1Vref_1, Net-(U26A-P0B), IREF2, IREF2_input, IREF3, analog_5V, Net-(U3-In-), .1Vref_2, Reset_raw, 0err_hi, but IREF2_input then failed; undone
+FAIL SDA: island 0 (1246 cells; J9.8) to island 1 (U26.6), gap 11.1 mm
+     SDA              done in 73.9 s (1 failed)
+tracks 3727, vias 416, failures 2, 186 s
+
+real	3m6.662s
+user	0m0.000s
+sys	0m0.015s

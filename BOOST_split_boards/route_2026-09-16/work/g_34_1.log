@@ -1,0 +1,166 @@
+board rasterised in 5.0 s
+loaded 1897 committed route items
+     SNS_CH1          done in 0.0 s
+loaded 1897 committed route items
+     SNS_CH1          done in 0.0 s
+     SNS_CH2          done in 0.0 s
+     SNS_CH1          done in 0.0 s
+     SNS_CH2          done in 0.0 s
+     SNS_CH3          done in 0.0 s
+     SNS_CH2          done in 0.0 s
+     SNS_CH3          done in 0.0 s
+     ISNS_P           done in 0.0 s
+     SNS_CH3          done in 0.0 s
+     ISNS_P           done in 0.0 s
+     ISNS_N           done in 0.0 s
+     ISNS_P           done in 0.0 s
+     ISNS_N           done in 0.0 s
+     Net-(U19-OUTA)   done in 0.0 s
+     ISNS_N           done in 0.0 s
+     Net-(U19-OUTA)   done in 0.0 s
+     GATE_M1          done in 0.0 s (direct)
+byp  5V               C62.2 -> U15.3: already joined
+byp  GND              C62.1 -> U15.4: already joined
+     BYPASS           0.5 s
+loop Net-(D2--)       U15.10 -> R60.1: already joined
+loop m2_source        U15.9 -> M7.3: already joined
+     GATELOOP:M7      done in 0.0 s
+loop Net-(D22--)      U8.10 -> R59.2: already joined
+loop m4_source        U8.9 -> M5.3: already joined
+     GATELOOP:M5      done in 0.0 s
+loop Net-(D8--)       U10.10 -> R70.1: already joined
+loop m3_source        U10.9 -> M6.3: already joined
+     GATELOOP:M6      done in 0.0 s
+loop Net-(D11--)      U15.15 -> D11.1: already joined
+loop m2_source        U15.14 -> M2.3: already joined
+     GATELOOP:M2      done in 0.0 s
+loop Net-(D14--)      U10.15 -> D14.1: already joined
+loop m3_source        U10.14 -> M3.3: already joined
+     GATELOOP:M3      done in 0.0 s
+loop Net-(D13--)      U8.15 -> D13.1: already joined
+loop m4_source        U8.14 -> M4.3: already joined
+     GATELOOP:M4      done in 0.0 s
+loop m4_source        U8.14 -> M4.3: already joined
+     GATELOOP:M4      done in 0.0 s
+     m2_source        done in 0.0 s
+     GATELOOP:M4      done in 0.0 s
+     m2_source        done in 0.0 s
+     m3_source        done in 0.0 s
+     m2_source        done in 0.0 s
+     m3_source        done in 0.0 s
+     m4_source        done in 0.0 s
+fan  GND              R62.2: 0.1 mm stub, via 0.6/0.3
+fan  GND              C89.1: nearest via needs 2.5 mm, not fanned out
+     FANOUT:GND       1 vias, 1 pads skipped, 0.2 s
+     FANOUT:GND       1 vias, 1 pads skipped, 0.2 s
+fan  5V               C48.1: nearest via needs 2.8 mm, not fanned out
+     FANOUT:5V        0 vias, 1 pads skipped, 0.0 s
+fan  5V               C48.1: nearest via needs 2.8 mm, not fanned out
+     FANOUT:5V        0 vias, 1 pads skipped, 0.0 s
+     Net-(U19-OUTB)   done in 0.0 s
+     FANOUT:5V        0 vias, 1 pads skipped, 0.0 s
+     Net-(U19-OUTB)   done in 0.0 s
+     Net-(U11-OUT)    done in 0.0 s
+     Net-(U19-OUTB)   done in 0.0 s
+     Net-(U11-OUT)    done in 0.0 s
+     Net-(M10-G)      done in 0.0 s (direct)
+     Net-(U11-OUT)    done in 0.0 s
+     Net-(M10-G)      done in 0.0 s (direct)
+     Net-(U12-OUT)    done in 0.0 s
+     Net-(M10-G)      done in 0.0 s (direct)
+     Net-(U12-OUT)    done in 0.0 s
+     Net-(M9-G)       done in 0.0 s (direct)
+     Net-(U12-OUT)    done in 0.0 s
+     Net-(M9-G)       done in 0.0 s (direct)
+     Net-(U6-OUT)     done in 0.0 s
+     Net-(M9-G)       done in 0.0 s (direct)
+     Net-(U6-OUT)     done in 0.0 s
+     Net-(M8-G)       done in 0.0 s (direct)
+     Net-(U6-OUT)     done in 0.0 s
+     Net-(M8-G)       done in 0.0 s (direct)
+     Net-(D10--)      done in 0.0 s
+     Net-(M8-G)       done in 0.0 s (direct)
+     Net-(D10--)      done in 0.0 s
+     Net-(D21--)      done in 0.0 s
+     Net-(D10--)      done in 0.0 s
+     Net-(D21--)      done in 0.0 s
+     Net-(D9--)       done in 0.0 s
+     Net-(D21--)      done in 0.0 s
+     Net-(D9--)       done in 0.0 s
+     Net-(U15-VDDA)   done in 0.0 s
+     Net-(D9--)       done in 0.0 s
+     Net-(U15-VDDA)   done in 0.0 s
+     Net-(U10-VDDA)   done in 0.0 s
+     Net-(U15-VDDA)   done in 0.0 s
+     Net-(U10-VDDA)   done in 0.0 s
+     Net-(U8-VDDA)    done in 0.0 s
+     Net-(U10-VDDA)   done in 0.0 s
+     Net-(U8-VDDA)    done in 0.0 s
+     Vout_1           done in 0.0 s
+     Net-(U8-VDDA)    done in 0.0 s
+     Vout_1           done in 0.0 s
+     Vout_2           done in 0.0 s
+     Vout_1           done in 0.0 s
+     Vout_2           done in 0.0 s
+     Vout_3           done in 0.0 s
+     Vout_2           done in 0.0 s
+     Vout_3           done in 0.0 s
+     Output1_drain    done in 0.0 s
+     Vout_3           done in 0.0 s
+     Output1_drain    done in 0.0 s
+     Output2_drain    done in 0.0 s
+     Output1_drain    done in 0.0 s
+     Output2_drain    done in 0.0 s
+     Output3_drain    done in 0.0 s
+     Output2_drain    done in 0.0 s
+     Output3_drain    done in 0.0 s
+     IREF1_input      done in 0.0 s
+     Output3_drain    done in 0.0 s
+     IREF1_input      done in 0.0 s
+     IREF2_input      done in 0.0 s
+     IREF1_input      done in 0.0 s
+     IREF2_input      done in 0.0 s
+     IREF3_input      done in 0.0 s
+     IREF2_input      done in 0.0 s
+     IREF3_input      done in 0.0 s
+     Current          done in 0.0 s
+     IREF3_input      done in 0.0 s
+     Current          done in 0.0 s
+     M1_ON            done in 0.0 s
+     Current          done in 0.0 s
+     M1_ON            done in 0.0 s
+     M2_ON            done in 0.0 s
+     M1_ON            done in 0.0 s
+     M2_ON            done in 0.0 s
+     ena_out_1        done in 0.0 s
+     M2_ON            done in 0.0 s
+     ena_out_1        done in 0.0 s
+     out_2_on         done in 0.0 s
+     ena_out_1        done in 0.0 s
+     out_2_on         done in 0.0 s
+     ena_out_2        done in 0.0 s
+     out_2_on         done in 0.0 s
+     ena_out_2        done in 0.0 s
+     out_3_on         done in 0.0 s
+     ena_out_2        done in 0.0 s
+     out_3_on         done in 0.0 s
+     ena_out_3        done in 0.0 s
+rip  analog_5V        ripped SNS_CH3, IREF3_input, Net-(U6-OUT), ena_out_2, but Net-(U6-OUT) then failed; undone
+FAIL analog_5V: island 0 (8254 cells; J10.22 U25.6 U11.5 C55.1 +7) to island 1 (U6.5 C35.1), gap 12.1 mm
+     analog_5V        done in 51.1 s (1 failed)
+rip  12V              ripping analog_5V, Net-(U19-OUTA), Net-(U19-OUTB) did not free a path
+FAIL 12V: island 0 (1751 cells; C30.1 C31.1 U19.11 U19.16) to island 1 (J10.19 C6.1 U16.3 C25.1 +3), gap 16.3 mm
+     12V              done in 48.2 s (1 failed)
+FAIL 12V: island 0 (1751 cells; C30.1 C31.1 U19.11 U19.16) to island 1 (J10.19 C6.1 U16.3 C25.1 +3), gap 16.3 mm
+     12V              done in 48.2 s (1 failed)
+     5V               done in 0.0 s
+     12V              done in 48.2 s (1 failed)
+     5V               done in 0.0 s
+     LX               done in 0.0 s
+     5V               done in 0.0 s
+     LX               done in 0.0 s
+     Vin              done in 0.0 s
+     ok   5V                 0.0 mm, 1 via(s) 0.6/0.3, w 0.80, gap 0.0
+     ok   5V                 1.8 mm, 0 via(s), w 0.80, gap 0.0
+     GND              done in 215.9 s
+tracks 1763, vias 166, failures 2, 323 s

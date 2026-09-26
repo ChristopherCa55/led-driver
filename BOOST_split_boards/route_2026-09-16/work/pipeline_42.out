@@ -1,0 +1,22 @@
+exported 74 nets, 765 barrels, 355 pads
+tracks 1793, vias 169, failures 0, 326 s
+added 1793 tracks, 169 vias -> work/sig_42_1.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 1
+exported 74 nets, 934 barrels, 355 pads
+tracks 1794, vias 173, failures 0, 22 s
+net changed by KiCad, restored: PCB_VIA at (84.250, 31.250) GND -> 5V
+net changed by KiCad, restored: PCB_VIA at (65.850, 33.350) GND -> 5V
+added 1794 tracks, 173 vias -> work/sig_42_2.kicad_pcb
+{('via_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 0
+{('via_dangling', 'warning'): 2, ('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 0
+removed via 5V at (84.250, 31.250)
+removed via 5V at (65.850, 33.350)
+removed 2 of 2 flagged tracks and vias -> work/sig_42p.kicad_pcb
+{('silk_edge_clearance', 'warning'): 1, ('lib_footprint_issues', 'warning'): 23, ('silk_overlap', 'warning'): 20, ('silk_over_copper', 'warning'): 22}
+unconnected 0
+routes: work/g_42_1.json
+final: work/sig_42p.kicad_pcb
+PIPELINE_DONE

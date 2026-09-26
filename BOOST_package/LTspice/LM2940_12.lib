@@ -1,0 +1,27 @@
+* ============================================================================
+* LM2940CT-12 - 12V 1A LOW DROPOUT regulator (TO-220), behavioural model
+* NOT a TI model. Reproduces regulation and dropout only.
+*
+* RECOMMENDED over L7812 for this circuit. Designed for automotive 13.8 V
+* systems, which is exactly your case.
+*
+* Verified in ngspice at 30 mA load, as Vin falls:
+*     Vin 14.0 V -> 11.99 V     (L7812 gives 12.00 V)
+*     Vin 13.5 V -> 11.99 V     (L7812 has already dropped to 11.50 V)
+*     Vin 12.0 V -> 11.94 V     (L7812 down to 10.00 V)
+*     Vin 11.0 V -> 10.94 V     follows input, diode-like, as you wanted
+*     Vin 10.0 V ->  9.93 V     still above the UCC21520 8 V UVLO
+* The L7812 hits UVLO at Vin = 10 V; this part keeps the drivers alive to
+* about Vin = 8.1 V.
+*
+* Dropout modelled as 50 mV plus Iout x 0.5 ohm, matching ~0.5 V at 1 A.
+* NOT MODELLED: current limit, thermal shutdown, reverse-battery protection,
+* the 60 V transient rating, minimum output capacitance for stability
+* (the real part REQUIRES >=22 uF with defined ESR on the output - your 47 uF
+* satisfies this, but do not remove it).
+* ============================================================================
+.SUBCKT LM2940_12 IN OUT GND
+BR n1 GND V=min(V(IN)-V(GND)-0.05, 12.0)
+RO n1 OUT 0.5
+IQ IN GND 10m
+.ENDS LM2940_12

@@ -1,0 +1,96 @@
+exported 133 nets, 41 barrels, 513 pads
+added 2496 tracks, 306 vias -> work/sig_15_1.kicad_pcb
+{('copper_edge_clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 33
+exported 133 nets, 347 barrels, 513 pads
+tracks 2557, vias 322, failures 44, 499 s
+net changed by KiCad, restored: PCB_VIA at (75.450, 109.150) GND -> 5V
+added 2557 tracks, 322 vias -> work/sig_15_2.kicad_pcb
+{('clearance', 'error'): 7, ('hole_clearance', 'error'): 1, ('copper_edge_clearance', 'error'): 3, ('track_dangling', 'warning'): 1, ('via_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 29
+exported 133 nets, 363 barrels, 513 pads
+tracks 2595, vias 329, failures 50, 469 s
+added 2595 tracks, 329 vias -> work/sig_15_3.kicad_pcb
+{('copper_edge_clearance', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 26
+exported 133 nets, 370 barrels, 513 pads
+tracks 2591, vias 331, failures 43, 403 s
+added 2591 tracks, 331 vias -> work/sig_15_4.kicad_pcb
+{('copper_edge_clearance', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 25
+exported 133 nets, 372 barrels, 513 pads
+tracks 2591, vias 331, failures 43, 395 s
+added 2591 tracks, 331 vias -> work/sig_15_5.kicad_pcb
+{('copper_edge_clearance', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 25
+exported 133 nets, 372 barrels, 513 pads
+tracks 2589, vias 330, failures 37, 383 s
+added 2589 tracks, 330 vias -> work/sig_15_6.kicad_pcb
+{('copper_edge_clearance', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+unconnected 24
+exported 133 nets, 371 barrels, 513 pads
+tracks 2627, vias 328, failures 32, 385 s
+{('copper_edge_clearance', 'error'): 4, ('track_dangling', 'warning'): 1, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,115.02) || Track [Net-(D23-+)] on B.Cu, length 0.2828 mm @(46.25,85.35)
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,115.02) || Track [Net-(D23-+)] on B.Cu, length 0.2828 mm @(46.45,84.35)
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,115.02) || Track [Net-(D23-+)] on B.Cu, length 0.8000 mm @(46.25,84.55)
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,70.02) || Via [Net-(D7--)] on F.Cu - B.Cu @(55.15,70.55)
+unconnected 24
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Pad 1 [Verr3] of U28 on F.Cu @(73.15,101.16) || Pad 2 [Verr3] of R46 on F.Cu @(74.33,99.56)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Track [5V] on In3.Cu, length 0.2000 mm @(71.05,108.25)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Pad 5 [IREF2] of U106 on B.Cu @(83.43,89.97)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Pad 1 [Net-(D4-+)] of Q1 on B.Cu @(49.38,86.04) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [Net-(D4-+)] of D4 on F.Cu @(50.22,80.36) || Pad 1 [Net-(D4-+)] of Q1 on B.Cu @(49.38,86.04)
+  U Pad 1 [Net-(U26A-P0B)] of C100 on B.Cu @(74.68,90.88) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Track [Net-(D23-+)] on F.Cu, length 0.3000 mm @(48.35,91.55) || Pad 2 [Net-(D23-+)] of R90 on F.Cu @(49.32,104.18)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U Pad 4 [Net-(U106B-B)] of U23 on B.Cu @(76.43,83.55) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U Pad 2 [Net-(U106C-A)] of R94 on B.Cu @(76.05,87.53) || Pad 8 [Net-(U106C-A)] of U106 on B.Cu @(88.38,87.43)
+  U PTH pad 13 [Vout_1] of J11 @(69.48,89.40) || Pad 2 [Vout_1] of R9 on B.Cu @(72.63,89.40)
+  U PTH pad 15 [Vout_2] of J11 @(69.48,91.94) || Pad 2 [Vout_2] of R35 on B.Cu @(78.04,83.48)
+  U Pad 2 [Net-(D25-+)] of D25 on B.Cu @(76.53,85.50) || Pad 1 [Net-(D25-+)] of U23 on B.Cu @(74.53,81.27)
+  U Pad 2 [Net-(D25-+)] of D25 on B.Cu @(76.53,85.50) || Track [Net-(D25-+)] on In5.Cu, length 0.5000 mm @(75.55,91.05)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(74.22,87.53)
+removed .1Vref_1 B.Cu 0.200 mm at (66.450, 95.750)
+removed 1 of 1 flagged tracks and vias -> work/sig_15p.kicad_pcb
+{('copper_edge_clearance', 'error'): 4, ('silk_overlap', 'warning'): 7, ('silk_over_copper', 'warning'): 12}
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,115.02) || Track [Net-(D23-+)] on B.Cu, length 0.2828 mm @(46.25,85.35)
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,115.02) || Track [Net-(D23-+)] on B.Cu, length 0.2828 mm @(46.45,84.35)
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,115.02) || Track [Net-(D23-+)] on B.Cu, length 0.8000 mm @(46.25,84.55)
+  copper_edge_clearance Board edge clearance violation (board setu | Segment on Edge.Cuts @(45.89,70.02) || Via [Net-(D7--)] on F.Cu - B.Cu @(55.15,70.55)
+unconnected 24
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02) || Zone 'GND fill' [GND] on F.Cu, B.Cu and 2 more, priorit @(45.89,70.02)
+  U Pad 1 [Verr3] of U28 on F.Cu @(73.15,101.16) || Pad 2 [Verr3] of R46 on F.Cu @(74.33,99.56)
+  U Pad 2 [Net-(U102C-A)] of U18 on F.Cu @(74.67,87.18) || Pad 10 [Net-(U102C-A)] of U28 on F.Cu @(78.10,108.78)
+  U Pad 1 [5V] of C24 on B.Cu @(73.72,106.77) || Track [5V] on In3.Cu, length 0.2000 mm @(71.05,108.25)
+  U Pad 1 [IREF2] of R30 on F.Cu @(63.44,87.93) || Pad 5 [IREF2] of U106 on B.Cu @(83.43,89.97)
+  U PTH pad 16 [Output2_drain] of J11 @(66.94,91.94) || Pad 1 [Output2_drain] of R25 on F.Cu @(81.23,94.46)
+  U Pad 1 [Net-(D4-+)] of Q1 on B.Cu @(49.38,86.04) || Pad 1 [Net-(D4-+)] of R65 on F.Cu @(49.77,107.40)
+  U Pad 2 [Net-(D4-+)] of D4 on F.Cu @(50.22,80.36) || Pad 1 [Net-(D4-+)] of Q1 on B.Cu @(49.38,86.04)
+  U Pad 1 [Net-(U26A-P0B)] of C100 on B.Cu @(74.68,90.88) || Pad 2 [Net-(U26A-P0B)] of R29 on F.Cu @(81.34,91.10)
+  U Track [Net-(D23-+)] on F.Cu, length 0.3000 mm @(48.35,91.55) || Pad 2 [Net-(D23-+)] of R90 on F.Cu @(49.32,104.18)
+  U Pad 2 [Net-(U26E-~{RESET})] of R103 on F.Cu @(54.67,91.71) || Pad 15 [Net-(U26E-~{RESET})] of U26 on B.Cu @(57.87,91.48)
+  U Pad 1 [Net-(U13-In-)] of R39 on F.Cu @(79.54,92.86) || Pad 4 [Net-(U13-In-)] of U13 on B.Cu @(78.07,85.44)
+  U Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44) || Pad 1 [Net-(U106B-B)] of C64 on B.Cu @(80.82,91.42)
+  U Pad 4 [Net-(U106B-B)] of U23 on B.Cu @(76.43,83.55) || Pad 1 [Net-(U106B-B)] of R93 on B.Cu @(76.30,92.44)
+  U Pad 2 [Net-(U106C-A)] of R94 on B.Cu @(76.05,87.53) || Pad 8 [Net-(U106C-A)] of U106 on B.Cu @(88.38,87.43)
+  U PTH pad 13 [Vout_1] of J11 @(69.48,89.40) || Pad 2 [Vout_1] of R9 on B.Cu @(72.63,89.40)
+  U PTH pad 15 [Vout_2] of J11 @(69.48,91.94) || Pad 2 [Vout_2] of R35 on B.Cu @(78.04,83.48)
+  U Pad 2 [Net-(D25-+)] of D25 on B.Cu @(76.53,85.50) || Pad 1 [Net-(D25-+)] of U23 on B.Cu @(74.53,81.27)
+  U Pad 2 [Net-(D25-+)] of D25 on B.Cu @(76.53,85.50) || Track [Net-(D25-+)] on In5.Cu, length 0.1414 mm @(75.65,91.15)
+  U PTH pad 14 [Output1_drain] of J11 @(66.94,89.40) || Pad 1 [Output1_drain] of R94 on B.Cu @(74.22,87.53)
+routes: work/g_15_6.json
+final: work/sig_15p.kicad_pcb

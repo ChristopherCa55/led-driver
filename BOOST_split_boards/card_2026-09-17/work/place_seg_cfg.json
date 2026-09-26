@@ -1,0 +1,270 @@
+{
+ "inventory": "work/inv_control4.json",
+ "card": [
+  45.8905,
+  70.0226,
+  90.8905,
+  115.0226
+ ],
+ "edge_inset": 0.25,
+ "fixed": {
+  "J11": [
+   69.4765,
+   74.158,
+   180,
+   "B"
+  ],
+  "J9": [
+   51.065,
+   95.9,
+   0,
+   "F"
+  ],
+  "H1": [
+   60.67529,
+   76.513695,
+   0,
+   "F"
+  ],
+  "H2": [
+   75.070812,
+   75.750733,
+   0,
+   "F"
+  ],
+  "H3": [
+   54.456685,
+   106.463745,
+   0,
+   "F"
+  ],
+  "H4": [
+   85.121167,
+   109.507071,
+   0,
+   "F"
+  ]
+ },
+ "keepouts": [
+  [
+   60.67529,
+   76.513695,
+   3.5
+  ],
+  [
+   75.070812,
+   75.750733,
+   3.5
+  ],
+  [
+   54.456685,
+   106.463745,
+   3.5
+  ],
+  [
+   85.121167,
+   109.507071,
+   3.5
+  ]
+ ],
+ "power_nets": [
+  "GND",
+  "5V",
+  "analog_5V",
+  "12V"
+ ],
+ "net_weights": {
+  "Current": 20,
+  "M1_INHIBIT": 4,
+  "ARD_M1_INHIBIT": 2,
+  "V_err": 15,
+  "Net-(U2-In+)": 15,
+  "Net-(U4-In+)": 2,
+  "0A_hi": 2,
+  "Reset_raw": 2,
+  "M1_ON": 2
+ },
+ "decap_rails": [
+  "5V",
+  "analog_5V"
+ ],
+ "decap_ok_mm": 2.0,
+ "w_decap": 8.0,
+ "near": [
+  [
+   "D27.1",
+   "U104.1",
+   2.5,
+   40
+  ],
+  [
+   "R105.1",
+   "D27.2",
+   2.0,
+   20
+  ],
+  [
+   "R101.1",
+   "J9.1",
+   6.0,
+   10
+  ],
+  [
+   "R100.1",
+   "J9.2",
+   6.0,
+   10
+  ],
+  [
+   "R77.1",
+   "J9.3",
+   6.0,
+   10
+  ]
+ ],
+ "apart": [
+  [
+   [
+    "net:Current",
+    "net:V_err",
+    "net:Net-(U2-In+)"
+   ],
+   [
+    "U104",
+    "U105",
+    "net:SCL",
+    "net:SDA"
+   ],
+   10.0,
+   20.0
+  ],
+  [
+   [
+    "net:Current",
+    "net:V_err",
+    "net:Net-(U2-In+)"
+   ],
+   [
+    "net:M1_ON"
+   ],
+   8.0,
+   20.0
+  ],
+  [
+   [
+    "net:Current",
+    "net:V_err",
+    "net:Net-(U2-In+)"
+   ],
+   [
+    "U101",
+    "U102",
+    "U103",
+    "U18",
+    "U28.9",
+    "U28.10",
+    "U28.11",
+    "U106.5",
+    "U106.6",
+    "U106.12",
+    "U106.13"
+   ],
+   4.0,
+   40.0
+  ]
+ ],
+ "w_ic_bottom": 12.0,
+ "iters": 300000,
+ "t0": 8.0,
+ "t1": 0.02,
+ "w_overlap_start": 5.0,
+ "w_legal_end": 400.0,
+ "notes": "J9 at the west edge, y 95.9: its courtyard is flush with the edge (0.25 inset), 0.23 mm west of J11 and 3.5 mm clear of H3, and the tie head under it has no can below (C87 ends at y 91.43).",
+ "cans": [
+  [
+   78.060889,
+   86.798686,
+   5.0,
+   "C70"
+  ],
+  [
+   70.650604,
+   53.151964,
+   5.0,
+   "C86"
+  ],
+  [
+   64.417008,
+   65.454877,
+   5.0,
+   "C88"
+  ],
+  [
+   36.965313,
+   80.042269,
+   5.0,
+   "C71"
+  ],
+  [
+   49.428099,
+   73.032147,
+   5.0,
+   "C78"
+  ],
+  [
+   49.205322,
+   86.425729,
+   5.0,
+   "C87"
+  ],
+  [
+   95.963423,
+   95.829956,
+   5.0,
+   "C74"
+  ],
+  [
+   96.17896,
+   108.176994,
+   5.0,
+   "C75"
+  ],
+  [
+   81.497697,
+   97.916578,
+   5.0,
+   "C77"
+  ]
+ ],
+ "w_decap_side": 15.0,
+ "side_only": {
+  "C49": "B",
+  "C64": "B",
+  "C67": "B"
+ },
+ "side_only_note": "C_1206 package maximum 1.8 mm > 1.75 mm top limit (no MPN chosen): underside only",
+ "near_note": "R101/R100/R77 are the series R of the RC on each Arduino Vref line: at J9 so the unfiltered (possibly PWM, not verified) segment stays short and away from the Current node",
+ "apart_seg": [
+  [
+   [
+    "Current"
+   ],
+   [
+    "SCL",
+    "SDA",
+    "M1_ON",
+    "M2_ON",
+    "out_2_on",
+    "out_3_on",
+    "VerrGT0",
+    "ena_out_2",
+    "ena_out_1",
+    "ena_out_3"
+   ],
+   8.0,
+   20.0
+  ]
+ ],
+ "apart_seg_note": "route proxy: minimum-spanning-tree segments of the Current net vs I2C, M1_ON and every 74HC14 output net",
+ "apart_note": "third entry: comparator inputs vs logic-edge pins (74HC00 x3, 4017, 4051 selects S0-S2 = 11/10/9, 4066 controls 13/5/6/12)"
+}

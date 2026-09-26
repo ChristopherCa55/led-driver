@@ -1,0 +1,71 @@
+board rasterised in 0.7 s
+loaded 2617 committed route items
+     Current          sensitive, 0.0 s
+     Net-(U2-In+)     sensitive, 0.0 s
+     V_err            sensitive, 0.0 s
+prot Current          track zone on In5.Cu/B.Cu, via zone all layers; 24 nets exempt in the track zone
+prot Net-(U2-In+)     track zone on F.Cu/In5.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 13 nets exempt in the track zone (logic nets only)
+
+
+fan  GND              U3.2: no via reachable
+fan  GND              U28.4: nearest via needs 1.5 mm, not fanned out
+fan  GND              U28.6: 1.4 mm stub, via 0.6/0.3
+fan  GND              U28.12: nearest via needs 1.9 mm, not fanned out
+fan  GND              U14.2: no via reachable
+fan  GND              U22.2: no via reachable
+fan  GND              C91.1: no via reachable
+fan  GND              C12.2: no via reachable
+fan  GND              C26.2: 1.4 mm stub, via 0.6/0.3
+fan  GND              U5.2: no via reachable
+fan  GND              C29.2: no via reachable
+fan  GND              C32.2: no via reachable
+fan  GND              U21.2: no via reachable
+fan  GND              U4.2: nearest via needs 2.0 mm, not fanned out
+fan  GND              U13.2: no via reachable
+fan  GND              C93.2: nearest via needs 3.6 mm, not fanned out
+fan  GND              Q1.3: no via reachable
+fan  GND              C100.2: no via reachable
+fan  GND              U2.2: no via reachable
+fan  GND              C54.2: nearest via needs 3.6 mm, not fanned out
+fan  GND              C57.1: no via reachable
+fan  GND              C28.2: no via reachable
+fan  GND              U26.7: no via reachable
+fan  GND              U26.20: no via reachable
+     FANOUT:GND       2 vias, 22 pads skipped, 1.2 s
+fan  5V               U105.14: no via reachable
+fan  5V               C26.1: nearest via needs 1.6 mm, not fanned out
+fan  5V               C24.1: no via reachable
+fan  5V               U5.5: no via reachable
+fan  5V               U4.5: no via reachable
+fan  5V               U2.5: no via reachable
+fan  5V               U26.17: no via reachable
+     FANOUT:5V        0 vias, 7 pads skipped, 0.2 s
+     analog_5V        done in 0.0 s
+     12V              done in 0.0 s
+     Net-(U106A-B)    done in 0.0 s
+     .1Vref_2         done in 0.0 s
+     IREF2_input      done in 0.0 s
+     IREF3_input      done in 0.0 s
+     .1Vref_3         done in 0.0 s
+     Net-(D4-+)       done in 0.0 s
+     .1Vref_1         done in 0.0 s
+     Net-(U106C-B)    done in 0.0 s
+     Net-(U26A-P0B)   done in 0.0 s
+     Voltage_err_2    done in 0.0 s
+     IREF1_input      done in 0.0 s
+     Net-(Q1-E)       done in 0.0 s
+     Vref_1           done in 0.0 s
+     Net-(D23-+)      done in 0.0 s
+     Vout_2           done in 0.0 s
+     Output2_drain    done in 0.0 s
+     Net-(U106B-B)    done in 0.0 s
+     Net-(U26C-P2B)   done in 0.0 s
+     Verr1            done in 0.0 s
+     Net-(U106C-A)    done in 0.0 s
+     Voltage_err_1    done in 0.0 s
+rip  Net-(D25-+)      ripped Net-(U106C-A), Vout_2, Net-(U102B-A), analog_5V, but Net-(U106C-A) then failed; undone
+rip  Net-(D25-+)      ripped Net-(U106C-A), Out-, Net-(U102B-A), analog_5V, Vout_2, .1Vref_3, .1Vref_2, Net-(U23-In+), but Vout_2 then failed; undone
+rip  Net-(D25-+)      ripped Net-(U24-In+), Net-(U106A-B), Net-(U102B-A), Net-(U106C-A), Vout_2, but Vout_2 then failed; undone
+FAIL Net-(D25-+): island 0 (371 cells; R93.2 C64.2) to island 1 (D25.2 U23.1), gap 4.9 mm
+     Net-(D25-+)      done in 25.7 s (1 failed)

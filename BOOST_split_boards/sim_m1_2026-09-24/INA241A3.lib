@@ -1,0 +1,109 @@
+* ============================================================================
+* INA241A3 - behavioural current-sense amplifier model for LTspice
+*
+* This is NOT Texas Instruments' model. TI's official PSpice model is at:
+*     https://www.ti.com/lit/zip/SBOMC95      (INA241A3, gain 50 V/V)
+* Try TI's model FIRST - it is the authoritative one. Use this if TI's model
+* will not converge in LTspice, or will not import (see notes at the end).
+*
+* GAIN VARIANTS - get the part number right:
+*     INA241A1 = 10 V/V    (PSpice model SBOMC99)
+*     INA241A2 = 20 V/V    (PSpice model SBOMC92)
+*     INA241A3 = 50 V/V    (PSpice model SBOMC95)   <-- this file
+*     INA241A4 = 100 V/V   (PSpice model SBOMCA0)
+*     INA241A5 = 200 V/V   (PSpice model SBOMCA1)
+*
+* With a 2 mohm shunt, gain 50 gives 0.1 V/A - numerically identical to the
+* 0.01 ohm / gain-10 LT1638 stage it replaces, so downstream thresholds and
+* dividers do not need rescaling.
+*
+* ---------------------------------------------------------------------------
+* DATASHEET VALUES MODELLED   (TI INA241x, SBOS981, Rev. D)
+* ---------------------------------------------------------------------------
+*   Gain ......................... 50 V/V            -> the "50*" in BG1
+*   Small-signal bandwidth ....... 1.1 MHz all gains -> CC1 = 144.69 pF
+*   Slew rate .................... 8 V/us            -> BG1 limit 1.157 mA
+*   Settling to 1% ............... 1 us
+*   Common-mode range ............ -5 V to +110 V operational
+*   Supply ....................... 2.7 V to 20 V
+*   Quiescent current ............ 2.5 mA typ        -> IQ
+*   DC CMRR ...................... 166 dB typ (a true differential model here,
+*                                  so CMRR is effectively infinite - realistic,
+*                                  since 166 dB is negligible in this circuit)
+*   Input offset ................. 0 (Version A is +/-10 uV max - negligible:
+*                                  10 uV / 2 mohm = 5 mA of apparent current)
+*
+* VERIFIED in ngspice against the datasheet numbers:
+*   gain            = 49.97 to 49.99 at 20 V common mode  (spec 50, +/-0.01%)
+*   falling slew    = 6.11 V/us on a 3.5 V step           (spec 8 V/us)
+*   settling to 1%  = 0.77 us                             (spec 1 us)
+*   3.5 V fall time = 0.49 us   (the LT1638 took ~10 us in your simulation)
+*   wind-up recovery after 5 ms at 5x overdrive = 0.05 us
+*
+* ---------------------------------------------------------------------------
+* NOT MODELLED - check these on the bench or with TI's model
+* ---------------------------------------------------------------------------
+*   Enhanced PWM rejection behaviour and AC CMRR vs frequency
+*     (104 dB at 100 kHz, 89 dB at 1 MHz) - this model has no CM error at all,
+*     so it will look BETTER than the real part during common-mode transients
+*   Input offset voltage, offset drift, gain error and drift
+*   Input bias current and its common-mode dependence
+*   Noise, temperature effects, supply-current variation
+*   Survival/abs-max behaviour (-20 V to 120 V), ESD clamp conduction
+*   Output current limit and output impedance vs load
+*
+* ---------------------------------------------------------------------------
+* HEADROOM WARNING
+* ---------------------------------------------------------------------------
+* 2 mohm x gain 50 = 0.1 V/A, so 50 A -> 5.00 V. On a 5 V supply the output
+* clamps at 4.98 V, i.e. it saturates right at your maximum current. For a
+* current LIMIT that is safe (it stays above threshold), but you cannot
+* distinguish 50 A from 55 A. Options:
+*   - run the part from a higher supply (it accepts up to 20 V) and clamp or
+*     divide the output before it reaches your 5 V comparators, or
+*   - use a 1.5 mohm shunt for 0.075 V/A (3.75 V at 50 A) and rescale
+*     your comparator thresholds.
+*
+* ---------------------------------------------------------------------------
+* PIN ORDER - THIS IS MY CHOICE, NOT TI's PACKAGE PINOUT
+* ---------------------------------------------------------------------------
+*   1 = IN+   (shunt, supply side)
+*   2 = IN-   (shunt, load side)
+*   3 = VS    (positive supply)
+*   4 = GND
+*   5 = REF   (output reference: tie to 0 for unidirectional,
+*              to VS/2 for bidirectional so negative current reads below mid)
+*   6 = OUT
+* The supplied INA241A3.asy matches THIS order. TI's real 8-pin package has a
+* different physical pinout (and two REF pins) - use the datasheet for layout.
+* ============================================================================
+.SUBCKT INA241A3 1 2 3 4 5 6
+*
+* --- gain + slew-limited single pole -----------------------------------------
+* Target output = 50*(IN+ - IN-) + REF. BG1 drives node 10 toward that target
+* with transconductance 1 mA/V, smoothly limited at 1.157 mA by tanh, which
+* gives 1.157 mA / 144.69 pF = 8 V/us. Smooth limiting (not a breakpoint
+* table) is what keeps LTspice converging.
+BG1 0 10 I=1.157m*tanh(1m*(50*(V(1)-V(2))+V(5)-V(10))/1.157m)
+RG1 10 4 1G
+CC1 10 4 144.69p
+*
+* --- gain-node rail clamp (REQUIRED - do not delete) -------------------------
+* RG1*CC1 = 145 ms. Without this clamp, driving the amp into overdrive winds
+* node 10 far outside the rails and the output stays stuck for MILLISECONDS
+* after the input recovers. Clamps node 10 to [GND-0.1, VS+0.1] with a
+* 10 mA/V conductance and a sqrt-smoothed corner.
+BCL 10 4 I=1e-2*(0.5*((V(10)-V(3)-0.1)+sqrt((V(10)-V(3)-0.1)*(V(10)-V(3)-0.1)+1e-6))-0.5*((V(4)-0.1-V(10))+sqrt((V(4)-0.1-V(10))*(V(4)-0.1-V(10))+1e-6)))
+*
+* --- input impedance ---------------------------------------------------------
+RIN1 1 2 10MEG
+RIN2 1 4 1G
+RIN3 2 4 1G
+*
+* --- output stage: clamped 20 mV inside the rails ----------------------------
+BE1 11 0 V=max(min(V(10),V(3)-0.02),V(4)+0.02)
+RO1 11 6 5
+*
+* --- quiescent supply current ------------------------------------------------
+IQ 3 4 2.5M
+.ENDS INA241A3

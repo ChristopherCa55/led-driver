@@ -1,0 +1,55 @@
+# BOOST power board: build notes
+
+Started 2026-09-16. Collects assembly instructions decided during the re-design; sources are
+`replace_2026-09-14/tools/replace_notes.md` (rounds 3-4) and the user's instructions of 2026-09-16.
+Part numbers marked "not chosen" still need a decision.
+
+## Board
+
+- 8 layers, 1.6 mm nominal (JLCPCB stackup 1 oz outer / 1 oz inner, 1.654 mm copper + dielectric), written into
+  the board file.
+- Every power pad is joined to its copper solidly, with no thermal reliefs: the TO-220 pins, J1-J8, capacitor
+  pads and shunts. This is deliberate, because spokes would carry up to 15.8 A.
+
+## Soldering the power parts
+
+- Preheat the board from below to about 100-120 C with hot air before soldering the TO-220 pins or the J1/J2
+  cable joints.
+- Use an 80-100 W iron with a 3 mm or larger chisel tip, and flux.
+- Hold each FET body flat against the board while soldering its pins. On M1, M8, M9 and M10 the M2.5 screw and
+  its spacer can act as the jig.
+- Removing a FET later will be difficult: the pins are joined solidly to two GND planes and several pours.
+
+## Stack in the case (floor upward)
+
+Case floor tapped per `case_drilling_2026-09-15/` rev B (M3: 7.0 mm full thread; M2.5: 6.0 mm full thread;
+10 mm floor, blind holes).
+
+1. Thermal pad under every FET: Parker Chomerics THERM-A-GAP G579, 0.050 in (1.27 mm), sheet
+   61-05-0909-G579, cut about 10 x 16 mm per FET, with a 3.0 mm hole at M1/M8/M9/M10. Compressed to about
+   0.93 mm (27 % nominal) at a 5.50 mm board height.
+2. FET tab screws (M1, M8, M9, M10): M2.5 x 12 pan head, through the board, a 2.25 mm insulating gap spacer
+   (part not chosen), the Aavid/Boyd 7721-7PPSG shoulder washer in the tab hole, the tab and the pad, into the
+   floor. **Tighten only until the head seats.** The column rests on the compliant pad, so torque pulls the
+   board down and crushes those four pads.
+3. Board standoffs at H5-H8, **hand-tight only, no tools on nylon threads**:
+   Essentra HTSN-M3-5-3 nylon male-male stud (5 mm body, 6 mm hex) into the floor until its hex seats;
+   one TR Fastenings TR NWE-34815-M3 nylon washer (0.50 mm); the power board; Essentra HNSM3-20-5.5-1
+   nylon female-female (20 mm) screwed onto the stud to clamp the board; three TR NWE-34815-M3 washers
+   (1.50 mm); the control card; Wurth Elektronik 97790803211 (WA-SCRW M3 x 8 nylon 66 pan head, UL94 V-0, head
+   2.1 +/- 0.2 mm, head dia 5.5 +/- 0.3 mm, rated -30 to +85 C; accepted by the user 2026-09-17). Card gap 21.50 mm
+   (ESQ/TSW header seats at 21.21). Head top 32.30 mm, 0.70 mm under the lid (33.00); 0.50 mm at the maximum head
+   height, about 0.2 mm with the washers (+0.05 each) and a card 10 % thick as well.
+4. J9 (Arduino) is 11 soldered wires, 26-28 AWG stranded: in from the card's underside, soldered on the top side
+   and trimmed flush (fillet under the 1.75 mm top-side limit), run along the underside to the west edge; one
+   cable tie through the two slots beside the pads, head on the underside. The plug goes on the Nano's pins.
+   Before fitting the board, measure stud hex + washer on all four: target 5.50 +/- 0.10 mm (Essentra
+   publishes no length tolerance).
+
+## Order
+
+1. Solder the power board, FETs included (above).
+2. Lay the thermal pads on the floor, fit the board, and fit the M1/M8/M9/M10 tab screws and H5-H8 stand-offs.
+   **M8's and M9's screws go in before the control card**: they sit under it.
+3. Fit the control card on the header and stand-offs.
+4. Battery cable: strain relief on the case near the penetrator (boss or P-clip), not on the board.
