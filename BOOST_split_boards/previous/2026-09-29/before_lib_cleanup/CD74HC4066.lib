@@ -1,0 +1,17 @@
+* ============================================================================
+* CD74HC4066 - one channel of the quad bilateral switch, behavioural model (2026-09-28)
+* Not a TI model.  Values from TI's CD74HC4066 data sheet (HTML version, read 2026-09-28):
+*   on-resistance at VCC 4.5 V ........ about 35 ohm typ     -> RON
+*   control input ...................... HC CMOS levels; modelled as a smooth threshold at VDD/2
+*   switch turn-on / turn-off delay .... max 20 / 30 ns at 4.5 V, about 10 ns typ at 5 V  -> TON (one RC for both)
+*   off-state leakage .................. max 0.1 uA (not modelled; the switch is an ideal 10 GOhm when off)
+* Pins: A B CTRL VDD VSS.  CTRL high = switch closed.
+* NOT MODELLED: Ron change with signal voltage, charge injection, channel capacitances, leakage.
+* ============================================================================
+.SUBCKT CD74HC4066 A B CTRL VDD VSS PARAMS: RON=35 ROFF=10G TON=10n
+BC c1 VSS V=0.5+0.5*tanh((V(CTRL,VSS)-0.5*V(VDD,VSS))/0.05)
+RD c1 c2 1k
+CD c2 VSS {TON/0.69/1k}
+BS A B I=V(A,B)*(min(max(V(c2,VSS),0),1)/RON+1/ROFF)
+RIN CTRL VSS 1G
+.ENDS CD74HC4066

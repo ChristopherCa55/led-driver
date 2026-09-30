@@ -1,0 +1,112 @@
+* ============================================================================
+* MCP6241 - behavioural model for LTspice
+*
+* DROP-IN REPLACEMENT for Microchip's macromodel. Same subcircuit name and
+* same pin order, so no netlist changes are needed. Keep a backup of the
+* original file.
+*
+* ---------------------------------------------------------------------------
+* WHY
+* ---------------------------------------------------------------------------
+* Microchip's MCP6241 macromodel is a PSpice model. Its own header states:
+*     "Use PSPICE (other simulators may require translation)"
+*     Not Supported: "Behavior outside normal operating region"
+* It is built from piecewise-linear TABLE current sources whose segments reach
+* ~1900 A/V. In a hard-switching relaxation control loop those breakpoints
+* repeatedly collapse LTspice's timestep ("Time step too small ... trouble
+* with node uNN:xx"), and the failing node moves whenever anything in the
+* circuit changes. That is a property of the model, not a bug you can patch:
+* attempts to soften the tables just relocate the failure.
+*
+* This model reproduces the datasheet behaviour that matters for an error
+* amplifier using smooth, differentiable elements (tanh soft-limiting rather
+* than breakpoint tables), so Newton-Raphson converges reliably.
+*
+* ---------------------------------------------------------------------------
+* DATASHEET VALUES MODELLED   (Microchip DS21882, MCP6241/1R/1U/2/4)
+* ---------------------------------------------------------------------------
+*   Gain bandwidth product ...... 550 kHz typ      -> CC1 = 289.37 pF
+*   Slew rate ................... 0.3 V/us typ     -> BG1 limit = 86.81 uA
+*   Open loop gain .............. 100 dB           -> RG1 = 100 MEG
+*   Output swing ................ rail-to-rail     -> clamped 20 mV from rails
+*   Input bias current .......... 1 pA (CMOS)      -> 1e12 input resistors
+*   Quiescent current ........... 50 uA typ        -> IQ
+*   Input offset voltage ........ 0 (typical case). Datasheet max is +/-5 mV;
+*                                 see note at end of file to check margin.
+*
+* REV 2 (wind-up fix): added BCL gain-node rail clamp. Symptom in REV 1 was
+* the output remaining pinned at a rail for ~9-11 ms after the inputs crossed.
+* Verified: recovery delay after 18 ms of saturation went from 11.01 ms to
+* 0.01 ms; slew rate (0.308 V/us) and settling (2.99997 V) are unchanged.
+*
+* VALIDATED against the Microchip macromodel in ngspice, closed-loop follower,
+* 2 V step:  settled values agree within 3.6 mV; measured 10-90% slew rate
+* 0.308 V/us (this model) vs 0.283 V/us (Microchip model) vs 0.3 datasheet.
+*
+* ---------------------------------------------------------------------------
+* NOT MODELLED  - check these on the bench, not in simulation
+* ---------------------------------------------------------------------------
+*   Distortion and detailed large-signal nonlinearity
+*   Output impedance vs load and output current limiting
+*   Temperature coefficients, noise, PSRR/CMRR vs frequency
+*   Supply current vs supply voltage
+*   Input phase reversal behaviour and ESD/clamp conduction
+*   Behaviour above VDD = 5.5 V (the real part's maximum - see below)
+*
+* ---------------------------------------------------------------------------
+* !! SUPPLY HEADROOM WARNING !!
+* ---------------------------------------------------------------------------
+* MCP6241 operating supply is 1.8 V to 5.5 V MAXIMUM.
+* The BOOST circuit runs these amplifiers from a 5 V rail, leaving only 0.5 V
+* of margin. A 5 V regulator at +5% is already 5.25 V. Confirm your rail
+* tolerance and any startup overshoot before committing to this part.
+* LT1638 tolerates up to 44 V, so it is NOT a like-for-like swap on that axis.
+* This model does not enforce the 5.5 V limit - it will happily simulate at
+* voltages that would damage the real device.
+*
+* PIN ORDER (matches the Microchip model):  In+  In-  V+  V-  OUT
+* ============================================================================
+.SUBCKT MCP6241 1 2 3 4 5
+*
+* --- input stage: transconductance with smooth slew (current) limiting ------
+* tanh saturates smoothly at +/-86.81 uA, giving 0.3 V/us into CC1.
+* Small-signal gm = 1 mA/V. Smoothness here is what fixes the convergence.
+BG1 0 10 I=86.81u*tanh(1m*(V(1)-V(2))/86.81u)
+*
+* --- dominant pole:  GBW = gm/(2*pi*CC1),  Avol = gm*RG1 --------------------
+RG1 10 0 100MEG
+CC1 10 0 289.37p
+*
+* --- gain-node rail clamp (REQUIRED - do not delete) -----------------------
+* Without this, node 10 saturates at IMAX*RG1 = 86.81uA * 100MEG = 8681 V and
+* recovers with tau = RG1*CC1 = 28.9 ms. That is classic integrator wind-up:
+* after the amp sits at a rail, the output stays stuck there for MILLISECONDS
+* after the inputs cross. Microchip's macromodel prevents this with its
+* GD31/GD32 clamp tables; this is the smooth equivalent.
+* Clamps V(10) to [V-  -0.1, V+ +0.1] with a 10 mA/V (100 ohm) conductance,
+* so overshoot past the clamp is ~8.7 mV at full BG1 current. The corner is
+* smoothed with sqrt(x^2+1e-6) rather than a hard max(), keeping it
+* differentiable - slope is 1e-2 A/V vs ~1900 A/V in the vendor tables.
+BCL 10 0 I=1e-2*(0.5*((V(10)-V(3)-0.1)+sqrt((V(10)-V(3)-0.1)*(V(10)-V(3)-0.1)+1e-6))-0.5*((V(4)-0.1-V(10))+sqrt((V(4)-0.1-V(10))*(V(4)-0.1-V(10))+1e-6)))
+*
+* --- input impedance (CMOS: essentially open) ------------------------------
+RIN1 1 0 1E12
+RIN2 2 0 1E12
+CIN1 1 0 6P
+CIN2 2 0 6P
+*
+* --- output stage: rail-to-rail, clamped 20 mV inside the supplies ---------
+BE1 11 0 V=max(min(V(10),V(3)-0.02),V(4)+0.02)
+RO1 11 5 10
+*
+* --- quiescent supply current ----------------------------------------------
+IQ 3 4 50U
+.ENDS MCP6241
+*
+* ============================================================================
+* To check regulation margin against the datasheet worst-case offset, add the
+* offset into the input expression, e.g. change BG1 to:
+*     BG1 0 10 I=86.81u*tanh(1m*(V(1)-V(2)+5m)/86.81u)
+* and re-run. In the BOOST loop-2 divider (4k/500, Vout = 9 x Vsense) a 5 mV
+* offset moves the 40 V rail by about 45 mV, i.e. 0.11%.
+* ============================================================================

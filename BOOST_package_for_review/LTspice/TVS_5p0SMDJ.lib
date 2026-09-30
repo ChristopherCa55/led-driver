@@ -1,0 +1,12 @@
+* ============================================================================
+* Littelfuse 5.0SMDJ54A - 5 kW TVS diode (SMC package), behavioural model (2026-09-29)
+* The board's D19.  Not a Littelfuse model.  Checked against Littelfuse's 5.0SMDJ series data sheet (revised
+* 04/17/19), row 5.0SMDJ54A, read 2026-09-29:
+*   standoff VR 54.0 V; breakdown VBR 60.0-66.3 V at 1 mA; clamp 87.1 V at IPP 57.5 A (10/1000 us);
+*   clamp 112.5 V at IPP 431.3 A (8/20 us); leakage max 5 uA at VR; VBR tempco 0.102 %/C.
+* The model (same as TVS_5KP54A) uses the minimum breakdown (60 V) and fits the 10/1000 us point: about 87 V at 58 A.
+* That is the pessimistic case: the 8/20 us point implies a much lower dynamic resistance, so for the nanosecond-scale
+* LX spikes the real clamp is likely lower than this model gives.
+* Connect the cathode to LX and the anode to ground.
+* ============================================================================
+.model TVS_5p0SMDJ54A D(IS=1e-12 N=1 RS=0.463 BV=60.0 IBV=1e-3 CJO=2n VJ=0.7 M=0.4)

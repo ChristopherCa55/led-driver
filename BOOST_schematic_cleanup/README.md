@@ -1,66 +1,52 @@
-# BOOST LED driver: final package (2026-09-26, reorganised 2026-09-27)
+# BOOST LED driver: design files for review (2026-09-28)
 
-Everything needed to build, order and simulate the BOOST LED driver, in one folder: `KiCad/`, `LTspice/`, and the documents, 3D model and fabrication files at the top level. Status: schematic rev6, boards RC2 (release) with your silkscreen logos (added 2026-09-27), build scenario A (5 bare PCBs of each board, 2 assembled by JLCPCB).
+The KiCad design, the LTspice simulation and the fabrication files of the BOOST LED driver:
+- the schematic is rev6 plus the pre-charge diodes D28-D30 (added 2026-09-29, see PRECHARGE_DIODES_HANDOFF.md);
+- both boards are RC2 with the silkscreen logos (added 2026-09-27).
 
-**Before ordering, regenerate the gerbers, fab drawings and 3D model.** The `*_gerbers.zip` files, the fab drawings and the 3D model at this level were made on 2026-09-24/25, before the logos. Uploading these zips as they are gives boards without the logos.
-
-The documents, gerbers and 3D model are copies from the working project. The KiCad boards here are newer than the working copies: they carry the logos.
+**The gerbers, fab drawings and 3D model here were made on 2026-09-24/25, before the logos.** Regenerate them from
+the boards in `KiCad/` before ordering; uploading these zips as they are gives boards without the logos.
 
 ## What is here
 
 | File | What it is | Open with |
 |---|---|---|
 | `KiCad/BOOST.kicad_pro`, `KiCad/BOOST.kicad_sch` | **The schematic** (rev6). Open the `.kicad_pro` | KiCad 10 |
-| `KiCad/BOOST_power_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Power board**: 74 x 86 mm, 8 layers, with 9 silkscreen logos | KiCad 10: open its `.kicad_pro`, or the `.kicad_pcb` in the PCB editor |
-| `KiCad/BOOST_control_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Control card**: 45 x 45 mm, 8 layers, with 2 silkscreen logos | KiCad 10, as above |
-| `KiCad/BOOST.pretty/`, `KiCad/CSCF3218-6R8MC.pretty/`, `KiCad/ltspice.kicad_sym`, `KiCad/fp-lib-table`, `KiCad/sym-lib-table` | The project's own footprint and symbol libraries. The two tables use project-relative paths, so the schematic and both boards find them in `KiCad/` | used by KiCad automatically |
-| `BOOST_power_RC2_gerbers.zip`, `BOOST_control_RC2_gerbers.zip` | Gerbers and drill files for JLCPCB, **made before the logos: regenerate before ordering** | JLCPCB, or KiCad's GerbView |
+| `KiCad/BOOST_power_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Power board**: 74 x 86 mm, 8 layers, 8 silkscreen logos | KiCad 10: open its `.kicad_pro` |
+| `KiCad/BOOST_control_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Control card**: 45 x 45 mm, 8 layers, 2 silkscreen logos | KiCad 10, as above |
+| `KiCad/BOOST.pretty/`, `KiCad/CSCF3218-6R8MC.pretty/`, `KiCad/ltspice.kicad_sym`, `KiCad/fp-lib-table`, `KiCad/sym-lib-table` | The project's own footprint and symbol libraries. The tables use project-relative paths | used by KiCad automatically |
+| `BOOST_power_RC2_gerbers.zip`, `BOOST_control_RC2_gerbers.zip` | Gerbers and drill files, **made before the logos** | JLCPCB, or KiCad's GerbView |
 | `BOOST_power_RC2_fab_drawing.pdf`, `BOOST_control_RC2_fab_drawing.pdf` | Fab drawings: outline, holes, stackup, copper, notes (all vias epoxy filled and capped) | any PDF reader |
-| `BOOST_power_BOM_JLC.csv`, `BOOST_power_CPL_JLC.csv`, `BOOST_control_BOM_JLC.csv`, `BOOST_control_CPL_JLC.csv` | **JLC BOM and pick-and-place** for each board | upload to JLCPCB; any spreadsheet |
-| `SOURCING_TABLE.md` | **The BOM**: every part with its refs, value, footprint, LCSC number, stock, price and why it was chosen, plus the parts you fit yourself | any Markdown viewer or text editor |
-| `ORDER_CHECKLIST.md` | **What to order and how**: both JLC orders option by option, everything bought elsewhere, the stock to re-check. Total $760.83 (without shipping and tax) | Markdown viewer |
-| `COST_SUMMARY.md` | Where every dollar comes from, the thermal-pad comparison, and the buck converter's requirements | Markdown viewer |
-| `BUILD_NOTES.md` | **How to build it**: parts you fit, MOSFET orientation, soldering, the case stack, the J9 wiring, the order of work, and the tab-to-case check before power-up | Markdown viewer |
-| `case_floor_drilling.html` / `.svg` | Case-floor drilling drawing, rev B (hole positions and tapping) | web browser; print at 100 % for a 1:1 template |
-| `BOOST_assembly_2026-09-25.step` | **3D model** of both boards in the case, with all hardware, names and colours | FreeCAD or CAD Assistant (free), or any CAD program |
-| `BOOST_assembly_2026-09-25_3D.pdf` | The same model as a 3D PDF | **Adobe Acrobat Reader**: click the model to activate it. Edge and Chrome do not show 3D content |
-| `BOOST_assembly_2026-09-25.stl` | The same model as one mesh (boards, parts, fixings, case floor) | Windows 3D Builder / 3D Viewer, PrusaSlicer, Blender |
-| `CLEARANCES.md` | Clearances measured in the 3D model (lid, standoffs, screwdriver access, vents). Optional reference; delete it if you do not need it | Markdown viewer |
-| `LTspice/` | The LTspice simulation (see below) | LTspice |
+| `BOOST_assembly_2026-09-25.step` | 3D model of both boards in the case, **made before the logos** | FreeCAD, CAD Assistant or any CAD program |
+| `LTspice/` | The LTspice simulation (see below) | LTspice 26 |
 
-## Notes on the copies
-
-- **The documents came from the working project**, and some of their path references still point there. For example
-  `bom/BOOST_power_BOM_JLC.csv`, `BOOST_power_RC2/...` and `fab_2026-09-24/...`. The files they name that matter are
-  all in this folder under the same file names. The analysis files they mention (pad options, simulation reports,
-  status pages) were left out on purpose.
-- **The 3D model** still shows the original Essentra floor stud. The final stud (set screw plus a 4.5 mm aluminium
-  spacer) is slimmer, so no clearance gets worse.
+## KiCad notes
+- **2026-09-29: pre-charge diodes D28-D30 added.** Jingdao S2MW (LCSC C128729; 1000 V, 2 A, IFSM 50 A;
+  SOD-123FL, footprint `Diode_SMD:D_SOD-123F`), anode on `Vin`, cathode on `Vout_1` / `Vout_2` / `Vout_3`.
+  On the power board they are on the bottom: D28 (46.00, 91.50), D29 (52.00, 87.25), D30 (102.85, 89.60). R47 moved to
+  (102.85, 99.50) to make room for D30, and the bottom logo at (48.1, 88.7) was removed. Checked: ERC 0; DRC 0 errors,
+  0 unconnected, the same 49 warnings as before; parity unchanged apart from the three new parts. Full record:
+  `PRECHARGE_DIODES_HANDOFF.md`. **The gerbers, fab drawings and 3D model here, and the BOM/CPL files in
+  `BOOST_package`, do not include the diodes yet.**
 - **The schematic layout was reorganized on 2026-09-28**, and checked against rev6's original layout:
   - all 290 parts match on every field, and all 322 symbol units and 201 power symbols are unchanged;
   - all 186 nets have the same pins and the same names;
   - ERC is 0, and both boards' parity is unchanged.
   - The LTspice schematic was reorganized too; its connections were identical. It was then edited to match KiCad
     (see below).
-- **KiCad 3D models:** the boards' parts use KiCad's standard 3D library (`${KICAD10_3DMODEL_DIR}`), which comes with
-  KiCad.
-- **The board projects:** each board has its own `.kicad_pro`, which carries its net classes and design rules.
-  Always open a board through (or beside) its own `.kicad_pro`; without it, DRC falls back to defaults.
-- **Checked from `KiCad/`** (2026-09-27, after the logos): ERC gives 0 errors and 0 warnings. DRC on both boards gives
-  0 errors and 0 unconnected.
-  - The warnings: the two can-outline silk overlaps on the power board, and the J10/J11 1.05 mm drills differing
-    from their library footprints on purpose.
-  - Also 46 silk-over-copper warnings on the power board, where a top logo under L1 runs over L1's middle
-    (mechanical) pad. The logo is hidden under L1 anyway, and you accepted that. The gerber export cuts silk away
-    from exposed pads.
-- **The logos:**
-  - They are silk-only footprints (`G***`) with no pads, excluded from the BOM and pick-and-place files, so JLC's
-    placement files are unchanged.
-  - The bottom logo by U8 was moved clear of U8's pins: its nearest point is 0.34 mm from pin 8.
-  - Two top logos sit under L1 and will be hidden by it.
-- **KiCad's own files were removed** (to the Recycle Bin on 2026-09-27): the local history `.history/`, the three
-  `*-backups/` autosave folders and the `.kicad_prl` view-settings files. KiCad recreates `.kicad_prl` files the next
-  time you open a project; they are safe to delete again.
+- **Each board has its own `.kicad_pro`**, which carries its net classes and design rules. Open a board through (or
+  beside) its own `.kicad_pro`; without it, DRC falls back to the defaults.
+- **3D models:** the parts use KiCad's standard 3D library (`${KICAD10_3DMODEL_DIR}`), which comes with KiCad.
+- **Checked 2026-09-27, after the logos:**
+  - ERC: 0 errors, 0 warnings.
+  - DRC on both boards: 0 errors, 0 unconnected.
+  - Warnings: the two can-outline silk overlaps on the power board, and the J10/J11 1.05 mm drills that differ from
+    their library footprints on purpose.
+  - 46 silk-over-copper warnings where a top logo under L1 crosses L1's middle (mechanical) pad. It is hidden under L1,
+    and the gerber export cuts silk away from exposed pads.
+- **The logos** are silk-only footprints (`G***`) with no pads, excluded from the BOM and pick-and-place files.
+- KiCad recreates `.kicad_prl` files, `.history/` and `*-backups/` folders when a project is opened. They are safe to
+  delete.
 
 ## LTspice subfolder
 
@@ -82,6 +68,8 @@ The same LTspice files are in `BOOST_package`, `BOOST_package_for_review` and `B
   `LM2940_12.asy`, `MCP4451_CTRL.asy`, `MCP4451_POT.asy`, `UCC21520.asy`;
 - model libraries: `74HC4051.lib`, `CD4000_v.lib`, `CD74HC4066.lib`, `CSS4J.lib`, `HYG180N10.lib`, `INA241A4.lib`,
   `L78L05.lib`, `LM2940_12.lib`, `MCP4451.lib`, `MCP6241.lib`, `MCP6561.lib`, `TVS_5p0SMDJ.lib`, `UCC21520.lib`.
+- D28-D30 (pre-charge diodes, S2MW) use an inline `.model S2MW` directive: LTspice's 1N4007 scaled to a 2 A die
+  (VF 0.91 V at 2 A; data sheet max 1.1 V). Jingdao publishes no SPICE model.
 - Removed on 2026-09-29 as unused: `CD4051B.asy`, `INA241A3.asy/.lib`, `L7805.asy/.lib`, `LM78L05.lib`,
   `SwitchAna.lib`, `TVS_5KP.lib`, their `.lib` lines, SwitchAna's `.param Vcc=5 Vel=0.2` and the unused
   `.model SW`. The `LED_RED`/`LED_GREEN`/`LED_BLUE` models are kept on purpose (the LEDs use the `100W_` models).
@@ -133,11 +121,14 @@ The same LTspice files are in `BOOST_package`, `BOOST_package_for_review` and `B
 - Delete both lines for a true cold start. Full brightness then takes about half a second, which a 30 ms run will not
   reach.
 
-**Known issue** (edge-case simulations, 2026-09-28):
-- During a cold start, while an output is still below the battery voltage, a channel can be switched off with current
-  flowing in L1.
-- LX then spikes to 80-87 V into the TVS D19. The FETs are rated 100 V.
-- Fixes are being considered; the design is unchanged so far.
+**Start-up spikes, fixed 2026-09-29 with pre-charge diodes D28-D30** (Vin -> each output):
+- Without them, a cold start could switch a channel off with current in L1 while its output was still below the
+  battery: LX 80-93 V into the TVS D19.
+- With them, every output sits at about Vin - 0.9 V from the moment the battery is connected. A normal power-up
+  (references ramping from zero) then peaks at LX 62-62.5 V with about 4 A in L1, at both 14.8 V and 16.8 V.
+- The as-drawn `.ic` start (references and servos already settled while the 12 V gate-drive rail is still coming
+  up) still shows an 81 V LX spike at 0.15 ms. Real hardware starts with the references at zero. See section 8 of
+  `PRECHARGE_DIODES_HANDOFF.md`.
 
 **Models written for this simulation** (behavioural; values checked against the makers' data sheets on 2026-09-29):
 - INA241A4 (TI SBOSA30), CD74HC4066 (TI SCHS208E: 25 ohm on-resistance near the rails), 74HC4051 (Nexperia Rev 12:

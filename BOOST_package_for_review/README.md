@@ -1,66 +1,45 @@
-# BOOST LED driver: final package (2026-09-26, reorganised 2026-09-27)
+# BOOST LED driver: design files for review (2026-09-28)
 
-Everything needed to build, order and simulate the BOOST LED driver, in one folder: `KiCad/`, `LTspice/`, and the documents, 3D model and fabrication files at the top level. Status: schematic rev6, boards RC2 (release) with your silkscreen logos (added 2026-09-27), build scenario A (5 bare PCBs of each board, 2 assembled by JLCPCB).
+The KiCad design, the LTspice simulation and the fabrication files of the BOOST LED driver:
+- the schematic is rev6;
+- both boards are RC2 with the silkscreen logos (added 2026-09-27).
 
-**Before ordering, regenerate the gerbers, fab drawings and 3D model.** The `*_gerbers.zip` files, the fab drawings and the 3D model at this level were made on 2026-09-24/25, before the logos. Uploading these zips as they are gives boards without the logos.
-
-The documents, gerbers and 3D model are copies from the working project. The KiCad boards here are newer than the working copies: they carry the logos.
+**The gerbers, fab drawings and 3D model here were made on 2026-09-24/25, before the logos.** Regenerate them from
+the boards in `KiCad/` before ordering; uploading these zips as they are gives boards without the logos.
 
 ## What is here
 
 | File | What it is | Open with |
 |---|---|---|
 | `KiCad/BOOST.kicad_pro`, `KiCad/BOOST.kicad_sch` | **The schematic** (rev6). Open the `.kicad_pro` | KiCad 10 |
-| `KiCad/BOOST_power_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Power board**: 74 x 86 mm, 8 layers, with 9 silkscreen logos | KiCad 10: open its `.kicad_pro`, or the `.kicad_pcb` in the PCB editor |
-| `KiCad/BOOST_control_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Control card**: 45 x 45 mm, 8 layers, with 2 silkscreen logos | KiCad 10, as above |
-| `KiCad/BOOST.pretty/`, `KiCad/CSCF3218-6R8MC.pretty/`, `KiCad/ltspice.kicad_sym`, `KiCad/fp-lib-table`, `KiCad/sym-lib-table` | The project's own footprint and symbol libraries. The two tables use project-relative paths, so the schematic and both boards find them in `KiCad/` | used by KiCad automatically |
-| `BOOST_power_RC2_gerbers.zip`, `BOOST_control_RC2_gerbers.zip` | Gerbers and drill files for JLCPCB, **made before the logos: regenerate before ordering** | JLCPCB, or KiCad's GerbView |
+| `KiCad/BOOST_power_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Power board**: 74 x 86 mm, 8 layers, 9 silkscreen logos | KiCad 10: open its `.kicad_pro` |
+| `KiCad/BOOST_control_RC2.kicad_pcb` (+ `.kicad_pro`, `.kicad_dru`) | **Control card**: 45 x 45 mm, 8 layers, 2 silkscreen logos | KiCad 10, as above |
+| `KiCad/BOOST.pretty/`, `KiCad/CSCF3218-6R8MC.pretty/`, `KiCad/ltspice.kicad_sym`, `KiCad/fp-lib-table`, `KiCad/sym-lib-table` | The project's own footprint and symbol libraries. The tables use project-relative paths | used by KiCad automatically |
+| `BOOST_power_RC2_gerbers.zip`, `BOOST_control_RC2_gerbers.zip` | Gerbers and drill files, **made before the logos** | JLCPCB, or KiCad's GerbView |
 | `BOOST_power_RC2_fab_drawing.pdf`, `BOOST_control_RC2_fab_drawing.pdf` | Fab drawings: outline, holes, stackup, copper, notes (all vias epoxy filled and capped) | any PDF reader |
-| `BOOST_power_BOM_JLC.csv`, `BOOST_power_CPL_JLC.csv`, `BOOST_control_BOM_JLC.csv`, `BOOST_control_CPL_JLC.csv` | **JLC BOM and pick-and-place** for each board | upload to JLCPCB; any spreadsheet |
-| `SOURCING_TABLE.md` | **The BOM**: every part with its refs, value, footprint, LCSC number, stock, price and why it was chosen, plus the parts you fit yourself | any Markdown viewer or text editor |
-| `ORDER_CHECKLIST.md` | **What to order and how**: both JLC orders option by option, everything bought elsewhere, the stock to re-check. Total $760.83 (without shipping and tax) | Markdown viewer |
-| `COST_SUMMARY.md` | Where every dollar comes from, the thermal-pad comparison, and the buck converter's requirements | Markdown viewer |
-| `BUILD_NOTES.md` | **How to build it**: parts you fit, MOSFET orientation, soldering, the case stack, the J9 wiring, the order of work, and the tab-to-case check before power-up | Markdown viewer |
-| `case_floor_drilling.html` / `.svg` | Case-floor drilling drawing, rev B (hole positions and tapping) | web browser; print at 100 % for a 1:1 template |
-| `BOOST_assembly_2026-09-25.step` | **3D model** of both boards in the case, with all hardware, names and colours | FreeCAD or CAD Assistant (free), or any CAD program |
-| `BOOST_assembly_2026-09-25_3D.pdf` | The same model as a 3D PDF | **Adobe Acrobat Reader**: click the model to activate it. Edge and Chrome do not show 3D content |
-| `BOOST_assembly_2026-09-25.stl` | The same model as one mesh (boards, parts, fixings, case floor) | Windows 3D Builder / 3D Viewer, PrusaSlicer, Blender |
-| `CLEARANCES.md` | Clearances measured in the 3D model (lid, standoffs, screwdriver access, vents). Optional reference; delete it if you do not need it | Markdown viewer |
-| `LTspice/` | The LTspice simulation (see below) | LTspice |
+| `BOOST_assembly_2026-09-25.step` | 3D model of both boards in the case, **made before the logos** | FreeCAD, CAD Assistant or any CAD program |
+| `LTspice/` | The LTspice simulation (see below) | LTspice 26 |
 
-## Notes on the copies
-
-- **The documents came from the working project**, and some of their path references still point there. For example
-  `bom/BOOST_power_BOM_JLC.csv`, `BOOST_power_RC2/...` and `fab_2026-09-24/...`. The files they name that matter are
-  all in this folder under the same file names. The analysis files they mention (pad options, simulation reports,
-  status pages) were left out on purpose.
-- **The 3D model** still shows the original Essentra floor stud. The final stud (set screw plus a 4.5 mm aluminium
-  spacer) is slimmer, so no clearance gets worse.
+## KiCad notes
 - **The schematic layout was reorganized on 2026-09-28**, and checked against rev6's original layout:
   - all 290 parts match on every field, and all 322 symbol units and 201 power symbols are unchanged;
   - all 186 nets have the same pins and the same names;
   - ERC is 0, and both boards' parity is unchanged.
   - The LTspice schematic was reorganized too; its connections were identical. It was then edited to match KiCad
     (see below).
-- **KiCad 3D models:** the boards' parts use KiCad's standard 3D library (`${KICAD10_3DMODEL_DIR}`), which comes with
-  KiCad.
-- **The board projects:** each board has its own `.kicad_pro`, which carries its net classes and design rules.
-  Always open a board through (or beside) its own `.kicad_pro`; without it, DRC falls back to defaults.
-- **Checked from `KiCad/`** (2026-09-27, after the logos): ERC gives 0 errors and 0 warnings. DRC on both boards gives
-  0 errors and 0 unconnected.
-  - The warnings: the two can-outline silk overlaps on the power board, and the J10/J11 1.05 mm drills differing
-    from their library footprints on purpose.
-  - Also 46 silk-over-copper warnings on the power board, where a top logo under L1 runs over L1's middle
-    (mechanical) pad. The logo is hidden under L1 anyway, and you accepted that. The gerber export cuts silk away
-    from exposed pads.
-- **The logos:**
-  - They are silk-only footprints (`G***`) with no pads, excluded from the BOM and pick-and-place files, so JLC's
-    placement files are unchanged.
-  - The bottom logo by U8 was moved clear of U8's pins: its nearest point is 0.34 mm from pin 8.
-  - Two top logos sit under L1 and will be hidden by it.
-- **KiCad's own files were removed** (to the Recycle Bin on 2026-09-27): the local history `.history/`, the three
-  `*-backups/` autosave folders and the `.kicad_prl` view-settings files. KiCad recreates `.kicad_prl` files the next
-  time you open a project; they are safe to delete again.
+- **Each board has its own `.kicad_pro`**, which carries its net classes and design rules. Open a board through (or
+  beside) its own `.kicad_pro`; without it, DRC falls back to the defaults.
+- **3D models:** the parts use KiCad's standard 3D library (`${KICAD10_3DMODEL_DIR}`), which comes with KiCad.
+- **Checked 2026-09-27, after the logos:**
+  - ERC: 0 errors, 0 warnings.
+  - DRC on both boards: 0 errors, 0 unconnected.
+  - Warnings: the two can-outline silk overlaps on the power board, and the J10/J11 1.05 mm drills that differ from
+    their library footprints on purpose.
+  - 46 silk-over-copper warnings where a top logo under L1 crosses L1's middle (mechanical) pad. It is hidden under L1,
+    and the gerber export cuts silk away from exposed pads.
+- **The logos** are silk-only footprints (`G***`) with no pads, excluded from the BOM and pick-and-place files.
+- KiCad recreates `.kicad_prl` files, `.history/` and `*-backups/` folders when a project is opened. They are safe to
+  delete.
 
 ## LTspice subfolder
 

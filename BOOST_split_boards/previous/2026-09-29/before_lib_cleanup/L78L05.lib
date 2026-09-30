@@ -1,0 +1,12 @@
+* ============================================================================
+* L78L05 - 5 V 100 mA linear regulator, behavioural model (2026-09-28)
+* The board uses ST L78L05ACUTR (U1 = analog_5V, U17 = digital 5 V).  Not an ST model: this is the same behaviour
+* as LM78L05.lib in this folder (1.7 V dropout, 0.5 ohm output, 3 mA quiescent).  ST's data sheet was not read
+* (PDF), so these figures are unverified for the ST part.
+* NOT MODELLED: current limit, thermal shutdown, PSRR vs frequency, start-up.
+* ============================================================================
+.SUBCKT L78L05 IN OUT GND
+BR n1 GND V=min(V(IN)-V(GND)-1.7, 5.0)
+RO n1 OUT 0.5
+IQ IN GND 3m
+.ENDS L78L05

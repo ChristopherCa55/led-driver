@@ -1,0 +1,9 @@
+* ============================================================================
+* Littelfuse 5.0SMDJ54A - 5 kW TVS diode (SMC package), behavioural model (2026-09-28)
+* The board's D19.  NOT a Littelfuse model, and its values are NOT verified: Littelfuse's 5.0SMDJ table could not be
+* read, so this copies the TVS_5KP54A model in TVS_5KP.lib (the 5 kW axial part with the same 54 V standoff:
+* VRWM 54 V, VBR min 60.0 V at 1 mA, about 87 V clamp at 58 A).  Check the 5.0SMDJ54A data sheet before relying on
+* the clamp voltage.
+* Connect the cathode to LX and the anode to ground.  See TVS_5KP.lib for the notes on repetitive clamping.
+* ============================================================================
+.model TVS_5p0SMDJ54A D(IS=1e-12 N=1 RS=0.463 BV=60.0 IBV=1e-3 CJO=2n VJ=0.7 M=0.4)

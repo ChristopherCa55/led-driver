@@ -40,8 +40,7 @@ The documents, gerbers and 3D model are copies from the working project. The KiC
   - all 290 parts match on every field, and all 322 symbol units and 201 power symbols are unchanged;
   - all 186 nets have the same pins and the same names;
   - ERC is 0, and both boards' parity is unchanged.
-  - The LTspice schematic was reorganized too; its connections were identical. It was then edited to match KiCad
-    (see below).
+  - The LTspice schematic was reorganized too; its connections are identical.
 - **KiCad 3D models:** the boards' parts use KiCad's standard 3D library (`${KICAD10_3DMODEL_DIR}`), which comes with
   KiCad.
 - **The board projects:** each board has its own `.kicad_pro`, which carries its net classes and design rules.
@@ -64,68 +63,31 @@ The documents, gerbers and 3D model are copies from the working project. The KiC
 
 ## LTspice subfolder
 
-**Updated 2026-09-28 (evening): the LTspice schematic now matches the KiCad schematic part for part.** Every
-electrical KiCad part (286, counting each gate, switch and pot unit) has an LTspice part with the same designator,
-value and connections; a structural netlist comparison finds no differences. Only mounting holes, connectors and net
-ties have no LTspice part. The previous `.asc` is backed up in
-`BOOST_split_boards/previous/2026-09-28/before_ltspice_kicad_match/`.
+`LTspice/BOOST.asc` plus only the files it needs:
+- 6 custom symbols: `CD4017B.asy`, `CD4051B.asy`, `INA241A3.asy`, `L7805.asy`, `LM2940_12.asy`, `UCC21520.asy`;
+- 11 model libraries: `CD4000_v.lib`, `HYG180N10.lib`, `INA241A3.lib`, `L7805.lib`, `LM2940_12.lib`, `LM78L05.lib`,
+  `MCP6241.lib`, `MCP6561.lib`, `SwitchAna.lib`, `TVS_5KP.lib`, `UCC21520.lib`.
 
-**2026-09-29:** after you reorganized the layout, the connections were re-checked against KiCad. R73 and R74 had
-ended up on the driver side of their gate resistors again; they now sit on `GATE_M4`/`GATE_M5` (each moved 16 units,
-with a gate label on its freed end). All 286 parts match KiCad. The model values were checked against the part makers'
-data sheets (below), the gates were retuned to Nexperia's figures, and the unused files and their `.lib` lines were
-removed. Your reorganized `.asc` from before these edits is in `BOOST_split_boards/previous/2026-09-29/before_lib_cleanup/`.
-The same LTspice files are in `BOOST_package`, `BOOST_package_for_review` and `BOOST_schematic_cleanup`.
+Everything else it uses is built into LTspice.
 
-`LTspice/BOOST.asc` uses:
-- custom symbols: `74HC4051.asy`, `CD4017B.asy`, `CD74HC4066.asy`, `CSS4J_4026.asy`, `INA241A4.asy`, `L78L05.asy`,
-  `LM2940_12.asy`, `MCP4451_CTRL.asy`, `MCP4451_POT.asy`, `UCC21520.asy`;
-- model libraries: `74HC4051.lib`, `CD4000_v.lib`, `CD74HC4066.lib`, `CSS4J.lib`, `HYG180N10.lib`, `INA241A4.lib`,
-  `L78L05.lib`, `LM2940_12.lib`, `MCP4451.lib`, `MCP6241.lib`, `MCP6561.lib`, `TVS_5p0SMDJ.lib`, `UCC21520.lib`.
-- Removed on 2026-09-29 as unused: `CD4051B.asy`, `INA241A3.asy/.lib`, `L7805.asy/.lib`, `LM78L05.lib`,
-  `SwitchAna.lib`, `TVS_5KP.lib`, their `.lib` lines, SwitchAna's `.param Vcc=5 Vel=0.2` and the unused
-  `.model SW`. The `LED_RED`/`LED_GREEN`/`LED_BLUE` models are kept on purpose (the LEDs use the `100W_` models).
+**Updated 2026-09-28: it runs the full 30 ms and carries the final values of the KiCad schematic.**
 
-| Change | KiCad part |
+| Change from the 2026-08-31 file | Why |
 |---|---|
-| 4-terminal 1 mOhm Kelvin shunt; the INA's inputs now sense `ISNS_P`/`ISNS_N` | R1 (CSS4J-4026) |
-| INA241A4 (gain 100, REF1 and REF2 grounded) instead of the INA241A3 | U25 |
-| IREF chains: Arduino PWM `IREFn` -> 22k -> 1k + 1 nF -> digital pot (A = GND, W = `IREFn_input`) | R29/R54/C100/U26A, R30/R55/C101/U26B, R57/R58/C102/U26C |
-| Digital-pot control pins: HVC/A0 and A1 10k to GND, RESET 10k to 5 V | U26E, R102, R99, R103 |
-| Servo sample switches are CD74HC4066 channels gated by `IREF3`/`IREF2`/`IREF1` (were ideal switches on analog 5 V) | U106A/B/C |
-| Error mux is a 74HC4051; its unused inputs IO0, IO3, IO5, IO6, IO7 go to ground (IO0 was on Verr1) | U28 |
-| M1 gate pull-down on `GATE_M1`; M4/M5 pull-downs on `GATE_M4`/`GATE_M5` (were on the driver side) | R104, R73, R74 |
-| 100k pull-down on `ARD_M1_INHIBIT` | R105 |
-| L78L05 regulators; 22 uF on each 5 V rail; seven more 100 nF on 5 V | U1, U17, C7, C55, C92, C94-C99 |
-| TVS model named for the board's 5.0SMDJ54A | D19 |
-| All designators as in KiCad (the gates are U101A-U105B); the digital rail is named `5V` | - |
-| Logic gates keep LTspice's fast built-in models, set to Nexperia 74HC00/74HC14 typical delays, edges and thresholds | U101-U105 |
+| M8, M9, M10 (LED current sinks) use `HYG180N10_NOLEADS` | The REV 5 model's undamped lead inductance inside the sink loops stopped the run at 1.51 ms ("time step too small"). The sinks run linearly, so their leads do not matter; M1-M7 keep their leads |
+| R13, R23, R47: 220 ohm. R15: 10 ohm, D12 removed. R21, R48, R60, R72: 5.1 ohm | The final values, as in the KiCad schematic (rev6) |
+| Servo outputs labelled `SRV1`-`SRV3`, with `.ic V(SRV1)=2.89 V(SRV2)=3.86 V(SRV3)=3.86` | The headroom servos take about 0.25 s to settle; this starts them settled. The old `.ic` pointed at nodes that had been renumbered |
+| Reference filters `R_VREF1`-`R_VREF3` (10 k) and `C_VREF1`-`C_VREF3` (10 uF); the `Reference_Vn` sources now drive `Vref_n_arduino` with 0-5 V, 490 Hz PWM like the Arduino's pins (40, 60 and 60 % duty, averaging 2, 3 and 3 V); `.ic V(Vref_1)=2 V(Vref_2)=3 V(Vref_3)=3` | Board parts the model lacked: R101/C103, R100/C93 and R77/C47. They have new names because R77 and C47 are other parts in the `.asc` |
+| `D27` and a source `ARD_M1_INHIBIT` (0 V) on the `M1_INHIBIT` OR node | The board's Arduino M1-inhibit input (J9 pin 11). Set the source to 5 V to hold M1 off |
+| Most `.meas` lines removed | Only the TVS power and energy measurements remain |
 
-**Parameters** (a `.param` line near the other directives):
-- `IREF1_DUTY`, `IREF2_DUTY`, `IREF3_DUTY`: the Arduino's IREF PWM duty in 256ths at 490 Hz. 256 = always on (the
-  default), 128 = 50 %, 0 = off.
-- `POT1_CODE`, `POT2_CODE`, `POT3_CODE`: the MCP4451 wiper codes of U26A/B/C (0-256). The defaults 86/103/103 give
-  2.635/2.371/2.371 A LED peaks. **Code 0 is full current and 256 is zero** on this board (A is grounded); Microchip's
-  data sheet DS22267A confirms code 0 puts the wiper at terminal B. At power-up the pot sits at mid-scale (128, about
-  1.98 A) until the firmware writes a code.
-- Parts named `SIM_...` exist only in the simulation: the battery, cable, LEDs and the Arduino outputs.
-
-**Checked (LTspice 26.0.1, 2026-09-28, repeated 2026-09-29 after the edits above):**
-- 30 ms at full duty: no convergence errors, about 5-7 minutes.
-- Over 25-30 ms, the LEDs hold 2.635, 2.371 and 2.371 A; the outputs sit at 23.30, 33.13 and 33.11 V.
-- LX peaks at 61 V (M1 die 63.6 V); the current-sense output reads 0.1006 V/A.
-- 74HC timing: the built-in gates match 74HC00/74HC14 models built from Nexperia's figures within 4 ns, with output
-  levels within 0.5 mV.
-- The CD74HC4066 model and the old ideal switch give the same servo voltages within 0.25 mV.
-
-**PWM dimming (IREFn_DUTY below 256):**
-- The headroom servo keeps the full set current in every pulse down to about 19 % duty on red and 25 % on green and
-  blue (full circuit at 25 %, 50 % and 100 %; a servo test bench matched to it for longer times).
-- Below that, the servo cannot keep up: R98/R93/R90 (10 MOhm) bleed its capacitor faster than the short pulses can
-  charge it. The reference then falls back to the Arduino's Vref, and the pulses carry less current. At 10 % duty
-  in the full circuit: red 0.81 A, green 1.25 A, blue 1.19 A (31-53 % of set).
-- **Dimming runs can stall** while all three LEDs are off (the log fills with "tolerance relaxed" at one time point).
-  Adding `solver=alt` to the `.options` line got past it, about 2-3 times slower.
+**Checked (LTspice 26.0.1, 2026-09-28):**
+- The 30 ms run finishes in about 5.5 minutes with no convergence errors.
+- Over 25-30 ms, the LEDs hold 2.631, 2.368 and 2.368 A (the setpoints), the same as with DC references.
+- The PWM leaves 6-8 mV of ripple on the error amplifiers' reference inputs (`.1Vref_n`). The 62-76 mA peak-to-peak LED ripple is the boost's own and is the same with DC references.
+- The outputs sit at 23.3, 33.1 and 33.1 V; the 12 V rail at 11.99 V.
+- LX peaks at 61 V (M1 die 63.6 V) against the FETs' 100 V rating.
+- With `ARD_M1_INHIBIT` at 5 V, M1 stays off.
 
 **Start-up:**
 - The two `.ic` lines start the servos and the reference filters settled, so the LEDs reach full brightness within
@@ -139,18 +101,12 @@ The same LTspice files are in `BOOST_package`, `BOOST_package_for_review` and `B
 - LX then spikes to 80-87 V into the TVS D19. The FETs are rated 100 V.
 - Fixes are being considered; the design is unchanged so far.
 
-**Models written for this simulation** (behavioural; values checked against the makers' data sheets on 2026-09-29):
-- INA241A4 (TI SBOSA30), CD74HC4066 (TI SCHS208E: 25 ohm on-resistance near the rails), 74HC4051 (Nexperia Rev 12:
-  90 ohm, 20 ns), MCP4451 (Microchip DS22267A: 10 k +/-20 %, 75 ohm wiper, 75/120/75 pF), L78L05 (ST Doc 2145 Rev 19:
-  1.7 V dropout), 5.0SMDJ54A (Littelfuse 04/17/19: 60.0-66.3 V breakdown, 87.1 V at 57.5 A).
-- Not in the data sheets: the L78L05's typical quiescent current (ST gives only 6 mA max; 3 mA used).
-- The TVS model follows the 10/1000 us clamp figure. The data sheet's 8/20 us figure (112.5 V at 431 A) implies a
-  lower dynamic resistance, so for nanosecond LX spikes the real clamp is probably lower than simulated.
-- The CD74HC4066's off-leakage is 0.1 uA max at 25 C but 1 uA max over -55 to 85 C; it is not modelled. Hot, a
-  worst-case part could move a servo capacitor by up to about 10 V/s while its switch is open.
-- The MCP4451's A0 address bit is latched at power-up while a weak internal pull-up is on. The data sheet rates it
-  (16 kOhm) only at 5.5 V, so it does not guarantee that R102 (10 k) latches A0 low. Probe both I2C addresses 0x2C and
-  0x2D in firmware.
+**Still different from the KiCad schematic:**
+- R1/U25 are 2 mOhm with an INA241A3. The board has 1 mOhm with an INA241A4, giving the same 0.1 V/A; there is no
+  INA241A4 model.
+- The IREF references come from ideal sources rather than the U26 digital potentiometer.
+- The supply, cable resistance, LEDs and Arduino sources exist only in the simulation.
+- The reference designators do not all match the KiCad schematic.
 
 **Before you run it:** the results file is large, about 22 GB for the 30 ms run, because LTspice saves every node.
 - Run it from a folder outside OneDrive with enough free space, and delete `BOOST.raw` afterwards.
