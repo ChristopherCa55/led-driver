@@ -1,0 +1,18 @@
+== tracks (length removed / added, mm) by net and layer
+  12V                B.Cu    -   6.5 (  1)  +   5.5 (  1)
+  12V                In4.Cu  -   7.8 (  4)  +   8.5 (  5)
+== vias
+  removed GND            at ( 48.800,  67.100) drill 0.40 dia 0.80
+  removed GND            at ( 76.800,  50.000) drill 0.40 dia 0.80
+  removed GND            at ( 79.600,  50.800) drill 0.40 dia 0.80
+  removed 12V            at ( 80.950,  48.250) drill 0.30 dia 0.60
+  added   GND            at ( 79.600,  51.000) drill 0.40 dia 0.80
+  added   LX             at ( 80.000,  48.166) drill 0.40 dia 0.80
+  added   LX             at ( 80.000,  49.200) drill 0.40 dia 0.80
+  added   12V            at ( 82.000,  48.250) drill 0.30 dia 0.60
+== footprints
+== zones (removed / added / changed records)
+  OLD ('GND', ('In2.Cu',), (75.68, 49.62, 79.86, 53.8), 13.0, 32, 0.5, 0.25, 2, 0, 8, '', False)
+  OLD ('LX', ('B.Cu',), (71.3, 44.7, 79.3, 50.4), 42.9, 36, 0.3, 0.25, 2, 0, 6, 'LX B D19-M1', False)
+  NEW ('GND', ('In2.Cu',), (76.2, 50.34, 79.83, 53.4), 8.5, 32, 0.5, 0.25, 2, 0, 8, '', False)
+  NEW ('LX', ('B.Cu',), (71.3, 44.7, 80.2, 50.4), 45.6, 36, 0.3, 0.25, 2, 0, 8, 'LX B D19-M1', False)

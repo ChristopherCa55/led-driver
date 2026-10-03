@@ -1,0 +1,69 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\loads_r.net
+Start Time: Thu Oct  1 11:42:13 2026
+Options:gmin=100f reltol=0.001
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-13
+C69: Increased Cpar to 6.8e-10
+C86: Increased Cpar to 2.2e-10
+C40: Increased Cpar to 6.8e-10
+C70: Increased Cpar to 2.2e-10
+C71: Increased Cpar to 2.2e-10
+C78: Increased Cpar to 2.2e-10
+C74: Increased Cpar to 2.2e-10
+C85: Increased Cpar to 6.8e-10
+C77: Increased Cpar to 2.2e-10
+C87: Increased Cpar to 2.2e-10
+C75: Increased Cpar to 2.2e-10
+C88: Increased Cpar to 2.2e-10
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 402.584 seconds.
+
+Files loaded:
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\loads_r.net
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\MCP6241.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\MCP6561.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\CD4000_v.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\HYG180N10.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\INA241A4.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\L78L05.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\LM2940_12.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\CD74HC4066.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\74HC4051.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\MCP4451.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\CSS4J.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\TVS_5p0SMDJ.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\UCC21520.lib
+
+ptvs: AVG((-1)*V(LX)*I(D19) )=0.0116899750352 FROM 0.002 TO 0.013
+etvs: INTEG(-1)*V(LX)*I(D19)=0.00915086027663 FROM 0 TO 0.03
+lxmax: MAX(V(lx))=81.2377166748 FROM 0 TO 0.03
+lxss: MAX(V(lx) )=60.4127388 FROM 0.025 TO 0.03
+lxmax_after1m: MAX(V(lx) )=60.9706344604 FROM 0.001 TO 0.03
+iled1: AVG(I(SIM_LED1) )=2.63462397161 FROM 0.025 TO 0.03
+iled1min: MIN(I(SIM_LED1) )=2.60343813896 FROM 0.025 TO 0.03
+iled1max: MAX(I(SIM_LED1) )=2.66678595543 FROM 0.025 TO 0.03
+vout1: AVG(V(vout_1) )=23.294293826 FROM 0.025 TO 0.03
+iled2: AVG(I(SIM_LED2) )=2.37111806506 FROM 0.025 TO 0.03
+iled2min: MIN(I(SIM_LED2) )=2.33309221268 FROM 0.025 TO 0.03
+iled2max: MAX(I(SIM_LED2) )=2.40986275673 FROM 0.025 TO 0.03
+vout2: AVG(V(vout_2) )=33.128977788 FROM 0.025 TO 0.03
+iled3: AVG(I(SIM_LED3) )=2.37111852034 FROM 0.025 TO 0.03
+iled3min: MIN(I(SIM_LED3) )=2.33279681206 FROM 0.025 TO 0.03
+iled3max: MAX(I(SIM_LED3) )=2.41010260582 FROM 0.025 TO 0.03
+vout3: AVG(V(vout_3) )=33.106124379 FROM 0.025 TO 0.03
+i12avg: AVG(I(RP12) )=0.0159159903468 FROM 0.025 TO 0.03
+i12max: MAX(I(RP12) )=0.0296416543424 FROM 0.001 TO 0.03
+i12rms: RMS(I(RP12) )=0.0162865439467 FROM 0.025 TO 0.03
+i5avg: AVG(I(RP5) )=0.00823701096368 FROM 0.025 TO 0.03
+i5max: MAX(I(RP5) )=0.00823701545596 FROM 0.001 TO 0.03
+ia5avg: AVG(I(RPA5) )=0.00309516303241 FROM 0.025 TO 0.03
+ia5max: MAX(I(RPA5) )=0.00309544219635 FROM 0.001 TO 0.03
+v12min: MIN(V(12V) )=11.9851493835 FROM 0.001 TO 0.03
+v5min: MIN(V(5V) )=4.99587345123 FROM 0.001 TO 0.03

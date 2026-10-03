@@ -1,0 +1,939 @@
+{
+ "power": {
+  "board": "power",
+  "unique": 29,
+  "joints": 570,
+  "pcb": 124.1,
+  "fees": {
+   "setup": 51.12,
+   "stencil": 16.42,
+   "loading": 44.37,
+   "joints": 0.91
+  },
+  "parts": 84.64,
+  "attrition": 7.33,
+  "assembly": 204.79,
+  "total": 328.89,
+  "lines": [
+   {
+    "refs": "C1 C4 C73",
+    "lcsc": "C381466",
+    "mpn": "FS32X475K101EGG",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 0,
+    "unit": 0.2328,
+    "usd": 1.4,
+    "stock": 172923
+   },
+   {
+    "refs": "C3 C72 C76",
+    "lcsc": "C28233",
+    "mpn": "CL21B104KCFNNNE",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0357,
+    "usd": 0.93,
+    "stock": 1258622
+   },
+   {
+    "refs": "C6 C21 C25 C31 C62 C89",
+    "lcsc": "C28323",
+    "mpn": "CL21B105KBFNNNE",
+    "per_board": 6,
+    "qty": 12,
+    "attr": 20,
+    "unit": 0.0399,
+    "usd": 1.28,
+    "stock": 2288251
+   },
+   {
+    "refs": "C7 C55",
+    "lcsc": "C21397",
+    "mpn": "GRM32ER71E226KE15L",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 0,
+    "unit": 0.4585,
+    "usd": 1.83,
+    "stock": 75388
+   },
+   {
+    "refs": "C16 C18 C60",
+    "lcsc": "C50254",
+    "mpn": "CL31B225KBHNNNE",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0857,
+    "usd": 2.23,
+    "stock": 389063
+   },
+   {
+    "refs": "C20 C33 C34 C35 C48 C50 C51 C61 C82 C83 C84 C90",
+    "lcsc": "C14663",
+    "mpn": "CC0603KRX7R9BB104",
+    "per_board": 12,
+    "qty": 24,
+    "attr": 20,
+    "unit": 0.0123,
+    "usd": 0.54,
+    "stock": 54422762
+   },
+   {
+    "refs": "C30",
+    "lcsc": "C4979367",
+    "mpn": "TR3D476K025C0250",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 1.099,
+    "usd": 2.2,
+    "stock": 63
+   },
+   {
+    "refs": "C39 C56 C79 C80 C81",
+    "lcsc": "C138687",
+    "mpn": "CL32B106KBJNNNE",
+    "per_board": 5,
+    "qty": 10,
+    "attr": 0,
+    "unit": 0.3252,
+    "usd": 3.25,
+    "stock": 32750
+   },
+   {
+    "refs": "C40 C69 C85",
+    "lcsc": "C29664285",
+    "mpn": "EEH-ZU1E681UP",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 0,
+    "unit": 2.5409,
+    "usd": 15.25,
+    "stock": 10
+   },
+   {
+    "refs": "C41 C44 C45",
+    "lcsc": "C1588",
+    "mpn": "CL10B102KB8NNNC",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0089,
+    "usd": 0.23,
+    "stock": 7811866
+   },
+   {
+    "refs": "C74 C86 C87",
+    "lcsc": "C6843593",
+    "mpn": "EEH-ZU1H221P",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 0,
+    "unit": 2.8352,
+    "usd": 17.01,
+    "stock": 14
+   },
+   {
+    "refs": "C70 C71 C75 C77 C78 C88",
+    "lcsc": "C385885",
+    "mpn": "EEHZS1H221P",
+    "per_board": 6,
+    "qty": 12,
+    "attr": 0,
+    "unit": 1.6338,
+    "usd": 19.61,
+    "stock": 1263
+   },
+   {
+    "refs": "D2 D8 D11 D13 D14 D22",
+    "lcsc": "C8598",
+    "mpn": "B5819W SL",
+    "per_board": 6,
+    "qty": 12,
+    "attr": 20,
+    "unit": 0.028,
+    "usd": 0.9,
+    "stock": 512334
+   },
+   {
+    "refs": "D9 D10 D21",
+    "lcsc": "C21565",
+    "mpn": "BAV21W",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0191,
+    "usd": 0.5,
+    "stock": 87375
+   },
+   {
+    "refs": "D28 D29 D30",
+    "lcsc": "C128729",
+    "mpn": "S2MW",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0183,
+    "usd": 0.48,
+    "stock": 14395
+   },
+   {
+    "refs": "D19",
+    "lcsc": "C42394451",
+    "mpn": "5.0SMDJ54A",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 0.3951,
+    "usd": 0.79,
+    "stock": 9825
+   },
+   {
+    "refs": "R1",
+    "lcsc": "C2076400",
+    "mpn": "CSS4J-4026R-1L00F",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 1.7086,
+    "usd": 3.42,
+    "stock": 385
+   },
+   {
+    "refs": "R7 R52 R53",
+    "lcsc": "C413486",
+    "mpn": "WSL2512R0500FEA",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 0,
+    "unit": 0.2348,
+    "usd": 1.41,
+    "stock": 41066
+   },
+   {
+    "refs": "R13 R23 R47",
+    "lcsc": "C22962",
+    "mpn": "0603WAF2200T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0035,
+    "usd": 0.09,
+    "stock": 1903983
+   },
+   {
+    "refs": "R14",
+    "lcsc": "C17514",
+    "mpn": "0805W8F1004T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0043,
+    "usd": 0.09,
+    "stock": 2420510
+   },
+   {
+    "refs": "R15",
+    "lcsc": "C17415",
+    "mpn": "0805W8F100JT5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.004,
+    "usd": 0.09,
+    "stock": 6880485
+   },
+   {
+    "refs": "R21 R48 R60 R72",
+    "lcsc": "C17724",
+    "mpn": "0805W8F510KT5E",
+    "per_board": 4,
+    "qty": 8,
+    "attr": 20,
+    "unit": 0.0041,
+    "usd": 0.11,
+    "stock": 418343
+   },
+   {
+    "refs": "R22 R50 R56",
+    "lcsc": "C22775",
+    "mpn": "0603WAF1000T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0031,
+    "usd": 0.08,
+    "stock": 11576722
+   },
+   {
+    "refs": "R49 R61 R62 R73 R74 R75 R76 R104",
+    "lcsc": "C25804",
+    "mpn": "0603WAF1002T5E",
+    "per_board": 8,
+    "qty": 16,
+    "attr": 20,
+    "unit": 0.0018,
+    "usd": 0.06,
+    "stock": 23109251
+   },
+   {
+    "refs": "R59 R70",
+    "lcsc": "C17724",
+    "mpn": "0805W8F510KT5E",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 0,
+    "unit": 0.0041,
+    "usd": 0.02,
+    "stock": 418343
+   },
+   {
+    "refs": "U1 U17",
+    "lcsc": "C43116",
+    "mpn": "L78L05ACUTR",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 0,
+    "unit": 0.102,
+    "usd": 0.41,
+    "stock": 21384
+   },
+   {
+    "refs": "U6 U11 U12",
+    "lcsc": "C398363",
+    "mpn": "TLV9001IDBVR",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0979,
+    "usd": 2.55,
+    "stock": 48438
+   },
+   {
+    "refs": "U8 U10 U15 U19",
+    "lcsc": "C601651",
+    "mpn": "UCC21520DWR",
+    "per_board": 4,
+    "qty": 8,
+    "attr": 0,
+    "unit": 0.8893,
+    "usd": 7.11,
+    "stock": 17156
+   },
+   {
+    "refs": "U16",
+    "lcsc": "C231294",
+    "mpn": "MC7812BD2TR4G",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 0.5316,
+    "usd": 1.06,
+    "stock": 2024
+   },
+   {
+    "refs": "U25",
+    "lcsc": "C22427873",
+    "mpn": "INA241A4IDR",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 3.5277,
+    "usd": 7.06,
+    "stock": 116
+   }
+  ]
+ },
+ "card": {
+  "board": "card",
+  "unique": 41,
+  "joints": 944,
+  "pcb": 56.83,
+  "fees": {
+   "setup": 51.12,
+   "stencil": 16.42,
+   "loading": 62.73,
+   "joints": 1.51
+  },
+  "parts": 22.53,
+  "attrition": 8.15,
+  "assembly": 162.46,
+  "total": 219.29,
+  "lines": [
+   {
+    "refs": "C8 C9 C17 C19",
+    "lcsc": "C1664",
+    "mpn": "CL10C331JB8NNNC",
+    "per_board": 4,
+    "qty": 8,
+    "attr": 20,
+    "unit": 0.0179,
+    "usd": 0.5,
+    "stock": 915282
+   },
+   {
+    "refs": "C10 C11 C13",
+    "lcsc": "C85980",
+    "mpn": "GRM1885C1H472JA01D",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0212,
+    "usd": 0.55,
+    "stock": 99447
+   },
+   {
+    "refs": "C12 C22 C23 C24 C26 C28 C29 C32 C36 C37 C38 C42 C43 C46 C52 C53 C54 C58 C59 C63 C65 C66 C68 C92 C94 C95 C96 C97 C98 C99 C104",
+    "lcsc": "C14663",
+    "mpn": "CC0603KRX7R9BB104",
+    "per_board": 31,
+    "qty": 62,
+    "attr": 20,
+    "unit": 0.0123,
+    "usd": 1.01,
+    "stock": 54422762
+   },
+   {
+    "refs": "C14",
+    "lcsc": "C27675",
+    "mpn": "CL10C221JB8NNNC",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0095,
+    "usd": 0.21,
+    "stock": 32979
+   },
+   {
+    "refs": "C15",
+    "lcsc": "C14858",
+    "mpn": "CL10C101JB8NNNC",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0086,
+    "usd": 0.19,
+    "stock": 3911823
+   },
+   {
+    "refs": "C47 C93 C103",
+    "lcsc": "C96446",
+    "mpn": "CL10A106MA8NRNC",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0752,
+    "usd": 1.96,
+    "stock": 3361748
+   },
+   {
+    "refs": "C49 C64 C67",
+    "lcsc": "C97946",
+    "mpn": "GRM31C5C1H104JA01L",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 0,
+    "unit": 0.1849,
+    "usd": 1.11,
+    "stock": 88688
+   },
+   {
+    "refs": "C57 C91",
+    "lcsc": "C28323",
+    "mpn": "CL21B105KBFNNNE",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 20,
+    "unit": 0.0399,
+    "usd": 0.96,
+    "stock": 2288251
+   },
+   {
+    "refs": "C100 C101 C102",
+    "lcsc": "C1588",
+    "mpn": "CL10B102KB8NNNC",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0089,
+    "usd": 0.23,
+    "stock": 7811866
+   },
+   {
+    "refs": "D1 D3 D4 D5 D6 D7 D15 D20 D24 D27",
+    "lcsc": "C81598",
+    "mpn": "1N4148W",
+    "per_board": 10,
+    "qty": 20,
+    "attr": 20,
+    "unit": 0.0123,
+    "usd": 0.49,
+    "stock": 5212124
+   },
+   {
+    "refs": "D23 D25 D26",
+    "lcsc": "C22629",
+    "mpn": "BAT54WS L9",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0238,
+    "usd": 0.62,
+    "stock": 1078
+   },
+   {
+    "refs": "Q1",
+    "lcsc": "C53444",
+    "mpn": "MMBT3906LT1G",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0189,
+    "usd": 0.42,
+    "stock": 1000823
+   },
+   {
+    "refs": "R2 R6 R31 R33 R39 R41 R67 R77 R83 R85 R99 R100 R101 R102 R103",
+    "lcsc": "C25804",
+    "mpn": "0603WAF1002T5E",
+    "per_board": 15,
+    "qty": 30,
+    "attr": 20,
+    "unit": 0.0018,
+    "usd": 0.09,
+    "stock": 23109251
+   },
+   {
+    "refs": "R3 R32 R40",
+    "lcsc": "C23219",
+    "mpn": "0603WAF6203T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.002,
+    "usd": 0.05,
+    "stock": 93537
+   },
+   {
+    "refs": "R4 R54 R55 R58 R71",
+    "lcsc": "C21190",
+    "mpn": "0603WAF1001T5E",
+    "per_board": 5,
+    "qty": 10,
+    "attr": 20,
+    "unit": 0.0026,
+    "usd": 0.08,
+    "stock": 21672207
+   },
+   {
+    "refs": "R8 R34 R42 R51 R63 R78 R80",
+    "lcsc": "C22975",
+    "mpn": "0603WAF2001T5E",
+    "per_board": 7,
+    "qty": 14,
+    "attr": 20,
+    "unit": 0.0024,
+    "usd": 0.08,
+    "stock": 13572776
+   },
+   {
+    "refs": "R9 R35 R43",
+    "lcsc": "C17506",
+    "mpn": "0805W8F1802T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0043,
+    "usd": 0.11,
+    "stock": 194888
+   },
+   {
+    "refs": "R11 R17",
+    "lcsc": "C23192",
+    "mpn": "0603WAF5103T5E",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 20,
+    "unit": 0.0024,
+    "usd": 0.06,
+    "stock": 894332
+   },
+   {
+    "refs": "R16 R19",
+    "lcsc": "C23186",
+    "mpn": "0603WAF5101T5E",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 20,
+    "unit": 0.0015,
+    "usd": 0.04,
+    "stock": 25280385
+   },
+   {
+    "refs": "R18 R20",
+    "lcsc": "C25811",
+    "mpn": "0603WAF2003T5E",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 20,
+    "unit": 0.0023,
+    "usd": 0.06,
+    "stock": 2473796
+   },
+   {
+    "refs": "R25 R87 R94",
+    "lcsc": "C17864",
+    "mpn": "0805W8F9103T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0034,
+    "usd": 0.09,
+    "stock": 15984
+   },
+   {
+    "refs": "R26 R64 R79 R81",
+    "lcsc": "C22962",
+    "mpn": "0603WAF2200T5E",
+    "per_board": 4,
+    "qty": 8,
+    "attr": 20,
+    "unit": 0.0035,
+    "usd": 0.1,
+    "stock": 1903983
+   },
+   {
+    "refs": "R27 R37 R45",
+    "lcsc": "C23162",
+    "mpn": "0603WAF4701T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0028,
+    "usd": 0.07,
+    "stock": 22492816
+   },
+   {
+    "refs": "R28 R36 R38 R44 R46 R88 R91 R95 R96 R105",
+    "lcsc": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "per_board": 10,
+    "qty": 20,
+    "attr": 20,
+    "unit": 0.0031,
+    "usd": 0.12,
+    "stock": 22167984
+   },
+   {
+    "refs": "R29 R30 R57",
+    "lcsc": "C17560",
+    "mpn": "0805W8F2202T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0048,
+    "usd": 0.12,
+    "stock": 1746324
+   },
+   {
+    "refs": "R65",
+    "lcsc": "C31850",
+    "mpn": "0603WAF2202T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0041,
+    "usd": 0.09,
+    "stock": 3706362
+   },
+   {
+    "refs": "R66 R89 R92 R97",
+    "lcsc": "C22978",
+    "mpn": "0603WAF3301T5E",
+    "per_board": 4,
+    "qty": 8,
+    "attr": 20,
+    "unit": 0.0026,
+    "usd": 0.07,
+    "stock": 5696130
+   },
+   {
+    "refs": "R68",
+    "lcsc": "C23221",
+    "mpn": "0603WAF6202T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0028,
+    "usd": 0.06,
+    "stock": 418136
+   },
+   {
+    "refs": "R69",
+    "lcsc": "C4184",
+    "mpn": "0603WAF2002T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0023,
+    "usd": 0.05,
+    "stock": 8044733
+   },
+   {
+    "refs": "R82",
+    "lcsc": "C23206",
+    "mpn": "0603WAF5602T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0027,
+    "usd": 0.06,
+    "stock": 1026495
+   },
+   {
+    "refs": "R84",
+    "lcsc": "C25808",
+    "mpn": "0603WAF1203T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0015,
+    "usd": 0.03,
+    "stock": 1007305
+   },
+   {
+    "refs": "R86",
+    "lcsc": "C17514",
+    "mpn": "0805W8F1004T5E",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 20,
+    "unit": 0.0043,
+    "usd": 0.09,
+    "stock": 2420510
+   },
+   {
+    "refs": "R90 R93 R98",
+    "lcsc": "C7250",
+    "mpn": "0603WAF1005T5E",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 20,
+    "unit": 0.0037,
+    "usd": 0.1,
+    "stock": 297135
+   },
+   {
+    "refs": "U2 U4 U5 U14 U21",
+    "lcsc": "C117501",
+    "mpn": "MCP6561T-E/OT",
+    "per_board": 5,
+    "qty": 10,
+    "attr": 0,
+    "unit": 0.743,
+    "usd": 7.43,
+    "stock": 4005
+   },
+   {
+    "refs": "U3 U7 U13 U22 U23 U24",
+    "lcsc": "C398363",
+    "mpn": "TLV9001IDBVR",
+    "per_board": 6,
+    "qty": 12,
+    "attr": 20,
+    "unit": 0.0979,
+    "usd": 3.13,
+    "stock": 48438
+   },
+   {
+    "refs": "U18",
+    "lcsc": "C11349",
+    "mpn": "CD4017BM96",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 0.7267,
+    "usd": 1.45,
+    "stock": 18267
+   },
+   {
+    "refs": "U26",
+    "lcsc": "C145613",
+    "mpn": "MCP4451-103E/ST",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 2.9051,
+    "usd": 5.81,
+    "stock": 40
+   },
+   {
+    "refs": "U28",
+    "lcsc": "C9386",
+    "mpn": "74HC4051D,653",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 0.2146,
+    "usd": 0.43,
+    "stock": 33472
+   },
+   {
+    "refs": "U101 U102 U103",
+    "lcsc": "C5586",
+    "mpn": "74HC00D,653",
+    "per_board": 3,
+    "qty": 6,
+    "attr": 0,
+    "unit": 0.1546,
+    "usd": 0.93,
+    "stock": 8289
+   },
+   {
+    "refs": "U104 U105",
+    "lcsc": "C5605",
+    "mpn": "74HC14D,653",
+    "per_board": 2,
+    "qty": 4,
+    "attr": 0,
+    "unit": 0.1023,
+    "usd": 0.41,
+    "stock": 206540
+   },
+   {
+    "refs": "U106",
+    "lcsc": "C179842",
+    "mpn": "CD74HC4066M96",
+    "per_board": 1,
+    "qty": 2,
+    "attr": 0,
+    "unit": 0.6097,
+    "usd": 1.22,
+    "stock": 73
+   }
+  ]
+ },
+ "elsewhere": [
+  [
+   "Samtec ESQ-115-44-G-D, J10 socket (power board)",
+   2,
+   9.13,
+   "Mouser, as listed on samtec.com",
+   "read on samtec.com"
+  ],
+  [
+   "Samtec TSW-115-07-G-D, J11 header (card)",
+   2,
+   3.18,
+   "Mouser, as listed on samtec.com",
+   "read on samtec.com"
+  ],
+  [
+   "Bourns MF-R050 PTC, 0.50 A hold (inline on the J9 pin-9 wire), LCSC C208476",
+   2,
+   0.1433,
+   "LCSC (its own order; JLC does not ship loose parts)",
+   "read 2026-09-30 (7,030 in stock); derating from the Bourns MF-R datasheet"
+  ]
+ ],
+ "hardware": [
+  [
+   "McMaster-Carr 92000A107, M2.5 x 12 pan head Phillips, 18-8 stainless, pack of 100",
+   "FET tab screws (4 per set)",
+   "1 pack",
+   5.65,
+   "mcmaster.com",
+   "read",
+   "https://www.mcmaster.com/92000A107/"
+  ],
+  [
+   "McMaster-Carr 93657A200, nylon 6/6 spacer, M2.5, 2.0 mm long, 4.5 mm OD",
+   "FET tab-screw gap spacer (4 per set)",
+   "8",
+   7.36,
+   "mcmaster.com ($0.92 each under 10)",
+   "read",
+   "https://www.mcmaster.com/93657A200/"
+  ],
+  [
+   "Boyd (Aavid) 7721-7PPSG shoulder washer, glass-filled PPS",
+   "insulates each tab screw in the FET tab hole (4 per set)",
+   "8",
+   1.312,
+   "Digi-Key $0.164 at 5+ (10 for $1.51)",
+   "read by you 2026-09-25",
+   "https://www.digikey.com/en/products/result?keywords=7721-7PPSG"
+  ],
+  [
+   "McMaster-Carr 92605A109, M3 x 20 mm set screw, 18-8 stainless, flat tip, pack of 25",
+   "floor stud, part 1: threaded 6 mm into the floor (4 per set)",
+   "1 pack",
+   10.69,
+   "mcmaster.com",
+   "read",
+   "https://www.mcmaster.com/92605A109/"
+  ],
+  [
+   "McMaster-Carr 94669A099, aluminium unthreaded spacer, M3, 5.00 +/-0.13 mm long, 4.5 mm OD",
+   "floor stud, part 2: sets the board height with the washer (4 per set; buy 10 to select 8)",
+   "10",
+   5.0,
+   "mcmaster.com ($0.50 each)",
+   "read",
+   "https://www.mcmaster.com/94669A099/"
+  ],
+  [
+   "Essentra HNSM3-20-5.5-1, nylon hex standoff M3 female-female, 20 mm",
+   "board-to-card standoff (4 per set)",
+   "8",
+   11.328,
+   "Digi-Key $1.416 at 5+ (10 for $13.22)",
+   "read by you 2026-09-25",
+   "https://www.digikey.com/en/products/detail/essentra-components/HNSM3-20-5-5-1/3813076"
+  ],
+  [
+   "TR Fastenings TR NWE-34815-M3, nylon 6/6 washer 3.2 x 7.0 x 0.5 mm, pack of 100",
+   "standoff shims (16 per set)",
+   "1 pack",
+   11.671400000000002,
+   "Farnell UK 8.71 GBP, converted at 1.34 USD/GBP",
+   "price via search; conversion assumed",
+   "https://www.newark.com/tr-fastenings/tr-nwe-34815-m3/washer-nylon-6-6-3-2mm-pk100/dp/43Y4267"
+  ],
+  [
+   "Wurth Elektronik 97790803211, WA-SCRW M3 x 8 nylon 66 pan head",
+   "card screws (4 per set)",
+   "8",
+   2.13328,
+   "Farnell UK 0.199 GBP each, converted at 1.34 USD/GBP",
+   "price via search; conversion assumed",
+   "https://www.we-online.com/en/components/products/WA-SCRW"
+  ]
+ ],
+ "pads": [
+  [
+   "McMaster-Carr 1272N32, 3 W/m-K silicone, 0.060 in (1.52 mm), 4 x 4 in",
+   26.91,
+   "the default: read on mcmaster.com"
+  ],
+  [
+   "Parker 61-06-0909-G579, THERM-A-GAP 579, 0.060 in (1.524 mm), 9 x 9 in",
+   128.75,
+   "read by you at Digi-Key"
+  ],
+  [
+   "t-Global TG-AD30, 3.0 W/m-K, 1.5 mm, smallest sheet",
+   null,
+   "price not read: URL for you"
+  ]
+ ],
+ "base_without_pad": 628.23,
+ "totals": {
+  "McMaster-Carr 1272N32, 3 W/m-K silicone, 0.060 in (1.52 mm), 4 x 4 in": 655.14,
+  "Parker 61-06-0909-G579, THERM-A-GAP 579, 0.060 in (1.524 mm), 9 x 9 in": 756.98,
+  "t-Global TG-AD30, 3.0 W/m-K, 1.5 mm, smallest sheet": null
+ }
+}

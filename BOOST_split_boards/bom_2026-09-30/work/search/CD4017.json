@@ -1,0 +1,2805 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 00:03 Pacific Daylight Time",
+ "res": {
+  "C11349": {
+   "code": "C11349",
+   "model": "CD4017BM96",
+   "brand": "Texas Instruments",
+   "stock": 18267,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.7267
+    ],
+    [
+     10,
+     0.608
+    ],
+    [
+     30,
+     0.5479
+    ],
+    [
+     100,
+     0.4894
+    ],
+    [
+     500,
+     0.4357
+    ],
+    [
+     1000,
+     0.4178
+    ]
+   ],
+   "p1": 0.7267,
+   "desc": "-55℃~+125℃ 1 135ns 3V~18V 5.5MHz Asynchronous Divide-by-10 Rising Edge Up Counter SOIC-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "135ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809042113_Texas-Instruments-CD4017BM96_C11349.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BM96/C11349",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bm96_C11349.html"
+  },
+  "C1499649": {
+   "code": "C1499649",
+   "model": "CD4017BPW",
+   "brand": "Texas Instruments",
+   "stock": 303,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-16",
+   "prices": [
+    [
+     1,
+     0.9852
+    ],
+    [
+     10,
+     0.8113
+    ],
+    [
+     30,
+     0.7153
+    ],
+    [
+     100,
+     0.608
+    ],
+    [
+     500,
+     0.5593
+    ],
+    [
+     1000,
+     0.5381
+    ]
+   ],
+   "p1": 0.9852,
+   "desc": "-55℃~+125℃ 1 135ns 3V~18V 5.5MHz Asynchronous Divide-by-10 Rising Edge Synchronous Up Counter TSSOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "135ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000B",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303020700_Texas-Instruments-CD4017BPW_C1499649.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BPW/C1499649",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bpw_C1499649.html"
+  },
+  "C2865970": {
+   "code": "C2865970",
+   "model": "CD4017BNSR",
+   "brand": "Texas Instruments",
+   "stock": 8,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-16-208mil",
+   "prices": [
+    [
+     1,
+     1.3217
+    ],
+    [
+     10,
+     1.164
+    ],
+    [
+     30,
+     1.0535
+    ],
+    [
+     100,
+     0.9511
+    ],
+    [
+     500,
+     0.9039
+    ],
+    [
+     1000,
+     0.886
+    ]
+   ],
+   "p1": 1.3217,
+   "desc": "-55℃~+125℃ 10MHz 3V~18V 500mW 85ns@15V,50pF Decade Counter Rising Edge SO-16-208mil Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "85ns@15V,50pF",
+    "Count Rate": "10MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010600_Texas-Instruments-CD4017BNSR_C2865970.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BNSR/C2865970",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bnsr_C2865970.html"
+  },
+  "C2877054": {
+   "code": "C2877054",
+   "model": "CD4017BPWR",
+   "brand": "Texas Instruments",
+   "stock": 65,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-16-4.3mm",
+   "prices": [
+    [
+     1,
+     1.034
+    ],
+    [
+     10,
+     0.8568
+    ],
+    [
+     30,
+     0.7609
+    ],
+    [
+     100,
+     0.6503
+    ],
+    [
+     500,
+     0.5544
+    ],
+    [
+     1000,
+     0.5316
+    ]
+   ],
+   "p1": 1.034,
+   "desc": "-55℃~+125℃ 1 10MHz 135ns 3V~18V 5 500mW Asynchronous CD4000 Decade Counter Reset function、Cascade counter、Static operation Rising Edge Synchronous Up Counter TSSOP-16-4.3mm Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "135ns",
+    "Count Rate": "10MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010030_Texas-Instruments-CD4017BPWR_C2877054.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BPWR/C2877054",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bpwr_C2877054.html"
+  },
+  "C2943320": {
+   "code": "C2943320",
+   "model": "CD4017SA.TB",
+   "brand": "Wuxi I-core Elec",
+   "stock": 33,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.1807
+    ],
+    [
+     50,
+     0.1397
+    ],
+    [
+     150,
+     0.1192
+    ],
+    [
+     500,
+     0.1039
+    ]
+   ],
+   "p1": 0.1807,
+   "desc": "-40℃~+85℃ 3V~15V 5 5.5MHz 500mW 85ns Asynchronous Decade Counter Falling Edge、Rising Edge SOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Falling Edge、Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "-",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~15V",
+    "Features": "Reset function、Cascade counter、Auto calibration",
+    "Number of Elements": "5",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201191230_Wuxi-I-core-Elec-CD4017SA-TB_C2943320.pdf",
+   "url": "https://jlcpcb.com/partdetail/Wuxi_I_coreElec-CD4017SATB/C2943320",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_wuxi-i-core-elec-cd4017sa-tb_C2943320.html"
+  },
+  "C3828641": {
+   "code": "C3828641",
+   "model": "CD4017BF",
+   "brand": "Texas Instruments",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     24.0711
+    ],
+    [
+     10,
+     23.294
+    ],
+    [
+     12,
+     23.294
+    ],
+    [
+     14,
+     23.294
+    ],
+    [
+     16,
+     23.294
+    ],
+    [
+     18,
+     23.294
+    ]
+   ],
+   "p1": 24.0711,
+   "desc": "-55℃~+125℃ 1 2.5MHz 3V~18V 5 500mW 650ns@5V,50pF Asynchronous CD4000 Divide-by-10 Rising Edge Synchronous Up Counter CDIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "650ns@5V,50pF",
+    "Count Rate": "2.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "-",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161525_HARRIS-CD4017BF_C3828641.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BF/C3828641",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017bf_C3828641.html"
+  },
+  "C7473153": {
+   "code": "C7473153",
+   "model": "CD4017BM-MS",
+   "brand": "MSKSEMI",
+   "stock": 1126,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.1968
+    ],
+    [
+     50,
+     0.1566
+    ],
+    [
+     150,
+     0.1394
+    ],
+    [
+     500,
+     0.1179
+    ],
+    [
+     2500,
+     0.1078
+    ],
+    [
+     5000,
+     0.1021
+    ]
+   ],
+   "p1": 0.1968,
+   "desc": "-40℃~+85℃ 1 325ns 3V~18V 5.5MHz Asynchronous Decade Counter Rising Edge SOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "325ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "-",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308080948_MSKSEMI-CD4017BM-MS_C7473153.pdf",
+   "url": "https://jlcpcb.com/partdetail/MSKSEMI-CD4017BMMS/C7473153",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_msksemi-cd4017bm-ms_C7473153.html"
+  },
+  "C34519": {
+   "code": "C34519",
+   "model": "CD4017BE",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     0.374
+    ],
+    [
+     10,
+     0.3642
+    ],
+    [
+     25,
+     0.3593
+    ],
+    [
+     100,
+     0.3528
+    ],
+    [
+     102,
+     0.3528
+    ],
+    [
+     104,
+     0.3528
+    ]
+   ],
+   "p1": 0.374,
+   "desc": "-55℃~+125℃ 1 135ns 3V~18V 5.5MHz Asynchronous Divide-by-10 Rising Edge Synchronous Up Counter DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "135ns",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Direction": "Up Counter"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810010112_Texas-Instruments-CD4017BE_C34519.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BE/C34519",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017be_C34519.html"
+  },
+  "C356694": {
+   "code": "C356694",
+   "model": "CD4017BM/TR",
+   "brand": "HGSEMI",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.1301
+    ],
+    [
+     50,
+     0.1028
+    ],
+    [
+     150,
+     0.0891
+    ],
+    [
+     500,
+     0.0789
+    ],
+    [
+     2500,
+     0.0696
+    ],
+    [
+     5000,
+     0.0656
+    ]
+   ],
+   "p1": 0.1301,
+   "desc": "-40℃~+85℃ 3V~18V 5 5.5MHz 500mW 85ns Asynchronous Divide-by-10 Rising Edge SOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "-",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "5",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_HGSEMI-CD4017BM-TR_C356694.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-CD4017BMTR/C356694",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_hgsemi-cd4017bm-tr_C356694.html"
+  },
+  "C507168": {
+   "code": "C507168",
+   "model": "CD4017BE",
+   "brand": "HGSEMI",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     0.1649
+    ],
+    [
+     50,
+     0.128
+    ],
+    [
+     150,
+     0.1121
+    ],
+    [
+     500,
+     0.0924
+    ],
+    [
+     2000,
+     0.0836
+    ],
+    [
+     5000,
+     0.0782
+    ]
+   ],
+   "p1": 0.1649,
+   "desc": "-40℃~+85℃ 3V~18V 5.5MHz 500mW 85ns Asynchronous Reset function、Static operation Rising Edge DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Power Dissipation": "500mW",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Number of Bits per Element": "-",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "-",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Direction": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2004081815_HGSEMI-CD4017BE_C507168.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-CD4017BE/C507168",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_hgsemi-cd4017be_C507168.html"
+  },
+  "C1523359": {
+   "code": "C1523359",
+   "model": "CD4017BM",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     2.1882
+    ],
+    [
+     10,
+     1.9264
+    ],
+    [
+     30,
+     1.7427
+    ],
+    [
+     100,
+     1.5737
+    ],
+    [
+     500,
+     1.4973
+    ],
+    [
+     1000,
+     1.4648
+    ]
+   ],
+   "p1": 2.1882,
+   "desc": "-55℃~+125℃ 1 3V~18V 5.5MHz Asynchronous Divide-by-10 Rising Edge Up Counter SOIC-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Direction": "Up Counter"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302221630_Texas-Instruments-CD4017BM_C1523359.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BM/C1523359",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bm_C1523359.html"
+  },
+  "C2943341": {
+   "code": "C2943341",
+   "model": "CD4017DA.TB",
+   "brand": "Wuxi I-core Elec",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     0.2065
+    ],
+    [
+     50,
+     0.1597
+    ],
+    [
+     150,
+     0.1363
+    ],
+    [
+     500,
+     0.1187
+    ]
+   ],
+   "p1": 0.2065,
+   "desc": "-40℃~+85℃ 325ns 3V~15V 5 5.5MHz 500mW Asynchronous Decade Counter Falling Edge、Rising Edge DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "325ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Falling Edge、Rising Edge",
+    "Direction": "-",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~15V",
+    "Features": "Reset function、Cascade counter、Auto calibration",
+    "Number of Elements": "5",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201191230_Wuxi-I-core-Elec-CD4017DA-TB_C2943341.pdf",
+   "url": "https://jlcpcb.com/partdetail/Wuxi_I_coreElec-CD4017DATB/C2943341",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_wuxi-i-core-elec-cd4017da-tb_C2943341.html"
+  },
+  "C3825185": {
+   "code": "C3825185",
+   "model": "CD4017BK",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CFP-16",
+   "prices": [
+    [
+     1,
+     22.5641
+    ],
+    [
+     10,
+     22.5641
+    ],
+    [
+     30,
+     22.5641
+    ],
+    [
+     200,
+     8.7331
+    ],
+    [
+     500,
+     8.4258
+    ],
+    [
+     1000,
+     8.2746
+    ]
+   ],
+   "p1": 22.5641,
+   "desc": "-55℃~+125℃ 1 3V~18V CD4000B Divide-by-10 Rising Edge Up Counter CFP-16 Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000B",
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "-",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Features": "-",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "-",
+    "Direction": "Up Counter",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161516_HARRIS-CD4017BK_C3825185.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BK/C3825185",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017bk_C3825185.html"
+  },
+  "C3825189": {
+   "code": "C3825189",
+   "model": "CD4017BK3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CFP-16",
+   "prices": [
+    [
+     1,
+     22.5641
+    ],
+    [
+     10,
+     22.5641
+    ],
+    [
+     30,
+     22.5641
+    ],
+    [
+     200,
+     8.7331
+    ],
+    [
+     500,
+     8.4258
+    ],
+    [
+     1000,
+     8.2746
+    ]
+   ],
+   "p1": 22.5641,
+   "desc": "-55℃~+125℃ 1 3V~18V CD4000B Multi-mode counting Rising Edge CFP-16 Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000B",
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "-",
+    "Logic Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Features": "Multi-mode counting",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "-",
+    "Direction": "-",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161516_HARRIS-CD4017BK3_C3825189.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BK3/C3825189",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017bk3_C3825189.html"
+  },
+  "C3825191": {
+   "code": "C3825191",
+   "model": "CD4017AK",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CFP-16",
+   "prices": [
+    [
+     1,
+     46.5018
+    ],
+    [
+     10,
+     46.5018
+    ],
+    [
+     30,
+     46.5018
+    ],
+    [
+     200,
+     17.996
+    ],
+    [
+     500,
+     17.3636
+    ],
+    [
+     1000,
+     17.0515
+    ]
+   ],
+   "p1": 46.5018,
+   "desc": "-55℃~+125℃ 1 3V~12V CD4000 Falling Edge CFP-16 Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000",
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~12V",
+    "Count Rate": "-",
+    "Logic Type": "-",
+    "Trigger Type": "Falling Edge",
+    "Features": "-",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "-",
+    "Direction": "-",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161516_HARRIS-CD4017AK_C3825191.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017AK/C3825191",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017ak_C3825191.html"
+  },
+  "C3827852": {
+   "code": "C3827852",
+   "model": "CD4017BD/3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     11.9925
+    ],
+    [
+     10,
+     11.9925
+    ],
+    [
+     30,
+     11.9925
+    ],
+    [
+     200,
+     4.6413
+    ],
+    [
+     500,
+     4.4787
+    ],
+    [
+     1000,
+     4.3974
+    ]
+   ],
+   "p1": 11.9925,
+   "desc": "-55℃~+125℃ 1 3V~18V CD4000B Divide-by-10 Rising Edge CDIP-16 Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000B",
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "-",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Features": "-",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "-",
+    "Direction": "-",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161522_HARRIS-CD4017BD-3_C3827852.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BD3/C3827852",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017bd-3_C3827852.html"
+  },
+  "C3827870": {
+   "code": "C3827870",
+   "model": "CD4017BCSJ",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16-208mil",
+   "prices": [
+    [
+     1,
+     0.4769
+    ],
+    [
+     50,
+     0.4769
+    ],
+    [
+     150,
+     0.4769
+    ],
+    [
+     1000,
+     0.1846
+    ],
+    [
+     2500,
+     0.1781
+    ],
+    [
+     5000,
+     0.1749
+    ]
+   ],
+   "p1": 0.4769,
+   "desc": "-55℃~+125℃ 1 130ns@15V,50pF 3V~15V 500mW 6MHz Asynchronous CD4000 Divide-by-10 Reset function、Static operation Rising Edge SOIC-16-208mil Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "130ns@15V,50pF",
+    "Count Rate": "6MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "-",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~15V",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309151432_onsemi-CD4017BCSJ_C3827870.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-CD4017BCSJ/C3827870",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_onsemi-cd4017bcsj_C3827870.html"
+  },
+  "C3827908": {
+   "code": "C3827908",
+   "model": "CD4017AF/3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     8.8989
+    ],
+    [
+     10,
+     8.8989
+    ],
+    [
+     30,
+     8.8989
+    ],
+    [
+     200,
+     3.4448
+    ],
+    [
+     500,
+     3.3229
+    ],
+    [
+     1000,
+     3.2627
+    ]
+   ],
+   "p1": 8.8989,
+   "desc": "-55℃~+125℃ 1 200ns@10V,15pF 3V~12V 500mW 5MHz CD4000 Divide-by-10 Reset function、Cascade counter、Static operation、Synchronous counting Rising Edge Synchronous Synchronous Up Counter CDIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "200ns@10V,15pF",
+    "Count Rate": "5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~12V",
+    "Features": "Reset function、Cascade counter、Static operation、Synchronous counting",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Synchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161523_HARRIS-CD4017AF-3_C3827908.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017AF3/C3827908",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017af-3_C3827908.html"
+  },
+  "C3827924": {
+   "code": "C3827924",
+   "model": "CD4017BE",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-16",
+   "prices": [
+    [
+     1,
+     0.2909
+    ],
+    [
+     10,
+     0.2909
+    ],
+    [
+     12,
+     0.2909
+    ],
+    [
+     200,
+     0.1125
+    ],
+    [
+     500,
+     0.1086
+    ],
+    [
+     1000,
+     0.1067
+    ]
+   ],
+   "p1": 0.2909,
+   "desc": "-55℃~+125℃ 1 3V~18V 5.5MHz Divide-by-10 Falling Edge、Rising Edge Up Counter PDIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Falling Edge、Rising Edge",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "-",
+    "Direction": "Up Counter"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161523_HARRIS-CD4017BE_C3827924.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BE/C3827924",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017be_C3827924.html"
+  },
+  "C3828450": {
+   "code": "C3828450",
+   "model": "CD4017BD",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     5.7922
+    ],
+    [
+     10,
+     5.7922
+    ],
+    [
+     30,
+     5.7922
+    ],
+    [
+     200,
+     2.2418
+    ],
+    [
+     500,
+     2.1638
+    ],
+    [
+     1000,
+     2.1248
+    ]
+   ],
+   "p1": 5.7922,
+   "desc": "-55℃~+125℃ 3V~18V CD4000B Rising Edge SOIC-16 Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000B",
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "-",
+    "Logic Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Features": "-",
+    "Timing": "-",
+    "Reset": "-",
+    "Direction": "-",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161524_HARRIS-CD4017BD_C3828450.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BD/C3828450",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017bd_C3828450.html"
+  },
+  "C3828505": {
+   "code": "C3828505",
+   "model": "CD4017AD",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     10.1539
+    ],
+    [
+     10,
+     10.1539
+    ],
+    [
+     30,
+     10.1539
+    ],
+    [
+     200,
+     3.9309
+    ],
+    [
+     500,
+     3.7927
+    ],
+    [
+     1000,
+     3.7244
+    ]
+   ],
+   "p1": 10.1539,
+   "desc": "-55℃~+125℃ 1 3V~12V 500mW 5MHz CD4000 Divide-by-10 Reset function、Static operation、Synchronous counting Rising Edge Synchronous Synchronous CDIP-16 Counters, Dividers",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "-",
+    "Count Rate": "5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "-",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~12V",
+    "Features": "Reset function、Static operation、Synchronous counting",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Synchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161524_HARRIS-CD4017AD_C3828505.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017AD/C3828505",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd4017ad_C3828505.html"
+  },
+  "C3828520": {
+   "code": "C3828520",
+   "model": "CD4017BPWRE4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-16",
+   "prices": [
+    [
+     1,
+     0.2676
+    ],
+    [
+     10,
+     0.2676
+    ],
+    [
+     30,
+     0.2676
+    ],
+    [
+     200,
+     0.1036
+    ],
+    [
+     500,
+     0.1
+    ],
+    [
+     1000,
+     0.0981
+    ]
+   ],
+   "p1": 0.2676,
+   "desc": "-55℃~+125℃ 1 135ns@10V,50pF 3V~18V 5.5MHz 500mW Asynchronous CD4000 Divide-by-10 Reset function、Cascade counter、Static operation Rising Edge Up Counter TSSOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "135ns@10V,50pF",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309211205_Texas-Instruments-CD4017BPWRE4_C3828520.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BPWRE4/C3828520",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bpwre4_C3828520.html"
+  },
+  "C5160080": {
+   "code": "C5160080",
+   "model": "CD4017BMT/TR",
+   "brand": "HGSEMI",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-16L",
+   "prices": [
+    [
+     1,
+     0.1739
+    ],
+    [
+     50,
+     0.1371
+    ],
+    [
+     150,
+     0.1213
+    ],
+    [
+     500,
+     0.1015
+    ],
+    [
+     2500,
+     0.0906
+    ],
+    [
+     5000,
+     0.0852
+    ]
+   ],
+   "p1": 0.1739,
+   "desc": "-40℃~+85℃ 3V~18V 5 5.5MHz 500mW 85ns Asynchronous Decade Counter Rising Edge TSSOP-16L Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Power Dissipation": "500mW",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "5",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Direction": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209131730_HGSEMI-CD4017BMT-TR_C5160080.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-CD4017BMTTR/C5160080",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_hgsemi-cd4017bmt-tr_C5160080.html"
+  },
+  "C20613262": {
+   "code": "C20613262",
+   "model": "CD4017CN",
+   "brand": "HGSEMI",
+   "stock": 44,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     0.1816
+    ],
+    [
+     50,
+     0.1447
+    ],
+    [
+     150,
+     0.129
+    ],
+    [
+     500,
+     0.1093
+    ],
+    [
+     2000,
+     0.1005
+    ],
+    [
+     5000,
+     0.0952
+    ]
+   ],
+   "p1": 0.1816,
+   "desc": "-40℃~+85℃ 3V~15V 5 5.5MHz 500mW 85ns Asynchronous Divide-by-10 Rising Edge DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Voltage - Supply": "3V~15V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "5",
+    "Reset": "Asynchronous",
+    "Direction": "-",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402021505_HGSEMI-CD4017CN_C20613262.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-CD4017CN/C20613262",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_hgsemi-cd4017cn_C20613262.html"
+  },
+  "C105634": {
+   "code": "C105634",
+   "model": "CD40175BE",
+   "brand": "Texas Instruments",
+   "stock": 29,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-16",
+   "prices": [
+    [
+     1,
+     1.8614
+    ],
+    [
+     10,
+     1.6403
+    ],
+    [
+     25,
+     1.4826
+    ],
+    [
+     100,
+     1.3396
+    ],
+    [
+     500,
+     1.2729
+    ],
+    [
+     1000,
+     1.2469
+    ]
+   ],
+   "p1": 1.8614,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 3V~18V 4 4000B Series 40ns 4uA 5pF 6.8mA 6.8mA 60ns Complementary D-Type Reset Rising Edge PDIP-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary type",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "60ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "40ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810010610_Texas-Instruments-CD40175BE_C105634.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BE/C105634",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175be_C105634.html"
+  },
+  "C1549824": {
+   "code": "C1549824",
+   "model": "CD40175BM",
+   "brand": "Texas Instruments",
+   "stock": 75,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     1.2941
+    ],
+    [
+     10,
+     1.0632
+    ],
+    [
+     30,
+     0.9381
+    ],
+    [
+     100,
+     0.795
+    ],
+    [
+     500,
+     0.7316
+    ],
+    [
+     1000,
+     0.7023
+    ]
+   ],
+   "p1": 1.2941,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 30ns 3V~18V 4 4000B Series 40ns 4uA 5pF 6.8mA 6.8mA Asynchronous Complementary type D-Type Reset Rising Edge SOIC-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "40ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "30ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303020230_Texas-Instruments-CD40175BM_C1549824.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BM/C1549824",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175bm_C1549824.html"
+  },
+  "C51898328": {
+   "code": "C51898328",
+   "model": "CD4017BED",
+   "brand": "GREENMICRO",
+   "stock": 2866,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     0.1194
+    ],
+    [
+     50,
+     0.096
+    ],
+    [
+     150,
+     0.0843
+    ],
+    [
+     500,
+     0.0755
+    ],
+    [
+     2000,
+     0.0661
+    ],
+    [
+     5000,
+     0.0625
+    ]
+   ],
+   "p1": 0.1194,
+   "desc": "-40℃~+85℃ 1 11MHz 3V~18V 500mW 85ns Asynchronous CD4000 Divide-by-10 Reset function、Static operation、Low-power mode Rising Edge Up Counter DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Count Rate": "11MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Static operation、Low-power mode",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GREENMICRO-CD4017BED/C51898328",
+   "lcsc_url": null
+  },
+  "C353970": {
+   "code": "C353970",
+   "model": "CD40174BE",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-16",
+   "prices": [
+    [
+     1,
+     0.2715
+    ],
+    [
+     10,
+     0.2618
+    ],
+    [
+     25,
+     0.2211
+    ],
+    [
+     100,
+     0.2163
+    ],
+    [
+     102,
+     0.2163
+    ],
+    [
+     104,
+     0.2163
+    ]
+   ],
+   "p1": 0.2715,
+   "desc": "-55℃~+125℃ 0ns 1 100ns@15V,50pF 15ns 16MHz 3V~18V 4000B Series 4uA 5pF 6 6.8mA 6.8mA Asynchronous D-Type Reset Rising Edge PDIP-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "0ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "15ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Texas-Instruments-CD40174BE_C353970.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BE/C353970",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40174be_C353970.html"
+  },
+  "C1549872": {
+   "code": "C1549872",
+   "model": "CD40174BM",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.3377
+    ],
+    [
+     50,
+     0.2689
+    ],
+    [
+     150,
+     0.2395
+    ],
+    [
+     500,
+     0.2028
+    ],
+    [
+     2500,
+     0.1863
+    ],
+    [
+     5000,
+     0.1765
+    ]
+   ],
+   "p1": 0.3377,
+   "desc": "-55℃~+125℃ 1 100ns@15V,50pF 16MHz 3V~18V 4000B Series 4uA 5pF 6 6.8mA 6.8mA D-Type Reset Rising Edge SOIC-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "0ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "15ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302221501_Texas-Instruments-CD40174BM_C1549872.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BM/C1549872",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40174bm_C1549872.html"
+  },
+  "C3826429": {
+   "code": "C3826429",
+   "model": "CD40174BK",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     22.3089
+    ],
+    [
+     10,
+     22.3089
+    ],
+    [
+     30,
+     22.3089
+    ],
+    [
+     200,
+     8.6339
+    ],
+    [
+     500,
+     8.3299
+    ],
+    [
+     1000,
+     8.1803
+    ]
+   ],
+   "p1": 22.3089,
+   "desc": "-55℃~+125℃ 1 10ns 30ns 3V~18V 4.2mA 4.2mA 40nA 50ns@15V,50pF 5pF 6 8MHz Asynchronous CD40 D-Type Reset Rising Edge - Flip Flops",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Clock Frequency": "8MHz",
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "50ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "1",
+    "Output Type": "-",
+    "Current - Output High(IOH)": "4.2mA",
+    "Trigger Type": "Rising Edge",
+    "Setup Time": "10ns",
+    "Series": "CD40",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "40nA",
+    "Number of Elements": "6",
+    "Hold Time": "30ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "4.2mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BK/C3826429",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_harris-cd40174bk_C3826429.html"
+  },
+  "C5218030": {
+   "code": "C5218030",
+   "model": "CD4017BF3A",
+   "brand": "Texas Instruments",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     33.0674
+    ],
+    [
+     3,
+     33.0674
+    ],
+    [
+     5,
+     33.0674
+    ],
+    [
+     25,
+     31.4694
+    ],
+    [
+     27,
+     31.4694
+    ],
+    [
+     29,
+     31.4694
+    ]
+   ],
+   "p1": 33.0674,
+   "desc": "CDIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "85ns@15V,50pF",
+    "Count Rate": "10MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BF3A/C5218030",
+   "lcsc_url": null
+  },
+  "C1548028": {
+   "code": "C1548028",
+   "model": "CD4017BMG4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.3816
+    ],
+    [
+     10,
+     0.3816
+    ],
+    [
+     30,
+     0.3816
+    ],
+    [
+     200,
+     0.1477
+    ],
+    [
+     500,
+     0.1426
+    ],
+    [
+     1000,
+     0.14
+    ]
+   ],
+   "p1": 0.3816,
+   "desc": "-55℃~+125℃ 1 3V~18V 5.5MHz Asynchronous Divide-by-10 Rising Edge SOIC-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Direction": "-"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2303020330_Texas-Instruments-CD4017BMG4_C1548028.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BMG4/C1548028",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters / dividers_texas instruments_cd4017bmg4_C1548028.html"
+  },
+  "C1550119": {
+   "code": "C1550119",
+   "model": "CD40174BPW",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-16",
+   "prices": [
+    [
+     1,
+     0.2335
+    ],
+    [
+     10,
+     0.2335
+    ],
+    [
+     30,
+     0.2335
+    ],
+    [
+     200,
+     0.0904
+    ],
+    [
+     500,
+     0.0872
+    ],
+    [
+     1000,
+     0.0857
+    ]
+   ],
+   "p1": 0.2335,
+   "desc": "-55℃~+125℃ 1 100ns@15V,50pF 16MHz 3V~18V 4000B Series 4uA 5pF 6 6.8mA 6.8mA D-Type Reset Rising Edge TSSOP-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303020230_Texas-Instruments-CD40174BPW_C1550119.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BPW/C1550119",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40174bpw_C1550119.html"
+  },
+  "C3825785": {
+   "code": "C3825785",
+   "model": "CD40175BNS",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-16",
+   "prices": [
+    [
+     1,
+     0.2676
+    ],
+    [
+     50,
+     0.2676
+    ],
+    [
+     150,
+     0.2676
+    ],
+    [
+     1000,
+     0.1036
+    ],
+    [
+     2500,
+     0.1
+    ],
+    [
+     5000,
+     0.0981
+    ]
+   ],
+   "p1": 0.2676,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 3V~18V 4 4000B Series 4uA 5pF 6.8mA 6.8mA Complementary D-Type Reset Rising Edge SO-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BNS/C3825785",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175bns_C3825785.html"
+  },
+  "C3826263": {
+   "code": "C3826263",
+   "model": "CD40175BMT",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.6454
+    ],
+    [
+     10,
+     0.6454
+    ],
+    [
+     12,
+     0.6454
+    ],
+    [
+     250,
+     0.2504
+    ],
+    [
+     500,
+     0.2423
+    ],
+    [
+     1000,
+     0.2374
+    ]
+   ],
+   "p1": 0.6454,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 3V~18V 4 4000B Series 4uA 5pF 6.8mA 6.8mA Complementary D-Type Reset Rising Edge SOIC-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary type",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281930_Texas-Instruments-CD40175BMT_C3826263.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BMT/C3826263",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175bmt_C3826263.html"
+  },
+  "C3826621": {
+   "code": "C3826621",
+   "model": "CD40174BCN",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-16",
+   "prices": [
+    [
+     1,
+     2.5247
+    ],
+    [
+     10,
+     2.5247
+    ],
+    [
+     30,
+     2.5247
+    ],
+    [
+     200,
+     0.9771
+    ],
+    [
+     500,
+     0.9429
+    ],
+    [
+     1000,
+     0.9267
+    ]
+   ],
+   "p1": 2.5247,
+   "desc": "-55℃~+125℃ 1 10pF 12MHz 13ns 3V~15V 3ns 4000B Series 4uA 6 8.8mA 8.8mA 90ns@15V,50pF Asynchronous Complementary type D-Type Reset Rising Edge PDIP-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "12MHz",
+    "Propagation Delay": "90ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "6",
+    "Output Type": "Complementary type",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "8.8mA",
+    "Setup Time": "13ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~15V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "3ns",
+    "Input Capacitance": "10pF",
+    "Current - Output Low(IOL)": "8.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309151431_onsemi-CD40174BCN_C3826621.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-CD40174BCN/C3826621",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_onsemi-cd40174bcn_C3826621.html"
+  },
+  "C3826820": {
+   "code": "C3826820",
+   "model": "CD40175BEX",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-16",
+   "prices": [
+    [
+     1,
+     1.3493
+    ],
+    [
+     10,
+     1.3493
+    ],
+    [
+     30,
+     1.3493
+    ],
+    [
+     200,
+     0.5235
+    ],
+    [
+     500,
+     0.504
+    ],
+    [
+     1000,
+     0.4959
+    ]
+   ],
+   "p1": 1.3493,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 20uA 3V~18V 4 5pF 6.8mA 6.8mA Complementary type D-Type Reset Rising Edge PDIP-16 Flip Flops",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary type",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "20uA",
+    "Number of Elements": "1",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161519_HARRIS-CD40175BEX_C3826820.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BEX/C3826820",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_harris-cd40175bex_C3826820.html"
+  },
+  "C3826926": {
+   "code": "C3826926",
+   "model": "CD40174BFX",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     2.5247
+    ],
+    [
+     10,
+     2.5247
+    ],
+    [
+     30,
+     2.5247
+    ],
+    [
+     200,
+     0.9771
+    ],
+    [
+     500,
+     0.9429
+    ],
+    [
+     1000,
+     0.9267
+    ]
+   ],
+   "p1": 2.5247,
+   "desc": "CDIP-16 Flip Flops",
+   "cat": "Flip Flops",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BFX/C3826926",
+   "lcsc_url": null
+  },
+  "C3827058": {
+   "code": "C3827058",
+   "model": "CD40174BD3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     7.3626
+    ],
+    [
+     10,
+     7.3626
+    ],
+    [
+     30,
+     7.3626
+    ],
+    [
+     200,
+     2.8498
+    ],
+    [
+     500,
+     2.7507
+    ],
+    [
+     1000,
+     2.7003
+    ]
+   ],
+   "p1": 7.3626,
+   "desc": "-55℃~+125℃ 1 100ns@15V,50pF 16MHz 20uA 3V~18V 5pF 6 6.8mA 6.8mA D-Type Reset Rising Edge CDIP-16 Flip Flops",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "20uA",
+    "Number of Elements": "1",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161520_HARRIS-CD40174BD3_C3827058.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BD3/C3827058",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_harris-cd40174bd3_C3827058.html"
+  },
+  "C3827073": {
+   "code": "C3827073",
+   "model": "CD40174BEX",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-16",
+   "prices": [
+    [
+     1,
+     0.2559
+    ],
+    [
+     10,
+     0.2559
+    ],
+    [
+     30,
+     0.2559
+    ],
+    [
+     200,
+     0.0991
+    ],
+    [
+     500,
+     0.0956
+    ],
+    [
+     1000,
+     0.0939
+    ]
+   ],
+   "p1": 0.2559,
+   "desc": "-55℃~+125℃ 1 100ns@15V,50pF 16MHz 20uA 3V~18V 5pF 6 6.8mA 6.8mA D-Type Reset Rising Edge PDIP-16 Flip Flops",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "20uA",
+    "Number of Elements": "1",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161520_HARRIS-CD40174BEX_C3827073.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BEX/C3827073",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_harris-cd40174bex_C3827073.html"
+  },
+  "C3828237": {
+   "code": "C3828237",
+   "model": "CD40175BF3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     2.0126
+    ],
+    [
+     10,
+     2.0126
+    ],
+    [
+     30,
+     2.0126
+    ],
+    [
+     200,
+     0.7787
+    ],
+    [
+     500,
+     0.7527
+    ],
+    [
+     1000,
+     0.7381
+    ]
+   ],
+   "p1": 2.0126,
+   "desc": "-55℃~+125℃ 3V~18V 4 500mW 70ns@15V,50pF Asynchronous CD4000 Reset function Rising Edge Synchronous DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "70ns@15V,50pF",
+    "Count Rate": "-",
+    "Logic Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Direction": "-",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function",
+    "Number of Elements": "4",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BF3/C3828237",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_harris-cd40175bf3_C3828237.html"
+  },
+  "C9900042661": {
+   "code": "C9900042661",
+   "model": "CD4017Unmarked Chip",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOP-16 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-CD4017/C9900042661",
+   "lcsc_url": null
+  },
+  "C1880204": {
+   "code": "C1880204",
+   "model": "CD40174BNSR",
+   "brand": "Texas Instruments",
+   "stock": 407,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-16",
+   "prices": [
+    [
+     1,
+     0.86
+    ],
+    [
+     10,
+     0.6942
+    ],
+    [
+     30,
+     0.6097
+    ],
+    [
+     100,
+     0.5268
+    ],
+    [
+     500,
+     0.478
+    ],
+    [
+     1000,
+     0.452
+    ]
+   ],
+   "p1": 0.86,
+   "desc": "-55℃~+125℃ 1 100ns@15V,50pF 16MHz 3V~18V 4000B Series 4uA 5pF 6 6.8mA 6.8mA D-Type Reset Rising Edge SO-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "0ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "15ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303020030_Texas-Instruments-CD40174BNSR_C1880204.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BNSR/C1880204",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40174bnsr_C1880204.html"
+  },
+  "C1880224": {
+   "code": "C1880224",
+   "model": "CD40175BNSR",
+   "brand": "Texas Instruments",
+   "stock": 29,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-16",
+   "prices": [
+    [
+     1,
+     0.491
+    ],
+    [
+     10,
+     0.478
+    ],
+    [
+     30,
+     0.4699
+    ],
+    [
+     100,
+     0.4617
+    ],
+    [
+     102,
+     0.4617
+    ],
+    [
+     104,
+     0.4617
+    ]
+   ],
+   "p1": 0.491,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 30ns、40ns、80ns 3V~18V 4 4000B Series 40ns、50ns、120ns 4uA 5pF 6.8mA 6.8mA Asynchronous Complementary type D-Type Reset Rising Edge SO-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "40ns、50ns、120ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "30ns、40ns、80ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303020030_Texas-Instruments-CD40175BNSR_C1880224.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BNSR/C1880224",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175bnsr_C1880224.html"
+  },
+  "C2677835": {
+   "code": "C2677835",
+   "model": "CD40175BM96",
+   "brand": "Texas Instruments",
+   "stock": 50,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     1.6582
+    ],
+    [
+     10,
+     1.4095
+    ],
+    [
+     30,
+     1.2518
+    ],
+    [
+     100,
+     1.0925
+    ],
+    [
+     500,
+     1.0193
+    ],
+    [
+     1000,
+     0.9884
+    ]
+   ],
+   "p1": 1.6582,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 15ns 20ns 3V~18V 4 4000B Series 4uA 5pF 6.8mA 6.8mA Asynchronous Complementary type D-Type Reset Rising Edge SOIC-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "20ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "15ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011207_Texas-Instruments-CD40175BM96_C2677835.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BM96/C2677835",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175bm96_C2677835.html"
+  },
+  "C2868374": {
+   "code": "C2868374",
+   "model": "CD40174BM96",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.4195
+    ],
+    [
+     10,
+     0.3301
+    ],
+    [
+     30,
+     0.2862
+    ],
+    [
+     100,
+     0.2471
+    ],
+    [
+     500,
+     0.2358
+    ],
+    [
+     1000,
+     0.2293
+    ]
+   ],
+   "p1": 0.4195,
+   "desc": "-55℃~+125℃ 1 100ns@15V,50pF 16MHz 3V~18V 4000B Series 4uA 5pF 6 6.8mA 6.8mA D-Type Reset Rising Edge SOIC-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "16MHz",
+    "Propagation Delay": "100ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "6",
+    "Output Type": "-",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "0ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "15ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010500_Texas-Instruments-CD40174BM96_C2868374.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40174BM96/C2868374",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40174bm96_C2868374.html"
+  },
+  "C2870167": {
+   "code": "C2870167",
+   "model": "CD40175BPWR",
+   "brand": "Texas Instruments",
+   "stock": 155,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-16",
+   "prices": [
+    [
+     1,
+     0.3382
+    ],
+    [
+     10,
+     0.3284
+    ],
+    [
+     30,
+     0.3236
+    ],
+    [
+     100,
+     0.3171
+    ],
+    [
+     102,
+     0.3171
+    ],
+    [
+     104,
+     0.3171
+    ]
+   ],
+   "p1": 0.3382,
+   "desc": "-55℃~+125℃ 1 120ns@15V,50pF 14MHz 15ns 20ns 3V~18V 4 4000B Series 4uA 5pF 6.8mA 6.8mA Asynchronous Complementary type D-Type Reset Rising Edge TSSOP-16 Flip Flops ROHS",
+   "cat": "Flip Flops",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Clock Frequency": "14MHz",
+    "Propagation Delay": "120ns@15V,50pF",
+    "Synchronous/Asynchronous": "Asynchronous",
+    "Number of Bits per Element": "4",
+    "Output Type": "Complementary",
+    "Trigger Type": "Rising Edge",
+    "Current - Output High(IOH)": "6.8mA",
+    "Setup Time": "20ns",
+    "Series": "4000B Series",
+    "Function": "Reset",
+    "Type": "D-Type",
+    "Voltage - Supply": "3V~18V",
+    "Quiescent Current": "4uA",
+    "Number of Elements": "1",
+    "Hold Time": "15ns",
+    "Input Capacitance": "5pF",
+    "Current - Output Low(IOL)": "6.8mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010330_Texas-Instruments-CD40175BPWR_C2870167.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD40175BPWR/C2870167",
+   "lcsc_url": "https://www.lcsc.com/product-detail/flip-flops_texas-instruments-cd40175bpwr_C2870167.html"
+  },
+  "C20613261": {
+   "code": "C20613261",
+   "model": "CD4017CM/TR",
+   "brand": "HGSEMI",
+   "stock": 3480,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.1303
+    ],
+    [
+     50,
+     0.1038
+    ],
+    [
+     150,
+     0.0904
+    ],
+    [
+     500,
+     0.0805
+    ],
+    [
+     2500,
+     0.076
+    ],
+    [
+     5000,
+     0.0719
+    ]
+   ],
+   "p1": 0.1303,
+   "desc": "-40℃~+85℃ 3V~18V 5 5.5MHz 500mW 85ns Asynchronous Divide-by-10 Rising Edge SOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "85ns",
+    "Voltage - Supply": "3V~18V",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "5",
+    "Reset": "Asynchronous",
+    "Direction": "-",
+    "Resolution": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402021505_HGSEMI-CD4017CM-TR_C20613261.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-CD4017CMTR/C20613261",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_hgsemi-cd4017cm-tr_C20613261.html"
+  },
+  "C42421839": {
+   "code": "C42421839",
+   "model": "CD4017BM-TD",
+   "brand": "TDSEMIC",
+   "stock": 2857,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.1254
+    ],
+    [
+     50,
+     0.0997
+    ],
+    [
+     150,
+     0.0867
+    ],
+    [
+     500,
+     0.0771
+    ],
+    [
+     2500,
+     0.0693
+    ],
+    [
+     5000,
+     0.0656
+    ]
+   ],
+   "p1": 0.1254,
+   "desc": "-55℃~+125℃ 1 100ns 3V~18V 5 500mW 5MHz Asynchronous CD4000 Decade Counter Reset function、Static operation Rising Edge Synchronous Up Counter SOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "100ns",
+    "Count Rate": "5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-CD4017BMTD/C42421839",
+   "lcsc_url": null
+  },
+  "C53202412": {
+   "code": "C53202412",
+   "model": "CD4017BE-TD",
+   "brand": "TDSEMIC",
+   "stock": 88,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-16",
+   "prices": [
+    [
+     1,
+     0.1687
+    ],
+    [
+     50,
+     0.1327
+    ],
+    [
+     150,
+     0.1174
+    ],
+    [
+     500,
+     0.0982
+    ],
+    [
+     2000,
+     0.0896
+    ],
+    [
+     5000,
+     0.0844
+    ]
+   ],
+   "p1": 0.1687,
+   "desc": "-55℃~+125℃ 1 100ns 3V~18V 5 500mW 5MHz Asynchronous CD4000 Decade Counter Reset function、Static operation Rising Edge Synchronous Up Counter DIP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "100ns",
+    "Count Rate": "5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-CD4017BETD/C53202412",
+   "lcsc_url": null
+  }
+ }
+}

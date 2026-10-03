@@ -1,0 +1,597 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:39 Pacific Daylight Time",
+ "res": {
+  "C417290": {
+   "code": "C417290",
+   "model": "NCV8664ST50T3G",
+   "brand": "onsemi",
+   "stock": 2879,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     1.4062
+    ],
+    [
+     10,
+     1.1738
+    ],
+    [
+     30,
+     1.0453
+    ],
+    [
+     100,
+     0.9007
+    ],
+    [
+     500,
+     0.8356
+    ],
+    [
+     1000,
+     0.808
+    ]
+   ],
+   "p1": 1.4062,
+   "desc": "-40℃~+150℃@(Tj) 1 150mA 30uA 45V 5V 600mV@(150mA) 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "30uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "45V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_onsemi-NCV8664ST50T3G_C417290.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664ST50T3G/C417290",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664st50t3g_C417290.html"
+  },
+  "C904690": {
+   "code": "C904690",
+   "model": "NCV8664DT50RKG",
+   "brand": "onsemi",
+   "stock": 8,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     3.3164
+    ],
+    [
+     10,
+     2.8547
+    ],
+    [
+     30,
+     2.58
+    ],
+    [
+     100,
+     2.3036
+    ],
+    [
+     500,
+     2.1752
+    ],
+    [
+     1000,
+     2.1166
+    ]
+   ],
+   "p1": 3.3164,
+   "desc": "-40℃~+150℃@(Tj) 1 150mA 22uA 45V 5V 600mV@(150mA) 67dB@(100Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "22uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108141430_onsemi-NCV8664DT50RKG_C904690.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664DT50RKG/C904690",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664dt50rkg_C904690.html"
+  },
+  "C604075": {
+   "code": "C604075",
+   "model": "NCV8664D50R2G",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.5073
+    ],
+    [
+     10,
+     0.5073
+    ],
+    [
+     12,
+     0.5073
+    ],
+    [
+     200,
+     0.1968
+    ],
+    [
+     500,
+     0.1903
+    ],
+    [
+     1000,
+     0.187
+    ]
+   ],
+   "p1": 0.5073,
+   "desc": "-40℃~+150℃ 45V 5V Fixed Over Temperature Protection Positive SOIC-8 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "30uA",
+    "Operating Temperature": "-40℃~+150℃",
+    "Noise": "-",
+    "Voltage - Supply": "45V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309151441_onsemi-NCV8664D50R2G_C604075.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664D50R2G/C604075",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664d50r2g_C604075.html"
+  },
+  "C556405": {
+   "code": "C556405",
+   "model": "NCV8664CST50T3G",
+   "brand": "onsemi",
+   "stock": 3883,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     1.1803
+    ],
+    [
+     10,
+     1.073
+    ],
+    [
+     30,
+     1.0161
+    ],
+    [
+     100,
+     0.756
+    ],
+    [
+     500,
+     0.7267
+    ],
+    [
+     1000,
+     0.7121
+    ]
+   ],
+   "p1": 1.1803,
+   "desc": "-40℃~+150℃@(Tj) 1 150mA 22uA 45V 5V 600mV@(150mA) 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "22uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2005282035_onsemi-NCV8664CST50T3G_C556405.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664CST50T3G/C556405",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664cst50t3g_C556405.html"
+  },
+  "C604072": {
+   "code": "C604072",
+   "model": "NCV8664CDT33RKG",
+   "brand": "onsemi",
+   "stock": 60,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     0.8925
+    ],
+    [
+     10,
+     0.873
+    ],
+    [
+     30,
+     0.86
+    ],
+    [
+     100,
+     0.847
+    ],
+    [
+     102,
+     0.847
+    ],
+    [
+     104,
+     0.847
+    ]
+   ],
+   "p1": 0.8925,
+   "desc": "-40℃~+150℃@(Tj) 1 150mA 29uA 3.3V 45V 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection Positive DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "29uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Enable control、Reverse polarity voltage protection",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210210000_onsemi-NCV8664CDT33RKG_C604072.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664CDT33RKG/C604072",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664cdt33rkg_C604072.html"
+  },
+  "C604073": {
+   "code": "C604073",
+   "model": "NCV8664CDT50RKG",
+   "brand": "onsemi",
+   "stock": 28,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     1.9004
+    ],
+    [
+     10,
+     1.8565
+    ],
+    [
+     30,
+     1.8273
+    ],
+    [
+     100,
+     1.798
+    ],
+    [
+     102,
+     1.798
+    ],
+    [
+     104,
+     1.798
+    ]
+   ],
+   "p1": 1.9004,
+   "desc": "-40℃~+150℃@(Tj) 1 150mA 29uA 45V 5V 600mV@(150mA) 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection Positive DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "29uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Enable control、Reverse polarity voltage protection",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409301103_onsemi-NCV8664CDT50RKG_C604073.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664CDT50RKG/C604073",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664cdt50rkg_C604073.html"
+  },
+  "C604074": {
+   "code": "C604074",
+   "model": "NCV8664CST33T3G",
+   "brand": "onsemi",
+   "stock": 65,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     1.5688
+    ],
+    [
+     10,
+     1.5298
+    ],
+    [
+     30,
+     1.5022
+    ],
+    [
+     100,
+     1.4761
+    ],
+    [
+     102,
+     1.4761
+    ],
+    [
+     104,
+     1.4761
+    ]
+   ],
+   "p1": 1.5688,
+   "desc": "-40℃~+150℃@(Tj) 1 150mA 29uA 3.3V 45V 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "29uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "600mV@(150mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210210000_onsemi-NCV8664CST33T3G_C604074.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664CST33T3G/C604074",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664cst33t3g_C604074.html"
+  },
+  "C604076": {
+   "code": "C604076",
+   "model": "NCV8664DT33RKG",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     0.6503
+    ],
+    [
+     10,
+     0.5251
+    ],
+    [
+     30,
+     0.4634
+    ],
+    [
+     100,
+     0.4016
+    ],
+    [
+     500,
+     0.3642
+    ],
+    [
+     1000,
+     0.3447
+    ]
+   ],
+   "p1": 0.6503,
+   "desc": "-40℃~+150℃ 1 1.266V@(150mA) 150mA 29uA 3.3V 45V 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "29uA",
+    "Operating Temperature": "-40℃~+150℃",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Voltage Dropout": "1.266V@(150mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664DT33RKG/C604076",
+   "lcsc_url": "https://www.lcsc.com/product-detail/linear voltage regulators (ldo)_onsemi_ncv8664dt33rkg_C604076.html"
+  },
+  "C895062": {
+   "code": "C895062",
+   "model": "NCV8664ST33T3G",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     0.5658
+    ],
+    [
+     10,
+     0.5658
+    ],
+    [
+     12,
+     0.5658
+    ],
+    [
+     200,
+     0.2195
+    ],
+    [
+     500,
+     0.2114
+    ],
+    [
+     1000,
+     0.2081
+    ]
+   ],
+   "p1": 0.5658,
+   "desc": "-40℃~+150℃@(Tj) 1 1.266V@(150mA) 150mA 22uA 3.3V 45V 67dB@(100Hz) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(100Hz)",
+    "standby current": "22uA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Voltage Dropout": "1.266V@(150mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402260530_onsemi-NCV8664ST33T3G_C895062.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-NCV8664ST33T3G/C895062",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ncv8664st33t3g_C895062.html"
+  },
+  "C42394088": {
+   "code": "C42394088",
+   "model": "TPNCV8664ST33T3G",
+   "brand": "TECH PUBLIC",
+   "stock": 228,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     0.4211
+    ],
+    [
+     10,
+     0.3301
+    ],
+    [
+     30,
+     0.291
+    ],
+    [
+     100,
+     0.2439
+    ],
+    [
+     500,
+     0.2228
+    ],
+    [
+     1000,
+     0.2098
+    ]
+   ],
+   "p1": 0.4211,
+   "desc": "SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "70dB@(1kHz)",
+    "Operating Temperature": "-40℃~+85℃@(Tj)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "200mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "600mV@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-TPNCV8664ST33T3G/C42394088",
+   "lcsc_url": null
+  },
+  "C55191314": {
+   "code": "C55191314",
+   "model": "TPNCV8664DT50RKG",
+   "brand": "TECH PUBLIC",
+   "stock": 299,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-3L",
+   "prices": [
+    [
+     1,
+     0.9787
+    ],
+    [
+     10,
+     0.7852
+    ],
+    [
+     30,
+     0.6893
+    ],
+    [
+     100,
+     0.5934
+    ],
+    [
+     500,
+     0.5349
+    ],
+    [
+     1000,
+     0.5056
+    ]
+   ],
+   "p1": 0.9787,
+   "desc": "TO-252-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-TPNCV8664DT50RKG/C55191314",
+   "lcsc_url": null
+  }
+ }
+}

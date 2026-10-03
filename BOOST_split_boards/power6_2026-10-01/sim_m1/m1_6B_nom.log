@@ -1,0 +1,76 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\m1_6B_nom.net
+Start Time: Thu Oct  1 21:03:39 2026
+Options:gmin=100f reltol=0.001 plotwinsize=0
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-13
+C69: Increased Cpar to 6.8e-10
+C86: Increased Cpar to 2.2e-10
+C40: Increased Cpar to 6.8e-10
+C70: Increased Cpar to 2.2e-10
+C71: Increased Cpar to 2.2e-10
+C78: Increased Cpar to 2.2e-10
+C74: Increased Cpar to 2.2e-10
+C85: Increased Cpar to 6.8e-10
+C77: Increased Cpar to 2.2e-10
+C87: Increased Cpar to 2.2e-10
+C75: Increased Cpar to 2.2e-10
+C88: Increased Cpar to 2.2e-10
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 611.234 seconds.
+
+Files loaded:
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\m1_6B_nom.net
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\MCP6241.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\MCP6561.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\CD4000_v.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\SwitchAna.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\HYG180N10.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\INA241A3.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\L7805.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\LM78L05.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\LM2940_12.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\TVS_5KP.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\sim_m1\UCC21520.lib
+
+Measurement "il_pk" FAIL'ed
+Measurement "verr_max" FAIL'ed
+Measurement "vo1_avg" FAIL'ed
+Measurement "vo2_avg" FAIL'ed
+Measurement "vo3_avg" FAIL'ed
+Measurement "iled1_avg" FAIL'ed
+Measurement "iled2_avg" FAIL'ed
+Measurement "iled3_avg" FAIL'ed
+Measurement "vlx_max" FAIL'ed
+Measurement "vlx_min" FAIL'ed
+Measurement "ptvs" FAIL'ed
+Measurement "etvs" FAIL'ed
+Measurement "itvs_clamp" FAIL'ed
+Measurement "itvs_pk" FAIL'ed
+Measurement "vdspin_m2" FAIL'ed
+Measurement "vdspin_m3" FAIL'ed
+Measurement "vdspin_m4" FAIL'ed
+Measurement "vdspin_m7" FAIL'ed
+Measurement "vdspin_m6" FAIL'ed
+Measurement "vdspin_m5" FAIL'ed
+Measurement "irev_m2" FAIL'ed
+Measurement "irev_m3" FAIL'ed
+Measurement "irev_m4" FAIL'ed
+Measurement "qrev_m2" FAIL'ed
+Measurement "qrev_m3" FAIL'ed
+Measurement "qrev_m4" FAIL'ed
+Measurement "vdsdie_m1" FAIL'ed
+Measurement "vdsdie_m2" FAIL'ed
+Measurement "vdsdie_m3" FAIL'ed
+Measurement "vdsdie_m4" FAIL'ed
+Measurement "vdsdie_m5" FAIL'ed
+Measurement "vdsdie_m6" FAIL'ed
+Measurement "vdsdie_m7" FAIL'ed
+Measurement "vls_m1" FAIL'ed
+Measurement "didt_m1" FAIL'ed

@@ -24037,7 +24037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 335.28 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24081,7 +24081,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 334.01 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -24104,6 +24104,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 334.01 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 334.01 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -24599,7 +24610,7 @@
 				)
 			)
 		)
-		(property "MPN" "EEH-ZU1H221P"
+		(property "MPN" "EEH-ZS1H221P"
 			(at 248.92 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -25336,7 +25347,7 @@
 				)
 			)
 		)
-		(property "MPN" "EEH-ZU1H221P"
+		(property "MPN" "EEH-ZS1H221P"
 			(at 256.54 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -26032,7 +26043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 273.05 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26076,7 +26087,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 271.78 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -26099,6 +26110,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 271.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 271.78 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -27483,7 +27505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 389.89 300.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27527,7 +27549,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 388.62 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -27550,6 +27572,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 388.62 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 388.62 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -31048,7 +31081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 271.78 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31092,7 +31125,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 270.51 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -31115,6 +31148,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 270.51 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 270.51 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -31340,7 +31384,7 @@
 				)
 			)
 		)
-		(property "MPN" "EEH-ZU1H221P"
+		(property "MPN" "EEH-ZS1H221P"
 			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -34612,7 +34656,7 @@
 				)
 			)
 		)
-		(property "MPN" "EEH-ZU1H221P"
+		(property "MPN" "EEH-ZS1H221P"
 			(at 251.46 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -37134,7 +37178,7 @@
 				)
 			)
 		)
-		(property "MPN" "EEH-ZU1H221P"
+		(property "MPN" "EEH-ZS1H221P"
 			(at 269.24 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -37477,7 +37521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 302.26 302.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37521,7 +37565,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 300.99 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -37544,6 +37588,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 300.99 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 300.99 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -40457,7 +40512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 334.01 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40501,7 +40556,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 332.74 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -40524,6 +40579,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 332.74 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 332.74 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -44138,7 +44204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 276.86 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44182,7 +44248,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 275.59 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -44205,6 +44271,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 275.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 275.59 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -67094,7 +67171,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "LM2940_12"
+		(property "Value" "MC7812"
 			(at 77.47 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67138,7 +67215,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "LM2940_12.lib"
+		(property "Sim.Library" "../LTspice/MC7812.lib"
 			(at 77.47 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -67149,7 +67226,7 @@
 				)
 			)
 		)
-		(property "Sim.Name" "LM2940_12"
+		(property "Sim.Name" "MC7812_TYP"
 			(at 77.47 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -67161,6 +67238,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 77.47 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MC7812BD2TR4G"
 			(at 77.47 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -68510,7 +68598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 307.34 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68554,7 +68642,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 306.07 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -68577,6 +68665,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 306.07 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 306.07 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -69620,7 +69719,7 @@
 				)
 			)
 		)
-		(property "MPN" "EEH-ZU1H221P"
+		(property "MPN" "EEH-ZS1H221P"
 			(at 250.19 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -74330,7 +74429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6241"
+		(property "Value" "TLV9001"
 			(at 334.01 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -74374,7 +74473,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib"
+		(property "Sim.Library" "../LTspice/TLV9001.lib"
 			(at 332.74 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -74397,6 +74496,17 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
+			(at 332.74 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV9001IDBVR"
 			(at 332.74 137.16 0)
 			(hide yes)
 			(show_name no)

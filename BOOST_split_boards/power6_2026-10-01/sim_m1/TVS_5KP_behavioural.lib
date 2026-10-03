@@ -1,0 +1,36 @@
+* ============================================================================
+* Littelfuse 5KP TVS - BEHAVIOURAL versions (smooth knee)
+*
+* Use these if the .model versions in TVS_5KP.lib cause "timestep too small".
+* SPICE diode breakdown is an exponential and can be very stiff at the dV/dt
+* your LX node sees; these replace it with a sqrt-smoothed linear clamp that
+* is differentiable everywhere.
+*
+* *** ORIENTATION: these are SUBCIRCUITS with pin order (A K).            ***
+* *** Connect A to GROUND and K to LX.  X1 0 LX TVS_5KP54A                ***
+* *** A TVS clamps by REVERSE breakdown - cathode goes to the node you    ***
+* *** are protecting. This is opposite to a plain diode clamping into a   ***
+* *** fixed rail.                                                          ***
+*
+* VERIFIED in ngspice (5KP54A): 60.49 V at 1 A, 83.15 V at 50 A,
+* 87.13 V at 58.6 A (datasheet 87.1 V at 58.6 A). Leakage at a 50 V rail
+* is ~5 uA.
+*
+* NOT MODELLED: peak pulse energy limits, thermal derating, degradation from
+* repetitive pulsing, temperature coefficient of VBR (real VBR rises ~0.1%/K).
+* The knee is deliberately softened, so leakage just below VBR is larger than
+* the real part - do not use these to predict standby leakage.
+* ============================================================================
+.SUBCKT TVS_5KP54A A K
+BCL K A I=0.5*((V(K,A)-60.0)+sqrt((V(K,A)-60.0)*(V(K,A)-60.0)+1e-4))/0.463
+DF A K DTVSF
+CJ K A 2n
+.model DTVSF D(IS=1e-9 N=1.2 RS=0.01)
+.ENDS TVS_5KP54A
+
+.SUBCKT TVS_5KP48A A K
+BCL K A I=0.5*((V(K,A)-53.3)+sqrt((V(K,A)-53.3)*(V(K,A)-53.3)+1e-4))/0.366
+DF A K DTVSF
+CJ K A 2n
+.model DTVSF D(IS=1e-9 N=1.2 RS=0.01)
+.ENDS TVS_5KP48A

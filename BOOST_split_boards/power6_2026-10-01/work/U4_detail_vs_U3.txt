@@ -1,0 +1,27 @@
+== tracks (length removed / added, mm) by net and layer
+  Current            F.Cu    -  46.3 ( 28)  +  46.3 ( 28)
+  GATE_M2            F.Cu    -   4.5 (  7)  +   6.1 (  4)
+  GATE_M7            B.Cu    -   5.1 (  6)  +   5.4 (  8)
+  GATE_M7            In4.Cu  -   3.3 (  2)  +   3.6 ( 10)
+  Net-(D11--)        B.Cu    -   8.2 (  3)  +   8.4 (  4)
+  Net-(D11--)        In4.Cu  -   0.4 (  2)  +   0.3 (  2)
+  Net-(D2--)         B.Cu    -  13.6 ( 11)  +  17.9 ( 13)
+  Net-(D2--)         In4.Cu  -   4.9 ( 10)  +   2.3 (  5)
+  Net-(U15-VDDA)     B.Cu    -   9.1 ( 14)  +  10.8 ( 17)
+  m2_source          B.Cu    -  20.2 ( 10)  +  13.1 (  8)
+== vias
+  removed Net-(D11--)    at ( 64.050,  59.650) drill 0.30 dia 0.60
+  removed Vin            at ( 67.500,  45.500) drill 0.40 dia 0.80
+  removed LX             at ( 73.700,  57.633) drill 0.40 dia 0.80
+  removed LX             at ( 73.700,  58.667) drill 0.40 dia 0.80
+  removed LX             at ( 73.700,  59.700) drill 0.40 dia 0.80
+  added   Net-(D11--)    at ( 64.050,  59.800) drill 0.30 dia 0.60
+  added   Vin            at ( 67.500,  45.300) drill 0.40 dia 0.80
+  added   LX             at ( 73.700,  57.500) drill 0.40 dia 0.80
+  added   LX             at ( 73.700,  59.100) drill 0.40 dia 0.80
+  added   LX             at ( 73.776,  59.847) drill 0.40 dia 0.80
+== footprints
+== zones (removed / added / changed records)
+  OLD ('Vout_1', ('In3.Cu',), (42.1, 55.0, 81.5, 115.2), 579.2, 16, 0.3, 0.25, 2, 0, 21, 'Vout_1 In3 to J3', False)
+  NEW ('LX', ('In3.Cu', 'In4.Cu'), (72.2, 55.2, 79.1, 62.0), 35.2, 51, 0.5, 0.25, 2, 0, 8, '', False)
+  NEW ('Vout_1', ('In3.Cu',), (42.1, 55.0, 81.5, 115.2), 509.1, 16, 0.3, 0.25, 2, 0, 23, 'Vout_1 In3 to J3', False)

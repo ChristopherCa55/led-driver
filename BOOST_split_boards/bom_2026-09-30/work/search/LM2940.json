@@ -1,0 +1,4914 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:38 Pacific Daylight Time",
+ "res": {
+  "C9413": {
+   "code": "C9413",
+   "model": "LM2940CT-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 829,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.5735
+    ],
+    [
+     10,
+     2.1638
+    ],
+    [
+     45,
+     1.9069
+    ],
+    [
+     90,
+     1.6452
+    ],
+    [
+     450,
+     1.5265
+    ],
+    [
+     900,
+     1.4745
+    ]
+   ],
+   "p1": 2.5735,
+   "desc": "0℃~+125℃@(Ta) 1 150uVrms 1A 26V 30mA 500mV@(1A) 5V 72dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown、Input undervoltage protection、Input overvoltage protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940CT-5-0-NOPB_C9413.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT_5_0NOPB/C9413",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-5-0-nopb_C9413.html"
+  },
+  "C9414": {
+   "code": "C9414",
+   "model": "LM2940CT-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     1.7623
+    ],
+    [
+     10,
+     1.4778
+    ],
+    [
+     45,
+     1.3006
+    ],
+    [
+     90,
+     1.1185
+    ],
+    [
+     450,
+     1.0356
+    ],
+    [
+     900,
+     0.9998
+    ]
+   ],
+   "p1": 1.7623,
+   "desc": "0℃~+125℃ 1 10mA 12V 1A 26V 360uVrms 500mV@(1A) 54dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "10mA",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940CT-12-NOPB_C9414.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT_12NOPB/C9414",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-12-nopb_C9414.html"
+  },
+  "C13980": {
+   "code": "C13980",
+   "model": "LM2940SX-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 130,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.0386
+    ],
+    [
+     10,
+     1.746
+    ],
+    [
+     30,
+     1.4274
+    ],
+    [
+     100,
+     1.2388
+    ],
+    [
+     500,
+     1.1543
+    ],
+    [
+     1000,
+     1.1169
+    ]
+   ],
+   "p1": 2.0386,
+   "desc": "-40℃~+125℃@(Tj) 1 150uVrms 1A 26V 30mA 500mV@(1A) 54dB@(120Hz) 5V Fixed Over Current Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191815_Texas-Instruments-LM2940SX-5-0-NOPB_C13980.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_5_0NOPB/C13980",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-5-0-nopb_C13980.html"
+  },
+  "C13991": {
+   "code": "C13991",
+   "model": "LM2940IMP-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 573,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.6533
+    ],
+    [
+     10,
+     1.3916
+    ],
+    [
+     30,
+     1.2274
+    ],
+    [
+     100,
+     1.06
+    ],
+    [
+     500,
+     0.9836
+    ],
+    [
+     1000,
+     0.9511
+    ]
+   ],
+   "p1": 1.6533,
+   "desc": "-40℃~+125℃@(Tj) 1 150uVrms 1A 26V 30mA 500mV@(1A) 54dB@(120Hz) 5V Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940IMP-5-0-NOPB_C13991.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_5_0NOPB/C13991",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-5-0-nopb_C13991.html"
+  },
+  "C71094": {
+   "code": "C71094",
+   "model": "LM2940G-50-AA3-R",
+   "brand": "UTC(Unisonic Tech)",
+   "stock": 3326,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     0.1961
+    ],
+    [
+     50,
+     0.1712
+    ],
+    [
+     150,
+     0.1605
+    ],
+    [
+     500,
+     0.1472
+    ],
+    [
+     2500,
+     0.133
+    ],
+    [
+     5000,
+     0.1295
+    ]
+   ],
+   "p1": 0.1961,
+   "desc": "-40℃~+85℃ 1 10mA 150uVrms 1A 26V 5V 72dB@(120Hz) 800mV@(1A) Fixed Over Current Protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "10mA",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "800mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_UTC-Unisonic-Tech-LM2940G-50-AA3-R_C71094.pdf",
+   "url": "https://jlcpcb.com/partdetail/UTC_Unisonic_Tech-LM2940G_50_AA3R/C71094",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_utc-unisonic-tech-lm2940g-50-aa3-r_C71094.html"
+  },
+  "C81094": {
+   "code": "C81094",
+   "model": "LM2940IMP-15/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 881,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3",
+   "prices": [
+    [
+     1,
+     1.4079
+    ],
+    [
+     10,
+     1.2339
+    ],
+    [
+     30,
+     1.112
+    ],
+    [
+     100,
+     0.9998
+    ],
+    [
+     500,
+     0.9494
+    ],
+    [
+     1000,
+     0.9283
+    ]
+   ],
+   "p1": 1.4079,
+   "desc": "-40℃~+125℃@(Tj) 1 15V 1A 26V 30mA 450uVrms 500mV@(1A) 54dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown、输入欠压保护、输入过压保护 Positive SOT-223-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "450uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "15V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940IMP-15-NOPB_C81094.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_15NOPB/C81094",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-15-nopb_C81094.html"
+  },
+  "C85225": {
+   "code": "C85225",
+   "model": "LM2940L-50-TN3-R",
+   "brand": "UTC(Unisonic Tech)",
+   "stock": 2276,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2(DPAK)",
+   "prices": [
+    [
+     1,
+     0.3214
+    ],
+    [
+     50,
+     0.2517
+    ],
+    [
+     150,
+     0.222
+    ],
+    [
+     500,
+     0.1813
+    ],
+    [
+     2500,
+     0.1648
+    ],
+    [
+     5000,
+     0.1548
+    ]
+   ],
+   "p1": 0.3214,
+   "desc": "-40℃~+85℃ 1 10mA 150uVrms 1A 26V 500mV@(1A) 5V 72dB@(120Hz) Fixed Over Current Protection Positive TO-252-2(DPAK) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "10mA",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_UTC-Unisonic-Tech-LM2940L-50-TN3-R_C85225.pdf",
+   "url": "https://jlcpcb.com/partdetail/UTC_Unisonic_Tech-LM2940L_50_TN3R/C85225",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_utc-unisonic-tech-lm2940l-50-tn3-r_C85225.html"
+  },
+  "C85226": {
+   "code": "C85226",
+   "model": "LM2940L-50-TQ3-R",
+   "brand": "UTC(Unisonic Tech)",
+   "stock": 587,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.5089
+    ],
+    [
+     10,
+     0.4032
+    ],
+    [
+     30,
+     0.3577
+    ],
+    [
+     100,
+     0.3008
+    ],
+    [
+     500,
+     0.2748
+    ],
+    [
+     800,
+     0.2602
+    ]
+   ],
+   "p1": 0.5089,
+   "desc": "-40℃~+125℃ 1 10mA 150uVrms 1A 26V 500mV@(1A) 5V 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_UTC-Unisonic-Tech-LM2940L-50-TQ3-R_C85226.pdf",
+   "url": "https://jlcpcb.com/partdetail/UTC_Unisonic_Tech-LM2940L_50_TQ3R/C85226",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_utc-unisonic-tech-lm2940l-50-tq3-r_C85226.html"
+  },
+  "C86562": {
+   "code": "C86562",
+   "model": "LM2940IMP-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 80,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.8175
+    ],
+    [
+     10,
+     1.5363
+    ],
+    [
+     30,
+     1.3607
+    ],
+    [
+     100,
+     1.1006
+    ],
+    [
+     500,
+     1.0193
+    ],
+    [
+     1000,
+     0.9836
+    ]
+   ],
+   "p1": 1.8175,
+   "desc": "-40℃~+125℃ 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 66dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940IMP-12-NOPB_C86562.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_12NOPB/C86562",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-12-nopb_C86562.html"
+  },
+  "C127023": {
+   "code": "C127023",
+   "model": "LM2940G-12-AA3-R",
+   "brand": "UTC(Unisonic Tech)",
+   "stock": 119,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3",
+   "prices": [
+    [
+     1,
+     0.2379
+    ],
+    [
+     50,
+     0.1867
+    ],
+    [
+     150,
+     0.1648
+    ],
+    [
+     500,
+     0.1376
+    ],
+    [
+     2500,
+     0.1199
+    ],
+    [
+     5000,
+     0.1125
+    ]
+   ],
+   "p1": 0.2379,
+   "desc": "-40℃~+85℃ 1 10mA 12V 1A 26V 360uVrms 66dB@(120Hz) 800mV@(1A) Fixed Positive SOT-223-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "10mA",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_UTC-Unisonic-Tech-LM2940G-12V-AA3-R_C127023.pdf",
+   "url": "https://jlcpcb.com/partdetail/UTC_Unisonic_Tech-LM2940G_12_AA3R/C127023",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_utc-unisonic-tech-lm2940g-12v-aa3-r_C127023.html"
+  },
+  "C129959": {
+   "code": "C129959",
+   "model": "LM2940T-10.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 175,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.0354
+    ],
+    [
+     10,
+     1.7476
+    ],
+    [
+     45,
+     1.4371
+    ],
+    [
+     90,
+     1.2534
+    ],
+    [
+     450,
+     1.1689
+    ],
+    [
+     900,
+     1.1331
+    ]
+   ],
+   "p1": 2.0354,
+   "desc": "-40℃~+125℃@(Tj) 1 10V 1A 26V 300uVrms 30mA 500mV@(1A) 54dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "300uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "10V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940T-10-0-NOPB_C129959.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_10_0NOPB/C129959",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-10-0-nopb_C129959.html"
+  },
+  "C131916": {
+   "code": "C131916",
+   "model": "LM2940SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.2463
+    ],
+    [
+     10,
+     3.6513
+    ],
+    [
+     30,
+     3.2985
+    ],
+    [
+     100,
+     2.8173
+    ],
+    [
+     500,
+     2.6531
+    ],
+    [
+     1000,
+     2.5783
+    ]
+   ],
+   "p1": 4.2463,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 66dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown、Input undervoltage protection、Input overvoltage protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940SX-12-NOPB_C131916.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_12NOPB/C131916",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-12-nopb_C131916.html"
+  },
+  "C133813": {
+   "code": "C133813",
+   "model": "LM2940CSX-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     3.1018
+    ],
+    [
+     10,
+     3.0221
+    ],
+    [
+     30,
+     2.9701
+    ],
+    [
+     100,
+     2.9165
+    ],
+    [
+     102,
+     2.9165
+    ],
+    [
+     104,
+     2.9165
+    ]
+   ],
+   "p1": 3.1018,
+   "desc": "0℃~+125℃ 1 150uVrms 15mA 1A 26V 500mV@(1A) 54dB@(120Hz) 9V Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "0℃~+125℃",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "9V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940CSX-9-0-NOPB_C133813.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CSX_9_0NOPB/C133813",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940csx-9-0-nopb_C133813.html"
+  },
+  "C133956": {
+   "code": "C133956",
+   "model": "LM2940S-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 43,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     3.2644
+    ],
+    [
+     10,
+     2.8027
+    ],
+    [
+     45,
+     2.4271
+    ],
+    [
+     90,
+     2.1492
+    ],
+    [
+     495,
+     2.0224
+    ],
+    [
+     990,
+     1.9638
+    ]
+   ],
+   "p1": 3.2644,
+   "desc": "-40℃~+125℃@(Tj) 1 150uVrms 1A 26V 30mA 500mV@(1A) 5V 72dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940S-5-0-NOPB_C133956.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_5_0NOPB/C133956",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-5-0-nopb_C133956.html"
+  },
+  "C134005": {
+   "code": "C134005",
+   "model": "LM2940S-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 5,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.8981
+    ],
+    [
+     10,
+     4.3487
+    ],
+    [
+     45,
+     4.0674
+    ],
+    [
+     90,
+     3.6919
+    ],
+    [
+     450,
+     3.557
+    ],
+    [
+     900,
+     3.5001
+    ]
+   ],
+   "p1": 4.8981,
+   "desc": "-40℃~+125℃ 1 1A 26V 270uVrms 30mA 500mV@(1A) 64dB@(120Hz) 9V Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃",
+    "Noise": "270uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "9V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1804242032_Texas-Instruments-LM2940S-9-0-NOPB_C134005.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_9_0NOPB/C134005",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-9-0-nopb_C134005.html"
+  },
+  "C308879": {
+   "code": "C308879",
+   "model": "LM2940T-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 114,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     1.9947
+    ],
+    [
+     10,
+     1.7005
+    ],
+    [
+     30,
+     1.5168
+    ],
+    [
+     100,
+     1.3298
+    ],
+    [
+     500,
+     1.2437
+    ],
+    [
+     1000,
+     1.2079
+    ]
+   ],
+   "p1": 1.9947,
+   "desc": "-40℃~+125℃@(Tj) 1 150uVrms 1A 1V@(1A) 26V 5V 60mA 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "60mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810081852_Texas-Instruments-LM2940T-5-0-NOPB_C308879.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_5_0NOPB/C308879",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-5-0-nopb_C308879.html"
+  },
+  "C434496": {
+   "code": "C434496",
+   "model": "LM2940S-5.0/TR",
+   "brand": "HGSEMI",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3L",
+   "prices": [
+    [
+     1,
+     0.4634
+    ],
+    [
+     10,
+     0.3658
+    ],
+    [
+     30,
+     0.3236
+    ],
+    [
+     100,
+     0.2715
+    ],
+    [
+     500,
+     0.2293
+    ],
+    [
+     1000,
+     0.2146
+    ]
+   ],
+   "p1": 0.4634,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 1A 1V@(1A) 26V 5V 60dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection TO-263-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "-",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2201242200_HGSEMI-LM2940S-5-0-TR_C434496.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM2940S_5_0TR/C434496",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm2940s-5-0-tr_C434496.html"
+  },
+  "C471057": {
+   "code": "C471057",
+   "model": "LM2940IMP-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1260,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.3526
+    ],
+    [
+     10,
+     1.1965
+    ],
+    [
+     30,
+     1.086
+    ],
+    [
+     100,
+     0.9852
+    ],
+    [
+     500,
+     0.9381
+    ],
+    [
+     1000,
+     0.9202
+    ]
+   ],
+   "p1": 1.3526,
+   "desc": "-40℃~+125℃@(Ta) 1 1A 1V@(1A) 26V 270uVrms 54dB@(120Hz) 60mA 9V Fixed Over Current Protection、Over Temperature Protection、Thermal Shutdown Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "60mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "270uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121943_Texas-Instruments-LM2940IMP-9-0-NOPB_C471057.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_9_0NOPB/C471057",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-9-0-nopb_C471057.html"
+  },
+  "C481671": {
+   "code": "C481671",
+   "model": "LM2940T-3.3",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 60,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.5999
+    ],
+    [
+     10,
+     0.4877
+    ],
+    [
+     50,
+     0.4325
+    ],
+    [
+     100,
+     0.3772
+    ],
+    [
+     500,
+     0.3447
+    ],
+    [
+     1000,
+     0.3268
+    ]
+   ],
+   "p1": 0.5999,
+   "desc": "-40℃~+85℃@(Tj) 1 1A 26V 3.3V 500uA 630mV@(1A) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "500uA",
+    "Operating Temperature": "-40℃~+85℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "630mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HTC-Korea-TAEJIN-Tech-LM2940T-3-3_C481671.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940T_33/C481671",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm2940t-3-3_C481671.html"
+  },
+  "C481672": {
+   "code": "C481672",
+   "model": "LM2940T-5.0",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 149,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.5967
+    ],
+    [
+     10,
+     0.478
+    ],
+    [
+     50,
+     0.4178
+    ],
+    [
+     100,
+     0.3593
+    ],
+    [
+     500,
+     0.3236
+    ],
+    [
+     1000,
+     0.3057
+    ]
+   ],
+   "p1": 0.5967,
+   "desc": "-40℃~+85℃@(Tj) 1 1A 26V 500uA 5V 630mV@(1A) Fixed Over Current Protection、Over Temperature Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "500uA",
+    "Operating Temperature": "-40℃~+85℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "630mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HTC-Korea-TAEJIN-Tech-LM2940T-5-0_C481672.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940T_50/C481672",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm2940t-5-0_C481672.html"
+  },
+  "C565359": {
+   "code": "C565359",
+   "model": "LM2940IMP-5.0/TR",
+   "brand": "HGSEMI",
+   "stock": 4775,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3L",
+   "prices": [
+    [
+     1,
+     0.3141
+    ],
+    [
+     50,
+     0.2527
+    ],
+    [
+     150,
+     0.2263
+    ],
+    [
+     500,
+     0.1935
+    ],
+    [
+     2500,
+     0.1582
+    ],
+    [
+     5000,
+     0.1494
+    ]
+   ],
+   "p1": 0.3141,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 1A 26V 500mV@(1A) 5V Fixed Over Temperature Protection、Over Voltage Protection、Short Circuit Protection Positive SOT-223-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "10mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2009101807_HGSEMI-LM2940IMP-5-0-TR_C565359.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM2940IMP_5_0TR/C565359",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm2940imp-5-0-tr_C565359.html"
+  },
+  "C596334": {
+   "code": "C596334",
+   "model": "LM2940S-5.0",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 2055,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3L",
+   "prices": [
+    [
+     1,
+     0.4764
+    ],
+    [
+     10,
+     0.3756
+    ],
+    [
+     30,
+     0.3317
+    ],
+    [
+     100,
+     0.278
+    ],
+    [
+     500,
+     0.213
+    ],
+    [
+     1000,
+     0.1984
+    ]
+   ],
+   "p1": 0.4764,
+   "desc": "-40℃~+85℃@(Tj) 1 1A 26V 500uA 5V 630mV@(1A) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive SOT-223-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "500uA",
+    "Operating Temperature": "-40℃~+85℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "630mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HTC-Korea-TAEJIN-Tech-LM2940S-5-0_C596334.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940S_50/C596334",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm2940s-5-0_C596334.html"
+  },
+  "C596335": {
+   "code": "C596335",
+   "model": "LM2940S-3.3",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 1504,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3L",
+   "prices": [
+    [
+     1,
+     0.439
+    ],
+    [
+     10,
+     0.3382
+    ],
+    [
+     30,
+     0.2943
+    ],
+    [
+     100,
+     0.239
+    ],
+    [
+     500,
+     0.2146
+    ],
+    [
+     1000,
+     0.2
+    ]
+   ],
+   "p1": 0.439,
+   "desc": "-40℃~+85℃@(Tj) 1 1A 26V 3.3V 500uA 630mV@(1A) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive SOT-223-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "500uA",
+    "Operating Temperature": "-40℃~+85℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "630mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2006081112_HTC-Korea-TAEJIN-Tech-LM2940S-3-3_C596335.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940S_33/C596335",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm2940s-3-3_C596335.html"
+  },
+  "C784715": {
+   "code": "C784715",
+   "model": "LM2940HS-3.3",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 311,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3L",
+   "prices": [
+    [
+     1,
+     0.8194
+    ],
+    [
+     10,
+     0.6649
+    ],
+    [
+     30,
+     0.5869
+    ],
+    [
+     100,
+     0.5105
+    ],
+    [
+     500,
+     0.465
+    ],
+    [
+     1000,
+     0.4406
+    ]
+   ],
+   "p1": 0.8194,
+   "desc": "-40℃~+125℃@(Tj) 1 11mA 150uVrms 1A 26V 3.3V 400mV@(1A) 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive SOT-223-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "11mA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "400mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409021405_HTC-Korea-TAEJIN-Tech-LM2940HS-3-3_C784715.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940HS_33/C784715",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm2940hs-3-3_C784715.html"
+  },
+  "C2859859": {
+   "code": "C2859859",
+   "model": "LM2940IMPX-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1955,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.203
+    ],
+    [
+     10,
+     0.9787
+    ],
+    [
+     30,
+     0.8568
+    ],
+    [
+     100,
+     0.717
+    ],
+    [
+     500,
+     0.6568
+    ],
+    [
+     1000,
+     0.6276
+    ]
+   ],
+   "p1": 1.203,
+   "desc": "-40℃~+125℃@(Ta) 1 10mA 150uVrms 1A 26V 500mV@(1A) 5V 72dB@(120Hz) Fixed Positive Reverse connection protection、Short Circuit Protection、Thermal Shutdown SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "standby current": "10mA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220830_Texas-Instruments-LM2940IMPX-5-0-NOPB_C2859859.pdf",
+   "url": "https://jlcpcb.com/partdetail/3064536-LM2940IMPX_5_0NOPB/C2859859",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940impx-5-0-nopb_C2859859.html"
+  },
+  "C2861361": {
+   "code": "C2861361",
+   "model": "LM2940SX-8.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 5,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.6547
+    ],
+    [
+     10,
+     2.593
+    ],
+    [
+     30,
+     2.5507
+    ],
+    [
+     100,
+     2.5101
+    ],
+    [
+     102,
+     2.5101
+    ],
+    [
+     104,
+     2.5101
+    ]
+   ],
+   "p1": 2.6547,
+   "desc": "-40℃~+125℃@(Tj) 1 10mA 1A 240uVrms 26V 500mV@(1A) 66dB@(120Hz) 8V Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "10mA",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "8V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010900_Texas-Instruments-LM2940SX-8-0-NOPB_C2861361.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_8_0NOPB/C2861361",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-8-0-nopb_C2861361.html"
+  },
+  "C2862551": {
+   "code": "C2862551",
+   "model": "LM2940CS-15/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 23,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     3.5814
+    ],
+    [
+     10,
+     3.5066
+    ],
+    [
+     30,
+     3.4578
+    ],
+    [
+     118,
+     3.4074
+    ],
+    [
+     120,
+     3.4074
+    ],
+    [
+     122,
+     3.4074
+    ]
+   ],
+   "p1": 3.5814,
+   "desc": "0℃~+125℃@(Ta) 1 15V 15mA 1A 1V@(1A) 26V 300uVrms 54dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "standby current": "15mA",
+    "Noise": "300uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "15V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010830_Texas-Instruments-LM2940CS-15-NOPB_C2862551.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_15NOPB/C2862551",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-15-nopb_C2862551.html"
+  },
+  "C2863074": {
+   "code": "C2863074",
+   "model": "LM2940SX-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 10,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.4891
+    ],
+    [
+     10,
+     1.455
+    ],
+    [
+     30,
+     1.4322
+    ],
+    [
+     100,
+     1.4095
+    ],
+    [
+     102,
+     1.4095
+    ],
+    [
+     104,
+     1.4095
+    ]
+   ],
+   "p1": 1.4891,
+   "desc": "-40℃~+125℃@(Ta) 1 10mA 150uVrms 1A 26V 500mV@(1A) 54dB@(120Hz) 9V Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "standby current": "10mA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010800_Texas-Instruments-LM2940SX-9-0-NOPB_C2863074.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_9_0NOPB/C2863074",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-9-0-nopb_C2863074.html"
+  },
+  "C2864985": {
+   "code": "C2864985",
+   "model": "LM2940IMPX-8.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1962,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.5054
+    ],
+    [
+     10,
+     1.3477
+    ],
+    [
+     30,
+     1.2355
+    ],
+    [
+     100,
+     1.1331
+    ],
+    [
+     500,
+     1.086
+    ],
+    [
+     1000,
+     1.0681
+    ]
+   ],
+   "p1": 1.5054,
+   "desc": "-40℃~+125℃@(Ta) 1 1A 240uVrms 26V 30mA 500mV@(1A) 54dB@(120Hz) 7.6V~8.4V Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "7.6V~8.4V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010630_Texas-Instruments-LM2940IMPX-8-0-NOPB_C2864985.pdf",
+   "url": "https://jlcpcb.com/partdetail/3069662-LM2940IMPX_8_0NOPB/C2864985",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940impx-8-0-nopb_C2864985.html"
+  },
+  "C2865267": {
+   "code": "C2865267",
+   "model": "LM2940CS-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 7,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.7079
+    ],
+    [
+     10,
+     4.1438
+    ],
+    [
+     30,
+     3.8561
+    ],
+    [
+     100,
+     3.4708
+    ],
+    [
+     500,
+     3.3326
+    ],
+    [
+     1000,
+     3.2741
+    ]
+   ],
+   "p1": 4.7079,
+   "desc": "-40℃~+125℃@(Ta) 1 12V 1A 1V@(1A) 26V 30mA 360uVrms 54dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220730_Texas-Instruments-LM2940CS-12-NOPB_C2865267.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_12NOPB/C2865267",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-12-nopb_C2865267.html"
+  },
+  "C2866078": {
+   "code": "C2866078",
+   "model": "LM2940IMP-10/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2638,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.7249
+    ],
+    [
+     10,
+     1.5184
+    ],
+    [
+     30,
+     1.3737
+    ],
+    [
+     100,
+     1.2404
+    ],
+    [
+     500,
+     1.1803
+    ],
+    [
+     1000,
+     1.1559
+    ]
+   ],
+   "p1": 1.7249,
+   "desc": "-40℃~+125℃@(Ta) 1 10V 1A 1V@(1A) 26V 300uVrms 30mA 54dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "300uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010600_Texas-Instruments-LM2940IMP-10-NOPB_C2866078.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_10NOPB/C2866078",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-10-nopb_C2866078.html"
+  },
+  "C2866089": {
+   "code": "C2866089",
+   "model": "LM2940CT-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 103,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.5377
+    ],
+    [
+     10,
+     2.2337
+    ],
+    [
+     45,
+     2.0793
+    ],
+    [
+     90,
+     1.8712
+    ],
+    [
+     495,
+     1.7964
+    ],
+    [
+     990,
+     1.7655
+    ]
+   ],
+   "p1": 2.5377,
+   "desc": "0℃~+125℃@(Ta) 1 15mA 1A 26V 300uVrms 500mV@(1A) 66dB@(120Hz) 9V Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "standby current": "15mA",
+    "Noise": "300uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010600_Texas-Instruments-LM2940CT-9-0-NOPB_C2866089.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT_9_0NOPB/C2866089",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-9-0-nopb_C2866089.html"
+  },
+  "C2866631": {
+   "code": "C2866631",
+   "model": "LM2940CT-5.0/LF01",
+   "brand": "Texas Instruments",
+   "stock": 101,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     1.2924
+    ],
+    [
+     10,
+     1.138
+    ],
+    [
+     30,
+     1.0291
+    ],
+    [
+     100,
+     0.9023
+    ],
+    [
+     500,
+     0.8568
+    ],
+    [
+     1000,
+     0.8373
+    ]
+   ],
+   "p1": 1.2924,
+   "desc": "0℃~+125℃@(Ta) 1 150uVrms 15mA 1A 26V 500mV@(1A) 5V 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "standby current": "15mA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010530_Texas-Instruments-LM2940CT-5-0-LF01_C2866631.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT_5_0LF01/C2866631",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-5-0-lf01_C2866631.html"
+  },
+  "C2866632": {
+   "code": "C2866632",
+   "model": "LM2940T-5.0/LF08",
+   "brand": "Texas Instruments",
+   "stock": 72,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.2906
+    ],
+    [
+     10,
+     1.9232
+    ],
+    [
+     30,
+     1.694
+    ],
+    [
+     100,
+     1.4583
+    ],
+    [
+     500,
+     1.351
+    ],
+    [
+     1000,
+     1.3054
+    ]
+   ],
+   "p1": 2.2906,
+   "desc": "-40℃~+125℃@(Ta) 1 150uVrms 1A 26V 30mA 500mV@(1A) 5V 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010530_Texas-Instruments-LM2940T-5-0-LF08_C2866632.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_5_0LF08/C2866632",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-5-0-lf08_C2866632.html"
+  },
+  "C2866640": {
+   "code": "C2866640",
+   "model": "LM2940IMPX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1293,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.6793
+    ],
+    [
+     10,
+     1.416
+    ],
+    [
+     30,
+     1.2713
+    ],
+    [
+     100,
+     1.1071
+    ],
+    [
+     500,
+     1.0356
+    ],
+    [
+     1000,
+     1.0015
+    ]
+   ],
+   "p1": 1.6793,
+   "desc": "-40℃~+125℃ 1 12V 15mA 1A 26V 360uVrms 500mV@(1A) 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "15mA",
+    "Noise": "360uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220700_Texas-Instruments-LM2940IMPX-12-NOPB_C2866640.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMPX_12NOPB/C2866640",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940impx-12-nopb_C2866640.html"
+  },
+  "C2866882": {
+   "code": "C2866882",
+   "model": "LM2940S-10/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.625
+    ],
+    [
+     10,
+     4.0707
+    ],
+    [
+     45,
+     3.7894
+    ],
+    [
+     90,
+     3.4107
+    ],
+    [
+     495,
+     3.2741
+    ],
+    [
+     990,
+     3.2172
+    ]
+   ],
+   "p1": 4.625,
+   "desc": "-40℃~+125℃@(Ta) 1 10V 10mA 1A 1V@(1A) 26V 300uVrms 66dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "standby current": "10mA",
+    "Noise": "300uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010402_Texas-Instruments-LM2940S-10-NOPB_C2866882.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_10NOPB/C2866882",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-10-nopb_C2866882.html"
+  },
+  "C2867556": {
+   "code": "C2867556",
+   "model": "LM2940T-8.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 9,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     3.3977
+    ],
+    [
+     10,
+     2.9913
+    ],
+    [
+     45,
+     2.7832
+    ],
+    [
+     90,
+     2.5052
+    ],
+    [
+     495,
+     2.406
+    ],
+    [
+     990,
+     2.3637
+    ]
+   ],
+   "p1": 3.3977,
+   "desc": "-40℃~+125℃@(Ta) 1 150uVrms 1A 26V 30mA 500mV@(1A) 54dB@(120Hz) 8V Fixed Over Current Protection、Over Temperature Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "8V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220000_Texas-Instruments-LM2940T-8-0-NOPB_C2867556.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_8_0NOPB/C2867556",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-8-0-nopb_C2867556.html"
+  },
+  "C2867576": {
+   "code": "C2867576",
+   "model": "LM2940T-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.7263
+    ],
+    [
+     10,
+     2.2938
+    ],
+    [
+     45,
+     2.0224
+    ],
+    [
+     90,
+     1.7444
+    ],
+    [
+     495,
+     1.6192
+    ],
+    [
+     990,
+     1.5656
+    ]
+   ],
+   "p1": 2.7263,
+   "desc": "-40℃~+125℃@(Ta) 1 1A 240uVrms 26V 30mA 500mV@(1A) 54dB@(120Hz) 9V Fixed Over Current Protection、Over Temperature Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220000_Texas-Instruments-LM2940T-9-0-NOPB_C2867576.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_9_0NOPB/C2867576",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-9-0-nopb_C2867576.html"
+  },
+  "C2871267": {
+   "code": "C2871267",
+   "model": "LM2940SX-10/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.7328
+    ],
+    [
+     10,
+     2.671
+    ],
+    [
+     30,
+     2.6287
+    ],
+    [
+     100,
+     2.5881
+    ],
+    [
+     102,
+     2.5881
+    ],
+    [
+     104,
+     2.5881
+    ]
+   ],
+   "p1": 2.7328,
+   "desc": "-40℃~+125℃@(Tj) 1 10V 1A 1V@(1A) 20mA 26V 300uVrms 66dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "300uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010300_Texas-Instruments-LM2940SX-10-NOPB_C2871267.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_10NOPB/C2871267",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-10-nopb_C2871267.html"
+  },
+  "C2873027": {
+   "code": "C2873027",
+   "model": "LM2940S-8.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 14,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     5.3842
+    ],
+    [
+     10,
+     4.6315
+    ],
+    [
+     45,
+     4.1829
+    ],
+    [
+     90,
+     3.7309
+    ],
+    [
+     495,
+     3.5228
+    ],
+    [
+     990,
+     3.4286
+    ]
+   ],
+   "p1": 5.3842,
+   "desc": "-40℃~+125℃@(Ta) 1 1A 1V@(1A) 240uVrms 26V 30mA 72dB@(120Hz) 8V Fixed Over Current Protection、Over Temperature Protection、Thermal Shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "8V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010130_Texas-Instruments-LM2940S-8-0-NOPB_C2873027.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_8_0NOPB/C2873027",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-8-0-nopb_C2873027.html"
+  },
+  "C2876126": {
+   "code": "C2876126",
+   "model": "LM2940LD-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 5,
+   "type": "expand",
+   "pref": false,
+   "pkg": "WSON-8-EP(4x4)",
+   "prices": [
+    [
+     1,
+     2.923
+    ],
+    [
+     10,
+     2.8547
+    ],
+    [
+     30,
+     2.8092
+    ],
+    [
+     100,
+     2.7637
+    ],
+    [
+     102,
+     2.7637
+    ],
+    [
+     104,
+     2.7637
+    ]
+   ],
+   "p1": 2.923,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 60dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal Shutdown WSON-8-EP(4x4) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010107_Texas-Instruments-LM2940LD-12-NOPB_C2876126.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940LD_12NOPB/C2876126",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ld-12-nopb_C2876126.html"
+  },
+  "C2877347": {
+   "code": "C2877347",
+   "model": "LM2940S-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.5795
+    ],
+    [
+     10,
+     4.0837
+    ],
+    [
+     30,
+     3.7667
+    ],
+    [
+     100,
+     3.4611
+    ],
+    [
+     102,
+     3.4611
+    ],
+    [
+     104,
+     3.4611
+    ]
+   ],
+   "p1": 4.5795,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 15mA 1A 1V@(1A) 240uVrms 26V 54dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220530_Texas-Instruments-LM2940S-12-NOPB_C2877347.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_12NOPB/C2877347",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-12-nopb_C2877347.html"
+  },
+  "C2877349": {
+   "code": "C2877349",
+   "model": "LM2940CS-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 14,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.2901
+    ],
+    [
+     10,
+     3.8171
+    ],
+    [
+     45,
+     3.5358
+    ],
+    [
+     90,
+     3.2497
+    ],
+    [
+     495,
+     3.1197
+    ],
+    [
+     990,
+     3.0595
+    ]
+   ],
+   "p1": 4.2901,
+   "desc": "-40℃~+125℃@(Ta) 1 1A 1V@(1A) 20mA 240uVrms 26V 5V 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2303010001_Texas-Instruments-LM2940CS-5-0-NOPB_C2877349.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_5_0NOPB/C2877349",
+   "lcsc_url": "https://www.lcsc.com/product-detail/linear voltage regulators (ldo)_texas instruments_lm2940cs-5.0/nopb_C2877349.html"
+  },
+  "C2877969": {
+   "code": "C2877969",
+   "model": "LM2940IMPX-10/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 35,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     2.4662
+    ],
+    [
+     10,
+     2.4141
+    ],
+    [
+     30,
+     2.38
+    ],
+    [
+     100,
+     2.3459
+    ],
+    [
+     102,
+     2.3459
+    ],
+    [
+     104,
+     2.3459
+    ]
+   ],
+   "p1": 2.4662,
+   "desc": "-40℃~+125℃@(Ta) 1 10V 1A 1V@(1A) 26V 300uVrms 30mA 66dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "300uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282330_Texas-Instruments-LM2940IMPX-10-NOPB_C2877969.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMPX_10NOPB/C2877969",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940impx-10-nopb_C2877969.html"
+  },
+  "C2926372": {
+   "code": "C2926372",
+   "model": "LM2940CMP-5.0/TR",
+   "brand": "HGSEMI",
+   "stock": 810,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     0.274
+    ],
+    [
+     50,
+     0.2166
+    ],
+    [
+     150,
+     0.192
+    ],
+    [
+     500,
+     0.1613
+    ],
+    [
+     2500,
+     0.1408
+    ],
+    [
+     5000,
+     0.1327
+    ]
+   ],
+   "p1": 0.274,
+   "desc": "0.003%Vout 0℃~+105℃@(Tj) 1 1A 1V@(1A) 20mA 26V 5V Fixed Positive Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+105℃@(Tj)",
+    "standby current": "20mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210241101_HGSEMI-LM2940CMP-5-0-TR_C2926372.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM2940CMP_5_0TR/C2926372",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm2940cmp-5-0-tr_C2926372.html"
+  },
+  "C2926374": {
+   "code": "C2926374",
+   "model": "LM2940MDT-5.0/TR",
+   "brand": "HGSEMI",
+   "stock": 2310,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2",
+   "prices": [
+    [
+     1,
+     0.3665
+    ],
+    [
+     50,
+     0.2969
+    ],
+    [
+     150,
+     0.267
+    ],
+    [
+     500,
+     0.2298
+    ],
+    [
+     2500,
+     0.1872
+    ],
+    [
+     5000,
+     0.1772
+    ]
+   ],
+   "p1": 0.3665,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 10mA 1A 1V@(1A) 26V 5V Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-252-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "10mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209081730_HGSEMI-LM2940MDT-5-0-TR_C2926374.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM2940MDT_5_0TR/C2926374",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm2940mdt-5-0-tr_C2926374.html"
+  },
+  "C5145298": {
+   "code": "C5145298",
+   "model": "LM2940CS-5.0RG",
+   "brand": "HANSCHIP semiconductor",
+   "stock": 8,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3717
+    ],
+    [
+     50,
+     0.2938
+    ],
+    [
+     150,
+     0.2605
+    ],
+    [
+     500,
+     0.2096
+    ],
+    [
+     2500,
+     0.1911
+    ],
+    [
+     5000,
+     0.18
+    ]
+   ],
+   "p1": 0.3717,
+   "desc": "0℃~+125℃ 1 26V 500mV@(1A) 5V Fixed Over Temperature Protection、Reverse connection protection、Over Voltage Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "-",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/5767665-LM2940CS_50RG/C5145298",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hanschip-semiconductor-lm2940cs-5-0rg_C5145298.html"
+  },
+  "C5145300": {
+   "code": "C5145300",
+   "model": "LM2940IMP-5.0RG",
+   "brand": "HANSCHIP semiconductor",
+   "stock": 444,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     0.273
+    ],
+    [
+     50,
+     0.2141
+    ],
+    [
+     150,
+     0.1888
+    ],
+    [
+     500,
+     0.1573
+    ],
+    [
+     2500,
+     0.1433
+    ],
+    [
+     5000,
+     0.1348
+    ]
+   ],
+   "p1": 0.273,
+   "desc": "0.003%Vout 0℃~+105℃@(Tj) 1 10mA 1A 1V@(1A) 26V 5V Fixed Over Temperature Protection、Reverse connection protection、Over Voltage Protection、Short Circuit Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+105℃@(Tj)",
+    "standby current": "10mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304101800_HANSCHIP-semiconductor-LM2940IMP-5-0RG_C5145300.pdf",
+   "url": "https://jlcpcb.com/partdetail/5767667-LM2940IMP_50RG/C5145300",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hanschip-semiconductor-lm2940imp-5-0rg_C5145300.html"
+  },
+  "C129958": {
+   "code": "C129958",
+   "model": "LM2940CSX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.9411
+    ],
+    [
+     10,
+     1.8858
+    ],
+    [
+     30,
+     1.8484
+    ],
+    [
+     100,
+     1.811
+    ],
+    [
+     102,
+     1.811
+    ],
+    [
+     104,
+     1.811
+    ]
+   ],
+   "p1": 1.9411,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 54dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940CSX-12-NOPB_C129958.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CSX_12NOPB/C129958",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940csx-12-nopb_C129958.html"
+  },
+  "C133781": {
+   "code": "C133781",
+   "model": "LM2940CSX-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     9.2386
+    ],
+    [
+     10,
+     9.024
+    ],
+    [
+     30,
+     8.3705
+    ],
+    [
+     100,
+     8.2259
+    ],
+    [
+     102,
+     8.2259
+    ],
+    [
+     104,
+     8.2259
+    ]
+   ],
+   "p1": 9.2386,
+   "desc": "0℃~+125℃ 1 150uVrms 1A 26V 30mA 500mV@(1A) 5V 75dB@(1kHz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "75dB@(1kHz)",
+    "standby current": "30mA",
+    "Operating Temperature": "0℃~+125℃",
+    "Noise": "150uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940CSX-5-0-NOPB_C133781.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CSX_5_0NOPB/C133781",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940csx-5-0-nopb_C133781.html"
+  },
+  "C134102": {
+   "code": "C134102",
+   "model": "LM2940CSX-15/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.9132
+    ],
+    [
+     10,
+     2.8563
+    ],
+    [
+     30,
+     2.8189
+    ],
+    [
+     100,
+     2.671
+    ],
+    [
+     102,
+     2.671
+    ],
+    [
+     104,
+     2.671
+    ]
+   ],
+   "p1": 2.9132,
+   "desc": "0℃~+125℃ 1 15V 1A 26V 30mA 500mV@(1A) 54dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "0℃~+125℃",
+    "Noise": "450uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "15V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1804242047_Texas-Instruments-LM2940CSX-15-NOPB_C134102.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CSX_15NOPB/C134102",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940csx-15-nopb_C134102.html"
+  },
+  "C201629": {
+   "code": "C201629",
+   "model": "LM2940CT-15/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.2662
+    ],
+    [
+     10,
+     1.9183
+    ],
+    [
+     45,
+     1.7005
+    ],
+    [
+     90,
+     1.4761
+    ],
+    [
+     450,
+     1.3754
+    ],
+    [
+     900,
+     1.3315
+    ]
+   ],
+   "p1": 2.2662,
+   "desc": "0℃~+125℃@(Ta) 1 15V 1A 1V@(1A) 26V 30mA 450uVrms 66dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "Noise": "450uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "15V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1808121222_Texas-Instruments-LM2940CT-15-NOPB_C201629.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT_15NOPB/C201629",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-15-nopb_C201629.html"
+  },
+  "C434573": {
+   "code": "C434573",
+   "model": "LM2940T-5.0",
+   "brand": "HGSEMI",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.4455
+    ],
+    [
+     10,
+     0.3479
+    ],
+    [
+     50,
+     0.3057
+    ],
+    [
+     100,
+     0.2537
+    ],
+    [
+     500,
+     0.2293
+    ],
+    [
+     1000,
+     0.2146
+    ]
+   ],
+   "p1": 0.4455,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 1A 1V@(1A) 26V 50mA 5V 60dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "50mA",
+    "Operating Temperature": "-40℃~+125℃",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2201242200_HGSEMI-LM2940T-5-0_C434573.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM2940T_50/C434573",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm2940t-5-0_C434573.html"
+  },
+  "C2861815": {
+   "code": "C2861815",
+   "model": "LM2940LD-5.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "WSON-8-EP(4x4)",
+   "prices": [
+    [
+     1,
+     3.4968
+    ],
+    [
+     10,
+     3.079
+    ],
+    [
+     30,
+     2.8661
+    ],
+    [
+     100,
+     2.5783
+    ],
+    [
+     500,
+     2.4759
+    ],
+    [
+     1000,
+     2.432
+    ]
+   ],
+   "p1": 3.4968,
+   "desc": "-40℃~+125℃@(Tj) 1 150uVrms 1A 26V 30mA 500mV@(1A) 54dB@(120Hz) 5V Fixed Over Temperature Protection、Short Circuit Protection Positive WSON-8-EP(4x4) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010900_Texas-Instruments-LM2940LD-5-0-NOPB_C2861815.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940LD_5_0NOPB/C2861815",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ld-5-0-nopb_C2861815.html"
+  },
+  "C2872373": {
+   "code": "C2872373",
+   "model": "LM2940T-12.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     2.2126
+    ],
+    [
+     10,
+     1.9703
+    ],
+    [
+     45,
+     1.798
+    ],
+    [
+     90,
+     1.642
+    ],
+    [
+     495,
+     1.5704
+    ],
+    [
+     990,
+     1.5412
+    ]
+   ],
+   "p1": 2.2126,
+   "desc": "-40℃~+125℃@(Ta) 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 54dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "360uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010200_Texas-Instruments-LM2940T-12-0-NOPB_C2872373.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_12_0NOPB/C2872373",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-12-0-nopb_C2872373.html"
+  },
+  "C2877350": {
+   "code": "C2877350",
+   "model": "LM2940CS-9.0/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     3.4139
+    ],
+    [
+     10,
+     3.4139
+    ],
+    [
+     30,
+     3.4139
+    ],
+    [
+     200,
+     1.3217
+    ],
+    [
+     500,
+     1.2762
+    ],
+    [
+     1000,
+     1.2518
+    ]
+   ],
+   "p1": 3.4139,
+   "desc": "-40℃~+125℃@(Tj) 1 1A 1V@(1A) 20mA 26V 270uVrms 46dB@(120Hz) 9V Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "46dB@(120Hz)",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "270uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220530_Texas-Instruments-LM2940CS-9-0-NOPB_C2877350.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_9_0NOPB/C2877350",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-9-0-nopb_C2877350.html"
+  },
+  "C3018700": {
+   "code": "C3018700",
+   "model": "LM2940L-5.0-TA3-T",
+   "brand": "UTC(Unisonic Tech)",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.3762
+    ],
+    [
+     50,
+     0.2865
+    ],
+    [
+     150,
+     0.252
+    ],
+    [
+     500,
+     0.2091
+    ],
+    [
+     2500,
+     0.1899
+    ],
+    [
+     5000,
+     0.1785
+    ]
+   ],
+   "p1": 0.3762,
+   "desc": "-40℃~+125℃@(Ta) 1 10mA 150uVrms 1A 26V 5V 72dB@(120Hz) 800mV@(1A) Fixed Over Current Protection、Over Temperature Protection、Thermal Shutdown Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "standby current": "10mA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206011716_UTC-Unisonic-Tech-LM2940L-5-0-TA3-T_C3018700.pdf",
+   "url": "https://jlcpcb.com/partdetail/UTC_Unisonic_Tech-LM2940L_5_0_TA3T/C3018700",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_utc-unisonic-tech-lm2940l-5-0-ta3-t_C3018700.html"
+  },
+  "C3743275": {
+   "code": "C3743275",
+   "model": "LM2940T-5.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     1.7574
+    ],
+    [
+     10,
+     1.7574
+    ],
+    [
+     30,
+     1.7574
+    ],
+    [
+     200,
+     0.6812
+    ],
+    [
+     500,
+     0.6568
+    ],
+    [
+     1000,
+     0.6454
+    ]
+   ],
+   "p1": 1.7574,
+   "desc": "-40℃~+125℃ 1 10mA 1A 1V@(1A) 26V 5V 64dB@(120Hz) Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_50/C3743275",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-5-0_C3743275.html"
+  },
+  "C3743534": {
+   "code": "C3743534",
+   "model": "LM2940T-10.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     1.7574
+    ],
+    [
+     10,
+     1.7574
+    ],
+    [
+     30,
+     1.7574
+    ],
+    [
+     200,
+     0.6812
+    ],
+    [
+     500,
+     0.6568
+    ],
+    [
+     1000,
+     0.6454
+    ]
+   ],
+   "p1": 1.7574,
+   "desc": "-40℃~+125℃ 1 10V 10mA 1A 1V@(1A) 26V 63dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "63dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220500_Texas-Instruments-LM2940T-10-0_C3743534.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_100/C3743534",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-10-0_C3743534.html"
+  },
+  "C3743659": {
+   "code": "C3743659",
+   "model": "LM2940S-12",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.341
+    ],
+    [
+     10,
+     2.341
+    ],
+    [
+     30,
+     2.341
+    ],
+    [
+     200,
+     0.9072
+    ],
+    [
+     500,
+     0.8747
+    ],
+    [
+     1000,
+     0.8584
+    ]
+   ],
+   "p1": 2.341,
+   "desc": "-40℃~+125℃ 1 10mA 12V 1A 1V@(1A) 26V 66dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、With enable、Short Circuit Protection、Under-voltage lockout、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282030_Texas-Instruments-LM2940S-12_C3743659.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S12/C3743659",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-12_C3743659.html"
+  },
+  "C3744210": {
+   "code": "C3744210",
+   "model": "LM2940SX-10",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.0923
+    ],
+    [
+     10,
+     2.0923
+    ],
+    [
+     12,
+     2.0923
+    ],
+    [
+     200,
+     0.8096
+    ],
+    [
+     500,
+     0.782
+    ],
+    [
+     1000,
+     0.7674
+    ]
+   ],
+   "p1": 2.0923,
+   "desc": "-40℃~+125℃ 1 10V 10mA 1A 1V@(1A) 26V 63dB@(120Hz) Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "63dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282030_Texas-Instruments-LM2940SX-10_C3744210.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX10/C3744210",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-10_C3744210.html"
+  },
+  "C3744247": {
+   "code": "C3744247",
+   "model": "LM2940IMP-15",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.7574
+    ],
+    [
+     10,
+     1.7574
+    ],
+    [
+     12,
+     1.7574
+    ],
+    [
+     200,
+     0.6812
+    ],
+    [
+     500,
+     0.6568
+    ],
+    [
+     1000,
+     0.6454
+    ]
+   ],
+   "p1": 1.7574,
+   "desc": "-40℃~+85℃ 1 10mA 15V 1A 1V@(1A) 26V Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "15V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220500_Texas-Instruments-LM2940IMP-15_C3744247.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP15/C3744247",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-15_C3744247.html"
+  },
+  "C3745651": {
+   "code": "C3745651",
+   "model": "LM2940J-8.0/883",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CDIP-16",
+   "prices": [
+    [
+     1,
+     14.9577
+    ],
+    [
+     10,
+     14.9577
+    ],
+    [
+     30,
+     14.9577
+    ],
+    [
+     200,
+     5.789
+    ],
+    [
+     500,
+     5.5858
+    ],
+    [
+     1000,
+     5.485
+    ]
+   ],
+   "p1": 14.9577,
+   "desc": "-55℃~+125℃@(Tj) 1 1A 1V@(1A) 26V 30mA 30uVrms 72dB@(120Hz) 8V Fixed Over Temperature Protection、Reverse connection protection、Short Circuit Protection Positive CDIP-16 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-55℃~+125℃@(Tj)",
+    "Noise": "30uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "8V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309250943_Texas-Instruments-LM2940J-8-0-883_C3745651.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940J_8_0883/C3745651",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940j-8-0-883_C3745651.html"
+  },
+  "C3745961": {
+   "code": "C3745961",
+   "model": "LM2940S-9.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.1868
+    ],
+    [
+     10,
+     1.1868
+    ],
+    [
+     30,
+     1.1868
+    ],
+    [
+     200,
+     0.4601
+    ],
+    [
+     500,
+     0.4439
+    ],
+    [
+     1000,
+     0.4357
+    ]
+   ],
+   "p1": 1.1868,
+   "desc": "-40℃~+125℃ 1 15mA 1A 1V@(1A) 26V 64dB@(120Hz) 9V Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "-40℃~+125℃",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309211315_Texas-Instruments-LM2940S-9-0_C3745961.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_90/C3745961",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-9-0_C3745961.html"
+  },
+  "C3746513": {
+   "code": "C3746513",
+   "model": "LM2940IMP-15-NS",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.4891
+    ],
+    [
+     10,
+     1.4891
+    ],
+    [
+     12,
+     1.4891
+    ],
+    [
+     200,
+     0.5772
+    ],
+    [
+     500,
+     0.556
+    ],
+    [
+     1000,
+     0.5463
+    ]
+   ],
+   "p1": 1.4891,
+   "desc": "-40℃~+85℃@(Ta) 1 15V 1A 1V@(1A) 26V 30mA 450uVrms 64dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "450uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "15V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309221259_Texas-Instruments-LM2940IMP-15-NS_C3746513.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_15NS/C3746513",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-15-ns_C3746513.html"
+  },
+  "C3746730": {
+   "code": "C3746730",
+   "model": "LM2940SX-12",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.0809
+    ],
+    [
+     10,
+     2.0809
+    ],
+    [
+     12,
+     2.0809
+    ],
+    [
+     200,
+     0.8064
+    ],
+    [
+     500,
+     0.7771
+    ],
+    [
+     1000,
+     0.7641
+    ]
+   ],
+   "p1": 2.0809,
+   "desc": "-40℃~+125℃ 1 10mA 12V 1A 1V@(1A) 26V 66dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220430_Texas-Instruments-LM2940SX-12_C3746730.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX12/C3746730",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-12_C3746730.html"
+  },
+  "C3746922": {
+   "code": "C3746922",
+   "model": "LM2940T-8.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     1.7574
+    ],
+    [
+     10,
+     1.7574
+    ],
+    [
+     30,
+     1.7574
+    ],
+    [
+     200,
+     0.6812
+    ],
+    [
+     500,
+     0.6568
+    ],
+    [
+     1000,
+     0.6454
+    ]
+   ],
+   "p1": 1.7574,
+   "desc": "-40℃~+125℃ 1 10mA 1A 1V@(1A) 26V 66dB@(120Hz) 8V Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "8V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940T-8-0_C3746922.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_80/C3746922",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-8-0_C3746922.html"
+  },
+  "C3747951": {
+   "code": "C3747951",
+   "model": "LM2940IMP-10",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     4.3958
+    ],
+    [
+     10,
+     3.7634
+    ],
+    [
+     30,
+     3.3879
+    ],
+    [
+     100,
+     3.0091
+    ],
+    [
+     500,
+     2.8336
+    ],
+    [
+     1000,
+     2.7539
+    ]
+   ],
+   "p1": 4.3958,
+   "desc": "-40℃~+85℃@(Ta) 1 10V 15mA 1A 1V@(1A) 26V 300uVrms 63dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "63dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "300uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402271810_Texas-Instruments-LM2940IMP-10_C3747951.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP10/C3747951",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-10_C3747951.html"
+  },
+  "C3748606": {
+   "code": "C3748606",
+   "model": "LM2940CT-12",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     1.7899
+    ],
+    [
+     10,
+     1.7899
+    ],
+    [
+     30,
+     1.7899
+    ],
+    [
+     200,
+     0.6926
+    ],
+    [
+     500,
+     0.6682
+    ],
+    [
+     1000,
+     0.6568
+    ]
+   ],
+   "p1": 1.7899,
+   "desc": "0℃~+125℃ 1 10mA 12V 1A 26V 66dB@(120Hz) 800mV@(1A) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940CT-12_C3748606.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT12/C3748606",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-12_C3748606.html"
+  },
+  "C3749693": {
+   "code": "C3749693",
+   "model": "LM2940LD-12-NS",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "WSON-8(4x4)",
+   "prices": [
+    [
+     1,
+     1.7801
+    ],
+    [
+     10,
+     1.7801
+    ],
+    [
+     12,
+     1.7801
+    ],
+    [
+     200,
+     0.6893
+    ],
+    [
+     500,
+     0.6649
+    ],
+    [
+     1000,
+     0.6536
+    ]
+   ],
+   "p1": 1.7801,
+   "desc": "-40℃~+125℃@(Ta) 1 1000uVrms 12V 1A 1V@(1A) 20mA 26V 66dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown Positive WSON-8(4x4) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "1000uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402291325_Texas-Instruments-LM2940LD-12-NS_C3749693.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940LD_12NS/C3749693",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ld-12-ns_C3749693.html"
+  },
+  "C3749857": {
+   "code": "C3749857",
+   "model": "LM2940SX-8.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.9771
+    ],
+    [
+     10,
+     0.9771
+    ],
+    [
+     12,
+     0.9771
+    ],
+    [
+     200,
+     0.3788
+    ],
+    [
+     500,
+     0.3658
+    ],
+    [
+     1000,
+     0.3593
+    ]
+   ],
+   "p1": 0.9771,
+   "desc": "-40℃~+125℃ 1 10mA 1A 1V@(1A) 26V 66dB@(120Hz) 8V Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "8V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_80/C3749857",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-8-0_C3749857.html"
+  },
+  "C3750441": {
+   "code": "C3750441",
+   "model": "LM2940CT-9.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.9088
+    ],
+    [
+     10,
+     0.9088
+    ],
+    [
+     30,
+     0.9088
+    ],
+    [
+     200,
+     0.3512
+    ],
+    [
+     500,
+     0.3398
+    ],
+    [
+     1000,
+     0.3333
+    ]
+   ],
+   "p1": 0.9088,
+   "desc": "0℃~+125℃ 1 10mA 1A 26V 64dB@(120Hz) 800mV@(1A) 9V Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Reverse Polarity Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Reverse Polarity Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "9V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402271810_Texas-Instruments-LM2940CT-9-0_C3750441.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT_90/C3750441",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-9-0_C3750441.html"
+  },
+  "C3750474": {
+   "code": "C3750474",
+   "model": "LM2940SX-10-NS",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "D2PAK(TO-263-3)",
+   "prices": [
+    [
+     1,
+     1.7688
+    ],
+    [
+     10,
+     1.7688
+    ],
+    [
+     12,
+     1.7688
+    ],
+    [
+     200,
+     0.6844
+    ],
+    [
+     500,
+     0.6617
+    ],
+    [
+     1000,
+     0.6487
+    ]
+   ],
+   "p1": 1.7688,
+   "desc": "-40℃~+125℃@(Ta) 1 10V 1A 1V@(1A) 26V 300uVrms 45mA 63dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive D2PAK(TO-263-3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "63dB@(120Hz)",
+    "standby current": "45mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "300uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402291325_Texas-Instruments-LM2940SX-10-NS_C3750474.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_10NS/C3750474",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-10-ns_C3750474.html"
+  },
+  "C3750508": {
+   "code": "C3750508",
+   "model": "LM2940CSX-5.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.0941
+    ],
+    [
+     10,
+     1.0941
+    ],
+    [
+     12,
+     1.0941
+    ],
+    [
+     200,
+     0.4243
+    ],
+    [
+     500,
+     0.4097
+    ],
+    [
+     1000,
+     0.4016
+    ]
+   ],
+   "p1": 1.0941,
+   "desc": "0℃~+125℃ 1 15mA 1A 1V@(1A) 26V 5V 72dB@(120Hz) Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "0℃~+125℃",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CSX_50/C3750508",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940csx-5-0_C3750508.html"
+  },
+  "C3750847": {
+   "code": "C3750847",
+   "model": "LM2940CT-15",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     1.7899
+    ],
+    [
+     10,
+     1.7899
+    ],
+    [
+     30,
+     1.7899
+    ],
+    [
+     200,
+     0.6926
+    ],
+    [
+     500,
+     0.6682
+    ],
+    [
+     1000,
+     0.6568
+    ]
+   ],
+   "p1": 1.7899,
+   "desc": "0℃~+125℃ 1 10mA 15V 1A 26V 66dB@(120Hz) 800mV@(1A) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "15V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940CT-15_C3750847.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT15/C3750847",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ct-15_C3750847.html"
+  },
+  "C3751336": {
+   "code": "C3751336",
+   "model": "LM2940LD-12",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "WSON-8(4x4)",
+   "prices": [
+    [
+     1,
+     2.0419
+    ],
+    [
+     10,
+     2.0419
+    ],
+    [
+     12,
+     2.0419
+    ],
+    [
+     200,
+     0.7901
+    ],
+    [
+     500,
+     0.7625
+    ],
+    [
+     1000,
+     0.7495
+    ]
+   ],
+   "p1": 2.0419,
+   "desc": "-40℃~+125℃ 1 10mA 12V 1A 1V@(1A) 26V 66dB@(120Hz) Fixed Over Current Protection、Overheat protection、Reverse connection protection Positive WSON-8(4x4) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Overheat protection、Reverse connection protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940LD-12_C3751336.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940LD12/C3751336",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940ld-12_C3751336.html"
+  },
+  "C3751377": {
+   "code": "C3751377",
+   "model": "LM2940T-9.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     2.128
+    ],
+    [
+     10,
+     2.128
+    ],
+    [
+     30,
+     2.128
+    ],
+    [
+     200,
+     0.8243
+    ],
+    [
+     500,
+     0.795
+    ],
+    [
+     1000,
+     0.7804
+    ]
+   ],
+   "p1": 2.128,
+   "desc": "-40℃~+125℃ 1 10mA 1A 1V@(1A) 26V 64dB@(120Hz) 9V Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "9V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940T-9-0_C3751377.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940T_90/C3751377",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940t-9-0_C3751377.html"
+  },
+  "C3752135": {
+   "code": "C3752135",
+   "model": "LM2940SX-5.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.0809
+    ],
+    [
+     10,
+     2.0809
+    ],
+    [
+     12,
+     2.0809
+    ],
+    [
+     200,
+     0.8064
+    ],
+    [
+     500,
+     0.7771
+    ],
+    [
+     1000,
+     0.7641
+    ]
+   ],
+   "p1": 2.0809,
+   "desc": "-40℃~+125℃ 1 10mA 1A 1V@(1A) 26V 5V 64dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、With enable、Short Circuit Protection、Under-voltage lockout、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940SX-5-0_C3752135.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_50/C3752135",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-5-0_C3752135.html"
+  },
+  "C3752289": {
+   "code": "C3752289",
+   "model": "LM2940S-10",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.341
+    ],
+    [
+     10,
+     2.341
+    ],
+    [
+     30,
+     2.341
+    ],
+    [
+     200,
+     0.9072
+    ],
+    [
+     500,
+     0.8747
+    ],
+    [
+     1000,
+     0.8584
+    ]
+   ],
+   "p1": 2.341,
+   "desc": "-40℃~+125℃ 1 10V 10mA 1A 1V@(1A) 26V 63dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "63dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220430_Texas-Instruments-LM2940S-10_C3752289.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S10/C3752289",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-10_C3752289.html"
+  },
+  "C3752675": {
+   "code": "C3752675",
+   "model": "LM2940CS-15",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.289
+    ],
+    [
+     10,
+     2.289
+    ],
+    [
+     30,
+     2.289
+    ],
+    [
+     200,
+     0.886
+    ],
+    [
+     500,
+     0.8551
+    ],
+    [
+     1000,
+     0.8405
+    ]
+   ],
+   "p1": 2.289,
+   "desc": "0℃~+125℃ 1 10mA 15V 1A 26V 64dB@(120Hz) 800mV@(1A) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "15V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220430_Texas-Instruments-LM2940CS-15_C3752675.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS15/C3752675",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-15_C3752675.html"
+  },
+  "C3752775": {
+   "code": "C3752775",
+   "model": "LM2940CS-5.0",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.289
+    ],
+    [
+     10,
+     2.289
+    ],
+    [
+     30,
+     2.289
+    ],
+    [
+     200,
+     0.886
+    ],
+    [
+     500,
+     0.8551
+    ],
+    [
+     1000,
+     0.8405
+    ]
+   ],
+   "p1": 2.289,
+   "desc": "0℃~+125℃ 1 10mA 1A 26V 5V 64dB@(120Hz) 800mV@(1A) Fixed Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "10mA",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Over Current Protection、Thermal Shutdown、ESD Protection、Enable、Short Circuit Protection、Under Voltage Lockout (UVLO)、Over Voltage Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-LM2940CS-5-0_C3752775.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_50/C3752775",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-5-0_C3752775.html"
+  },
+  "C5145297": {
+   "code": "C5145297",
+   "model": "LM2940IT-5.0G",
+   "brand": "HANSCHIP semiconductor",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.3624
+    ],
+    [
+     50,
+     0.2845
+    ],
+    [
+     150,
+     0.2512
+    ],
+    [
+     500,
+     0.2096
+    ],
+    [
+     2500,
+     0.1911
+    ],
+    [
+     5000,
+     0.18
+    ]
+   ],
+   "p1": 0.3624,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 1A 1V@(1A) 20mA 26V 5V Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection、Over Voltage Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307181754_HANSCHIP-semiconductor-LM2940IT-5-0G_C5145297.pdf",
+   "url": "https://jlcpcb.com/partdetail/HANSCHIPsemiconductor-LM2940IT_50G/C5145297",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hanschip-semiconductor-lm2940it-5-0g_C5145297.html"
+  },
+  "C9900182684": {
+   "code": "C9900182684",
+   "model": "LM2940",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-223-3 SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-LM2940/C9900182684",
+   "lcsc_url": null
+  },
+  "C9900176753": {
+   "code": "C9900176753",
+   "model": "LM2940-3.3",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "TO-220 SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-LM2940_33/C9900176753",
+   "lcsc_url": null
+  },
+  "C48785752": {
+   "code": "C48785752",
+   "model": "LM2940R-5.0",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 256,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3L",
+   "prices": [
+    [
+     1,
+     0.73
+    ],
+    [
+     10,
+     0.5885
+    ],
+    [
+     30,
+     0.517
+    ],
+    [
+     100,
+     0.4471
+    ],
+    [
+     500,
+     0.4048
+    ],
+    [
+     800,
+     0.3821
+    ]
+   ],
+   "p1": 0.73,
+   "desc": "-40℃~+85℃ 250uA 26V 400mV@(1A) 5V Fixed Over Current Protection、Thermal shutdown、Reverse polarity voltage protection Positive TO-263-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "250uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "400mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940R_50/C48785752",
+   "lcsc_url": null
+  },
+  "C9900008239": {
+   "code": "C9900008239",
+   "model": "LM2940-5.0V",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.0007
+    ],
+    [
+     1000,
+     0.0003
+    ]
+   ],
+   "p1": 0.0007,
+   "desc": "TO-220 SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-LM2940_50V/C9900008239",
+   "lcsc_url": null
+  },
+  "C42387944": {
+   "code": "C42387944",
+   "model": "LM2940CT-12",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "TO-220 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CT12/C42387944",
+   "lcsc_url": null
+  },
+  "C39618946": {
+   "code": "C39618946",
+   "model": "LM2940HT-3.3",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 68,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3L",
+   "prices": [
+    [
+     1,
+     1.1266
+    ],
+    [
+     10,
+     0.9315
+    ],
+    [
+     50,
+     0.8243
+    ],
+    [
+     100,
+     0.704
+    ],
+    [
+     500,
+     0.6503
+    ],
+    [
+     1000,
+     0.6259
+    ]
+   ],
+   "p1": 1.1266,
+   "desc": "TO-220-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "300uA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "400mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940HT_33/C39618946",
+   "lcsc_url": null
+  },
+  "C48705240": {
+   "code": "C48705240",
+   "model": "LM2940HR-5.0",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 65,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3L",
+   "prices": [
+    [
+     1,
+     0.6666
+    ],
+    [
+     10,
+     0.6519
+    ],
+    [
+     30,
+     0.6406
+    ],
+    [
+     100,
+     0.6308
+    ],
+    [
+     102,
+     0.6308
+    ],
+    [
+     104,
+     0.6308
+    ]
+   ],
+   "p1": 0.6666,
+   "desc": "TO-263-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "300uA",
+    "Noise": "150uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "400mV@(1A)",
+    "Number of Outputs": "-"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940HR_50/C48705240",
+   "lcsc_url": null
+  },
+  "C9900040825": {
+   "code": "C9900040825",
+   "model": "LM2940CS-3.3",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-223-3 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-LM2940CS_33/C9900040825",
+   "lcsc_url": null
+  },
+  "C23409046": {
+   "code": "C23409046",
+   "model": "LM2940HS-5.0",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3L",
+   "prices": [
+    [
+     1,
+     1.008
+    ],
+    [
+     10,
+     1.008
+    ],
+    [
+     12,
+     1.008
+    ],
+    [
+     200,
+     0.4032
+    ],
+    [
+     500,
+     0.3886
+    ],
+    [
+     1000,
+     0.3821
+    ]
+   ],
+   "p1": 1.008,
+   "desc": "SOT-223-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2940HS_50/C23409046",
+   "lcsc_url": null
+  },
+  "C9900173453": {
+   "code": "C9900173453",
+   "model": "LM2940IMP-8.0",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT223",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT223 SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-LM2940IMP_80/C9900173453",
+   "lcsc_url": null
+  },
+  "C49006632": {
+   "code": "C49006632",
+   "model": "LM2940IMPX-5.0/NOPB-HXY",
+   "brand": "HXY MOSFET",
+   "stock": 1015,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223",
+   "prices": [
+    [
+     1,
+     1.0128
+    ],
+    [
+     10,
+     0.8194
+    ],
+    [
+     30,
+     0.7235
+    ],
+    [
+     100,
+     0.6276
+    ],
+    [
+     500,
+     0.5707
+    ],
+    [
+     1000,
+     0.5398
+    ]
+   ],
+   "p1": 1.0128,
+   "desc": "-15℃~+125℃ 0.003%Vout 1 15mA 1A 2.5V@(1A) 35V 5V 75dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "75dB@(120Hz)",
+    "Operating Temperature": "-15℃~+125℃",
+    "standby current": "15mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "2.5V@(1A)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-LM2940IMPX_5_0_NOPBHXY/C49006632",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-lm2940impx-5-0-nopb-hxy_C49006632.html"
+  }
+ }
+}

@@ -1,0 +1,722 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:52 Pacific Daylight Time",
+ "res": {
+  "C81826": {
+   "code": "C81826",
+   "model": "ME6203A33PG",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 5051,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.103
+    ],
+    [
+     50,
+     0.0804
+    ],
+    [
+     150,
+     0.0691
+    ],
+    [
+     1000,
+     0.0607
+    ],
+    [
+     2000,
+     0.0539
+    ],
+    [
+     5000,
+     0.0504
+    ]
+   ],
+   "p1": 0.103,
+   "desc": "0℃~+100℃ 1 100mA 13uA 3.3V 30V 40dB@(1kHz) Fixed Over Current Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "40dB@(1kHz)",
+    "standby current": "13uA",
+    "Operating Temperature": "0℃~+100℃",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_MICRONE-Nanjing-Micro-One-Elec-ME6203A33PG_C81826.pdf",
+   "url": "https://jlcpcb.com/partdetail/82980-ME6203A33PG/C81826",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a33pg_C81826.html"
+  },
+  "C87842": {
+   "code": "C87842",
+   "model": "ME6203A33M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 16419,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0916
+    ],
+    [
+     50,
+     0.0739
+    ],
+    [
+     150,
+     0.0649
+    ],
+    [
+     500,
+     0.0582
+    ],
+    [
+     3000,
+     0.0508
+    ],
+    [
+     6000,
+     0.0482
+    ]
+   ],
+   "p1": 0.0916,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 3.3V 3uA 40V Fixed Positive Short Circuit Protection SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "1.1V@(50mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_MICRONE-Nanjing-Micro-One-Elec-ME6203A33M3G_C87842.pdf",
+   "url": "https://jlcpcb.com/partdetail/89020-ME6203A33M3G/C87842",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a33m3g_C87842.html"
+  },
+  "C92717": {
+   "code": "C92717",
+   "model": "ME6203A50M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 6302,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0904
+    ],
+    [
+     50,
+     0.0724
+    ],
+    [
+     150,
+     0.0635
+    ],
+    [
+     500,
+     0.0568
+    ],
+    [
+     3000,
+     0.0513
+    ],
+    [
+     6000,
+     0.0487
+    ]
+   ],
+   "p1": 0.0904,
+   "desc": "-45℃~+150℃ 1 130mV@(10mA)、680mV@(50mA) 150mA 3.3uA 40V 5V Fixed Positive Short Circuit Protection SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-45℃~+150℃",
+    "standby current": "3.3uA",
+    "Noise": "-",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "130mV@(10mA)、680mV@(50mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201512_MICRONE-Nanjing-Micro-One-Elec-ME6203A50M3G_C92717.pdf",
+   "url": "https://jlcpcb.com/partdetail/93910-ME6203A50M3G/C92717",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a50m3g_C92717.html"
+  },
+  "C94056": {
+   "code": "C94056",
+   "model": "ME6203A50PG",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 8942,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0955
+    ],
+    [
+     50,
+     0.0745
+    ],
+    [
+     150,
+     0.0639
+    ],
+    [
+     1000,
+     0.0561
+    ],
+    [
+     2000,
+     0.05
+    ],
+    [
+     5000,
+     0.0467
+    ]
+   ],
+   "p1": 0.0955,
+   "desc": "0℃~+100℃ 1 100mA 15uA 30V 40dB@(1kHz) 5V Fixed Over Current Protection Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "40dB@(1kHz)",
+    "standby current": "15uA",
+    "Operating Temperature": "0℃~+100℃",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201512_MICRONE-Nanjing-Micro-One-Elec-ME6203A50PG_C94056.pdf",
+   "url": "https://jlcpcb.com/partdetail/95254-ME6203A50PG/C94056",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a50pg_C94056.html"
+  },
+  "C128594": {
+   "code": "C128594",
+   "model": "ME6203A44PG",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 295,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0877
+    ],
+    [
+     50,
+     0.0693
+    ],
+    [
+     150,
+     0.0602
+    ],
+    [
+     1000,
+     0.0532
+    ],
+    [
+     2000,
+     0.0478
+    ],
+    [
+     5000,
+     0.0451
+    ]
+   ],
+   "p1": 0.0877,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 3uA 4.4V 40V 820mV@(50mA) Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "4.4V",
+    "Voltage Dropout": "820mV@(50mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291521_MICRONE-Nanjing-Micro-One-Elec-ME6203A44PG_C128594.pdf",
+   "url": "https://jlcpcb.com/partdetail/139879-ME6203A44PG/C128594",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a44pg_C128594.html"
+  },
+  "C236712": {
+   "code": "C236712",
+   "model": "ME6203A44M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.1034
+    ],
+    [
+     50,
+     0.0818
+    ],
+    [
+     150,
+     0.0709
+    ],
+    [
+     500,
+     0.0628
+    ],
+    [
+     3000,
+     0.0563
+    ],
+    [
+     6000,
+     0.053
+    ]
+   ],
+   "p1": 0.1034,
+   "desc": "-45℃~+150℃@(Tj) 1 100mA 3uA 4.4V 40V 820mV@(50mA) Fixed Over Current Protection、Short Circuit Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-45℃~+150℃@(Tj)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Voltage Dropout": "820mV@(50mA)",
+    "Output Voltage": "4.4V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809041040_MICRONE-Nanjing-Micro-One-Elec-ME6203A44M3G_C236712.pdf",
+   "url": "https://jlcpcb.com/partdetail/236152-ME6203A44M3G/C236712",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a44m3g_C236712.html"
+  },
+  "C236713": {
+   "code": "C236713",
+   "model": "ME6203A30PG",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 7035,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0852
+    ],
+    [
+     50,
+     0.0669
+    ],
+    [
+     150,
+     0.0578
+    ],
+    [
+     1000,
+     0.0509
+    ],
+    [
+     2000,
+     0.0454
+    ],
+    [
+     5000,
+     0.0426
+    ]
+   ],
+   "p1": 0.0852,
+   "desc": "-45℃~+150℃@(Tj) 1 100mA 2.5V@(100mA) 3V 3uA 40V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-45℃~+150℃@(Tj)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "2.5V@(100mA)",
+    "Output Voltage": "3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809141111_MICRONE-Nanjing-Micro-One-Elec-ME6203A30PG_C236713.pdf",
+   "url": "https://jlcpcb.com/partdetail/236153-ME6203A30PG/C236713",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a30pg_C236713.html"
+  },
+  "C427592": {
+   "code": "C427592",
+   "model": "ME6203A30M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 2677,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.1057
+    ],
+    [
+     50,
+     0.0847
+    ],
+    [
+     150,
+     0.0742
+    ],
+    [
+     500,
+     0.0662
+    ],
+    [
+     3000,
+     0.0548
+    ],
+    [
+     6000,
+     0.0516
+    ]
+   ],
+   "p1": 0.1057,
+   "desc": "-45℃~+150℃@(Tj) 1 1.2V@(50mA) 100mA 3V 3uA 40V Fixed Positive Short Circuit Protection SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-45℃~+150℃@(Tj)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "1.2V@(50mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_MICRONE-Nanjing-Micro-One-Elec-ME6203A30M3G_C427592.pdf",
+   "url": "https://jlcpcb.com/partdetail/421832-ME6203A30M3G/C427592",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a30m3g_C427592.html"
+  },
+  "C2681672": {
+   "code": "C2681672",
+   "model": "ME6203A36M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 707,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0995
+    ],
+    [
+     50,
+     0.0792
+    ],
+    [
+     150,
+     0.0691
+    ],
+    [
+     500,
+     0.0615
+    ],
+    [
+     3000,
+     0.0529
+    ],
+    [
+     6000,
+     0.0498
+    ]
+   ],
+   "p1": 0.0995,
+   "desc": "-25℃~+85℃ 1 100mA 3.6V 3uA 40V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+85℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204251630_MICRONE-Nanjing-Micro-One-Elec-ME6203A36M3G_C2681672.pdf",
+   "url": "https://jlcpcb.com/partdetail/2775111-ME6203A36M3G/C2681672",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a36m3g_C2681672.html"
+  },
+  "C2681674": {
+   "code": "C2681674",
+   "model": "ME6203A25M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 25,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0808
+    ],
+    [
+     50,
+     0.0789
+    ],
+    [
+     150,
+     0.0776
+    ],
+    [
+     500,
+     0.0765
+    ],
+    [
+     510,
+     0.0765
+    ],
+    [
+     520,
+     0.0765
+    ]
+   ],
+   "p1": 0.0808,
+   "desc": "-40℃~+85℃ 1 100mA 2.5V 40V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "2.5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/2775113-ME6203A25M3G/C2681674",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a25m3g_C2681674.html"
+  },
+  "C2683408": {
+   "code": "C2683408",
+   "model": "ME6203A100PG",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 1727,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1208
+    ],
+    [
+     50,
+     0.0955
+    ],
+    [
+     150,
+     0.0828
+    ],
+    [
+     1000,
+     0.0734
+    ],
+    [
+     2000,
+     0.0657
+    ],
+    [
+     5000,
+     0.062
+    ]
+   ],
+   "p1": 0.1208,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5V@(100mA) 100mA 10V 40V 5uA Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "1.5V@(100mA)",
+    "Output Voltage": "10V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_MICRONE-Nanjing-Micro-One-Elec-ME6203A100PG_C2683408.pdf",
+   "url": "https://jlcpcb.com/partdetail/2779745-ME6203A100PG/C2683408",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a100pg_C2683408.html"
+  },
+  "C484411": {
+   "code": "C484411",
+   "model": "ME6203A36PG",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1207
+    ],
+    [
+     10,
+     0.0973
+    ],
+    [
+     30,
+     0.0856
+    ],
+    [
+     100,
+     0.0768
+    ],
+    [
+     500,
+     0.0698
+    ],
+    [
+     1000,
+     0.0664
+    ],
+    [
+     2000,
+     0.0656
+    ],
+    [
+     4000,
+     0.0651
+    ]
+   ],
+   "p1": 0.1207,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 1V@(50mA) 3.6V 3uA 40V Fixed Over Current Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "3uA",
+    "Voltage - Supply": "40V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "1V@(50mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2001131032_MICRONE-Nanjing-Micro-One-Elec-ME6203A36PG_C484411.pdf",
+   "url": "https://jlcpcb.com/partdetail/492560-ME6203A36PG/C484411",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a36pg_C484411.html"
+  },
+  "C2683409": {
+   "code": "C2683409",
+   "model": "ME6203A100M3G",
+   "brand": "MICRONE(Nanjing Micro One Elec)",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT23-3",
+   "prices": [
+    [
+     1,
+     0.0701
+    ],
+    [
+     100,
+     0.0555
+    ],
+    [
+     300,
+     0.048
+    ],
+    [
+     3000,
+     0.0426
+    ],
+    [
+     6000,
+     0.0383
+    ],
+    [
+     9000,
+     0.036
+    ]
+   ],
+   "p1": 0.0701,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 10V 40V 450mV@(50mA) 5uA Fixed Positive Short Circuit Protection SOT23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "450mV@(50mA)",
+    "Output Voltage": "10V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2101211836_MICRONE-Nanjing-Micro-One-Elec-ME6203A100M3G_C2683409.pdf",
+   "url": "https://jlcpcb.com/partdetail/2779746-ME6203A100M3G/C2683409",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microne-nanjing-micro-one-elec-me6203a100m3g_C2683409.html"
+  }
+ }
+}

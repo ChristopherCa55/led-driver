@@ -1,0 +1,62 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\D_lm2940_ramp_R50m.net
+Start Time: Thu Oct  1 15:52:18 2026
+Options:gmin=100f reltol=0.001
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-13
+C69: Increased Cpar to 6.8e-10
+C86: Increased Cpar to 2.2e-10
+C40: Increased Cpar to 6.8e-10
+C70: Increased Cpar to 2.2e-10
+C71: Increased Cpar to 2.2e-10
+C78: Increased Cpar to 2.2e-10
+C74: Increased Cpar to 2.2e-10
+C85: Increased Cpar to 6.8e-10
+C77: Increased Cpar to 2.2e-10
+C87: Increased Cpar to 2.2e-10
+C75: Increased Cpar to 2.2e-10
+C88: Increased Cpar to 2.2e-10
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 340.508 seconds.
+
+Files loaded:
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\D_lm2940_ramp_R50m.net
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\TLV9001.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\MCP6561.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\CD4000_v.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\HYG180N10.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\INA241A4.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\L78L05.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\LM2940_12.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\CD74HC4066.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\74HC4051.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\MCP4451.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\CSS4J.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\TVS_5p0SMDJ.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\UCC21520.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\mc7812_lowbatt_2026-10-01\sim\MC7812.lib
+
+v12min: MIN(V(12V) )=10.258307457 FROM 0.005 TO 0.04
+lxmax: MAX(V(lx))=82.075553894 FROM 0 TO 0.04
+lxafter8: MAX(V(lx) )=60.9627456665 FROM 0.008 TO 0.04
+etvs: INTEG(-1)*V(LX)*I(D19)=0.0093587853175 FROM 0 TO 0.04
+tcut1: V(M1_INHIBIT)=2.5  AT 5.63362787878e-09
+tcut2: V(M1_INHIBIT)=2.5  AT 0.000133476358178
+tcut3: V(M1_INHIBIT)=2.5  AT 0.000459492452468
+tcut4: V(M1_INHIBIT)=2.5  AT 0.000497397999858
+tcut5: V(M1_INHIBIT)=2.5  AT 0.000634884502759
+trel1: V(M1_INHIBIT)=2.5  AT 9.80866758014e-09
+trel2: V(M1_INHIBIT)=2.5  AT 0.000426860763189
+voccut1: V(PBAT) =13 at 5.63362787878e-09
+vincut1: V(vin) =5.60055289007e-06 at 5.63362787878e-09
+v12cut1: V(12V) =-1.12656489072e-05 at 5.63362787878e-09
+iled1_10: AVG(I(SIM_LED1) )=2.63482449584 FROM 0.006 TO 0.008
+vdda2min: MIN(V(N019)-V(m2_source) )=9.04386788607 FROM 0.005 TO 0.04
+vdda3min: MIN(V(N032)-V(m3_source) )=9.07511007786 FROM 0.005 TO 0.04
+vdda4min: MIN(V(N040)-V(m4_source) )=9.06267726421 FROM 0.005 TO 0.04

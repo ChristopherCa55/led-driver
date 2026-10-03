@@ -1,0 +1,1883 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 00:03 Pacific Daylight Time",
+ "res": {
+  "C5586": {
+   "code": "C5586",
+   "model": "74HC00D,653",
+   "brand": "Nexperia",
+   "stock": 8589,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1546
+    ],
+    [
+     50,
+     0.1189
+    ],
+    [
+     150,
+     0.1013
+    ],
+    [
+     500,
+     0.0857
+    ],
+    [
+     2500,
+     0.0813
+    ],
+    [
+     5000,
+     0.0787
+    ]
+   ],
+   "p1": 0.1546,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 1.9V、3.7V、5.9V 100mV、400mV、400mV 2 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、400mV、400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.7V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC00D-653_C5586.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00D653/C5586",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-653_C5586.html"
+  },
+  "C10090": {
+   "code": "C10090",
+   "model": "SN74HC00DR",
+   "brand": "Texas Instruments",
+   "stock": 91198,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1244
+    ],
+    [
+     50,
+     0.0989
+    ],
+    [
+     150,
+     0.0862
+    ],
+    [
+     500,
+     0.0768
+    ],
+    [
+     2500,
+     0.0615
+    ],
+    [
+     5000,
+     0.0576
+    ]
+   ],
+   "p1": 0.1244,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 1.9V、4.4V、5.9V 100mV、400mV、400mV 15ns@6V,50pF 2 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 74HC Series NAND Gate SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、400mV、400mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011015_Texas-Instruments-SN74HC00DR_C10090.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DR/C10090",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00dr_C10090.html"
+  },
+  "C546476": {
+   "code": "C546476",
+   "model": "74HC00D-Q100,118",
+   "brand": "Nexperia",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1158
+    ],
+    [
+     50,
+     0.1135
+    ],
+    [
+     150,
+     0.1119
+    ],
+    [
+     500,
+     0.1052
+    ],
+    [
+     510,
+     0.1052
+    ],
+    [
+     520,
+     0.1052
+    ]
+   ],
+   "p1": 0.1158,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 2 2V~6V 4 400mV 40uA 5.2V、5.9V 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "5.2V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241036_Nexperia-74HC00D-Q100-118_C546476.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00D_Q100118/C546476",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-q100-118_C546476.html"
+  },
+  "C609793": {
+   "code": "C609793",
+   "model": "XL74LS00",
+   "brand": "XINLUDA",
+   "stock": 1257,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1846
+    ],
+    [
+     50,
+     0.1441
+    ],
+    [
+     150,
+     0.1267
+    ],
+    [
+     500,
+     0.1051
+    ],
+    [
+     2500,
+     0.0953
+    ],
+    [
+     5000,
+     0.0895
+    ]
+   ],
+   "p1": 0.1846,
+   "desc": "0℃~+70℃ 2 2.7V 25ns@5V,15pF 2V 4 4.75V~5.25V 400mV、500mV 400uA 74LS 800mV 8mA NAND Gate SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "400mV、500mV",
+    "Operating Temperature": "0℃~+70℃",
+    "Propagation Delay": "25ns@5V,15pF",
+    "Output Logic Level - High": "2.7V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "400uA",
+    "Input Logic Level - Low": "800mV",
+    "Series": "74LS",
+    "Input Logic Level - High": "2V",
+    "Voltage - Supply": "4.75V~5.25V",
+    "Number of Gates": "4",
+    "Quiescent Current": "-",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "8mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2403121621_XINLUDA-XL74LS00_C609793.pdf",
+   "url": "https://jlcpcb.com/partdetail/XINLUDA-XL74LS00/C609793",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_xinluda-xl74ls00_C609793.html"
+  },
+  "C699445": {
+   "code": "C699445",
+   "model": "74HC00D",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 2234,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.3014
+    ],
+    [
+     50,
+     0.2337
+    ],
+    [
+     150,
+     0.2046
+    ],
+    [
+     500,
+     0.1684
+    ],
+    [
+     2500,
+     0.1522
+    ],
+    [
+     5000,
+     0.1426
+    ]
+   ],
+   "p1": 0.3014,
+   "desc": "-40℃~+85℃ 1.5V、3.15V、4.2V 1.9V、3.84V、5.34V 100mV、330mV 2 2V~6V 4 4mA 500mV、1.35V、1.8V 74HC NAND Gate SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、330mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "20ns@6V,50pF、23ns@4.5V,50pF、115ns@2V,50pF",
+    "Output Logic Level - High": "1.9V、3.84V、5.34V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "4mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2007301108_HTC-Korea-TAEJIN-Tech-74HC00D_C699445.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-74HC00D/C699445",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_htc-korea-taejin-tech-74hc00d_C699445.html"
+  },
+  "C2682060": {
+   "code": "C2682060",
+   "model": "SN74HC00DBR",
+   "brand": "Texas Instruments",
+   "stock": 357,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14-208mil",
+   "prices": [
+    [
+     1,
+     0.2964
+    ],
+    [
+     50,
+     0.2406
+    ],
+    [
+     150,
+     0.2135
+    ],
+    [
+     500,
+     0.1893
+    ],
+    [
+     2000,
+     0.1826
+    ],
+    [
+     4000,
+     0.1785
+    ]
+   ],
+   "p1": 0.2964,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 15ns@6V,50pF 1mV~100mV、150mV~260mV 2 2V~6V 2uA 4 5.2mA 5.2mA 5.48V~5.8V、5.9V~5.99V 500mV~1.8V 74HC Series NAND Gate Push-pull StandardCMOS SSOP-14-208mil Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "1mV~100mV、150mV~260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Output Logic Level - High": "5.48V~5.8V、5.9V~5.99V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303011100_Texas-Instruments-SN74HC00DBR_C2682060.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DBR/C2682060",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00dbr_C2682060.html"
+  },
+  "C5145449": {
+   "code": "C5145449",
+   "model": "74HC00DRG",
+   "brand": "HANSCHIP semiconductor",
+   "stock": 2538,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1067
+    ],
+    [
+     50,
+     0.0857
+    ],
+    [
+     150,
+     0.0752
+    ],
+    [
+     500,
+     0.0672
+    ],
+    [
+     2500,
+     0.0548
+    ],
+    [
+     5000,
+     0.0516
+    ]
+   ],
+   "p1": 0.1067,
+   "desc": "-40℃~+85℃ 0V、150mV、160mV 2 2.8V 20uA 23ns@4.5V,50pF 2V~6V 2V、4.32V、4.5V、5.81V、6V 3.2V 4 74HC Series NAND Gate SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "0V、150mV、160mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "23ns@4.5V,50pF",
+    "Output Logic Level - High": "2V、4.32V、4.5V、5.81V、6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "2.8V",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "3.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "20uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210241800_HANSCHIP-semiconductor-74HC00DRG_C5145449.pdf",
+   "url": "https://jlcpcb.com/partdetail/HANSCHIPsemiconductor-74HC00DRG/C5145449",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_hanschip-semiconductor-74hc00drg_C5145449.html"
+  },
+  "C546473": {
+   "code": "C546473",
+   "model": "74HC00D,652",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.2145
+    ],
+    [
+     190,
+     0.1704
+    ],
+    [
+     570,
+     0.1516
+    ],
+    [
+     1900,
+     0.128
+    ],
+    [
+     9500,
+     0.1176
+    ],
+    [
+     19000,
+     0.1112
+    ]
+   ],
+   "p1": 0.2145,
+   "desc": "-40℃~+125℃ 1.2V~1.5V、2.4V~3.15V、3.2V~4.2V 1.9V、4.4V、5.9V 100mV、330mV、400mV 2 27ns@4.5V,50pF 2V~6V 4 40uA 5.2mA 5.2mA 74HC 800mV、2.1V、2.8V NAND Gate StandardCMOS SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、330mV、400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "27ns@4.5V,50pF",
+    "Output Logic Level - High": "1.9V、4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "800mV、2.1V、2.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.2V~1.5V、2.4V~3.15V、3.2V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-74HC00D-652_C546473.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00D652/C546473",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-652_C546473.html"
+  },
+  "C546474": {
+   "code": "C546474",
+   "model": "74HC00DB,112",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14-5.3mm",
+   "prices": [
+    [
+     1,
+     0.5885
+    ],
+    [
+     10,
+     0.4764
+    ],
+    [
+     30,
+     0.4195
+    ],
+    [
+     100,
+     0.3642
+    ],
+    [
+     500,
+     0.3301
+    ],
+    [
+     1092,
+     0.3138
+    ]
+   ],
+   "p1": 0.5885,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 1.9V、3.7V、5.2V 100mV、400mV、400mV 2 23ns@6V,50pF 2V~6V 4 40uA 4mA 5.2mA 500mV、1.35V、1.8V 74HC NAND Gate Overvoltage-tolerant input StandardCMOS SSOP-14-5.3mm Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、400mV、400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "23ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.7V、5.2V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "4mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-74HC00DB-112_C546474.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DB112/C546474",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00db-112_C546474.html"
+  },
+  "C2863043": {
+   "code": "C2863043",
+   "model": "SN74HC00DT",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.6389
+    ],
+    [
+     10,
+     0.6389
+    ],
+    [
+     12,
+     0.6389
+    ],
+    [
+     250,
+     0.2488
+    ],
+    [
+     500,
+     0.239
+    ],
+    [
+     1000,
+     0.2358
+    ]
+   ],
+   "p1": 0.6389,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 1.9V、4.4V、5.9V 15ns@6V,50pF 2 260mV 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 74HC Series NAND Gate Push-pull StandardCMOS SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220800_Texas-Instruments-SN74HC00DT_C2863043.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DT/C2863043",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00dt_C2863043.html"
+  },
+  "C2869001": {
+   "code": "C2869001",
+   "model": "SN74HC00D",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1485
+    ],
+    [
+     50,
+     0.1156
+    ],
+    [
+     150,
+     0.1017
+    ],
+    [
+     500,
+     0.0841
+    ],
+    [
+     2500,
+     0.0763
+    ],
+    [
+     5000,
+     0.0716
+    ]
+   ],
+   "p1": 0.1485,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 15ns@6V,50pF 1mV~100mV、150mV~260mV 2 2V~6V 2uA 4 5.2mA 5.2mA 5.48V~5.8V、5.9V~5.99V 500mV~1.8V 74HC Series NAND Gate Push-pull StandardCMOS SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "1mV~100mV、150mV~260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Output Logic Level - High": "5.48V~5.8V、5.9V~5.99V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2303010430_Texas-Instruments-SN74HC00D_C2869001.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00D/C2869001",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00d_C2869001.html"
+  },
+  "C4468660": {
+   "code": "C4468660",
+   "model": "SN74HC00DG4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.6747
+    ],
+    [
+     10,
+     0.6747
+    ],
+    [
+     30,
+     0.6747
+    ],
+    [
+     200,
+     0.2618
+    ],
+    [
+     500,
+     0.252
+    ],
+    [
+     1000,
+     0.2471
+    ]
+   ],
+   "p1": 0.6747,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 15ns@6V,50pF 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 74HC Series NAND Gate SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Series": "74HC Series",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Number of Channels": "4",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current": "2uA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281830_Texas-Instruments-SN74HC00DG4_C4468660.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DG4/C4468660",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00dg4_C4468660.html"
+  },
+  "C4469496": {
+   "code": "C4469496",
+   "model": "74HC00D/C4118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.093
+    ],
+    [
+     10,
+     0.093
+    ],
+    [
+     30,
+     0.093
+    ],
+    [
+     200,
+     0.0361
+    ],
+    [
+     500,
+     0.0348
+    ],
+    [
+     1000,
+     0.0342
+    ]
+   ],
+   "p1": 0.093,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SO-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308111128_Nexperia-74HC00D-C4118_C4469496.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DC4118/C4469496",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-c4118_C4469496.html"
+  },
+  "C4469757": {
+   "code": "C4469757",
+   "model": "74HC00D/AU118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.093
+    ],
+    [
+     100,
+     0.093
+    ],
+    [
+     120,
+     0.093
+    ],
+    [
+     2000,
+     0.0361
+    ],
+    [
+     5000,
+     0.0348
+    ],
+    [
+     10000,
+     0.0342
+    ]
+   ],
+   "p1": 0.093,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 20uA 2V~6V 4 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SO-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "0V、150mV、160mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "2V、4.32V、4.5V、5.81V、6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "20uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308111129_Nexperia-74HC00D-AU118_C4469757.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DAU118/C4469757",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-au118_C4469757.html"
+  },
+  "C4470185": {
+   "code": "C4470185",
+   "model": "SN74HC00DB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14",
+   "prices": [
+    [
+     1,
+     0.3606
+    ],
+    [
+     10,
+     0.3606
+    ],
+    [
+     30,
+     0.3606
+    ],
+    [
+     200,
+     0.1395
+    ],
+    [
+     500,
+     0.1347
+    ],
+    [
+     1000,
+     0.1322
+    ]
+   ],
+   "p1": 0.3606,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 15ns@6V,50pF 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 74HC Series NAND Gate SSOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Series": "74HC Series",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Number of Channels": "4",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current": "2uA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DB/C4470185",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00db_C4470185.html"
+  },
+  "C4471305": {
+   "code": "C4471305",
+   "model": "74HC00D/C1118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.093
+    ],
+    [
+     100,
+     0.093
+    ],
+    [
+     120,
+     0.093
+    ],
+    [
+     2000,
+     0.0361
+    ],
+    [
+     5000,
+     0.0348
+    ],
+    [
+     10000,
+     0.0342
+    ]
+   ],
+   "p1": 0.093,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 2 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate StandardCMOS SO-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DC1118/C4471305",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-c1118_C4471305.html"
+  },
+  "C4471506": {
+   "code": "C4471506",
+   "model": "74HC00D/C118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.093
+    ],
+    [
+     10,
+     0.093
+    ],
+    [
+     12,
+     0.093
+    ],
+    [
+     200,
+     0.0361
+    ],
+    [
+     500,
+     0.0348
+    ],
+    [
+     1000,
+     0.0342
+    ]
+   ],
+   "p1": 0.093,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SO-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308110929_Nexperia-74HC00D-C118_C4471506.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DC118/C4471506",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-c118_C4471506.html"
+  },
+  "C4471859": {
+   "code": "C4471859",
+   "model": "SN74HC00DE4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.6747
+    ],
+    [
+     10,
+     0.6747
+    ],
+    [
+     30,
+     0.6747
+    ],
+    [
+     200,
+     0.2618
+    ],
+    [
+     500,
+     0.252
+    ],
+    [
+     1000,
+     0.2471
+    ]
+   ],
+   "p1": 0.6747,
+   "desc": "-40℃~+85℃ 15ns@6V,50pF 2V~6V 2uA 4 5.2mA 5.2mA 74HC Series NAND Gate SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Series": "74HC Series",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "15ns@6V,50pF",
+    "Number of Channels": "4",
+    "Voltage - Supply": "2V~6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current": "2uA",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281801_Texas-Instruments-SN74HC00DE4_C4471859.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DE4/C4471859",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00de4_C4471859.html"
+  },
+  "C4471897": {
+   "code": "C4471897",
+   "model": "74HC00D/S400118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.093
+    ],
+    [
+     10,
+     0.093
+    ],
+    [
+     30,
+     0.093
+    ],
+    [
+     200,
+     0.0361
+    ],
+    [
+     500,
+     0.0348
+    ],
+    [
+     1000,
+     0.0342
+    ]
+   ],
+   "p1": 0.093,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SO-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Series": "74HC Series",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Number of Channels": "4",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current": "40uA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DS400118/C4471897",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-s400118_C4471897.html"
+  },
+  "C4472230": {
+   "code": "C4472230",
+   "model": "74HC00D118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.093
+    ],
+    [
+     100,
+     0.093
+    ],
+    [
+     120,
+     0.093
+    ],
+    [
+     2000,
+     0.0361
+    ],
+    [
+     5000,
+     0.0348
+    ],
+    [
+     10000,
+     0.0342
+    ]
+   ],
+   "p1": 0.093,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 2 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SO-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00D118/C4472230",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d118_C4472230.html"
+  },
+  "C22420827": {
+   "code": "C22420827",
+   "model": "74HC00D",
+   "brand": "TOSHIBA",
+   "stock": 15,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.426
+    ],
+    [
+     10,
+     0.3317
+    ],
+    [
+     30,
+     0.291
+    ],
+    [
+     100,
+     0.2406
+    ],
+    [
+     500,
+     0.2179
+    ],
+    [
+     1000,
+     0.2049
+    ]
+   ],
+   "p1": 0.426,
+   "desc": "SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TOSHIBA-74HC00D/C22420827",
+   "lcsc_url": null
+  },
+  "C52140403": {
+   "code": "C52140403",
+   "model": "74HC00D",
+   "brand": "MDD(Microdiode Semiconductor)",
+   "stock": 3333,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14L",
+   "prices": [
+    [
+     1,
+     0.1293
+    ],
+    [
+     10,
+     0.102
+    ],
+    [
+     30,
+     0.0883
+    ],
+    [
+     100,
+     0.0781
+    ],
+    [
+     500,
+     0.0698
+    ],
+    [
+     1000,
+     0.0657
+    ]
+   ],
+   "p1": 0.1293,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 2 25ns@4.5V,15pF 2V~6V 4 400mV 40uA 5.2mA 5.2mA 5.9V 500mV、1.35V、1.8V 74HC NAND Gate StandardCMOS SOP-14L Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "25ns@4.5V,15pF",
+    "Output Logic Level - High": "5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/54938132-74HC00D/C52140403",
+   "lcsc_url": null
+  },
+  "C49188260": {
+   "code": "C49188260",
+   "model": "EM74HC00D",
+   "brand": "EnergyMath",
+   "stock": 100,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14L",
+   "prices": [
+    [
+     1,
+     0.1257
+    ],
+    [
+     50,
+     0.0994
+    ],
+    [
+     150,
+     0.0862
+    ],
+    [
+     500,
+     0.0763
+    ],
+    [
+     3000,
+     0.0685
+    ],
+    [
+     6000,
+     0.0646
+    ]
+   ],
+   "p1": 0.1257,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 2 20ns@6V,15pF 2V~6V 4 400mV 40uA 5.2V、5.9V 5.2mA 5.2mA 500mV、1.35V、1.8V 74HC NAND Gate Overvoltage-tolerant input StandardCMOS SOP-14L Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "20ns@6V,15pF",
+    "Output Logic Level - High": "5.2V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/EnergyMath-EM74HC00D/C49188260",
+   "lcsc_url": "https://lcsc.com/product-detail/logic-gates_energymath-em74hc00d_C49188260.html"
+  },
+  "C51927312": {
+   "code": "C51927312",
+   "model": "SN74HC00DS",
+   "brand": "GREENMICRO",
+   "stock": 4669,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0717
+    ],
+    [
+     100,
+     0.0571
+    ],
+    [
+     300,
+     0.0498
+    ],
+    [
+     1000,
+     0.0443
+    ],
+    [
+     4000,
+     0.0399
+    ],
+    [
+     8000,
+     0.0376
+    ]
+   ],
+   "p1": 0.0717,
+   "desc": "-40℃~+125℃ 1.2V~3.2V 1.9V、4.4V、5.9V 100mV、260mV 2 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.2V~3.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GREENMICRO-SN74HC00DS/C51927312",
+   "lcsc_url": null
+  },
+  "C54784390": {
+   "code": "C54784390",
+   "model": "74HC00D-HX",
+   "brand": "ZHHXDZ",
+   "stock": 2500,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0955
+    ],
+    [
+     50,
+     0.076
+    ],
+    [
+     150,
+     0.0662
+    ],
+    [
+     500,
+     0.0589
+    ],
+    [
+     2500,
+     0.053
+    ],
+    [
+     5000,
+     0.0501
+    ]
+   ],
+   "p1": 0.0955,
+   "desc": "SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/ZHHXDZ-74HC00DHX/C54784390",
+   "lcsc_url": null
+  },
+  "C20606862": {
+   "code": "C20606862",
+   "model": "74HC00D-JSM",
+   "brand": "JSMSEMI",
+   "stock": 1507,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1304
+    ],
+    [
+     50,
+     0.1031
+    ],
+    [
+     150,
+     0.0895
+    ],
+    [
+     500,
+     0.0792
+    ],
+    [
+     2500,
+     0.0711
+    ],
+    [
+     5000,
+     0.0669
+    ]
+   ],
+   "p1": 0.1304,
+   "desc": "0℃~+60℃ 1.5V、3.15V、4.2V 1.9V、3.7V~4.4V、4.4V、5.2V~5.8V、5.9V 14ns@5V,15pF、18ns@5V,15pF 2 2V~6V 4 5.5uA 500mV、1.35V、1.8V 60mV~400mV、70mV~500mV、100mV、100mV、100mV 74HC NAND Gate Push-pull SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "60mV~400mV、70mV~500mV、100mV、100mV、100mV",
+    "Operating Temperature": "0℃~+60℃",
+    "Propagation Delay": "14ns@5V,15pF、18ns@5V,15pF",
+    "Output Logic Level - High": "1.9V、3.7V~4.4V、4.4V、5.2V~5.8V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "-",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Input type": "-",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "5.5uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121850_JSMSEMI-74HC00D-JSM_C20606862.pdf",
+   "url": "https://jlcpcb.com/partdetail/JSMSEMI-74HC00DJSM/C20606862",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_jsmsemi-74hc00d-jsm_C20606862.html"
+  },
+  "C546475": {
+   "code": "C546475",
+   "model": "74HC00DB,118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14-5.2mm",
+   "prices": [
+    [
+     1,
+     0.1065
+    ],
+    [
+     10,
+     0.0846
+    ],
+    [
+     30,
+     0.0735
+    ],
+    [
+     100,
+     0.0654
+    ],
+    [
+     500,
+     0.0587
+    ],
+    [
+     1000,
+     0.0555
+    ]
+   ],
+   "p1": 0.1065,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 2 23ns@6V,50pF 2V~6V 4 4.4V、5.9V 400mV 40uA 5.2mA 5.2mA 500mV、1.35V、1.8V 74HC NAND Gate StandardCMOS SSOP-14-5.2mm Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "23ns@6V,50pF",
+    "Output Logic Level - High": "4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2007022015_Nexperia-74HC00DB-118_C546475.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00DB118/C546475",
+   "lcsc_url": "https://www.lcsc.com/product-detail/gates_nexperia_74hc00db,118_C546475.html"
+  },
+  "C2859576": {
+   "code": "C2859576",
+   "model": "SN74HC00DRG4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.2504
+    ],
+    [
+     50,
+     0.1994
+    ],
+    [
+     150,
+     0.1775
+    ],
+    [
+     500,
+     0.1503
+    ],
+    [
+     2500,
+     0.1382
+    ],
+    [
+     5000,
+     0.1309
+    ]
+   ],
+   "p1": 0.2504,
+   "desc": "-40℃~+85℃ 1.5V、3.15V、4.2V 100mV、260mV 2 20uA 23ns@4.5V,50pF 2V~6V 3.98V、4.4V、5.9V 4 4mA 4mA 500mV、1.35V、1.8V 74HC NAND Gate Push-pull StandardCMOS SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "23ns@4.5V,50pF",
+    "Output Logic Level - High": "3.98V、4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "4mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "20uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "4mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DRG4/C2859576",
+   "lcsc_url": null
+  },
+  "C21257444": {
+   "code": "C21257444",
+   "model": "SN74HC00DTE4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     1.2193
+    ],
+    [
+     10,
+     1.2193
+    ],
+    [
+     12,
+     1.2193
+    ],
+    [
+     250,
+     0.4877
+    ],
+    [
+     500,
+     0.4715
+    ],
+    [
+     1000,
+     0.4634
+    ]
+   ],
+   "p1": 1.2193,
+   "desc": "- Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {},
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC00DTE4/C21257444",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_texas-instruments-sn74hc00dte4_C21257444.html"
+  },
+  "C22436971": {
+   "code": "C22436971",
+   "model": "SN74HC00DR(LX)",
+   "brand": "lingxingic",
+   "stock": 2840,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0981
+    ],
+    [
+     50,
+     0.0797
+    ],
+    [
+     150,
+     0.0706
+    ],
+    [
+     500,
+     0.0638
+    ],
+    [
+     2500,
+     0.0526
+    ],
+    [
+     4000,
+     0.0498
+    ]
+   ],
+   "p1": 0.0981,
+   "desc": "-40℃~+125℃ 1.2V~3.2V 160mV 2 2V~6V 2uA 4 5.81V、6V 74HC Series 7ns@6V,50pF 800mV~2.8V NAND Gate Overvoltage-tolerant input StandardCMOS SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "160mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "5.81V、6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "-",
+    "Input Logic Level - Low": "800mV~2.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.2V~3.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409280130_lingxingic-SN74HC00DR-LX_C22436971.pdf",
+   "url": "https://jlcpcb.com/partdetail/lingxingic-SN74HC00DR_LX/C22436971",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_lingxingic-sn74hc00dr-lx_C22436971.html"
+  },
+  "C51940054": {
+   "code": "C51940054",
+   "model": "AiP74HC00DA14.TB",
+   "brand": "Wuxi I-core Elec",
+   "stock": 205,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-14",
+   "prices": [
+    [
+     1,
+     0.1883
+    ],
+    [
+     50,
+     0.149
+    ],
+    [
+     150,
+     0.1321
+    ],
+    [
+     500,
+     0.1111
+    ]
+   ],
+   "p1": 0.1883,
+   "desc": "-40℃~+125℃ 1.2V、2.4V、3.2V 150mV、160mV 2 2V~6V 2uA 4 4.32V、5.81V 5.2mA 5.2mA 74HC 7ns@6V,15pF 800mV、2.1V、2.8V NAND Gate Overvoltage-tolerant input StandardCMOS DIP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "150mV、160mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,15pF",
+    "Output Logic Level - High": "4.32V、5.81V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "800mV、2.1V、2.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.2V、2.4V、3.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Wuxi_I_coreElec-AiP74HC00DA14TB/C51940054",
+   "lcsc_url": null
+  },
+  "C53436305": {
+   "code": "C53436305",
+   "model": "74HC00D,653-JSM",
+   "brand": "JSMSEMI",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1145
+    ],
+    [
+     10,
+     0.1145
+    ],
+    [
+     12,
+     0.1145
+    ],
+    [
+     200,
+     0.0457
+    ],
+    [
+     500,
+     0.0443
+    ],
+    [
+     1000,
+     0.0435
+    ]
+   ],
+   "p1": 0.1145,
+   "desc": "-40℃~+125℃ 0V、150mV、160mV 1.2V、2.4V、3.2V 2 2V~6V 2V、4.32V、4.5V、5.81V、6V 2uA 4 74HC 7ns@6.0V 800mV、2.1V、2.8V NAND Gate StandardCMOS SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "0V、150mV、160mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6.0V",
+    "Output Logic Level - High": "2V、4.32V、4.5V、5.81V、6V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "-",
+    "Input Logic Level - Low": "800mV、2.1V、2.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.2V、2.4V、3.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JSMSEMI-74HC00D_653JSM/C53436305",
+   "lcsc_url": null
+  },
+  "C41361404": {
+   "code": "C41361404",
+   "model": "SN74HC00DTR(XBLW)",
+   "brand": "XBLW",
+   "stock": 1590,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1044
+    ],
+    [
+     50,
+     0.0825
+    ],
+    [
+     150,
+     0.0716
+    ],
+    [
+     500,
+     0.0635
+    ],
+    [
+     2500,
+     0.0568
+    ],
+    [
+     5000,
+     0.0535
+    ]
+   ],
+   "p1": 0.1044,
+   "desc": "-40℃~+125℃ 1.2V、2.4V、3.2V 1.9V、4.4V、5.9V 2 2V~6V 2uA 330mV 4 5.2mA 5.2mA 500mV、1.35V、1.8V 74HC 7ns@6V,15pF NAND Gate Overvoltage-tolerant input SOP-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "330mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,15pF",
+    "Output Logic Level - High": "1.9V、4.4V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV、1.35V、1.8V",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.2V、2.4V、3.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "2uA",
+    "Features": "Overvoltage-tolerant input",
+    "Inputs per Gates": "2",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/XBLW-SN74HC00DTR_XBLW/C41361404",
+   "lcsc_url": null
+  }
+ }
+}

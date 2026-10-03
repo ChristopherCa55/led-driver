@@ -1,0 +1,32 @@
+sot223_real h_top=10.0 h_bot=10.0: tab-to-ambient 25.54 K/W  (nodes 786945, 106 s, tab cells 120, added vias 0)
+  energy balance: surface loss 1.0000 W for 1 W in
+  theta_JA with R_jt 8.1: 33.6 K/W
+  theta_JA with R_jt 15.0: 40.5 K/W
+  theta_JA with R_jt 0.8: 26.3 K/W
+  theta_JA with R_jt 4.0: 29.5 K/W
+sot223_real h_top=4.0 h_bot=4.0: tab-to-ambient 38.51 K/W  (nodes 786945, 96 s, tab cells 120, added vias 0)
+  energy balance: surface loss 1.0000 W for 1 W in
+  theta_JA with R_jt 8.1: 46.6 K/W
+  theta_JA with R_jt 15.0: 53.5 K/W
+  theta_JA with R_jt 0.8: 39.3 K/W
+  theta_JA with R_jt 4.0: 42.5 K/W
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\u16_thermal_2026-10-01\tools\joule.py:55: MatrixRankWarning: Matrix is exactly singular
+  V = spla.spsolve(K, rhs, permc_spec='MMD_AT_PLUS_A')
+Vin plane loss 0.250 W (drop 20.1 mV), GND plane loss nan W (drop nan mV)
+sot223_real h=10: background rise at the U16 tab nan K (board max nan K)
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\u16_thermal_2026-10-01\tools\joule.py:55: MatrixRankWarning: Matrix is exactly singular
+  V = spla.spsolve(K, rhs, permc_spec='MMD_AT_PLUS_A')
+Vin plane loss 0.250 W (drop 20.1 mV), GND plane loss nan W (drop nan mV)
+sot223_real h=4: background rise at the U16 tab nan K (board max nan K)
+sot223 h_top=4.0 h_bot=4.0: tab-to-ambient 42.56 K/W  (nodes 786945, 89 s, tab cells 120, added vias 0)
+  energy balance: surface loss 1.0000 W for 1 W in
+  theta_JA with R_jt 8.1: 50.7 K/W
+  theta_JA with R_jt 15.0: 57.6 K/W
+  theta_JA with R_jt 0.8: 43.4 K/W
+  theta_JA with R_jt 4.0: 46.6 K/W
+to263 h_top=4.0 h_bot=4.0: tab-to-ambient 33.75 K/W  (nodes 786945, 83 s, tab cells 1672, added vias 0)
+  energy balance: surface loss 1.0000 W for 1 W in
+  theta_JA with R_jt 8.1: 41.8 K/W
+  theta_JA with R_jt 15.0: 48.7 K/W
+  theta_JA with R_jt 0.8: 34.5 K/W
+  theta_JA with R_jt 4.0: 37.7 K/W

@@ -1,0 +1,19 @@
+calibrated n = 0.499 (Wild Goose S2MF: 100 A / 1 ms half sine heats the die as much as 50 A / 8.3 ms)
+rated pulse: 50 A, 8.33 ms half sine, I2t 10.4 A2s, VF at 50 A 1.87 V (model)
+
+S2MW_ri0_rs17: peak 98.5 A, I2t 0.894 A2s, width above 50 % of peak 122 us, above 10 % 188 us; I2t ratio 11.7x
+   n = 0.499 (fit): dT ratio 2.5x; the current could be 1.75x larger (peak 172 A) before matching the rated pulse
+   n = 0.500       : dT ratio 2.5x; the current could be 1.75x larger (peak 172 A) before matching the rated pulse
+   n = 0.250       : dT ratio 1.0x; the current could be 1.00x larger (peak 99 A) before matching the rated pulse
+S2MW_ri0_rs10: peak 100.9 A, I2t 0.934 A2s, width above 50 % of peak 122 us, above 10 % 184 us; I2t ratio 11.1x
+   n = 0.499 (fit): dT ratio 2.4x; the current could be 1.70x larger (peak 172 A) before matching the rated pulse
+   n = 0.500       : dT ratio 2.4x; the current could be 1.71x larger (peak 172 A) before matching the rated pulse
+   n = 0.250       : dT ratio 0.9x; the current could be 1.00x larger (peak 101 A) before matching the rated pulse
+S2MW_ri10_rs17: peak 73.9 A, I2t 0.546 A2s, width above 50 % of peak 133 us, above 10 % 250 us; I2t ratio 19.1x
+   n = 0.499 (fit): dT ratio 4.0x; the current could be 2.34x larger (peak 173 A) before matching the rated pulse
+   n = 0.500       : dT ratio 4.0x; the current could be 2.35x larger (peak 173 A) before matching the rated pulse
+   n = 0.250       : dT ratio 1.5x; the current could be 1.30x larger (peak 96 A) before matching the rated pulse
+S2MW_ri40_rs17: peak 41.0 A, I2t 0.247 A2s, width above 50 % of peak 195 us, above 10 % 546 us; I2t ratio 42.2x
+   n = 0.499 (fit): dT ratio 8.9x; the current could be 4.11x larger (peak 168 A) before matching the rated pulse
+   n = 0.500       : dT ratio 8.9x; the current could be 4.11x larger (peak 169 A) before matching the rated pulse
+   n = 0.250       : dT ratio 3.7x; the current could be 2.37x larger (peak 97 A) before matching the rated pulse

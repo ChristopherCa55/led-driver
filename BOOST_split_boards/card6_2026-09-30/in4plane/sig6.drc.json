@@ -1,0 +1,259 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T22:07:41",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "sig6.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                },
+                {
+                    "description": "Zone 'GND fill' [GND] on F.Cu, B.Cu and 3 more, priority 0",
+                    "pos": {
+                        "x": 45.8905,
+                        "y": 70.0226
+                    },
+                    "uuid": "9b2967b5-d122-4802-b565-71ed6d9f6407"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [5V] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 78.425,
+                        "y": 80.025
+                    },
+                    "uuid": "52b92dca-72b5-417e-9c24-cd1dc89fd5ba"
+                },
+                {
+                    "description": "Pad 1 [5V] of C52 on F.Cu",
+                    "pos": {
+                        "x": 73.6033,
+                        "y": 80.1775
+                    },
+                    "uuid": "6e07f447-93bf-4e40-9511-bf2cbc4d2bfc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [0A_hi] on In4.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 71.65,
+                        "y": 98.45
+                    },
+                    "uuid": "47adff23-ef33-4174-ae3b-07f4a6dc0424"
+                },
+                {
+                    "description": "Pad 2 [0A_hi] of U101 on F.Cu",
+                    "pos": {
+                        "x": 55.2764,
+                        "y": 86.2822
+                    },
+                    "uuid": "c31eb92b-cb94-45f8-98ea-557eeef4db92"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Reset_raw] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 57.625,
+                        "y": 87.875
+                    },
+                    "uuid": "6df0a27d-6d95-4562-b02c-5fb3556f9eae"
+                },
+                {
+                    "description": "Via [Reset_raw] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 68.125,
+                        "y": 105.375
+                    },
+                    "uuid": "18163b8d-1a05-409a-88fa-fc58aa9a0696"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Power' clearance 0.2500 mm; actual 0.2450 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(D25-+)] on In2.Cu, length 1.6263 mm",
+                    "pos": {
+                        "x": 71.475,
+                        "y": 77.225
+                    },
+                    "uuid": "018b2029-d235-46eb-b490-e5b40ac9995c"
+                },
+                {
+                    "description": "Via [Vout_2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 71.225,
+                        "y": 77.675
+                    },
+                    "uuid": "722e4e2a-60f7-46c8-ae2b-998ad954dbe3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [Reset_raw] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 57.625,
+                        "y": 87.875
+                    },
+                    "uuid": "6df0a27d-6d95-4562-b02c-5fb3556f9eae"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [Net-(D24-+)] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 68.925,
+                        "y": 77.825
+                    },
+                    "uuid": "44f5b7df-253d-4769-8a1e-d433161187db"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [0err_hi] on B.Cu, length 0.1000 mm",
+                    "pos": {
+                        "x": 55.525,
+                        "y": 109.825
+                    },
+                    "uuid": "19e2fdda-bf0b-42a2-bca1-fb33379c3f2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [0err_hi] on In2.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 61.125,
+                        "y": 86.025
+                    },
+                    "uuid": "e55f2e06-911c-4dbe-94e6-dda4f3b71eaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [IREF1_input] on B.Cu, length 0.2500 mm",
+                    "pos": {
+                        "x": 59.875,
+                        "y": 90.625
+                    },
+                    "uuid": "6040d09f-7189-44ab-b4a0-67d024bb367c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [Reset_raw] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 68.125,
+                        "y": 105.375
+                    },
+                    "uuid": "18163b8d-1a05-409a-88fa-fc58aa9a0696"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Footprint 'PinHeader_2x15_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "df1f062a-c685-44d6-92d3-b15ddef74d9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

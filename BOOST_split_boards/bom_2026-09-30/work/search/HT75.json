@@ -1,0 +1,5120 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:52 Pacific Daylight Time",
+ "res": {
+  "C89728": {
+   "code": "C89728",
+   "model": "SHT75",
+   "brand": "Sensirion",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SIP-4",
+   "prices": [
+    [
+     1,
+     28.3319
+    ],
+    [
+     3,
+     28.3319
+    ],
+    [
+     5,
+     27.3126
+    ],
+    [
+     30,
+     26.0446
+    ],
+    [
+     32,
+     26.0446
+    ],
+    [
+     34,
+     26.0446
+    ]
+   ],
+   "p1": 28.3319,
+   "desc": "Factory calibration、Built-in heater、Derived quantity calculation、温度补偿 SIP-4 Temperature and Humidity Sensor ROHS",
+   "cat": "Temperature and Humidity Sensor",
+   "attrs": {
+    "Temperature Tolerance": "±0.3℃",
+    "Voltage - Supply": "2.4V~5.5V",
+    "Humidity": "0%RH~100%RH",
+    "Temperature Range": "-40℃~+123.8℃",
+    "Features": "Factory calibration、Built-in heater、Derived quantity calculation、Temperature compensation",
+    "Current - Supply": "550uA",
+    "Interface": "-",
+    "Humidity Tolerance": "1.8%RH",
+    "Resolution": "12bit"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Sensirion-SHT75/C89728",
+   "lcsc_url": null
+  },
+  "C499632": {
+   "code": "C499632",
+   "model": "HT7530",
+   "brand": "KEXIN",
+   "stock": 857,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0592
+    ],
+    [
+     100,
+     0.0475
+    ],
+    [
+     300,
+     0.0417
+    ],
+    [
+     1000,
+     0.034
+    ],
+    [
+     5000,
+     0.0304
+    ],
+    [
+     10000,
+     0.0287
+    ]
+   ],
+   "p1": 0.0592,
+   "desc": "0℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 10uA 24V 3V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+70℃@(Ta)",
+    "standby current": "10uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEXIN-HT7530_C499632.pdf",
+   "url": "https://jlcpcb.com/partdetail/KEXIN-HT7530/C499632",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_kexin-ht7530_C499632.html"
+  },
+  "C499633": {
+   "code": "C499633",
+   "model": "HT7533",
+   "brand": "KEXIN",
+   "stock": 9937,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0586
+    ],
+    [
+     100,
+     0.0469
+    ],
+    [
+     300,
+     0.041
+    ],
+    [
+     1000,
+     0.0366
+    ],
+    [
+     5000,
+     0.0331
+    ],
+    [
+     10000,
+     0.0313
+    ]
+   ],
+   "p1": 0.0586,
+   "desc": "0℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 10uA 24V 3.3V Fixed Positive Short Circuit Protection SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+70℃@(Ta)",
+    "standby current": "10uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEXIN-HT7533_C499633.pdf",
+   "url": "https://jlcpcb.com/partdetail/KEXIN-HT7533/C499633",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_kexin-ht7533_C499633.html"
+  },
+  "C499634": {
+   "code": "C499634",
+   "model": "HT7536",
+   "brand": "KEXIN",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1147
+    ],
+    [
+     50,
+     0.0912
+    ],
+    [
+     150,
+     0.0795
+    ],
+    [
+     1000,
+     0.0678
+    ],
+    [
+     2000,
+     0.0608
+    ],
+    [
+     5000,
+     0.0573
+    ]
+   ],
+   "p1": 0.1147,
+   "desc": "0℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 10uA 24V 3.6V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+70℃@(Ta)",
+    "standby current": "10uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEXIN-HT7536_C499634.pdf",
+   "url": "https://jlcpcb.com/partdetail/KEXIN-HT7536/C499634",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_kexin-ht7536_C499634.html"
+  },
+  "C499635": {
+   "code": "C499635",
+   "model": "HT7550",
+   "brand": "KEXIN",
+   "stock": 6818,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0537
+    ],
+    [
+     300,
+     0.047
+    ],
+    [
+     1000,
+     0.0386
+    ],
+    [
+     5000,
+     0.0345
+    ],
+    [
+     10000,
+     0.0326
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "0℃~+70℃@(Ta) 1 100mV@(1mA) 10uA 150mA 24V 5V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+70℃@(Ta)",
+    "standby current": "10uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "150mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2003261833_KEXIN-HT7550_C499635.pdf",
+   "url": "https://jlcpcb.com/partdetail/KEXIN-HT7550/C499635",
+   "lcsc_url": "https://lcsc.comhttps://lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_KEXIN-HT7550_C499635.html"
+  },
+  "C2684639": {
+   "code": "C2684639",
+   "model": "HT7530",
+   "brand": "GUOXIN JIAPIN SEMICONDUCTOR",
+   "stock": 3003,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.0339
+    ],
+    [
+     200,
+     0.0274
+    ],
+    [
+     600,
+     0.0236
+    ],
+    [
+     3000,
+     0.0174
+    ],
+    [
+     9000,
+     0.0155
+    ],
+    [
+     21000,
+     0.0145
+    ]
+   ],
+   "p1": 0.0339,
+   "desc": "-25℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 18V 2uA 3V Fixed Positive SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_GUOXIN-JIAPIN-SEMICONDUCTOR-HT7530_C2684639.pdf",
+   "url": "https://jlcpcb.com/partdetail/GUOXIN_JIAPINSEMICONDUCTOR-HT7530/C2684639",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_guoxin-jiapin-semiconductor-ht7530_C2684639.html"
+  },
+  "C2684642": {
+   "code": "C2684642",
+   "model": "HT7550",
+   "brand": "GUOXIN JIAPIN SEMICONDUCTOR",
+   "stock": 3609,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.0344
+    ],
+    [
+     200,
+     0.0277
+    ],
+    [
+     600,
+     0.0241
+    ],
+    [
+     3000,
+     0.0192
+    ],
+    [
+     9000,
+     0.0173
+    ],
+    [
+     21000,
+     0.0163
+    ]
+   ],
+   "p1": 0.0344,
+   "desc": "-25℃~+70℃@(Ta) 1 100mV@(1mA) 18V 2uA 5V 60mA、100mA Fixed Positive Short Circuit Protection SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "60mA、100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2101282153_GUOXIN-JIAPIN-SEMICONDUCTOR-HT7550_C2684642.pdf",
+   "url": "https://jlcpcb.com/partdetail/GUOXIN_JIAPINSEMICONDUCTOR-HT7550/C2684642",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_guoxin-jiapin-semiconductor-ht7550_C2684642.html"
+  },
+  "C2984880": {
+   "code": "C2984880",
+   "model": "HT7536",
+   "brand": "HX(hengjiaxing)",
+   "stock": 724,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0462
+    ],
+    [
+     100,
+     0.0368
+    ],
+    [
+     300,
+     0.0322
+    ],
+    [
+     3000,
+     0.0272
+    ],
+    [
+     6000,
+     0.0244
+    ],
+    [
+     9000,
+     0.023
+    ]
+   ],
+   "p1": 0.0462,
+   "desc": "-25℃~+70℃ 1 100mA 100mV@(1mA) 18V 2uA 3.6V Fixed Positive Short Circuit Protection SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-25℃~+70℃",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281730_HX-hengjiaxing-HT7536_C2984880.pdf",
+   "url": "https://jlcpcb.com/partdetail/HX_hengjiaxing-HT7536/C2984880",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hx-hengjiaxing-ht7536_C2984880.html"
+  },
+  "C2984881": {
+   "code": "C2984881",
+   "model": "HT7540",
+   "brand": "HX(hengjiaxing)",
+   "stock": 614,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0477
+    ],
+    [
+     100,
+     0.0384
+    ],
+    [
+     300,
+     0.0337
+    ],
+    [
+     3000,
+     0.0272
+    ],
+    [
+     6000,
+     0.0244
+    ],
+    [
+     9000,
+     0.023
+    ]
+   ],
+   "p1": 0.0477,
+   "desc": "-25℃~+70℃@(Ta) 1 100mA 18V 3uA 5V Fixed Positive Short Circuit Protection SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281730_HX-hengjiaxing-HT7540_C2984881.pdf",
+   "url": "https://jlcpcb.com/partdetail/HX_hengjiaxing-HT7540/C2984881",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hx-hengjiaxing-ht7540_C2984881.html"
+  },
+  "C2984882": {
+   "code": "C2984882",
+   "model": "HT7544",
+   "brand": "HX(hengjiaxing)",
+   "stock": 781,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0456
+    ],
+    [
+     100,
+     0.0363
+    ],
+    [
+     300,
+     0.0316
+    ],
+    [
+     3000,
+     0.028
+    ],
+    [
+     6000,
+     0.0252
+    ],
+    [
+     9000,
+     0.0238
+    ]
+   ],
+   "p1": 0.0456,
+   "desc": "-25℃~+70℃ 1 100mA 100mV@(1mA) 18V 3uA 4.4V Fixed Positive Short Circuit Protection SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "4.4V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281730_HX-hengjiaxing-HT7544_C2984882.pdf",
+   "url": "https://jlcpcb.com/partdetail/HX_hengjiaxing-HT7544/C2984882",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hx-hengjiaxing-ht7544_C2984882.html"
+  },
+  "C2984988": {
+   "code": "C2984988",
+   "model": "HT7536",
+   "brand": "HX(hengjiaxing)",
+   "stock": 89,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0298
+    ],
+    [
+     200,
+     0.0233
+    ],
+    [
+     1000,
+     0.0196
+    ],
+    [
+     2000,
+     0.0174
+    ],
+    [
+     10000,
+     0.0155
+    ],
+    [
+     20000,
+     0.0145
+    ]
+   ],
+   "p1": 0.0298,
+   "desc": "-25℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 18V 2uA 3.6V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281730_HX-hengjiaxing-HT7536_C2984988.pdf",
+   "url": "https://jlcpcb.com/partdetail/HX_hengjiaxing-HT7536/C2984988",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hx-hengjiaxing-ht7536_C2984988.html"
+  },
+  "C2984989": {
+   "code": "C2984989",
+   "model": "HT7540",
+   "brand": "HX(hengjiaxing)",
+   "stock": 435,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0493
+    ],
+    [
+     100,
+     0.0392
+    ],
+    [
+     300,
+     0.034
+    ],
+    [
+     1000,
+     0.0295
+    ],
+    [
+     5000,
+     0.0264
+    ],
+    [
+     10000,
+     0.0249
+    ]
+   ],
+   "p1": 0.0493,
+   "desc": "-25℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 18V 2uA 5V Fixed Over Current Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281730_HX-hengjiaxing-HT7540_C2984989.pdf",
+   "url": "https://jlcpcb.com/partdetail/HX_hengjiaxing-HT7540/C2984989",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hx-hengjiaxing-ht7540_C2984989.html"
+  },
+  "C2984990": {
+   "code": "C2984990",
+   "model": "HT7544",
+   "brand": "HX(hengjiaxing)",
+   "stock": 668,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0324
+    ],
+    [
+     200,
+     0.0254
+    ],
+    [
+     1000,
+     0.0209
+    ],
+    [
+     2000,
+     0.0186
+    ],
+    [
+     10000,
+     0.0165
+    ],
+    [
+     20000,
+     0.0154
+    ]
+   ],
+   "p1": 0.0324,
+   "desc": "-25℃~+70℃ 1 100mA 100mV@(1mA) 18V 2uA 4.4V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-25℃~+70℃",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "4.4V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281830_HX-hengjiaxing-HT7544_C2984990.pdf",
+   "url": "https://jlcpcb.com/partdetail/HX_hengjiaxing-HT7544/C2984990",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hx-hengjiaxing-ht7544_C2984990.html"
+  },
+  "C5136781": {
+   "code": "C5136781",
+   "model": "HT7533",
+   "brand": "GUOXIN JIAPIN SEMICONDUCTOR",
+   "stock": 2966,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.037
+    ],
+    [
+     200,
+     0.0298
+    ],
+    [
+     600,
+     0.0259
+    ],
+    [
+     3000,
+     0.0205
+    ],
+    [
+     9000,
+     0.0184
+    ],
+    [
+     21000,
+     0.0173
+    ]
+   ],
+   "p1": 0.037,
+   "desc": "-25℃~+70℃@(Ta) 1 100mA 100mV@(1mA) 18V 2uA 3.3V Fixed Positive Short Circuit Protection SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "18V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208171800_GUOXIN-JIAPIN-SEMICONDUCTOR-HT7533_C5136781.pdf",
+   "url": "https://jlcpcb.com/partdetail/GUOXIN_JIAPINSEMICONDUCTOR-HT7533/C5136781",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_guoxin-jiapin-semiconductor-ht7533_C5136781.html"
+  },
+  "C5279052": {
+   "code": "C5279052",
+   "model": "HT7533",
+   "brand": "TWGMC",
+   "stock": 153982,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0425
+    ],
+    [
+     200,
+     0.0337
+    ],
+    [
+     600,
+     0.0288
+    ],
+    [
+     3000,
+     0.0257
+    ],
+    [
+     9000,
+     0.0233
+    ],
+    [
+     21000,
+     0.0218
+    ]
+   ],
+   "p1": 0.0425,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 100mV@(1mA) 2.5uA 24V 3.3V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312211616_TWGMC-HT7533_C5279052.pdf",
+   "url": "https://jlcpcb.com/partdetail/TWGMC-HT7533/C5279052",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_twgmc-ht7533_C5279052.html"
+  },
+  "C5279053": {
+   "code": "C5279053",
+   "model": "HT7550",
+   "brand": "TWGMC",
+   "stock": 161807,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0407
+    ],
+    [
+     200,
+     0.0319
+    ],
+    [
+     600,
+     0.027
+    ],
+    [
+     3000,
+     0.0238
+    ],
+    [
+     9000,
+     0.0212
+    ],
+    [
+     21000,
+     0.0199
+    ]
+   ],
+   "p1": 0.0407,
+   "desc": "-40℃~+85℃@(Ta) 1 100mV@(1mA) 150mA 2.5uA 28V 5V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "28V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2312211616_TWGMC-HT7550_C5279053.pdf",
+   "url": "https://jlcpcb.com/partdetail/TWGMC-HT7550/C5279053",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_twgmc-ht7550_C5279053.html"
+  },
+  "C5362095": {
+   "code": "C5362095",
+   "model": "HT7550",
+   "brand": "CBI",
+   "stock": 1343,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.047
+    ],
+    [
+     100,
+     0.0374
+    ],
+    [
+     300,
+     0.0327
+    ],
+    [
+     3000,
+     0.0277
+    ],
+    [
+     6000,
+     0.0249
+    ],
+    [
+     9000,
+     0.0235
+    ]
+   ],
+   "p1": 0.047,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 100mV@(1mA) 2.5uA 28V 5V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "28V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303081000_CBI-HT7550_C5362095.pdf",
+   "url": "https://jlcpcb.com/partdetail/CBI-HT7550/C5362095",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_cbi-ht7550_C5362095.html"
+  },
+  "C5362096": {
+   "code": "C5362096",
+   "model": "HT7533",
+   "brand": "CBI",
+   "stock": 1669,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0448
+    ],
+    [
+     100,
+     0.0353
+    ],
+    [
+     300,
+     0.0308
+    ],
+    [
+     3000,
+     0.0272
+    ],
+    [
+     6000,
+     0.0244
+    ],
+    [
+     9000,
+     0.023
+    ]
+   ],
+   "p1": 0.0448,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 100mV@(1mA) 2.5uA 3.3V 30V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303081000_CBI-HT7533_C5362096.pdf",
+   "url": "https://jlcpcb.com/partdetail/CBI-HT7533/C5362096",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_cbi-ht7533_C5362096.html"
+  },
+  "C5451679": {
+   "code": "C5451679",
+   "model": "HT7550",
+   "brand": "HXY MOSFET",
+   "stock": 2842,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0379
+    ],
+    [
+     100,
+     0.0304
+    ],
+    [
+     300,
+     0.0269
+    ],
+    [
+     3000,
+     0.0215
+    ],
+    [
+     6000,
+     0.0192
+    ],
+    [
+     9000,
+     0.0181
+    ]
+   ],
+   "p1": 0.0379,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA、150mA 30V 55mV@(1mA) 5V Fixed Over Current Protection、Over Temperature Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA、150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "55mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304271707_HXY-MOSFET-HT7550_C5451679.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-HT7550/C5451679",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-ht7550_C5451679.html"
+  },
+  "C7470656": {
+   "code": "C7470656",
+   "model": "HT7533",
+   "brand": "JUXING",
+   "stock": 371,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3L",
+   "prices": [
+    [
+     1,
+     0.0683
+    ],
+    [
+     100,
+     0.054
+    ],
+    [
+     300,
+     0.0469
+    ],
+    [
+     1000,
+     0.0415
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.0683,
+   "desc": "-40℃~+85℃@(Ta) 1 250mA 2uA 3.3V 36V 700mV@(100mA) 70dB@(1kHz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "70dB@(1kHz)",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "250mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "700mV@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309131015_JUXING-HT7533_C7470656.pdf",
+   "url": "https://jlcpcb.com/partdetail/JUXING-HT7533/C7470656",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_juxing-ht7533_C7470656.html"
+  },
+  "C19272221": {
+   "code": "C19272221",
+   "model": "HT7533",
+   "brand": "Minos",
+   "stock": 9728,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0475
+    ],
+    [
+     100,
+     0.0381
+    ],
+    [
+     300,
+     0.0335
+    ],
+    [
+     1000,
+     0.0283
+    ],
+    [
+     5000,
+     0.0256
+    ],
+    [
+     10000,
+     0.0241
+    ]
+   ],
+   "p1": 0.0475,
+   "desc": "-35℃~+80℃ 1 150mA 2.5uA 24V 3.3V 30mV@(1mA) Fixed Over Current Protection、Over Temperature Protection Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-35℃~+80℃",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "30mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312012001_Minos-HT7533_C19272221.pdf",
+   "url": "https://jlcpcb.com/partdetail/Minos-HT7533/C19272221",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_minos-ht7533_C19272221.html"
+  },
+  "C19272222": {
+   "code": "C19272222",
+   "model": "HT7550",
+   "brand": "Minos",
+   "stock": 1835,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0456
+    ],
+    [
+     100,
+     0.0361
+    ],
+    [
+     300,
+     0.0314
+    ],
+    [
+     1000,
+     0.028
+    ],
+    [
+     5000,
+     0.0252
+    ],
+    [
+     10000,
+     0.0238
+    ]
+   ],
+   "p1": 0.0456,
+   "desc": "-35℃~+80℃ 1 150mA 2.5uA 24V 25mV@(1mA) 5V Fixed Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-35℃~+80℃",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312012001_Minos-HT7550_C19272222.pdf",
+   "url": "https://jlcpcb.com/partdetail/Minos-HT7550/C19272222",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_minos-ht7550_C19272222.html"
+  },
+  "C20628882": {
+   "code": "C20628882",
+   "model": "HT7550",
+   "brand": "FOSAN",
+   "stock": 18338,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3L",
+   "prices": [
+    [
+     1,
+     0.0415
+    ],
+    [
+     100,
+     0.0331
+    ],
+    [
+     300,
+     0.0288
+    ],
+    [
+     1000,
+     0.0257
+    ],
+    [
+     5000,
+     0.0231
+    ],
+    [
+     10000,
+     0.0218
+    ]
+   ],
+   "p1": 0.0415,
+   "desc": "-25℃~+70℃ 1 100mA 100mV@(1mA) 2uA 30V 5V Fixed Positive Short Circuit Protection SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-25℃~+70℃",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403011756_FOSAN-HT7550_C20628882.pdf",
+   "url": "https://jlcpcb.com/partdetail/FOSAN-HT7550/C20628882",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_fosan-ht7550_C20628882.html"
+  },
+  "C41355186": {
+   "code": "C41355186",
+   "model": "HT7550",
+   "brand": "GOODWORK",
+   "stock": 31904,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0426
+    ],
+    [
+     100,
+     0.0334
+    ],
+    [
+     300,
+     0.0287
+    ],
+    [
+     3000,
+     0.0256
+    ],
+    [
+     6000,
+     0.0228
+    ],
+    [
+     9000,
+     0.0213
+    ]
+   ],
+   "p1": 0.0426,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GOODWORK-HT7550/C41355186",
+   "lcsc_url": null
+  },
+  "C46416452": {
+   "code": "C46416452",
+   "model": "HT7530",
+   "brand": "GOODWORK",
+   "stock": 5240,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0391
+    ],
+    [
+     200,
+     0.0306
+    ],
+    [
+     600,
+     0.0259
+    ],
+    [
+     3000,
+     0.0231
+    ],
+    [
+     9000,
+     0.0205
+    ],
+    [
+     30000,
+     0.0192
+    ]
+   ],
+   "p1": 0.0391,
+   "desc": "-40℃~+85℃ 1 1.5uA 100mA 30V 30mV@(1A) 3V Fixed Positive Thermal shutdown SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "30mV@(1A)",
+    "Output Voltage": "3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_GOODWORK-HT7530_C46416452.pdf",
+   "url": "https://jlcpcb.com/partdetail/GOODWORK-HT7530/C46416452",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_goodwork-ht7530_C46416452.html"
+  },
+  "C47020949": {
+   "code": "C47020949",
+   "model": "HT7530",
+   "brand": "QNH",
+   "stock": 2600,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0339
+    ],
+    [
+     200,
+     0.0264
+    ],
+    [
+     600,
+     0.0222
+    ],
+    [
+     3000,
+     0.0197
+    ],
+    [
+     9000,
+     0.0176
+    ],
+    [
+     21000,
+     0.0165
+    ]
+   ],
+   "p1": 0.0339,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA 24V 25mV@(1mA) 3V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Voltage - Supply": "24V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_QNHCHIP-HT7530_C47020949.pdf",
+   "url": "https://jlcpcb.com/partdetail/QNH-HT7530/C47020949",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_qnhchip-ht7530_C47020949.html"
+  },
+  "C47020950": {
+   "code": "C47020950",
+   "model": "HT7533",
+   "brand": "QNH",
+   "stock": 1416,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0363
+    ],
+    [
+     200,
+     0.0285
+    ],
+    [
+     600,
+     0.0241
+    ],
+    [
+     3000,
+     0.0213
+    ],
+    [
+     9000,
+     0.0191
+    ],
+    [
+     21000,
+     0.0179
+    ]
+   ],
+   "p1": 0.0363,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA 24V 25mV@(1mA) 3.3V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Voltage - Supply": "24V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_QNHCHIP-HT7533_C47020950.pdf",
+   "url": "https://jlcpcb.com/partdetail/QNH-HT7533/C47020950",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_qnhchip-ht7533_C47020950.html"
+  },
+  "C47020951": {
+   "code": "C47020951",
+   "model": "HT7544",
+   "brand": "QNH",
+   "stock": 2900,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0339
+    ],
+    [
+     200,
+     0.0264
+    ],
+    [
+     600,
+     0.0222
+    ],
+    [
+     3000,
+     0.0197
+    ],
+    [
+     9000,
+     0.0176
+    ],
+    [
+     21000,
+     0.0165
+    ]
+   ],
+   "p1": 0.0339,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA、150mA 24V 25mV@(1mA) 4.4V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Voltage - Supply": "24V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA、150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "4.4V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_QNHCHIP-HT7544_C47020951.pdf",
+   "url": "https://jlcpcb.com/partdetail/QNH-HT7544/C47020951",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_qnhchip-ht7544_C47020951.html"
+  },
+  "C47020952": {
+   "code": "C47020952",
+   "model": "HT7550",
+   "brand": "QNH",
+   "stock": 1676,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0363
+    ],
+    [
+     200,
+     0.0285
+    ],
+    [
+     600,
+     0.0241
+    ],
+    [
+     3000,
+     0.0213
+    ],
+    [
+     9000,
+     0.0191
+    ],
+    [
+     21000,
+     0.0179
+    ]
+   ],
+   "p1": 0.0363,
+   "desc": "-40℃~+85℃@(Ta) 1.5uA 100mA、150mA 24V 25mV@(1mA) 5V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Voltage - Supply": "24V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA、150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_QNHCHIP-HT7550_C47020952.pdf",
+   "url": "https://jlcpcb.com/partdetail/QNH-HT7550/C47020952",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_qnhchip-ht7550_C47020952.html"
+  },
+  "C49191522": {
+   "code": "C49191522",
+   "model": "HT7530",
+   "brand": "GR",
+   "stock": 343,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0373
+    ],
+    [
+     200,
+     0.0295
+    ],
+    [
+     1000,
+     0.0256
+    ],
+    [
+     2000,
+     0.0226
+    ],
+    [
+     10000,
+     0.0204
+    ],
+    [
+     20000,
+     0.0192
+    ]
+   ],
+   "p1": 0.0373,
+   "desc": "-40℃~+85℃ 1 200mA 2uA 3V 40V 50mV@(10mA) Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "200mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "50mV@(10mA)",
+    "Output Voltage": "3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/GR-HT7530/C49191522",
+   "lcsc_url": "https://lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_gr-ht7530_C49191522.html"
+  },
+  "C49191523": {
+   "code": "C49191523",
+   "model": "HT7533",
+   "brand": "GR",
+   "stock": 732,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     200,
+     0.0318
+    ],
+    [
+     1000,
+     0.0278
+    ],
+    [
+     2000,
+     0.0249
+    ],
+    [
+     10000,
+     0.0226
+    ],
+    [
+     20000,
+     0.0213
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "-40℃~+85℃ 1 200mA 2uA 3.3V 40V 50mV@(10mA) Fixed Over Current Protection、Over Temperature Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "200mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "50mV@(10mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/GR-HT7533/C49191523",
+   "lcsc_url": "https://lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_gr-ht7533_C49191523.html"
+  },
+  "C49191524": {
+   "code": "C49191524",
+   "model": "HT7550",
+   "brand": "GR",
+   "stock": 2489,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0383
+    ],
+    [
+     200,
+     0.0304
+    ],
+    [
+     1000,
+     0.0265
+    ],
+    [
+     2000,
+     0.0236
+    ],
+    [
+     10000,
+     0.0212
+    ],
+    [
+     20000,
+     0.02
+    ]
+   ],
+   "p1": 0.0383,
+   "desc": "-40℃~+85℃ 1 200mA 2uA 40V 50mV@(10mA) 5V Fixed Over Current Protection、Over Temperature Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "200mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "50mV@(10mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GR-HT7550/C49191524",
+   "lcsc_url": null
+  },
+  "C53340889": {
+   "code": "C53340889",
+   "model": "HT7533",
+   "brand": "TECH PUBLIC",
+   "stock": 5100,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0344
+    ],
+    [
+     200,
+     0.0267
+    ],
+    [
+     600,
+     0.0223
+    ],
+    [
+     3000,
+     0.0197
+    ],
+    [
+     9000,
+     0.0176
+    ],
+    [
+     21000,
+     0.0163
+    ]
+   ],
+   "p1": 0.0344,
+   "desc": "-40℃~+125℃ 150mA 30V 3uA Short Circuit Protection、Thermal shutdown SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(1kHz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "150mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "-"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-HT7533/C53340889",
+   "lcsc_url": null
+  },
+  "C53340890": {
+   "code": "C53340890",
+   "model": "HT7550",
+   "brand": "TECH PUBLIC",
+   "stock": 202,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0342
+    ],
+    [
+     200,
+     0.0265
+    ],
+    [
+     600,
+     0.0223
+    ],
+    [
+     3000,
+     0.0197
+    ],
+    [
+     9000,
+     0.0174
+    ],
+    [
+     21000,
+     0.0162
+    ]
+   ],
+   "p1": 0.0342,
+   "desc": "-40℃~+125℃ 150mA 30V 3uA Short Circuit Protection、Thermal shutdown SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(1kHz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "150mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "460mV@(100mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-HT7550/C53340890",
+   "lcsc_url": null
+  },
+  "C55488586": {
+   "code": "C55488586",
+   "model": "HT7533",
+   "brand": "TDD",
+   "stock": 898,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3L",
+   "prices": [
+    [
+     1,
+     0.0381
+    ],
+    [
+     200,
+     0.0303
+    ],
+    [
+     1000,
+     0.0264
+    ],
+    [
+     2000,
+     0.0235
+    ],
+    [
+     10000,
+     0.021
+    ],
+    [
+     20000,
+     0.0199
+    ]
+   ],
+   "p1": 0.0381,
+   "desc": "SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TDD-HT7533/C55488586",
+   "lcsc_url": null
+  },
+  "C55488587": {
+   "code": "C55488587",
+   "model": "HT7550",
+   "brand": "TDD",
+   "stock": 2990,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0418
+    ],
+    [
+     100,
+     0.0332
+    ],
+    [
+     300,
+     0.029
+    ],
+    [
+     3000,
+     0.0257
+    ],
+    [
+     6000,
+     0.0231
+    ],
+    [
+     9000,
+     0.0218
+    ]
+   ],
+   "p1": 0.0418,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TDD-HT7550/C55488587",
+   "lcsc_url": null
+  },
+  "C55586820": {
+   "code": "C55586820",
+   "model": "HT7530",
+   "brand": "hongjiacheng",
+   "stock": 1955,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0532
+    ],
+    [
+     300,
+     0.0464
+    ],
+    [
+     1000,
+     0.0412
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7530/C55586820",
+   "lcsc_url": null
+  },
+  "C55586821": {
+   "code": "C55586821",
+   "model": "HT7533",
+   "brand": "hongjiacheng",
+   "stock": 940,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0532
+    ],
+    [
+     300,
+     0.0464
+    ],
+    [
+     1000,
+     0.0412
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7533/C55586821",
+   "lcsc_url": null
+  },
+  "C55586822": {
+   "code": "C55586822",
+   "model": "HT7536",
+   "brand": "hongjiacheng",
+   "stock": 1980,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0532
+    ],
+    [
+     300,
+     0.0464
+    ],
+    [
+     1000,
+     0.0412
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7536/C55586822",
+   "lcsc_url": null
+  },
+  "C55586823": {
+   "code": "C55586823",
+   "model": "HT7540",
+   "brand": "hongjiacheng",
+   "stock": 1770,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0532
+    ],
+    [
+     300,
+     0.0464
+    ],
+    [
+     1000,
+     0.0412
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7540/C55586823",
+   "lcsc_url": null
+  },
+  "C55586824": {
+   "code": "C55586824",
+   "model": "HT7544",
+   "brand": "hongjiacheng",
+   "stock": 1980,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0532
+    ],
+    [
+     300,
+     0.0464
+    ],
+    [
+     1000,
+     0.0412
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7544/C55586824",
+   "lcsc_url": null
+  },
+  "C55586825": {
+   "code": "C55586825",
+   "model": "HT7550",
+   "brand": "hongjiacheng",
+   "stock": 1744,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.067
+    ],
+    [
+     100,
+     0.0532
+    ],
+    [
+     300,
+     0.0464
+    ],
+    [
+     1000,
+     0.0412
+    ],
+    [
+     5000,
+     0.0371
+    ],
+    [
+     10000,
+     0.035
+    ]
+   ],
+   "p1": 0.067,
+   "desc": "SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7550/C55586825",
+   "lcsc_url": null
+  },
+  "C9900019831": {
+   "code": "C9900019831",
+   "model": "HT7550",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89(SOT-89-3)",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-89(SOT-89-3) SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-HT7550/C9900019831",
+   "lcsc_url": null
+  },
+  "C9900037440": {
+   "code": "C9900037440",
+   "model": "HT7544",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-W1.3",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-23-W1.3 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-HT7544/C9900037440",
+   "lcsc_url": null
+  },
+  "C347214": {
+   "code": "C347214",
+   "model": "HT7530S",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 17578,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0417
+    ],
+    [
+     100,
+     0.0321
+    ],
+    [
+     300,
+     0.0272
+    ],
+    [
+     3000,
+     0.0236
+    ],
+    [
+     6000,
+     0.0209
+    ],
+    [
+     9000,
+     0.0194
+    ]
+   ],
+   "p1": 0.0417,
+   "desc": "-40℃~+85℃ 1 100mA 100mV@(1mA) 2uA 30V 3V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2uA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406121609_UMW-Youtai-Semiconductor-Co---Ltd--HT7530S_C347214.pdf",
+   "url": "https://jlcpcb.com/partdetail/323874-HT7530S/C347214",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ht7530s_C347214.html"
+  },
+  "C347215": {
+   "code": "C347215",
+   "model": "HT7533S",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 338464,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0405
+    ],
+    [
+     100,
+     0.0319
+    ],
+    [
+     300,
+     0.0277
+    ],
+    [
+     3000,
+     0.0218
+    ],
+    [
+     6000,
+     0.0205
+    ],
+    [
+     9000,
+     0.0197
+    ]
+   ],
+   "p1": 0.0405,
+   "desc": "-40℃~+85℃ 1 100mA 100mV@(1mA) 3.3V 30V 3uA Fixed Positive Short Circuit Protection SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406121609_UMW-Youtai-Semiconductor-Co---Ltd--HT7533S_C347215.pdf",
+   "url": "https://jlcpcb.com/partdetail/323875-HT7533S/C347215",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ht7533s_C347215.html"
+  },
+  "C347216": {
+   "code": "C347216",
+   "model": "HT7536S",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 10253,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0412
+    ],
+    [
+     100,
+     0.0327
+    ],
+    [
+     300,
+     0.0285
+    ],
+    [
+     3000,
+     0.0235
+    ],
+    [
+     6000,
+     0.021
+    ],
+    [
+     9000,
+     0.0197
+    ]
+   ],
+   "p1": 0.0412,
+   "desc": "-40℃~+85℃ 1 100mA 200mV 3.6V 30V 3uA Fixed Over Current Protection、Short Circuit Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Voltage Dropout": "200mV",
+    "Output Voltage": "3.6V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406121609_UMW-Youtai-Semiconductor-Co---Ltd--HT7536S_C347216.pdf",
+   "url": "https://jlcpcb.com/partdetail/323876-HT7536S/C347216",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ht7536s_C347216.html"
+  },
+  "C347217": {
+   "code": "C347217",
+   "model": "HT7550S",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 104623,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0438
+    ],
+    [
+     100,
+     0.0344
+    ],
+    [
+     300,
+     0.0296
+    ],
+    [
+     3000,
+     0.0239
+    ],
+    [
+     6000,
+     0.0212
+    ],
+    [
+     9000,
+     0.0197
+    ]
+   ],
+   "p1": 0.0438,
+   "desc": "-40℃~+85℃ 1 100mA 100mV 30V 3uA 5V Fixed Positive Short Circuit Protection SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406121609_UMW-Youtai-Semiconductor-Co---Ltd--HT7550S_C347217.pdf",
+   "url": "https://jlcpcb.com/partdetail/323877-HT7550S/C347217",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ht7550s_C347217.html"
+  },
+  "C5185877": {
+   "code": "C5185877",
+   "model": "HT7544S",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 2453,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0389
+    ],
+    [
+     100,
+     0.0306
+    ],
+    [
+     300,
+     0.0264
+    ],
+    [
+     3000,
+     0.0233
+    ],
+    [
+     6000,
+     0.0209
+    ],
+    [
+     9000,
+     0.0196
+    ]
+   ],
+   "p1": 0.0389,
+   "desc": "-40℃~+85℃ 1 100mV 30V 30mA 3uA 4.4V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "30mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "4.4V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406121609_UMW-Youtai-Semiconductor-Co---Ltd--HT7544S_C5185877.pdf",
+   "url": "https://jlcpcb.com/partdetail/5856436-HT7544S/C5185877",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ht7544s_C5185877.html"
+  },
+  "C5310977": {
+   "code": "C5310977",
+   "model": "HT7550S",
+   "brand": "TECH PUBLIC",
+   "stock": 1856,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.0776
+    ],
+    [
+     50,
+     0.0618
+    ],
+    [
+     150,
+     0.0539
+    ],
+    [
+     500,
+     0.048
+    ],
+    [
+     3000,
+     0.041
+    ],
+    [
+     6000,
+     0.0387
+    ]
+   ],
+   "p1": 0.0776,
+   "desc": "-25℃~+70℃@(Ta) 1 1.5uA 150mA 160mV@(10mA) 30V 5V 68dB@(1kHz) Fixed Over Current Protection、Short Circuit Protection Positive SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "68dB@(1kHz)",
+    "Operating Temperature": "-25℃~+70℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Voltage Dropout": "160mV@(10mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407291834_TECH-PUBLIC-HT7550S_C5310977.pdf",
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-HT7550S/C5310977",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tech-public-ht7550s_C5310977.html"
+  },
+  "C5310978": {
+   "code": "C5310978",
+   "model": "HT7533S",
+   "brand": "TECH PUBLIC",
+   "stock": 2426,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0493
+    ],
+    [
+     100,
+     0.0389
+    ],
+    [
+     300,
+     0.0337
+    ],
+    [
+     3000,
+     0.03
+    ],
+    [
+     6000,
+     0.0269
+    ],
+    [
+     9000,
+     0.0252
+    ]
+   ],
+   "p1": 0.0493,
+   "desc": "-25℃~+85℃ 1 1.5uA 150mA 24V 3.3V 520mV@(100mA) 68dB@(1kHz) Fixed Over Current Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "68dB@(1kHz)",
+    "standby current": "1.5uA",
+    "Operating Temperature": "-25℃~+85℃",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection",
+    "Voltage Dropout": "520mV@(100mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121523_TECH-PUBLIC-HT7533S_C5310978.pdf",
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-HT7533S/C5310978",
+   "lcsc_url": "https://www.lcsc.com/product-detail/mosfets_tech-public-ht7533s_C5310978.html"
+  },
+  "C5451674": {
+   "code": "C5451674",
+   "model": "HT7550S",
+   "brand": "HXY MOSFET",
+   "stock": 1297,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0461
+    ],
+    [
+     100,
+     0.0373
+    ],
+    [
+     300,
+     0.0329
+    ],
+    [
+     1000,
+     0.0278
+    ],
+    [
+     5000,
+     0.0252
+    ],
+    [
+     10000,
+     0.0239
+    ]
+   ],
+   "p1": 0.0461,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA 25mV@(1mA) 30V 5V Fixed Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309131011_HXY-MOSFET-HT7550S_C5451674.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-HT7550S/C5451674",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-ht7550s_C5451674.html"
+  },
+  "C5451677": {
+   "code": "C5451677",
+   "model": "HT7530S",
+   "brand": "HXY MOSFET",
+   "stock": 19265,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0428
+    ],
+    [
+     100,
+     0.034
+    ],
+    [
+     300,
+     0.0296
+    ],
+    [
+     3000,
+     0.0262
+    ],
+    [
+     6000,
+     0.0235
+    ],
+    [
+     9000,
+     0.0222
+    ]
+   ],
+   "p1": 0.0428,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 100mV@(1mA) 30V 3V 3uA Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304271707_HXY-MOSFET-HT7530S_C5451677.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-HT7530S/C5451677",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-ht7530s_C5451677.html"
+  },
+  "C5451678": {
+   "code": "C5451678",
+   "model": "HT7533S",
+   "brand": "HXY MOSFET",
+   "stock": 6952,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0374
+    ],
+    [
+     100,
+     0.0298
+    ],
+    [
+     300,
+     0.0261
+    ],
+    [
+     3000,
+     0.0231
+    ],
+    [
+     6000,
+     0.0209
+    ],
+    [
+     9000,
+     0.0197
+    ]
+   ],
+   "p1": 0.0374,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA 3.3V 30V 55mV@(1mA) Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "55mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304271707_HXY-MOSFET-HT7533S_C5451678.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-HT7533S/C5451678",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-ht7533s_C5451678.html"
+  },
+  "C5451783": {
+   "code": "C5451783",
+   "model": "HT7550S",
+   "brand": "HXY MOSFET",
+   "stock": 2891,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0436
+    ],
+    [
+     100,
+     0.0348
+    ],
+    [
+     300,
+     0.0304
+    ],
+    [
+     3000,
+     0.0256
+    ],
+    [
+     6000,
+     0.023
+    ],
+    [
+     9000,
+     0.0217
+    ]
+   ],
+   "p1": 0.0436,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA 25mV@(1mA) 30V 5V Fixed Over Current Protection、Over Temperature Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304271655_HXY-MOSFET-HT7550S_C5451783.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-HT7550S/C5451783",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-ht7550s_C5451783.html"
+  },
+  "C17702047": {
+   "code": "C17702047",
+   "model": "HT7536S",
+   "brand": "HXY MOSFET",
+   "stock": 276,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0534
+    ],
+    [
+     100,
+     0.0443
+    ],
+    [
+     300,
+     0.0397
+    ],
+    [
+     3000,
+     0.0262
+    ],
+    [
+     6000,
+     0.0236
+    ],
+    [
+     9000,
+     0.0222
+    ]
+   ],
+   "p1": 0.0534,
+   "desc": "-40℃~+85℃@(Ta) 1 1.5uA 100mA 25mV@(1mA) 3.6V 30V Fixed Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309121406_HXY-MOSFET-HT7536S_C17702047.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-HT7536S/C17702047",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-ht7536s_C17702047.html"
+  },
+  "C18057292": {
+   "code": "C18057292",
+   "model": "HT7540S",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 2554,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0387
+    ],
+    [
+     100,
+     0.0304
+    ],
+    [
+     300,
+     0.0262
+    ],
+    [
+     3000,
+     0.0231
+    ],
+    [
+     6000,
+     0.0207
+    ],
+    [
+     9000,
+     0.0194
+    ]
+   ],
+   "p1": 0.0387,
+   "desc": "-40℃~+85℃ 1 100mA 100mV 30V 3uA 4V Fixed Positive Short Circuit Protection SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "3uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "4V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406121609_UMW-Youtai-Semiconductor-Co---Ltd--HT7540S_C18057292.pdf",
+   "url": "https://jlcpcb.com/partdetail/19197673-HT7540S/C18057292",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ht7540s_C18057292.html"
+  },
+  "C22466410": {
+   "code": "C22466410",
+   "model": "HT7525S",
+   "brand": "TDSEMIC",
+   "stock": 14958,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0418
+    ],
+    [
+     100,
+     0.0329
+    ],
+    [
+     300,
+     0.0285
+    ],
+    [
+     3000,
+     0.0252
+    ],
+    [
+     6000,
+     0.0225
+    ],
+    [
+     9000,
+     0.0212
+    ]
+   ],
+   "p1": 0.0418,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2.5V 2mV@(1mA) 2uA 36V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "2mV@(1mA)",
+    "Output Voltage": "2.5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272332_TDSEMIC-HT7525S_C22466410.pdf",
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-HT7525S/C22466410",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tdsemic-ht7525s_C22466410.html"
+  },
+  "C22466411": {
+   "code": "C22466411",
+   "model": "HT7530S",
+   "brand": "TDSEMIC",
+   "stock": 1715,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0407
+    ],
+    [
+     200,
+     0.0318
+    ],
+    [
+     600,
+     0.0267
+    ],
+    [
+     3000,
+     0.0238
+    ],
+    [
+     9000,
+     0.0212
+    ],
+    [
+     21000,
+     0.0197
+    ]
+   ],
+   "p1": 0.0407,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2mV@(1mA) 2uA 36V 3V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "2mV@(1mA)",
+    "Output Voltage": "3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272332_TDSEMIC-HT7530S_C22466411.pdf",
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-HT7530S/C22466411",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tdsemic-ht7530s_C22466411.html"
+  },
+  "C22466412": {
+   "code": "C22466412",
+   "model": "HT7533S",
+   "brand": "TDSEMIC",
+   "stock": 29258,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0444
+    ],
+    [
+     100,
+     0.035
+    ],
+    [
+     300,
+     0.0303
+    ],
+    [
+     3000,
+     0.0267
+    ],
+    [
+     6000,
+     0.0238
+    ],
+    [
+     9000,
+     0.0225
+    ]
+   ],
+   "p1": 0.0444,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2mV@(1mA) 2uA 3.3V 36V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "2mV@(1mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272332_TDSEMIC-HT7533S_C22466412.pdf",
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-HT7533S/C22466412",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tdsemic-ht7533s_C22466412.html"
+  },
+  "C22466413": {
+   "code": "C22466413",
+   "model": "HT7536S",
+   "brand": "TDSEMIC",
+   "stock": 9498,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0379
+    ],
+    [
+     100,
+     0.0298
+    ],
+    [
+     300,
+     0.0259
+    ],
+    [
+     3000,
+     0.0228
+    ],
+    [
+     6000,
+     0.0204
+    ],
+    [
+     9000,
+     0.0192
+    ]
+   ],
+   "p1": 0.0379,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2mV@(1mA) 2uA 3.6V 36V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "2mV@(1mA)",
+    "Output Voltage": "3.6V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272332_TDSEMIC-HT7536S_C22466413.pdf",
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-HT7536S/C22466413",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tdsemic-ht7536s_C22466413.html"
+  },
+  "C22466414": {
+   "code": "C22466414",
+   "model": "HT7544S",
+   "brand": "TDSEMIC",
+   "stock": 3780,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0381
+    ],
+    [
+     100,
+     0.03
+    ],
+    [
+     300,
+     0.0259
+    ],
+    [
+     3000,
+     0.0228
+    ],
+    [
+     6000,
+     0.0205
+    ],
+    [
+     9000,
+     0.0192
+    ]
+   ],
+   "p1": 0.0381,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2mV@(1mA) 2uA 36V 4.4V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "2mV@(1mA)",
+    "Output Voltage": "4.4V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272332_TDSEMIC-HT7544S_C22466414.pdf",
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-HT7544S/C22466414",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tdsemic-ht7544s_C22466414.html"
+  },
+  "C22466415": {
+   "code": "C22466415",
+   "model": "HT7550S",
+   "brand": "TDSEMIC",
+   "stock": 14872,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0482
+    ],
+    [
+     100,
+     0.0379
+    ],
+    [
+     300,
+     0.0329
+    ],
+    [
+     3000,
+     0.029
+    ],
+    [
+     6000,
+     0.0259
+    ],
+    [
+     9000,
+     0.0244
+    ]
+   ],
+   "p1": 0.0482,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2mV@(1mA) 2uA 36V 5V Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2uA",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "2mV@(1mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272332_TDSEMIC-HT7550S_C22466415.pdf",
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-HT7550S/C22466415",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tdsemic-ht7550s_C22466415.html"
+  },
+  "C52817105": {
+   "code": "C52817105",
+   "model": "HT7533H",
+   "brand": "TECH PUBLIC",
+   "stock": 1302,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.08
+    ],
+    [
+     50,
+     0.0628
+    ],
+    [
+     150,
+     0.0543
+    ],
+    [
+     1000,
+     0.0478
+    ],
+    [
+     2000,
+     0.0426
+    ],
+    [
+     5000,
+     0.04
+    ]
+   ],
+   "p1": 0.08,
+   "desc": "-40℃~+125℃ 1 100mV@(10mA) 2.5uA 250mA 45V 45V 60dB@(1kHz) Fixed Positive Short Circuit Protection、Thermal shutdown SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(1kHz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "250mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "45V",
+    "Voltage Dropout": "100mV@(10mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-HT7533H/C52817105",
+   "lcsc_url": null
+  },
+  "C52817107": {
+   "code": "C52817107",
+   "model": "HT7550H",
+   "brand": "TECH PUBLIC",
+   "stock": 1492,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0812
+    ],
+    [
+     50,
+     0.0639
+    ],
+    [
+     150,
+     0.0553
+    ],
+    [
+     1000,
+     0.049
+    ],
+    [
+     2000,
+     0.0438
+    ],
+    [
+     5000,
+     0.0412
+    ]
+   ],
+   "p1": 0.0812,
+   "desc": "-40℃~+125℃ 1 100mV@(10mA) 2.5uA 250mA 45V 5V 60dB@(1kHz) Fixed Positive Short Circuit Protection、Thermal shutdown SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(1kHz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "2.5uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "45V",
+    "Output Current": "250mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV@(10mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-HT7550H/C52817107",
+   "lcsc_url": null
+  },
+  "C55089953": {
+   "code": "C55089953",
+   "model": "HT7550S",
+   "brand": "AOTE",
+   "stock": 1600,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0314
+    ],
+    [
+     200,
+     0.0244
+    ],
+    [
+     600,
+     0.0205
+    ],
+    [
+     3000,
+     0.0181
+    ],
+    [
+     9000,
+     0.0161
+    ],
+    [
+     21000,
+     0.015
+    ]
+   ],
+   "p1": 0.0314,
+   "desc": "SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-20℃~+125℃",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/AOTE-HT7550S/C55089953",
+   "lcsc_url": null
+  },
+  "C55089955": {
+   "code": "C55089955",
+   "model": "HT7544S",
+   "brand": "AOTE",
+   "stock": 2980,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0314
+    ],
+    [
+     200,
+     0.0244
+    ],
+    [
+     600,
+     0.0205
+    ],
+    [
+     3000,
+     0.0181
+    ],
+    [
+     9000,
+     0.0161
+    ],
+    [
+     21000,
+     0.015
+    ]
+   ],
+   "p1": 0.0314,
+   "desc": "SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-20℃~+125℃",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "4.4V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/AOTE-HT7544S/C55089955",
+   "lcsc_url": null
+  },
+  "C55089957": {
+   "code": "C55089957",
+   "model": "HT7536S",
+   "brand": "AOTE",
+   "stock": 2980,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0314
+    ],
+    [
+     200,
+     0.0244
+    ],
+    [
+     600,
+     0.0205
+    ],
+    [
+     3000,
+     0.0181
+    ],
+    [
+     9000,
+     0.0161
+    ],
+    [
+     21000,
+     0.015
+    ]
+   ],
+   "p1": 0.0314,
+   "desc": "SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-20℃~+125℃",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "3.6V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/AOTE-HT7536S/C55089957",
+   "lcsc_url": null
+  },
+  "C55089959": {
+   "code": "C55089959",
+   "model": "HT7533S",
+   "brand": "AOTE",
+   "stock": 2604,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0314
+    ],
+    [
+     200,
+     0.0244
+    ],
+    [
+     600,
+     0.0205
+    ],
+    [
+     3000,
+     0.0181
+    ],
+    [
+     9000,
+     0.0161
+    ],
+    [
+     21000,
+     0.015
+    ]
+   ],
+   "p1": 0.0314,
+   "desc": "SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-20℃~+125℃",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/AOTE-HT7533S/C55089959",
+   "lcsc_url": null
+  },
+  "C55089961": {
+   "code": "C55089961",
+   "model": "HT7530S",
+   "brand": "AOTE",
+   "stock": 2960,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0314
+    ],
+    [
+     200,
+     0.0244
+    ],
+    [
+     600,
+     0.0205
+    ],
+    [
+     3000,
+     0.0181
+    ],
+    [
+     9000,
+     0.0161
+    ],
+    [
+     21000,
+     0.015
+    ]
+   ],
+   "p1": 0.0314,
+   "desc": "SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-20℃~+125℃",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "3V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/AOTE-HT7530S/C55089961",
+   "lcsc_url": null
+  },
+  "C55089963": {
+   "code": "C55089963",
+   "model": "HT7525S",
+   "brand": "AOTE",
+   "stock": 2900,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.037
+    ],
+    [
+     200,
+     0.0291
+    ],
+    [
+     600,
+     0.0252
+    ],
+    [
+     3000,
+     0.0223
+    ],
+    [
+     9000,
+     0.0199
+    ],
+    [
+     21000,
+     0.0187
+    ]
+   ],
+   "p1": 0.037,
+   "desc": "-20℃~+125℃ 1 100mA 100mV 2.5V 36V 5uA Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-20℃~+125℃",
+    "standby current": "5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "36V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV",
+    "Output Voltage": "2.5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/AOTE-HT7525S/C55089963",
+   "lcsc_url": null
+  },
+  "C55376120": {
+   "code": "C55376120",
+   "model": "HT7530S",
+   "brand": "hongjiacheng",
+   "stock": 23,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.0615
+    ],
+    [
+     100,
+     0.0488
+    ],
+    [
+     300,
+     0.0426
+    ],
+    [
+     3000,
+     0.0378
+    ],
+    [
+     6000,
+     0.034
+    ],
+    [
+     9000,
+     0.0321
+    ]
+   ],
+   "p1": 0.0615,
+   "desc": "SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "30mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7530S/C55376120",
+   "lcsc_url": null
+  },
+  "C55376121": {
+   "code": "C55376121",
+   "model": "HT7550S",
+   "brand": "hongjiacheng",
+   "stock": 20,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.0615
+    ],
+    [
+     100,
+     0.0488
+    ],
+    [
+     300,
+     0.0426
+    ],
+    [
+     3000,
+     0.0378
+    ],
+    [
+     6000,
+     0.034
+    ],
+    [
+     9000,
+     0.0321
+    ]
+   ],
+   "p1": 0.0615,
+   "desc": "SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "30mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7550S/C55376121",
+   "lcsc_url": null
+  },
+  "C55376122": {
+   "code": "C55376122",
+   "model": "HT7533S",
+   "brand": "hongjiacheng",
+   "stock": 40,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3L",
+   "prices": [
+    [
+     1,
+     0.0615
+    ],
+    [
+     100,
+     0.0488
+    ],
+    [
+     300,
+     0.0426
+    ],
+    [
+     3000,
+     0.0378
+    ],
+    [
+     6000,
+     0.034
+    ],
+    [
+     9000,
+     0.0321
+    ]
+   ],
+   "p1": 0.0615,
+   "desc": "SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "30mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7533S/C55376122",
+   "lcsc_url": null
+  },
+  "C55586826": {
+   "code": "C55586826",
+   "model": "HT7525S",
+   "brand": "hongjiacheng",
+   "stock": 15,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0465
+    ],
+    [
+     100,
+     0.037
+    ],
+    [
+     300,
+     0.0322
+    ],
+    [
+     3000,
+     0.0287
+    ],
+    [
+     6000,
+     0.0257
+    ],
+    [
+     9000,
+     0.0243
+    ]
+   ],
+   "p1": 0.0465,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "30mV",
+    "Output Voltage": "2.5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7525S/C55586826",
+   "lcsc_url": null
+  },
+  "C55586827": {
+   "code": "C55586827",
+   "model": "HT7528S",
+   "brand": "hongjiacheng",
+   "stock": 2985,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0465
+    ],
+    [
+     100,
+     0.037
+    ],
+    [
+     300,
+     0.0322
+    ],
+    [
+     3000,
+     0.0287
+    ],
+    [
+     6000,
+     0.0257
+    ],
+    [
+     9000,
+     0.0243
+    ]
+   ],
+   "p1": 0.0465,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "30mV",
+    "Output Voltage": "2.8V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7528S/C55586827",
+   "lcsc_url": null
+  },
+  "C55591265": {
+   "code": "C55591265",
+   "model": "HT7530S",
+   "brand": "hongjiacheng",
+   "stock": 2960,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0465
+    ],
+    [
+     100,
+     0.037
+    ],
+    [
+     300,
+     0.0322
+    ],
+    [
+     3000,
+     0.0287
+    ],
+    [
+     6000,
+     0.0257
+    ],
+    [
+     9000,
+     0.0243
+    ]
+   ],
+   "p1": 0.0465,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "30mV",
+    "Output Voltage": "3V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7530S/C55591265",
+   "lcsc_url": null
+  },
+  "C55591266": {
+   "code": "C55591266",
+   "model": "HT7533S",
+   "brand": "hongjiacheng",
+   "stock": 2740,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0465
+    ],
+    [
+     100,
+     0.037
+    ],
+    [
+     300,
+     0.0322
+    ],
+    [
+     3000,
+     0.0287
+    ],
+    [
+     6000,
+     0.0257
+    ],
+    [
+     9000,
+     0.0243
+    ]
+   ],
+   "p1": 0.0465,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "30mV",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7533S/C55591266",
+   "lcsc_url": null
+  },
+  "C55591267": {
+   "code": "C55591267",
+   "model": "HT7550S",
+   "brand": "hongjiacheng",
+   "stock": 2917,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0465
+    ],
+    [
+     100,
+     0.037
+    ],
+    [
+     300,
+     0.0322
+    ],
+    [
+     3000,
+     0.0287
+    ],
+    [
+     6000,
+     0.0257
+    ],
+    [
+     9000,
+     0.0243
+    ]
+   ],
+   "p1": 0.0465,
+   "desc": "SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "-15℃~+70℃",
+    "standby current": "1.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "24V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "30mV",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HT7550S/C55591267",
+   "lcsc_url": null
+  },
+  "C5126723": {
+   "code": "C5126723",
+   "model": "HT7530A",
+   "brand": "Holtek Semicon",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-89-3 Tactile Switches ROHS",
+   "cat": "Tactile Switches",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT7530A/C5126723",
+   "lcsc_url": null
+  },
+  "C5366144": {
+   "code": "C5366144",
+   "model": "HT75H50",
+   "brand": "Holtek Semicon",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT89-5",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT89-5 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75H50/C5366144",
+   "lcsc_url": null
+  },
+  "C9900182688": {
+   "code": "C9900182688",
+   "model": "HT7550A",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-HT7550A/C9900182688",
+   "lcsc_url": null
+  },
+  "C9900244294": {
+   "code": "C9900244294",
+   "model": "HT7528S",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT-23-3 SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-HT7528S/C9900244294",
+   "lcsc_url": null
+  },
+  "C9900247640": {
+   "code": "C9900247640",
+   "model": "HT75H33",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT89-3L",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOT89-3L SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-HT75H33/C9900247640",
+   "lcsc_url": null
+  },
+  "C14289": {
+   "code": "C14289",
+   "model": "HT7533-1",
+   "brand": "Holtek Semicon",
+   "stock": 109067,
+   "type": "base",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1431
+    ],
+    [
+     50,
+     0.1153
+    ],
+    [
+     150,
+     0.1013
+    ],
+    [
+     1000,
+     0.088
+    ],
+    [
+     2000,
+     0.0797
+    ],
+    [
+     5000,
+     0.0755
+    ]
+   ],
+   "p1": 0.1431,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2.5uA 25mV@(1mA) 3.3V 30V Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2312191111_Holtek-Semicon-HT7533-1_C14289.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75331/C14289",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7533-1_C14289.html"
+  },
+  "C16106": {
+   "code": "C16106",
+   "model": "HT7550-1",
+   "brand": "Holtek Semicon",
+   "stock": 109016,
+   "type": "expand",
+   "pref": true,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1368
+    ],
+    [
+     50,
+     0.1127
+    ],
+    [
+     150,
+     0.1004
+    ],
+    [
+     1000,
+     0.0873
+    ],
+    [
+     2000,
+     0.0838
+    ],
+    [
+     5000,
+     0.0813
+    ]
+   ],
+   "p1": 0.1368,
+   "desc": "-40℃~+85℃@(Ta) 1 150mA 2.5uA 25mV@(1mA) 30V 5V Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031722_Holtek-Semicon-HT7550-1_C16106.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75501/C16106",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7550-1_C16106.html"
+  },
+  "C19990": {
+   "code": "C19990",
+   "model": "HT7530-1",
+   "brand": "Holtek Semicon",
+   "stock": 950,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.142
+    ],
+    [
+     50,
+     0.1116
+    ],
+    [
+     150,
+     0.0963
+    ],
+    [
+     1000,
+     0.081
+    ],
+    [
+     2000,
+     0.0719
+    ],
+    [
+     5000,
+     0.0672
+    ]
+   ],
+   "p1": 0.142,
+   "desc": "-40℃~+85℃@(Ta) 1 100mA 2.5uA 30V 30mV@(1mA) 3V Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "30mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031722_Holtek-Semicon-HT7530-1_C19990.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75301/C19990",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7530-1_C19990.html"
+  },
+  "C64551": {
+   "code": "C64551",
+   "model": "HT75C0-1",
+   "brand": "Holtek Semicon",
+   "stock": 28699,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1543
+    ],
+    [
+     50,
+     0.1246
+    ],
+    [
+     150,
+     0.1098
+    ],
+    [
+     1000,
+     0.0802
+    ],
+    [
+     2000,
+     0.0713
+    ],
+    [
+     5000,
+     0.0669
+    ]
+   ],
+   "p1": 0.1543,
+   "desc": "-40℃~+85℃ 1 12V 150mA 30V 55mV@(1mA) Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "55mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031724_Holtek-Semicon-HT75C0-1_C64551.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C01/C64551",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-1_C64551.html"
+  },
+  "C66186": {
+   "code": "C66186",
+   "model": "HT7530-1",
+   "brand": "Holtek Semicon",
+   "stock": 74,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1507
+    ],
+    [
+     50,
+     0.119
+    ],
+    [
+     150,
+     0.1054
+    ],
+    [
+     500,
+     0.0885
+    ],
+    [
+     3000,
+     0.0808
+    ],
+    [
+     6000,
+     0.0763
+    ]
+   ],
+   "p1": 0.1507,
+   "desc": "1 100mA 100mV@(1mA) 30V 3V Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3V",
+    "Voltage Dropout": "100mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031724_Holtek-Semicon-HT7530-1_C66186.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75301/C66186",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7530-1_C66186.html"
+  },
+  "C73718": {
+   "code": "C73718",
+   "model": "HT7544-1",
+   "brand": "Holtek Semicon",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1377
+    ],
+    [
+     50,
+     0.1096
+    ],
+    [
+     150,
+     0.0956
+    ],
+    [
+     1000,
+     0.0851
+    ],
+    [
+     2000,
+     0.0766
+    ],
+    [
+     5000,
+     0.0724
+    ]
+   ],
+   "p1": 0.1377,
+   "desc": "-40℃~+85℃ 1 100mA 2.5uA 25mV@(1mA) 30V 4.4V Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "4.4V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031724_Holtek-Semicon-HT7544-1_C73718.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75441/C73718",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7544-1_C73718.html"
+  },
+  "C75786": {
+   "code": "C75786",
+   "model": "HT75A0-2",
+   "brand": "Holtek Semicon",
+   "stock": 949,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1603
+    ],
+    [
+     50,
+     0.1269
+    ],
+    [
+     150,
+     0.1124
+    ],
+    [
+     1000,
+     0.0945
+    ],
+    [
+     2000,
+     0.0864
+    ],
+    [
+     5000,
+     0.0817
+    ]
+   ],
+   "p1": 0.1603,
+   "desc": "-40℃~+85℃ 1 10V 150mA 2.5uA 25mV@(1mA) 30V Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "10V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031725_Holtek-Semicon-HT75A0-2_C75786.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75A02/C75786",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75a0-2_C75786.html"
+  },
+  "C78876": {
+   "code": "C78876",
+   "model": "HT7536-1",
+   "brand": "Holtek Semicon",
+   "stock": 184,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.1483
+    ],
+    [
+     50,
+     0.1181
+    ],
+    [
+     150,
+     0.103
+    ],
+    [
+     1000,
+     0.0916
+    ],
+    [
+     2000,
+     0.0825
+    ],
+    [
+     5000,
+     0.0779
+    ]
+   ],
+   "p1": 0.1483,
+   "desc": "-40℃~+85℃ 1 100mA 2.5uA 25mV@(1mA) 3.6V 30V Fixed Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.6V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031725_Holtek-Semicon-HT7536-1_C78876.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75361/C78876",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7536-1_C78876.html"
+  },
+  "C81799": {
+   "code": "C81799",
+   "model": "HT7550-2",
+   "brand": "Holtek Semicon",
+   "stock": 39,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.2047
+    ],
+    [
+     50,
+     0.163
+    ],
+    [
+     150,
+     0.1451
+    ],
+    [
+     500,
+     0.1228
+    ],
+    [
+     3000,
+     0.1002
+    ],
+    [
+     6000,
+     0.0942
+    ]
+   ],
+   "p1": 0.2047,
+   "desc": "-40℃~+85℃@(Ta) 1 150mA 2.5uA 25mV@(1mA) 30V 5V Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031725_Holtek-Semicon-HT7550-2_C81799.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75502/C81799",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7550-2_C81799.html"
+  },
+  "C82217": {
+   "code": "C82217",
+   "model": "HT7533-2",
+   "brand": "Holtek Semicon",
+   "stock": 15183,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1653
+    ],
+    [
+     50,
+     0.1309
+    ],
+    [
+     150,
+     0.1161
+    ],
+    [
+     500,
+     0.0978
+    ],
+    [
+     3000,
+     0.0774
+    ],
+    [
+     6000,
+     0.0724
+    ]
+   ],
+   "p1": 0.1653,
+   "desc": "-40℃~+85℃ 1 100mA 2.5uA 25mV@(1mA) 3.3V 30V Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031725_Holtek-Semicon-HT7533-2_C82217.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75332/C82217",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7533-2_C82217.html"
+  },
+  "C89203": {
+   "code": "C89203",
+   "model": "HT7533-7",
+   "brand": "Holtek Semicon",
+   "stock": 8898,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1754
+    ],
+    [
+     10,
+     0.1395
+    ],
+    [
+     30,
+     0.1242
+    ],
+    [
+     100,
+     0.1049
+    ],
+    [
+     500,
+     0.0965
+    ],
+    [
+     1000,
+     0.0813
+    ]
+   ],
+   "p1": 0.1754,
+   "desc": "-40℃~+85℃ 1 100mA 10mV@(1mA) 2.5uA 3.3V 30V Fixed Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Enable control、Output discharge",
+    "Voltage Dropout": "10mV@(1mA)",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031726_Holtek-Semicon-HT7533-7_C89203.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75337/C89203",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7533-7_C89203.html"
+  },
+  "C94829": {
+   "code": "C94829",
+   "model": "HT7525-2",
+   "brand": "Holtek Semicon",
+   "stock": 2390,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1564
+    ],
+    [
+     50,
+     0.1238
+    ],
+    [
+     150,
+     0.1096
+    ],
+    [
+     500,
+     0.0922
+    ],
+    [
+     3000,
+     0.0844
+    ],
+    [
+     6000,
+     0.0797
+    ]
+   ],
+   "p1": 0.1564,
+   "desc": "-40℃~+85℃ 1 100mA 2.5V 2.5uA 30V 30mV@(1mA) Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "2.5V",
+    "Voltage Dropout": "30mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031726_Holtek-Semicon-HT7525-2_C94829.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75252/C94829",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7525-2_C94829.html"
+  },
+  "C95005": {
+   "code": "C95005",
+   "model": "HT75C0-2",
+   "brand": "Holtek Semicon",
+   "stock": 2419,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1641
+    ],
+    [
+     50,
+     0.1298
+    ],
+    [
+     150,
+     0.115
+    ],
+    [
+     500,
+     0.0966
+    ],
+    [
+     3000,
+     0.0885
+    ],
+    [
+     6000,
+     0.0836
+    ]
+   ],
+   "p1": 0.1641,
+   "desc": "-40℃~+85℃ 1 12V 150mA 2.5uA 25mV@(1mA) 30V Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031726_Holtek-Semicon-HT75C0-2_C95005.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C02/C95005",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-2_C95005.html"
+  },
+  "C97849": {
+   "code": "C97849",
+   "model": "HT7533-2",
+   "brand": "Holtek Semicon",
+   "stock": 76918,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1592
+    ],
+    [
+     50,
+     0.1296
+    ],
+    [
+     150,
+     0.1148
+    ],
+    [
+     1000,
+     0.0867
+    ],
+    [
+     2000,
+     0.0778
+    ],
+    [
+     5000,
+     0.0734
+    ]
+   ],
+   "p1": 0.1592,
+   "desc": "-40℃~+85℃ 1 100mA 2.5uA 3.3V 30V 55mV@(1mA) Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "55mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031726_Holtek-Semicon-HT7533-2_C97849.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75332/C97849",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7533-2_C97849.html"
+  },
+  "C98703": {
+   "code": "C98703",
+   "model": "ht7560-1",
+   "brand": "Holtek Semicon",
+   "stock": 3663,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.1319
+    ],
+    [
+     50,
+     0.1038
+    ],
+    [
+     150,
+     0.0898
+    ],
+    [
+     1000,
+     0.0792
+    ],
+    [
+     2000,
+     0.0708
+    ],
+    [
+     5000,
+     0.0665
+    ]
+   ],
+   "p1": 0.1319,
+   "desc": "-40℃~+85℃ 1 150mA 2.5uA 25mV@(1mA) 30V 6V Fixed Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "6V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031726_Holtek-Semicon-ht7560-1_C98703.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-ht75601/C98703",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7560-1_C98703.html"
+  },
+  "C105221": {
+   "code": "C105221",
+   "model": "HT7550-7",
+   "brand": "Holtek Semicon",
+   "stock": 13262,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1865
+    ],
+    [
+     50,
+     0.1496
+    ],
+    [
+     150,
+     0.1338
+    ],
+    [
+     500,
+     0.1142
+    ],
+    [
+     3000,
+     0.0978
+    ],
+    [
+     6000,
+     0.0924
+    ]
+   ],
+   "p1": 0.1865,
+   "desc": "-40℃~+85℃@(Ta) 1 10mV@(1mA) 150mA 30V 5V Fixed Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "-",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Enable control、Output discharge",
+    "Voltage Dropout": "10mV@(1mA)",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031721_Holtek-Semicon-HT7550-7_C105221.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75507/C105221",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht7550-7_C105221.html"
+  }
+ }
+}

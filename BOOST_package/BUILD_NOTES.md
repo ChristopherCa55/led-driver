@@ -35,8 +35,11 @@ are kept in `fab_2026-09-24/cost/` (limitedDNP), not developed further.
 
 ## Board
 
-- 8 layers, 1.6 mm nominal (JLCPCB stackup 1 oz outer / 1 oz inner, 1.654 mm copper + dielectric), written into
-  the board file. ENIG finish; every via epoxy filled and copper capped (fab drawing note 1).
+- Power board: 6 layers since 2026-10-02, on JLCPCB's stackup **JLC061611-7628D** (1 oz outer / 1 oz inner,
+  1.583 mm copper + dielectric; it must be specified at order), written into the board file. In1 is the GND plane;
+  5 V runs as tracks (`BOOST_split_boards/power6_2026-10-01/README.md`). ENIG finish; every via epoxy filled and copper capped (fab drawing note 1).
+- Control card: 6 layers since 2026-09-30, 1.6 mm nominal; since 2026-10-01 0.5 oz inner copper (JLCPCB's standard
+  6-layer 1 oz outer / 0.5 oz inner build, 1.547 mm). ENIG; vias epoxy filled and capped.
 - Every power pad is joined to its copper solidly, with no thermal reliefs: the TO-220 pins, L1, J1-J8, capacitor
   pads and shunts. This is deliberate, because spokes would carry up to 15.8 A.
 
@@ -147,17 +150,17 @@ Case floor tapped per `case_drilling_2026-09-15/` rev B (M3: 7.0 mm full thread;
    earlier note that M9 was under the card. Nothing on the boards taller than 3 mm comes within 4.0 mm of any tab
    screw; the closest are cans C69 (M1) and C71 (M9), 0.7 mm outside that radius.
 
-## Clearances measured in the 3D model (2026-09-24)
+## Clearances measured in the 3D model (2026-10-02)
 
-Full table in `assembly_3d_2026-09-24/CLEARANCES.md`. The model still shows the Essentra floor stud. Its hex is 6 mm across flats; the aluminium spacer that replaced it is 4.5 mm across, so no clearance gets worse. The items under 1 mm:
+Full table in `CLEARANCES.md` (this folder; built in `BOOST_split_boards/assembly_3d_2026-09-30/`). The model still shows the Essentra floor stud. Its hex is 6 mm across flats; the aluminium spacer that replaced it is 4.5 mm across, so no clearance gets worse. The items under 1 mm:
 
-- Lid to the card screw heads 0.65 mm, and to the SOIC-16 packages on the card top (U18, U28) 0.98 mm. The model uses
-  the board files' 1.654 mm thickness, 0.054 mm more than the nominal 1.6; nominal gives 0.70 and 1.03.
+- Lid to the card screw heads 0.77 mm, and to the SOIC-16 packages on the card top (U18, U28) 1.11 mm. The model uses
+  the board files' thicknesses (power 1.583 mm, card 1.547 mm); the fab tolerance is +/-10 %.
 - The standoff washers under the card come within 0.40-0.73 mm of card parts D6 (H1), R94 (H2), D3 (H3) and R84 (H4).
   They clear, but centre the washers on the screw.
 - The J9 wire bundle passes 0.39 mm from M10's screwdriver path (see the J9 routing note below).
 
-Every can clears the 2 mm vent rule at its datasheet maximum height (closest: 2.80 mm under U104 / U106 on the card).
+Every can clears the 2 mm vent rule at its datasheet maximum height (closest: 2.85 mm under U104 / U106 on the card).
 
 ## J9 (Arduino) wires
 
@@ -169,7 +172,8 @@ J9 is 11 soldered wires, 26-28 AWG stranded: **your own wires and plug** (2026-0
   - At 75 C inside the case it holds about 0.25 A and trips at about 0.49 A (Bourns MF-R thermal derating table).
   - The load is about 0.1 A.
 - **The 12 V -> 5 V buck at the Arduino end is your own compact 4 A module** (2026-09-25). It has to:
-  - regulate from 11-13 V in, and survive at least 20 V;
+  - regulate from about 9.5-13 V in, and survive at least 20 V. Since 2026-10-01 U16 is an MC7812, whose 12 V rail
+    sags to about 9.7-10.2 V near the end of a 4S discharge;
   - give 5.0 V +/-5 % out, at least 200 mA;
   - draw about 0.1 A input current.
 - **No extra input filter at the buck** (user decision, 2026-09-25): the module has its own input capacitors and draws
@@ -206,14 +210,14 @@ label before soldering. Colours accepted by the user 2026-09-23 (pin 9 red for 1
 | 10 | GND | GND | common ground (pad has thermal-relief spokes for hand soldering) | black |
 | 11 | INH | ARD_M1_INHIBIT | drive high to hold M1 off | pink (or white with a red marker) |
 
-**Pin 9 is 12 V** (from J11.19, the power board's 12 V LM2940 rail; schematic rev5). It powers the Arduino end:
+**Pin 9 is 12 V** (from J11.19, the power board's 12 V rail from U16, an MC7812 since 2026-10-01; schematic rev5). It powers the Arduino end:
 - It feeds a **12 V -> 5 V buck module at the Arduino**, and that buck makes the Arduino's 5 V. **Do not wire it to the
   Nano's VIN pin.**
 - Fit the **inline PTC (Bourns MF-R050, 0.5 A hold) at the card end** of the pin-9 wire.
 - **Twist the 12 V (pin 9, red) and GND (pin 10, black) wires together** along the run.
 - Why: the card's own 5 V comes from a 100 mA L78L05 (SOT-89) dropping 14 V. It cannot also carry an Arduino plus a
-  CAN transceiver (about 50 mA average, 120 mA peak) without overheating. The 12 V LM2940 (TO-263, 1 A) carries about
-  20 mA today, and adding 120 mA costs it about 0.24 W (user, 2026-09-23).
+  CAN transceiver (about 50 mA average, 120 mA peak) without overheating. The 12 V regulator U16 (TO-263, 1 A) carries
+  about 20 mA today, and adding 120 mA costs it about 0.24 W (user, 2026-09-23).
 - On the card, 12 V reaches J9.9 by a long route (88 mm, 0.3 mm track): about 0.1 ohm, 12-20 mV at 200 mA. Accepted
   2026-09-24.
 

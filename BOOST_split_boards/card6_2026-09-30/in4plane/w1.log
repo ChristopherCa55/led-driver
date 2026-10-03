@@ -1,0 +1,143 @@
+board rasterised in 1.9 s
+prot Current          track zone on In4.Cu/B.Cu, via zone all layers; 6 nets exempt in the track zone
+     Current          sensitive, 0.0 s
+prot Net-(U2-In+)     track zone on F.Cu/In4.Cu/B.Cu, via zone all layers; 9 nets exempt in the track zone
+     Net-(U2-In+)     sensitive, 0.0 s
+prot V_err            track zone on F.Cu/B.Cu, via zone all layers; 11 nets exempt in the track zone (logic nets only)
+     V_err            sensitive, 0.0 s
+ok   Net-(U4-In+)      10.1 mm, 2 via(s) 0.5/0.3, w 0.20, gap 3.8
+     Net-(U4-In+)     done in 0.1 s
+FAIL analog_5V: island 2 (187 cells; C37.2 U24.5) to island 6 (C32.1), gap 1.2 mm
+FAIL analog_5V: island 2 (187 cells; C37.2 U24.5) to island 3 (R96.1), gap 3.3 mm
+ok   analog_5V          4.6 mm, 2 via(s) 0.5/0.3, w 0.40, gap 3.6
+ok   analog_5V          6.0 mm, 2 via(s) 0.5/0.3, w 0.40, gap 4.8
+ok   analog_5V         13.9 mm, 2 via(s) 0.5/0.3, w 0.40, gap 4.9
+FAIL analog_5V: island 0 (2751 cells; U3.5 C37.2 U24.5 C66.1 +6) to island 3 (C32.1), gap 0.6 mm
+FAIL analog_5V: island 0 (2751 cells; U3.5 C37.2 U24.5 C66.1 +6) to island 2 (R96.1), gap 3.3 mm
+FAIL analog_5V: island 2 (75 cells; R96.1) to island 3 (C32.1), gap 6.5 mm
+ok   analog_5V         14.9 mm, 0 via(s), w 0.40, gap 11.7
+FAIL analog_5V: island 2 (84 cells; C32.1) to island 3 (R91.1), gap 14.5 mm
+FAIL analog_5V: island 1 (75 cells; R96.1) to island 3 (R91.1), gap 14.9 mm
+ok   analog_5V         24.9 mm, 5 via(s) 0.5/0.3, w 0.40, gap 15.2
+     analog_5V        done in 34.5 s (7 failed)
+ok   Voltage_err_2     18.6 mm, 2 via(s) 0.5/0.3, w 0.20, gap 10.4
+ok   Voltage_err_2     23.0 mm, 2 via(s) 0.5/0.3, w 0.20, gap 18.8
+     Voltage_err_2    done in 0.5 s
+ok   .1Vref_3           7.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 6.4
+ok   .1Vref_3          21.7 mm, 4 via(s) 0.5/0.3, w 0.20, gap 16.9
+     .1Vref_3         done in 0.4 s
+ok   Net-(D4-+)        69.1 mm, 5 via(s) 0.5/0.3, w 0.20, gap 20.5
+     Net-(D4-+)       done in 1.2 s
+ok   Net-(U7-In-)      15.3 mm, 2 via(s) 0.5/0.3, w 0.20, gap 10.3
+     Net-(U7-In-)     done in 0.2 s
+ok   Net-(U26B-P1B)    44.1 mm, 4 via(s) 0.5/0.3, w 0.20, gap 12.0
+     Net-(U26B-P1B)   done in 0.2 s
+rip  Net-(D26-+)      ripped analog_5V, but analog_5V then failed; undone
+rip  Net-(D26-+)      ripped analog_5V, .1Vref_3, Net-(U7-In-), but analog_5V then failed; undone
+rip  Net-(D26-+)      ripped analog_5V, but analog_5V then failed; undone
+FAIL Net-(D26-+): island 0 (81 cells; U24.1) to island 1 (R98.2 D26.2 C67.2), gap 4.9 mm
+     Net-(D26-+)      done in 61.0 s (1 failed)
+rip  Net-(U26A-P0B)   ripped and re-routed .1Vref_3
+     ok   .1Vref_3           8.4 mm, 1 via(s) 0.5/0.3, w 0.20, gap 6.4
+     ok   .1Vref_3          21.2 mm, 4 via(s) 0.5/0.3, w 0.15, gap 16.9
+     Net-(U26A-P0B)   done in 2.7 s
+ok   Vout_2            21.7 mm, 1 via(s) 0.5/0.3, w 0.15, gap 19.2
+     Vout_2           done in 0.4 s
+rip  IREF1_input      ripping Net-(U26A-P0B), Net-(D4-+), .1Vref_3 did not free a path
+rip  IREF1_input      ripping Net-(D4-+), Net-(U26A-P0B), .1Vref_3 did not free a path
+FAIL IREF1_input: island 0 (228 cells; J11.26) to island 1 (U26.12), gap 9.5 mm
+     IREF1_input      done in 10.1 s (1 failed)
+ok   Voltage_err_1      4.3 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.2
+ok   Voltage_err_1     15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 11.6
+     Voltage_err_1    done in 0.4 s
+ok   Net-(U3-In-)      33.8 mm, 4 via(s) 0.5/0.3, w 0.15, gap 6.9
+     Net-(U3-In-)     done in 1.6 s
+ok   Net-(U22-In+)      2.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 1.7
+     Net-(U22-In+)    done in 0.1 s
+rip  Vref_3           ripped and re-routed Net-(U26A-P0B), Net-(D4-+), Voltage_err_1
+     ok   Net-(D4-+)        69.1 mm, 5 via(s) 0.5/0.3, w 0.20, gap 20.5
+     ok   Net-(U26A-P0B)    49.7 mm, 5 via(s) 0.5/0.3, w 0.15, gap 12.7
+     ok   Voltage_err_1     11.5 mm, 1 via(s) 0.5/0.3, w 0.20, gap 1.2
+     ok   Voltage_err_1     15.2 mm, 2 via(s) 0.5/0.3, w 0.20, gap 11.6
+     Vref_3           done in 5.5 s
+ok   .1Vout_1           0.7 mm, 1 via(s) 0.5/0.3, w 0.20, gap 0.1
+     .1Vout_1         done in 0.1 s
+ok   Net-(D24-+)       31.5 mm, 2 via(s) 0.5/0.3, w 0.20, gap 13.4
+     Net-(D24-+)      done in 0.7 s
+rip  VerrGT0          ripped .1Vref_3, Net-(U26A-P0B), Net-(D4-+), analog_5V, but analog_5V then failed; undone
+rip  VerrGT0          ripped .1Vref_3, Net-(U26A-P0B), Net-(U22-In+), analog_5V, Net-(U26B-P1B), Net-(D4-+), but analog_5V then failed; undone
+rip  VerrGT0          ripped Net-(U26B-P1B), analog_5V, Vout_2, Net-(D4-+), Net-(U26A-P0B), Voltage_err_2, Net-(U7-In-), but analog_5V then failed; undone
+FAIL VerrGT0: island 0 (831 cells; U103.2 U102.5 U102.9) to island 1 (U101.1 U104.10), gap 29.2 mm
+     VerrGT0          done in 76.1 s (1 failed)
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), analog_5V, but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+FAIL 0err_hi: island 1 (706 cells; R66.1 D3.1) to island 3 (U4.1), gap 4.0 mm
+rip  0err_hi          ripped Net-(U4-In+), analog_5V, but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped analog_5V, Net-(U4-In+), but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+FAIL 0err_hi: island 2 (76 cells; R18.1) to island 3 (U4.1), gap 6.2 mm
+ok   0err_hi           21.5 mm, 2 via(s) 0.5/0.3, w 0.15, gap 8.1
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), analog_5V, but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+FAIL 0err_hi: island 1 (1076 cells; R66.1 R18.1 D3.1) to island 2 (U4.1), gap 0.4 mm
+ok   0err_hi           28.5 mm, 2 via(s) 0.5/0.3, w 0.20, gap 18.0
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), analog_5V, but Net-(U4-In+) then failed; undone
+rip  0err_hi          ripped Net-(U4-In+), but Net-(U4-In+) then failed; undone
+FAIL 0err_hi: island 0 (2426 cells; R66.1 D1.2 R18.1 D3.1 +1) to island 1 (U4.1), gap 0.4 mm
+     0err_hi          done in 38.8 s (4 failed)
+ok   Out-              20.4 mm, 3 via(s) 0.5/0.3, w 0.15, gap 16.3
+     Out-             done in 1.1 s
+rip  Net-(U103B-Y)    ripping analog_5V did not free a path
+rip  Net-(U103B-Y)    ripped 0err_hi, analog_5V, but analog_5V then failed; undone
+rip  Net-(U103B-Y)    ripped 0err_hi, Net-(U26B-P1B), analog_5V, Vout_2, Net-(D24-+), .1Vref_3, Net-(D4-+), Net-(U26A-P0B), .1Vout_1, but analog_5V then failed; undone
+FAIL Net-(U103B-Y): island 0 (115 cells; U103.6) to island 1 (U104.9), gap 31.0 mm
+     Net-(U103B-Y)    done in 61.7 s (1 failed)
+ok   Net-(D5--)        49.7 mm, 4 via(s) 0.5/0.3, w 0.20, gap 31.4
+     Net-(D5--)       done in 0.4 s
+ok   low_error_timeout  35.1 mm, 4 via(s) 0.5/0.3, w 0.20, gap 15.8
+     low_error_timeout done in 0.3 s
+ok   IREF1             72.5 mm, 4 via(s) 0.5/0.3, w 0.20, gap 17.8
+     IREF1            done in 1.9 s
+rip  ena_out_2        ripped Net-(U26B-P1B), Net-(D4-+), but Net-(D4-+) then failed; undone
+rip  ena_out_2        ripped Net-(U26A-P0B), Net-(D4-+), Net-(U26B-P1B), but Net-(U26B-P1B) then failed; undone
+rip  ena_out_2        ripped analog_5V, Net-(U26B-P1B), Net-(U26A-P0B), Net-(D4-+), but analog_5V then failed; undone
+FAIL ena_out_2: island 0 (610 cells; U102.12 J11.7) to island 1 (U104.12), gap 17.8 mm
+     ena_out_2        done in 24.3 s (1 failed)
+rip  Net-(U103A-A)    ripped analog_5V, Net-(U7-In-), .1Vref_3, but analog_5V then failed; undone
+rip  Net-(U103A-A)    ripped analog_5V, Net-(U7-In-), Voltage_err_2, Net-(U26A-P0B), low_error_timeout, .1Vref_3, 0err_hi, but analog_5V then failed; undone
+rip  Net-(U103A-A)    ripped IREF1, Net-(U7-In-), analog_5V, Net-(D5--), but analog_5V then failed; undone
+FAIL Net-(U103A-A): island 0 (118 cells; U18.4) to island 1 (U28.9 U103.1), gap 12.8 mm
+     Net-(U103A-A)    done in 47.3 s (1 failed)
+rip  Reset_raw        ripped 0err_hi, Net-(U3-In-), but 0err_hi then failed; undone
+rip  Reset_raw        ripped 0err_hi, Net-(U3-In-), but 0err_hi then failed; undone
+rip  Reset_raw        ripped 0err_hi, Net-(U4-In+), .1Vref_3, Net-(U3-In-), analog_5V, Voltage_err_1, Vref_3, .1Vout_1, but Net-(U4-In+) then failed; undone
+FAIL Reset_raw: island 0 (248 cells; U101.4) to island 1 (U5.1), gap 17.1 mm
+     Reset_raw        done in 36.3 s (1 failed)
+rip  Net-(U102D-Y)    ripped Net-(U26A-P0B), but Net-(U26A-P0B) then failed; undone
+rip  Net-(U102D-Y)    ripped Net-(U26A-P0B), analog_5V, but analog_5V then failed; undone
+rip  Net-(U102D-Y)    ripped Net-(U26B-P1B), low_error_timeout, analog_5V, Vout_2, Net-(U26A-P0B), Net-(D4-+), Out-, but analog_5V then failed; undone
+FAIL Net-(U102D-Y): island 0 (118 cells; U102.11) to island 1 (U104.5), gap 25.2 mm
+     Net-(U102D-Y)    done in 38.6 s (1 failed)
+ok   Net-(D20--)       12.7 mm, 2 via(s) 0.5/0.3, w 0.20, gap 10.6
+     Net-(D20--)      done in 0.2 s
+ok   ena_out_1         25.2 mm, 3 via(s) 0.5/0.3, w 0.20, gap 3.7
+     ena_out_1        done in 0.3 s
+rip  out_3_on         ripped Net-(U26A-P0B), but Net-(U26A-P0B) then failed; undone
+rip  out_3_on         ripped analog_5V, Net-(D4-+), Net-(U26A-P0B), but analog_5V then failed; undone
+rip  out_3_on         ripped analog_5V, Out-, Net-(D4-+), but analog_5V then failed; undone
+FAIL out_3_on: island 0 (226 cells; J11.8) to island 1 (U104.8), gap 15.0 mm
+     out_3_on         done in 43.4 s (1 failed)
+rip  SCL              ripped Voltage_err_1, .1Vref_3, analog_5V, but analog_5V then failed; undone
+rip  SCL              ripped .1Vref_3, Voltage_err_1, Net-(U26A-P0B), analog_5V, but analog_5V then failed; undone
+rip  SCL              ripped .1Vref_3, Net-(U26A-P0B), but Net-(U26A-P0B) then failed; undone
+FAIL SCL: island 0 (310 cells; J9.7) to island 1 (U26.5), gap 8.6 mm
+     SCL              done in 40.2 s (1 failed)
+rip  Net-(U26E-A1)    ripped Voltage_err_1, Net-(U26A-P0B), but Net-(U26A-P0B) then failed; undone
+rip  Net-(U26E-A1)    ripped Voltage_err_1, .1Vref_3, Net-(U26A-P0B), Vref_3, but .1Vref_3 then failed; undone
+rip  Net-(U26E-A1)    ripped Net-(U26A-P0B), .1Vref_3, but .1Vref_3 then failed; undone
+FAIL Net-(U26E-A1): island 0 (63 cells; U26.16) to island 1 (R99.1), gap 3.4 mm
+     Net-(U26E-A1)    done in 10.9 s (1 failed)
+tracks 950, vias 77, failures 22, 544 s

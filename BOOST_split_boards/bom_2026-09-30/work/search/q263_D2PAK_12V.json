@@ -1,0 +1,5618 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 15:32 Pacific Daylight Time",
+ "res": {
+  "C13456": {
+   "code": "C13456",
+   "model": "L7812CD2T-TR",
+   "brand": "STMicroelectronics",
+   "stock": 1080,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.4585
+    ],
+    [
+     10,
+     0.3561
+    ],
+    [
+     30,
+     0.3122
+    ],
+    [
+     100,
+     0.2569
+    ],
+    [
+     500,
+     0.2325
+    ],
+    [
+     1000,
+     0.2179
+    ]
+   ],
+   "p1": 0.4585,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 35V 60dB@(120Hz) 6mA Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "-",
+    "Voltage - Supply": "35V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809221720_STMicroelectronics-L7812CD2T-TR_C13456.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-L7812CD2TTR/C13456",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_stmicroelectronics-l7812cd2t-tr_C13456.html"
+  },
+  "C27631": {
+   "code": "C27631",
+   "model": "AMS1086CM-5.0",
+   "brand": "Advanced Monolithic Systems",
+   "stock": 399,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.0632
+    ],
+    [
+     10,
+     0.8698
+    ],
+    [
+     30,
+     0.7739
+    ],
+    [
+     100,
+     0.6796
+    ],
+    [
+     500,
+     0.5772
+    ],
+    [
+     1000,
+     0.5479
+    ]
+   ],
+   "p1": 1.0632,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 1.5A 1.5V@(1.5A) 12V 5V 5mA 68dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "68dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "12V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1.5V@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Advanced-Monolithic-Systems-AMS1086CM-5-0_C27631.pdf",
+   "url": "https://jlcpcb.com/partdetail/28381-AMS1086CM_50/C27631",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_advanced-monolithic-systems-ams1086cm-5-0_C27631.html"
+  },
+  "C27632": {
+   "code": "C27632",
+   "model": "AMS1086CM-3.3",
+   "brand": "Advanced Monolithic Systems",
+   "stock": 44,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.1754
+    ],
+    [
+     10,
+     0.9754
+    ],
+    [
+     30,
+     0.8665
+    ],
+    [
+     100,
+     0.743
+    ],
+    [
+     500,
+     0.6893
+    ],
+    [
+     1000,
+     0.6633
+    ]
+   ],
+   "p1": 1.1754,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 1.5A 1.5V@(1.5A) 12V 3.3V 5mA 72dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "12V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.5V@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201813_Advanced-Monolithic-Systems-AMS1086CM-3-3_C27632.pdf",
+   "url": "https://jlcpcb.com/partdetail/28382-AMS1086CM_33/C27632",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_advanced-monolithic-systems-ams1086cm-3-3_C27632.html"
+  },
+  "C32696": {
+   "code": "C32696",
+   "model": "AMS1085cm",
+   "brand": "Advanced Monolithic Systems",
+   "stock": 580,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.06
+    ],
+    [
+     10,
+     0.8812
+    ],
+    [
+     30,
+     0.782
+    ],
+    [
+     100,
+     0.6714
+    ],
+    [
+     500,
+     0.621
+    ],
+    [
+     1000,
+     0.5999
+    ]
+   ],
+   "p1": 1.06,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 1.3V@(3A) 12V 3.267V~3.333V 3A 5mA 75dB@(120Hz) Adjustable Positive Short Circuit Protection、Thermal shutdown TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "75dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "12V",
+    "Output Type": "Adjustable",
+    "Output Current": "3A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.267V~3.333V",
+    "Voltage Dropout": "1.3V@(3A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Advanced-Monolithic-Systems-AMS1085cm_C32696.pdf",
+   "url": "https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1085cm/C32696",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_advanced-monolithic-systems-ams1085cm_C32696.html"
+  },
+  "C38744": {
+   "code": "C38744",
+   "model": "MC7812CD2TR4G",
+   "brand": "onsemi",
+   "stock": 5552,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.4991
+    ],
+    [
+     10,
+     0.387
+    ],
+    [
+     30,
+     0.3382
+    ],
+    [
+     100,
+     0.2797
+    ],
+    [
+     500,
+     0.252
+    ],
+    [
+     800,
+     0.2358
+    ]
+   ],
+   "p1": 0.4991,
+   "desc": "0℃~+125℃@(Tj) 1 12V 1A 27V 2V@(1A) 3.4mA 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "27V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MC7812CD2TR4G_C38744.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812CD2TR4G/C38744",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812cd2tr4g_C38744.html"
+  },
+  "C45908": {
+   "code": "C45908",
+   "model": "AMS1085CM-3.3",
+   "brand": "Advanced Monolithic Systems",
+   "stock": 517,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.2518
+    ],
+    [
+     10,
+     1.0405
+    ],
+    [
+     30,
+     0.9234
+    ],
+    [
+     100,
+     0.7917
+    ],
+    [
+     500,
+     0.7332
+    ],
+    [
+     1000,
+     0.7072
+    ]
+   ],
+   "p1": 1.2518,
+   "desc": "-40℃~+125℃@(Tj) 0.003%Vout 1 1.3V@(3A) 12V 3.3V 3A 5mA 72dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "12V",
+    "Output Type": "Fixed",
+    "Output Current": "3A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.3V@(3A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201810_Advanced-Monolithic-Systems-AMS1085CM-3-3_C45908.pdf",
+   "url": "https://jlcpcb.com/partdetail/46911-AMS1085CM_33/C45908",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_advanced-monolithic-systems-ams1085cm-3-3_C45908.html"
+  },
+  "C54614": {
+   "code": "C54614",
+   "model": "L7812ACD2T-TR",
+   "brand": "STMicroelectronics",
+   "stock": 1919,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.9917
+    ],
+    [
+     10,
+     0.8551
+    ],
+    [
+     30,
+     0.7852
+    ],
+    [
+     100,
+     0.7186
+    ],
+    [
+     500,
+     0.569
+    ],
+    [
+     1000,
+     0.5479
+    ]
+   ],
+   "p1": 0.9917,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 35V 60dB@(120Hz) 6mA Fixed Over Temperature Protection、Short Circuit Protection、Thermal Shutdown Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "-",
+    "Voltage - Supply": "35V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809042033_STMicroelectronics-L7812ACD2T-TR_C54614.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-L7812ACD2TTR/C54614",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_stmicroelectronics-l7812acd2t-tr_C54614.html"
+  },
+  "C57134": {
+   "code": "C57134",
+   "model": "L7912CD2T-TR",
+   "brand": "STMicroelectronics",
+   "stock": 2134,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.873
+    ],
+    [
+     10,
+     0.704
+    ],
+    [
+     30,
+     0.6194
+    ],
+    [
+     100,
+     0.5349
+    ],
+    [
+     500,
+     0.4487
+    ],
+    [
+     1000,
+     0.4227
+    ]
+   ],
+   "p1": 0.873,
+   "desc": "0℃~+150℃@(Tj) 1 1.1V@(1A) 1.5A 12V 200uV 35V 3mA 60dB@(120Hz) Fixed Negative Over Temperature Protection、Short Circuit Protection TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3mA",
+    "Operating Temperature": "0℃~+150℃@(Tj)",
+    "Noise": "200uV",
+    "Voltage - Supply": "35V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Negative",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191911_STMicroelectronics-L7912CD2T-TR_C57134.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-L7912CD2TTR/C57134",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_stmicroelectronics-l7912cd2t-tr_C57134.html"
+  },
+  "C70352": {
+   "code": "C70352",
+   "model": "LM2576D2TR4-012G",
+   "brand": "onsemi",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "D2PAK-5",
+   "prices": [
+    [
+     1,
+     3.3733
+    ],
+    [
+     10,
+     3.2887
+    ],
+    [
+     30,
+     3.2335
+    ],
+    [
+     100,
+     3.1782
+    ],
+    [
+     102,
+     3.1782
+    ],
+    [
+     104,
+     3.1782
+    ]
+   ],
+   "p1": 3.3733,
+   "desc": "-40℃~+125℃@(TJ) 1 12V 3A 52kHz 5mA 7V~40V Buck Buck Built-in Fixed No D2PAK-5 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃@(TJ)",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "52kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "7V~40V",
+    "Output Current": "3A",
+    "Quiescent Current": "5mA",
+    "Features": "Overcurrent Protection、Cycle-by-cycle current limiting",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_onsemi-LM2576D2TR4-012G_C70352.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-LM2576D2TR4012G/C70352",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_onsemi-lm2576d2tr4-012g_C70352.html"
+  },
+  "C85072": {
+   "code": "C85072",
+   "model": "LM2679SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 45,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-7",
+   "prices": [
+    [
+     1,
+     8.4128
+    ],
+    [
+     10,
+     7.2261
+    ],
+    [
+     30,
+     6.5043
+    ],
+    [
+     100,
+     5.8979
+    ],
+    [
+     102,
+     5.8979
+    ],
+    [
+     104,
+     5.8979
+    ]
+   ],
+   "p1": 8.4128,
+   "desc": "-40℃~+125℃@(TJ) 1 12V 260kHz 5A 6mA 8V~40V Buck Buck Built-in Fixed No TO-263-7 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃@(TJ)",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "260kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "8V~40V",
+    "Output Current": "5A",
+    "Quiescent Current": "6mA",
+    "Features": "Adjustable soft-start、Adjustable current limiting",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2679SX-12-NOPB_C85072.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2679SX_12NOPB/C85072",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_texas-instruments-lm2679sx-12-nopb_C85072.html"
+  },
+  "C126016": {
+   "code": "C126016",
+   "model": "LM1085R-3.3",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 2200,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.7202
+    ],
+    [
+     10,
+     0.582
+    ],
+    [
+     30,
+     0.5121
+    ],
+    [
+     100,
+     0.4439
+    ],
+    [
+     500,
+     0.4016
+    ],
+    [
+     800,
+     0.3805
+    ]
+   ],
+   "p1": 0.7202,
+   "desc": "-10℃~+70℃@(Ta) 1 1.5V@(3A) 12V 3.3V 3A 5mA 65dB Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "65dB",
+    "Operating Temperature": "-10℃~+70℃@(Ta)",
+    "standby current": "5mA",
+    "Noise": "-",
+    "Voltage - Supply": "12V",
+    "Output Type": "Fixed",
+    "Output Current": "3A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.5V@(3A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HTC-Korea-TAEJIN-Tech-LM1085R-3-3_C126016.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM1085R_33/C126016",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm1085r-3-3_C126016.html"
+  },
+  "C126017": {
+   "code": "C126017",
+   "model": "LM1085R-ADJ",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 770,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.8405
+    ],
+    [
+     10,
+     0.6568
+    ],
+    [
+     30,
+     0.5642
+    ],
+    [
+     100,
+     0.4731
+    ],
+    [
+     500,
+     0.4195
+    ],
+    [
+     800,
+     0.3918
+    ]
+   ],
+   "p1": 0.8405,
+   "desc": "-10℃~+70℃@(Ta) 0.003%Vout 1 1.25V~10V 1.5V@(3A) 12V 3A 5mA 75dB@(120Hz) Adjustable Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "75dB@(120Hz)",
+    "Operating Temperature": "-10℃~+70℃@(Ta)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "12V",
+    "Output Type": "Adjustable",
+    "Output Current": "3A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "1.25V~10V",
+    "Voltage Dropout": "1.5V@(3A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191824_HTC-Korea-TAEJIN-Tech-LM1085R-ADJ_C126017.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM1085RADJ/C126017",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm1085r-adj_C126017.html"
+  },
+  "C130908": {
+   "code": "C130908",
+   "model": "LM1085IS-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1473,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     2.6401
+    ],
+    [
+     10,
+     2.3377
+    ],
+    [
+     45,
+     1.9996
+    ],
+    [
+     90,
+     1.8061
+    ],
+    [
+     450,
+     1.7184
+    ],
+    [
+     900,
+     1.681
+    ]
+   ],
+   "p1": 2.6401,
+   "desc": "-40℃~+125℃@(Tj) 1 1.5V@(3A) 12V 25V 3A 5mA 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "25V",
+    "Output Type": "Fixed",
+    "Output Current": "3A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.5V@(3A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM1085IS-12-NOPB_C130908.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM1085IS_12NOPB/C130908",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm1085is-12-nopb_C130908.html"
+  },
+  "C131916": {
+   "code": "C131916",
+   "model": "LM2940SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.2463
+    ],
+    [
+     10,
+     3.6513
+    ],
+    [
+     30,
+     3.2985
+    ],
+    [
+     100,
+     2.8173
+    ],
+    [
+     500,
+     2.6531
+    ],
+    [
+     1000,
+     2.5783
+    ]
+   ],
+   "p1": 4.2463,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 66dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown、Input undervoltage protection、Input overvoltage protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940SX-12-NOPB_C131916.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_12NOPB/C131916",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-12-nopb_C131916.html"
+  },
+  "C131946": {
+   "code": "C131946",
+   "model": "UA7812CKTTR",
+   "brand": "Texas Instruments",
+   "stock": 4476,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-3(TO-263-3)",
+   "prices": [
+    [
+     1,
+     0.8405
+    ],
+    [
+     10,
+     0.7105
+    ],
+    [
+     30,
+     0.6194
+    ],
+    [
+     100,
+     0.5446
+    ],
+    [
+     500,
+     0.5203
+    ],
+    [
+     1000,
+     0.5056
+    ]
+   ],
+   "p1": 0.8405,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 4.3mA 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection Positive DDPAK-3(TO-263-3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-UA7812CKTTR_C131946.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA7812CKTTR/C131946",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua7812ckttr_C131946.html"
+  },
+  "C145151": {
+   "code": "C145151",
+   "model": "CJ7812",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 1598,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2L",
+   "prices": [
+    [
+     1,
+     0.3408
+    ],
+    [
+     50,
+     0.2704
+    ],
+    [
+     150,
+     0.2402
+    ],
+    [
+     800,
+     0.2024
+    ],
+    [
+     2400,
+     0.1857
+    ],
+    [
+     4800,
+     0.1756
+    ]
+   ],
+   "p1": 0.3408,
+   "desc": "-25℃~+125℃ 1 1.5A 12V 2V@(1A) 35V 4.3mA 71dB@(120Hz) Fixed Positive TO-263-2L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "-25℃~+125℃",
+    "Noise": "-",
+    "Voltage - Supply": "35V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291522_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJ7812_C145151.pdf",
+   "url": "https://jlcpcb.com/partdetail/156483-CJ7812/C145151",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_jiangsu-changjing-electronics-technology-co-ltd-cj7812_C145151.html"
+  },
+  "C152478": {
+   "code": "C152478",
+   "model": "MC7812ABD2TR4G",
+   "brand": "onsemi",
+   "stock": 803,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.7397
+    ],
+    [
+     10,
+     0.595
+    ],
+    [
+     30,
+     0.5235
+    ],
+    [
+     100,
+     0.452
+    ],
+    [
+     500,
+     0.4097
+    ],
+    [
+     800,
+     0.387
+    ]
+   ],
+   "p1": 0.7397,
+   "desc": "-40℃~+125℃@(Tj) 1 10uVrms 12V 1A 2V@(1A) 3.4mA 30V 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "10uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MC7812ABD2TR4G_C152478.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812ABD2TR4G/C152478",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812abd2tr4g_C152478.html"
+  },
+  "C181451": {
+   "code": "C181451",
+   "model": "LM2990SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 27,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-3(TO-263-3)",
+   "prices": [
+    [
+     1,
+     4.5372
+    ],
+    [
+     10,
+     3.9049
+    ],
+    [
+     30,
+     3.5293
+    ],
+    [
+     100,
+     3.1506
+    ],
+    [
+     500,
+     2.975
+    ],
+    [
+     1000,
+     2.8953
+    ]
+   ],
+   "p1": 4.5372,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A、1.8A 26V 500uV 58dB@(1kHz) 600mV@(1A) 9mA Fixed Negative Over Current Protection、Short Circuit Protection、Thermal shutdown DDPAK-3(TO-263-3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "58dB@(1kHz)",
+    "standby current": "9mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "500uV",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A、1.8A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "600mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2990SX-12-NOPB_C181451.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2990SX_12NOPB/C181451",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2990sx-12-nopb_C181451.html"
+  },
+  "C185502": {
+   "code": "C185502",
+   "model": "MC7812ACD2TR4G",
+   "brand": "onsemi",
+   "stock": 167,
+   "type": "expand",
+   "pref": false,
+   "pkg": "D2PAK",
+   "prices": [
+    [
+     1,
+     0.7413
+    ],
+    [
+     10,
+     0.7251
+    ],
+    [
+     30,
+     0.7137
+    ],
+    [
+     100,
+     0.7023
+    ],
+    [
+     102,
+     0.7023
+    ],
+    [
+     104,
+     0.7023
+    ]
+   ],
+   "p1": 0.7413,
+   "desc": "0℃~+125℃@(Tj) 1 12V 1A 2V@(1A) 3.4mA 35V 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive D2PAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203210916_onsemi-MC7812ACD2TR4G_C185502.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812ACD2TR4G/C185502",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812acd2tr4g_C185502.html"
+  },
+  "C186698": {
+   "code": "C186698",
+   "model": "L7812ABD2T-TR",
+   "brand": "STMicroelectronics",
+   "stock": 3740,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.8698
+    ],
+    [
+     10,
+     0.6926
+    ],
+    [
+     30,
+     0.6048
+    ],
+    [
+     100,
+     0.517
+    ],
+    [
+     500,
+     0.4634
+    ],
+    [
+     1000,
+     0.4357
+    ]
+   ],
+   "p1": 0.8698,
+   "desc": "-40℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 35V 4.4mA 60dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "4.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "35V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-L7812ABD2T-TR_C186698.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-L7812ABD2TTR/C186698",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_stmicroelectronics-l7812abd2t-tr_C186698.html"
+  },
+  "C220014": {
+   "code": "C220014",
+   "model": "MIC29150-12WU",
+   "brand": "Microchip Tech",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     6.0491
+    ],
+    [
+     10,
+     5.9093
+    ],
+    [
+     50,
+     5.7126
+    ],
+    [
+     100,
+     5.6199
+    ],
+    [
+     102,
+     5.6199
+    ],
+    [
+     104,
+     5.6199
+    ]
+   ],
+   "p1": 6.0491,
+   "desc": "-40℃~+125℃@(Tj) 1 1.5A 12V 20mA 26V 400uVrms 600mV@(1.5A) Fixed Over Current Protection、Thermal Shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "400uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Input overvoltage protection、Operating status indication、Reverse-polarity current protection",
+    "Voltage Dropout": "600mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MIC29150-12WU_C220014.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MIC2915012WU/C220014",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microchip-tech-mic29150-12wu_C220014.html"
+  },
+  "C222174": {
+   "code": "C222174",
+   "model": "L4940D2T12-TR",
+   "brand": "STMicroelectronics",
+   "stock": 79,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     1.2664
+    ],
+    [
+     10,
+     1.0518
+    ],
+    [
+     30,
+     0.9332
+    ],
+    [
+     100,
+     0.8015
+    ],
+    [
+     500,
+     0.7413
+    ],
+    [
+     1000,
+     0.7153
+    ]
+   ],
+   "p1": 1.2664,
+   "desc": "-40℃~+150℃@(Tj) 1 1.5A 12V 17V 30mA 500mV@(1.5A) 61dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "61dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "17V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-L4940D2T12-TR_C222174.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-L4940D2T12TR/C222174",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_stmicroelectronics-l4940d2t12-tr_C222174.html"
+  },
+  "C231294": {
+   "code": "C231294",
+   "model": "MC7812BD2TR4G",
+   "brand": "onsemi",
+   "stock": 2024,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.5316
+    ],
+    [
+     10,
+     0.4227
+    ],
+    [
+     30,
+     0.3772
+    ],
+    [
+     100,
+     0.3203
+    ],
+    [
+     500,
+     0.2943
+    ],
+    [
+     800,
+     0.278
+    ]
+   ],
+   "p1": 0.5316,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 27V 2V@(1.0A) 3.4mA 60dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "27V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2210210200_onsemi-MC7812BD2TR4G_C231294.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812BD2TR4G/C231294",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812bd2tr4g_C231294.html"
+  },
+  "C259971": {
+   "code": "C259971",
+   "model": "LM1084S-ADJ/TR",
+   "brand": "HGSEMI",
+   "stock": 488,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.328
+    ],
+    [
+     50,
+     0.2543
+    ],
+    [
+     150,
+     0.2226
+    ],
+    [
+     500,
+     0.1964
+    ],
+    [
+     2500,
+     0.1789
+    ],
+    [
+     5000,
+     0.1683
+    ]
+   ],
+   "p1": 0.328,
+   "desc": "0.003%Vout 0℃~+125℃@(Tj) 1 1.25V~10V 1.5V@(5A) 12V 5A 5mA 72dB@(120Hz) Adjustable Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "1.25V~10V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2209211400_HGSEMI-LM1084S-ADJ-TR_C259971.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM1084S_ADJTR/C259971",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm1084s-adj-tr_C259971.html"
+  },
+  "C259973": {
+   "code": "C259973",
+   "model": "LM1084S-5.0/TR",
+   "brand": "HGSEMI",
+   "stock": 1840,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3426
+    ],
+    [
+     50,
+     0.2688
+    ],
+    [
+     150,
+     0.2372
+    ],
+    [
+     500,
+     0.1891
+    ],
+    [
+     2500,
+     0.1715
+    ],
+    [
+     5000,
+     0.161
+    ]
+   ],
+   "p1": 0.3426,
+   "desc": "0.003%Vout 0℃~+125℃@(Tj) 1 1.5V@(5A) 12V 5A 5V 5mA 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Voltage - Supply": "12V",
+    "Output Type": "Fixed",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2209211400_HGSEMI-LM1084S-5-0-TR_C259973.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM1084S_5_0TR/C259973",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm1084s-5-0-tr_C259973.html"
+  },
+  "C262795": {
+   "code": "C262795",
+   "model": "LM1084R-3.3",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 792,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.7365
+    ],
+    [
+     10,
+     0.6015
+    ],
+    [
+     30,
+     0.5349
+    ],
+    [
+     100,
+     0.4682
+    ],
+    [
+     500,
+     0.4276
+    ],
+    [
+     800,
+     0.4065
+    ]
+   ],
+   "p1": 0.7365,
+   "desc": "-40℃~+125℃@(Tj) 1 1.3V@(5A) 12V 3.3V 5A 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection、Thermal Shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.3V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810141506_HTC-Korea-TAEJIN-Tech-LM1084R-3-3_C262795.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM1084R_33/C262795",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_htc-korea-taejin-tech-lm1084r-3-3_C262795.html"
+  },
+  "C327494": {
+   "code": "C327494",
+   "model": "MC7912BD2TR4G",
+   "brand": "onsemi",
+   "stock": 7041,
+   "type": "expand",
+   "pref": false,
+   "pkg": "D2PAK",
+   "prices": [
+    [
+     1,
+     0.5235
+    ],
+    [
+     10,
+     0.4113
+    ],
+    [
+     30,
+     0.3642
+    ],
+    [
+     100,
+     0.304
+    ],
+    [
+     500,
+     0.2764
+    ],
+    [
+     800,
+     0.2602
+    ]
+   ],
+   "p1": 0.5235,
+   "desc": "-40℃~+125℃@(Tj) 1 1.3V@(1A) 12V 1A 35V 4.4mA 61dB@(120Hz) 75uV Fixed Negative Over Current Protection、Over Temperature Protection、Short Circuit Protection D2PAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "61dB@(120Hz)",
+    "standby current": "4.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "35V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.3V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MC7912BD2TR4G_C327494.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7912BD2TR4G/C327494",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7912bd2tr4g_C327494.html"
+  },
+  "C347301": {
+   "code": "C347301",
+   "model": "AMS1084CM-3.3(UMW)",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 762,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3709
+    ],
+    [
+     50,
+     0.2902
+    ],
+    [
+     150,
+     0.2558
+    ],
+    [
+     800,
+     0.2091
+    ],
+    [
+     2400,
+     0.1899
+    ],
+    [
+     4800,
+     0.1785
+    ]
+   ],
+   "p1": 0.3709,
+   "desc": "0.003%Vout 0℃~+125℃@(Tj) 1 1.5V@(5A) 12V 3.3V 5mA 6.5A 72dB@(120Hz) Fixed Over Current Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "6.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2311091734_UMW-Youtai-Semiconductor-Co---Ltd--AMS1084CM-3-3_C347301.pdf",
+   "url": "https://jlcpcb.com/partdetail/323961-AMS1084CM_3_3_UMW/C347301",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-ams1084cm-3-3_C347301.html"
+  },
+  "C493502": {
+   "code": "C493502",
+   "model": "AP1084KG-13",
+   "brand": "Diodes Incorporated",
+   "stock": 273,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.5918
+    ],
+    [
+     10,
+     0.4812
+    ],
+    [
+     30,
+     0.426
+    ],
+    [
+     100,
+     0.3707
+    ],
+    [
+     500,
+     0.3382
+    ],
+    [
+     800,
+     0.3203
+    ]
+   ],
+   "p1": 0.5918,
+   "desc": "0℃~+125℃@(Tj) 1 1.4V@(5A) 10mA 12V 5A Adjustable Over Current Protection、Over Temperature Protection Positive TO-263 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "10mA",
+    "Noise": "-",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "-",
+    "Voltage Dropout": "1.4V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP1084KG-13_C493502.pdf",
+   "url": "https://jlcpcb.com/partdetail/DiodesIncorporated-AP1084KG13/C493502",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_diodes-incorporated-ap1084kg-13_C493502.html"
+  },
+  "C512786": {
+   "code": "C512786",
+   "model": "LM350S/TR",
+   "brand": "HGSEMI",
+   "stock": 400,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.5739
+    ],
+    [
+     10,
+     0.4682
+    ],
+    [
+     30,
+     0.4162
+    ],
+    [
+     100,
+     0.3626
+    ],
+    [
+     500,
+     0.3008
+    ],
+    [
+     1000,
+     0.2845
+    ]
+   ],
+   "p1": 0.5739,
+   "desc": "0.003%Vout 0℃~+125℃@(Tj) 1 1.5V@(5A) 10mA 12V 3A 72dB@(120Hz) Adjustable Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "10mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "3A",
+    "Features": "Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "-",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212132130_HGSEMI-LM350S-TR_C512786.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM350STR/C512786",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm350s-tr_C512786.html"
+  },
+  "C882833": {
+   "code": "C882833",
+   "model": "LM2677SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     11.1163
+    ],
+    [
+     10,
+     9.5881
+    ],
+    [
+     30,
+     8.6566
+    ],
+    [
+     100,
+     7.8747
+    ],
+    [
+     102,
+     7.8747
+    ],
+    [
+     104,
+     7.8747
+    ]
+   ],
+   "p1": 11.1163,
+   "desc": "-40℃~+125℃@(TJ) 1 12V 260kHz 5A 8V~40V Buck Buck Built-in Fixed No TO-263 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃@(TJ)",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "260kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "8V~40V",
+    "Output Current": "5A",
+    "Quiescent Current": "4.2mA",
+    "Features": "Overcurrent Protection、Frequency synchronization",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302221801_Texas-Instruments-LM2677SX-12-NOPB_C882833.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2677SX_12NOPB/C882833",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_texas-instruments-lm2677sx-12-nopb_C882833.html"
+  },
+  "C2863136": {
+   "code": "C2863136",
+   "model": "LM2673SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 10,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-7",
+   "prices": [
+    [
+     1,
+     7.7024
+    ],
+    [
+     10,
+     7.5236
+    ],
+    [
+     30,
+     7.4033
+    ],
+    [
+     100,
+     7.2846
+    ],
+    [
+     102,
+     7.2846
+    ],
+    [
+     104,
+     7.2846
+    ]
+   ],
+   "p1": 7.7024,
+   "desc": "-40℃~+125℃@(TJ) 1 12V 260kHz 3A 8V~40V Buck Buck Built-in Fixed No TO-263-7 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃@(TJ)",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "260kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "8V~40V",
+    "Output Current": "3A",
+    "Quiescent Current": "4.2mA",
+    "Features": "Adjustable soft-start、Adjustable current limiting",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010800_Texas-Instruments-LM2673SX-12-NOPB_C2863136.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2673SX_12NOPB/C2863136",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_texas-instruments-lm2673sx-12-nopb_C2863136.html"
+  },
+  "C2865267": {
+   "code": "C2865267",
+   "model": "LM2940CS-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 7,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.7079
+    ],
+    [
+     10,
+     4.1438
+    ],
+    [
+     30,
+     3.8561
+    ],
+    [
+     100,
+     3.4708
+    ],
+    [
+     500,
+     3.3326
+    ],
+    [
+     1000,
+     3.2741
+    ]
+   ],
+   "p1": 4.7079,
+   "desc": "-40℃~+125℃@(Ta) 1 12V 1A 1V@(1A) 26V 30mA 360uVrms 54dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220730_Texas-Instruments-LM2940CS-12-NOPB_C2865267.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_12NOPB/C2865267",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-12-nopb_C2865267.html"
+  },
+  "C2870248": {
+   "code": "C2870248",
+   "model": "LM7812SX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1185,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     1.3477
+    ],
+    [
+     10,
+     1.1917
+    ],
+    [
+     30,
+     1.0811
+    ],
+    [
+     100,
+     0.9819
+    ],
+    [
+     500,
+     0.9348
+    ],
+    [
+     1000,
+     0.9169
+    ]
+   ],
+   "p1": 1.3477,
+   "desc": "0℃~+125℃@(Ta) 1 1.5A 12V 27V 2V@(1A) 55dB@(120Hz) 75uV 8mA Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "standby current": "8mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "27V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010330_Texas-Instruments-LM7812SX-NOPB_C2870248.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM7812SXNOPB/C2870248",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm7812sx-nopb_C2870248.html"
+  },
+  "C2872299": {
+   "code": "C2872299",
+   "model": "LM2676SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 21,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-7",
+   "prices": [
+    [
+     1,
+     3.4416
+    ],
+    [
+     10,
+     2.9555
+    ],
+    [
+     30,
+     2.6661
+    ],
+    [
+     100,
+     2.3085
+    ],
+    [
+     500,
+     2.1735
+    ],
+    [
+     1000,
+     2.1134
+    ]
+   ],
+   "p1": 3.4416,
+   "desc": "-40℃~+125℃@(TJ) 1 12V 260kHz 3A 6mA 8V~40V Buck Buck Built-in Fixed Yes TO-263-7 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃@(TJ)",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "Yes",
+    "Frequency - Switching": "260kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "8V~40V",
+    "Output Current": "3A",
+    "Quiescent Current": "6mA",
+    "Features": "Overcurrent Protection、Cycle-by-cycle current limiting",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302212109_Texas-Instruments-LM2676SX-12-NOPB_C2872299.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2676SX_12NOPB/C2872299",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_texas-instruments-lm2676sx-12-nopb_C2872299.html"
+  },
+  "C2872525": {
+   "code": "C2872525",
+   "model": "LM2937ESX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 10,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.3568
+    ],
+    [
+     10,
+     3.835
+    ],
+    [
+     30,
+     3.5684
+    ],
+    [
+     100,
+     3.2123
+    ],
+    [
+     500,
+     3.0839
+    ],
+    [
+     1000,
+     3.0303
+    ]
+   ],
+   "p1": 4.3568,
+   "desc": "-40℃~+125℃@(Ta) 1 12V 1V@(500mA) 20mA 26V 360uVrms 500mA Fixed Over Current Protection、Over Temperature Protection、Reverse connection protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "360uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010200_Texas-Instruments-LM2937ESX-12-NOPB_C2872525.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2937ESX_12NOPB/C2872525",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2937esx-12-nopb_C2872525.html"
+  },
+  "C2873055": {
+   "code": "C2873055",
+   "model": "LM2670S-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-7",
+   "prices": [
+    [
+     1,
+     4.5828
+    ],
+    [
+     10,
+     4.4755
+    ],
+    [
+     45,
+     4.4039
+    ],
+    [
+     90,
+     4.3324
+    ],
+    [
+     92,
+     4.3324
+    ],
+    [
+     94,
+     4.3324
+    ]
+   ],
+   "p1": 4.5828,
+   "desc": "-40℃~+125℃@(TJ) 1 12V 260kHz 3A 8V~40V Buck Buck Built-in Fixed TO-263-7 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃@(TJ)",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "260kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "8V~40V",
+    "Output Current": "3A",
+    "Quiescent Current": "4.2mA",
+    "Features": "Overcurrent Protection、Frequency synchronization",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302212109_Texas-Instruments-LM2670S-12-NOPB_C2873055.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2670S_12NOPB/C2873055",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_texas-instruments-lm2670s-12-nopb_C2873055.html"
+  },
+  "C2877347": {
+   "code": "C2877347",
+   "model": "LM2940S-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.5795
+    ],
+    [
+     10,
+     4.0837
+    ],
+    [
+     30,
+     3.7667
+    ],
+    [
+     100,
+     3.4611
+    ],
+    [
+     102,
+     3.4611
+    ],
+    [
+     104,
+     3.4611
+    ]
+   ],
+   "p1": 4.5795,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 15mA 1A 1V@(1A) 240uVrms 26V 54dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220530_Texas-Instruments-LM2940S-12-NOPB_C2877347.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_12NOPB/C2877347",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-12-nopb_C2877347.html"
+  },
+  "C5145275": {
+   "code": "C5145275",
+   "model": "LM7812D2TRG",
+   "brand": "HANSCHIP semiconductor",
+   "stock": 884,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.2496
+    ],
+    [
+     50,
+     0.1964
+    ],
+    [
+     150,
+     0.1735
+    ],
+    [
+     500,
+     0.1387
+    ],
+    [
+     2500,
+     0.126
+    ],
+    [
+     5000,
+     0.1184
+    ]
+   ],
+   "p1": 0.2496,
+   "desc": "0℃~+125℃ 1 1.2A 12V 35V 75uV Fixed Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.2A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/HANSCHIPsemiconductor-LM7812D2TRG/C5145275",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hanschip-semiconductor-lm7812d2trg_C5145275.html"
+  },
+  "C5240482": {
+   "code": "C5240482",
+   "model": "LM2592HVS-12(UMW)",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 573,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.7072
+    ],
+    [
+     10,
+     0.6292
+    ],
+    [
+     30,
+     0.5885
+    ],
+    [
+     100,
+     0.5495
+    ],
+    [
+     500,
+     0.5008
+    ],
+    [
+     1000,
+     0.4894
+    ]
+   ],
+   "p1": 0.7072,
+   "desc": "-40℃~+125℃ 1 12V 150kHz 2A 60V 80uA Buck Buck Built-in Fixed No TO-263 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "150kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "60V",
+    "Output Current": "2A",
+    "Quiescent Current": "80uA",
+    "Features": "Overcurrent Protection",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311091743_UMW-Youtai-Semiconductor-Co---Ltd--LM2592HVS-12_C5240482.pdf",
+   "url": "https://jlcpcb.com/partdetail/5945116-LM2592HVS_12_UMW/C5240482",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_umw-youtai-semiconductor-co-ltd-lm2592hvs-12_C5240482.html"
+  },
+  "C5365579": {
+   "code": "C5365579",
+   "model": "LM2595S-12(UMW)",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 541,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.4325
+    ],
+    [
+     10,
+     0.3837
+    ],
+    [
+     30,
+     0.3577
+    ],
+    [
+     100,
+     0.3333
+    ],
+    [
+     500,
+     0.3089
+    ],
+    [
+     1000,
+     0.3008
+    ]
+   ],
+   "p1": 0.4325,
+   "desc": "-40℃~+125℃ 1 10mA 12V 150kHz 2A 4.5V~40V Buck Buck Built-in Fixed No TO-263 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "150kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "4.5V~40V",
+    "Output Current": "2A",
+    "Quiescent Current": "10mA",
+    "Features": "Overcurrent Protection",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403141545_UMW-Youtai-Semiconductor-Co---Ltd--LM2595S-12_C5365579.pdf",
+   "url": "https://jlcpcb.com/partdetail/6196874-LM2595S_12_UMW/C5365579",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_umw-youtai-semiconductor-co-ltd-lm2595s-12_C5365579.html"
+  },
+  "C6398169": {
+   "code": "C6398169",
+   "model": "LR7812-L",
+   "brand": "LR",
+   "stock": 199,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3436
+    ],
+    [
+     50,
+     0.2697
+    ],
+    [
+     150,
+     0.238
+    ],
+    [
+     800,
+     0.1987
+    ],
+    [
+     2400,
+     0.1811
+    ],
+    [
+     4800,
+     0.1706
+    ]
+   ],
+   "p1": 0.3436,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 71dB@(120Hz) 76uV Fixed Over Current Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "2mA",
+    "Noise": "76uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2305231109_LR-LR7812-L_C6398169.pdf",
+   "url": "https://jlcpcb.com/partdetail/LR-LR7812L/C6398169",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_lr-lr7812-l_C6398169.html"
+  },
+  "C7394044": {
+   "code": "C7394044",
+   "model": "L7812CD2T(UMW)",
+   "brand": "UMW(Youtai Semiconductor Co., Ltd.)",
+   "stock": 2704,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.2621
+    ],
+    [
+     50,
+     0.2036
+    ],
+    [
+     150,
+     0.1784
+    ],
+    [
+     800,
+     0.147
+    ],
+    [
+     2400,
+     0.1299
+    ],
+    [
+     4800,
+     0.1216
+    ]
+   ],
+   "p1": 0.2621,
+   "desc": "-40℃~+105℃ 1 1.2A 12V 35V 60dB@(120Hz) 6mA Fixed Over Current Protection、Thermal shutdown Positive TO-263 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "-40℃~+105℃",
+    "standby current": "6mA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.2A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312130943_UMW-Youtai-Semiconductor-Co---Ltd--L7812CD2T-UMW_C7394044.pdf",
+   "url": "https://jlcpcb.com/partdetail/8366077-L7812CD2T_UMW/C7394044",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_umw-youtai-semiconductor-co-ltd-l7812cd2t-umw_C7394044.html"
+  },
+  "C7432181": {
+   "code": "C7432181",
+   "model": "LM7812S2/TR",
+   "brand": "HGSEMI",
+   "stock": 784,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.2546
+    ],
+    [
+     50,
+     0.1972
+    ],
+    [
+     150,
+     0.1726
+    ],
+    [
+     500,
+     0.1545
+    ],
+    [
+     2500,
+     0.1408
+    ],
+    [
+     5000,
+     0.1327
+    ]
+   ],
+   "p1": 0.2546,
+   "desc": "0℃~+125℃@(Ta) 1 1.2A 12V 35V 55dB@(120Hz) 75uV Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.2A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403071643_HGSEMI-LM7812S2-TR_C7432181.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM7812S2TR/C7432181",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm7812s2-tr_C7432181.html"
+  },
+  "C7432224": {
+   "code": "C7432224",
+   "model": "LM7812CS/TR",
+   "brand": "HGSEMI",
+   "stock": 247,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3052
+    ],
+    [
+     50,
+     0.2397
+    ],
+    [
+     150,
+     0.2115
+    ],
+    [
+     500,
+     0.1765
+    ],
+    [
+     2500,
+     0.161
+    ],
+    [
+     5000,
+     0.1516
+    ]
+   ],
+   "p1": 0.3052,
+   "desc": "0℃~+125℃@(Ta) 1 1.5A 12V 35V 55dB@(120Hz) 75uV Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031725_HGSEMI-LM7812CS-TR_C7432224.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM7812CSTR/C7432224",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm7812cs-tr_C7432224.html"
+  },
+  "C7432235": {
+   "code": "C7432235",
+   "model": "LM7812CS2/TR",
+   "brand": "HGSEMI",
+   "stock": 578,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.3052
+    ],
+    [
+     50,
+     0.2397
+    ],
+    [
+     150,
+     0.2115
+    ],
+    [
+     500,
+     0.1765
+    ],
+    [
+     2500,
+     0.161
+    ],
+    [
+     5000,
+     0.1516
+    ]
+   ],
+   "p1": 0.3052,
+   "desc": "0℃~+125℃ 1 1.5A 12V 35V 55dB@(120Hz) 75uV Fixed Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406061602_HGSEMI-LM7812CS2-TR_C7432235.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM7812CS2TR/C7432235",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm7812cs2-tr_C7432235.html"
+  },
+  "C7434823": {
+   "code": "C7434823",
+   "model": "LM2575GR-12",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 825,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.9868
+    ],
+    [
+     10,
+     0.7982
+    ],
+    [
+     30,
+     0.7023
+    ],
+    [
+     100,
+     0.608
+    ],
+    [
+     500,
+     0.5479
+    ],
+    [
+     800,
+     0.5186
+    ]
+   ],
+   "p1": 0.9868,
+   "desc": "-40℃~+125℃ 1 12V 1A 40V 52kHz 5mA Buck Buck Built-in Fixed No TO-263 DC-DC Converters ROHS",
+   "cat": "DC-DC Converters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Function": "Step-down type",
+    "Synchronous Rectifier": "No",
+    "Frequency - Switching": "52kHz",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "40V",
+    "Output Current": "1A",
+    "Quiescent Current": "5mA",
+    "Features": "Overcurrent Protection",
+    "Switch tube (built-in/external)": "Built-in",
+    "Topology": "Buck",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309271039_HTC-Korea-TAEJIN-Tech-LM2575GR-12_C7434823.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-LM2575GR12/C7434823",
+   "lcsc_url": "https://www.lcsc.com/product-detail/dc-dc-converters_htc-korea-taejin-tech-lm2575gr-12_C7434823.html"
+  },
+  "C7525417": {
+   "code": "C7525417",
+   "model": "L7812ABD2T(TOKMAS)",
+   "brand": "Tokmas",
+   "stock": 105,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.3291
+    ],
+    [
+     50,
+     0.2595
+    ],
+    [
+     150,
+     0.2296
+    ],
+    [
+     800,
+     0.1877
+    ],
+    [
+     2400,
+     0.171
+    ],
+    [
+     4800,
+     0.161
+    ]
+   ],
+   "p1": 0.3291,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 2V@(1A) 35V 5.1mA 64dB@(120Hz) 76uV Fixed Over Temperature Protection、Short Circuit Protection Positive TO-263 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "standby current": "5.1mA",
+    "Operating Temperature": "-40℃~+125℃",
+    "Noise": "76uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401291750_Tokmas-L7812ABD2T-TOKMAS_C7525417.pdf",
+   "url": "https://jlcpcb.com/partdetail/Tokmas-L7812ABD2T_TOKMAS/C7525417",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tokmas-l7812abd2t-tokmas_C7525417.html"
+  },
+  "C19193518": {
+   "code": "C19193518",
+   "model": "LM1084IS-3.3/TR",
+   "brand": "HGSEMI",
+   "stock": 1102,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3346
+    ],
+    [
+     50,
+     0.2608
+    ],
+    [
+     150,
+     0.2293
+    ],
+    [
+     500,
+     0.1985
+    ],
+    [
+     2500,
+     0.181
+    ],
+    [
+     5000,
+     0.1705
+    ]
+   ],
+   "p1": 0.3346,
+   "desc": "-40℃~+85℃@(Tj) 0.003%Vout 1 1.5V@(5A) 12V 3.3V 5A 5mA 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+85℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403310800_HGSEMI-LM1084IS-3-3-TR_C19193518.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM1084IS_3_3TR/C19193518",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm1084is-3-3-tr_C19193518.html"
+  },
+  "C20613265": {
+   "code": "C20613265",
+   "model": "LM340S-12/TR",
+   "brand": "HGSEMI",
+   "stock": 99,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.2671
+    ],
+    [
+     50,
+     0.2098
+    ],
+    [
+     150,
+     0.1852
+    ],
+    [
+     500,
+     0.1545
+    ],
+    [
+     2500,
+     0.1408
+    ],
+    [
+     5000,
+     0.1327
+    ]
+   ],
+   "p1": 0.2671,
+   "desc": "-40℃~+85℃@(Ta) 1 12V 1A 35V 55dB@(120Hz) 75uV Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402021505_HGSEMI-LM340S-12-TR_C20613265.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM340S_12TR/C20613265",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm340s-12-tr_C20613265.html"
+  },
+  "C20622086": {
+   "code": "C20622086",
+   "model": "CJ7812B-TGN-ARG",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 161,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2L",
+   "prices": [
+    [
+     1,
+     0.2941
+    ],
+    [
+     50,
+     0.2285
+    ],
+    [
+     150,
+     0.2005
+    ],
+    [
+     800,
+     0.1653
+    ],
+    [
+     2400,
+     0.1498
+    ],
+    [
+     4800,
+     0.1403
+    ]
+   ],
+   "p1": 0.2941,
+   "desc": "-40℃~+125℃@(Tj) 1 10uVrms 12V 1A 2V@(1A) 3.4mA 32V 60dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown Positive TO-263-2L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "10uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "32V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402210952_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJ7812B-TGN-ARG_C20622086.pdf",
+   "url": "https://jlcpcb.com/partdetail/22010269-CJ7812B_TGNARG/C20622086",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_jiangsu-changjing-electronics-technology-co-ltd-cj7812b-tgn-arg_C20622086.html"
+  },
+  "C22357877": {
+   "code": "C22357877",
+   "model": "L7812CDTR(XBLW)",
+   "brand": "XBLW",
+   "stock": 447,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263",
+   "prices": [
+    [
+     1,
+     0.2148
+    ],
+    [
+     50,
+     0.1675
+    ],
+    [
+     150,
+     0.1473
+    ],
+    [
+     800,
+     0.1221
+    ],
+    [
+     2400,
+     0.1108
+    ],
+    [
+     4800,
+     0.1041
+    ]
+   ],
+   "p1": 0.2148,
+   "desc": "-20℃~+125℃@(Tj) 1 1.5A 12V 27V 2V@(500mA) 6mA 75uV 80dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown TO-263 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "Operating Temperature": "-20℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "27V",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403130950_XBLW-L7812CDTR-XBLW_C22357877.pdf",
+   "url": "https://jlcpcb.com/partdetail/XBLW-L7812CDTR_XBLW/C22357877",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_xblw-l7812cdtr-xblw_C22357877.html"
+  },
+  "C22446597": {
+   "code": "C22446597",
+   "model": "LM338S/TR",
+   "brand": "HGSEMI",
+   "stock": 351,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.7934
+    ],
+    [
+     10,
+     0.6389
+    ],
+    [
+     30,
+     0.5625
+    ],
+    [
+     100,
+     0.4845
+    ],
+    [
+     500,
+     0.439
+    ],
+    [
+     1000,
+     0.4162
+    ]
+   ],
+   "p1": 0.7934,
+   "desc": "0.003%Vout 0℃~+125℃@(Tj) 1 1.5V@(5A) 12V 5A 5mA 72dB@(120Hz) Adjustable Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "-",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406061553_HGSEMI-LM338S-TR_C22446597.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM338STR/C22446597",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm338s-tr_C22446597.html"
+  },
+  "C41360756": {
+   "code": "C41360756",
+   "model": "D1084SAD",
+   "brand": "Silicore",
+   "stock": 350,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3266
+    ],
+    [
+     50,
+     0.2517
+    ],
+    [
+     150,
+     0.2221
+    ],
+    [
+     500,
+     0.1854
+    ],
+    [
+     2500,
+     0.169
+    ],
+    [
+     5000,
+     0.1592
+    ]
+   ],
+   "p1": 0.3266,
+   "desc": "0℃~+125℃@(Tj) 1 1.25V~5.1V 1.3V@(5A) 12V 5A 72dB@(120Hz) Adjustable Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "1.25V~5.1V",
+    "Voltage Dropout": "1.3V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Silicore-D1084SAD/C41360756",
+   "lcsc_url": null
+  },
+  "C42370491": {
+   "code": "C42370491",
+   "model": "LM1084IS-3.3-TP",
+   "brand": "TECH PUBLIC",
+   "stock": 845,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.5203
+    ],
+    [
+     10,
+     0.4146
+    ],
+    [
+     30,
+     0.3674
+    ],
+    [
+     100,
+     0.3105
+    ],
+    [
+     500,
+     0.2862
+    ],
+    [
+     1000,
+     0.2699
+    ]
+   ],
+   "p1": 0.5203,
+   "desc": "0.003%Vout 0℃~+120℃@(Tj) 1 1.5V 12V 3.3V 5A 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+120℃@(Tj)",
+    "standby current": "-",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Voltage Dropout": "1.5V",
+    "Output Voltage": "3.3V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-LM1084IS_3_3TP/C42370491",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tech-public-lm1084is-3-3-tp_C42370491.html"
+  },
+  "C42370492": {
+   "code": "C42370492",
+   "model": "LM1084IS-5.0-TP",
+   "brand": "TECH PUBLIC",
+   "stock": 592,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.4894
+    ],
+    [
+     10,
+     0.3821
+    ],
+    [
+     30,
+     0.3366
+    ],
+    [
+     100,
+     0.2797
+    ],
+    [
+     500,
+     0.2553
+    ],
+    [
+     1000,
+     0.239
+    ]
+   ],
+   "p1": 0.4894,
+   "desc": "0℃~+120℃@(Tj) 1 1.5V@(5A) 12V 5A 5V 72dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+120℃@(Tj)",
+    "standby current": "-",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-LM1084IS_5_0TP/C42370492",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tech-public-lm1084is-5-0-tp_C42370492.html"
+  },
+  "C42370493": {
+   "code": "C42370493",
+   "model": "LM1084IS-ADJ-TP",
+   "brand": "TECH PUBLIC",
+   "stock": 823,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.5203
+    ],
+    [
+     10,
+     0.4146
+    ],
+    [
+     30,
+     0.3674
+    ],
+    [
+     100,
+     0.3105
+    ],
+    [
+     500,
+     0.2862
+    ],
+    [
+     1000,
+     0.2699
+    ]
+   ],
+   "p1": 0.5203,
+   "desc": "0℃~+120℃@(Tj) 1 1.25V~15V 1.3V@(7.5A) 12V 5A 72dB@(120Hz) Adjustable Over Current Protection、Over Temperature Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "0℃~+120℃@(Tj)",
+    "standby current": "-",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Voltage Dropout": "1.3V@(7.5A)",
+    "Output Voltage": "1.25V~15V",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TECHPUBLIC-LM1084IS_ADJTP/C42370493",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_tech-public-lm1084is-adj-tp_C42370493.html"
+  },
+  "C52204659": {
+   "code": "C52204659",
+   "model": "L7812CD2TKT",
+   "brand": "GREENMICRO",
+   "stock": 306,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.2231
+    ],
+    [
+     50,
+     0.1748
+    ],
+    [
+     150,
+     0.1542
+    ],
+    [
+     1000,
+     0.1283
+    ],
+    [
+     2000,
+     0.1169
+    ],
+    [
+     5000,
+     0.1101
+    ]
+   ],
+   "p1": 0.2231,
+   "desc": "-40℃~+105℃ 1 1.2A 12V 2V@(500mA) 35V 6mA 75uV 80dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal shutdown TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "Operating Temperature": "-40℃~+105℃",
+    "standby current": "6mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.2A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GREENMICRO-L7812CD2TKT/C52204659",
+   "lcsc_url": null
+  },
+  "C52204662": {
+   "code": "C52204662",
+   "model": "L7912CD2TKT",
+   "brand": "GREENMICRO",
+   "stock": 545,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.2759
+    ],
+    [
+     50,
+     0.2185
+    ],
+    [
+     150,
+     0.194
+    ],
+    [
+     1000,
+     0.1633
+    ],
+    [
+     2000,
+     0.1498
+    ],
+    [
+     5000,
+     0.1415
+    ]
+   ],
+   "p1": 0.2759,
+   "desc": "-20℃~+125℃ 1 1.5A 1.5V@(1A) 12V 200uV 35V 7.8mA Fixed Negative Over Current Protection、Thermal shutdown TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "7.8mA",
+    "Operating Temperature": "-20℃~+125℃",
+    "Noise": "200uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "35V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Voltage Dropout": "1.5V@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GREENMICRO-L7912CD2TKT/C52204662",
+   "lcsc_url": null
+  },
+  "C53285985": {
+   "code": "C53285985",
+   "model": "LM1084ISX-3.3/NOPB-TUDI",
+   "brand": "Tudi",
+   "stock": 161,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.6178
+    ],
+    [
+     10,
+     0.4991
+    ],
+    [
+     30,
+     0.439
+    ],
+    [
+     100,
+     0.3805
+    ],
+    [
+     500,
+     0.3447
+    ],
+    [
+     1000,
+     0.3268
+    ]
+   ],
+   "p1": 0.6178,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 1.5V@(5A) 12V 3.3V 5A 5mA 72dB Fixed Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Tudi-LM1084ISX_3_3_NOPBTUDI/C53285985",
+   "lcsc_url": null
+  },
+  "C53285986": {
+   "code": "C53285986",
+   "model": "LM1084ISX-5.0/NOPB-TUDI",
+   "brand": "Tudi",
+   "stock": 92,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.608
+    ],
+    [
+     10,
+     0.4894
+    ],
+    [
+     30,
+     0.4308
+    ],
+    [
+     100,
+     0.3723
+    ],
+    [
+     500,
+     0.3366
+    ],
+    [
+     1000,
+     0.3187
+    ]
+   ],
+   "p1": 0.608,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 1.5V@(5A) 12V 5A 5V 5mA 72dB Fixed Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Tudi-LM1084ISX_5_0_NOPBTUDI/C53285986",
+   "lcsc_url": null
+  },
+  "C53285987": {
+   "code": "C53285987",
+   "model": "LM1084ISX-ADJ/NOPB-TUDI",
+   "brand": "Tudi",
+   "stock": 176,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.9007
+    ],
+    [
+     10,
+     0.7251
+    ],
+    [
+     30,
+     0.6373
+    ],
+    [
+     100,
+     0.5511
+    ],
+    [
+     500,
+     0.4991
+    ],
+    [
+     1000,
+     0.4715
+    ]
+   ],
+   "p1": 0.9007,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 1.5V@(5A) 12V 5A 5mA 72dB Adjustable Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "-",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Tudi-LM1084ISX_ADJ_NOPBTUDI/C53285987",
+   "lcsc_url": null
+  },
+  "C53285989": {
+   "code": "C53285989",
+   "model": "AMS1084CM-5.0-TUDI",
+   "brand": "Tudi",
+   "stock": 288,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.9137
+    ],
+    [
+     10,
+     0.7381
+    ],
+    [
+     30,
+     0.6503
+    ],
+    [
+     100,
+     0.5642
+    ],
+    [
+     500,
+     0.4764
+    ],
+    [
+     1000,
+     0.4487
+    ]
+   ],
+   "p1": 0.9137,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 12V 5A 5V 5mA 72dB Fixed Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "5V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Tudi-AMS1084CM_5_0TUDI/C53285989",
+   "lcsc_url": null
+  },
+  "C53285990": {
+   "code": "C53285990",
+   "model": "AMS1084CM-TUDI",
+   "brand": "Tudi",
+   "stock": 191,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.6731
+    ],
+    [
+     10,
+     0.5414
+    ],
+    [
+     30,
+     0.4747
+    ],
+    [
+     100,
+     0.4097
+    ],
+    [
+     500,
+     0.3707
+    ],
+    [
+     1000,
+     0.3496
+    ]
+   ],
+   "p1": 0.6731,
+   "desc": "-40℃~+125℃ 0.003%Vout 1 1.5V@(5A) 12V 3.3V 5A 5mA 72dB@(120Hz) Adjustable Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "5mA",
+    "Noise": "0.003%Vout",
+    "Output Type": "Adjustable",
+    "Voltage - Supply": "12V",
+    "Output Current": "5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "3.3V",
+    "Voltage Dropout": "1.5V@(5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Tudi-AMS1084CMTUDI/C53285990",
+   "lcsc_url": null
+  },
+  "C54795228": {
+   "code": "C54795228",
+   "model": "XBL29150S-12DTR",
+   "brand": "XBLW",
+   "stock": 292,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.7365
+    ],
+    [
+     10,
+     0.5967
+    ],
+    [
+     30,
+     0.5268
+    ],
+    [
+     100,
+     0.4569
+    ],
+    [
+     500,
+     0.4146
+    ],
+    [
+     800,
+     0.3935
+    ]
+   ],
+   "p1": 0.7365,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 26V 300mV@(1.5A) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "300mV@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/XBLW-XBL29150S12DTR/C54795228",
+   "lcsc_url": null
+  },
+  "C54795229": {
+   "code": "C54795229",
+   "model": "XBL29300S-12DTR",
+   "brand": "XBLW",
+   "stock": 258,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.7365
+    ],
+    [
+     10,
+     0.5967
+    ],
+    [
+     30,
+     0.5268
+    ],
+    [
+     100,
+     0.4569
+    ],
+    [
+     500,
+     0.4146
+    ],
+    [
+     800,
+     0.3935
+    ]
+   ],
+   "p1": 0.7365,
+   "desc": "-40℃~+125℃ 1 12V 26V 3A Fixed Over Current Protection、Thermal shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "3A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/XBLW-XBL29300S12DTR/C54795229",
+   "lcsc_url": null
+  },
+  "C13467": {
+   "code": "C13467",
+   "model": "HK4100F-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 41994,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,14.5x10.5mm",
+   "prices": [
+    [
+     1,
+     0.5284
+    ],
+    [
+     10,
+     0.4081
+    ],
+    [
+     25,
+     0.3561
+    ],
+    [
+     100,
+     0.291
+    ],
+    [
+     500,
+     0.2618
+    ],
+    [
+     1000,
+     0.2439
+    ]
+   ],
+   "p1": 0.5284,
+   "desc": "-25℃~+70℃ 100mΩ 12V 200mW 3A@30VDC、3A@250VAC 4ms 6ms 720Ω One set changeover: 1C (SPDT - changeover) DIP,14.5x10.5mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-25℃~+70℃",
+    "Switching Voltage(Max)": "30V@DC、250V@AC",
+    "Coil Resistance": "720Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "200mW",
+    "Length": "14.5mm",
+    "Operate Time": "6ms",
+    "Switching Current(Max)": "3A",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "-",
+    "Release Time": "4ms",
+    "Height": "-",
+    "Contact Rating": "3A@30VDC、3A@250VAC",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "10.5mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271707_Ningbo-Keke-New-Era-Appliance-HK4100F-DC12V-SHG_C13467.pdf",
+   "url": "https://jlcpcb.com/partdetail/14116-HK4100F_DC12VSHG/C13467",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-keke-new-era-appliance-hk4100f-dc12v-shg_C13467.html"
+  },
+  "C15118": {
+   "code": "C15118",
+   "model": "LM3Z12VT1G",
+   "brand": "LRC",
+   "stock": 16156,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-323",
+   "prices": [
+    [
+     1,
+     0.0283
+    ],
+    [
+     200,
+     0.0222
+    ],
+    [
+     600,
+     0.0187
+    ],
+    [
+     3000,
+     0.0149
+    ],
+    [
+     9000,
+     0.0131
+    ],
+    [
+     21000,
+     0.0121
+    ]
+   ],
+   "p1": 0.0283,
+   "desc": "-65℃~+150℃ 1 Independent 11.4V~12.7V 12V 200mW 25Ω 80Ω SOD-323 Zener Diodes ROHS",
+   "cat": "Zener Diodes",
+   "attrs": {
+    "Operating Junction Temperature Range": "-65℃~+150℃",
+    "Diode Configuration": "1 Independent",
+    "Impedance(Zzk)": "80Ω",
+    "Tolerance": "-",
+    "Impedance(Zzt)": "25Ω",
+    "Zener Voltage(Range)": "11.4V~12.7V",
+    "Zener Voltage(Nom)": "12V",
+    "Pd - Power Dissipation": "200mW",
+    "Reverse Leakage Current (Ir)": "100nA@8.0V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810111410_LRC-LM3Z12VT1G_C15118.pdf",
+   "url": "https://jlcpcb.com/partdetail/LRC-LM3Z12VT1G/C15118",
+   "lcsc_url": "https://www.lcsc.com/product-detail/zener-diodes_lrc-lm3z12vt1g_C15118.html"
+  },
+  "C15333": {
+   "code": "C15333",
+   "model": "JW1FSN-DC12V",
+   "brand": "PANASONIC",
+   "stock": 432,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,28.6x12.8mm",
+   "prices": [
+    [
+     1,
+     2.5491
+    ],
+    [
+     10,
+     2.2451
+    ],
+    [
+     30,
+     2.0549
+    ],
+    [
+     100,
+     1.8939
+    ],
+    [
+     500,
+     1.7883
+    ],
+    [
+     1000,
+     1.7427
+    ]
+   ],
+   "p1": 2.5491,
+   "desc": "-40℃~+60℃ 100mΩ 10A 10A@30VDC、10A@250VAC 12V 15ms 270Ω 30V@DC、250V@AC 530mW 5ms AgNi One set changeover: 1C (SPDT - changeover) 插件,28.6x12.8mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+60℃",
+    "Switching Voltage(Max)": "30V@DC、250V@AC",
+    "Coil Resistance": "270Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "530mW",
+    "Length": "28.6mm",
+    "Operate Time": "15ms",
+    "Switching Current(Max)": "10A",
+    "Coil Voltage": "12V",
+    "Contact Material": "AgNi",
+    "Number of Pins": "-",
+    "Release Time": "5ms",
+    "Contact Rating": "10A@30VDC、10A@250VAC",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "12.8mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809121815_PANASONIC-JW1FSN-DC12V_C15333.pdf",
+   "url": "https://jlcpcb.com/partdetail/PANASONIC-JW1FSNDC12V/C15333",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_panasonic-jw1fsn-dc12v_C15333.html"
+  },
+  "C22646": {
+   "code": "C22646",
+   "model": "CESD12VD3 ZC",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 56044,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-323",
+   "prices": [
+    [
+     1,
+     0.0298
+    ],
+    [
+     200,
+     0.0235
+    ],
+    [
+     600,
+     0.02
+    ],
+    [
+     3000,
+     0.0162
+    ],
+    [
+     9000,
+     0.0144
+    ],
+    [
+     21000,
+     0.0134
+    ]
+   ],
+   "p1": 0.0298,
+   "desc": "1 12V 16.5V 1uA 220W@8/20us 24V 45pF 9A@8/20us ESD IEC 61000-4-2 Unidirectional SOD-323 ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Type": "ESD",
+    "Junction Capacitance": "45pF",
+    "Peak Pulse Power Dissipation (Ppp)": "220W@8/20us",
+    "Number of Channels": "1",
+    "level of protection": "IEC 61000-4-2",
+    "Clamping Voltage": "24V",
+    "Polarity": "Unidirectional",
+    "Peak Pulse Current (Ipp)": "9A@8/20us",
+    "Voltage - Breakdown": "16.5V",
+    "Reverse Stand-Off Voltage (Vrwm)": "12V",
+    "Reverse Leakage Current (Ir)": "1uA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810161811_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CESD12VD3-ZC_C22646.pdf",
+   "url": "https://jlcpcb.com/partdetail/23373-CESD12VD3ZC/C22646",
+   "lcsc_url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_jiangsu-changjing-electronics-technology-co-ltd-cesd12vd3-zc_C22646.html"
+  },
+  "C28138": {
+   "code": "C28138",
+   "model": "SMI-12VDC-SL-C10A250VAC",
+   "brand": "Ningbo Songle Relay",
+   "stock": 416,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,29.2x13mm",
+   "prices": [
+    [
+     1,
+     1.0957
+    ],
+    [
+     10,
+     0.9088
+    ],
+    [
+     30,
+     0.8047
+    ],
+    [
+     100,
+     0.7609
+    ],
+    [
+     500,
+     0.7088
+    ],
+    [
+     1000,
+     0.6844
+    ]
+   ],
+   "p1": 1.0957,
+   "desc": "-40℃~+85℃ 100mΩ 10A 10ms 10ms 12V 200Ω 250V@AC 5 540mW Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) DIP,29.2x13mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "250V@AC",
+    "Coil Resistance": "200Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "540mW",
+    "Length": "29.2mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "10A",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "10ms",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Contact Rating": "-",
+    "Width": "13mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271710_Ningbo-Songle-Relay-SMI-12VDC-SL-C10A250VAC_C28138.pdf",
+   "url": "https://jlcpcb.com/partdetail/28888-SMI_12VDC_SLC10A250VAC/C28138",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-smi-12vdc-sl-c10a250vac_C28138.html"
+  },
+  "C28410": {
+   "code": "C28410",
+   "model": "G6S-2-12V",
+   "brand": "Omron Electronics",
+   "stock": 10,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,14.8x7.3mm",
+   "prices": [
+    [
+     1,
+     1.0518
+    ],
+    [
+     10,
+     0.9397
+    ],
+    [
+     50,
+     0.834
+    ],
+    [
+     100,
+     0.756
+    ],
+    [
+     500,
+     0.7235
+    ],
+    [
+     1000,
+     0.7088
+    ]
+   ],
+   "p1": 1.0518,
+   "desc": "-40℃~+85℃ 1.028kΩ 12V 140mW 220V@DC、250V@AC 2A 500mA@125VAC、2A@30VDC 75mΩ 8 Two groups of conversions: 2C(Double-pole double-throw conversion) DIP,14.8x7.3mm Signal Relays ROHS",
+   "cat": "Signal Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "220V@DC、250V@AC",
+    "Coil Resistance": "1.028kΩ",
+    "Contact Form": "Two sets of changeover: 2C (DPDT)",
+    "Coil Rated Power": "140mW",
+    "Length": "14.8mm",
+    "Operate Time": "-",
+    "Switching Current(Max)": "2A",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "8",
+    "Release Time": "-",
+    "Height": "9.2mm",
+    "Coil Type": "-",
+    "Contact Rating": "500mA@125VAC、2A@30VDC",
+    "Contact Resistance": "75mΩ",
+    "Width": "7.3mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2408051703_Omron-Electronics-G6S-2-12V_C28410.pdf",
+   "url": "https://jlcpcb.com/partdetail/OmronElectronics-G6S_212V/C28410",
+   "lcsc_url": "https://www.lcsc.com/product-detail/signal-relays_omron-electronics-g6s-2-12v_C28410.html"
+  },
+  "C30382": {
+   "code": "C30382",
+   "model": "HRS4H-S-DC12V-C",
+   "brand": "Zhejiang HKE",
+   "stock": 1075,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,19x15.5mm",
+   "prices": [
+    [
+     1,
+     0.5463
+    ],
+    [
+     10,
+     0.4227
+    ],
+    [
+     25,
+     0.4178
+    ],
+    [
+     100,
+     0.3577
+    ],
+    [
+     500,
+     0.3219
+    ],
+    [
+     1000,
+     0.3024
+    ]
+   ],
+   "p1": 0.5463,
+   "desc": "-40℃~+85℃ 100mΩ 10ms 12V 15.5mm 15A 15A 19mm 28V@DC、250V@AC 360mW 400Ω 5 5ms One set of changeover: 1C (SPDT-changeover) Silver Alloy Plugin,19x15.5mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "28V@DC、250V@AC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "360mW",
+    "Length": "19mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "15A",
+    "Contact Material": "Silver Alloy",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "5ms",
+    "Contact Rating": "15A",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "15.5mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2302150930_Zhejiang-HKE-HRS4H-S-DC12V_C30382.pdf",
+   "url": "https://jlcpcb.com/partdetail/ZhejiangHKE-HRS4H_S_DC12VC/C30382",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_zhejiang-hke-hrs4h-s-dc12v_C30382.html"
+  },
+  "C30431": {
+   "code": "C30431",
+   "model": "SRD-12VDC-SL-C",
+   "brand": "Ningbo Songle Relay",
+   "stock": 194095,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,19.2x15.6mm",
+   "prices": [
+    [
+     1,
+     0.4374
+    ],
+    [
+     10,
+     0.3398
+    ],
+    [
+     30,
+     0.2927
+    ],
+    [
+     100,
+     0.2504
+    ],
+    [
+     500,
+     0.239
+    ],
+    [
+     1000,
+     0.2309
+    ]
+   ],
+   "p1": 0.4374,
+   "desc": "100mΩ 10ms 10ms 12V 15A 250V@AC 360mW 400Ω 5 Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) 插件,19.2x15.6mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Switching Voltage(Max)": "250V@AC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "360mW",
+    "Length": "19.2mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "15A",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "10ms",
+    "Height": "15.8mm",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Contact Rating": "-",
+    "Width": "15.6mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Songle-Relay-SRD-12VDC-SL-C_C30431.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SRD_12VDC_SLC/C30431",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-srd-12vdc-sl-c_C30431.html"
+  },
+  "C32429": {
+   "code": "C32429",
+   "model": "SRS-12VDC-SL",
+   "brand": "Ningbo Songle Relay",
+   "stock": 33,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,15.8x10.8mm",
+   "prices": [
+    [
+     1,
+     0.3886
+    ],
+    [
+     10,
+     0.3024
+    ],
+    [
+     30,
+     0.265
+    ],
+    [
+     200,
+     0.2374
+    ],
+    [
+     400,
+     0.2163
+    ],
+    [
+     1000,
+     0.2033
+    ]
+   ],
+   "p1": 0.3886,
+   "desc": "-40℃~+85℃ 100mΩ 10ms 10ms 12V 250V@AC 360mW 3A 400Ω 6 Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) DIP,15.8x10.8mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "250V@AC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "360mW",
+    "Length": "15.8mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "3A",
+    "Contact Material": "Silver Alloy",
+    "Number of Pins": "6",
+    "Coil Voltage": "12V",
+    "Release Time": "10ms",
+    "Contact Rating": "1A@120VAC",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Width": "10.8mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1808311552_Ningbo-Songle-Relay-SRS-12VDC-SL_C32429.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SRS_12VDCSL/C32429",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-srs-12vdc-sl_C32429.html"
+  },
+  "C35071": {
+   "code": "C35071",
+   "model": "TQ2-12V",
+   "brand": "PANASONIC",
+   "stock": 11750,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,14x9mm",
+   "prices": [
+    [
+     1,
+     1.6127
+    ],
+    [
+     10,
+     1.3412
+    ],
+    [
+     50,
+     1.1933
+    ],
+    [
+     100,
+     1.0258
+    ],
+    [
+     500,
+     0.9511
+    ],
+    [
+     1000,
+     0.9169
+    ]
+   ],
+   "p1": 1.6127,
+   "desc": "-40℃~+70℃ 1.028kΩ 110V@DC、125V@AC 12V 140mW 14mm 1A 3ms 3ms 500mA@125VAC、1A@30VDC 50mΩ 5mm 9mm Silver + Gold Plated Two sets of changeover: 2C (DPDT) DIP,14x9mm Signal Relays ROHS",
+   "cat": "Signal Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+70℃",
+    "Switching Voltage(Max)": "110V@DC、125V@AC",
+    "Coil Resistance": "1.028kΩ",
+    "Contact Form": "Two sets of changeover: 2C (DPDT)",
+    "Coil Rated Power": "140mW",
+    "Length": "14mm",
+    "Operate Time": "3ms",
+    "Switching Current(Max)": "1A",
+    "Contact Material": "Silver + Gold Plated",
+    "Coil Voltage": "12V",
+    "Number of Pins": "-",
+    "Release Time": "3ms",
+    "Height": "5mm",
+    "Coil Type": "-",
+    "Contact Resistance": "50mΩ",
+    "Contact Rating": "500mA@125VAC、1A@30VDC",
+    "Width": "9mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-TQ2-12V_C35071.pdf",
+   "url": "https://jlcpcb.com/partdetail/PANASONIC-TQ212V/C35071",
+   "lcsc_url": "https://www.lcsc.com/product-detail/signal-relays_panasonic-tq2-12v_C35071.html"
+  },
+  "C36144": {
+   "code": "C36144",
+   "model": "HK3FF-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 1674,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,19x15.5mm",
+   "prices": [
+    [
+     1,
+     0.569
+    ],
+    [
+     10,
+     0.4617
+    ],
+    [
+     30,
+     0.4162
+    ],
+    [
+     100,
+     0.3284
+    ],
+    [
+     500,
+     0.3024
+    ],
+    [
+     1000,
+     0.2878
+    ]
+   ],
+   "p1": 0.569,
+   "desc": "-40℃~+70℃ 100MΩ 10A@277VAC、10A@30VDC 10ms 12V 15A 16V@DC 5ms Silver Alloy 插件,19x15.5mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+70℃",
+    "Switching Voltage(Max)": "16V@DC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "360mW",
+    "Length": "19mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "15A",
+    "Contact Material": "Silver Alloy",
+    "Coil Voltage": "12V",
+    "Number of Pins": "-",
+    "Release Time": "5ms",
+    "Height": "15.8mm",
+    "Contact Resistance": "100MΩ",
+    "Contact Rating": "10A@277VAC、10A@30VDC",
+    "Coil Type": "-",
+    "Width": "15.5mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Keke-New-Era-Appliance-HK3FF-DC12V-SHG_C36144.pdf",
+   "url": "https://jlcpcb.com/partdetail/37121-HK3FF_DC12VSHG/C36144",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-keke-new-era-appliance-hk3ff-dc12v-shg_C36144.html"
+  },
+  "C37085": {
+   "code": "C37085",
+   "model": "HRS1H-S-DC12V",
+   "brand": "Zhejiang HKE",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,15.6x10.6mm",
+   "prices": [
+    [
+     1,
+     0.5203
+    ],
+    [
+     10,
+     0.4292
+    ],
+    [
+     25,
+     0.4032
+    ],
+    [
+     100,
+     0.3544
+    ],
+    [
+     500,
+     0.3317
+    ],
+    [
+     1000,
+     0.3187
+    ]
+   ],
+   "p1": 0.5203,
+   "desc": "-40℃~+70℃ 12V 1A@24VDC、1A@120VAC 200mW 30V@DC、220V@AC 3A 50mΩ 5ms 5ms 720Ω A set of conversions: 1C (Single-pole Double-throw Conversion) Silver + Gold DIP,15.6x10.6mm Signal Relays ROHS",
+   "cat": "Signal Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+70℃",
+    "Switching Voltage(Max)": "30V@DC、220V@AC",
+    "Coil Resistance": "720Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT)",
+    "Coil Rated Power": "200mW",
+    "Length": "15.6mm",
+    "Operate Time": "5ms",
+    "Switching Current(Max)": "3A",
+    "Contact Material": "Silver + Gold",
+    "Coil Voltage": "12V",
+    "Number of Pins": "6",
+    "Release Time": "5ms",
+    "Height": "-",
+    "Coil Type": "-",
+    "Contact Resistance": "50mΩ",
+    "Contact Rating": "1A@24VDC、1A@120VAC",
+    "Width": "10.6mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811091410_Zhejiang-HKE-HRS1H-S-DC12V_C37085.pdf",
+   "url": "https://jlcpcb.com/partdetail/ZhejiangHKE-HRS1H_SDC12V/C37085",
+   "lcsc_url": "https://www.lcsc.com/product-detail/signal-relays_zhejiang-hke-hrs1h-s-dc12v_C37085.html"
+  },
+  "C38558": {
+   "code": "C38558",
+   "model": "PESD12VL1BA,115",
+   "brand": "Nexperia",
+   "stock": 5612,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-323",
+   "prices": [
+    [
+     1,
+     0.2163
+    ],
+    [
+     50,
+     0.1689
+    ],
+    [
+     150,
+     0.1486
+    ],
+    [
+     500,
+     0.1233
+    ],
+    [
+     3000,
+     0.1121
+    ],
+    [
+     6000,
+     0.1054
+    ]
+   ],
+   "p1": 0.2163,
+   "desc": "-65℃~+150℃ 1 12V 14.2V 19pF 200W 37V 50nA 5A Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOD-323 ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Operating Temperature": "-65℃~+150℃",
+    "Type": "ESD",
+    "Junction Capacitance": "19pF",
+    "Number of Channels": "1",
+    "Peak Pulse Power Dissipation (Ppp)": "200W",
+    "level of protection": "IEC 61000-4-2、IEC 61000-4-5",
+    "Clamping Voltage": "37V",
+    "Polarity": "Bidirectional",
+    "Peak Pulse Current (Ipp)": "5A",
+    "Voltage - Breakdown": "14.2V",
+    "Reverse Stand-Off Voltage (Vrwm)": "12V",
+    "Reverse Leakage Current (Ir)": "50nA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-PESD12VL1BA-115_C38558.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-PESD12VL1BA115/C38558",
+   "lcsc_url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_nexperia-pesd12vl1ba-115_C38558.html"
+  },
+  "C39333": {
+   "code": "C39333",
+   "model": "HK23F-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 50,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,12.5x7.5mm",
+   "prices": [
+    [
+     1,
+     0.6015
+    ],
+    [
+     10,
+     0.4829
+    ],
+    [
+     25,
+     0.4227
+    ],
+    [
+     100,
+     0.3642
+    ],
+    [
+     500,
+     0.3284
+    ],
+    [
+     1000,
+     0.3105
+    ]
+   ],
+   "p1": 0.6015,
+   "desc": "-30℃~+70℃ 100mΩ 12V 200mW 2A@120VAC、2A@24VDC 5ms 5ms 720Ω One set changeover: 1C (SPDT - changeover) DIP,12.5x7.5mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-30℃~+70℃",
+    "Switching Voltage(Max)": "24V@DC、120V@AC",
+    "Coil Resistance": "720Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "200mW",
+    "Length": "12.5mm",
+    "Operate Time": "5ms",
+    "Switching Current(Max)": "2A",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "-",
+    "Release Time": "5ms",
+    "Contact Rating": "2A@120VAC、2A@24VDC",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "7.5mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Keke-New-Era-Appliance-HK23F-DC12V-SHG_C39333.pdf",
+   "url": "https://jlcpcb.com/partdetail/40316-HK23F_DC12VSHG/C39333",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-keke-new-era-appliance-hk23f-dc12v-shg_C39333.html"
+  },
+  "C40675": {
+   "code": "C40675",
+   "model": "TX2-12V",
+   "brand": "PANASONIC",
+   "stock": 7089,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,15x7.4mm",
+   "prices": [
+    [
+     1,
+     1.4404
+    ],
+    [
+     10,
+     1.1721
+    ],
+    [
+     40,
+     1.0242
+    ],
+    [
+     80,
+     0.8568
+    ],
+    [
+     480,
+     0.782
+    ],
+    [
+     1000,
+     0.7479
+    ]
+   ],
+   "p1": 1.4404,
+   "desc": "-40℃~+85℃ 1.028kΩ 100mΩ 12V 140mW 220V@DC 2A 2A@30VDC 4ms 4ms Silver + Gold Plated Two groups of conversions: 2C(Double-pole double-throw conversion) DIP,15x7.4mm Signal Relays ROHS",
+   "cat": "Signal Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "220V@DC",
+    "Coil Resistance": "1.028kΩ",
+    "Contact Form": "Two sets of changeover: 2C (DPDT)",
+    "Coil Rated Power": "140mW",
+    "Length": "15mm",
+    "Operate Time": "4ms",
+    "Switching Current(Max)": "2A",
+    "Contact Material": "Silver + Gold Plated",
+    "Coil Voltage": "12V",
+    "Number of Pins": "-",
+    "Release Time": "4ms",
+    "Coil Type": "-",
+    "Contact Rating": "2A@30VDC",
+    "Contact Resistance": "100mΩ",
+    "Width": "7.4mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811060621_PANASONIC-TX2-12V_C40675.pdf",
+   "url": "https://jlcpcb.com/partdetail/PANASONIC-TX212V/C40675",
+   "lcsc_url": "https://www.lcsc.com/product-detail/signal-relays_panasonic-tx2-12v_C40675.html"
+  },
+  "C42803": {
+   "code": "C42803",
+   "model": "HK19F-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 21577,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,20.2x10mm",
+   "prices": [
+    [
+     1,
+     0.7267
+    ],
+    [
+     10,
+     0.595
+    ],
+    [
+     25,
+     0.53
+    ],
+    [
+     100,
+     0.4666
+    ],
+    [
+     500,
+     0.4276
+    ],
+    [
+     1000,
+     0.4065
+    ]
+   ],
+   "p1": 0.7267,
+   "desc": "-25℃~+70℃ 100mΩ 12V 1A@125VAC、1A@24VDC 200mW 4ms 6ms 720Ω One set changeover: 1C (SPDT - changeover) DIP,20.2x10mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-25℃~+70℃",
+    "Switching Voltage(Max)": "24V@DC、125V@AC",
+    "Coil Resistance": "720Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "200mW",
+    "Length": "20.2mm",
+    "Operate Time": "6ms",
+    "Switching Current(Max)": "1A",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "-",
+    "Release Time": "4ms",
+    "Height": "-",
+    "Contact Rating": "1A@125VAC、1A@24VDC",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "10mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201512_Ningbo-Keke-New-Era-Appliance-HK19F-DC12V-SHG_C42803.pdf",
+   "url": "https://jlcpcb.com/partdetail/43794-HK19F_DC12VSHG/C42803",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-keke-new-era-appliance-hk19f-dc12v-shg_C42803.html"
+  },
+  "C45534": {
+   "code": "C45534",
+   "model": "G2R-1-E/12VDC",
+   "brand": "Omron Electronics",
+   "stock": 2720,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,28.6x12.6mm",
+   "prices": [
+    [
+     1,
+     2.4369
+    ],
+    [
+     10,
+     2.0614
+    ],
+    [
+     30,
+     1.8273
+    ],
+    [
+     100,
+     1.5867
+    ],
+    [
+     500,
+     1.4778
+    ],
+    [
+     1000,
+     1.4322
+    ]
+   ],
+   "p1": 2.4369,
+   "desc": "-40℃~+70℃ 125V@DC、380V@AC 12V 15ms 16A 16A@250VAC、16A@30VDC 275Ω 30mΩ 530mW 5ms 8 Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) Silver Alloy (Cd-Free) DIP,28.6x12.6mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+70℃",
+    "Switching Voltage(Max)": "125V@DC、380V@AC",
+    "Coil Resistance": "275Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "530mW",
+    "Length": "28.6mm",
+    "Operate Time": "15ms",
+    "Switching Current(Max)": "16A",
+    "Contact Material": "Silver Alloy (Cd-Free)",
+    "Number of Pins": "8",
+    "Coil Voltage": "12V",
+    "Release Time": "5ms",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "30mΩ",
+    "Contact Rating": "16A@250VAC、16A@30VDC",
+    "Width": "12.6mm"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/OmronElectronics-G2R_1_E12VDC/C45534",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_omron-electronics-g2r-1-e-12vdc_C45534.html"
+  },
+  "C46485": {
+   "code": "C46485",
+   "model": "JQC-3FF/12VDC-1ZS(551)",
+   "brand": "HF(Xiamen Hongfa Electroacoustic)",
+   "stock": 27979,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,19x15.5mm",
+   "prices": [
+    [
+     1,
+     0.8308
+    ],
+    [
+     10,
+     0.6552
+    ],
+    [
+     30,
+     0.569
+    ],
+    [
+     100,
+     0.4829
+    ],
+    [
+     500,
+     0.4308
+    ],
+    [
+     1000,
+     0.4048
+    ]
+   ],
+   "p1": 0.8308,
+   "desc": "-40℃~+85℃ 100mΩ 10A 10A@277VAC、10A@28VDC 10ms 12V 30V@DC、277V@AC 360mW 400Ω 5 5ms AgCdO Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) 插件,19x15.5mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "30V@DC、277V@AC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "360mW",
+    "Length": "19mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "10A",
+    "Contact Material": "AgCdO",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "5ms",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Rating": "10A@277VAC、10A@28VDC",
+    "Contact Resistance": "100mΩ",
+    "Width": "15.5mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200021_HF-Xiamen-Hongfa-Electroacoustic-JQC-3FF-12VDC-1ZS-551_C46485.pdf",
+   "url": "https://jlcpcb.com/partdetail/47489-JQC_3FF_12VDC_1ZS_551/C46485",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_hf-xiamen-hongfa-electroacoustic-jqc-3ff-12vdc-1zs-551_C46485.html"
+  },
+  "C47402": {
+   "code": "C47402",
+   "model": "SRU-12VDC-SL-C",
+   "brand": "Ningbo Songle Relay",
+   "stock": 183,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,20.5x16.8mm",
+   "prices": [
+    [
+     1,
+     0.5235
+    ],
+    [
+     10,
+     0.413
+    ],
+    [
+     30,
+     0.3658
+    ],
+    [
+     100,
+     0.3057
+    ],
+    [
+     500,
+     0.2797
+    ],
+    [
+     1000,
+     0.2634
+    ]
+   ],
+   "p1": 0.5235,
+   "desc": "100mΩ 10ms 10ms 12V 15A 250V@AC 360mW 400Ω 5 Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) 插件,20.5x16.8mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Switching Voltage(Max)": "250V@AC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "360mW",
+    "Length": "20.5mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "15A",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "10ms",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Contact Rating": "-",
+    "Width": "16.8mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Songle-Relay-SRU-12VDC-SL-C_C47402.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SRU_12VDC_SLC/C47402",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-sru-12vdc-sl-c_C47402.html"
+  },
+  "C48732": {
+   "code": "C48732",
+   "model": "HK4101F-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 42,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,14.5x10.5mm",
+   "prices": [
+    [
+     1,
+     0.4845
+    ],
+    [
+     10,
+     0.3788
+    ],
+    [
+     25,
+     0.3349
+    ],
+    [
+     100,
+     0.278
+    ],
+    [
+     500,
+     0.2537
+    ],
+    [
+     1000,
+     0.239
+    ]
+   ],
+   "p1": 0.4845,
+   "desc": "-25℃~+70℃ 100mΩ 12V 200mW 30V@DC、250V@AC 3A@30VDC、3A@250VAC 4ms 6 6ms A set of conversions: 1C (Single-pole Double-throw Conversion) 插件,14.5x10.5mm Signal Relays ROHS",
+   "cat": "Signal Relays",
+   "attrs": {
+    "Operating Temperature": "-25℃~+70℃",
+    "Switching Voltage(Max)": "30V@DC、250V@AC",
+    "Coil Resistance": "960Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT)",
+    "Coil Rated Power": "200mW",
+    "Length": "14.5mm",
+    "Operate Time": "6ms",
+    "Switching Current(Max)": "3A",
+    "Coil Voltage": "12V",
+    "Number of Pins": "6",
+    "Contact Material": "-",
+    "Release Time": "4ms",
+    "Height": "11.8mm",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Rating": "3A@30VDC、3A@250VAC",
+    "Contact Resistance": "100mΩ",
+    "Width": "10.5mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806131830_Ningbo-Keke-New-Era-Appliance-HK4101F-DC12V-SHG_C48732.pdf",
+   "url": "https://jlcpcb.com/partdetail/49740-HK4101F_DC12VSHG/C48732",
+   "lcsc_url": "https://www.lcsc.com/product-detail/signal-relays_ningbo-keke-new-era-appliance-hk4101f-dc12v-shg_C48732.html"
+  },
+  "C51847": {
+   "code": "C51847",
+   "model": "HK14F-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 104,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,29x12.7mm",
+   "prices": [
+    [
+     1,
+     1.1331
+    ],
+    [
+     10,
+     0.9364
+    ],
+    [
+     25,
+     0.8291
+    ],
+    [
+     100,
+     0.7072
+    ],
+    [
+     500,
+     0.6536
+    ],
+    [
+     1000,
+     0.6292
+    ]
+   ],
+   "p1": 1.1331,
+   "desc": "-40℃~+70℃ 100mΩ 10A@30VDC、10A@250VAC 12V 15ms 200mW 5ms 720Ω One set changeover: 1C (SPDT - changeover) 插件,29x12.7mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+70℃",
+    "Switching Voltage(Max)": "30V@DC、250V@AC",
+    "Coil Resistance": "720Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "200mW",
+    "Length": "29mm",
+    "Operate Time": "15ms",
+    "Switching Current(Max)": "10A",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "-",
+    "Release Time": "5ms",
+    "Height": "15.5mm",
+    "Contact Rating": "10A@30VDC、10A@250VAC",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "12.7mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811070511_Ningbo-Keke-New-Era-Appliance-HK14F-DC12V-SHG_C51847.pdf",
+   "url": "https://jlcpcb.com/partdetail/52860-HK14F_DC12VSHG/C51847",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-keke-new-era-appliance-hk14f-dc12v-shg_C51847.html"
+  },
+  "C53428": {
+   "code": "C53428",
+   "model": "PESD12VL2BT,215",
+   "brand": "Nexperia",
+   "stock": 12358,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.185
+    ],
+    [
+     50,
+     0.1459
+    ],
+    [
+     150,
+     0.1291
+    ],
+    [
+     500,
+     0.1082
+    ],
+    [
+     3000,
+     0.0932
+    ],
+    [
+     6000,
+     0.0877
+    ]
+   ],
+   "p1": 0.185,
+   "desc": "12V 14.2V 19pF 2 200W 37V 50nA 5A@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-5 SOT-23 ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Type": "ESD",
+    "Junction Capacitance": "19pF",
+    "Number of Channels": "2",
+    "Peak Pulse Power Dissipation (Ppp)": "200W",
+    "level of protection": "IEC 61000-4-2、IEC 61000-4-5",
+    "Clamping Voltage": "37V",
+    "Polarity": "Bidirectional",
+    "Peak Pulse Current (Ipp)": "5A@8/20us",
+    "Voltage - Breakdown": "14.2V",
+    "Reverse Stand-Off Voltage (Vrwm)": "12V",
+    "Reverse Leakage Current (Ir)": "50nA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241033_Nexperia-PESD12VL2BT-215_C53428.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-PESD12VL2BT215/C53428",
+   "lcsc_url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_nexperia-pesd12vl2bt-215_C53428.html"
+  },
+  "C55194": {
+   "code": "C55194",
+   "model": "SLA-12VDC-SL-A",
+   "brand": "Ningbo Songle Relay",
+   "stock": 11474,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,32x27.6mm",
+   "prices": [
+    [
+     1,
+     1.4615
+    ],
+    [
+     10,
+     1.1819
+    ],
+    [
+     25,
+     1.0145
+    ],
+    [
+     100,
+     0.8747
+    ],
+    [
+     500,
+     0.7917
+    ],
+    [
+     1000,
+     0.7479
+    ]
+   ],
+   "p1": 1.4615,
+   "desc": "1 Set Normally Open: 1A (SPST NO) 100mΩ 10ms 10ms 12V 160Ω 250V@AC 30A 4 900mW Non-Polarized - Single Coil 插件,32x27.6mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "250V@AC",
+    "Coil Resistance": "160Ω",
+    "Contact Form": "1 Set Normally Open: 1A (SPST NO)",
+    "Coil Rated Power": "900mW",
+    "Length": "32mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "30A",
+    "Contact Material": "Silver Alloy",
+    "Coil Voltage": "12V",
+    "Number of Pins": "4",
+    "Release Time": "10ms",
+    "Height": "25.5mm",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Rating": "16A@120VAC、20A@250VAC",
+    "Contact Resistance": "100mΩ",
+    "Width": "27.6mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Songle-Relay-SLA-12VDC-SL-A_C55194.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SLA_12VDC_SLA/C55194",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-sla-12vdc-sl-a_C55194.html"
+  },
+  "C60087": {
+   "code": "C60087",
+   "model": "HRS2H-S-DC12V-N",
+   "brand": "Zhejiang HKE",
+   "stock": 3826,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,20.5x9.9mm",
+   "prices": [
+    [
+     1,
+     0.8243
+    ],
+    [
+     10,
+     0.6975
+    ],
+    [
+     25,
+     0.6259
+    ],
+    [
+     100,
+     0.5642
+    ],
+    [
+     500,
+     0.5268
+    ],
+    [
+     1000,
+     0.5073
+    ]
+   ],
+   "p1": 0.8243,
+   "desc": "-25℃~+70℃ 12V 1A@24VDC、1A@120VAC、2A@120VAC、2A@24VDC 200mW 2A 30V@DC、125V@AC 3ms 50mΩ 720Ω 7ms Silver alloy+gold plating Two groups of conversions: 2C(Double-pole double-throw conversion) DIP,20.5x9.9mm Signal Relays ROHS",
+   "cat": "Signal Relays",
+   "attrs": {
+    "Operating Temperature": "-25℃~+70℃",
+    "Switching Voltage(Max)": "30V@DC、125V@AC",
+    "Coil Resistance": "720Ω",
+    "Contact Form": "Two sets of changeover: 2C (DPDT)",
+    "Coil Rated Power": "200mW",
+    "Length": "20.5mm",
+    "Operate Time": "7ms",
+    "Switching Current(Max)": "2A",
+    "Contact Material": "Silver alloy+gold plating",
+    "Coil Voltage": "12V",
+    "Number of Pins": "-",
+    "Release Time": "3ms",
+    "Height": "-",
+    "Coil Type": "-",
+    "Contact Resistance": "50mΩ",
+    "Contact Rating": "1A@24VDC、1A@120VAC、2A@120VAC、2A@24VDC",
+    "Width": "9.9mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811091410_Ningbo-Keke-New-Era-Appliance-HRS2H-S-DC12V-N_C60087.pdf",
+   "url": "https://jlcpcb.com/partdetail/ZhejiangHKE-HRS2H_S_DC12VN/C60087",
+   "lcsc_url": "https://www.lcsc.com/product-detail/signal-relays_ningbo-keke-new-era-appliance-hrs2h-s-dc12v-n_C60087.html"
+  },
+  "C60169": {
+   "code": "C60169",
+   "model": "SRA-12VDC-CL",
+   "brand": "Ningbo Songle Relay",
+   "stock": 55289,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,16x12.4mm",
+   "prices": [
+    [
+     1,
+     0.4812
+    ],
+    [
+     10,
+     0.3821
+    ],
+    [
+     30,
+     0.3398
+    ],
+    [
+     200,
+     0.2732
+    ],
+    [
+     400,
+     0.2488
+    ],
+    [
+     1000,
+     0.2341
+    ]
+   ],
+   "p1": 0.4812,
+   "desc": "-40℃~+85℃ 100mΩ 10A 10ms 10ms 125V@AC 12V 240Ω 5 600mW Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) 插件,16x12.4mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "125V@AC",
+    "Coil Resistance": "240Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "600mW",
+    "Length": "16mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "10A",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "10ms",
+    "Height": "14.2mm",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Contact Rating": "-",
+    "Width": "12.4mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Songle-Relay-SRA-12VDC-CL_C60169.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SRA_12VDCCL/C60169",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-sra-12vdc-cl_C60169.html"
+  },
+  "C72174": {
+   "code": "C72174",
+   "model": "V6-S-DC12V",
+   "brand": "Zhejiang HKE",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,23x16.1mm",
+   "prices": [
+    [
+     1,
+     1.0486
+    ],
+    [
+     10,
+     0.8681
+    ],
+    [
+     25,
+     0.7674
+    ],
+    [
+     100,
+     0.6552
+    ],
+    [
+     500,
+     0.6048
+    ],
+    [
+     1000,
+     0.582
+    ]
+   ],
+   "p1": 1.0486,
+   "desc": "-40℃~+85℃ 1 Set Normally Open: 1A (SPST NO) 100mΩ 12V 15A 15A 15ms 200mW 30V@DC、250V@AC 4 8ms 插件,23x16.1mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "30V@DC、250V@AC",
+    "Coil Resistance": "-",
+    "Contact Form": "1 Set Normally Open: 1A (SPST NO)",
+    "Coil Rated Power": "200mW",
+    "Length": "23mm",
+    "Operate Time": "15ms",
+    "Switching Current(Max)": "15A",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "4",
+    "Release Time": "8ms",
+    "Contact Rating": "15A",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-",
+    "Width": "16.1mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1808301516_Zhejiang-HKE-V6-S-DC12V_C72174.pdf",
+   "url": "https://jlcpcb.com/partdetail/ZhejiangHKE-V6_SDC12V/C72174",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_zhejiang-hke-v6-s-dc12v_C72174.html"
+  },
+  "C83117": {
+   "code": "C83117",
+   "model": "SLE-12VDC-SL-2A",
+   "brand": "Ningbo Songle Relay",
+   "stock": 390,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,17.5x15mm",
+   "prices": [
+    [
+     1,
+     0.5853
+    ],
+    [
+     10,
+     0.4682
+    ],
+    [
+     25,
+     0.4211
+    ],
+    [
+     100,
+     0.3642
+    ],
+    [
+     500,
+     0.3301
+    ],
+    [
+     1000,
+     0.3122
+    ]
+   ],
+   "p1": 0.5853,
+   "desc": "-40℃~+85℃ 1.1W 100mΩ 10ms 10ms 12V 130Ω 15A@14VDC AgSnO Two sets normally open: 2A (DPST - normally open) 插件,17.5x15mm Automotive Relays ROHS",
+   "cat": "Automotive Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "-",
+    "Coil Resistance": "130Ω",
+    "Contact Form": "Two sets normally open: 2A (DPST - normally open)",
+    "Coil Rated Power": "1.1W",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "-",
+    "Contact Material": "AgSnO",
+    "Coil Voltage": "12V",
+    "Number of Pins": "-",
+    "Release Time": "10ms",
+    "Contact Rating": "15A@14VDC",
+    "Contact Resistance": "100mΩ",
+    "Coil Type": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809131515_Ningbo-Songle-Relay-SLE-12VDC-SL-2A_C83117.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SLE_12VDC_SL2A/C83117",
+   "lcsc_url": "https://www.lcsc.com/product-detail/automotive-relays_ningbo-songle-relay-sle-12vdc-sl-2a_C83117.html"
+  },
+  "C83506": {
+   "code": "C83506",
+   "model": "HK14FD-DC12V-SHG",
+   "brand": "Ningbo Keke New Era Appliance",
+   "stock": 70,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP,29x12.7mm",
+   "prices": [
+    [
+     1,
+     1.2908
+    ],
+    [
+     10,
+     1.0665
+    ],
+    [
+     25,
+     0.9446
+    ],
+    [
+     100,
+     0.8064
+    ],
+    [
+     500,
+     0.7446
+    ],
+    [
+     1000,
+     0.717
+    ]
+   ],
+   "p1": 1.2908,
+   "desc": "-40℃~+70℃ 100mΩ 12V 15ms 200Ω 5A@30VDC、5A@250VAC 5ms 720mW One set changeover: 1C (SPDT - changeover) DIP,29x12.7mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+70℃",
+    "Switching Voltage(Max)": "-",
+    "Coil Resistance": "200Ω",
+    "Contact Form": "One set of changeover: 1C (SPDT-changeover)",
+    "Coil Rated Power": "720mW",
+    "Length": "29mm",
+    "Operate Time": "15ms",
+    "Switching Current(Max)": "-",
+    "Coil Voltage": "12V",
+    "Contact Material": "-",
+    "Number of Pins": "-",
+    "Release Time": "5ms",
+    "Contact Resistance": "100mΩ",
+    "Contact Rating": "5A@30VDC、5A@250VAC",
+    "Coil Type": "-",
+    "Width": "12.7mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810101920_Ningbo-Keke-New-Era-Appliance-HK14FD-DC12V-SHG_C83506.pdf",
+   "url": "https://jlcpcb.com/partdetail/84671-HK14FD_DC12VSHG/C83506",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-keke-new-era-appliance-hk14fd-dc12v-shg_C83506.html"
+  },
+  "C85379": {
+   "code": "C85379",
+   "model": "PESD12VS2UT,215",
+   "brand": "Nexperia",
+   "stock": 3762,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.4243
+    ],
+    [
+     10,
+     0.3317
+    ],
+    [
+     30,
+     0.291
+    ],
+    [
+     100,
+     0.2423
+    ],
+    [
+     500,
+     0.2195
+    ],
+    [
+     1000,
+     0.2065
+    ]
+   ],
+   "p1": 0.4243,
+   "desc": "-65℃~+150℃ 12V 14.7V 180W 1uA 2 35V 38pF 5A ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional SOT-23 ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Operating Temperature": "-65℃~+150℃",
+    "Type": "ESD",
+    "Junction Capacitance": "38pF",
+    "Number of Channels": "2",
+    "Peak Pulse Power Dissipation (Ppp)": "180W",
+    "level of protection": "IEC 61000-4-2、IEC 61000-4-5",
+    "Clamping Voltage": "35V",
+    "Polarity": "Unidirectional",
+    "Peak Pulse Current (Ipp)": "5A",
+    "Voltage - Breakdown": "14.7V",
+    "Reverse Stand-Off Voltage (Vrwm)": "12V",
+    "Reverse Leakage Current (Ir)": "1uA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-PESD12VS2UT-215_C85379.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-PESD12VS2UT215/C85379",
+   "lcsc_url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_nexperia-pesd12vs2ut-215_C85379.html"
+  },
+  "C86414": {
+   "code": "C86414",
+   "model": "SRA-12VDC-AL",
+   "brand": "Ningbo Songle Relay",
+   "stock": 16156,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,16x12.4mm",
+   "prices": [
+    [
+     1,
+     0.3429
+    ],
+    [
+     50,
+     0.261
+    ],
+    [
+     200,
+     0.2571
+    ],
+    [
+     400,
+     0.2132
+    ],
+    [
+     2000,
+     0.1938
+    ],
+    [
+     4000,
+     0.1821
+    ]
+   ],
+   "p1": 0.3429,
+   "desc": "-40℃~+85℃ 1 Set Normally Open: 1A (SPST NO) 100mΩ 10A 10ms 10ms 125V@AC 12V 20A@14VAC 240Ω 4 600mW Non-Polarized - Single Coil 插件,16x12.4mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Switching Voltage(Max)": "125V@AC",
+    "Coil Resistance": "240Ω",
+    "Contact Form": "1 Set Normally Open: 1A (SPST NO)",
+    "Coil Rated Power": "600mW",
+    "Length": "16mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "10A",
+    "Coil Voltage": "12V",
+    "Number of Pins": "4",
+    "Release Time": "10ms",
+    "Height": "14.2mm",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Rating": "20A@14VAC",
+    "Contact Resistance": "100mΩ",
+    "Width": "12.4mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Songle-Relay-SRA-12VDC-AL_C86414.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SRA_12VDCAL/C86414",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-sra-12vdc-al_C86414.html"
+  },
+  "C86668": {
+   "code": "C86668",
+   "model": "SLD-12VDC-1A",
+   "brand": "Ningbo Songle Relay",
+   "stock": 200,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,28x28mm",
+   "prices": [
+    [
+     1,
+     1.3201
+    ],
+    [
+     10,
+     1.0909
+    ],
+    [
+     40,
+     0.9657
+    ],
+    [
+     100,
+     0.8243
+    ],
+    [
+     400,
+     0.7609
+    ],
+    [
+     800,
+     0.7332
+    ]
+   ],
+   "p1": 1.3201,
+   "desc": "-40℃~+125℃ 1 Set Normally Open: 1A (SPST NO) 1.6W 100mΩ 12V 15ms 15ms 5 90Ω AgSnO2 Non-Polarized - Single Coil 插件,28x28mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Switching Voltage(Max)": "14V@DC",
+    "Coil Resistance": "90Ω",
+    "Contact Form": "1 Set Normally Open: 1A (SPST NO)",
+    "Coil Rated Power": "1.6W",
+    "Length": "28mm",
+    "Operate Time": "15ms",
+    "Switching Current(Max)": "40A",
+    "Contact Material": "AgSnO2",
+    "Number of Pins": "5",
+    "Coil Voltage": "12V",
+    "Release Time": "15ms",
+    "Contact Rating": "40A@12VDC",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Width": "28mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810010324_Ningbo-Songle-Relay-SLD-12VDC-1A_C86668.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SLD_12VDC1A/C86668",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-sld-12vdc-1a_C86668.html"
+  },
+  "C93716": {
+   "code": "C93716",
+   "model": "SRD-12VDC-SL-A",
+   "brand": "Ningbo Songle Relay",
+   "stock": 18938,
+   "type": "expand",
+   "pref": false,
+   "pkg": "插件,19.2x15.6mm",
+   "prices": [
+    [
+     1,
+     0.3886
+    ],
+    [
+     50,
+     0.3066
+    ],
+    [
+     200,
+     0.2619
+    ],
+    [
+     500,
+     0.2182
+    ],
+    [
+     2000,
+     0.1987
+    ],
+    [
+     5000,
+     0.187
+    ]
+   ],
+   "p1": 0.3886,
+   "desc": "1 Set Normally Open: 1A (SPST NO) 100mΩ 10ms 10ms 12V 15A 250V@AC 360mW 4 400Ω Non-Polarized - Single Coil 插件,19.2x15.6mm Power Relays ROHS",
+   "cat": "Power Relays",
+   "attrs": {
+    "Switching Voltage(Max)": "250V@AC",
+    "Coil Resistance": "400Ω",
+    "Contact Form": "1 Set Normally Open: 1A (SPST NO)",
+    "Coil Rated Power": "360mW",
+    "Length": "19.2mm",
+    "Operate Time": "10ms",
+    "Switching Current(Max)": "15A",
+    "Coil Voltage": "12V",
+    "Number of Pins": "4",
+    "Release Time": "10ms",
+    "Height": "15.8mm",
+    "Coil Type": "Non-Polarized - Single Coil",
+    "Contact Resistance": "100mΩ",
+    "Contact Rating": "-",
+    "Width": "15.6mm"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Songle-Relay-SRD-12VDC-SL-A_C93716.pdf",
+   "url": "https://jlcpcb.com/partdetail/Ningbo_SongleRelay-SRD_12VDC_SLA/C93716",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-relays_ningbo-songle-relay-srd-12vdc-sl-a_C93716.html"
+  },
+  "C99320": {
+   "code": "C99320",
+   "model": "CESD12VAP",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 756,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.04
+    ],
+    [
+     200,
+     0.0319
+    ],
+    [
+     600,
+     0.0274
+    ],
+    [
+     3000,
+     0.0218
+    ],
+    [
+     9000,
+     0.0196
+    ],
+    [
+     21000,
+     0.0183
+    ]
+   ],
+   "p1": 0.04,
+   "desc": "1 12V 13.3V 1uA 220W@8/20us 24V 45pF 9A ESD IEC 61000-4-2 Unidirectional SOT-23 ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Type": "ESD",
+    "Junction Capacitance": "45pF",
+    "Peak Pulse Power Dissipation (Ppp)": "220W@8/20us",
+    "Number of Channels": "1",
+    "level of protection": "IEC 61000-4-2",
+    "Clamping Voltage": "24V",
+    "Polarity": "Unidirectional",
+    "Peak Pulse Current (Ipp)": "9A",
+    "Voltage - Breakdown": "13.3V",
+    "Reverse Stand-Off Voltage (Vrwm)": "12V",
+    "Reverse Leakage Current (Ir)": "1uA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809211035_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CESD12VAP_C99320.pdf",
+   "url": "https://jlcpcb.com/partdetail/100534-CESD12VAP/C99320",
+   "lcsc_url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_jiangsu-changjing-electronics-technology-co-ltd-cesd12vap_C99320.html"
+  },
+  "C110692": {
+   "code": "C110692",
+   "model": "PESDNC2FD12VB",
+   "brand": "Shanghai Prisemi Elec",
+   "stock": 313127,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DFN1006-2L",
+   "prices": [
+    [
+     1,
+     0.0135
+    ],
+    [
+     500,
+     0.0107
+    ],
+    [
+     1500,
+     0.0091
+    ],
+    [
+     10000,
+     0.0082
+    ],
+    [
+     20000,
+     0.0074
+    ],
+    [
+     50000,
+     0.007
+    ]
+   ],
+   "p1": 0.0135,
+   "desc": "1 12V 14V 1uA 22V、27V 4A 8pF 90W@8/20us Bidirectional ESD IEC 61000-4-2、IEC 61000-4-4 DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Type": "ESD",
+    "Junction Capacitance": "8pF",
+    "Peak Pulse Power Dissipation (Ppp)": "90W@8/20us",
+    "Number of Channels": "1",
+    "level of protection": "IEC 61000-4-2、IEC 61000-4-4",
+    "Clamping Voltage": "22V",
+    "Polarity": "Bidirectional",
+    "Peak Pulse Current (Ipp)": "4A",
+    "Voltage - Breakdown": "14V",
+    "Reverse Stand-Off Voltage (Vrwm)": "12V",
+    "Reverse Leakage Current (Ir)": "1uA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810251327_Shanghai-Prisemi-Elec-PESDNC2FD12VB_C110692.pdf",
+   "url": "https://jlcpcb.com/partdetail/Shanghai_PrisemiElec-PESDNC2FD12VB/C110692",
+   "lcsc_url": "https://www.lcsc.com/product-detail/esd-and-surge-protection-tvs-esd_shanghai-prisemi-elec-pesdnc2fd12vb_C110692.html"
+  }
+ }
+}

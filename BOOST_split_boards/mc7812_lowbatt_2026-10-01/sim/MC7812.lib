@@ -1,0 +1,30 @@
+* ============================================================================
+* MC7812 (onsemi, D2PAK) - 12 V 1 A three-terminal regulator, behavioural model
+* NOT an onsemi model. Reproduces regulation, dropout and bias current only.
+* Pins as LM2940_12: IN OUT GND (drop-in for the LM2940_12 symbol).
+*
+* From the onsemi MC7800/D data sheet:
+*   - output 11.5-12.5 V at 25 C, 11.4-12.6 V over load/line/temperature; modelled at 12.00 V
+*   - bias (quiescent) current 3.4 mA typ, 8.0 mA max (MC7812B)
+*   - dropout: 2.0 V typ at 1 A, 25 C, no guaranteed maximum. Figure 14 (dV = 2 % of Vout) reads about
+*     1.5 V at 20 mA, 1.6 V at 200 mA, 1.75 V at 500 mA, 2.0 V at 1 A at 25 C; about 0.2-0.3 V less at
+*     125 C and about 0.1 V more at -25 C.
+* MC7812_TYP: dropout 1.45 V + 0.55 ohm x Iout (1.53 V at 150 mA, 2.0 V at 1 A), 3.4 mA bias.
+* MC7812_WC : dropout 1.95 V + 0.55 ohm x Iout (2.03 V at 150 mA), 8 mA bias. A pessimistic ASSUMPTION
+*             (about 0.4-0.5 V above the 25 C curve), since the data sheet gives no maximum.
+* The load current is drawn from IN. NOT MODELLED: current limit, thermal shutdown, ripple rejection,
+* the regulator's own bandwidth (the output follows instantly, as in LM2940_12.lib).
+* ============================================================================
+.SUBCKT MC7812_TYP IN OUT GND
+BR n1 GND V=min(12.0, V(IN,GND)-1.45-0.55*max(I(VS),0))
+VS n1 OUT 0
+F1 IN GND VS 1
+IQ IN GND 3.4m
+.ENDS MC7812_TYP
+*
+.SUBCKT MC7812_WC IN OUT GND
+BR n1 GND V=min(12.0, V(IN,GND)-1.95-0.55*max(I(VS),0))
+VS n1 OUT 0
+F1 IN GND VS 1
+IQ IN GND 8m
+.ENDS MC7812_WC

@@ -1,0 +1,296 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:37 Pacific Daylight Time",
+ "res": {
+  "C117501": {
+   "code": "C117501",
+   "model": "MCP6561T-E/OT",
+   "brand": "Microchip Tech",
+   "stock": 4005,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.743
+    ],
+    [
+     10,
+     0.6113
+    ],
+    [
+     30,
+     0.5446
+    ],
+    [
+     100,
+     0.4796
+    ],
+    [
+     500,
+     0.4032
+    ],
+    [
+     1000,
+     0.3837
+    ]
+   ],
+   "p1": 0.743,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 100uA 1pA 1pA 2.5mV 20ns 2uV/℃ 3mV 56ns 6.5V 66dB ESD protection、Built-in hysteresis Push-pull Rail-to-rail input TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "3mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "2.5mV",
+    "Response Time (tr)": "20ns",
+    "Common Mode Rejection Ratio(CMRR)": "66dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "1",
+    "Maximum Power Supply Range (Vdd-Vss)": "6.5V",
+    "Quiescent Current": "100uA",
+    "Features": "ESD protection、Built-in hysteresis",
+    "Ib - Input Bias Current": "1pA",
+    "Propagation Delay Time": "56ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6561T-E-OT_C117501.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6561T_EOT/C117501",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_microchip-tech-mcp6561t-e-ot_C117501.html"
+  },
+  "C144221": {
+   "code": "C144221",
+   "model": "MCP6561T-E/LT",
+   "brand": "Microchip Tech",
+   "stock": 22503,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SC-70-5",
+   "prices": [
+    [
+     1,
+     0.5333
+    ],
+    [
+     10,
+     0.426
+    ],
+    [
+     30,
+     0.3788
+    ],
+    [
+     100,
+     0.3219
+    ],
+    [
+     500,
+     0.2959
+    ],
+    [
+     1000,
+     0.2797
+    ]
+   ],
+   "p1": 0.5333,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 10mV 130uA 1pA 5mV 66dB 80ns Built-in hysteresis Rail-to-rail input TTL、CMOS SC-70-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Common Mode Rejection Ratio(CMRR)": "66dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Operating Temperature": "-40℃~+125℃",
+    "Number of Channels": "1",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "10mV",
+    "Quiescent Current": "130uA",
+    "Features": "Built-in hysteresis",
+    "Single Supply": "1.8V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "5mV",
+    "Ib - Input Bias Current": "1pA",
+    "Propagation Delay Time": "80ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6561T-E-LT_C144221.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6561T_ELT/C144221",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_microchip-tech-mcp6561t-e-lt_C144221.html"
+  },
+  "C250337": {
+   "code": "C250337",
+   "model": "MCP6561RT-E/OT",
+   "brand": "Microchip Tech",
+   "stock": 71,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.8113
+    ],
+    [
+     10,
+     0.6568
+    ],
+    [
+     30,
+     0.5804
+    ],
+    [
+     100,
+     0.504
+    ],
+    [
+     500,
+     0.465
+    ],
+    [
+     1000,
+     0.4406
+    ]
+   ],
+   "p1": 0.8113,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 100uA 1pA 1pA 2uV/℃ 3mV 56ns 5mV 66dB ESD protection、Built-in hysteresis Push-pull Rail-to-rail input TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "3mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "5mV",
+    "Common Mode Rejection Ratio(CMRR)": "66dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "1",
+    "Quiescent Current": "100uA",
+    "Features": "ESD protection、Built-in hysteresis",
+    "Ib - Input Bias Current": "1pA",
+    "Propagation Delay Time": "56ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308181415_Microchip-Tech-MCP6561RT-E-OT_C250337.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6561RT_EOT/C250337",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_microchip-tech-mcp6561rt-e-ot_C250337.html"
+  },
+  "C623506": {
+   "code": "C623506",
+   "model": "MCP6561UT-E/OT",
+   "brand": "Microchip Tech",
+   "stock": 83,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     1.008
+    ],
+    [
+     10,
+     0.8145
+    ],
+    [
+     30,
+     0.7186
+    ],
+    [
+     100,
+     0.6227
+    ],
+    [
+     500,
+     0.5788
+    ],
+    [
+     1000,
+     0.5495
+    ]
+   ],
+   "p1": 1.008,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 100uA 1pA 1pA 20ns 2uV/℃ 3mV 49ns、50ns 5mV 66dB Built-in hysteresis Push-pull Rail-to-rail input TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "3mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "5mV",
+    "Response Time (tr)": "20ns",
+    "Common Mode Rejection Ratio(CMRR)": "66dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "1",
+    "Quiescent Current": "100uA",
+    "Features": "Built-in hysteresis",
+    "Ib - Input Bias Current": "1pA",
+    "Propagation Delay Time": "49ns、50ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210180300_Microchip-Tech-MCP6561UT-E-OT_C623506.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6561UT_EOT/C623506",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_microchip-tech-mcp6561ut-e-ot_C623506.html"
+  },
+  "C22399585": {
+   "code": "C22399585",
+   "model": "MCP6561UT-E(MS)",
+   "brand": "MSKSEMI",
+   "stock": 2296,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.3674
+    ],
+    [
+     10,
+     0.3236
+    ],
+    [
+     30,
+     0.3024
+    ],
+    [
+     100,
+     0.2797
+    ],
+    [
+     500,
+     0.2667
+    ],
+    [
+     1000,
+     0.2602
+    ]
+   ],
+   "p1": 0.3674,
+   "desc": "-2.75V~-0.9V、0.9V~2.75V -40℃~+85℃ 0.8uV/℃ 1 1pA 2.1V~5.5V 2pA 400ns 50uA 70dB 7V 800uV CMOS Open-drain SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Output Type": "Open-drain",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "0.8uV/℃",
+    "Single Supply": "2.1V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Number of Channels": "1",
+    "Maximum Power Supply Range (Vdd-Vss)": "7V",
+    "Quiescent Current": "50uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "2pA",
+    "Propagation Delay Time": "400ns",
+    "Output Mode": "CMOS",
+    "Dual Supply": "-2.75V~-0.9V、0.9V~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2405231033_MSKSEMI-MCP6561UT-E-MS_C22399585.pdf",
+   "url": "https://jlcpcb.com/partdetail/MSKSEMI-MCP6561UT_E_MS/C22399585",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_msksemi-mcp6561ut-e-ms_C22399585.html"
+  }
+ }
+}

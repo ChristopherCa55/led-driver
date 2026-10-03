@@ -1,0 +1,3808 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:58 Pacific Daylight Time",
+ "res": {
+  "C11349": {
+   "code": "C11349",
+   "model": "CD4017BM96",
+   "brand": "Texas Instruments",
+   "stock": 18267,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.7267
+    ],
+    [
+     10,
+     0.608
+    ],
+    [
+     30,
+     0.5479
+    ],
+    [
+     100,
+     0.4894
+    ],
+    [
+     500,
+     0.4357
+    ],
+    [
+     1000,
+     0.4178
+    ]
+   ],
+   "p1": 0.7267,
+   "desc": "-55℃~+125℃ 1 135ns 3V~18V 5.5MHz Asynchronous Divide-by-10 Rising Edge Up Counter SOIC-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "135ns",
+    "Count Rate": "5.5MHz",
+    "Logic Type": "Divide-by-10",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Cascade counter、Static operation",
+    "Number of Elements": "1",
+    "Timing": "-",
+    "Reset": "Asynchronous",
+    "Resolution": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809042113_Texas-Instruments-CD4017BM96_C11349.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD4017BM96/C11349",
+   "lcsc_url": "https://www.lcsc.com/product-detail/counters-dividers_texas-instruments-cd4017bm96_C11349.html"
+  },
+  "C117501": {
+   "code": "C117501",
+   "model": "MCP6561T-E/OT",
+   "brand": "Microchip Tech",
+   "stock": 4005,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.743
+    ],
+    [
+     10,
+     0.6113
+    ],
+    [
+     30,
+     0.5446
+    ],
+    [
+     100,
+     0.4796
+    ],
+    [
+     500,
+     0.4032
+    ],
+    [
+     1000,
+     0.3837
+    ]
+   ],
+   "p1": 0.743,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 100uA 1pA 1pA 2.5mV 20ns 2uV/℃ 3mV 56ns 6.5V 66dB ESD protection、Built-in hysteresis Push-pull Rail-to-rail input TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "3mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "2.5mV",
+    "Response Time (tr)": "20ns",
+    "Common Mode Rejection Ratio(CMRR)": "66dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "1",
+    "Maximum Power Supply Range (Vdd-Vss)": "6.5V",
+    "Quiescent Current": "100uA",
+    "Features": "ESD protection、Built-in hysteresis",
+    "Ib - Input Bias Current": "1pA",
+    "Propagation Delay Time": "56ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6561T-E-OT_C117501.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6561T_EOT/C117501",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_microchip-tech-mcp6561t-e-ot_C117501.html"
+  },
+  "C124557": {
+   "code": "C124557",
+   "model": "TP1961-TR",
+   "brand": "3PEAK",
+   "stock": 13369,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.569
+    ],
+    [
+     10,
+     0.4374
+    ],
+    [
+     30,
+     0.3805
+    ],
+    [
+     100,
+     0.3105
+    ],
+    [
+     500,
+     0.2797
+    ],
+    [
+     1000,
+     0.2602
+    ]
+   ],
+   "p1": 0.569,
+   "desc": "-40℃~+125℃ 0.3uV/℃ 1 110dB 12ns 1ns 2.4mA 2.5V~5.5V 2mV 4pA 6pA 7.5mV 7V ESD protection、Built-in hysteresis、Enable/shutdown function Push-pull Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "4pA",
+    "Input Offset Voltage Drift(Vos TC)": "0.3uV/℃",
+    "Single Supply": "2.5V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "7.5mV",
+    "Response Time (tr)": "1ns",
+    "Common Mode Rejection Ratio(CMRR)": "110dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Maximum Power Supply Range (Vdd-Vss)": "7V",
+    "Quiescent Current": "2.4mA",
+    "Features": "ESD protection、Built-in hysteresis、Enable/shutdown function",
+    "Ib - Input Bias Current": "6pA",
+    "Propagation Delay Time": "12ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/3PEAK-TP1961TR/C124557",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_3peak-tp1961-tr_C124557.html"
+  },
+  "C127023": {
+   "code": "C127023",
+   "model": "LM2940G-12-AA3-R",
+   "brand": "UTC(Unisonic Tech)",
+   "stock": 119,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-3",
+   "prices": [
+    [
+     1,
+     0.2379
+    ],
+    [
+     50,
+     0.1867
+    ],
+    [
+     150,
+     0.1648
+    ],
+    [
+     500,
+     0.1376
+    ],
+    [
+     2500,
+     0.1199
+    ],
+    [
+     5000,
+     0.1125
+    ]
+   ],
+   "p1": 0.2379,
+   "desc": "-40℃~+85℃ 1 10mA 12V 1A 26V 360uVrms 66dB@(120Hz) 800mV@(1A) Fixed Positive SOT-223-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "10mA",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown、Reverse polarity voltage protection",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "800mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_UTC-Unisonic-Tech-LM2940G-12V-AA3-R_C127023.pdf",
+   "url": "https://jlcpcb.com/partdetail/UTC_Unisonic_Tech-LM2940G_12_AA3R/C127023",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_utc-unisonic-tech-lm2940g-12v-aa3-r_C127023.html"
+  },
+  "C128729": {
+   "code": "C128729",
+   "model": "S2MW",
+   "brand": "Shandong Jingdao Microelectronics",
+   "stock": 14395,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-123F",
+   "prices": [
+    [
+     1,
+     0.0183
+    ],
+    [
+     500,
+     0.0144
+    ],
+    [
+     3000,
+     0.0122
+    ],
+    [
+     6000,
+     0.011
+    ],
+    [
+     24000,
+     0.0099
+    ],
+    [
+     51000,
+     0.0093
+    ]
+   ],
+   "p1": 0.0183,
+   "desc": "-55℃~+150℃ 1.1V@2A 1kV 2A 50A 5uA@1000V Independent SOD-123F Diodes - General Purpose ROHS",
+   "cat": "Diodes - General Purpose",
+   "attrs": {
+    "Voltage - Forward(Vf@If)": "1.1V@2A",
+    "Non-Repetitive Peak Forward Surge Current": "50A",
+    "Voltage - DC Reverse(Vr)": "1kV",
+    "Operating Junction Temperature Range": "-55℃~+150℃",
+    "Diode Configuration": "Standalone",
+    "Current - Rectified": "2A",
+    "Reverse Leakage Current (Ir)": "5uA@1000V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf",
+   "url": "https://jlcpcb.com/partdetail/140015-S2MW/C128729",
+   "lcsc_url": "https://www.lcsc.com/product-detail/diodes-general-purpose_shandong-jingdao-microelectronics-s2mw_C128729.html"
+  },
+  "C131916": {
+   "code": "C131916",
+   "model": "LM2940SX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.2463
+    ],
+    [
+     10,
+     3.6513
+    ],
+    [
+     30,
+     3.2985
+    ],
+    [
+     100,
+     2.8173
+    ],
+    [
+     500,
+     2.6531
+    ],
+    [
+     1000,
+     2.5783
+    ]
+   ],
+   "p1": 4.2463,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 66dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal Shutdown、Input undervoltage protection、Input overvoltage protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940SX-12-NOPB_C131916.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940SX_12NOPB/C131916",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940sx-12-nopb_C131916.html"
+  },
+  "C138687": {
+   "code": "C138687",
+   "model": "CL32B106KBJNNNE",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 32750,
+   "type": "expand",
+   "pref": false,
+   "pkg": "1210",
+   "prices": [
+    [
+     1,
+     0.3252
+    ],
+    [
+     10,
+     0.258
+    ],
+    [
+     30,
+     0.2252
+    ],
+    [
+     100,
+     0.1961
+    ],
+    [
+     500,
+     0.188
+    ],
+    [
+     1000,
+     0.1582
+    ]
+   ],
+   "p1": 0.3252,
+   "desc": "10uF 50V X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±10%",
+    "Capacitance": "10uF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/1912112237_Samsung-Electro-Mechanics-CL32B106KBJNNNE_C138687.pdf",
+   "url": "https://jlcpcb.com/partdetail/150006-CL32B106KBJNNNE/C138687",
+   "lcsc_url": "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL32B106KBJNNNE_C138687.html"
+  },
+  "C145613": {
+   "code": "C145613",
+   "model": "MCP4451-103E/ST",
+   "brand": "Microchip Tech",
+   "stock": 40,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-20",
+   "prices": [
+    [
+     1,
+     2.9051
+    ],
+    [
+     10,
+     2.4613
+    ],
+    [
+     30,
+     2.1979
+    ],
+    [
+     100,
+     1.9297
+    ],
+    [
+     500,
+     1.8078
+    ],
+    [
+     1000,
+     1.7509
+    ]
+   ],
+   "p1": 2.9051,
+   "desc": "-40℃~+125℃ 1.8V~5.5V 10kΩ 1MHz 2.5uA 257 4 50ppm/℃ 75Ω I2C Linear Power-on reset RAM ±20% TSSOP-20 Digital Potentiometers ROHS",
+   "cat": "Digital Potentiometers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Number of Taps": "257",
+    "Tolerance": "±20%",
+    "Memory Type": "RAM",
+    "Resistance value change": "Linear",
+    "Resistance Value (Ohms)": "10kΩ",
+    "Temperature Coefficient(Typ)": "50ppm/℃",
+    "Number of Channels": "4",
+    "Voltage - Supply": "1.8V~5.5V",
+    "Bandwidth": "1MHz",
+    "Quiescent Current (Iq)": "2.5uA",
+    "Wiper resistance": "75Ω",
+    "Features": "Power-on reset",
+    "Interface": "I2C"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811082132_Microchip-Tech-MCP4451-103E-ST_C145613.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP4451_103EST/C145613",
+   "lcsc_url": "https://www.lcsc.com/product-detail/digital-potentiometers_microchip-tech-mcp4451-103e-st_C145613.html"
+  },
+  "C14663": {
+   "code": "C14663",
+   "model": "CC0603KRX7R9BB104",
+   "brand": "YAGEO",
+   "stock": 54422762,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0123
+    ],
+    [
+     500,
+     0.0088
+    ],
+    [
+     1500,
+     0.0073
+    ],
+    [
+     4000,
+     0.0058
+    ],
+    [
+     24000,
+     0.0054
+    ],
+    [
+     48000,
+     0.0051
+    ]
+   ],
+   "p1": 0.0123,
+   "desc": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±10%",
+    "Capacitance": "100nF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+   "url": "https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_yageo-cc0603krx7r9bb104_C14663.html"
+  },
+  "C14858": {
+   "code": "C14858",
+   "model": "CL10C101JB8NNNC",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 3911823,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0086
+    ],
+    [
+     500,
+     0.0065
+    ],
+    [
+     1500,
+     0.0055
+    ],
+    [
+     4000,
+     0.0048
+    ],
+    [
+     24000,
+     0.0045
+    ],
+    [
+     48000,
+     0.0043
+    ]
+   ],
+   "p1": 0.0086,
+   "desc": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±5%",
+    "Capacitance": "100pF",
+    "Temperature Coefficient": "C0G"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf",
+   "url": "https://jlcpcb.com/partdetail/15530-CL10C101JB8NNNC/C14858",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10c101jb8nnnc_C14858.html"
+  },
+  "C1588": {
+   "code": "C1588",
+   "model": "CL10B102KB8NNNC",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 7811866,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0089
+    ],
+    [
+     500,
+     0.0068
+    ],
+    [
+     1500,
+     0.0058
+    ],
+    [
+     4000,
+     0.0046
+    ],
+    [
+     24000,
+     0.0043
+    ],
+    [
+     48000,
+     0.0041
+    ]
+   ],
+   "p1": 0.0089,
+   "desc": "1nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Voltage Rating": "50V",
+    "Tolerance": "±10%",
+    "Capacitance": "1nF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf",
+   "url": "https://jlcpcb.com/partdetail/1940-CL10B102KB8NNNC/C1588",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10b102kb8nnnc_C1588.html"
+  },
+  "C1664": {
+   "code": "C1664",
+   "model": "CL10C331JB8NNNC",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 915282,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0179
+    ],
+    [
+     500,
+     0.0142
+    ],
+    [
+     1500,
+     0.0121
+    ],
+    [
+     4000,
+     0.0099
+    ],
+    [
+     24000,
+     0.0088
+    ],
+    [
+     48000,
+     0.0082
+    ]
+   ],
+   "p1": 0.0179,
+   "desc": "330pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±5%",
+    "Capacitance": "330pF",
+    "Temperature Coefficient": "C0G"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C331JB8NNNC_C1664.pdf",
+   "url": "https://jlcpcb.com/partdetail/2016-CL10C331JB8NNNC/C1664",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10c331jb8nnnc_C1664.html"
+  },
+  "C17415": {
+   "code": "C17415",
+   "model": "0805W8F100JT5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 6880485,
+   "type": "base",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.004
+    ],
+    [
+     1000,
+     0.0031
+    ],
+    [
+     5000,
+     0.0026
+    ],
+    [
+     10000,
+     0.0024
+    ],
+    [
+     50000,
+     0.0022
+    ],
+    [
+     50200,
+     0.0022
+    ]
+   ],
+   "p1": 0.004,
+   "desc": "-55℃~+155℃ 10Ω 125mW 150V Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "10Ω",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "125mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "150V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±200ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F100JT5E_C17415.pdf",
+   "url": "https://jlcpcb.com/partdetail/18103-0805W8F100JT5E/C17415",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0805w8f100jt5e_C17415.html"
+  },
+  "C17506": {
+   "code": "C17506",
+   "model": "0805W8F1802T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 194888,
+   "type": "expand",
+   "pref": true,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0043
+    ],
+    [
+     1000,
+     0.0033
+    ],
+    [
+     5000,
+     0.0028
+    ],
+    [
+     10000,
+     0.0026
+    ],
+    [
+     50000,
+     0.0023
+    ],
+    [
+     50200,
+     0.0023
+    ]
+   ],
+   "p1": 0.0043,
+   "desc": "-55℃~+155℃ 125mW 150V 18kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "18kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "125mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "150V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1802T5E_C17506.pdf",
+   "url": "https://jlcpcb.com/partdetail/18194-0805W8F1802T5E/C17506",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0805w8f1802t5e_C17506.html"
+  },
+  "C17514": {
+   "code": "C17514",
+   "model": "0805W8F1004T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 2420510,
+   "type": "base",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0043
+    ],
+    [
+     1000,
+     0.0035
+    ],
+    [
+     5000,
+     0.0028
+    ],
+    [
+     10000,
+     0.0025
+    ],
+    [
+     50000,
+     0.0023
+    ],
+    [
+     100000,
+     0.0021
+    ]
+   ],
+   "p1": 0.0043,
+   "desc": "-55℃~+155℃ 125mW 150V 1MΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "1MΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "125mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "150V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F1004T5E_C17514.pdf",
+   "url": "https://jlcpcb.com/partdetail/18202-0805W8F1004T5E/C17514",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0805w8f1004t5e_C17514.html"
+  },
+  "C17560": {
+   "code": "C17560",
+   "model": "0805W8F2202T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 1746324,
+   "type": "base",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0048
+    ],
+    [
+     1000,
+     0.0038
+    ],
+    [
+     5000,
+     0.0031
+    ],
+    [
+     10000,
+     0.0027
+    ],
+    [
+     50000,
+     0.0025
+    ],
+    [
+     100000,
+     0.0023
+    ]
+   ],
+   "p1": 0.0048,
+   "desc": "-55℃~+155℃ 125mW 150V 22kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "22kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "125mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "150V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F2202T5E_C17560.pdf",
+   "url": "https://jlcpcb.com/partdetail/18248-0805W8F2202T5E/C17560",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0805w8f2202t5e_C17560.html"
+  },
+  "C17724": {
+   "code": "C17724",
+   "model": "0805W8F510KT5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 418343,
+   "type": "base",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0041
+    ],
+    [
+     1000,
+     0.0031
+    ],
+    [
+     5000,
+     0.0025
+    ],
+    [
+     10000,
+     0.0023
+    ],
+    [
+     50000,
+     0.002
+    ],
+    [
+     50200,
+     0.002
+    ]
+   ],
+   "p1": 0.0041,
+   "desc": "-55℃~+155℃ 125mW 150V 5.1Ω Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "5.1Ω",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "125mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "150V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±200ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F510KT5E_C17724.pdf",
+   "url": "https://jlcpcb.com/partdetail/18412-0805W8F510KT5E/C17724",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0805w8f510kt5e_C17724.html"
+  },
+  "C17864": {
+   "code": "C17864",
+   "model": "0805W8F9103T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 15984,
+   "type": "expand",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0034
+    ],
+    [
+     1000,
+     0.0027
+    ],
+    [
+     5000,
+     0.0022
+    ],
+    [
+     10000,
+     0.0021
+    ],
+    [
+     50000,
+     0.0018
+    ],
+    [
+     50200,
+     0.0018
+    ]
+   ],
+   "p1": 0.0034,
+   "desc": "-55℃~+155℃ 125mW 150V 910kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "910kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "125mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "150V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F9103T5E_C17864.pdf",
+   "url": "https://jlcpcb.com/partdetail/18552-0805W8F9103T5E/C17864",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0805w8f9103t5e_C17864.html"
+  },
+  "C179842": {
+   "code": "C179842",
+   "model": "CD74HC4066M96",
+   "brand": "Texas Instruments",
+   "stock": 73,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.6097
+    ],
+    [
+     10,
+     0.5154
+    ],
+    [
+     30,
+     0.4504
+    ],
+    [
+     100,
+     0.3951
+    ],
+    [
+     500,
+     0.3772
+    ],
+    [
+     1000,
+     0.3674
+    ]
+   ],
+   "p1": 0.6097,
+   "desc": "-55℃~+125℃ 12ns 1:1 200MHz 24ns 25Ω 2V~10V 35ns 4 5pF Bidirectional analog channel SOIC-14 Analog Switches, Multiplexers ROHS",
+   "cat": "Analog Switches, Multiplexers",
+   "attrs": {
+    "Ron": "25Ω",
+    "Operating Temperature": "-55℃~+125℃",
+    "Con": "5pF",
+    "Number of Channels": "4",
+    "Switch Circuit": "1:1",
+    "Voltage - Supply": "2V~10V",
+    "Propagation Delay (tpd)": "12ns",
+    "Bandwidth": "200MHz",
+    "Features": "Bidirectional analog channel",
+    "Turn-on time": "24ns",
+    "Turn-off time": "35ns"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Texas-Instruments-CD74HC4066M96_C179842.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-CD74HC4066M96/C179842",
+   "lcsc_url": "https://www.lcsc.com/product-detail/analog-switches-multiplexers_texas-instruments-cd74hc4066m96_C179842.html"
+  },
+  "C2076400": {
+   "code": "C2076400",
+   "model": "CSS4J-4026R-1L00F",
+   "brand": "BOURNS",
+   "stock": 385,
+   "type": "expand",
+   "pref": false,
+   "pkg": "4026",
+   "prices": [
+    [
+     1,
+     1.7086
+    ],
+    [
+     10,
+     1.4436
+    ],
+    [
+     30,
+     1.2794
+    ],
+    [
+     100,
+     1.1104
+    ],
+    [
+     500,
+     1.034
+    ],
+    [
+     1500,
+     0.9998
+    ]
+   ],
+   "p1": 1.7086,
+   "desc": "1mΩ 4W Current Sense Resistor ±1% ±75ppm/℃ 4026 Current Sense Resistors / Shunt Resistors ROHS",
+   "cat": "Current Sense Resistors / Shunt Resistors",
+   "attrs": {
+    "Resistance": "1mΩ",
+    "Power(Watts)": "4W",
+    "Type": "Current Sense Resistor",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±75ppm/℃"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-CSS4J-4026R-1L00F_C2076400.pdf",
+   "url": "https://jlcpcb.com/partdetail/BOURNS-CSS4J_4026R1L00F/C2076400",
+   "lcsc_url": "https://www.lcsc.com/product-detail/current-sense-resistors-shunt-resistors_bourns-css4j-4026r-1l00f_C2076400.html"
+  },
+  "C208476": {
+   "code": "C208476",
+   "model": "MF-R050",
+   "brand": "BOURNS",
+   "stock": 7030,
+   "type": "expand",
+   "pref": false,
+   "pkg": "Plugin,P=5.1mm",
+   "prices": [
+    [
+     1,
+     0.1433
+    ],
+    [
+     50,
+     0.1121
+    ],
+    [
+     150,
+     0.0965
+    ],
+    [
+     500,
+     0.0795
+    ],
+    [
+     2500,
+     0.0701
+    ],
+    [
+     5000,
+     0.0654
+    ]
+   ],
+   "p1": 0.1433,
+   "desc": "-40℃~+85℃ 1.17Ω 1A 40A 410mΩ 4s 5.1mm 500mA 60V 7.9mm 750mW 插件,P=5.1mm Resettable Fuses ROHS",
+   "cat": "Resettable Fuses",
+   "attrs": {
+    "Power Dissipation": "750mW",
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage - Max": "60V",
+    "Time to Trip(Max)": "4s",
+    "Length": "7.9mm",
+    "Resistance - Initial (Ri) (Min)": "410mΩ",
+    "Trip Current": "1A",
+    "Pitch": "5.1mm",
+    "Hold Current": "500mA",
+    "Height": "-",
+    "Current - Max": "40A",
+    "Width": "-",
+    "Resistance - Post Trip (R1) (Max)": "1.17Ω"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806111031_BOURNS-MF-R050_C208476.pdf",
+   "url": "https://jlcpcb.com/partdetail/BOURNS-MFR050/C208476",
+   "lcsc_url": "https://www.lcsc.com/product-detail/resettable-fuses_bourns-mf-r050_C208476.html"
+  },
+  "C21190": {
+   "code": "C21190",
+   "model": "0603WAF1001T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 21672207,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0026
+    ],
+    [
+     1000,
+     0.002
+    ],
+    [
+     5000,
+     0.0018
+    ],
+    [
+     10000,
+     0.0014
+    ],
+    [
+     50000,
+     0.0013
+    ],
+    [
+     50200,
+     0.0013
+    ]
+   ],
+   "p1": 0.0026,
+   "desc": "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "1kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf",
+   "url": "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1001t5e_C21190.html"
+  },
+  "C21397": {
+   "code": "C21397",
+   "model": "GRM32ER71E226KE15L",
+   "brand": "Murata Electronics",
+   "stock": 75388,
+   "type": "expand",
+   "pref": false,
+   "pkg": "1210",
+   "prices": [
+    [
+     1,
+     0.4585
+    ],
+    [
+     10,
+     0.3691
+    ],
+    [
+     30,
+     0.3252
+    ],
+    [
+     100,
+     0.2862
+    ],
+    [
+     500,
+     0.2764
+    ],
+    [
+     1000,
+     0.2439
+    ]
+   ],
+   "p1": 0.4585,
+   "desc": "22uF 25V X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "25V",
+    "Tolerance": "±10%",
+    "Capacitance": "22uF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2308111542_Murata-Electronics-GRM32ER71E226KE15L_C21397.pdf",
+   "url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71E226KE15L/C21397",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_murata-electronics-grm32er71e226ke15l_C21397.html"
+  },
+  "C21565": {
+   "code": "C21565",
+   "model": "BAV21W",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 87375,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-123",
+   "prices": [
+    [
+     1,
+     0.0191
+    ],
+    [
+     500,
+     0.0152
+    ],
+    [
+     3000,
+     0.0123
+    ],
+    [
+     6000,
+     0.011
+    ],
+    [
+     24000,
+     0.0099
+    ],
+    [
+     51000,
+     0.0093
+    ]
+   ],
+   "p1": 0.0191,
+   "desc": "1.25V@200mA 1.7A 100nA@200V 200V 200mA 500mW 50ns Independent SOD-123 Switching Diodes ROHS",
+   "cat": "Switching Diodes",
+   "attrs": {
+    "Voltage - Forward(Vf@If)": "1.25V@200mA",
+    "Non-Repetitive Peak Forward Surge Current": "1.7A",
+    "Voltage - DC Reverse(Vr)": "200V",
+    "Operating Junction Temperature Range": "-",
+    "Reverse Recovery Time (trr)": "50ns",
+    "Diode Configuration": "Standalone",
+    "Current - Rectified": "200mA",
+    "Pd - Power Dissipation": "500mW",
+    "Reverse Leakage Current (Ir)": "100nA@200V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011112_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--BAV21W_C21565.pdf",
+   "url": "https://jlcpcb.com/partdetail/22286-BAV21W/C21565",
+   "lcsc_url": "https://www.lcsc.com/product-detail/switching-diodes_jiangsu-changjing-electronics-technology-co-ltd-bav21w_C21565.html"
+  },
+  "C22427873": {
+   "code": "C22427873",
+   "model": "INA241A4IDR",
+   "brand": "Texas Instruments",
+   "stock": 116,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     3.5277
+    ],
+    [
+     10,
+     3.1538
+    ],
+    [
+     30,
+     2.9636
+    ],
+    [
+     100,
+     2.71
+    ],
+    [
+     500,
+     2.6174
+    ],
+    [
+     1000,
+     2.5783
+    ]
+   ],
+   "p1": 3.5277,
+   "desc": "SOIC-8 Current Sense Amplifiers ROHS",
+   "cat": "Current Sense Amplifiers",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-INA241A4IDR/C22427873",
+   "lcsc_url": null
+  },
+  "C22629": {
+   "code": "C22629",
+   "model": "BAT54WS L9",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 1078,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-323",
+   "prices": [
+    [
+     1,
+     0.0238
+    ],
+    [
+     200,
+     0.0189
+    ],
+    [
+     600,
+     0.0161
+    ],
+    [
+     3000,
+     0.0133
+    ],
+    [
+     9000,
+     0.0119
+    ],
+    [
+     21000,
+     0.0111
+    ]
+   ],
+   "p1": 0.0238,
+   "desc": "100mA 1V@100mA 2uA@25V 30V 600mA Independent SOD-323 Schottky Diodes ROHS",
+   "cat": "Schottky Diodes",
+   "attrs": {
+    "Voltage - Forward(Vf@If)": "1V@100mA",
+    "Non-Repetitive Peak Forward Surge Current": "600mA",
+    "Voltage - DC Reverse(Vr)": "30V",
+    "Diode Configuration": "Standalone",
+    "Current - Rectified": "100mA",
+    "Reverse Leakage Current (Ir)": "2uA@25V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809140116_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--BAT54WS-L9_C22629.pdf",
+   "url": "https://jlcpcb.com/partdetail/23356-BAT54WSL9/C22629",
+   "lcsc_url": "https://www.lcsc.com/product-detail/schottky-diodes_jiangsu-changjing-electronics-technology-co-ltd-bat54ws-l9_C22629.html"
+  },
+  "C22775": {
+   "code": "C22775",
+   "model": "0603WAF1000T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 11576722,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0031
+    ],
+    [
+     1000,
+     0.0025
+    ],
+    [
+     5000,
+     0.0022
+    ],
+    [
+     10000,
+     0.0018
+    ],
+    [
+     50000,
+     0.0016
+    ],
+    [
+     50200,
+     0.0016
+    ]
+   ],
+   "p1": 0.0031,
+   "desc": "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "100Ω",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf",
+   "url": "https://jlcpcb.com/partdetail/23502-0603WAF1000T5E/C22775",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1000t5e_C22775.html"
+  },
+  "C22962": {
+   "code": "C22962",
+   "model": "0603WAF2200T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 1903983,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0035
+    ],
+    [
+     1000,
+     0.0027
+    ],
+    [
+     5000,
+     0.0023
+    ],
+    [
+     10000,
+     0.0021
+    ],
+    [
+     50000,
+     0.0018
+    ],
+    [
+     50200,
+     0.0018
+    ]
+   ],
+   "p1": 0.0035,
+   "desc": "-55℃~+155℃ 100mW 220Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "220Ω",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF2200T5E_C22962.pdf",
+   "url": "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf2200t5e_C22962.html"
+  },
+  "C22975": {
+   "code": "C22975",
+   "model": "0603WAF2001T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 13572776,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0024
+    ],
+    [
+     1000,
+     0.0018
+    ],
+    [
+     5000,
+     0.0016
+    ],
+    [
+     10000,
+     0.0014
+    ],
+    [
+     50000,
+     0.0013
+    ],
+    [
+     50200,
+     0.0013
+    ]
+   ],
+   "p1": 0.0024,
+   "desc": "-55℃~+155℃ 100mW 2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "2kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF2001T5E_C22975.pdf",
+   "url": "https://jlcpcb.com/partdetail/23702-0603WAF2001T5E/C22975",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf2001t5e_C22975.html"
+  },
+  "C22978": {
+   "code": "C22978",
+   "model": "0603WAF3301T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 5696130,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0026
+    ],
+    [
+     1000,
+     0.002
+    ],
+    [
+     5000,
+     0.0016
+    ],
+    [
+     10000,
+     0.0015
+    ],
+    [
+     50000,
+     0.0013
+    ],
+    [
+     50200,
+     0.0013
+    ]
+   ],
+   "p1": 0.0026,
+   "desc": "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "3.3kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3301T5E_C22978.pdf",
+   "url": "https://jlcpcb.com/partdetail/23705-0603WAF3301T5E/C22978",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf3301t5e_C22978.html"
+  },
+  "C23162": {
+   "code": "C23162",
+   "model": "0603WAF4701T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 22492816,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0028
+    ],
+    [
+     1000,
+     0.0022
+    ],
+    [
+     5000,
+     0.002
+    ],
+    [
+     10000,
+     0.0016
+    ],
+    [
+     50000,
+     0.0015
+    ],
+    [
+     50200,
+     0.0015
+    ]
+   ],
+   "p1": 0.0028,
+   "desc": "-55℃~+155℃ 100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "4.7kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf",
+   "url": "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf4701t5e_C23162.html"
+  },
+  "C23186": {
+   "code": "C23186",
+   "model": "0603WAF5101T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 25280385,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0015
+    ],
+    [
+     1000,
+     0.0012
+    ],
+    [
+     5000,
+     0.001
+    ],
+    [
+     10000,
+     0.0008
+    ],
+    [
+     50000,
+     0.0007
+    ],
+    [
+     50200,
+     0.0007
+    ]
+   ],
+   "p1": 0.0015,
+   "desc": "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "5.1kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf",
+   "url": "https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf5101t5e_C23186.html"
+  },
+  "C23192": {
+   "code": "C23192",
+   "model": "0603WAF5103T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 894332,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0024
+    ],
+    [
+     1000,
+     0.0019
+    ],
+    [
+     5000,
+     0.0016
+    ],
+    [
+     10000,
+     0.0015
+    ],
+    [
+     50000,
+     0.0013
+    ],
+    [
+     50200,
+     0.0013
+    ]
+   ],
+   "p1": 0.0024,
+   "desc": "-55℃~+155℃ 100mW 510kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "510kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5103T5E_C23192.pdf",
+   "url": "https://jlcpcb.com/partdetail/23919-0603WAF5103T5E/C23192",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf5103t5e_C23192.html"
+  },
+  "C23206": {
+   "code": "C23206",
+   "model": "0603WAF5602T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 1026495,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0027
+    ],
+    [
+     1000,
+     0.0021
+    ],
+    [
+     5000,
+     0.0018
+    ],
+    [
+     10000,
+     0.0014
+    ],
+    [
+     50000,
+     0.0012
+    ],
+    [
+     50200,
+     0.0012
+    ]
+   ],
+   "p1": 0.0027,
+   "desc": "-55℃~+155℃ 100mW 56kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "56kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5602T5E_C23206.pdf",
+   "url": "https://jlcpcb.com/partdetail/23933-0603WAF5602T5E/C23206",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf5602t5e_C23206.html"
+  },
+  "C23219": {
+   "code": "C23219",
+   "model": "0603WAF6203T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 93537,
+   "type": "expand",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.002
+    ],
+    [
+     1000,
+     0.0015
+    ],
+    [
+     5000,
+     0.0013
+    ],
+    [
+     10000,
+     0.0012
+    ],
+    [
+     50000,
+     0.0011
+    ],
+    [
+     50200,
+     0.0011
+    ]
+   ],
+   "p1": 0.002,
+   "desc": "-55℃~+155℃ 100mW 620kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "620kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF6203T5E_C23219.pdf",
+   "url": "https://jlcpcb.com/partdetail/23946-0603WAF6203T5E/C23219",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf6203t5e_C23219.html"
+  },
+  "C23221": {
+   "code": "C23221",
+   "model": "0603WAF6202T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 418136,
+   "type": "expand",
+   "pref": true,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0028
+    ],
+    [
+     1000,
+     0.0022
+    ],
+    [
+     5000,
+     0.0019
+    ],
+    [
+     10000,
+     0.0015
+    ],
+    [
+     50000,
+     0.0013
+    ],
+    [
+     50200,
+     0.0013
+    ]
+   ],
+   "p1": 0.0028,
+   "desc": "-55℃~+155℃ 100mW 62kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "62kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF6202T5E_C23221.pdf",
+   "url": "https://jlcpcb.com/partdetail/23948-0603WAF6202T5E/C23221",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf6202t5e_C23221.html"
+  },
+  "C25803": {
+   "code": "C25803",
+   "model": "0603WAF1003T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 22167984,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0031
+    ],
+    [
+     1000,
+     0.0024
+    ],
+    [
+     5000,
+     0.0021
+    ],
+    [
+     10000,
+     0.0017
+    ],
+    [
+     50000,
+     0.0016
+    ],
+    [
+     50200,
+     0.0016
+    ]
+   ],
+   "p1": 0.0031,
+   "desc": "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "100kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf",
+   "url": "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1003t5e_C25803.html"
+  },
+  "C25804": {
+   "code": "C25804",
+   "model": "0603WAF1002T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 23109251,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0018
+    ],
+    [
+     1000,
+     0.0015
+    ],
+    [
+     5000,
+     0.0014
+    ],
+    [
+     10000,
+     0.0013
+    ],
+    [
+     50000,
+     0.0012
+    ],
+    [
+     50200,
+     0.0012
+    ]
+   ],
+   "p1": 0.0018,
+   "desc": "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "10kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf",
+   "url": "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1002t5e_C25804.html"
+  },
+  "C25808": {
+   "code": "C25808",
+   "model": "0603WAF1203T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 1007305,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0015
+    ],
+    [
+     1000,
+     0.0012
+    ],
+    [
+     5000,
+     0.001
+    ],
+    [
+     10000,
+     0.0009
+    ],
+    [
+     50000,
+     0.0008
+    ],
+    [
+     50200,
+     0.0008
+    ]
+   ],
+   "p1": 0.0015,
+   "desc": "-55℃~+155℃ 100mW 120kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "120kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1203T5E_C25808.pdf",
+   "url": "https://jlcpcb.com/partdetail/26551-0603WAF1203T5E/C25808",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1203t5e_C25808.html"
+  },
+  "C25811": {
+   "code": "C25811",
+   "model": "0603WAF2003T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 2473796,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0023
+    ],
+    [
+     1000,
+     0.0017
+    ],
+    [
+     5000,
+     0.0014
+    ],
+    [
+     10000,
+     0.0013
+    ],
+    [
+     50000,
+     0.0011
+    ],
+    [
+     50200,
+     0.0011
+    ]
+   ],
+   "p1": 0.0023,
+   "desc": "-55℃~+155℃ 100mW 200kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "200kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF2003T5E_C25811.pdf",
+   "url": "https://jlcpcb.com/partdetail/26554-0603WAF2003T5E/C25811",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf2003t5e_C25811.html"
+  },
+  "C27675": {
+   "code": "C27675",
+   "model": "CL10C221JB8NNNC",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 32979,
+   "type": "expand",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0095
+    ],
+    [
+     200,
+     0.0078
+    ],
+    [
+     600,
+     0.0069
+    ],
+    [
+     4000,
+     0.0063
+    ],
+    [
+     8000,
+     0.0058
+    ],
+    [
+     20000,
+     0.0056
+    ]
+   ],
+   "p1": 0.0095,
+   "desc": "220pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±5%",
+    "Capacitance": "220pF",
+    "Temperature Coefficient": "C0G"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C221JB8NNNC_C27675.pdf",
+   "url": "https://jlcpcb.com/partdetail/28425-CL10C221JB8NNNC/C27675",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10c221jb8nnnc_C27675.html"
+  },
+  "C28233": {
+   "code": "C28233",
+   "model": "CL21B104KCFNNNE",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 1258622,
+   "type": "base",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0357
+    ],
+    [
+     500,
+     0.0272
+    ],
+    [
+     2000,
+     0.0235
+    ],
+    [
+     4000,
+     0.0205
+    ],
+    [
+     24000,
+     0.0194
+    ],
+    [
+     50000,
+     0.0186
+    ]
+   ],
+   "p1": 0.0357,
+   "desc": "100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "100V",
+    "Tolerance": "±10%",
+    "Capacitance": "100nF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KCFNNNE_C28233.pdf",
+   "url": "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl21b104kcfnnne_C28233.html"
+  },
+  "C28323": {
+   "code": "C28323",
+   "model": "CL21B105KBFNNNE",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 2288251,
+   "type": "base",
+   "pref": false,
+   "pkg": "0805",
+   "prices": [
+    [
+     1,
+     0.0399
+    ],
+    [
+     100,
+     0.0306
+    ],
+    [
+     300,
+     0.0257
+    ],
+    [
+     2000,
+     0.0218
+    ],
+    [
+     4000,
+     0.0205
+    ],
+    [
+     10000,
+     0.0196
+    ]
+   ],
+   "p1": 0.0399,
+   "desc": "1uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±10%",
+    "Capacitance": "1uF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf",
+   "url": "https://jlcpcb.com/partdetail/29074-CL21B105KBFNNNE/C28323",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl21b105kbfnnne_C28323.html"
+  },
+  "C2865267": {
+   "code": "C2865267",
+   "model": "LM2940CS-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 7,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.7079
+    ],
+    [
+     10,
+     4.1438
+    ],
+    [
+     30,
+     3.8561
+    ],
+    [
+     100,
+     3.4708
+    ],
+    [
+     500,
+     3.3326
+    ],
+    [
+     1000,
+     3.2741
+    ]
+   ],
+   "p1": 4.7079,
+   "desc": "-40℃~+125℃@(Ta) 1 12V 1A 1V@(1A) 26V 30mA 360uVrms 54dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220730_Texas-Instruments-LM2940CS-12-NOPB_C2865267.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940CS_12NOPB/C2865267",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940cs-12-nopb_C2865267.html"
+  },
+  "C2866640": {
+   "code": "C2866640",
+   "model": "LM2940IMPX-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1293,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.6793
+    ],
+    [
+     10,
+     1.416
+    ],
+    [
+     30,
+     1.2713
+    ],
+    [
+     100,
+     1.1071
+    ],
+    [
+     500,
+     1.0356
+    ],
+    [
+     1000,
+     1.0015
+    ]
+   ],
+   "p1": 1.6793,
+   "desc": "-40℃~+125℃ 1 12V 15mA 1A 26V 360uVrms 500mV@(1A) 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "15mA",
+    "Noise": "360uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220700_Texas-Instruments-LM2940IMPX-12-NOPB_C2866640.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMPX_12NOPB/C2866640",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940impx-12-nopb_C2866640.html"
+  },
+  "C2877347": {
+   "code": "C2877347",
+   "model": "LM2940S-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     4.5795
+    ],
+    [
+     10,
+     4.0837
+    ],
+    [
+     30,
+     3.7667
+    ],
+    [
+     100,
+     3.4611
+    ],
+    [
+     102,
+     3.4611
+    ],
+    [
+     104,
+     3.4611
+    ]
+   ],
+   "p1": 4.5795,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 15mA 1A 1V@(1A) 240uVrms 26V 54dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "standby current": "15mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "240uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "26V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220530_Texas-Instruments-LM2940S-12-NOPB_C2877347.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940S_12NOPB/C2877347",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940s-12-nopb_C2877347.html"
+  },
+  "C2900725": {
+   "code": "C2900725",
+   "model": "S2MW",
+   "brand": "Foshan Blue Rocket Elec",
+   "stock": 1327,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOD-123FL",
+   "prices": [
+    [
+     1,
+     0.0212
+    ],
+    [
+     200,
+     0.0166
+    ],
+    [
+     600,
+     0.0141
+    ],
+    [
+     3000,
+     0.0121
+    ],
+    [
+     9000,
+     0.0108
+    ],
+    [
+     21000,
+     0.0101
+    ]
+   ],
+   "p1": 0.0212,
+   "desc": "-55℃~+150℃ 1.1V@2A 1kV 2A 50A 5uA@1kV Independent SOD-123FL Diodes - General Purpose ROHS",
+   "cat": "Diodes - General Purpose",
+   "attrs": {
+    "Voltage - Forward(Vf@If)": "1.1V@2A",
+    "Non-Repetitive Peak Forward Surge Current": "50A",
+    "Voltage - DC Reverse(Vr)": "1kV",
+    "Operating Junction Temperature Range": "-55℃~+150℃",
+    "Diode Configuration": "Independent",
+    "Current - Rectified": "2A",
+    "Reverse Leakage Current (Ir)": "5uA@1kV"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110191430_Foshan-Blue-Rocket-Elec-S2MW_C2900725.pdf",
+   "url": "https://jlcpcb.com/partdetail/Foshan_Blue_RocketElec-S2MW/C2900725",
+   "lcsc_url": "https://www.lcsc.com/product-detail/diodes-general-purpose_foshan-blue-rocket-elec-s2mw_C2900725.html"
+  },
+  "C2918511": {
+   "code": "C2918511",
+   "model": "CS3225X7R226K250NRL",
+   "brand": "Samwha Capacitor",
+   "stock": 92707,
+   "type": "expand",
+   "pref": false,
+   "pkg": "1210",
+   "prices": [
+    [
+     1,
+     0.1626
+    ],
+    [
+     50,
+     0.1316
+    ],
+    [
+     150,
+     0.1155
+    ],
+    [
+     1000,
+     0.0891
+    ],
+    [
+     2000,
+     0.0846
+    ],
+    [
+     5000,
+     0.0815
+    ]
+   ],
+   "p1": 0.1626,
+   "desc": "22uF 25V X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "25V",
+    "Tolerance": "±10%",
+    "Capacitance": "22uF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2111172030_Samwha-Capacitor-CS3225X7R226K250NRL_C2918511.pdf",
+   "url": "https://jlcpcb.com/partdetail/3220363-CS3225X7R226K250NRL/C2918511",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samwha-capacitor-cs3225x7r226k250nrl_C2918511.html"
+  },
+  "C29664285": {
+   "code": "C29664285",
+   "model": "EEH-ZU1E681UP",
+   "brand": "PANASONIC",
+   "stock": 10,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SMD,D10x12.8mm",
+   "prices": [
+    [
+     1,
+     2.5409
+    ],
+    [
+     10,
+     2.4857
+    ],
+    [
+     30,
+     2.4483
+    ],
+    [
+     100,
+     2.4125
+    ],
+    [
+     102,
+     2.4125
+    ],
+    [
+     104,
+     2.4125
+    ]
+   ],
+   "p1": 2.5409,
+   "desc": "-55℃~+135℃ 10mm 10mΩ@100kHz 12.5mm 25V 3700mA@100kHz 4000hrs@135℃ 680uF Polarized SMD ±20% SMD,D10x12.8mm Hybrid Aluminum Electrolytic Capacitors ROHS",
+   "cat": "Hybrid Aluminum Electrolytic Capacitors",
+   "attrs": {
+    "Operating Temperature": "-55℃~+135℃",
+    "Lifetime": "4000hrs@135℃",
+    "Equivalent Series Resistance(ESR)": "10mΩ@100kHz",
+    "Voltage Rating": "25V",
+    "Height - Seated (Max)": "12.5mm",
+    "Tolerance": "±20%",
+    "Polarity type": "Polarized",
+    "Capacitance": "680uF",
+    "Mounting Type": "SMD",
+    "Ripple Current": "3700mA@100kHz",
+    "Diameter": "10mm"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/PANASONIC-EEHZU1E681UP/C29664285",
+   "lcsc_url": null
+  },
+  "C31850": {
+   "code": "C31850",
+   "model": "0603WAF2202T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 3706362,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0041
+    ],
+    [
+     1000,
+     0.0031
+    ],
+    [
+     5000,
+     0.0026
+    ],
+    [
+     10000,
+     0.0023
+    ],
+    [
+     50000,
+     0.002
+    ],
+    [
+     50200,
+     0.002
+    ]
+   ],
+   "p1": 0.0041,
+   "desc": "-55℃~+155℃ 100mW 22kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "22kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF2202T5E_C31850.pdf",
+   "url": "https://jlcpcb.com/partdetail/32812-0603WAF2202T5E/C31850",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf2202t5e_C31850.html"
+  },
+  "C381466": {
+   "code": "C381466",
+   "model": "FS32X475K101EGG",
+   "brand": "PSA(Prosperity Dielectrics)",
+   "stock": 172923,
+   "type": "expand",
+   "pref": false,
+   "pkg": "1210",
+   "prices": [
+    [
+     1,
+     0.2328
+    ],
+    [
+     50,
+     0.1852
+    ],
+    [
+     150,
+     0.162
+    ],
+    [
+     1000,
+     0.1327
+    ],
+    [
+     2000,
+     0.127
+    ],
+    [
+     5000,
+     0.1236
+    ]
+   ],
+   "p1": 0.2328,
+   "desc": "100V 4.7uF X7R ±10% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "100V",
+    "Tolerance": "±10%",
+    "Capacitance": "4.7uF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_PSA-Prosperity-Dielectrics-FS32X475K101EGG_C381466.pdf",
+   "url": "https://jlcpcb.com/partdetail/354087-FS32X475K101EGG/C381466",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_psa-prosperity-dielectrics-fs32x475k101egg_C381466.html"
+  },
+  "C385885": {
+   "code": "C385885",
+   "model": "EEHZS1H221P",
+   "brand": "PANASONIC",
+   "stock": 1263,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SMD,D10xL16.5mm",
+   "prices": [
+    [
+     1,
+     1.6338
+    ],
+    [
+     10,
+     1.3754
+    ],
+    [
+     30,
+     1.2355
+    ],
+    [
+     250,
+     0.9608
+    ],
+    [
+     500,
+     0.8893
+    ],
+    [
+     1000,
+     0.8584
+    ]
+   ],
+   "p1": 1.6338,
+   "desc": "-55℃~+135℃ 10mm 13mΩ 16.5mm 220uF 4000hrs@135℃ 50V 555mA@100Hz Polarized SMD ±20% SMD,D10xL16.5mm Hybrid Aluminum Electrolytic Capacitors ROHS",
+   "cat": "Hybrid Aluminum Electrolytic Capacitors",
+   "attrs": {
+    "Operating Temperature": "-55℃~+135℃",
+    "Lifetime": "4000hrs@135℃",
+    "Equivalent Series Resistance(ESR)": "13mΩ",
+    "Voltage Rating": "50V",
+    "Height - Seated (Max)": "16.5mm",
+    "Tolerance": "±20%",
+    "Polarity type": "Polarized",
+    "Capacitance": "220uF",
+    "Mounting Type": "SMD",
+    "Ripple Current": "555mA@100Hz",
+    "Diameter": "10mm"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_PANASONIC-EEHZS1H221P_C385885.pdf",
+   "url": "https://jlcpcb.com/partdetail/PANASONIC-EEHZS1H221P/C385885",
+   "lcsc_url": "https://www.lcsc.com/product-detail/hybrid-aluminum-electrolytic-capacitors_panasonic-eehzs1h221p_C385885.html"
+  },
+  "C398363": {
+   "code": "C398363",
+   "model": "TLV9001IDBVR",
+   "brand": "Texas Instruments",
+   "stock": 48438,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.0979
+    ],
+    [
+     50,
+     0.0771
+    ],
+    [
+     150,
+     0.0667
+    ],
+    [
+     500,
+     0.0591
+    ],
+    [
+     3000,
+     0.0503
+    ],
+    [
+     6000,
+     0.0472
+    ]
+   ],
+   "p1": 0.0979,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 1 1.6mV 1.8V~5.5V 1MHz 2V/us 2pA 4.7nV/√Hz@1kHz 40mA 5pA 600nV/℃ 60uA 86dB Enable/shutdown function、EMI filtering/RF suppression Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1.6mV",
+    "Input Offset Current(Ios)": "2pA",
+    "Output Current": "40mA",
+    "Input Offset Voltage Drift(Vos TC)": "600nV/℃",
+    "Slew Rate": "2V/us",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "1.8V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "86dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "4.7nV/√Hz@1kHz",
+    "Quiescent Current": "60uA",
+    "Features": "Enable/shutdown function、EMI filtering/RF suppression",
+    "Ib - Input Bias Current": "5pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010130_Texas-Instruments-TLV9001IDBVR_C398363.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV9001IDBVR/C398363",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlv9001idbvr_C398363.html"
+  },
+  "C413486": {
+   "code": "C413486",
+   "model": "WSL2512R0500FEA",
+   "brand": "Vishay Intertech",
+   "stock": 41066,
+   "type": "expand",
+   "pref": false,
+   "pkg": "2512",
+   "prices": [
+    [
+     1,
+     0.2348
+    ],
+    [
+     50,
+     0.1829
+    ],
+    [
+     150,
+     0.1607
+    ],
+    [
+     500,
+     0.1329
+    ],
+    [
+     2000,
+     0.1017
+    ],
+    [
+     4000,
+     0.0942
+    ]
+   ],
+   "p1": 0.2348,
+   "desc": "-65℃~+170℃ 1W 50mΩ ±1% ±75ppm/℃ 2512 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "50mΩ",
+    "Operating Temperature": "-65℃~+170℃",
+    "Power(Watts)": "1W",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±75ppm/℃"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Vishay-Intertech-WSL2512R0500FEA_C413486.pdf",
+   "url": "https://jlcpcb.com/partdetail/VishayIntertech-WSL2512R0500FEA/C413486",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_vishay-intertech-wsl2512r0500fea_C413486.html"
+  },
+  "C4184": {
+   "code": "C4184",
+   "model": "0603WAF2002T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 8044733,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0023
+    ],
+    [
+     1000,
+     0.0018
+    ],
+    [
+     5000,
+     0.0015
+    ],
+    [
+     10000,
+     0.0014
+    ],
+    [
+     50000,
+     0.0012
+    ],
+    [
+     50200,
+     0.0012
+    ]
+   ],
+   "p1": 0.0023,
+   "desc": "-55℃~+155℃ 100mW 20kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "20kΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0603WAF2002T5E_C4184.pdf",
+   "url": "https://jlcpcb.com/partdetail/4591-0603WAF2002T5E/C4184",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf2002t5e_C4184.html"
+  },
+  "C42394451": {
+   "code": "C42394451",
+   "model": "5.0SMDJ54A",
+   "brand": "hongjiacheng",
+   "stock": 9825,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DO-214AB(SMC)",
+   "prices": [
+    [
+     1,
+     0.3951
+    ],
+    [
+     50,
+     0.3138
+    ],
+    [
+     150,
+     0.278
+    ],
+    [
+     500,
+     0.2341
+    ],
+    [
+     3000,
+     0.2146
+    ],
+    [
+     6000,
+     0.2033
+    ]
+   ],
+   "p1": 0.3951,
+   "desc": "DO-214AB(SMC) ESD and Surge Protection (TVS/ESD) ROHS",
+   "cat": "ESD and Surge Protection (TVS/ESD)",
+   "attrs": {
+    "Operating Temperature": "-55℃~+150℃",
+    "Type": "TVS",
+    "Peak Pulse Power Dissipation (Ppp)": "5kW@10/1000us",
+    "Number of Channels": "1",
+    "level of protection": "IEC 61000-4-2",
+    "Clamping Voltage": "87.1V",
+    "Polarity": "Unidirectional",
+    "Voltage - Breakdown": "66.3V",
+    "Peak Pulse Current (Ipp)": "57.4A",
+    "Reverse Stand-Off Voltage (Vrwm)": "54V",
+    "Reverse Leakage Current (Ir)": "5uA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-50SMDJ54A/C42394451",
+   "lcsc_url": null
+  },
+  "C42421839": {
+   "code": "C42421839",
+   "model": "CD4017BM-TD",
+   "brand": "TDSEMIC",
+   "stock": 2857,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-16",
+   "prices": [
+    [
+     1,
+     0.1254
+    ],
+    [
+     50,
+     0.0997
+    ],
+    [
+     150,
+     0.0867
+    ],
+    [
+     500,
+     0.0771
+    ],
+    [
+     2500,
+     0.0693
+    ],
+    [
+     5000,
+     0.0656
+    ]
+   ],
+   "p1": 0.1254,
+   "desc": "-55℃~+125℃ 1 100ns 3V~18V 5 500mW 5MHz Asynchronous CD4000 Decade Counter Reset function、Static operation Rising Edge Synchronous Up Counter SOP-16 Counters, Dividers ROHS",
+   "cat": "Counters, Dividers",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Propagation Delay": "100ns",
+    "Count Rate": "5MHz",
+    "Logic Type": "Decade Counter",
+    "Trigger Type": "Rising Edge",
+    "Direction": "Up Counter",
+    "Series": "CD4000",
+    "Power Dissipation": "500mW",
+    "Voltage - Supply": "3V~18V",
+    "Features": "Reset function、Static operation",
+    "Number of Elements": "1",
+    "Timing": "Synchronous",
+    "Reset": "Asynchronous",
+    "Resolution": "5"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TDSEMIC-CD4017BMTD/C42421839",
+   "lcsc_url": null
+  },
+  "C43116": {
+   "code": "C43116",
+   "model": "L78L05ACUTR",
+   "brand": "STMicroelectronics",
+   "stock": 21384,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.102
+    ],
+    [
+     50,
+     0.0807
+    ],
+    [
+     150,
+     0.0701
+    ],
+    [
+     500,
+     0.0621
+    ],
+    [
+     2500,
+     0.0556
+    ],
+    [
+     5000,
+     0.0526
+    ]
+   ],
+   "p1": 0.102,
+   "desc": "0℃~+125℃@(Tj) 1 1.7V 100mA 20V 40uV 49dB@(120Hz) 5V 6mA Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "49dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "40uV",
+    "Voltage - Supply": "20V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "1.7V",
+    "Output Voltage": "5V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200029_STMicroelectronics-L78L05ACUTR_C43116.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-L78L05ACUTR/C43116",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_stmicroelectronics-l78l05acutr_C43116.html"
+  },
+  "C46491529": {
+   "code": "C46491529",
+   "model": "CSGM8743",
+   "brand": "Tokmas",
+   "stock": 1068,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.3008
+    ],
+    [
+     10,
+     0.2602
+    ],
+    [
+     30,
+     0.2423
+    ],
+    [
+     100,
+     0.2211
+    ],
+    [
+     500,
+     0.2114
+    ],
+    [
+     1000,
+     0.2049
+    ]
+   ],
+   "p1": 0.3008,
+   "desc": "-40℃~+85℃ 1.3mA 2.7V~5.5V 3.6ns 3mV 400uV 4pA 6ns 6pA 7.5V 77dB Built-in hysteresis Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "400uV",
+    "Input Offset Current(Ios)": "4pA",
+    "Single Supply": "2.7V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "3mV",
+    "Response Time (tr)": "3.6ns",
+    "Common Mode Rejection Ratio(CMRR)": "77dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Maximum Power Supply Range (Vdd-Vss)": "7.5V",
+    "Quiescent Current": "1.3mA",
+    "Features": "Built-in hysteresis",
+    "Ib - Input Bias Current": "6pA",
+    "Propagation Delay Time": "6ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_Tokmas-CSGM8743_C46491529.pdf",
+   "url": "https://jlcpcb.com/partdetail/Tokmas-CSGM8743/C46491529",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_tokmas-csgm8743_C46491529.html"
+  },
+  "C4979367": {
+   "code": "C4979367",
+   "model": "TR3D476K025C0250",
+   "brand": "Vishay Intertech",
+   "stock": 63,
+   "type": "expand",
+   "pref": false,
+   "pkg": "CASE-D-7343-34(mm)",
+   "prices": [
+    [
+     1,
+     1.099
+    ],
+    [
+     10,
+     0.8925
+    ],
+    [
+     30,
+     0.7885
+    ],
+    [
+     100,
+     0.6861
+    ],
+    [
+     500,
+     0.6243
+    ],
+    [
+     1000,
+     0.5918
+    ]
+   ],
+   "p1": 1.099,
+   "desc": "-55℃~+125℃ 250mΩ 25V 47uF ±10% CASE-D-7343-34(mm) Tantalum Capacitors ROHS",
+   "cat": "Tantalum Capacitors",
+   "attrs": {
+    "Operating Temperature": "-55℃~+125℃",
+    "Equivalent Series Resistance(ESR)": "250mΩ",
+    "Voltage Rating": "25V",
+    "Tolerance": "±10%",
+    "Capacitance": "47uF"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131210_Vishay-Intertech-TR3D476K025C0250_C4979367.pdf",
+   "url": "https://jlcpcb.com/partdetail/VishayIntertech-TR3D476K025C0250/C4979367",
+   "lcsc_url": "https://www.lcsc.com/product-detail/tantalum-capacitors_vishay-intertech-tr3d476k025c0250_C4979367.html"
+  },
+  "C49889": {
+   "code": "C49889",
+   "model": "MCP6241T-E/OT",
+   "brand": "Microchip Tech",
+   "stock": 38,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.6942
+    ],
+    [
+     10,
+     0.5642
+    ],
+    [
+     30,
+     0.4991
+    ],
+    [
+     100,
+     0.4292
+    ],
+    [
+     500,
+     0.3902
+    ],
+    [
+     1000,
+     0.3707
+    ]
+   ],
+   "p1": 0.6942,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 1pA 1pA 23mA 300V/ms 3uV/℃ 45nV/√Hz@1kHz 50uA 550kHz 5mV 75dB Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "5mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "3uV/℃",
+    "Slew Rate": "300V/ms",
+    "Gain Bandwidth Product": "550kHz",
+    "Single supply": "1.8V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "45nV/√Hz@1kHz",
+    "Quiescent Current": "50uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051217_Microchip-Tech-MCP6241T-E-OT_C49889.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6241T_EOT/C49889",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6241t-e-ot_C49889.html"
+  },
+  "C50254": {
+   "code": "C50254",
+   "model": "CL31B225KBHNNNE",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 389063,
+   "type": "base",
+   "pref": false,
+   "pkg": "1206",
+   "prices": [
+    [
+     1,
+     0.0857
+    ],
+    [
+     100,
+     0.0677
+    ],
+    [
+     300,
+     0.0584
+    ],
+    [
+     2000,
+     0.0508
+    ],
+    [
+     4000,
+     0.0482
+    ],
+    [
+     10000,
+     0.0464
+    ]
+   ],
+   "p1": 0.0857,
+   "desc": "2.2uF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±10%",
+    "Capacitance": "2.2uF",
+    "Temperature Coefficient": "X7R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31B225KBHNNNE_C50254.pdf",
+   "url": "https://jlcpcb.com/partdetail/51263-CL31B225KBHNNNE/C50254",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl31b225kbhnnne_C50254.html"
+  },
+  "C53444": {
+   "code": "C53444",
+   "model": "MMBT3906LT1G",
+   "brand": "onsemi",
+   "stock": 1000823,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.0189
+    ],
+    [
+     500,
+     0.0147
+    ],
+    [
+     3000,
+     0.0108
+    ],
+    [
+     6000,
+     0.0094
+    ],
+    [
+     24000,
+     0.0089
+    ],
+    [
+     51000,
+     0.0085
+    ]
+   ],
+   "p1": 0.0189,
+   "desc": "-55℃~+150℃ 1 PNP 200mA 225mW 250MHz 250mV 40V 50nA 5V 60 PNP SOT-23 Bipolar (BJT) ROHS",
+   "cat": "Bipolar (BJT)",
+   "attrs": {
+    "Operating Temperature": "-55℃~+150℃",
+    "Transition frequency(fT)": "250MHz",
+    "Collector - Emitter Voltage VCEO": "40V",
+    "Number": "1 PNP",
+    "DC Current Gain": "60",
+    "Current - Collector(Ic)": "200mA",
+    "Vce Saturation(VCE(sat))": "250mV",
+    "Emitter-Base Voltage(Vebo)": "5V",
+    "Pd - Power Dissipation": "225mW",
+    "type": "PNP",
+    "Current - Collector Cutoff": "50nA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810301518_onsemi-MMBT3906LT1G_C53444.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MMBT3906LT1G/C53444",
+   "lcsc_url": "https://www.lcsc.com/product-detail/bipolar-bjt_onsemi-mmbt3906lt1g_C53444.html"
+  },
+  "C5586": {
+   "code": "C5586",
+   "model": "74HC00D,653",
+   "brand": "Nexperia",
+   "stock": 8289,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1546
+    ],
+    [
+     50,
+     0.1189
+    ],
+    [
+     150,
+     0.1013
+    ],
+    [
+     500,
+     0.0857
+    ],
+    [
+     2500,
+     0.0813
+    ],
+    [
+     5000,
+     0.0787
+    ]
+   ],
+   "p1": 0.1546,
+   "desc": "-40℃~+125℃ 1.5V、3.15V、4.2V 1.9V、3.7V、5.9V 100mV、400mV、400mV 2 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SOIC-14 Logic Gates ROHS",
+   "cat": "Logic Gates",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、400mV、400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "7ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.7V、5.9V",
+    "Logic Type": "NAND Gate",
+    "Current - Output High(IOH)": "5.2mA",
+    "Input Logic Level - Low": "500mV~1.8V",
+    "Input type": "StandardCMOS",
+    "Series": "74HC Series",
+    "Input Logic Level - High": "1.5V、3.15V、4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Gates": "4",
+    "Quiescent Current": "40uA",
+    "Features": "-",
+    "Inputs per Gates": "2",
+    "output type": "-",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC00D-653_C5586.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC00D653/C5586",
+   "lcsc_url": "https://www.lcsc.com/product-detail/logic-gates_nexperia-74hc00d-653_C5586.html"
+  },
+  "C5605": {
+   "code": "C5605",
+   "model": "74HC14D,653",
+   "brand": "Nexperia",
+   "stock": 206540,
+   "type": "base",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1023
+    ],
+    [
+     50,
+     0.0808
+    ],
+    [
+     150,
+     0.0698
+    ],
+    [
+     500,
+     0.0608
+    ],
+    [
+     2500,
+     0.0576
+    ],
+    [
+     5000,
+     0.0555
+    ]
+   ],
+   "p1": 0.1023,
+   "desc": "-40℃~+125℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC14D-653_C5605.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14D653/C5605",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-653_C5605.html"
+  },
+  "C601651": {
+   "code": "C601651",
+   "model": "UCC21520DWR",
+   "brand": "Texas Instruments",
+   "stock": 17156,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16-300mil",
+   "prices": [
+    [
+     1,
+     0.8893
+    ],
+    [
+     10,
+     0.7739
+    ],
+    [
+     30,
+     0.6649
+    ],
+    [
+     100,
+     0.5837
+    ],
+    [
+     500,
+     0.5511
+    ],
+    [
+     1000,
+     0.5349
+    ]
+   ],
+   "p1": 0.8893,
+   "desc": "-40℃~+150℃@(Tj) 0.8V~1.2V 1.2V~2V 125kV/us 2 3V~18V 45ns 45ns 4A 5700 6A 9.2V~25V MOSFET、IGBT SOIC-16-300mil Isolators - Gate Drivers ROHS",
+   "cat": "Isolators - Gate Drivers",
+   "attrs": {
+    "Voltage - Supply (Driver)": "9.2V~25V",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Propagation Delay tpHL": "45ns",
+    "Driven Configuration": "Half-Bridge",
+    "Load Type": "MOSFET、IGBT",
+    "Input Logic Level - Low": "0.8V~1.2V",
+    "Quiescent Current(Iq)": "1.4mA",
+    "Fall Time": "12ns",
+    "CMTI(kV/us)": "125kV/us",
+    "Isolation voltage(Vrms)": "5700V",
+    "Rise Time": "16ns",
+    "Number of Channels": "2",
+    "Input Logic Level - High": "1.2V~2V",
+    "Features": "Dead-time control",
+    "Propagation Delay tpLH": "45ns",
+    "Peak Output Current(sink)": "6A",
+    "Peak Output Current(source)": "4A",
+    "Voltage - Supply (Input)": "3V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Texas-Instruments-UCC21520DWR_C601651.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UCC21520DWR/C601651",
+   "lcsc_url": "https://www.lcsc.com/product-detail/isolators-gate-drivers_texas-instruments-ucc21520dwr_C601651.html"
+  },
+  "C6843593": {
+   "code": "C6843593",
+   "model": "EEH-ZU1H221P",
+   "brand": "PANASONIC",
+   "stock": 14,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SMD,D10xL16.8mm",
+   "prices": [
+    [
+     1,
+     2.8352
+    ],
+    [
+     10,
+     2.7767
+    ],
+    [
+     30,
+     2.7376
+    ],
+    [
+     100,
+     2.6986
+    ],
+    [
+     102,
+     2.6986
+    ],
+    [
+     104,
+     2.6986
+    ]
+   ],
+   "p1": 2.8352,
+   "desc": "-55℃~+135℃ 10mm 10mΩ 16.8mm 220uF 4000hrs@135℃ 50V 780mA@100Hz Polarized SMD ±20% SMD,D10xL16.8mm Hybrid Aluminum Electrolytic Capacitors ROHS",
+   "cat": "Hybrid Aluminum Electrolytic Capacitors",
+   "attrs": {
+    "Operating Temperature": "-55℃~+135℃",
+    "Lifetime": "4000hrs@135℃",
+    "Equivalent Series Resistance(ESR)": "10mΩ",
+    "Voltage Rating": "50V",
+    "Height - Seated (Max)": "16.8mm",
+    "Tolerance": "±20%",
+    "Polarity type": "Polarized",
+    "Capacitance": "220uF",
+    "Mounting Type": "SMD",
+    "Ripple Current": "780mA@100Hz",
+    "Diameter": "10mm"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/PANASONIC-EEHZU1H221P/C6843593",
+   "lcsc_url": "https://www.lcsc.com/product-detail/hybrid-aluminum-electrolytic-capacitors_panasonic-eeh-zu1h221p_C6843593.html"
+  },
+  "C7250": {
+   "code": "C7250",
+   "model": "0603WAF1005T5E",
+   "brand": "UNI-ROYAL(Uniroyal Elec)",
+   "stock": 297135,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0037
+    ],
+    [
+     1000,
+     0.003
+    ],
+    [
+     5000,
+     0.0026
+    ],
+    [
+     10000,
+     0.0022
+    ],
+    [
+     50000,
+     0.0019
+    ],
+    [
+     50200,
+     0.0019
+    ]
+   ],
+   "p1": 0.0037,
+   "desc": "-55℃~+155℃ 100mW 10MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+   "cat": "Chip Resistor - Surface Mount",
+   "attrs": {
+    "Resistance": "10MΩ",
+    "Operating Temperature": "-55℃~+155℃",
+    "Power(Watts)": "100mW",
+    "Type": "Thick Film Resistor",
+    "Voltage-Supply(Max)": "75V",
+    "Tolerance": "±1%",
+    "Temperature Coefficient": "±100ppm/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0603WAF1005T5E_C7250.pdf",
+   "url": "https://jlcpcb.com/partdetail/7726-0603WAF1005T5E/C7250",
+   "lcsc_url": "https://www.lcsc.com/product-detail/chip-resistor-surface-mount_uni-royal-uniroyal-elec-0603waf1005t5e_C7250.html"
+  },
+  "C81598": {
+   "code": "C81598",
+   "model": "1N4148W",
+   "brand": "ST(Semtech)",
+   "stock": 5212124,
+   "type": "base",
+   "pref": false,
+   "pkg": "SOD-123",
+   "prices": [
+    [
+     1,
+     0.0123
+    ],
+    [
+     500,
+     0.0097
+    ],
+    [
+     3000,
+     0.0075
+    ],
+    [
+     6000,
+     0.0066
+    ],
+    [
+     24000,
+     0.0062
+    ],
+    [
+     51000,
+     0.006
+    ]
+   ],
+   "p1": 0.0123,
+   "desc": "150mA 1A 1V@50mA 1uA@75V 400mW 4ns 75V Independent SOD-123 Switching Diodes ROHS",
+   "cat": "Switching Diodes",
+   "attrs": {
+    "Voltage - Forward(Vf@If)": "1V@50mA",
+    "Non-Repetitive Peak Forward Surge Current": "1A",
+    "Voltage - DC Reverse(Vr)": "75V",
+    "Operating Junction Temperature Range": "-",
+    "Reverse Recovery Time (trr)": "4ns",
+    "Diode Configuration": "Standalone",
+    "Current - Rectified": "150mA",
+    "Pd - Power Dissipation": "400mW",
+    "Reverse Leakage Current (Ir)": "1uA@75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061725_ST-Semtech-1N4148W_C81598.pdf",
+   "url": "https://jlcpcb.com/partdetail/ST_Semtech-1N4148W/C81598",
+   "lcsc_url": "https://www.lcsc.com/product-detail/switching-diodes_st-semtech-1n4148w_C81598.html"
+  },
+  "C8598": {
+   "code": "C8598",
+   "model": "B5819W SL",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 512334,
+   "type": "base",
+   "pref": false,
+   "pkg": "SOD-123",
+   "prices": [
+    [
+     1,
+     0.028
+    ],
+    [
+     200,
+     0.0218
+    ],
+    [
+     600,
+     0.0192
+    ],
+    [
+     3000,
+     0.0171
+    ],
+    [
+     9000,
+     0.0163
+    ],
+    [
+     21000,
+     0.0158
+    ]
+   ],
+   "p1": 0.028,
+   "desc": "1A 40V 600mV@1A 9A Independent SOD-123 Schottky Diodes ROHS",
+   "cat": "Schottky Diodes",
+   "attrs": {
+    "Voltage - Forward(Vf@If)": "600mV@1A",
+    "Non-Repetitive Peak Forward Surge Current": "9A",
+    "Voltage - DC Reverse(Vr)": "40V",
+    "Diode Configuration": "Standalone",
+    "Current - Rectified": "1A",
+    "Reverse Leakage Current (Ir)": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf",
+   "url": "https://jlcpcb.com/partdetail/9093-B5819WSL/C8598",
+   "lcsc_url": "https://www.lcsc.com/product-detail/schottky-diodes_jiangsu-changjing-electronics-technology-co-ltd-b5819w-sl_C8598.html"
+  },
+  "C85980": {
+   "code": "C85980",
+   "model": "GRM1885C1H472JA01D",
+   "brand": "Murata Electronics",
+   "stock": 99447,
+   "type": "expand",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0212
+    ],
+    [
+     500,
+     0.0171
+    ],
+    [
+     1500,
+     0.0149
+    ],
+    [
+     4000,
+     0.0136
+    ],
+    [
+     24000,
+     0.0125
+    ],
+    [
+     48000,
+     0.0119
+    ]
+   ],
+   "p1": 0.0212,
+   "desc": "4.7nF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±5%",
+    "Capacitance": "4.7nF",
+    "Temperature Coefficient": "C0G"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM1885C1H472JA01D_C85980.pdf",
+   "url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM1885C1H472JA01D/C85980",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_murata-electronics-grm1885c1h472ja01d_C85980.html"
+  },
+  "C9386": {
+   "code": "C9386",
+   "model": "74HC4051D,653",
+   "brand": "Nexperia",
+   "stock": 33472,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-16",
+   "prices": [
+    [
+     1,
+     0.2146
+    ],
+    [
+     50,
+     0.1669
+    ],
+    [
+     150,
+     0.1436
+    ],
+    [
+     500,
+     0.1229
+    ],
+    [
+     2500,
+     0.114
+    ],
+    [
+     5000,
+     0.1106
+    ]
+   ],
+   "p1": 0.2146,
+   "desc": "-40℃~+125℃ 1 29ns 2V~10V 31ns 5ns 80Ω 8:1 SOIC-16 Analog Switches, Multiplexers ROHS",
+   "cat": "Analog Switches, Multiplexers",
+   "attrs": {
+    "Ron": "80Ω",
+    "Operating Temperature": "-40℃~+125℃",
+    "Con": "-",
+    "Number of Channels": "1",
+    "Switch Circuit": "8:1",
+    "Voltage - Supply": "2V~10V",
+    "Propagation Delay (tpd)": "5ns",
+    "Bandwidth": "-",
+    "Features": "Level shifting",
+    "Turn-off time": "31ns",
+    "Turn-on time": "29ns"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121924_Nexperia-74HC4051D-653_C9386.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC4051D653/C9386",
+   "lcsc_url": "https://www.lcsc.com/product-detail/analog-switches-multiplexers_nexperia-74hc4051d-653_C9386.html"
+  },
+  "C96446": {
+   "code": "C96446",
+   "model": "CL10A106MA8NRNC",
+   "brand": "Samsung Electro-Mechanics",
+   "stock": 3361748,
+   "type": "base",
+   "pref": false,
+   "pkg": "0603",
+   "prices": [
+    [
+     1,
+     0.0752
+    ],
+    [
+     200,
+     0.0591
+    ],
+    [
+     600,
+     0.0508
+    ],
+    [
+     4000,
+     0.0439
+    ],
+    [
+     8000,
+     0.0415
+    ],
+    [
+     20000,
+     0.0399
+    ]
+   ],
+   "p1": 0.0752,
+   "desc": "10uF 25V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "25V",
+    "Tolerance": "±20%",
+    "Capacitance": "10uF",
+    "Temperature Coefficient": "X5R"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf",
+   "url": "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_samsung-electro-mechanics-cl10a106ma8nrnc_C96446.html"
+  },
+  "C97946": {
+   "code": "C97946",
+   "model": "GRM31C5C1H104JA01L",
+   "brand": "Murata Electronics",
+   "stock": 88688,
+   "type": "expand",
+   "pref": false,
+   "pkg": "1206",
+   "prices": [
+    [
+     1,
+     0.1849
+    ],
+    [
+     50,
+     0.1612
+    ],
+    [
+     150,
+     0.149
+    ],
+    [
+     500,
+     0.1389
+    ],
+    [
+     2000,
+     0.1325
+    ],
+    [
+     4000,
+     0.1301
+    ]
+   ],
+   "p1": 0.1849,
+   "desc": "100nF 50V C0G ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+   "cat": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+   "attrs": {
+    "Voltage Rating": "50V",
+    "Tolerance": "±5%",
+    "Capacitance": "100nF",
+    "Temperature Coefficient": "C0G"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf",
+   "url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM31C5C1H104JA01L/C97946",
+   "lcsc_url": "https://www.lcsc.com/product-detail/multilayer-ceramic-capacitors-mlcc-smd-smt_murata-electronics-grm31c5c1h104ja01l_C97946.html"
+  }
+ }
+}

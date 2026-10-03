@@ -1,0 +1,2057 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 00:03 Pacific Daylight Time",
+ "res": {
+  "C5605": {
+   "code": "C5605",
+   "model": "74HC14D,653",
+   "brand": "Nexperia",
+   "stock": 206769,
+   "type": "base",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1023
+    ],
+    [
+     50,
+     0.0808
+    ],
+    [
+     150,
+     0.0698
+    ],
+    [
+     500,
+     0.0608
+    ],
+    [
+     2500,
+     0.0576
+    ],
+    [
+     5000,
+     0.0555
+    ]
+   ],
+   "p1": 0.1023,
+   "desc": "-40℃~+125℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241044_Nexperia-74HC14D-653_C5605.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14D653/C5605",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-653_C5605.html"
+  },
+  "C6820": {
+   "code": "C6820",
+   "model": "SN74HC14DR",
+   "brand": "Texas Instruments",
+   "stock": 238793,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1483
+    ],
+    [
+     50,
+     0.1138
+    ],
+    [
+     150,
+     0.0971
+    ],
+    [
+     500,
+     0.0821
+    ],
+    [
+     2500,
+     0.0779
+    ],
+    [
+     5000,
+     0.0755
+    ]
+   ],
+   "p1": 0.1483,
+   "desc": "-40℃~+85℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Series Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-SN74HC14DR_C6820.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DR/C6820",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14dr_C6820.html"
+  },
+  "C8151": {
+   "code": "C8151",
+   "model": "SN74HC14DBR",
+   "brand": "Texas Instruments",
+   "stock": 3612,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14-208mil",
+   "prices": [
+    [
+     1,
+     0.3358
+    ],
+    [
+     50,
+     0.2722
+    ],
+    [
+     150,
+     0.245
+    ],
+    [
+     500,
+     0.2109
+    ],
+    [
+     2000,
+     0.1958
+    ],
+    [
+     4000,
+     0.1867
+    ]
+   ],
+   "p1": 0.3358,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SSOP-14-208mil Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809272050_Texas-Instruments-SN74HC14DBR_C8151.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DBR/C8151",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14dbr_C8151.html"
+  },
+  "C546588": {
+   "code": "C546588",
+   "model": "74HC14D-Q100,118",
+   "brand": "Nexperia",
+   "stock": 7455,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.2619
+    ],
+    [
+     50,
+     0.2046
+    ],
+    [
+     150,
+     0.18
+    ],
+    [
+     500,
+     0.1494
+    ],
+    [
+     2500,
+     0.1358
+    ],
+    [
+     5000,
+     0.1275
+    ]
+   ],
+   "p1": 0.2619,
+   "desc": "-40℃~+125℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241036_Nexperia-74HC14D-Q100-118_C546588.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14D_Q100118/C546588",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-q100-118_C546588.html"
+  },
+  "C699447": {
+   "code": "C699447",
+   "model": "74HC14D",
+   "brand": "HTC Korea TAEJIN Tech",
+   "stock": 6502,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.3818
+    ],
+    [
+     50,
+     0.2875
+    ],
+    [
+     150,
+     0.2471
+    ],
+    [
+     500,
+     0.1968
+    ],
+    [
+     2500,
+     0.1743
+    ],
+    [
+     5000,
+     0.1608
+    ]
+   ],
+   "p1": 0.3818,
+   "desc": "-40℃~+85℃ 1.9V、3.98V、5.48V 11ns@6V,50pF 260mV、260mV 2V~6V 2uA 4mA 4mA 6 74HC Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "260mV、260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "11ns@6V,50pF",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.98V、5.48V",
+    "Current - Output High(IOH)": "4mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "4mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2007301108_HTC-Korea-TAEJIN-Tech-74HC14D_C699447.pdf",
+   "url": "https://jlcpcb.com/partdetail/HTC_Korea_TAEJINTech-74HC14D/C699447",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_htc-korea-taejin-tech-74hc14d_C699447.html"
+  },
+  "C2974610": {
+   "code": "C2974610",
+   "model": "RS6G14XP",
+   "brand": "Jiangsu RUNIC Tech",
+   "stock": 773,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.2749
+    ],
+    [
+     50,
+     0.2054
+    ],
+    [
+     150,
+     0.1755
+    ],
+    [
+     500,
+     0.1382
+    ],
+    [
+     2500,
+     0.1382
+    ],
+    [
+     4000,
+     0.1382
+    ]
+   ],
+   "p1": 0.2749,
+   "desc": "-40℃~+125℃ 1.2V、1.9V、2.3V、2.4V、3.8V 1.65V~5.5V 100mV、300mV、400mV、450mV、550mV、550mV 1uA 24mA 24mA 3.1ns@3.3V,50pF 6 Power shutdown protection、Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、300mV、400mV、450mV、550mV、550mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "3.1ns@3.3V,50pF",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.2V、1.9V、2.3V、2.4V、3.8V",
+    "Current - Output High(IOH)": "24mA",
+    "Quiescent Current(Iq)": "1uA",
+    "Series": "-",
+    "Voltage - Supply": "1.65V~5.5V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Power shutdown protection、Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "24mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202151130_Jiangsu-RUNIC-Tech-RS6G14XP_C2974610.pdf",
+   "url": "https://jlcpcb.com/partdetail/Jiangsu_RUNICTech-RS6G14XP/C2974610",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_jiangsu-runic-tech-rs6g14xp_C2974610.html"
+  },
+  "C5356103": {
+   "code": "C5356103",
+   "model": "74HC14",
+   "brand": "JSMSEMI",
+   "stock": 25344,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1135
+    ],
+    [
+     50,
+     0.0909
+    ],
+    [
+     150,
+     0.0797
+    ],
+    [
+     500,
+     0.0713
+    ],
+    [
+     2500,
+     0.0646
+    ],
+    [
+     5000,
+     0.0612
+    ]
+   ],
+   "p1": 0.1135,
+   "desc": "-40℃~+85℃ 1.9V、3.98V、4.4V、5.48V、5.9V 100mV、260mV、260mV 20uA 25ns@4.5V,50pF 2V~6V 6 74HC Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV、260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "25ns@4.5V,50pF",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "20uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401050929_JSMSEMI-74HC14_C5356103.pdf",
+   "url": "https://jlcpcb.com/partdetail/JSMSEMI-74HC14/C5356103",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_jsmsemi-74hc14_C5356103.html"
+  },
+  "C7432324": {
+   "code": "C7432324",
+   "model": "74HC14DN",
+   "brand": "HGSEMI",
+   "stock": 63,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-14",
+   "prices": [
+    [
+     1,
+     0.1301
+    ],
+    [
+     50,
+     0.1103
+    ],
+    [
+     150,
+     0.0966
+    ],
+    [
+     500,
+     0.0864
+    ],
+    [
+     2000,
+     0.0781
+    ],
+    [
+     5000,
+     0.074
+    ]
+   ],
+   "p1": 0.1301,
+   "desc": "DIP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-74HC14DN/C7432324",
+   "lcsc_url": null
+  },
+  "C7432325": {
+   "code": "C7432325",
+   "model": "74HC14DM/TR",
+   "brand": "HGSEMI",
+   "stock": 2170,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0995
+    ],
+    [
+     50,
+     0.08
+    ],
+    [
+     150,
+     0.0703
+    ],
+    [
+     500,
+     0.063
+    ],
+    [
+     2500,
+     0.0571
+    ],
+    [
+     5000,
+     0.0542
+    ]
+   ],
+   "p1": 0.0995,
+   "desc": "0℃~+60℃ 1.9V、4.3V、5.8V 100mV、250mV、250mV 20uA 2V~6V 30ns@5V,47pF 5.2mA 5.2mA 6 74HC Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、250mV、250mV",
+    "Operating Temperature": "0℃~+60℃",
+    "Propagation Delay": "30ns@5V,47pF",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、4.3V、5.8V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "20uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031725_HGSEMI-74HC14DM-TR_C7432325.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-74HC14DMTR/C7432325",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_hgsemi-74hc14dm-tr_C7432325.html"
+  },
+  "C7432326": {
+   "code": "C7432326",
+   "model": "74HC14DMT/TR",
+   "brand": "HGSEMI",
+   "stock": 531,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-14",
+   "prices": [
+    [
+     1,
+     0.1112
+    ],
+    [
+     50,
+     0.0878
+    ],
+    [
+     150,
+     0.0761
+    ],
+    [
+     500,
+     0.0674
+    ],
+    [
+     2500,
+     0.0604
+    ],
+    [
+     5000,
+     0.0569
+    ]
+   ],
+   "p1": 0.1112,
+   "desc": "-40℃~+85℃ 1.9V、3.84V、5.34V 20uA 26ns@6.0V,50pF 2V~6V 5.2mA 5.2mA 6 74HC Schmitt trigger TSSOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Propagation Delay": "26ns@6V,50pF",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.84V、5.34V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "20uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307121101_HGSEMI-74HC14DMT-TR_C7432326.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-74HC14DMTTR/C7432326",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_hgsemi-74hc14dmt-tr_C7432326.html"
+  },
+  "C347584": {
+   "code": "C347584",
+   "model": "SN74HC14D",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1651
+    ],
+    [
+     50,
+     0.1306
+    ],
+    [
+     150,
+     0.116
+    ],
+    [
+     500,
+     0.0974
+    ],
+    [
+     2500,
+     0.0893
+    ],
+    [
+     5000,
+     0.0844
+    ]
+   ],
+   "p1": 0.1651,
+   "desc": "-40℃~+85℃ 1 1.5V~4.2V 170mV~400mV 21ns@6V,50pF 2V~6V 2uA 3.98V~4.3V 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger 噪声抑制功能 SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "170mV~400mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "3.98V~4.3V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Inputs": "1",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Texas-Instruments-SN74HC14D_C347584.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14D/C347584",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14d_C347584.html"
+  },
+  "C546586": {
+   "code": "C546586",
+   "model": "74HC14D,652",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.4991
+    ],
+    [
+     10,
+     0.3935
+    ],
+    [
+     30,
+     0.3496
+    ],
+    [
+     100,
+     0.2927
+    ],
+    [
+     500,
+     0.2683
+    ],
+    [
+     1140,
+     0.2537
+    ]
+   ],
+   "p1": 0.4991,
+   "desc": "-40℃~+125℃ 12ns@6V,50pF 2V~6V 3.7V 40uA 6 74HC Schmitt trigger SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "12ns@6V,50pF",
+    "Output Logic Level - High": "3.7V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-74HC14D-652_C546586.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14D652/C546586",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-652_C546586.html"
+  },
+  "C2861329": {
+   "code": "C2861329",
+   "model": "SN74HC14DRG3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.2033
+    ],
+    [
+     10,
+     0.1984
+    ],
+    [
+     30,
+     0.1951
+    ],
+    [
+     100,
+     0.1919
+    ],
+    [
+     102,
+     0.1919
+    ],
+    [
+     104,
+     0.1919
+    ]
+   ],
+   "p1": 0.2033,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 150mV~330mV 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 5.34V~5.8V 6 74HC Noise suppression function Push-pull Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "150mV~330mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "5.34V~5.8V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010930_Texas-Instruments-SN74HC14DRG3_C2861329.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DRG3/C2861329",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14drg3_C2861329.html"
+  },
+  "C2870233": {
+   "code": "C2870233",
+   "model": "SN74HC14DRG4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.9137
+    ],
+    [
+     10,
+     0.7381
+    ],
+    [
+     30,
+     0.6519
+    ],
+    [
+     100,
+     0.5658
+    ],
+    [
+     500,
+     0.5138
+    ],
+    [
+     1000,
+     0.4861
+    ]
+   ],
+   "p1": 0.9137,
+   "desc": "Noise suppression function Push-pull SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Features": "Noise suppression function",
+    "output type": "Push-pull"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2302220630_Texas-Instruments-SN74HC14DRG4_C2870233.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DRG4/C2870233",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14drg4_C2870233.html"
+  },
+  "C2878668": {
+   "code": "C2878668",
+   "model": "SN74HC14DT",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1665
+    ],
+    [
+     50,
+     0.1335
+    ],
+    [
+     250,
+     0.1194
+    ],
+    [
+     500,
+     0.1018
+    ],
+    [
+     2500,
+     0.094
+    ],
+    [
+     5000,
+     0.0893
+    ]
+   ],
+   "p1": 0.1665,
+   "desc": "-40℃~+85℃ 1.5V~4.2V 1.9V、3.98V~4.3V、5.48V~5.8V 100mV、150mV~330mV、170mV~330mV 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Noise suppression function Push-pull Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、150mV~330mV、170mV~330mV",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V~4.3V、5.48V~5.8V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220108_Texas-Instruments-SN74HC14DT_C2878668.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DT/C2878668",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14dt_C2878668.html"
+  },
+  "C2943289": {
+   "code": "C2943289",
+   "model": "AIP74HC14",
+   "brand": "Wuxi I-core Elec",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1446
+    ],
+    [
+     50,
+     0.1117
+    ],
+    [
+     150,
+     0.0953
+    ],
+    [
+     500,
+     0.0831
+    ]
+   ],
+   "p1": 0.1446,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 150mV~260mV 21ns@6V,50pF 2V~6V 2uA 3.98V~4.32V 300mV~1.2V 5.2mA 5.2mA 6 74HC Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "150mV~260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "3.98V~4.32V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201191230_Wuxi-I-core-Elec-AIP74HC14_C2943289.pdf",
+   "url": "https://jlcpcb.com/partdetail/Wuxi_I_coreElec-AIP74HC14/C2943289",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_wuxi-i-core-elec-aip74hc14_C2943289.html"
+  },
+  "C3272581": {
+   "code": "C3272581",
+   "model": "74HC14D/C4118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.0815
+    ],
+    [
+     10,
+     0.0815
+    ],
+    [
+     30,
+     0.0815
+    ],
+    [
+     200,
+     0.0316
+    ],
+    [
+     500,
+     0.0304
+    ],
+    [
+     1000,
+     0.03
+    ]
+   ],
+   "p1": 0.0815,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031007_Nexperia-74HC14D-C4118_C3272581.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14DC4118/C3272581",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-c4118_C3272581.html"
+  },
+  "C3272583": {
+   "code": "C3272583",
+   "model": "74HC14D/S400118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.0815
+    ],
+    [
+     10,
+     0.0815
+    ],
+    [
+     30,
+     0.0815
+    ],
+    [
+     200,
+     0.0316
+    ],
+    [
+     500,
+     0.0304
+    ],
+    [
+     1000,
+     0.03
+    ]
+   ],
+   "p1": 0.0815,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Series": "74HC",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14DS400118/C3272583",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-s400118_C3272583.html"
+  },
+  "C3272586": {
+   "code": "C3272586",
+   "model": "74HC14D/DG118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.0815
+    ],
+    [
+     10,
+     0.0815
+    ],
+    [
+     12,
+     0.0815
+    ],
+    [
+     200,
+     0.0316
+    ],
+    [
+     500,
+     0.0304
+    ],
+    [
+     1000,
+     0.03
+    ]
+   ],
+   "p1": 0.0815,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 3.7V 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "3.7V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031007_Nexperia-74HC14D-DG118_C3272586.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14DDG118/C3272586",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-dg118_C3272586.html"
+  },
+  "C3272668": {
+   "code": "C3272668",
+   "model": "SN74HC14DTG4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.6747
+    ],
+    [
+     10,
+     0.6747
+    ],
+    [
+     30,
+     0.6747
+    ],
+    [
+     200,
+     0.2618
+    ],
+    [
+     500,
+     0.252
+    ],
+    [
+     1000,
+     0.2471
+    ]
+   ],
+   "p1": 0.6747,
+   "desc": "Noise suppression function Push-pull SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Features": "Noise suppression function",
+    "output type": "Push-pull"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282130_Texas-Instruments-SN74HC14DTG4_C3272668.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DTG4/C3272668",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14dtg4_C3272668.html"
+  },
+  "C3272701": {
+   "code": "C3272701",
+   "model": "SN74HC14DE4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.6747
+    ],
+    [
+     10,
+     0.6747
+    ],
+    [
+     30,
+     0.6747
+    ],
+    [
+     200,
+     0.2618
+    ],
+    [
+     500,
+     0.252
+    ],
+    [
+     1000,
+     0.2471
+    ]
+   ],
+   "p1": 0.6747,
+   "desc": "-40℃~+85℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Series Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Series": "74HC Series",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Inputs": "1",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282130_Texas-Instruments-SN74HC14DE4_C3272701.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DE4/C3272701",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14de4_C3272701.html"
+  },
+  "C3272702": {
+   "code": "C3272702",
+   "model": "SN74HC14DG4",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.7755
+    ],
+    [
+     10,
+     0.7755
+    ],
+    [
+     30,
+     0.7755
+    ],
+    [
+     200,
+     0.3008
+    ],
+    [
+     500,
+     0.291
+    ],
+    [
+     1000,
+     0.2845
+    ]
+   ],
+   "p1": 0.7755,
+   "desc": "-40℃~+85℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SOIC-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Series": "74HC",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Inputs": "1",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282130_Texas-Instruments-SN74HC14DG4_C3272702.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DG4/C3272702",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14dg4_C3272702.html"
+  },
+  "C3272836": {
+   "code": "C3272836",
+   "model": "SN74HC14DB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14",
+   "prices": [
+    [
+     1,
+     0.0815
+    ],
+    [
+     10,
+     0.0815
+    ],
+    [
+     30,
+     0.0815
+    ],
+    [
+     200,
+     0.0316
+    ],
+    [
+     500,
+     0.0304
+    ],
+    [
+     1000,
+     0.03
+    ]
+   ],
+   "p1": 0.0815,
+   "desc": "-40℃~+85℃ 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Series Schmitt trigger SSOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Series": "74HC Series",
+    "Operating Temperature": "-40℃~+85℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Inputs": "1",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HC14DB/C3272836",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_texas-instruments-sn74hc14db_C3272836.html"
+  },
+  "C52140397": {
+   "code": "C52140397",
+   "model": "74HC14D",
+   "brand": "MDD(Microdiode Semiconductor)",
+   "stock": 9774,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14L",
+   "prices": [
+    [
+     1,
+     0.1394
+    ],
+    [
+     50,
+     0.1098
+    ],
+    [
+     150,
+     0.095
+    ],
+    [
+     500,
+     0.0839
+    ],
+    [
+     2500,
+     0.0752
+    ],
+    [
+     5000,
+     0.0708
+    ]
+   ],
+   "p1": 0.1394,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 15ns 2V~6V 300mV~1.2V 40uA 5.2mA 5.2mA 6 74HC Noise suppression function Schmitt trigger SOP-14L Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "15ns",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.7V、4.4V、5.2V、5.9V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/54938126-74HC14D/C52140397",
+   "lcsc_url": null
+  },
+  "C9900143455": {
+   "code": "C9900143455",
+   "model": "74HC14D",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-14",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "TSSOP-14 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-74HC14D/C9900143455",
+   "lcsc_url": null
+  },
+  "C49188239": {
+   "code": "C49188239",
+   "model": "EM74HC14D",
+   "brand": "EnergyMath",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14L",
+   "prices": [
+    [
+     1,
+     0.1288
+    ],
+    [
+     50,
+     0.1025
+    ],
+    [
+     150,
+     0.0893
+    ],
+    [
+     500,
+     0.0794
+    ],
+    [
+     3000,
+     0.0716
+    ],
+    [
+     6000,
+     0.0675
+    ]
+   ],
+   "p1": 0.1288,
+   "desc": "-40℃~+125℃ 1.9V、3.84V、5.34V 15ns@6V,15pF 2V~6V 400mV 40uA 6 74HC Schmitt trigger SOP-14L Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "400mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "15ns@6V,15pF",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.84V、5.34V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Number of Inputs": "-",
+    "Input Logic Level -Low": "-",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/EnergyMath-EM74HC14D/C49188239",
+   "lcsc_url": "https://lcsc.com/product-detail/inverters_energymath-em74hc14d_C49188239.html"
+  },
+  "C51927315": {
+   "code": "C51927315",
+   "model": "SN74HC14DS",
+   "brand": "GREENMICRO",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0657
+    ],
+    [
+     100,
+     0.0522
+    ],
+    [
+     300,
+     0.0456
+    ],
+    [
+     1000,
+     0.0405
+    ],
+    [
+     4000,
+     0.0365
+    ],
+    [
+     8000,
+     0.0345
+    ]
+   ],
+   "p1": 0.0657,
+   "desc": "-40℃~+125℃ 1.9V~5.48V 100mV~260mV 21ns@6V,50pF 2V~6V 2uA 4mA 6 74HC Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV~260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V~5.48V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "4mA"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/GREENMICRO-SN74HC14DS/C51927315",
+   "lcsc_url": null
+  },
+  "C54529384": {
+   "code": "C54529384",
+   "model": "74HC14D-HX",
+   "brand": "ZHHXDZ",
+   "stock": 2495,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.1069
+    ],
+    [
+     50,
+     0.0851
+    ],
+    [
+     150,
+     0.0742
+    ],
+    [
+     500,
+     0.0659
+    ],
+    [
+     2500,
+     0.0594
+    ],
+    [
+     5000,
+     0.0561
+    ]
+   ],
+   "p1": 0.1069,
+   "desc": "-40℃~+125℃ 1.9V、3.98V、4.4V、5.48V、5.9V 100mV、100mV、100mV、260mV、260mV 2V~6V 6 74HC Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、100mV、100mV、260mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Series": "74HC",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Voltage - Supply": "2V~6V",
+    "Number of Circuits": "6"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/ZHHXDZ-74HC14DHX/C54529384",
+   "lcsc_url": null
+  },
+  "C52711169": {
+   "code": "C52711169",
+   "model": "74HC14D(LX)",
+   "brand": "lingxingic",
+   "stock": 3145,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.096
+    ],
+    [
+     50,
+     0.0765
+    ],
+    [
+     150,
+     0.0667
+    ],
+    [
+     500,
+     0.0594
+    ],
+    [
+     2500,
+     0.0535
+    ],
+    [
+     4000,
+     0.0506
+    ]
+   ],
+   "p1": 0.096,
+   "desc": "-40℃~+125℃ 1.9V、3.98V、4.4V、5.48V、5.9V 100mV、100mV、100mV、260mV、260mV 125ns 2V~6V 40uA 6 74HC Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、100mV、100mV、260mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "125ns",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/lingxingic-74HC14D_LX/C52711169",
+   "lcsc_url": null
+  },
+  "C9900283669": {
+   "code": "C9900283669",
+   "model": "74HC14D,653",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOIC-14 SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-74HC14D653/C9900283669",
+   "lcsc_url": null
+  },
+  "C546587": {
+   "code": "C546587",
+   "model": "74HC14DB,112",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14-5.2mm",
+   "prices": [
+    [
+     1,
+     0.1689
+    ],
+    [
+     10,
+     0.1334
+    ],
+    [
+     30,
+     0.1181
+    ],
+    [
+     100,
+     0.0992
+    ],
+    [
+     500,
+     0.0908
+    ],
+    [
+     1092,
+     0.0856
+    ]
+   ],
+   "p1": 0.1689,
+   "desc": "-40℃~+125℃ 12ns@6V,50pF 2V~6V 40uA 5.2V 6 74HC Schmitt trigger SSOP-14-5.2mm Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "12ns@6V,50pF",
+    "Output Logic Level - High": "5.2V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2007022023_Nexperia-74HC14DB-112_C546587.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14DB112/C546587",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia_74hc14db,112_C546587.html"
+  },
+  "C6089258": {
+   "code": "C6089258",
+   "model": "74HC14DB,118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SSOP-14",
+   "prices": [
+    [
+     1,
+     0.6259
+    ],
+    [
+     10,
+     0.6259
+    ],
+    [
+     12,
+     0.6259
+    ],
+    [
+     200,
+     0.2504
+    ],
+    [
+     500,
+     0.2423
+    ],
+    [
+     1000,
+     0.2374
+    ]
+   ],
+   "p1": 0.6259,
+   "desc": "-40℃~+125℃ 1.5V~4.2V 100mV、260mV 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 4.32V 5.2mA 5.2mA 6 74HC Noise suppression function Push-pull Schmitt trigger SSOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "4.32V",
+    "Current - Output High(IOH)": "5.2mA",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Input Logic Level - High": "1.5V~4.2V",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level -Low": "300mV~1.2V",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "5.2mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312071443_Nexperia-74HC14DB-118_C6089258.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14DB118/C6089258",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14db-118_C6089258.html"
+  },
+  "C22436988": {
+   "code": "C22436988",
+   "model": "SN74HC14DR(LX)",
+   "brand": "lingxingic",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0716
+    ],
+    [
+     100,
+     0.0579
+    ],
+    [
+     300,
+     0.0511
+    ],
+    [
+     1000,
+     0.0459
+    ],
+    [
+     4000,
+     0.0418
+    ],
+    [
+     8000,
+     0.0397
+    ]
+   ],
+   "p1": 0.0716,
+   "desc": "-40℃~+125℃ 1.9V~5.48V 100mV~260mV 21ns@6V,50pF 2V~6V 2uA 6 74HC Noise suppression function Push-pull Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV~260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "21ns@6V,50pF",
+    "Output Logic Level - High": "1.9V~5.48V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409280132_lingxingic-SN74HC14DR-LX_C22436988.pdf",
+   "url": "https://jlcpcb.com/partdetail/lingxingic-SN74HC14DR_LX/C22436988",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_lingxingic-sn74hc14dr-lx_C22436988.html"
+  },
+  "C9900150279": {
+   "code": "C9900150279",
+   "model": "SN74HC14DR_ATA",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOIC-14 New Arrivals ROHS",
+   "cat": "New Arrivals",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-SN74HC14DR_ATA/C9900150279",
+   "lcsc_url": null
+  },
+  "C9900300372": {
+   "code": "C9900300372",
+   "model": "74HC14D_SO14SMD",
+   "brand": "JLCPCB Assembly",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14-150MIL",
+   "prices": [
+    [
+     1,
+     0.0396
+    ],
+    [
+     100,
+     0.0204
+    ]
+   ],
+   "p1": 0.0396,
+   "desc": "SOP-14-150MIL SMT ROHS",
+   "cat": "SMT",
+   "attrs": {},
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/JLCPCBAssembly-74HC14D_SO14SMD/C9900300372",
+   "lcsc_url": null
+  },
+  "C19708123": {
+   "code": "C19708123",
+   "model": "SN74HC14DTR(XBLW)",
+   "brand": "XBLW",
+   "stock": 19,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-14",
+   "prices": [
+    [
+     1,
+     0.0847
+    ],
+    [
+     50,
+     0.0669
+    ],
+    [
+     150,
+     0.0579
+    ],
+    [
+     500,
+     0.0511
+    ],
+    [
+     2500,
+     0.0457
+    ],
+    [
+     5000,
+     0.0431
+    ]
+   ],
+   "p1": 0.0847,
+   "desc": "-40℃~+125℃ 100mV 12ns 2V~6V 2uA 4.5V 4mA 6 74HC Noise suppression function Schmitt trigger SOP-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Propagation Delay": "12ns",
+    "Input Type": "Schmitt trigger",
+    "Output Logic Level - High": "4.5V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "2uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "Current - Output Low(IOL)": "4mA"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312160126_XBLW-SN74HC14DTR-XBLW_C19708123.pdf",
+   "url": "https://jlcpcb.com/partdetail/XBLW-SN74HC14DTR_XBLW/C19708123",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_xblw-sn74hc14dtr-xblw_C19708123.html"
+  },
+  "C5542903": {
+   "code": "C5542903",
+   "model": "74HC14D/S256,118",
+   "brand": "NXP Semicon",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     0.2033
+    ],
+    [
+     10,
+     0.2033
+    ],
+    [
+     12,
+     0.2033
+    ],
+    [
+     200,
+     0.0812
+    ],
+    [
+     500,
+     0.0784
+    ],
+    [
+     1000,
+     0.0771
+    ]
+   ],
+   "p1": 0.2033,
+   "desc": "-40℃~+125℃ 12ns@6V,50pF 2V~6V 40uA 6 74HC Schmitt trigger SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "-",
+    "Operating Temperature": "-40℃~+125℃",
+    "Series": "74HC",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "12ns@6V,50pF",
+    "Output Logic Level - High": "-",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Current - Output High(IOH)": "-",
+    "Number of Circuits": "6",
+    "Quiescent Current(Iq)": "40uA",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/NXPSemicon-74HC14D_S256118/C5542903",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nxp-semicon-74hc14d-s256-118_C5542903.html"
+  },
+  "C6101316": {
+   "code": "C6101316",
+   "model": "74HC14D/S200,118",
+   "brand": "Nexperia",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     2.8401
+    ],
+    [
+     10,
+     2.8401
+    ],
+    [
+     12,
+     2.8401
+    ],
+    [
+     200,
+     1.1331
+    ],
+    [
+     500,
+     1.0957
+    ],
+    [
+     1000,
+     1.0779
+    ]
+   ],
+   "p1": 2.8401,
+   "desc": "-40℃~+125℃ 1.9V、3.98V、4.4V、5.48V、5.9V 100mV、260mV 12ns@6V,50pF 2V~6V 40uA 6 74HC Noise suppression function Push-pull Schmitt trigger SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "12ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404171611_Nexperia-74HC14D-S200-118_C6101316.pdf",
+   "url": "https://jlcpcb.com/partdetail/Nexperia-74HC14D_S200118/C6101316",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nexperia-74hc14d-s200-118_C6101316.html"
+  },
+  "C6407653": {
+   "code": "C6407653",
+   "model": "74HC14D/S206,118",
+   "brand": "NXP Semicon",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-14",
+   "prices": [
+    [
+     1,
+     2.8401
+    ],
+    [
+     10,
+     2.8401
+    ],
+    [
+     12,
+     2.8401
+    ],
+    [
+     200,
+     1.1331
+    ],
+    [
+     500,
+     1.0957
+    ],
+    [
+     1000,
+     1.0779
+    ]
+   ],
+   "p1": 2.8401,
+   "desc": "-40℃~+125℃ 1.9V、3.98V、4.4V、5.48V、5.9V 100mV、260mV 12ns@6V,50pF 2V~6V 40uA 6 74HC Noise suppression function Push-pull Schmitt trigger SO-14 Inverters ROHS",
+   "cat": "Inverters",
+   "attrs": {
+    "Output Logic Level - Low": "100mV、260mV",
+    "Operating Temperature": "-40℃~+125℃",
+    "Input Type": "Schmitt trigger",
+    "Propagation Delay": "12ns@6V,50pF",
+    "Output Logic Level - High": "1.9V、3.98V、4.4V、5.48V、5.9V",
+    "Current - Output High(IOH)": "-",
+    "Quiescent Current(Iq)": "40uA",
+    "Series": "74HC",
+    "Voltage - Supply": "2V~6V",
+    "Input Logic Level - High": "-",
+    "Input Logic Level -Low": "-",
+    "Features": "Noise suppression function",
+    "Number of Circuits": "6",
+    "output type": "Push-pull",
+    "Current - Output Low(IOL)": "-"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/NXPSemicon-74HC14D_S206118/C6407653",
+   "lcsc_url": "https://www.lcsc.com/product-detail/inverters_nxp-semicon-74hc14d-s206-118_C6407653.html"
+  }
+ }
+}

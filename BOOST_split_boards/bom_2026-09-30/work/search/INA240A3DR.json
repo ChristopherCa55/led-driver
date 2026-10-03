@@ -1,0 +1,65 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 00:03 Pacific Daylight Time",
+ "res": {
+  "C2060584": {
+   "code": "C2060584",
+   "model": "INA240A3DR",
+   "brand": "Texas Instruments",
+   "stock": 1879,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     2.7929
+    ],
+    [
+     10,
+     2.3459
+    ],
+    [
+     30,
+     2.0646
+    ],
+    [
+     100,
+     1.7785
+    ],
+    [
+     500,
+     1.6485
+    ],
+    [
+     1000,
+     1.5916
+    ]
+   ],
+   "p1": 2.7929,
+   "desc": "-40℃~+125℃ -4V~80V 1 1.8mA 100V/V 132dB 2.7V~5.5V 250nV/℃ 2V/us 400kHz 40nV/√Hz@1kHz 5uV 90uA Bidirectional detection、Zero drift / auto-zero、Programmable output reference level、Analog output interface ±80V SOIC-8 Current Sense Amplifiers ROHS",
+   "cat": "Current Sense Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "5uV",
+    "Output Current": "-",
+    "Input Offset Voltage Drift(Vos TC)": "250nV/℃",
+    "Single Supply": "2.7V~5.5V",
+    "Slew Rate": "2V/us",
+    "Common Mode Rejection Ratio (CMRR)": "132dB",
+    "Differential Voltage": "±80V",
+    "Number of Channels": "1",
+    "Vcm - Common Mode Voltage": "-4V~80V",
+    "Bandwidth": "400kHz",
+    "Noise density(eN)": "40nV/√Hz@1kHz",
+    "Quiescent Current": "1.8mA",
+    "Features": "Bidirectional detection、Zero drift / auto-zero、Programmable output reference level、Analog output interface",
+    "Ib - Input Bias Current": "90uA",
+    "Gain": "100V/V",
+    "Dual Supply": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Texas-Instruments-INA240A3DR_C2060584.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-INA240A3DR/C2060584",
+   "lcsc_url": "https://www.lcsc.com/product-detail/current-sense-amplifiers_texas-instruments-ina240a3dr_C2060584.html"
+  }
+ }
+}

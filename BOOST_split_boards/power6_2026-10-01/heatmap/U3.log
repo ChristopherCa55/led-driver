@@ -1,0 +1,137 @@
+GND voltage above J2.1, full-load DC (U3_cu.json, JLC061611-7628D, grid 0.10 mm)
+currents in: M1.3 11.03 A, R52.2 2.63 A, R53.2 2.37 A, R7.2 2.37 A; out at J2.1 18.40 A
+
+terminal pads (mV): M1.3 6.15, R52.2 7.63, R53.2 8.08, R7.2 7.74, J2.1 0.00
+highest GND voltage per layer (mV): F.Cu 8.08, In1.Cu 7.91, In2.Cu 7.87, In3.Cu 7.86, In4.Cu 7.71, B.Cu 7.67
+floating GND copper (mm2): none
+
+GND pins per part, lowest-highest pad (mV), highest first:
+  R53      8.08 -   8.08
+  U12      7.83 -   7.83
+  R7       7.74 -   7.74
+  C34      7.70 -   7.70
+  C21      7.69 -   7.69
+  C44      7.69 -   7.69
+  C45      7.69 -   7.69
+  C55      7.69 -   7.69
+  C7       7.68 -   7.68
+  C56      7.68 -   7.68
+  U1       7.66 -   7.66
+  R52      7.63 -   7.63
+  U11      7.61 -   7.61
+  C33      7.55 -   7.55
+  C87      7.48 -   7.48
+  C71      7.48 -   7.48
+  C78      7.34 -   7.34
+  J10      6.53 -   7.29
+  C3       7.28 -   7.28
+  C39      7.14 -   7.14
+  C73      7.13 -   7.13
+  U6       7.11 -   7.11
+  C35      7.06 -   7.06
+  U17      7.03 -   7.03
+  C41      7.02 -   7.02
+  C77      6.80 -   6.80
+  C89      6.79 -   6.79
+  U8       6.77 -   6.77
+  C83      6.73 -   6.73
+  C80      6.73 -   6.73
+  C90      6.73 -   6.73
+  U10      6.73 -   6.73
+  U15      6.66 -   6.66
+  C62      6.62 -   6.62
+  C88      6.61 -   6.61
+  C48      6.58 -   6.58
+  C79      6.58 -   6.58
+  C75      6.57 -   6.57
+  C84      6.53 -   6.53
+  U19      6.42 -   6.46
+  R62      6.43 -   6.43
+  C20      6.43 -   6.43
+  U25      6.42 -   6.43
+  C82      6.42 -   6.42
+  C30      6.42 -   6.42
+  R104     6.42 -   6.42
+  C31      6.42 -   6.42
+  C86      6.33 -   6.33
+  C72      6.22 -   6.22
+  C1       6.19 -   6.19
+  M1       6.14 -   6.14
+  D19      6.07 -   6.07
+  C74      6.06 -   6.06
+  C70      5.29 -   5.29
+  C69      4.60 -   4.60
+  C76      3.88 -   3.88
+  C85      3.36 -   3.36
+  C40      3.25 -   3.25
+  C4       3.11 -   3.11
+  U16      1.14 -   2.71
+  C25      2.66 -   2.66
+  C6       2.65 -   2.65
+  R14      2.65 -   2.65
+  C81      2.65 -   2.65
+  J2       0.00 -   0.00
+
+GND vias carrying the most current (IPC 10 C rating 0.97 A for 0.4 mm):
+  ( 42.30,  96.05) drill 0.40  0.59 A  0.61x
+  ( 79.60,  52.00) drill 0.40  0.58 A  0.60x
+  ( 79.00,  53.00) drill 0.40  0.56 A  0.58x
+  ( 40.10,  96.05) drill 0.40  0.56 A  0.57x
+  ( 41.57,  96.05) drill 0.40  0.53 A  0.55x
+  ( 40.83,  96.05) drill 0.40  0.52 A  0.54x
+  ( 79.60,  51.00) drill 0.40  0.51 A  0.52x
+  ( 86.90,  67.50) drill 0.40  0.49 A  0.50x
+  ( 61.06,  94.90) drill 0.40  0.48 A  0.49x
+  ( 93.40,  61.10) drill 0.40  0.47 A  0.49x
+  ( 61.06,  97.10) drill 0.40  0.45 A  0.47x
+  ( 63.40, 109.55) drill 0.40  0.44 A  0.46x
+  ( 91.30,  62.00) drill 0.50  0.44 A  0.39x
+  ( 61.06,  95.63) drill 0.40  0.44 A  0.45x
+  ( 61.06,  96.37) drill 0.40  0.43 A  0.44x
+
+new GND via candidates that cut no power pour (numbered on the map), ranked by the voltage across the layers they would join:
+   1 ( 70.65,  82.75)  0.722 mV  joins F In1 In3 In4 B
+   2 ( 56.15,  82.95)  0.568 mV  joins F In1 In2
+   3 ( 56.15,  80.85)  0.533 mV  joins F In1 In2
+   4 ( 59.25,  87.75)  0.468 mV  joins F In1 In2 In3 In4 B
+   5 ( 80.05,  52.85)  0.417 mV  joins F In1 In3 In4 B
+   6 ( 61.35,  88.25)  0.351 mV  joins F In1 In2 In3 In4 B
+   7 ( 79.25,  94.75)  0.335 mV  joins F In1 In2 In3 In4
+   8 ( 57.95, 103.65)  0.318 mV  joins F In1 In2 In3 In4 B
+   9 ( 81.75, 110.65)  0.314 mV  joins F In1 In2 In3 In4 B
+  10 ( 62.25, 105.75)  0.310 mV  joins F In1 In2 In3 In4 B
+  11 ( 81.65, 112.75)  0.295 mV  joins F In1 In2 In3 In4 B
+  12 ( 81.65, 114.85)  0.284 mV  joins F In1 In2 In3 In4 B
+  13 ( 70.75,  92.75)  0.283 mV  joins F In1 In2 In4 B
+  14 ( 64.35, 107.85)  0.280 mV  joins F In1 In2 In3 In4 B
+  15 ( 58.05,  90.25)  0.265 mV  joins F In1 In2 In3 B
+  16 ( 75.15,  94.05)  0.257 mV  joins F In1 In2 In3 In4 B
+  17 ( 70.75,  90.25)  0.253 mV  joins F In1 In2 In4 B
+  18 ( 66.05,  93.15)  0.251 mV  joins F In1 In2 In3 In4 B
+  19 ( 60.05,  93.45)  0.250 mV  joins F In1 In2 In3 In4 B
+  20 ( 83.75, 112.75)  0.248 mV  joins F In1 In2 In3 In4 B
+
+stronger spots that would cut a power pour (not on the map), ranked by the voltage across the layers they would join:
+   1 ( 93.95,  65.95)  2.223 mV  joins F In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+   2 ( 96.65,  67.65)  1.342 mV  joins F In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+   3 ( 75.35,  80.05)  1.213 mV  joins F In1 In3  cuts Vout_1 on In4.Cu
+   4 ( 95.05,  69.75)  1.140 mV  joins F In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+   5 ( 94.55,  77.15)  1.099 mV  joins In1 B  cuts LX on In2.Cu, Vin on F.Cu, Vin on In3.Cu, Vin on In4.Cu
+   6 ( 98.75,  67.65)  1.057 mV  joins F In1 B  cuts Vin on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+   7 ( 79.55,  66.85)  1.012 mV  joins F In1 B  cuts LX on In2.Cu, Vout_1 on In3.Cu, Vout_1 on In4.Cu
+   8 ( 79.85,  69.05)  0.989 mV  joins F In1  cuts LX on In2.Cu, Vout_1 on In3.Cu, Vout_1 on In4.Cu
+   9 ( 81.45,  54.65)  0.978 mV  joins F In1 In3 B  cuts LX on In2.Cu
+  10 ( 93.95,  63.85)  0.971 mV  joins F In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+  11 ( 79.45,  63.05)  0.893 mV  joins F In1 B  cuts LX on In2.Cu, Vout_1 on In3.Cu, Vout_1 on In4.Cu
+  12 ( 73.15,  81.95)  0.892 mV  joins F In1 In3  cuts Vout_1 on In4.Cu
+  13 ( 97.55,  58.55)  0.878 mV  joins F In1 B  cuts Vin on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+  14 ( 94.55,  72.35)  0.876 mV  joins In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+  15 ( 94.55,  75.05)  0.858 mV  joins In1 B  cuts LX on In2.Cu, Vin on F.Cu, Vin on In3.Cu, Vin on In4.Cu
+  16 ( 96.05,  63.05)  0.842 mV  joins F In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+  17 ( 81.55,  63.05)  0.838 mV  joins F In1 B  cuts LX on In2.Cu
+  18 ( 90.05,  70.25)  0.828 mV  joins F In1  cuts LX on B.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+  19 ( 89.85,  66.15)  0.811 mV  joins F In1 B  cuts LX on In2.Cu, Vin on In3.Cu, Vin on In4.Cu
+  20 ( 97.15,  69.75)  0.800 mV  joins F In1 B  cuts Vin on In3.Cu, Vin on In4.Cu
+
+with the best 10 candidates added: terminal pads (mV) M1.3 6.10, R52.2 7.54, R53.2 7.99, R7.2 7.63, J2.1 0.00
+  largest part GND pin: 7.99 mV (was 8.08)

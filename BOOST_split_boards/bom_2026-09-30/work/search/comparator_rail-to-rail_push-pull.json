@@ -1,0 +1,5955 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:37 Pacific Daylight Time",
+ "res": {
+  "C5192": {
+   "code": "C5192",
+   "model": "LM239N",
+   "brand": "Texas Instruments",
+   "stock": 2,
+   "type": "expand",
+   "pref": false,
+   "pkg": "PDIP-14",
+   "prices": [
+    [
+     1,
+     0.2081
+    ],
+    [
+     50,
+     0.1857
+    ],
+    [
+     150,
+     0.1828
+    ],
+    [
+     500,
+     0.1798
+    ],
+    [
+     510,
+     0.1798
+    ],
+    [
+     520,
+     0.1798
+    ]
+   ],
+   "p1": 0.2081,
+   "desc": "-18V~-1V、1V~18V -25℃~+85℃ 1.3us 1.3us 25nA 2V~36V 2mV 36V 5nA 800uA Four channels Open Collector Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS PDIP-14 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-25℃~+85℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Output Type": "Open Collector",
+    "Input Offset Current(Ios)": "5nA",
+    "Single Supply": "2V~36V",
+    "Input Hysteresis Voltage (Vhys)": "-",
+    "Response Time (tr)": "1.3us",
+    "Common Mode Rejection Ratio(CMRR)": "-",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Maximum Power Supply Range (Vdd-Vss)": "36V",
+    "Quiescent Current": "800uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "25nA",
+    "Propagation Delay Time": "1.3us",
+    "Output Mode": "TTL、CMOS",
+    "Dual Supply": "-18V~-1V、1V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM239N_C5192.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM239N/C5192",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lm239n_C5192.html"
+  },
+  "C6166": {
+   "code": "C6166",
+   "model": "AD8694ARUZ-REEL",
+   "brand": "Analog Devices",
+   "stock": 59,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-14",
+   "prices": [
+    [
+     1,
+     2.4158
+    ],
+    [
+     10,
+     2.0776
+    ],
+    [
+     30,
+     1.8679
+    ],
+    [
+     100,
+     1.6517
+    ],
+    [
+     500,
+     1.5542
+    ],
+    [
+     1000,
+     1.5119
+    ]
+   ],
+   "p1": 2.4158,
+   "desc": "-40℃~+125℃ 0.5pA 1.3uV/℃ 10MHz 1pA 2.7V~6V 20mA 400uV 5V/us 8nV/√Hz@1kHz 90dB 950uA Built-in compensation Four channels Rail-to-rail output TSSOP-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "400uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "20mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.3uV/℃",
+    "Single Supply": "2.7V~6V",
+    "Slew Rate": "5V/us",
+    "Gain Bandwidth Product": "10MHz",
+    "Quiescent Current(Iq)": "950uA",
+    "Common Mode Rejection Ratio(CMRR)": "90dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "8nV/√Hz@1kHz",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "1pA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811032111_Analog-Devices-AD8694ARUZ-REEL_C6166.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8694ARUZREEL/C6166",
+   "lcsc_url": "https://www.lcsc.com/product-detail/low-noise-amplifiers-lna-rf_analog-devices-ad8694aruz-reel_C6166.html"
+  },
+  "C6979": {
+   "code": "C6979",
+   "model": "TLC2272CDR",
+   "brand": "Texas Instruments",
+   "stock": 25282,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.3756
+    ],
+    [
+     50,
+     0.2997
+    ],
+    [
+     150,
+     0.267
+    ],
+    [
+     500,
+     0.2265
+    ],
+    [
+     2500,
+     0.2083
+    ],
+    [
+     5000,
+     0.1976
+    ]
+   ],
+   "p1": 0.3756,
+   "desc": "-5V~5V 0℃~+70℃ 1pA 2 2.2MHz 2uV/℃ 3.6V/us 3mA 50mA 60pA 75dB 950uV 9nV/√Hz@1kHz Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃",
+    "Vos - Input Offset Voltage": "950uV",
+    "Input Offset Current(Ios)": "60pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "3.6V/us",
+    "Gain Bandwidth Product": "2.2MHz",
+    "Single supply": "-",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "9nV/√Hz@1kHz",
+    "Quiescent Current": "3mA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-5V~5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLC2272CDR_C6979.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2272CDR/C6979",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlc2272cdr_C6979.html"
+  },
+  "C6980": {
+   "code": "C6980",
+   "model": "TLC2274IDR",
+   "brand": "Texas Instruments",
+   "stock": 2127,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     1.9183
+    ],
+    [
+     10,
+     1.655
+    ],
+    [
+     30,
+     1.4891
+    ],
+    [
+     100,
+     1.3201
+    ],
+    [
+     500,
+     1.2437
+    ],
+    [
+     1000,
+     1.2112
+    ]
+   ],
+   "p1": 1.9183,
+   "desc": "-40℃~+125℃ -5V~-2.2V、2.2V~5V 100pA 2.18MHz 2.2V~5V 2uV/℃ 3.6V/us 4 60pA 6mA 80dB 950uV 9nV/√Hz@1kHz Rail-to-rail output SOIC-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "950uV",
+    "Input Offset Current(Ios)": "60pA",
+    "Output Current": "-",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "3.6V/us",
+    "Gain Bandwidth Product": "2.18MHz",
+    "Single supply": "2.2V~5V",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "4",
+    "Input Voltage Noise Density": "9nV/√Hz@1kHz",
+    "Quiescent Current": "6mA",
+    "Features": "-",
+    "Ib - Input Bias Current": "100pA",
+    "Dual Supply": "-5V~-2.2V、2.2V~5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051332_Texas-Instruments-TLC2274IDR_C6980.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2274IDR/C6980",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc2274idr_C6980.html"
+  },
+  "C6985": {
+   "code": "C6985",
+   "model": "TLC27M2CDR",
+   "brand": "Texas Instruments",
+   "stock": 2620,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.5739
+    ],
+    [
+     10,
+     0.4585
+    ],
+    [
+     30,
+     0.4
+    ],
+    [
+     100,
+     0.3431
+    ],
+    [
+     500,
+     0.3089
+    ],
+    [
+     1000,
+     0.291
+    ]
+   ],
+   "p1": 0.5739,
+   "desc": "-40℃~+85℃ 0.1pA 0.7pA 1.1mV 1.7uV/℃ 2 210uA 30mA 32nV/√Hz@1kHz 3V~16V 430V/ms 525kHz 94dB ESD protection Rail-to-rail input SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "1.1mV",
+    "Input Offset Current(Ios)": "0.1pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.7uV/℃",
+    "Slew Rate": "430V/ms",
+    "Gain Bandwidth Product": "525kHz",
+    "Single supply": "3V~16V",
+    "Common Mode Rejection Ratio(CMRR)": "94dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "32nV/√Hz@1kHz",
+    "Quiescent Current": "210uA",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "0.7pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181612_Texas-Instruments-TLC27M2CDR_C6985.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC27M2CDR/C6985",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc27m2cdr_C6985.html"
+  },
+  "C7109": {
+   "code": "C7109",
+   "model": "TS912BIDT",
+   "brand": "STMicroelectronics",
+   "stock": 2380,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.9299
+    ],
+    [
+     10,
+     0.7544
+    ],
+    [
+     30,
+     0.6666
+    ],
+    [
+     100,
+     0.5804
+    ],
+    [
+     500,
+     0.5284
+    ],
+    [
+     1000,
+     0.5008
+    ]
+   ],
+   "p1": 0.9299,
+   "desc": "-40℃~+125℃ 1.3V/us 150pA 16V 1pA 2 2.7V~16V 200uA 2mV 30nV/√Hz@1kHz 3uV/℃ 40mA 90dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "40mA",
+    "Input Offset Voltage Drift(Vos TC)": "3uV/℃",
+    "Slew Rate": "1.3V/us",
+    "Gain Bandwidth Product": "-",
+    "Single supply": "2.7V~16V",
+    "Common Mode Rejection Ratio(CMRR)": "90dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "30nV/√Hz@1kHz",
+    "Quiescent Current": "200uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "150pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051912_STMicroelectronics-TS912BIDT_C7109.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-TS912BIDT/C7109",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_stmicroelectronics-ts912bidt_C7109.html"
+  },
+  "C7377": {
+   "code": "C7377",
+   "model": "MCP6002T-I/SN",
+   "brand": "Microchip Tech",
+   "stock": 57375,
+   "type": "expand",
+   "pref": true,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.2868
+    ],
+    [
+     50,
+     0.2244
+    ],
+    [
+     150,
+     0.194
+    ],
+    [
+     500,
+     0.1669
+    ],
+    [
+     3300,
+     0.1511
+    ],
+    [
+     6600,
+     0.1467
+    ]
+   ],
+   "p1": 0.2868,
+   "desc": "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 76dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "4.5mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "600V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "1.8V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "76dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "28nV/√Hz@1kHz",
+    "Quiescent Current": "100uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6002T-I-SN_C7377.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6002T_ISN/C7377",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6002t-i-sn_C7377.html"
+  },
+  "C7378": {
+   "code": "C7378",
+   "model": "MCP6004T-I/SL",
+   "brand": "Microchip Tech",
+   "stock": 23990,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.4829
+    ],
+    [
+     10,
+     0.3821
+    ],
+    [
+     30,
+     0.3382
+    ],
+    [
+     100,
+     0.2829
+    ],
+    [
+     500,
+     0.2406
+    ],
+    [
+     1000,
+     0.226
+    ]
+   ],
+   "p1": 0.4829,
+   "desc": "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 23mA 28nV/√Hz@1kHz 2uV/℃ 4 4.5mV 600V/ms 76dB ESD protection Rail-to-Rail Input, Rail-to-Rail Output SOIC-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "4.5mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "600V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "1.8V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "76dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "4",
+    "Input Voltage Noise Density": "28nV/√Hz@1kHz",
+    "Quiescent Current": "100uA",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410122025_Microchip-Tech-MCP6004T-I-SL_C7378.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6004T_ISL/C7378",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6004t-i-sl_C7378.html"
+  },
+  "C7927": {
+   "code": "C7927",
+   "model": "LM239DR",
+   "brand": "Texas Instruments",
+   "stock": 86151,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1722
+    ],
+    [
+     50,
+     0.1348
+    ],
+    [
+     150,
+     0.1189
+    ],
+    [
+     500,
+     0.0989
+    ],
+    [
+     2500,
+     0.0826
+    ],
+    [
+     5000,
+     0.0774
+    ]
+   ],
+   "p1": 0.1722,
+   "desc": "-18V~-1V、1V~18V -25℃~+85℃ 1.3us 1.3us 25nA 2V~36V 2mV 36V 5nA 800uA Four channels Open Collector Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS SOIC-14 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-25℃~+85℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Output Type": "Open Collector",
+    "Input Offset Current(Ios)": "5nA",
+    "Single Supply": "2V~36V",
+    "Input Hysteresis Voltage (Vhys)": "-",
+    "Response Time (tr)": "1.3us",
+    "Common Mode Rejection Ratio(CMRR)": "-",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Maximum Power Supply Range (Vdd-Vss)": "36V",
+    "Quiescent Current": "800uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "25nA",
+    "Propagation Delay Time": "1.3us",
+    "Output Mode": "TTL、CMOS",
+    "Dual Supply": "-18V~-1V、1V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM239DR_C7927.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM239DR/C7927",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lm239dr_C7927.html"
+  },
+  "C7932": {
+   "code": "C7932",
+   "model": "LM2901DR",
+   "brand": "Texas Instruments",
+   "stock": 87919,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1982
+    ],
+    [
+     50,
+     0.1561
+    ],
+    [
+     150,
+     0.135
+    ],
+    [
+     500,
+     0.1192
+    ],
+    [
+     2500,
+     0.0995
+    ],
+    [
+     5000,
+     0.0932
+    ]
+   ],
+   "p1": 0.1982,
+   "desc": "-18V~-1V、1V~18V -40℃~+125℃ 1.3us 1.3us 25nA 2V~36V 2mV 36V 5nA 800uA Four channels Open-drain Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS SOIC-14 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Output Type": "Open-drain",
+    "Input Offset Current(Ios)": "5nA",
+    "Single Supply": "2V~36V",
+    "Input Hysteresis Voltage (Vhys)": "-",
+    "Response Time (tr)": "1.3us",
+    "Common Mode Rejection Ratio(CMRR)": "-",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Maximum Power Supply Range (Vdd-Vss)": "36V",
+    "Quiescent Current": "800uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "25nA",
+    "Propagation Delay Time": "1.3us",
+    "Output Mode": "TTL、CMOS",
+    "Dual Supply": "-18V~-1V、1V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2901DR_C7932.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2901DR/C7932",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lm2901dr_C7932.html"
+  },
+  "C7948": {
+   "code": "C7948",
+   "model": "LM339DR",
+   "brand": "Texas Instruments",
+   "stock": 91299,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.1646
+    ],
+    [
+     50,
+     0.129
+    ],
+    [
+     150,
+     0.1114
+    ],
+    [
+     500,
+     0.096
+    ],
+    [
+     2500,
+     0.0823
+    ],
+    [
+     5000,
+     0.0797
+    ]
+   ],
+   "p1": 0.1646,
+   "desc": "-18V~-1V、1V~18V 0℃~+70℃ 1.3us 1.3us 25nA 2V~36V 2mV 36V 5nA 800uA Four channels Open Collector Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS SOIC-14 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Output Type": "Open Collector",
+    "Input Offset Current(Ios)": "5nA",
+    "Single Supply": "2V~36V",
+    "Input Hysteresis Voltage (Vhys)": "-",
+    "Response Time (tr)": "1.3us",
+    "Common Mode Rejection Ratio(CMRR)": "-",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Maximum Power Supply Range (Vdd-Vss)": "36V",
+    "Quiescent Current": "800uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "25nA",
+    "Propagation Delay Time": "1.3us",
+    "Output Mode": "TTL、CMOS",
+    "Dual Supply": "-18V~-1V、1V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM339DR_C7948.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM339DR/C7948",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lm339dr_C7948.html"
+  },
+  "C7954": {
+   "code": "C7954",
+   "model": "LM392MX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 21,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.899
+    ],
+    [
+     10,
+     0.7739
+    ],
+    [
+     30,
+     0.6861
+    ],
+    [
+     100,
+     0.6145
+    ],
+    [
+     500,
+     0.5918
+    ],
+    [
+     1000,
+     0.5788
+    ]
+   ],
+   "p1": 0.899,
+   "desc": "-16V~-1.5V、1.5V~16V -65℃~+150℃ 1.3us 1.3us 10pA/℃ 1mA 2 2mV 32V 3V~32V 50nA 5nA 70dB 7uV/℃ Built-in compensation Rail-to-rail input TTL、CMOS SOIC-8 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-65℃~+150℃",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "2mV",
+    "Input Offset Current(Ios)": "5nA",
+    "Input Offset Voltage Drift(Vos TC)": "7uV/℃",
+    "Single Supply": "3V~32V",
+    "Response Time (tr)": "1.3us",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "2",
+    "Maximum Power Supply Range (Vdd-Vss)": "32V",
+    "Quiescent Current": "1mA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "50nA",
+    "Propagation Delay Time": "1.3us",
+    "Input Offset Current Drift (Ios TC)": "10pA/℃",
+    "Output Mode": "TTL、CMOS",
+    "Dual Supply": "-16V~-1.5V、1.5V~16V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181631_Texas-Instruments-LM392MX-NOPB_C7954.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM392MXNOPB/C7954",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lm392mx-nopb_C7954.html"
+  },
+  "C7968": {
+   "code": "C7968",
+   "model": "LM8261M5X/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 10972,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     1.021
+    ],
+    [
+     10,
+     0.8226
+    ],
+    [
+     30,
+     0.7235
+    ],
+    [
+     100,
+     0.6259
+    ],
+    [
+     500,
+     0.5674
+    ],
+    [
+     1000,
+     0.5365
+    ]
+   ],
+   "p1": 1.021,
+   "desc": "-40℃~+85℃ 1 1.05uA 12V/us 15nV/√Hz@2kHz 2.5V~30V 21MHz 250nA 2uV/℃ 53mA 700uV 76dB 970uA Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "700uV",
+    "Output Current": "53mA",
+    "Input Offset Current(Ios)": "250nA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "2.5V~30V",
+    "Gain Bandwidth Product": "21MHz",
+    "Slew Rate": "12V/us",
+    "Quiescent Current(Iq)": "970uA",
+    "Common Mode Rejection Ratio(CMRR)": "76dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "15nV/√Hz@2kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1.05uA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810301120_Texas-Instruments-LM8261M5X-NOPB_C7968.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM8261M5XNOPB/C7968",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-lm8261m5x-nopb_C7968.html"
+  },
+  "C7970": {
+   "code": "C7970",
+   "model": "LMC660CMX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 30,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     3.1603
+    ],
+    [
+     10,
+     3.0888
+    ],
+    [
+     30,
+     3.0433
+    ],
+    [
+     100,
+     2.9961
+    ],
+    [
+     102,
+     2.9961
+    ],
+    [
+     104,
+     2.9961
+    ]
+   ],
+   "p1": 3.1603,
+   "desc": "0.001pA 0.002pA 0℃~+70℃ 1.1V/us 1.3uV/℃ 1.4MHz 1.5mA 1mV 22mA 22nV/√Hz@1kHz 5V~15.5V 83dB Four channels Rail-to-rail output SOIC-14 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃",
+    "Vos - Input Offset Voltage": "1mV",
+    "Input Offset Current(Ios)": "0.001pA",
+    "Output Current": "22mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.3uV/℃",
+    "Single Supply": "5V~15.5V",
+    "Slew Rate": "1.1V/us",
+    "Gain Bandwidth Product": "1.4MHz",
+    "Quiescent Current(Iq)": "1.5mA",
+    "Common Mode Rejection Ratio(CMRR)": "83dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "22nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "0.002pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051220_Texas-Instruments-LMC660CMX-NOPB_C7970.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMC660CMXNOPB/C7970",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-lmc660cmx-nopb_C7970.html"
+  },
+  "C7972": {
+   "code": "C7972",
+   "model": "LMV321IDBVR",
+   "brand": "Texas Instruments",
+   "stock": 224678,
+   "type": "expand",
+   "pref": true,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.122
+    ],
+    [
+     50,
+     0.0974
+    ],
+    [
+     150,
+     0.0847
+    ],
+    [
+     500,
+     0.0743
+    ],
+    [
+     3000,
+     0.0708
+    ],
+    [
+     6000,
+     0.0683
+    ]
+   ],
+   "p1": 0.122,
+   "desc": "-40℃~+125℃ 1 11nA 170uA 1MHz 1V/us 2.7V~5.5V 46nV/√Hz@1kHz 5mA 5nA 63dB 7mV 9uV/℃ Rail-to-rail output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "7mV",
+    "Input Offset Current(Ios)": "5nA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "9uV/℃",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.7V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "63dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "46nV/√Hz@1kHz",
+    "Quiescent Current": "170uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "11nA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809151123_Texas-Instruments-LMV321IDBVR_C7972.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV321IDBVR/C7972",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-lmv321idbvr_C7972.html"
+  },
+  "C7974": {
+   "code": "C7974",
+   "model": "LMV324IDR",
+   "brand": "Texas Instruments",
+   "stock": 109599,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     0.2884
+    ],
+    [
+     50,
+     0.2236
+    ],
+    [
+     150,
+     0.1919
+    ],
+    [
+     500,
+     0.1637
+    ],
+    [
+     2500,
+     0.156
+    ],
+    [
+     5000,
+     0.1512
+    ]
+   ],
+   "p1": 0.2884,
+   "desc": "-40℃~+125℃ 11nA 1MHz 1V/us 2.7V~5.5V 4 410uA 46nV/√Hz@1kHz 5nA 5uV/℃ 60mA 63dB 7mV Enable/shutdown function Rail-to-rail output SOIC-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "7mV",
+    "Input Offset Current(Ios)": "5nA",
+    "Output Current": "60mA",
+    "Input Offset Voltage Drift(Vos TC)": "5uV/℃",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.7V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "63dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "4",
+    "Input Voltage Noise Density": "46nV/√Hz@1kHz",
+    "Quiescent Current": "410uA",
+    "Features": "Enable/shutdown function",
+    "Ib - Input Bias Current": "11nA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LMV324IDR_C7974.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV324IDR/C7974",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-lmv324idr_C7974.html"
+  },
+  "C7979": {
+   "code": "C7979",
+   "model": "LMV342MMX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 9,
+   "type": "expand",
+   "pref": false,
+   "pkg": "VSSOP-8",
+   "prices": [
+    [
+     1,
+     1.7086
+    ],
+    [
+     10,
+     1.668
+    ],
+    [
+     30,
+     1.642
+    ],
+    [
+     100,
+     1.6159
+    ],
+    [
+     102,
+     1.6159
+    ],
+    [
+     104,
+     1.6159
+    ]
+   ],
+   "p1": 1.7086,
+   "desc": "-40℃~+125℃ 0.0066pA 0.02pA 1.9uV/℃ 107uA 1MHz 1V/us 2 2.7V~5.5V 39nV/√Hz@1kHz 700uV 85mA 86dB Rail-to-rail output VSSOP-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "700uV",
+    "Input Offset Current(Ios)": "0.0066pA",
+    "Output Current": "85mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.9uV/℃",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.7V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "86dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Quiescent Current": "107uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "0.02pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051318_Texas-Instruments-LMV342MMX-NOPB_C7979.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV342MMXNOPB/C7979",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-lmv342mmx-nopb_C7979.html"
+  },
+  "C7980": {
+   "code": "C7980",
+   "model": "LMV358IDT",
+   "brand": "STMicroelectronics",
+   "stock": 9183,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-8",
+   "prices": [
+    [
+     1,
+     0.3644
+    ],
+    [
+     50,
+     0.2912
+    ],
+    [
+     150,
+     0.26
+    ],
+    [
+     500,
+     0.1816
+    ],
+    [
+     2500,
+     0.1642
+    ],
+    [
+     5000,
+     0.1538
+    ]
+   ],
+   "p1": 0.3644,
+   "desc": "-40℃~+125℃ 145uA 1MHz 1nA 2 2.7V~6V 3mV 450V/ms 46mA 95dB 95nA 9uV/℃ Rail-to-Rail Input, Rail-to-Rail Output SO-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "3mV",
+    "Output Current": "46mA",
+    "Input Offset Current(Ios)": "1nA",
+    "Input Offset Voltage Drift(Vos TC)": "9uV/℃",
+    "Slew Rate": "450V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.7V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "95dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "-",
+    "Quiescent Current": "145uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "95nA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810232210_STMicroelectronics-LMV358IDT_C7980.pdf",
+   "url": "https://jlcpcb.com/partdetail/STMicroelectronics-LMV358IDT/C7980",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_stmicroelectronics-lmv358idt_C7980.html"
+  },
+  "C7982": {
+   "code": "C7982",
+   "model": "LMV358MMX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 333,
+   "type": "expand",
+   "pref": false,
+   "pkg": "VSSOP-8",
+   "prices": [
+    [
+     1,
+     0.808
+    ],
+    [
+     10,
+     0.6584
+    ],
+    [
+     30,
+     0.5853
+    ],
+    [
+     100,
+     0.5105
+    ],
+    [
+     500,
+     0.4666
+    ],
+    [
+     1000,
+     0.4439
+    ]
+   ],
+   "p1": 0.808,
+   "desc": "-40℃~+125℃ 1.7mV 15nA 1MHz 1V/us 2 2.7V~5.5V 210uA 39nV/√Hz@1kHz 5nA 5uV/℃ 60mA 65dB Rail-to-rail output VSSOP-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1.7mV",
+    "Input Offset Current(Ios)": "5nA",
+    "Output Current": "60mA",
+    "Input Offset Voltage Drift(Vos TC)": "5uV/℃",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.7V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "65dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Quiescent Current": "210uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "15nA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806131638_Texas-Instruments-LMV358MMX-NOPB_C7982.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV358MMXNOPB/C7982",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-lmv358mmx-nopb_C7982.html"
+  },
+  "C7983": {
+   "code": "C7983",
+   "model": "LMV358MX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 975,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.6617
+    ],
+    [
+     10,
+     0.543
+    ],
+    [
+     30,
+     0.4829
+    ],
+    [
+     100,
+     0.4243
+    ],
+    [
+     500,
+     0.3902
+    ],
+    [
+     1000,
+     0.3707
+    ]
+   ],
+   "p1": 0.6617,
+   "desc": "-40℃~+125℃ 1.7mV 1MHz 1V/us 2 2.7V~5.5V 210uA 250nA 39nV/√Hz@1kHz 50nA 5uV/℃ 60mA 65dB Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1.7mV",
+    "Input Offset Current(Ios)": "50nA",
+    "Output Current": "60mA",
+    "Input Offset Voltage Drift(Vos TC)": "5uV/℃",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.7V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "65dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Quiescent Current": "210uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "250nA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181615_Texas-Instruments-LMV358MX-NOPB_C7983.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV358MXNOPB/C7983",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-lmv358mx-nopb_C7983.html"
+  },
+  "C9374": {
+   "code": "C9374",
+   "model": "TLC272CDR",
+   "brand": "Texas Instruments",
+   "stock": 37020,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.2678
+    ],
+    [
+     50,
+     0.2089
+    ],
+    [
+     150,
+     0.1836
+    ],
+    [
+     500,
+     0.152
+    ],
+    [
+     2500,
+     0.1381
+    ],
+    [
+     5000,
+     0.1296
+    ]
+   ],
+   "p1": 0.2678,
+   "desc": "0.7pA 0℃~+70℃ 1.8uV/℃ 10mV 2 2.2MHz 25nV/√Hz@1kHz 3.6mA 300pA 30mA 3V~16V 5.3V/us 80dB ESD protection Rail-to-rail input SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃",
+    "Vos - Input Offset Voltage": "10mV",
+    "Input Offset Current(Ios)": "300pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.8uV/℃",
+    "Slew Rate": "5.3V/us",
+    "Gain Bandwidth Product": "2.2MHz",
+    "Single supply": "3V~16V",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "25nV/√Hz@1kHz",
+    "Quiescent Current": "3.6mA",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "0.7pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811141711_Texas-Instruments-TLC272CDR_C9374.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC272CDR/C9374",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc272cdr_C9374.html"
+  },
+  "C9641": {
+   "code": "C9641",
+   "model": "AD8605ARTZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 19868,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     3.887
+    ],
+    [
+     10,
+     3.4009
+    ],
+    [
+     30,
+     3.1538
+    ],
+    [
+     100,
+     2.8206
+    ],
+    [
+     500,
+     2.7019
+    ],
+    [
+     1000,
+     2.6499
+    ]
+   ],
+   "p1": 3.887,
+   "desc": "-40℃~+125℃ 0.2pA 0.5pA 1 1.2mA 100dB 10MHz 2.7V~5.5V 4.5uV/℃ 5V/us 65uV 80mA 8nV/√Hz@1kHz Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "65uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "80mA",
+    "Input Offset Voltage Drift(Vos TC)": "4.5uV/℃",
+    "Single Supply": "2.7V~5.5V",
+    "Slew Rate": "5V/us",
+    "Gain Bandwidth Product": "10MHz",
+    "Quiescent Current(Iq)": "1.2mA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "8nV/√Hz@1kHz",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "0.2pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191714_Analog-Devices-AD8605ARTZ-REEL7_C9641.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8605ARTZREEL7/C9641",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8605artz-reel7_C9641.html"
+  },
+  "C9642": {
+   "code": "C9642",
+   "model": "AD8552ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 6840,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     4.6803
+    ],
+    [
+     10,
+     4.1097
+    ],
+    [
+     30,
+     3.7699
+    ],
+    [
+     100,
+     3.214
+    ],
+    [
+     500,
+     3.0563
+    ],
+    [
+     1000,
+     2.9847
+    ]
+   ],
+   "p1": 4.6803,
+   "desc": "-40℃~+125℃ 0.4V/us 1.5MHz 10mA 130dB 160pA 1uV 2 2.7V~5V 400pA 5nV/℃ 750uA 75nV/√Hz@1kHz Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero、Reverse-phase input protection SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1uV",
+    "Input Offset Current(Ios)": "400pA",
+    "Output Current": "10mA",
+    "Input Offset Voltage Drift(Vos TC)": "5nV/℃",
+    "Single Supply": "2.7V~5V",
+    "Slew Rate": "0.4V/us",
+    "Gain Bandwidth Product": "1.5MHz",
+    "Quiescent Current(Iq)": "750uA",
+    "Common Mode Rejection Ratio(CMRR)": "130dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "75nV/√Hz@1kHz",
+    "Features": "Zero drift / auto-zero、Reverse-phase input protection",
+    "Ib - Input Bias Current": "160pA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8552ARZ-REEL7_C9642.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8552ARZREEL7/C9642",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8552arz-reel7_C9642.html"
+  },
+  "C9644": {
+   "code": "C9644",
+   "model": "AD822ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 2247,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     8.7135
+    ],
+    [
+     10,
+     7.5024
+    ],
+    [
+     30,
+     6.7644
+    ],
+    [
+     100,
+     6.145
+    ],
+    [
+     102,
+     6.145
+    ],
+    [
+     104,
+     6.145
+    ]
+   ],
+   "p1": 8.7135,
+   "desc": "-15V~-2.5V、2.5V~15V -40℃~+85℃ 1.6mA 1.8MHz 13nV/√Hz@10kHz 15mA 2 20pA 25pA 2uV/℃ 30V 3V/us 5V~30V 800uV 80dB Rail-to-Rail Output SOIC-8 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "20pA",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "5V~30V",
+    "Gain Bandwidth Product": "1.8MHz",
+    "Slew Rate": "3V/us",
+    "Quiescent Current(Iq)": "1.6mA",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Number of Channels": "2",
+    "Noise density(eN)": "13nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "High capacitive load driving",
+    "Ib - Input Bias Current": "25pA",
+    "Dual Supply": "-15V~-2.5V、2.5V~15V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD822ARZ-REEL7_C9644.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD822ARZREEL7/C9644",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet-input-amplifiers_analog-devices-ad822arz-reel7_C9644.html"
+  },
+  "C9645": {
+   "code": "C9645",
+   "model": "AD820ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 1834,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     5.6459
+    ],
+    [
+     10,
+     4.9274
+    ],
+    [
+     30,
+     4.4999
+    ],
+    [
+     100,
+     3.9146
+    ],
+    [
+     750,
+     3.7163
+    ],
+    [
+     1500,
+     3.6253
+    ]
+   ],
+   "p1": 5.6459,
+   "desc": "-18V~-1.5V、1.5V~18V -40℃~+85℃ 1 1.8MHz 13nV/√Hz@10kHz 15mA 1uV/℃ 25pA 2pA 36V 3V/us 3V~36V 800uA 800uV 80dB Rail-to-Rail Output SOIC-8 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "2pA",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+    "Single Supply": "3V~36V",
+    "Gain Bandwidth Product": "1.8MHz",
+    "Slew Rate": "3V/us",
+    "Quiescent Current(Iq)": "800uA",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Number of Channels": "1",
+    "Noise density(eN)": "13nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "High capacitive load driving、ESD protection",
+    "Ib - Input Bias Current": "25pA",
+    "Dual Supply": "-18V~-1.5V、1.5V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809171811_Analog-Devices-AD820ARZ-REEL7_C9645.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD820ARZREEL7/C9645",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet-input-amplifiers_analog-devices-ad820arz-reel7_C9645.html"
+  },
+  "C9647": {
+   "code": "C9647",
+   "model": "AD8066ARZ-R7",
+   "brand": "Analog Devices",
+   "stock": 1363,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     9.0582
+    ],
+    [
+     10,
+     8.1429
+    ],
+    [
+     30,
+     7.5577
+    ],
+    [
+     100,
+     6.9904
+    ],
+    [
+     102,
+     6.9904
+    ],
+    [
+     104,
+     6.9904
+    ]
+   ],
+   "p1": 9.0582,
+   "desc": "-40℃~+85℃ 1.5mV 100dB 10pA 120MHz 17uV/℃ 180V/us 2 35mA 5V~24V 6.6mA 6pA 7nV/√Hz@10kHz Overvoltage protection、ESD protection Rail-to-rail output SOIC-8 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "1.5mV",
+    "Input Offset Current(Ios)": "10pA",
+    "Output Current": "35mA",
+    "Input Offset Voltage Drift(Vos TC)": "17uV/℃",
+    "Single Supply": "5V~24V",
+    "Gain Bandwidth Product": "120MHz",
+    "Slew Rate": "180V/us",
+    "Quiescent Current(Iq)": "6.6mA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Number of Channels": "2",
+    "Noise density(eN)": "7nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "Overvoltage protection、ESD protection",
+    "Ib - Input Bias Current": "6pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8066ARZ-R7_C9647.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8066ARZR7/C9647",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet-input-amplifiers_analog-devices-ad8066arz-r7_C9647.html"
+  },
+  "C9648": {
+   "code": "C9648",
+   "model": "AD8065ARTZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 5013,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     5.602
+    ],
+    [
+     10,
+     4.9599
+    ],
+    [
+     30,
+     4.6332
+    ],
+    [
+     100,
+     4.1942
+    ],
+    [
+     500,
+     4.0365
+    ],
+    [
+     1000,
+     3.9699
+    ]
+   ],
+   "p1": 5.602,
+   "desc": "-40℃~+85℃ 1 1.5mV 100dB 10pA 145MHz 17uV/℃ 180V/us 35mA 5V~24V 6.6mA 6pA 7nV/√Hz@10kHz ESD protection Rail-to-rail output SOT-23-5 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "1.5mV",
+    "Input Offset Current(Ios)": "10pA",
+    "Output Current": "35mA",
+    "Input Offset Voltage Drift(Vos TC)": "17uV/℃",
+    "Single Supply": "5V~24V",
+    "Gain Bandwidth Product": "145MHz",
+    "Slew Rate": "180V/us",
+    "Quiescent Current(Iq)": "6.6mA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Number of Channels": "1",
+    "Noise density(eN)": "7nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "6pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8065ARTZ-REEL7_C9648.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8065ARTZREEL7/C9648",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet-input-amplifiers_analog-devices-ad8065artz-reel7_C9648.html"
+  },
+  "C9674": {
+   "code": "C9674",
+   "model": "AD627ARZ-R7",
+   "brand": "Analog Devices",
+   "stock": 1560,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     7.8259
+    ],
+    [
+     10,
+     6.9627
+    ],
+    [
+     30,
+     6.4506
+    ],
+    [
+     100,
+     5.9321
+    ],
+    [
+     500,
+     5.6915
+    ],
+    [
+     1000,
+     5.5842
+    ]
+   ],
+   "p1": 7.8259,
+   "desc": "-18V~-1.1V、1.1V~18V -40℃~+85℃ 0.03% 0.05V/us 1 100nV/℃ 135us 1nA 1pA/℃ 2.2V~36V 25mA 38nV/√Hz@1kHz 3nA 50uV 5V/V~1000V/V 60uA 80kHz 86dB 90dB External resistor gain Rail-to-rail output SOIC-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage Gain": "5V/V~1000V/V",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "50uV",
+    "Input Offset Current(Ios)": "1nA",
+    "Output Current": "25mA",
+    "Input Offset Voltage Drift(Vos TC)": "100nV/℃",
+    "Single Supply": "2.2V~36V",
+    "Slew Rate": "0.05V/us",
+    "Quiescent Current(Iq)": "60uA",
+    "Power Supply Rejection Ratio (PSRR)": "86dB",
+    "Common Mode Rejection Ratio(CMRR)": "90dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "80kHz",
+    "Number of Channels": "1",
+    "Gain Error": "0.03%",
+    "Settling time": "135us",
+    "Input Voltage Noise Density": "38nV/√Hz@1kHz",
+    "Features": "External resistor gain",
+    "Ib - Input Bias Current": "3nA",
+    "Input Offset Current Drift (Ios TC)": "1pA/℃",
+    "Dual Supply": "-18V~-1.1V、1.1V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD627ARZ-R7_C9674.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD627ARZR7/C9674",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad627arz-r7_C9674.html"
+  },
+  "C9676": {
+   "code": "C9676",
+   "model": "AD623ARZ-R7",
+   "brand": "Analog Devices",
+   "stock": 12554,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     5.7874
+    ],
+    [
+     10,
+     5.1176
+    ],
+    [
+     30,
+     4.6901
+    ],
+    [
+     100,
+     4.2755
+    ],
+    [
+     102,
+     4.2755
+    ],
+    [
+     104,
+     4.2755
+    ]
+   ],
+   "p1": 5.7874,
+   "desc": "-40℃~+85℃ -6V~-2.5V、2.5V~6V 0.3V/us 1 100nV/℃ 12V 200uV 20us 250pA 25nA 35nV/√Hz@1kHz 3V~12V 550uA 5pA/℃ 800kHz 80dB 80dB Rail-to-Rail Output SOIC-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "200uV",
+    "Input Offset Current(Ios)": "250pA",
+    "Input Offset Voltage Drift(Vos TC)": "100nV/℃",
+    "Single Supply": "3V~12V",
+    "Slew Rate": "0.3V/us",
+    "Quiescent Current(Iq)": "550uA",
+    "Power Supply Rejection Ratio (PSRR)": "80dB",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "800kHz",
+    "Number of Channels": "1",
+    "Gain Error": "0.1%",
+    "Settling time": "20us",
+    "Input Voltage Noise Density": "35nV/√Hz@1kHz",
+    "Features": "External resistor gain",
+    "Ib - Input Bias Current": "25nA",
+    "Input Offset Current Drift (Ios TC)": "5pA/℃",
+    "Dual Supply": "-6V~-2.5V、2.5V~6V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810132223_Analog-Devices-AD623ARZ-R7_C9676.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD623ARZR7/C9676",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad623arz-r7_C9676.html"
+  },
+  "C9677": {
+   "code": "C9677",
+   "model": "AD8032ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 5613,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     2.9035
+    ],
+    [
+     10,
+     2.5523
+    ],
+    [
+     30,
+     2.3052
+    ],
+    [
+     100,
+     1.9313
+    ],
+    [
+     500,
+     1.8273
+    ],
+    [
+     1000,
+     1.785
+    ]
+   ],
+   "p1": 2.9035,
+   "desc": "-40℃~+85℃ -5V~6V 10uV/℃ 15mA 15nV/√Hz@1kHz 2 2.7V~12V 2uA 350nA 35V/us 6mV 800uA 80MHz 80dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "6mV",
+    "Input Offset Current(Ios)": "350nA",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "10uV/℃",
+    "Slew Rate": "35V/us",
+    "Gain Bandwidth Product": "80MHz",
+    "Single supply": "2.7V~12V",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "15nV/√Hz@1kHz",
+    "Quiescent Current": "800uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "2uA",
+    "Dual Supply": "-5V~6V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8032ARZ-REEL7_C9677.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8032ARZREEL7/C9677",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_analog-devices-ad8032arz-reel7_C9677.html"
+  },
+  "C9913": {
+   "code": "C9913",
+   "model": "TLV2252AID",
+   "brand": "Texas Instruments",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     3.3538
+    ],
+    [
+     10,
+     2.8449
+    ],
+    [
+     30,
+     2.5426
+    ],
+    [
+     75,
+     2.2369
+    ],
+    [
+     525,
+     2.0955
+    ],
+    [
+     975,
+     2.0321
+    ]
+   ],
+   "p1": 3.3538,
+   "desc": "-40℃~+125℃ 0.1V/us 0.5pA 187kHz 19nV/√Hz@1kHz 1pA 2 2.7V~8V 500nV/℃ 50mA 68uA 75dB 850uV Rail-to-rail output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "850uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Single Supply": "2.7V~8V",
+    "Gain Bandwidth Product": "187kHz",
+    "Slew Rate": "0.1V/us",
+    "Quiescent Current(Iq)": "68uA",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLV2252AID_C9913.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2252AID/C9913",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlv2252aid_C9913.html"
+  },
+  "C9914": {
+   "code": "C9914",
+   "model": "TLV274CPWR",
+   "brand": "Texas Instruments",
+   "stock": 4400,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-14",
+   "prices": [
+    [
+     1,
+     0.9949
+    ],
+    [
+     10,
+     0.8795
+    ],
+    [
+     30,
+     0.7706
+    ],
+    [
+     100,
+     0.6893
+    ],
+    [
+     500,
+     0.6568
+    ],
+    [
+     1000,
+     0.6406
+    ]
+   ],
+   "p1": 0.9949,
+   "desc": "-8V~-1.35V、1.35V~8V 0℃~+70℃ 1pA 1pA 2.4V/us 2.7V~16V 2uV/℃ 39nV/√Hz@1kHz 3MHz 500uV 550uA 65dB 7mA Four channels Rail-to-rail output TSSOP-14 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃",
+    "Vos - Input Offset Voltage": "500uV",
+    "Output Current": "7mA",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "2.7V~16V",
+    "Slew Rate": "2.4V/us",
+    "Gain Bandwidth Product": "3MHz",
+    "Quiescent Current(Iq)": "550uA",
+    "Common Mode Rejection Ratio(CMRR)": "65dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~-1.35V、1.35V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051140_Texas-Instruments-TLV274CPWR_C9914.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV274CPWR/C9914",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlv274cpwr_C9914.html"
+  },
+  "C10020": {
+   "code": "C10020",
+   "model": "LMV7219M5/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 502,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.7121
+    ],
+    [
+     10,
+     0.6487
+    ],
+    [
+     30,
+     0.6178
+    ],
+    [
+     100,
+     0.5853
+    ],
+    [
+     500,
+     0.5674
+    ],
+    [
+     1000,
+     0.5576
+    ]
+   ],
+   "p1": 0.7121,
+   "desc": "-40℃~+85℃ 1 1.3ns 1.8mA 2.7V~5V 20ns 50nA 6mV 7.5mV 85dB 950nA Push-pull Rail-to-Rail Output SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "6mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "50nA",
+    "Single Supply": "2.7V~5V",
+    "Input Hysteresis Voltage (Vhys)": "7.5mV",
+    "Response Time (tr)": "1.3ns",
+    "Common Mode Rejection Ratio(CMRR)": "85dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "1",
+    "Quiescent Current": "1.8mA",
+    "Features": "Built-in hysteresis、Threshold detection",
+    "Ib - Input Bias Current": "950nA",
+    "Propagation Delay Time": "20ns",
+    "Output Mode": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811141238_Texas-Instruments-LMV7219M5-NOPB_C10020.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV7219M5NOPB/C10020",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lmv7219m5-nopb_C10020.html"
+  },
+  "C12086": {
+   "code": "C12086",
+   "model": "AD8237ARMZ-R7",
+   "brand": "Analog Devices",
+   "stock": 2058,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-8",
+   "prices": [
+    [
+     1,
+     7.0846
+    ],
+    [
+     10,
+     6.21
+    ],
+    [
+     30,
+     5.6768
+    ],
+    [
+     100,
+     4.7616
+    ],
+    [
+     102,
+     4.7616
+    ],
+    [
+     104,
+     4.7616
+    ]
+   ],
+   "p1": 7.0846,
+   "desc": "-40℃~+125℃ 0.15V/us 0.5pA/℃ 1 1.8V~5.5V 100dB 130uA 140dB 300nV/℃ 4mA 5.5V 650pA 650pA 68nV/√Hz@1kHz 75uV External resistor gain、Zero drift / auto-zero、EMI filtering/RF suppression Rail-to-Rail Input, Rail-to-Rail Output MSOP-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "75uV",
+    "Input Offset Current(Ios)": "650pA",
+    "Output Current": "4mA",
+    "Input Offset Voltage Drift(Vos TC)": "300nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.15V/us",
+    "Quiescent Current(Iq)": "130uA",
+    "Power Supply Rejection Ratio (PSRR)": "100dB",
+    "Common Mode Rejection Ratio(CMRR)": "140dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "-3dB Bandwidth": "-",
+    "Number of Channels": "1",
+    "Gain Error": "0.005%",
+    "Input Voltage Noise Density": "68nV/√Hz@1kHz",
+    "Features": "External resistor gain、Zero drift / auto-zero、EMI filtering/RF suppression",
+    "Ib - Input Bias Current": "650pA",
+    "Input Offset Current Drift (Ios TC)": "0.5pA/℃"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809191826_Analog-Devices-AD8237ARMZ-R7_C12086.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8237ARMZR7/C12086",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad8237armz-r7_C12086.html"
+  },
+  "C12247": {
+   "code": "C12247",
+   "model": "OPA340UA/2K5",
+   "brand": "Texas Instruments",
+   "stock": 2807,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.6127
+    ],
+    [
+     10,
+     1.3575
+    ],
+    [
+     30,
+     1.1982
+    ],
+    [
+     100,
+     1.0356
+    ],
+    [
+     500,
+     0.9624
+    ],
+    [
+     1000,
+     0.9299
+    ]
+   ],
+   "p1": 1.6127,
+   "desc": "-40℃~+85℃ 0.2pA 0.2pA 1 150uV 2.5uV/℃ 2.7V~5V 25nV/√Hz@1kHz 5.5MHz 50mA 6V/us 750uA 92dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "150uV",
+    "Input Offset Current(Ios)": "0.2pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "2.5uV/℃",
+    "Single Supply": "2.7V~5V",
+    "Slew Rate": "6V/us",
+    "Gain Bandwidth Product": "5.5MHz",
+    "Quiescent Current(Iq)": "750uA",
+    "Common Mode Rejection Ratio(CMRR)": "92dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "25nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "0.2pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-OPA340UA-2K5_C12247.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA340UA2K5/C12247",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa340ua-2k5_C12247.html"
+  },
+  "C12399": {
+   "code": "C12399",
+   "model": "SGM358YS/TR",
+   "brand": "SGMICRO",
+   "stock": 2377,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.3886
+    ],
+    [
+     50,
+     0.2894
+    ],
+    [
+     150,
+     0.2471
+    ],
+    [
+     500,
+     0.1951
+    ],
+    [
+     2500,
+     0.1951
+    ],
+    [
+     4000,
+     0.1951
+    ]
+   ],
+   "p1": 0.3886,
+   "desc": "-2.75V~-1.05V、1.05V~2.75V -40℃~+85℃ 10pA 10pA 1MHz 2 2.1V~5.5V 2.7uV/℃ 27nV/√Hz@1kHz 520V/ms 60uA 70dB 800uV 84mA Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "10pA",
+    "Output Current": "84mA",
+    "Input Offset Voltage Drift(Vos TC)": "2.7uV/℃",
+    "Slew Rate": "520V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.1V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "27nV/√Hz@1kHz",
+    "Quiescent Current": "60uA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "10pA",
+    "Dual Supply": "-2.75V~-1.05V、1.05V~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051511_SGMICRO-SGM358YS-TR_C12399.pdf",
+   "url": "https://jlcpcb.com/partdetail/SGMICRO-SGM358YSTR/C12399",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_sgmicro-sgm358ys-tr_C12399.html"
+  },
+  "C12609": {
+   "code": "C12609",
+   "model": "TLV2221IDBVR",
+   "brand": "Texas Instruments",
+   "stock": 742,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     2.0289
+    ],
+    [
+     10,
+     1.6728
+    ],
+    [
+     30,
+     1.4778
+    ],
+    [
+     100,
+     1.2567
+    ],
+    [
+     500,
+     1.1591
+    ],
+    [
+     1000,
+     1.1152
+    ]
+   ],
+   "p1": 2.0289,
+   "desc": "-40℃~+85℃ 0.5pA 1 100uA 180V/ms 19nV/√Hz@1kHz 1pA 1uV/℃ 2.7V~10V 480kHz 620uV 82dB Rail-to-rail output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "620uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "-",
+    "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+    "Slew Rate": "180V/ms",
+    "Gain Bandwidth Product": "480kHz",
+    "Single supply": "2.7V~10V",
+    "Common Mode Rejection Ratio(CMRR)": "82dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Quiescent Current": "100uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251721_Texas-Instruments-TLV2221IDBVR_C12609.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2221IDBVR/C12609",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlv2221idbvr_C12609.html"
+  },
+  "C12620": {
+   "code": "C12620",
+   "model": "LMC6482AIMX/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 39961,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8-150mil",
+   "prices": [
+    [
+     1,
+     0.6243
+    ],
+    [
+     10,
+     0.517
+    ],
+    [
+     30,
+     0.4422
+    ],
+    [
+     100,
+     0.3805
+    ],
+    [
+     500,
+     0.3609
+    ],
+    [
+     1000,
+     0.3496
+    ]
+   ],
+   "p1": 0.6243,
+   "desc": "-40℃~+85℃ 0.01pA 0.02pA 1.3V/us 1.3mA 1.5MHz 110uV 1uV/℃ 2 30mA 37nV/√Hz@1kHz 3V~15.5V 82dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8-150mil Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "110uV",
+    "Input Offset Current(Ios)": "0.01pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+    "Single Supply": "3V~15.5V",
+    "Slew Rate": "1.3V/us",
+    "Gain Bandwidth Product": "1.5MHz",
+    "Quiescent Current(Iq)": "1.3mA",
+    "Common Mode Rejection Ratio(CMRR)": "82dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "37nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "0.02pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810292110_Texas-Instruments-LMC6482AIMX-NOPB_C12620.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMC6482AIMXNOPB/C12620",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-lmc6482aimx-nopb_C12620.html"
+  },
+  "C13388": {
+   "code": "C13388",
+   "model": "OPA350UA/2K5",
+   "brand": "Texas Instruments",
+   "stock": 4719,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     2.4873
+    ],
+    [
+     10,
+     2.0988
+    ],
+    [
+     30,
+     1.8565
+    ],
+    [
+     100,
+     1.6078
+    ],
+    [
+     500,
+     1.4957
+    ],
+    [
+     1000,
+     1.4485
+    ]
+   ],
+   "p1": 2.4873,
+   "desc": "-40℃~+85℃ 0.5pA 0.5pA 1 150uV 2.7V~5.5V 22V/us 38MHz 40mA 4uV/℃ 5.2mA 7nV/√Hz@10kHz 90dB Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "150uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "40mA",
+    "Input Offset Voltage Drift(Vos TC)": "4uV/℃",
+    "Single Supply": "2.7V~5.5V",
+    "Slew Rate": "22V/us",
+    "Gain Bandwidth Product": "38MHz",
+    "Quiescent Current(Iq)": "5.2mA",
+    "Common Mode Rejection Ratio(CMRR)": "90dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "7nV/√Hz@10kHz",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "0.5pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221823_Texas-Instruments-OPA350UA-2K5_C13388.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA350UA2K5/C13388",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa350ua-2k5_C13388.html"
+  },
+  "C13717": {
+   "code": "C13717",
+   "model": "OPA333AIDR",
+   "brand": "Texas Instruments",
+   "stock": 188,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.9638
+    ],
+    [
+     10,
+     1.7086
+    ],
+    [
+     30,
+     1.5672
+    ],
+    [
+     100,
+     1.3331
+    ],
+    [
+     500,
+     1.2616
+    ],
+    [
+     1000,
+     1.2307
+    ]
+   ],
+   "p1": 1.9638,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 0.16V/us 1 1.8V~5.5V 130dB 140pA 17uA 20nV/℃ 2uV 350kHz 5mA 70pA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero、ESD protection、Built-in compensation、Overvoltage protection、Reverse-phase input protection SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2uV",
+    "Input Offset Current(Ios)": "140pA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "20nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Gain Bandwidth Product": "350kHz",
+    "Quiescent Current(Iq)": "17uA",
+    "Common Mode Rejection Ratio(CMRR)": "130dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Features": "Zero drift / auto-zero、ESD protection、Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "70pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2303021300_Texas-Instruments-OPA333AIDR_C13717.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA333AIDR/C13717",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa333aidr_C13717.html"
+  },
+  "C14899": {
+   "code": "C14899",
+   "model": "TLC2254AIPWR",
+   "brand": "Texas Instruments",
+   "stock": 4600,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-14",
+   "prices": [
+    [
+     1,
+     2.736
+    ],
+    [
+     10,
+     2.3556
+    ],
+    [
+     30,
+     2.1166
+    ],
+    [
+     100,
+     1.8728
+    ],
+    [
+     500,
+     1.7639
+    ],
+    [
+     1000,
+     1.7151
+    ]
+   ],
+   "p1": 2.736,
+   "desc": "-40℃~+125℃ -8V~-2.2V、2.2V~8V 120V/ms 160uA 19nV/√Hz@1kHz 1pA 210kHz 4 500nV/℃ 50mA 83dB 850uV Rail-to-rail output TSSOP-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "850uV",
+    "Input Offset Current(Ios)": "-",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Slew Rate": "120V/ms",
+    "Gain Bandwidth Product": "210kHz",
+    "Single supply": "-",
+    "Common Mode Rejection Ratio(CMRR)": "83dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "4",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Quiescent Current": "160uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~-2.2V、2.2V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLC2254AIPWR_C14899.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2254AIPWR/C14899",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc2254aipwr_C14899.html"
+  },
+  "C14937": {
+   "code": "C14937",
+   "model": "AD8603AUJZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 7994,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSOT-23-5",
+   "prices": [
+    [
+     1,
+     1.785
+    ],
+    [
+     10,
+     1.5298
+    ],
+    [
+     30,
+     1.3688
+    ],
+    [
+     100,
+     1.2047
+    ],
+    [
+     500,
+     1.073
+    ],
+    [
+     1000,
+     1.0405
+    ]
+   ],
+   "p1": 1.785,
+   "desc": "-2.5V~-900mV、900mV~2.5V -40℃~+125℃ 0.1V/us 0.2pA 0.5pA 1 1.8V~5V 100dB 1uV/℃ 22nV/√Hz@10kHz 400kHz 50uA 50uV 70mA Built-in compensation、Overvoltage protection、Reverse-phase input protection Rail-to-Rail Input, Rail-to-Rail Output TSOT-23-5 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "50uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "70mA",
+    "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+    "Single Supply": "1.8V~5V",
+    "Slew Rate": "0.1V/us",
+    "Gain Bandwidth Product": "400kHz",
+    "Quiescent Current(Iq)": "50uA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "22nV/√Hz@10kHz",
+    "Features": "Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "0.2pA",
+    "Dual Supply": "-2.5V~-900mV、900mV~2.5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8603AUJZ-REEL7_C14937.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8603AUJZREEL7/C14937",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8603aujz-reel7_C14937.html"
+  },
+  "C15815": {
+   "code": "C15815",
+   "model": "TLC2252CDR",
+   "brand": "Texas Instruments",
+   "stock": 4934,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-8",
+   "prices": [
+    [
+     1,
+     0.7479
+    ],
+    [
+     10,
+     0.608
+    ],
+    [
+     30,
+     0.5365
+    ],
+    [
+     100,
+     0.4682
+    ],
+    [
+     500,
+     0.426
+    ],
+    [
+     1000,
+     0.4048
+    ]
+   ],
+   "p1": 0.7479,
+   "desc": "-8V~-2.2V、2.2V~8V 0℃~+70℃ 1.5mV 120V/ms 19nV/√Hz@1kHz 1pA 2 210kHz 500nV/℃ 50mA 60pA 70uA 83dB Rail-to-rail output SOP-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃",
+    "Vos - Input Offset Voltage": "1.5mV",
+    "Input Offset Current(Ios)": "60pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Slew Rate": "120V/ms",
+    "Gain Bandwidth Product": "210kHz",
+    "Single supply": "-",
+    "Common Mode Rejection Ratio(CMRR)": "83dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Quiescent Current": "70uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~-2.2V、2.2V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051224_Texas-Instruments-TLC2252CDR_C15815.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2252CDR/C15815",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc2252cdr_C15815.html"
+  },
+  "C16092": {
+   "code": "C16092",
+   "model": "THS4521IDR",
+   "brand": "Texas Instruments",
+   "stock": 8554,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.7493
+    ],
+    [
+     10,
+     1.4794
+    ],
+    [
+     30,
+     1.3103
+    ],
+    [
+     100,
+     1.138
+    ],
+    [
+     500,
+     1.06
+    ],
+    [
+     1000,
+     1.0258
+    ]
+   ],
+   "p1": 1.7493,
+   "desc": "-2.75V~-1.25V、1.25V~2.75V -40℃~+85℃ 1 1.14mA 100dB 100dB 13ns 2.5V~5.5V 200uV 215nA 2uV/℃ 4.6nV/√Hz@100kHz 490V/us 5.5V 55mA 600pA/℃ 700nA 95MHz Differential Enable/shutdown function、Single-ended to differential conversion、Integrated ADC driver、Adjustable output common-mode voltage Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Differential Amplifiers ROHS",
+   "cat": "Differential Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Quiescent Current per Amplifier": "1.14mA",
+    "Vos - Input Offset Voltage": "200uV",
+    "Output Type": "Differential",
+    "Input Offset Current(Ios)": "215nA",
+    "Output Current": "55mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "2.5V~5.5V",
+    "Slew Rate": "490V/us",
+    "Gain Bandwidth Product": "95MHz",
+    "Power Supply Rejection Ratio (PSRR)": "100dB",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Noise density(eN)": "4.6nV/√Hz@100kHz",
+    "Settling time": "13ns",
+    "Maximum Power Supply Range (Vdd-Vss)": "5.5V",
+    "Features": "Enable/shutdown function、Single-ended to differential conversion、Integrated ADC driver、Adjustable output common-mode voltage",
+    "Ib - Input Bias Current": "700nA",
+    "Input Offset Current Drift (Ios TC)": "600pA/℃",
+    "Dual Supply": "-2.75V~-1.25V、1.25V~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181624_Texas-Instruments-THS4521IDR_C16092.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-THS4521IDR/C16092",
+   "lcsc_url": "https://www.lcsc.com/product-detail/differential-amplifiers_texas-instruments-ths4521idr_C16092.html"
+  },
+  "C16279": {
+   "code": "C16279",
+   "model": "MCP607-I/SN",
+   "brand": "Microchip Tech",
+   "stock": 31,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.7704
+    ],
+    [
+     10,
+     1.507
+    ],
+    [
+     30,
+     1.3412
+    ],
+    [
+     100,
+     1.1721
+    ],
+    [
+     500,
+     1.0957
+    ],
+    [
+     1000,
+     1.0632
+    ]
+   ],
+   "p1": 1.7704,
+   "desc": "-40℃~+85℃ 1.8uV/℃ 155kHz 18.7uA 1pA 1pA 2 2.5V~6V 250uV 38nV/√Hz@1kHz 7mA 80V/ms 93dB Built-in compensation、ESD protection Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "250uV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "7mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.8uV/℃",
+    "Slew Rate": "80V/ms",
+    "Gain Bandwidth Product": "155kHz",
+    "Single supply": "2.5V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "93dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "38nV/√Hz@1kHz",
+    "Quiescent Current": "18.7uA",
+    "Features": "Built-in compensation、ESD protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP607-I-SN_C16279.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP607_ISN/C16279",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp607-i-sn_C16279.html"
+  },
+  "C16811": {
+   "code": "C16811",
+   "model": "TLV2252AIDR",
+   "brand": "Texas Instruments",
+   "stock": 3718,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8-150mil",
+   "prices": [
+    [
+     1,
+     1.3981
+    ],
+    [
+     10,
+     1.1608
+    ],
+    [
+     30,
+     1.0291
+    ],
+    [
+     100,
+     0.8161
+    ],
+    [
+     500,
+     0.7511
+    ],
+    [
+     1000,
+     0.7202
+    ]
+   ],
+   "p1": 1.3981,
+   "desc": "-40℃~+125℃ 0.1V/us 0.5pA 187kHz 19nV/√Hz@1kHz 1pA 2 2.7V~8V 500nV/℃ 50mA 68uA 75dB 850uV Rail-to-rail output SOIC-8-150mil Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "850uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Single Supply": "2.7V~8V",
+    "Gain Bandwidth Product": "187kHz",
+    "Slew Rate": "0.1V/us",
+    "Quiescent Current(Iq)": "68uA",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809281617_Texas-Instruments-TLV2252AIDR_C16811.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2252AIDR/C16811",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlv2252aidr_C16811.html"
+  },
+  "C17161": {
+   "code": "C17161",
+   "model": "AD8031ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 213,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     6.1954
+    ],
+    [
+     10,
+     5.4183
+    ],
+    [
+     30,
+     4.9437
+    ],
+    [
+     100,
+     4.1227
+    ],
+    [
+     102,
+     4.1227
+    ],
+    [
+     104,
+     4.1227
+    ]
+   ],
+   "p1": 6.1954,
+   "desc": "-40℃~+85℃ -6V~-1.35V、1.35V~6V 1 10uV/℃ 15mA 15nV/√Hz@1kHz 1mV 2.7V~12V 30V/us 350nA 450nA 70dB 800uA 80MHz Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "1mV",
+    "Input Offset Current(Ios)": "350nA",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "10uV/℃",
+    "Slew Rate": "30V/us",
+    "Gain Bandwidth Product": "80MHz",
+    "Single supply": "2.7V~12V",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "15nV/√Hz@1kHz",
+    "Quiescent Current": "800uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "450nA",
+    "Dual Supply": "-6V~-1.35V、1.35V~6V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8031ARZ-REEL7_C17161.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8031ARZREEL7/C17161",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_analog-devices-ad8031arz-reel7_C17161.html"
+  },
+  "C17271": {
+   "code": "C17271",
+   "model": "OPA2188AIDR",
+   "brand": "Texas Instruments",
+   "stock": 7211,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.1835
+    ],
+    [
+     10,
+     1.0242
+    ],
+    [
+     30,
+     0.8747
+    ],
+    [
+     100,
+     0.7625
+    ],
+    [
+     500,
+     0.717
+    ],
+    [
+     1000,
+     0.6942
+    ]
+   ],
+   "p1": 1.1835,
+   "desc": "-18V~-2V、2V~18V -40℃~+105℃ 0.8V/us 1.7nA 146dB 160pA 18mA 2 2MHz 30nV/℃ 475uA 4V~36V 6uV 8.8nV/√Hz@1kHz EMI filtering/RF suppression、Zero drift / auto-zero、Reverse-phase input protection Rail-to-rail output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+105℃",
+    "Vos - Input Offset Voltage": "6uV",
+    "Input Offset Current(Ios)": "1.7nA",
+    "Output Current": "18mA",
+    "Input Offset Voltage Drift(Vos TC)": "30nV/℃",
+    "Single Supply": "4V~36V",
+    "Slew Rate": "0.8V/us",
+    "Gain Bandwidth Product": "2MHz",
+    "Quiescent Current(Iq)": "475uA",
+    "Common Mode Rejection Ratio(CMRR)": "146dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "8.8nV/√Hz@1kHz",
+    "Features": "EMI filtering/RF suppression、Zero drift / auto-zero、Reverse-phase input protection",
+    "Ib - Input Bias Current": "160pA",
+    "Dual Supply": "-18V~-2V、2V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181623_Texas-Instruments-OPA2188AIDR_C17271.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA2188AIDR/C17271",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa2188aidr_C17271.html"
+  },
+  "C18073": {
+   "code": "C18073",
+   "model": "AD822BRZ-REEL",
+   "brand": "Analog Devices",
+   "stock": 1,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     8.1738
+    ],
+    [
+     10,
+     7.0294
+    ],
+    [
+     30,
+     6.332
+    ],
+    [
+     100,
+     5.7467
+    ],
+    [
+     102,
+     5.7467
+    ],
+    [
+     104,
+     5.7467
+    ]
+   ],
+   "p1": 8.1738,
+   "desc": "-15V~-2.5V、2.5V~15V -40℃~+85℃ 1.8MHz 10pA 13nV/√Hz@10kHz 15mA 2 25pA 2uV/℃ 30V 3V/us 5V~30V 800uA 800uV 80dB Rail-to-Rail Output SOIC-8 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "10pA",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "5V~30V",
+    "Gain Bandwidth Product": "1.8MHz",
+    "Slew Rate": "3V/us",
+    "Quiescent Current(Iq)": "800uA",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Number of Channels": "2",
+    "Noise density(eN)": "13nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "Short-Circuit  Protection、High capacitive load driving",
+    "Ib - Input Bias Current": "25pA",
+    "Dual Supply": "-15V~-2.5V、2.5V~15V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD822BRZ-REEL_C18073.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD822BRZREEL/C18073",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet-input-amplifiers_analog-devices-ad822brz-reel_C18073.html"
+  },
+  "C18530": {
+   "code": "C18530",
+   "model": "TLV2324IDR",
+   "brand": "Texas Instruments",
+   "stock": 170,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     2.4759
+    ],
+    [
+     10,
+     2.1248
+    ],
+    [
+     30,
+     1.9037
+    ],
+    [
+     100,
+     1.6777
+    ],
+    [
+     500,
+     1.5753
+    ],
+    [
+     1000,
+     1.5314
+    ]
+   ],
+   "p1": 2.4759,
+   "desc": "-40℃~+85℃ 0.1pA 0.6pA 1.1mV 1uV/℃ 24uA 2V~8V 30V/ms 4 68nV/√Hz@1kHz 85kHz 88dB ESD protection Rail-to-rail input SOIC-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "1.1mV",
+    "Input Offset Current(Ios)": "0.1pA",
+    "Output Current": "-",
+    "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+    "Slew Rate": "30V/ms",
+    "Gain Bandwidth Product": "85kHz",
+    "Single supply": "2V~8V",
+    "Common Mode Rejection Ratio(CMRR)": "88dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "4",
+    "Input Voltage Noise Density": "68nV/√Hz@1kHz",
+    "Quiescent Current": "24uA",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "0.6pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809131548_Texas-Instruments-TLV2324IDR_C18530.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2324IDR/C18530",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlv2324idr_C18530.html"
+  },
+  "C18567": {
+   "code": "C18567",
+   "model": "MAX9142ESA+T",
+   "brand": "Analog Devices Inc./Maxim Integrated",
+   "stock": 60,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     3.0189
+    ],
+    [
+     10,
+     2.5848
+    ],
+    [
+     30,
+     2.3117
+    ],
+    [
+     100,
+     1.8891
+    ],
+    [
+     500,
+     1.7623
+    ],
+    [
+     1000,
+     1.7086
+    ]
+   ],
+   "p1": 3.0189,
+   "desc": "-40℃~+85℃ 1.5mV 120nA 150uA 2 2.7V~5.5V 40ns 500uV 90nA Built-in hysteresis Push-pull Rail-to-rail input TTL、CMOS SOIC-8 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "500uV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "120nA",
+    "Single Supply": "2.7V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "1.5mV",
+    "Common Mode Rejection Ratio(CMRR)": "-",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "2",
+    "Quiescent Current": "150uA",
+    "Features": "Built-in hysteresis",
+    "Ib - Input Bias Current": "90nA",
+    "Propagation Delay Time": "40ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809250905_Analog-Devices-Inc--Maxim-Integrated-MAX9142ESA-T_C18567.pdf",
+   "url": "https://jlcpcb.com/partdetail/19269-MAX9142ESAT/C18567",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_analog-devices-inc-maxim-integrated-max9142esa-t_C18567.html"
+  },
+  "C18611": {
+   "code": "C18611",
+   "model": "AD8276ARMZ-R7",
+   "brand": "Analog Devices",
+   "stock": 35,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-8",
+   "prices": [
+    [
+     1,
+     6.0426
+    ],
+    [
+     10,
+     5.2135
+    ],
+    [
+     30,
+     4.7209
+    ],
+    [
+     100,
+     3.6122
+    ],
+    [
+     500,
+     3.383
+    ],
+    [
+     1000,
+     3.279
+    ]
+   ],
+   "p1": 6.0426,
+   "desc": "-18V~-2V、2V~18V -40℃~+85℃ 1 1.1V/us 15mA 15us 200uV 220uA 2uV/℃ 36V 36V 550kHz 65nV/√Hz@1kHz 86dB Rail-to-rail output Single-Ended Single-ended to differential conversion、Capacitive load driving、Integrated precision resistor network、Current limiting / short-circuit protection、Overvoltage protection MSOP-8 Differential Amplifiers ROHS",
+   "cat": "Differential Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Quiescent Current per Amplifier": "220uA",
+    "Output Type": "Single-Ended",
+    "Vos - Input Offset Voltage": "200uV",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "36V",
+    "Slew Rate": "1.1V/us",
+    "Gain Bandwidth Product": "550kHz",
+    "Common Mode Rejection Ratio(CMRR)": "86dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "1",
+    "Settling time": "15us",
+    "Noise density(eN)": "65nV/√Hz@1kHz",
+    "Maximum Power Supply Range (Vdd-Vss)": "36V",
+    "Features": "Single-ended to differential conversion、Capacitive load driving、Integrated precision resistor network、Current limiting / short-circuit protection、Overvoltage protection",
+    "Ib - Input Bias Current": "-",
+    "Dual Supply": "-18V~-2V、2V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291631_Analog-Devices-AD8276ARMZ-R7_C18611.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8276ARMZR7/C18611",
+   "lcsc_url": "https://www.lcsc.com/product-detail/differential-amplifiers_analog-devices-ad8276armz-r7_C18611.html"
+  },
+  "C19139": {
+   "code": "C19139",
+   "model": "TLC2272IDR",
+   "brand": "Texas Instruments",
+   "stock": 7390,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.5707
+    ],
+    [
+     10,
+     0.4471
+    ],
+    [
+     30,
+     0.3951
+    ],
+    [
+     100,
+     0.3284
+    ],
+    [
+     500,
+     0.2764
+    ],
+    [
+     1000,
+     0.2585
+    ]
+   ],
+   "p1": 0.5707,
+   "desc": "-40℃~+125℃ -8V~8V 0.5pA 1pA 2 2.25MHz 2uV/℃ 3.6V/us 3mA 50mA 75dB 950uV 9nV/√Hz@1kHz Rail-to-rail output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "950uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "-",
+    "Slew Rate": "3.6V/us",
+    "Gain Bandwidth Product": "2.25MHz",
+    "Quiescent Current(Iq)": "3mA",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "9nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181623_Texas-Instruments-TLC2272IDR_C19139.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2272IDR/C19139",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlc2272idr_C19139.html"
+  },
+  "C19250": {
+   "code": "C19250",
+   "model": "MCP6042T-I/SN",
+   "brand": "Microchip Tech",
+   "stock": 20699,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.7869
+    ],
+    [
+     10,
+     0.6357
+    ],
+    [
+     30,
+     0.5609
+    ],
+    [
+     100,
+     0.4861
+    ],
+    [
+     500,
+     0.4406
+    ],
+    [
+     1000,
+     0.4178
+    ]
+   ],
+   "p1": 0.7869,
+   "desc": "-40℃~+85℃ 1.4V~6V 14kHz 170nV/√Hz@1kHz 1pA 1pA 2 20mA 2uV/℃ 3V/ms 3mV 600nA 80dB Built-in compensation、ESD protection Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "3mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "20mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "3V/ms",
+    "Gain Bandwidth Product": "14kHz",
+    "Single supply": "1.4V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "170nV/√Hz@1kHz",
+    "Quiescent Current": "600nA",
+    "Features": "Built-in compensation、ESD protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809101521_Microchip-Tech-MCP6042T-I-SN_C19250.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6042T_ISN/C19250",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6042t-i-sn_C19250.html"
+  },
+  "C19450": {
+   "code": "C19450",
+   "model": "INA333AIDGKR",
+   "brand": "Texas Instruments",
+   "stock": 11312,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-8",
+   "prices": [
+    [
+     1,
+     1.4322
+    ],
+    [
+     10,
+     1.2746
+    ],
+    [
+     30,
+     1.125
+    ],
+    [
+     100,
+     0.9673
+    ],
+    [
+     500,
+     0.9218
+    ],
+    [
+     1000,
+     0.9007
+    ]
+   ],
+   "p1": 1.4322,
+   "desc": "-40℃~+125℃ 0.16V/us 1 1.8V~5.5V 100dB 100nV/℃ 200pA 200pA 25uV 5.5V 50nV/√Hz@1kHz 50uA Rail-to-Rail Output MSOP-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "25uV",
+    "Input Offset Current(Ios)": "200pA",
+    "Input Offset Voltage Drift(Vos TC)": "100nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Quiescent Current(Iq)": "50uA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "1",
+    "Gain Error": "0.5%",
+    "Input Voltage Noise Density": "50nV/√Hz@1kHz",
+    "Features": "External resistor gain、Zero drift / auto-zero、EMI filtering/RF suppression",
+    "Ib - Input Bias Current": "200pA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251214_Texas-Instruments-INA333AIDGKR_C19450.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-INA333AIDGKR/C19450",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_texas-instruments-ina333aidgkr_C19450.html"
+  },
+  "C19608": {
+   "code": "C19608",
+   "model": "OPA2333AIDGKR",
+   "brand": "Texas Instruments",
+   "stock": 2176,
+   "type": "expand",
+   "pref": false,
+   "pkg": "VSSOP-8",
+   "prices": [
+    [
+     1,
+     2.5718
+    ],
+    [
+     10,
+     2.2776
+    ],
+    [
+     30,
+     2.0939
+    ],
+    [
+     100,
+     1.8094
+    ],
+    [
+     500,
+     1.7249
+    ],
+    [
+     1000,
+     1.6875
+    ]
+   ],
+   "p1": 2.5718,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 0.16V/us 1.8V~5.5V 106dB 17uA 2 20nV/℃ 2uV 350kHz 400pA 5mA 70pA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero、ESD protection、Built-in compensation、Overvoltage protection、Reverse-phase input protection VSSOP-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2uV",
+    "Input Offset Current(Ios)": "400pA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "20nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Gain Bandwidth Product": "350kHz",
+    "Quiescent Current(Iq)": "17uA",
+    "Common Mode Rejection Ratio(CMRR)": "106dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "-",
+    "Features": "Zero drift / auto-zero、ESD protection、Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "70pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192211_Texas-Instruments-OPA2333AIDGKR_C19608.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA2333AIDGKR/C19608",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa2333aidgkr_C19608.html"
+  },
+  "C19968": {
+   "code": "C19968",
+   "model": "SGM8521XN5/TR",
+   "brand": "SGMICRO",
+   "stock": 4402,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.7852
+    ],
+    [
+     10,
+     0.6032
+    ],
+    [
+     30,
+     0.5121
+    ],
+    [
+     100,
+     0.4227
+    ],
+    [
+     500,
+     0.4227
+    ],
+    [
+     1000,
+     0.4227
+    ]
+   ],
+   "p1": 0.7852,
+   "desc": "-2.75V~-1.25V、1.25V~2.75V -40℃~+125℃ 0.5pA 0.5pA 1 1.7uV/℃ 150kHz 2.1V~5.5V 22mA 4.7uA 40V/ms 40nV/√Hz@1kHz 800uV 91dB Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "22mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.7uV/℃",
+    "Slew Rate": "40V/ms",
+    "Gain Bandwidth Product": "150kHz",
+    "Single supply": "2.1V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "91dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "40nV/√Hz@1kHz",
+    "Quiescent Current": "4.7uA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "0.5pA",
+    "Dual Supply": "-2.75V~-1.25V、1.25V~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051510_SGMICRO-SGM8521XN5-TR_C19968.pdf",
+   "url": "https://jlcpcb.com/partdetail/SGMICRO-SGM8521XN5TR/C19968",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_sgmicro-sgm8521xn5-tr_C19968.html"
+  },
+  "C21127": {
+   "code": "C21127",
+   "model": "OPA4330AIDR",
+   "brand": "Texas Instruments",
+   "stock": 66,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     4.152
+    ],
+    [
+     10,
+     3.5911
+    ],
+    [
+     30,
+     3.2579
+    ],
+    [
+     100,
+     2.9197
+    ],
+    [
+     500,
+     2.7637
+    ],
+    [
+     1000,
+     2.6938
+    ]
+   ],
+   "p1": 4.152,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 0.16V/us 1.8V~5.5V 115dB 200pA 250nV/℃ 350kHz 35uA 55nV/√Hz@1kHz 5mA 600pA 8uV EMI filtering/RF suppression、Zero drift / auto-zero Four channels Rail-to-Rail Input, Rail-to-Rail Output SOIC-14 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "8uV",
+    "Input Offset Current(Ios)": "600pA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "250nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Gain Bandwidth Product": "350kHz",
+    "Quiescent Current(Iq)": "35uA",
+    "Common Mode Rejection Ratio(CMRR)": "115dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "55nV/√Hz@1kHz",
+    "Features": "EMI filtering/RF suppression、Zero drift / auto-zero",
+    "Ib - Input Bias Current": "200pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051223_Texas-Instruments-OPA4330AIDR_C21127.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA4330AIDR/C21127",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa4330aidr_C21127.html"
+  },
+  "C21403": {
+   "code": "C21403",
+   "model": "MCP6001UT-I/OT",
+   "brand": "Microchip Tech",
+   "stock": 4669,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.3946
+    ],
+    [
+     50,
+     0.3175
+    ],
+    [
+     150,
+     0.2845
+    ],
+    [
+     500,
+     0.2434
+    ],
+    [
+     3000,
+     0.202
+    ],
+    [
+     6000,
+     0.1909
+    ]
+   ],
+   "p1": 0.3946,
+   "desc": "-40℃~+85℃ 1 1.8V~5.5V 100uA 1MHz 1pA 1pA 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 76dB Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "4.5mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "600V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "1.8V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "76dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "28nV/√Hz@1kHz",
+    "Quiescent Current": "100uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192131_Microchip-Tech-MCP6001UT-I-OT_C21403.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6001UT_IOT/C21403",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6001ut-i-ot_C21403.html"
+  },
+  "C23467": {
+   "code": "C23467",
+   "model": "AD8572ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 3914,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8-150mil",
+   "prices": [
+    [
+     1,
+     5.7093
+    ],
+    [
+     10,
+     5.0396
+    ],
+    [
+     30,
+     4.2983
+    ],
+    [
+     100,
+     3.8951
+    ],
+    [
+     500,
+     3.7098
+    ],
+    [
+     1000,
+     3.6269
+    ]
+   ],
+   "p1": 5.7093,
+   "desc": "-40℃~+125℃ 0.4V/us 1.5MHz 140dB 150pA 160pA 1uV 2 2.7V~5V 30mA 51nV/√Hz@1kHz 5nV/℃ 750uA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero SOIC-8-150mil Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1uV",
+    "Input Offset Current(Ios)": "150pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "5nV/℃",
+    "Single Supply": "2.7V~5V",
+    "Slew Rate": "0.4V/us",
+    "Gain Bandwidth Product": "1.5MHz",
+    "Quiescent Current(Iq)": "750uA",
+    "Common Mode Rejection Ratio(CMRR)": "140dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "51nV/√Hz@1kHz",
+    "Features": "Zero drift / auto-zero",
+    "Ib - Input Bias Current": "160pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809171810_Analog-Devices-AD8572ARZ-REEL7_C23467.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8572ARZREEL7/C23467",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8572arz-reel7_C23467.html"
+  },
+  "C23487": {
+   "code": "C23487",
+   "model": "AD8629ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 1557,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SO-8",
+   "prices": [
+    [
+     1,
+     5.0103
+    ],
+    [
+     10,
+     4.3747
+    ],
+    [
+     30,
+     3.9975
+    ],
+    [
+     100,
+     3.6171
+    ],
+    [
+     500,
+     3.4416
+    ],
+    [
+     1000,
+     3.3619
+    ]
+   ],
+   "p1": 5.0103,
+   "desc": "-2.5V~-1.35V、1.35V~2.5V -40℃~+125℃ 1 140dB 1V/us 1uV 2.5MHz 2.7V~5V 200pA 22nV/√Hz@1kHz 2nV/℃ 30mA 30pA 850uA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero、Built-in compensation SO-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1uV",
+    "Input Offset Current(Ios)": "200pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "2nV/℃",
+    "Single Supply": "2.7V~5V",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "2.5MHz",
+    "Quiescent Current(Iq)": "850uA",
+    "Common Mode Rejection Ratio(CMRR)": "140dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "22nV/√Hz@1kHz",
+    "Features": "Zero drift / auto-zero、Built-in compensation",
+    "Ib - Input Bias Current": "30pA",
+    "Dual Supply": "-2.5V~-1.35V、1.35V~2.5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291113_Analog-Devices-AD8629ARZ-REEL7_C23487.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8629ARZREEL7/C23487",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8629arz-reel7_C23487.html"
+  },
+  "C23919": {
+   "code": "C23919",
+   "model": "TLV272IDGKR",
+   "brand": "Texas Instruments",
+   "stock": 3621,
+   "type": "expand",
+   "pref": false,
+   "pkg": "VSSOP-8",
+   "prices": [
+    [
+     1,
+     1.0714
+    ],
+    [
+     10,
+     0.8795
+    ],
+    [
+     30,
+     0.7836
+    ],
+    [
+     100,
+     0.6877
+    ],
+    [
+     500,
+     0.6032
+    ],
+    [
+     1000,
+     0.5723
+    ]
+   ],
+   "p1": 1.0714,
+   "desc": "-40℃~+125℃ -8V~-1.35V、1.35V~8V 1pA 2 2.4V/us 2.7V~16V 2uV/℃ 39nV/√Hz@1kHz 3MHz 500uV 550uA 60pA 70dB 7mA Rail-to-rail output VSSOP-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "500uV",
+    "Output Current": "7mA",
+    "Input Offset Current(Ios)": "60pA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "2.7V~16V",
+    "Slew Rate": "2.4V/us",
+    "Gain Bandwidth Product": "3MHz",
+    "Quiescent Current(Iq)": "550uA",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~-1.35V、1.35V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810261711_Texas-Instruments-TLV272IDGKR_C23919.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV272IDGKR/C23919",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlv272idgkr_C23919.html"
+  },
+  "C26360": {
+   "code": "C26360",
+   "model": "AD8606ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 3273,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     6.753
+    ],
+    [
+     10,
+     5.9125
+    ],
+    [
+     30,
+     5.4151
+    ],
+    [
+     100,
+     4.9095
+    ],
+    [
+     500,
+     4.6771
+    ],
+    [
+     1000,
+     4.573
+    ]
+   ],
+   "p1": 6.753,
+   "desc": "-40℃~+125℃ 0.5pA 1.2mA 100dB 10MHz 1pA 2 2.7V~5.5V 300uV 4.5uV/℃ 5V/us 80mA 8nV/√Hz@1kHz Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "300uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "80mA",
+    "Input Offset Voltage Drift(Vos TC)": "4.5uV/℃",
+    "Single Supply": "2.7V~5.5V",
+    "Slew Rate": "5V/us",
+    "Gain Bandwidth Product": "10MHz",
+    "Quiescent Current(Iq)": "1.2mA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "8nV/√Hz@1kHz",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8606ARZ-REEL7_C26360.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8606ARZREEL7/C26360",
+   "lcsc_url": "https://www.lcsc.com/product-detail/low-noise-amplifiers-lna-rf_analog-devices-ad8606arz-reel7_C26360.html"
+  },
+  "C27204": {
+   "code": "C27204",
+   "model": "TLV2372IDR",
+   "brand": "Texas Instruments",
+   "stock": 29941,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.3475
+    ],
+    [
+     50,
+     0.2709
+    ],
+    [
+     150,
+     0.2335
+    ],
+    [
+     500,
+     0.2002
+    ],
+    [
+     2500,
+     0.1911
+    ],
+    [
+     5000,
+     0.1855
+    ]
+   ],
+   "p1": 0.3475,
+   "desc": "-40℃~+125℃ -8V~-1.35V、1.35V~8V 1pA 1pA 2 2.4V/us 2.7V~16V 2uV/℃ 39nV/√Hz@1kHz 3MHz 500uV 550uA 70dB 7mA Enable/shutdown function、Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "500uV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "7mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "2.4V/us",
+    "Gain Bandwidth Product": "3MHz",
+    "Single supply": "2.7V~16V",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Quiescent Current": "550uA",
+    "Features": "Enable/shutdown function、Built-in compensation",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~-1.35V、1.35V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181614_Texas-Instruments-TLV2372IDR_C27204.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2372IDR/C27204",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlv2372idr_C27204.html"
+  },
+  "C28133": {
+   "code": "C28133",
+   "model": "AD8662ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 246,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     3.8854
+    ],
+    [
+     10,
+     3.3408
+    ],
+    [
+     30,
+     3.0173
+    ],
+    [
+     100,
+     2.5019
+    ],
+    [
+     500,
+     2.3507
+    ],
+    [
+     1000,
+     2.2825
+    ]
+   ],
+   "p1": 3.8854,
+   "desc": "-40℃~+125℃ 0.2pA 0.3pA 1.15mA 100dB 12nV/√Hz@1kHz 19mA 2 2uV/℃ 3.5V/us 30uV 4MHz 5V~16V Built-in compensation、ESD protection Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "30uV",
+    "Input Offset Current(Ios)": "0.2pA",
+    "Output Current": "19mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "3.5V/us",
+    "Gain Bandwidth Product": "4MHz",
+    "Single supply": "5V~16V",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "12nV/√Hz@1kHz",
+    "Quiescent Current": "1.15mA",
+    "Features": "Built-in compensation、ESD protection",
+    "Ib - Input Bias Current": "0.3pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011912_Analog-Devices-AD8662ARZ-REEL7_C28133.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8662ARZREEL7/C28133",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8662arz-reel7_C28133.html"
+  },
+  "C28437": {
+   "code": "C28437",
+   "model": "SGM321YN5/TR",
+   "brand": "SGMICRO",
+   "stock": 12944,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.2582
+    ],
+    [
+     50,
+     0.1927
+    ],
+    [
+     150,
+     0.1647
+    ],
+    [
+     500,
+     0.1298
+    ],
+    [
+     3000,
+     0.1298
+    ],
+    [
+     6000,
+     0.1298
+    ]
+   ],
+   "p1": 0.2582,
+   "desc": "-2.75V~-1.25V、1.25V~2.75V -40℃~+85℃ 1 10pA 10pA 1MHz 2.1V~5.5V 2.7uV/℃ 23mA 27nV/√Hz@1kHz 520V/ms 60uA 70dB 800uV Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "10pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "2.7uV/℃",
+    "Slew Rate": "520V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.1V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "27nV/√Hz@1kHz",
+    "Quiescent Current": "60uA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "10pA",
+    "Dual Supply": "-2.75V~-1.25V、1.25V~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SGMICRO-SGM321YN5-TR_C28437.pdf",
+   "url": "https://jlcpcb.com/partdetail/SGMICRO-SGM321YN5TR/C28437",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_sgmicro-sgm321yn5-tr_C28437.html"
+  },
+  "C28910": {
+   "code": "C28910",
+   "model": "MCP6547-I/SN",
+   "brand": "Microchip Tech",
+   "stock": 8,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-8",
+   "prices": [
+    [
+     1,
+     1.5721
+    ],
+    [
+     10,
+     1.312
+    ],
+    [
+     30,
+     1.1689
+    ],
+    [
+     100,
+     1.0063
+    ],
+    [
+     500,
+     0.9348
+    ],
+    [
+     1000,
+     0.9023
+    ]
+   ],
+   "p1": 1.5721,
+   "desc": "-40℃~+125℃ 0.7us 1.5mV 1.6V~5.5V 1pA 1pA 2 3.3mV 3uV/℃ 4us 600nA 70dB Built-in hysteresis CMOS Open-drain Rail-to-rail input SOP-8 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1.5mV",
+    "Output Type": "Open-drain",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "3uV/℃",
+    "Single Supply": "1.6V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "3.3mV",
+    "Response Time (tr)": "0.7us",
+    "Common Mode Rejection Ratio(CMRR)": "70dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "2",
+    "Quiescent Current": "600nA",
+    "Features": "Built-in hysteresis",
+    "Ib - Input Bias Current": "1pA",
+    "Propagation Delay Time": "4us",
+    "Output Mode": "CMOS"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212281030_Microchip-Tech-MCP6547-I-SN_C28910.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6547_ISN/C28910",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_microchip-tech-mcp6547-i-sn_C28910.html"
+  },
+  "C29309": {
+   "code": "C29309",
+   "model": "AD8628ARTZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 27499,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     3.4968
+    ],
+    [
+     10,
+     3.0807
+    ],
+    [
+     30,
+     2.8693
+    ],
+    [
+     100,
+     2.5848
+    ],
+    [
+     500,
+     2.4824
+    ],
+    [
+     1000,
+     2.4385
+    ]
+   ],
+   "p1": 3.4968,
+   "desc": "-2.5V~-1.35V、1.35V~2.5V -40℃~+125℃ 1 1.5nA 10mA 120dB 1V/us 1uV 2.5MHz 2.7V~5V 22nV/√Hz@1kHz 2nV/℃ 30pA 850uA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero、Built-in compensation、Overvoltage protection、Reverse-phase input protection SOT-23-5 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1uV",
+    "Input Offset Current(Ios)": "1.5nA",
+    "Output Current": "10mA",
+    "Input Offset Voltage Drift(Vos TC)": "2nV/℃",
+    "Single Supply": "2.7V~5V",
+    "Slew Rate": "1V/us",
+    "Gain Bandwidth Product": "2.5MHz",
+    "Quiescent Current(Iq)": "850uA",
+    "Common Mode Rejection Ratio(CMRR)": "120dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "22nV/√Hz@1kHz",
+    "Features": "Zero drift / auto-zero、Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "30pA",
+    "Dual Supply": "-2.5V~-1.35V、1.35V~2.5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811091710_Analog-Devices-AD8628ARTZ-REEL7_C29309.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8628ARTZREEL7/C29309",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8628artz-reel7_C29309.html"
+  },
+  "C29429": {
+   "code": "C29429",
+   "model": "MCP6001T-E/OT",
+   "brand": "Microchip Tech",
+   "stock": 45903,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.2951
+    ],
+    [
+     50,
+     0.2291
+    ],
+    [
+     150,
+     0.2007
+    ],
+    [
+     500,
+     0.1654
+    ],
+    [
+     3000,
+     0.1498
+    ],
+    [
+     6000,
+     0.1403
+    ]
+   ],
+   "p1": 0.2951,
+   "desc": "-40℃~+125℃ 1 1.8V~6V 100uA 1MHz 1pA 1pA 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 76dB ESD protection Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "4.5mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "600V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "1.8V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "76dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "28nV/√Hz@1kHz",
+    "Quiescent Current": "100uA",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092112_Microchip-Tech-MCP6001T-E-OT_C29429.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6001T_EOT/C29429",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6001t-e-ot_C29429.html"
+  },
+  "C29605": {
+   "code": "C29605",
+   "model": "MCP602-I/SN",
+   "brand": "Microchip Tech",
+   "stock": 6544,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.5576
+    ],
+    [
+     10,
+     0.4439
+    ],
+    [
+     30,
+     0.387
+    ],
+    [
+     100,
+     0.3317
+    ],
+    [
+     500,
+     0.2975
+    ],
+    [
+     1000,
+     0.2797
+    ]
+   ],
+   "p1": 0.5576,
+   "desc": "-40℃~+85℃ 106dB 1pA 1pA 2 2.3V/us 2.5uV/℃ 2.7V~6V 2.8MHz 22mA 230uA 29nV/√Hz@1kHz 700uV Built-in compensation、ESD protection Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "700uV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "22mA",
+    "Input Offset Voltage Drift(Vos TC)": "2.5uV/℃",
+    "Slew Rate": "2.3V/us",
+    "Gain Bandwidth Product": "2.8MHz",
+    "Single supply": "2.7V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "106dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "29nV/√Hz@1kHz",
+    "Quiescent Current": "230uA",
+    "Features": "Built-in compensation、ESD protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811151538_Microchip-Tech-MCP602-I-SN_C29605.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP602_ISN/C29605",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp602-i-sn_C29605.html"
+  },
+  "C29792": {
+   "code": "C29792",
+   "model": "AD8532ARZ",
+   "brand": "Analog Devices",
+   "stock": 137,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.8777
+    ],
+    [
+     10,
+     1.6159
+    ],
+    [
+     30,
+     1.4518
+    ],
+    [
+     100,
+     1.2843
+    ],
+    [
+     500,
+     1.2079
+    ],
+    [
+     1000,
+     1.1754
+    ]
+   ],
+   "p1": 1.8777,
+   "desc": "-40℃~+85℃ 1mA 2 2.7V~6V 20uV/℃ 250mA 25pA 30mV 3MHz 45nV/√Hz@1kHz 47dB 50pA 5V/us Overvoltage protection Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "30mV",
+    "Input Offset Current(Ios)": "25pA",
+    "Output Current": "250mA",
+    "Input Offset Voltage Drift(Vos TC)": "20uV/℃",
+    "Slew Rate": "5V/us",
+    "Gain Bandwidth Product": "3MHz",
+    "Single supply": "2.7V~6V",
+    "Common Mode Rejection Ratio(CMRR)": "47dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "45nV/√Hz@1kHz",
+    "Quiescent Current": "1mA",
+    "Features": "Overvoltage protection",
+    "Ib - Input Bias Current": "50pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/1809291613_Analog-Devices-AD8532ARZ_C29792.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8532ARZ/C29792",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational amplifier_analog devices_ad8532arz_C29792.html"
+  },
+  "C29793": {
+   "code": "C29793",
+   "model": "TLV2374IDR",
+   "brand": "Texas Instruments",
+   "stock": 10076,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14-150mil",
+   "prices": [
+    [
+     1,
+     0.7576
+    ],
+    [
+     10,
+     0.6487
+    ],
+    [
+     30,
+     0.5934
+    ],
+    [
+     100,
+     0.5398
+    ],
+    [
+     500,
+     0.4812
+    ],
+    [
+     1000,
+     0.4634
+    ]
+   ],
+   "p1": 0.7576,
+   "desc": "-40℃~+125℃ -8V~-1.35V、1.35V~8V 16mA 1pA 2.4V/us 2.7V~16V 2uV/℃ 39nV/√Hz@1kHz 3MHz 4.5mV 550uA 60pA 68dB Four channels Rail-to-Rail Input, Rail-to-Rail Output SOIC-14-150mil Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "4.5mV",
+    "Input Offset Current(Ios)": "60pA",
+    "Output Current": "16mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "2.7V~16V",
+    "Slew Rate": "2.4V/us",
+    "Gain Bandwidth Product": "3MHz",
+    "Quiescent Current(Iq)": "550uA",
+    "Common Mode Rejection Ratio(CMRR)": "68dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "39nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~-1.35V、1.35V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021110_Texas-Instruments-TLV2374IDR_C29793.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2374IDR/C29793",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlv2374idr_C29793.html"
+  },
+  "C29906": {
+   "code": "C29906",
+   "model": "AD8542ARMZ-REEL",
+   "brand": "Analog Devices",
+   "stock": 1580,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-8",
+   "prices": [
+    [
+     1,
+     2.5442
+    ],
+    [
+     10,
+     2.2077
+    ],
+    [
+     30,
+     1.9996
+    ],
+    [
+     100,
+     1.7834
+    ],
+    [
+     500,
+     1.5217
+    ],
+    [
+     1000,
+     1.481
+    ]
+   ],
+   "p1": 2.5442,
+   "desc": "-40℃~+125℃ 0.1pA 100pA 1MHz 2 2.7V~5.5V 30mA 42nV/√Hz@1kHz 48dB 4uV/℃ 65uA 6mV 920V/ms Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output MSOP-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "6mV",
+    "Input Offset Current(Ios)": "0.1pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "4uV/℃",
+    "Gain Bandwidth Product": "1MHz",
+    "Slew Rate": "920V/ms",
+    "Single supply": "2.7V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "48dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "42nV/√Hz@1kHz",
+    "Quiescent Current": "65uA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "100pA"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8542ARMZ-REEL_C29906.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8542ARMZREEL/C29906",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_analog-devices-ad8542armz-reel_C29906.html"
+  },
+  "C30388": {
+   "code": "C30388",
+   "model": "AD623ANZ",
+   "brand": "Analog Devices",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DIP-8",
+   "prices": [
+    [
+     1,
+     11.3699
+    ],
+    [
+     10,
+     11.139
+    ],
+    [
+     50,
+     10.0368
+    ],
+    [
+     100,
+     9.8824
+    ],
+    [
+     102,
+     9.8824
+    ],
+    [
+     104,
+     9.8824
+    ]
+   ],
+   "p1": 11.3699,
+   "desc": "-40℃~+85℃ -6V~-2.5V、2.5V~6V 0.3V/us 1 100dB 110dB 12V 200uV 20us 25nA 2nA 2uV/℃ 35nV/√Hz@1kHz 3V~12V 550uA 5pA/℃ 800kHz Rail-to-Rail Output Single-Ended DIP-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage Gain": "-",
+    "Output Type": "Single-Ended",
+    "Vos - Input Offset Voltage": "200uV",
+    "Input Offset Current(Ios)": "2nA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "3V~12V",
+    "Slew Rate": "0.3V/us",
+    "Quiescent Current(Iq)": "550uA",
+    "Power Supply Rejection Ratio (PSRR)": "100dB",
+    "Common Mode Rejection Ratio(CMRR)": "110dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "800kHz",
+    "Number of Channels": "1",
+    "Gain Error": "0.1%",
+    "Settling time": "20us",
+    "Input Voltage Noise Density": "35nV/√Hz@1kHz",
+    "Features": "External resistor gain、Overvoltage protection",
+    "Ib - Input Bias Current": "25nA",
+    "Input Offset Current Drift (Ios TC)": "5pA/℃",
+    "Dual Supply": "-6V~-2.5V、2.5V~6V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811101020_Analog-Devices-AD623ANZ_C30388.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD623ANZ/C30388",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad623anz_C30388.html"
+  },
+  "C30442": {
+   "code": "C30442",
+   "model": "AD8065ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 2102,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     6.1353
+    ],
+    [
+     10,
+     5.4005
+    ],
+    [
+     30,
+     4.9648
+    ],
+    [
+     100,
+     4.5226
+    ],
+    [
+     500,
+     4.3194
+    ],
+    [
+     1000,
+     4.2267
+    ]
+   ],
+   "p1": 6.1353,
+   "desc": "-100dB -40℃~+85℃ 1 1.5mV 10pA 145MHz 180V/us 1pA 1uV/℃ 24V 35mA 5V~24V 6.4mA 7nV/√Hz@10kHz Rail-to-Rail Output SOIC-8 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "1.5mV",
+    "Input Offset Current(Ios)": "10pA",
+    "Output Current": "35mA",
+    "Input Offset Voltage Drift(Vos TC)": "1uV/℃",
+    "Single Supply": "5V~24V",
+    "Gain Bandwidth Product": "145MHz",
+    "Slew Rate": "180V/us",
+    "Quiescent Current(Iq)": "6.4mA",
+    "Common Mode Rejection Ratio(CMRR)": "-100dB",
+    "Number of Channels": "1",
+    "Noise density(eN)": "7nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "ESD protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8065ARZ-REEL7_C30442.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8065ARZREEL7/C30442",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet-input-amplifiers_analog-devices-ad8065arz-reel7_C30442.html"
+  },
+  "C30878": {
+   "code": "C30878",
+   "model": "OPA333AIDBVR",
+   "brand": "Texas Instruments",
+   "stock": 9013,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     1.3054
+    ],
+    [
+     10,
+     1.1852
+    ],
+    [
+     30,
+     1.0714
+    ],
+    [
+     100,
+     0.9852
+    ],
+    [
+     500,
+     0.9511
+    ],
+    [
+     1000,
+     0.9332
+    ]
+   ],
+   "p1": 1.3054,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 0.16V/us 1 1.8V~5.5V 130dB 17uA 2uV 350kHz 400pA 50nV/℃ 5mA 70pA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero SOT-23-5 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2uV",
+    "Input Offset Current(Ios)": "400pA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "50nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Gain Bandwidth Product": "350kHz",
+    "Quiescent Current(Iq)": "17uA",
+    "Common Mode Rejection Ratio(CMRR)": "130dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "-",
+    "Features": "Zero drift / auto-zero",
+    "Ib - Input Bias Current": "70pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221831_Texas-Instruments-OPA333AIDBVR_C30878.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA333AIDBVR/C30878",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa333aidbvr_C30878.html"
+  },
+  "C31148": {
+   "code": "C31148",
+   "model": "AD8137YRZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 2645,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     4.1633
+    ],
+    [
+     10,
+     3.5879
+    ],
+    [
+     30,
+     3.2465
+    ],
+    [
+     100,
+     2.6352
+    ],
+    [
+     500,
+     2.4759
+    ],
+    [
+     1000,
+     2.4044
+    ]
+   ],
+   "p1": 4.1633,
+   "desc": "-40℃~+125℃ -6V~6V 0.45uA 1 100ns 12V 2.7V~12V 20mA 3.6mA 3uV/℃ 450V/us 500nA 700uV 79dB 8.25nV/√Hz@50kHz-1MHz 91dB Differential Enable/shutdown function、Single-ended to differential conversion、Adjustable output common-mode voltage Rail-to-rail output SOIC-8 Differential Amplifiers ROHS",
+   "cat": "Differential Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Quiescent Current per Amplifier": "3.6mA",
+    "Vos - Input Offset Voltage": "700uV",
+    "Output Type": "Differential",
+    "Input Offset Current(Ios)": "0.45uA",
+    "Output Current": "20mA",
+    "Input Offset Voltage Drift(Vos TC)": "3uV/℃",
+    "Single Supply": "2.7V~12V",
+    "Slew Rate": "450V/us",
+    "Gain Bandwidth Product": "-",
+    "Power Supply Rejection Ratio (PSRR)": "91dB",
+    "Common Mode Rejection Ratio(CMRR)": "79dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "1",
+    "Noise density(eN)": "8.25nV/√Hz@50kHz-1MHz",
+    "Settling time": "100ns",
+    "Maximum Power Supply Range (Vdd-Vss)": "12V",
+    "Features": "Enable/shutdown function、Single-ended to differential conversion、Adjustable output common-mode voltage",
+    "Ib - Input Bias Current": "500nA",
+    "Dual Supply": "-6V~6V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810010330_Analog-Devices-AD8137YRZ-REEL7_C31148.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8137YRZREEL7/C31148",
+   "lcsc_url": "https://www.lcsc.com/product-detail/differential-amplifiers_analog-devices-ad8137yrz-reel7_C31148.html"
+  },
+  "C31327": {
+   "code": "C31327",
+   "model": "AD822ARMZ",
+   "brand": "Analog Devices",
+   "stock": 640,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-8",
+   "prices": [
+    [
+     1,
+     11.9372
+    ],
+    [
+     10,
+     10.2157
+    ],
+    [
+     30,
+     9.1655
+    ],
+    [
+     100,
+     8.286
+    ],
+    [
+     102,
+     8.286
+    ],
+    [
+     104,
+     8.286
+    ]
+   ],
+   "p1": 11.9372,
+   "desc": "-15V~-2.5V、2.5V~15V -40℃~+85℃ 1.8MHz 13nV/√Hz@10kHz 15mA 2 20pA 25pA 2uV/℃ 30V 3V/us 5V~30V 800uA 800uV 80dB Rail-to-Rail Output MSOP-8 FET Input Amplifiers ROHS",
+   "cat": "FET Input Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Vos - Input Offset Voltage": "800uV",
+    "Input Offset Current(Ios)": "20pA",
+    "Output Current": "15mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "5V~30V",
+    "Gain Bandwidth Product": "1.8MHz",
+    "Slew Rate": "3V/us",
+    "Quiescent Current(Iq)": "800uA",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Number of Channels": "2",
+    "Noise density(eN)": "13nV/√Hz@10kHz",
+    "Rail To Rail": "Rail-to-rail output",
+    "Features": "High capacitive load driving",
+    "Ib - Input Bias Current": "25pA",
+    "Dual Supply": "-15V~-2.5V、2.5V~15V"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/1810091810_Analog-Devices-AD822ARMZ_C31327.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD822ARMZ/C31327",
+   "lcsc_url": "https://www.lcsc.com/product-detail/fet inputamplifiers_analog devices_ad822armz_C31327.html"
+  },
+  "C31494": {
+   "code": "C31494",
+   "model": "TLC2252AIDR",
+   "brand": "Texas Instruments",
+   "stock": 5149,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.5769
+    ],
+    [
+     10,
+     1.3071
+    ],
+    [
+     30,
+     1.1575
+    ],
+    [
+     100,
+     0.9901
+    ],
+    [
+     500,
+     0.9153
+    ],
+    [
+     1000,
+     0.8812
+    ]
+   ],
+   "p1": 1.5769,
+   "desc": "-40℃~+125℃ -8V~8V 0.5pA 120V/ms 19nV/√Hz@1kHz 1pA 2 2.2V~8V 200kHz 500nV/℃ 80uA 83dB 850uV Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "850uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "-",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Slew Rate": "120V/ms",
+    "Gain Bandwidth Product": "200kHz",
+    "Single supply": "2.2V~8V",
+    "Common Mode Rejection Ratio(CMRR)": "83dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Quiescent Current": "80uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092113_Texas-Instruments-TLC2252AIDR_C31494.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2252AIDR/C31494",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc2252aidr_C31494.html"
+  },
+  "C33318": {
+   "code": "C33318",
+   "model": "TLC2272AID",
+   "brand": "Texas Instruments",
+   "stock": 85,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     2.0126
+    ],
+    [
+     10,
+     1.7184
+    ],
+    [
+     30,
+     1.5347
+    ],
+    [
+     75,
+     1.2404
+    ],
+    [
+     525,
+     1.1543
+    ],
+    [
+     1500,
+     1.1185
+    ]
+   ],
+   "p1": 2.0126,
+   "desc": "-40℃~+125℃ -5V~5V 0.5pA 1pA 2 2.2MHz 2uV/℃ 3.6V/us 3mA 50mA 5V 75dB 950uV 9nV/√Hz@1kHz Rail-to-Rail Output SOIC-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "950uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "5V",
+    "Gain Bandwidth Product": "2.2MHz",
+    "Slew Rate": "3.6V/us",
+    "Quiescent Current(Iq)": "3mA",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "9nV/√Hz@1kHz",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-5V~5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLC2272AID_C33318.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2272AID/C33318",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-tlc2272aid_C33318.html"
+  },
+  "C33836": {
+   "code": "C33836",
+   "model": "AD8253ARMZ-R7",
+   "brand": "Analog Devices",
+   "stock": 870,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-10",
+   "prices": [
+    [
+     1,
+     19.173
+    ],
+    [
+     10,
+     17.8107
+    ],
+    [
+     30,
+     16.9377
+    ],
+    [
+     100,
+     16.094
+    ],
+    [
+     102,
+     16.094
+    ],
+    [
+     104,
+     16.094
+    ]
+   ],
+   "p1": 19.173,
+   "desc": "-15V~-5V、5V~15V -40℃~+85℃ 1 1.2uV/℃ 100dB 10MHz 10nV/√Hz@1kHz 150uV 160pA/℃ 20V/us 30V 37mA 4.6mA 5nA 5nA 780ns Rail-to-Rail Output MSOP-10 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Vos - Input Offset Voltage": "150uV",
+    "Input Offset Current(Ios)": "5nA",
+    "Output Current": "37mA",
+    "Input Offset Voltage Drift(Vos TC)": "1.2uV/℃",
+    "Slew Rate": "20V/us",
+    "Quiescent Current(Iq)": "4.6mA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "10MHz",
+    "Number of Channels": "1",
+    "Gain Error": "-",
+    "Input Voltage Noise Density": "10nV/√Hz@1kHz",
+    "Settling time": "780ns",
+    "Features": "ESD protection、Digitally programmable gain、EMI filtering/RF suppression",
+    "Ib - Input Bias Current": "5nA",
+    "Input Offset Current Drift (Ios TC)": "160pA/℃",
+    "Dual Supply": "-15V~-5V、5V~15V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051212_Analog-Devices-AD8253ARMZ-R7_C33836.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8253ARMZR7/C33836",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad8253armz-r7_C33836.html"
+  },
+  "C34047": {
+   "code": "C34047",
+   "model": "MCP6022-I/SN",
+   "brand": "Microchip Tech",
+   "stock": 1469,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.3558
+    ],
+    [
+     10,
+     1.1104
+    ],
+    [
+     30,
+     0.9754
+    ],
+    [
+     100,
+     0.8226
+    ],
+    [
+     500,
+     0.7544
+    ],
+    [
+     1000,
+     0.7251
+    ]
+   ],
+   "p1": 1.3558,
+   "desc": "-40℃~+125℃ 10MHz 1mA 1pA 1pA 2 2.5V~5.5V 3.5uV/℃ 30mA 500uV 7V/us 8.7nV/√Hz@10kHz 90dB Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "500uV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "3.5uV/℃",
+    "Slew Rate": "7V/us",
+    "Gain Bandwidth Product": "10MHz",
+    "Single supply": "2.5V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "90dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "8.7nV/√Hz@10kHz",
+    "Quiescent Current": "1mA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6022-I-SN_C34047.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6022_ISN/C34047",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6022-i-sn_C34047.html"
+  },
+  "C34250": {
+   "code": "C34250",
+   "model": "AD8226ARZ-R7",
+   "brand": "Analog Devices",
+   "stock": 2529,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     3.6984
+    ],
+    [
+     10,
+     3.227
+    ],
+    [
+     30,
+     2.9311
+    ],
+    [
+     100,
+     2.6271
+    ],
+    [
+     500,
+     2.4905
+    ],
+    [
+     1000,
+     2.432
+    ]
+   ],
+   "p1": 3.6984,
+   "desc": "-18V~-1.35V、1.35V~18V -40℃~+125℃ 0.015% 0.4V/us 1 1.5MHz 100dB 100uV 13mA 1V/V~1000V/V 1nA 2.2V~36V 20nA 22nV/√Hz@1kHz 25us 350uA 500nV/℃ 5pA/℃ 86dB External resistor gain、ESD protection、Overvoltage protection、EMI filtering/RF suppression Rail-to-rail output SOIC-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "100uV",
+    "Input Offset Current(Ios)": "1nA",
+    "Output Current": "13mA",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Single Supply": "2.2V~36V",
+    "Slew Rate": "0.4V/us",
+    "Quiescent Current(Iq)": "350uA",
+    "Power Supply Rejection Ratio (PSRR)": "100dB",
+    "Common Mode Rejection Ratio(CMRR)": "86dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "1.5MHz",
+    "Number of Channels": "1",
+    "Gain Error": "0.015%",
+    "Settling time": "25us",
+    "Input Voltage Noise Density": "22nV/√Hz@1kHz",
+    "Features": "External resistor gain、ESD protection、Overvoltage protection、EMI filtering/RF suppression",
+    "Ib - Input Bias Current": "20nA",
+    "Input Offset Current Drift (Ios TC)": "5pA/℃",
+    "Dual Supply": "-18V~-1.35V、1.35V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8226ARZ-R7_C34250.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8226ARZR7/C34250",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad8226arz-r7_C34250.html"
+  },
+  "C34731": {
+   "code": "C34731",
+   "model": "LMV331IDBVR",
+   "brand": "Texas Instruments",
+   "stock": 233304,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1247
+    ],
+    [
+     50,
+     0.0995
+    ],
+    [
+     150,
+     0.0865
+    ],
+    [
+     500,
+     0.0758
+    ],
+    [
+     3000,
+     0.0721
+    ],
+    [
+     6000,
+     0.0696
+    ]
+   ],
+   "p1": 0.1247,
+   "desc": "-40℃~+125℃ 1 2.7V~5.5V 250nA 5nA 5uV/℃ 600ns 60uA 7mV Open Collector Rail-to-rail input SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Output Type": "Open Collector",
+    "Vos - Input Offset Voltage": "7mV",
+    "Input Offset Current(Ios)": "5nA",
+    "Input Offset Voltage Drift(Vos TC)": "5uV/℃",
+    "Single Supply": "2.7V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "-",
+    "Common Mode Rejection Ratio(CMRR)": "-",
+    "Rail to Rail": "Rail-to-rail input",
+    "Number of Channels": "1",
+    "Quiescent Current": "60uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "250nA",
+    "Propagation Delay Time": "600ns",
+    "Output Mode": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251740_Texas-Instruments-LMV331IDBVR_C34731.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LMV331IDBVR/C34731",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-lmv331idbvr_C34731.html"
+  },
+  "C35305": {
+   "code": "C35305",
+   "model": "AD8609ARUZ-REEL",
+   "brand": "Analog Devices",
+   "stock": 63,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-14",
+   "prices": [
+    [
+     1,
+     11.986
+    ],
+    [
+     10,
+     10.4416
+    ],
+    [
+     30,
+     8.6274
+    ],
+    [
+     100,
+     7.8389
+    ],
+    [
+     102,
+     7.8389
+    ],
+    [
+     104,
+     7.8389
+    ]
+   ],
+   "p1": 11.986,
+   "desc": "-2.5V~-900mV、900mV~2.5V -40℃~+125℃ 0.1V/us 0.5pA 1.8V~5V 100dB 1pA 22nV/√Hz@10kHz 316kHz 4.5uV/℃ 50uA 50uV 70mA Built-in compensation、Overvoltage protection、Reverse-phase input protection Four channels Rail-to-Rail Input, Rail-to-Rail Output TSSOP-14 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "50uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "70mA",
+    "Input Offset Voltage Drift(Vos TC)": "4.5uV/℃",
+    "Single Supply": "1.8V~5V",
+    "Gain Bandwidth Product": "316kHz",
+    "Slew Rate": "0.1V/us",
+    "Quiescent Current(Iq)": "50uA",
+    "Common Mode Rejection Ratio(CMRR)": "100dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "22nV/√Hz@10kHz",
+    "Features": "Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-2.5V~-900mV、900mV~2.5V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8609ARUZ-REEL_C35305.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8609ARUZREEL/C35305",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad8609aruz-reel_C35305.html"
+  },
+  "C35476": {
+   "code": "C35476",
+   "model": "TLC2272CPWR",
+   "brand": "Texas Instruments",
+   "stock": 6922,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TSSOP-8",
+   "prices": [
+    [
+     1,
+     1.533
+    ],
+    [
+     10,
+     1.2697
+    ],
+    [
+     30,
+     1.125
+    ],
+    [
+     100,
+     0.9624
+    ],
+    [
+     500,
+     0.8893
+    ],
+    [
+     1000,
+     0.8568
+    ]
+   ],
+   "p1": 1.533,
+   "desc": "-40℃~+125℃ -5.5V~5.5V 2 2.2MHz 2uV/℃ 3.6V/us 3mA 4.4V~16V 60pA 800pA 950uV 95dB 9nV/√Hz@1kHz Rail-to-rail output TSSOP-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "950uV",
+    "Input Offset Current(Ios)": "60pA",
+    "Output Current": "-",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "3.6V/us",
+    "Gain Bandwidth Product": "2.2MHz",
+    "Single supply": "4.4V~16V",
+    "Common Mode Rejection Ratio(CMRR)": "95dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "9nV/√Hz@1kHz",
+    "Quiescent Current": "3mA",
+    "Features": "-",
+    "Ib - Input Bias Current": "800pA",
+    "Dual Supply": "-5.5V~5.5V"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2304140030_Texas-Instruments-TLC2272CPWR_C35476.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2272CPWR/C35476",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational amplifier_texas instruments_tlc2272cpwr_C35476.html"
+  },
+  "C35707": {
+   "code": "C35707",
+   "model": "OPA2211AIDDAR",
+   "brand": "Texas Instruments",
+   "stock": 2435,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8-EP",
+   "prices": [
+    [
+     1,
+     8.3071
+    ],
+    [
+     10,
+     7.1302
+    ],
+    [
+     30,
+     6.4132
+    ],
+    [
+     100,
+     5.8134
+    ],
+    [
+     102,
+     5.8134
+    ],
+    [
+     104,
+     5.8134
+    ]
+   ],
+   "p1": 8.3071,
+   "desc": "-18V~-2.25V、2.25V~18V -40℃~+125℃ 1.1nV/√Hz@1kHz 114dB 150uV 2 25nA 27V/us 3.6mA 30mA 350nV/℃ 4.5V~36V 45MHz 60nA Built-in compensation Rail-to-rail output SOIC-8-EP Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "150uV",
+    "Input Offset Current(Ios)": "25nA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "350nV/℃",
+    "Single Supply": "4.5V~36V",
+    "Gain Bandwidth Product": "45MHz",
+    "Slew Rate": "27V/us",
+    "Quiescent Current(Iq)": "3.6mA",
+    "Common Mode Rejection Ratio(CMRR)": "114dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "1.1nV/√Hz@1kHz",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "60nA",
+    "Dual Supply": "-18V~-2.25V、2.25V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811060506_Texas-Instruments-OPA2211AIDDAR_C35707.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA2211AIDDAR/C35707",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa2211aiddar_C35707.html"
+  },
+  "C36330": {
+   "code": "C36330",
+   "model": "TLV2254AIDR",
+   "brand": "Texas Instruments",
+   "stock": 53,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     2.2873
+    ],
+    [
+     10,
+     1.9703
+    ],
+    [
+     30,
+     1.7704
+    ],
+    [
+     100,
+     1.5672
+    ],
+    [
+     500,
+     1.4745
+    ],
+    [
+     1000,
+     1.4339
+    ]
+   ],
+   "p1": 2.2873,
+   "desc": "-40℃~+125℃ 120V/ms 135uA 19nV/√Hz@1kHz 1pA 2.7V~8V 200kHz 4 500nV/℃ 50mA 60pA 83dB 850uV Rail-to-rail output SOIC-14 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "850uV",
+    "Input Offset Current(Ios)": "60pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "500nV/℃",
+    "Slew Rate": "120V/ms",
+    "Gain Bandwidth Product": "200kHz",
+    "Single supply": "2.7V~8V",
+    "Common Mode Rejection Ratio(CMRR)": "83dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "4",
+    "Input Voltage Noise Density": "19nV/√Hz@1kHz",
+    "Quiescent Current": "135uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051216_Texas-Instruments-TLV2254AIDR_C36330.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV2254AIDR/C36330",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlv2254aidr_C36330.html"
+  },
+  "C36384": {
+   "code": "C36384",
+   "model": "OPA354AIDBVR",
+   "brand": "Texas Instruments",
+   "stock": 2479,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     1.7444
+    ],
+    [
+     10,
+     1.4469
+    ],
+    [
+     30,
+     1.2827
+    ],
+    [
+     100,
+     1.0258
+    ],
+    [
+     500,
+     0.9429
+    ],
+    [
+     1000,
+     0.9055
+    ]
+   ],
+   "p1": 1.7444,
+   "desc": "-2.75V~-1.25V、1.25V~2.75V -40℃~+125℃ 1 100MHz 100mA 150V/us 1pA 2.5V~5.5V 2mV 3pA 4.9mA 4uV/℃ 6.5nV/√Hz@1MHz 80dB Built-in compensation Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "2mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "100mA",
+    "Input Offset Voltage Drift(Vos TC)": "4uV/℃",
+    "Slew Rate": "150V/us",
+    "Gain Bandwidth Product": "100MHz",
+    "Single supply": "2.5V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "6.5nV/√Hz@1MHz",
+    "Quiescent Current": "4.9mA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "3pA",
+    "Dual Supply": "-2.75V~-1.25V、1.25V~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-OPA354AIDBVR_C36384.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA354AIDBVR/C36384",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-opa354aidbvr_C36384.html"
+  },
+  "C38255": {
+   "code": "C38255",
+   "model": "AD8608ARZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-14",
+   "prices": [
+    [
+     1,
+     4.625
+    ],
+    [
+     10,
+     3.9601
+    ],
+    [
+     30,
+     3.5651
+    ],
+    [
+     100,
+     3.1652
+    ],
+    [
+     500,
+     2.9799
+    ],
+    [
+     1000,
+     2.897
+    ]
+   ],
+   "p1": 4.625,
+   "desc": "-40℃~+125℃ 0.5pA 10MHz 1mA 1pA 2.7V~5.5V 5V/us 6uV/℃ 80mA 80uV 8nV/√Hz@1kHz 95dB Four channels Rail-to-Rail Input, Rail-to-Rail Output SOIC-14 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "80uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "80mA",
+    "Input Offset Voltage Drift(Vos TC)": "6uV/℃",
+    "Single Supply": "2.7V~5.5V",
+    "Slew Rate": "5V/us",
+    "Gain Bandwidth Product": "10MHz",
+    "Quiescent Current(Iq)": "1mA",
+    "Common Mode Rejection Ratio(CMRR)": "95dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "Four channels",
+    "Input Voltage Noise Density": "8nV/√Hz@1kHz",
+    "Features": "Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8608ARZ-REEL7_C38255.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8608ARZREEL7/C38255",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_analog-devices-ad8608arz-reel7_C38255.html"
+  },
+  "C38433": {
+   "code": "C38433",
+   "model": "INA826AIDR",
+   "brand": "Texas Instruments",
+   "stock": 6191,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.6046
+    ],
+    [
+     10,
+     1.4111
+    ],
+    [
+     30,
+     1.2746
+    ],
+    [
+     100,
+     1.1494
+    ],
+    [
+     500,
+     1.0925
+    ],
+    [
+     1000,
+     1.0697
+    ]
+   ],
+   "p1": 1.6046,
+   "desc": "-18V~-1.5V、1.5V~18V -40℃~+125℃ 1 100dB 104dB 150uV 16mA 18nV/√Hz@1kHz 1MHz 1V/us 200uA 2uV/℃ 35nA 36V 3V~36V 5nA Rail-to-Rail Output SOIC-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "150uV",
+    "Input Offset Current(Ios)": "5nA",
+    "Output Current": "16mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Single Supply": "3V~36V",
+    "Slew Rate": "1V/us",
+    "Quiescent Current(Iq)": "200uA",
+    "Power Supply Rejection Ratio (PSRR)": "100dB",
+    "Common Mode Rejection Ratio(CMRR)": "104dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "1MHz",
+    "Number of Channels": "1",
+    "Gain Error": "0.015%",
+    "Input Voltage Noise Density": "18nV/√Hz@1kHz",
+    "Features": "External resistor gain、Overvoltage protection",
+    "Ib - Input Bias Current": "35nA",
+    "Dual Supply": "-18V~-1.5V、1.5V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-INA826AIDR_C38433.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-INA826AIDR/C38433",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_texas-instruments-ina826aidr_C38433.html"
+  },
+  "C38649": {
+   "code": "C38649",
+   "model": "OPA330AIDBVR",
+   "brand": "Texas Instruments",
+   "stock": 1399,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.9901
+    ],
+    [
+     10,
+     0.8486
+    ],
+    [
+     30,
+     0.7787
+    ],
+    [
+     100,
+     0.7088
+    ],
+    [
+     500,
+     0.6666
+    ],
+    [
+     1000,
+     0.6454
+    ]
+   ],
+   "p1": 0.9901,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 0.16V/us 1 1.8V~5.5V 115dB 1nA 200pA 21uA 250nV/℃ 350kHz 55nV/√Hz@1kHz 5mA 8uV EMI filtering/RF suppression、Zero drift / auto-zero Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "8uV",
+    "Input Offset Current(Ios)": "1nA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "250nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Gain Bandwidth Product": "350kHz",
+    "Quiescent Current(Iq)": "21uA",
+    "Common Mode Rejection Ratio(CMRR)": "115dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Input Voltage Noise Density": "55nV/√Hz@1kHz",
+    "Features": "EMI filtering/RF suppression、Zero drift / auto-zero",
+    "Ib - Input Bias Current": "200pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810251311_Texas-Instruments-OPA330AIDBVR_C38649.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA330AIDBVR/C38649",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa330aidbvr_C38649.html"
+  },
+  "C38732": {
+   "code": "C38732",
+   "model": "OPA2333AIDR",
+   "brand": "Texas Instruments",
+   "stock": 19330,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-8",
+   "prices": [
+    [
+     1,
+     0.7527
+    ],
+    [
+     10,
+     0.5999
+    ],
+    [
+     30,
+     0.5235
+    ],
+    [
+     100,
+     0.4487
+    ],
+    [
+     500,
+     0.4032
+    ],
+    [
+     1000,
+     0.3805
+    ]
+   ],
+   "p1": 0.7527,
+   "desc": "-2.75V~-900mV、900mV~2.75V -40℃~+125℃ 0.16V/us 1.8V~5.5V 10uV 130dB 150pA 17uA 2 350kHz 50nV/℃ 5mA 70pA Rail-to-Rail Input, Rail-to-Rail Output Zero drift / auto-zero、Built-in compensation、Overvoltage protection、Reverse-phase input protection SOP-8 Precision Op Amps ROHS",
+   "cat": "Precision Op Amps",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "10uV",
+    "Input Offset Current(Ios)": "150pA",
+    "Output Current": "5mA",
+    "Input Offset Voltage Drift(Vos TC)": "50nV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Slew Rate": "0.16V/us",
+    "Gain Bandwidth Product": "350kHz",
+    "Quiescent Current(Iq)": "17uA",
+    "Common Mode Rejection Ratio(CMRR)": "130dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "-",
+    "Features": "Zero drift / auto-zero、Built-in compensation、Overvoltage protection、Reverse-phase input protection",
+    "Ib - Input Bias Current": "70pA",
+    "Dual Supply": "-2.75V~-900mV、900mV~2.75V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200040_Texas-Instruments-OPA2333AIDR_C38732.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA2333AIDR/C38732",
+   "lcsc_url": "https://www.lcsc.com/product-detail/precision-op-amps_texas-instruments-opa2333aidr_C38732.html"
+  },
+  "C39111": {
+   "code": "C39111",
+   "model": "TLC2262AIDR",
+   "brand": "Texas Instruments",
+   "stock": 1591,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     1.1689
+    ],
+    [
+     10,
+     0.9641
+    ],
+    [
+     30,
+     0.8519
+    ],
+    [
+     100,
+     0.7251
+    ],
+    [
+     500,
+     0.6682
+    ],
+    [
+     1000,
+     0.6438
+    ]
+   ],
+   "p1": 1.1689,
+   "desc": "-40℃~+125℃ -8V~8V 0.5pA 12nV/√Hz@1kHz 1pA 2 2.2V~8V 2uV/℃ 500uA 50mA 550V/ms 710kHz 88dB 950uV Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "950uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "50mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Gain Bandwidth Product": "710kHz",
+    "Slew Rate": "550V/ms",
+    "Single supply": "2.2V~8V",
+    "Common Mode Rejection Ratio(CMRR)": "88dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "12nV/√Hz@1kHz",
+    "Quiescent Current": "500uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-8V~8V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811082121_Texas-Instruments-TLC2262AIDR_C39111.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLC2262AIDR/C39111",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-tlc2262aidr_C39111.html"
+  },
+  "C39740": {
+   "code": "C39740",
+   "model": "OPA2348AIDR",
+   "brand": "Texas Instruments",
+   "stock": 19848,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.6276
+    ],
+    [
+     10,
+     0.5235
+    ],
+    [
+     30,
+     0.478
+    ],
+    [
+     100,
+     0.4227
+    ],
+    [
+     500,
+     0.3756
+    ],
+    [
+     1000,
+     0.3593
+    ]
+   ],
+   "p1": 0.6276,
+   "desc": "-40℃~+125℃ 0.5pA 0.5pA 10mA 134uV/℃ 1MHz 2 2.1V~5.5V 35nV/√Hz@1kHz 45uA 500V/ms 60uV 7.5V 82dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "60uV",
+    "Input Offset Current(Ios)": "0.5pA",
+    "Output Current": "10mA",
+    "Input Offset Voltage Drift(Vos TC)": "134uV/℃",
+    "Slew Rate": "500V/ms",
+    "Gain Bandwidth Product": "1MHz",
+    "Single supply": "2.1V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "82dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "35nV/√Hz@1kHz",
+    "Quiescent Current": "45uA",
+    "Features": "Built-in compensation",
+    "Ib - Input Bias Current": "0.5pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181624_Texas-Instruments-OPA2348AIDR_C39740.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA2348AIDR/C39740",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-opa2348aidr_C39740.html"
+  },
+  "C39755": {
+   "code": "C39755",
+   "model": "MCP6242-E/SN",
+   "brand": "Microchip Tech",
+   "stock": 108,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-8",
+   "prices": [
+    [
+     1,
+     0.8031
+    ],
+    [
+     10,
+     0.6584
+    ],
+    [
+     30,
+     0.5853
+    ],
+    [
+     100,
+     0.5138
+    ],
+    [
+     500,
+     0.4715
+    ],
+    [
+     1000,
+     0.4487
+    ]
+   ],
+   "p1": 0.8031,
+   "desc": "-40℃~+125℃ 1.8V~5.5V 1pA 1pA 2 23mA 300V/ms 3uV/℃ 45nV/√Hz@1kHz 50uA 550kHz 5mV 75dB Rail-to-Rail Input, Rail-to-Rail Output SOP-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "5mV",
+    "Input Offset Current(Ios)": "1pA",
+    "Output Current": "23mA",
+    "Input Offset Voltage Drift(Vos TC)": "3uV/℃",
+    "Slew Rate": "300V/ms",
+    "Gain Bandwidth Product": "550kHz",
+    "Single supply": "1.8V~5.5V",
+    "Common Mode Rejection Ratio(CMRR)": "75dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "45nV/√Hz@1kHz",
+    "Quiescent Current": "50uA",
+    "Features": "-",
+    "Ib - Input Bias Current": "1pA",
+    "Dual Supply": "-"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051211_Microchip-Tech-MCP6242-E-SN_C39755.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MCP6242_ESN/C39755",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_microchip-tech-mcp6242-e-sn_C39755.html"
+  },
+  "C40768": {
+   "code": "C40768",
+   "model": "INA122UA/2K5",
+   "brand": "Texas Instruments",
+   "stock": 55,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOP-8",
+   "prices": [
+    [
+     1,
+     5.472
+    ],
+    [
+     10,
+     4.7128
+    ],
+    [
+     30,
+     4.017
+    ],
+    [
+     100,
+     3.5602
+    ],
+    [
+     500,
+     3.3505
+    ],
+    [
+     1000,
+     3.2562
+    ]
+   ],
+   "p1": 5.472,
+   "desc": "-18V~18V -40℃~+85℃ 0.9V/us 1 2.2V~36V 250uV 25nA 30mA 350us 36V 3uV/℃ 40pA/℃ 5nA 60nV/√Hz@1kHz 60uA 96dB Rail-to-Rail Output SOP-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage Gain": "5V/V~10000V/V",
+    "Vos - Input Offset Voltage": "250uV",
+    "Input Offset Current(Ios)": "5nA",
+    "Output Current": "30mA",
+    "Input Offset Voltage Drift(Vos TC)": "3uV/℃",
+    "Single Supply": "2.2V~36V",
+    "Slew Rate": "0.9V/us",
+    "Quiescent Current(Iq)": "60uA",
+    "Common Mode Rejection Ratio(CMRR)": "96dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "-",
+    "Number of Channels": "1",
+    "Gain Error": "-",
+    "Settling time": "350us",
+    "Input Voltage Noise Density": "60nV/√Hz@1kHz",
+    "Features": "External resistor gain、Overvoltage protection",
+    "Ib - Input Bias Current": "25nA",
+    "Input Offset Current Drift (Ios TC)": "40pA/℃",
+    "Dual Supply": "-18V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271510_Texas-Instruments-INA122UA-2K5_C40768.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-INA122UA2K5/C40768",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_texas-instruments-ina122ua-2k5_C40768.html"
+  },
+  "C40904": {
+   "code": "C40904",
+   "model": "OPA2171AIDR",
+   "brand": "Texas Instruments",
+   "stock": 22015,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.3434
+    ],
+    [
+     50,
+     0.2686
+    ],
+    [
+     150,
+     0.2322
+    ],
+    [
+     500,
+     0.1824
+    ],
+    [
+     2500,
+     0.1736
+    ],
+    [
+     5000,
+     0.1682
+    ]
+   ],
+   "p1": 0.3434,
+   "desc": "-18V~-1.35V、1.35V~18V -40℃~+125℃ 1.5V/us 1.8mV 120dB 14nV/√Hz@1kHz 15pA 2 2.7V~36V 25mA 2uV/℃ 3MHz 475uA 4pA ESD protection、EMI filtering/RF suppression Rail-to-rail output SOIC-8 Operational Amplifier ROHS",
+   "cat": "Operational Amplifier",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "1.8mV",
+    "Input Offset Current(Ios)": "4pA",
+    "Output Current": "25mA",
+    "Input Offset Voltage Drift(Vos TC)": "2uV/℃",
+    "Slew Rate": "1.5V/us",
+    "Gain Bandwidth Product": "3MHz",
+    "Single supply": "2.7V~36V",
+    "Common Mode Rejection Ratio(CMRR)": "120dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "Number of Channels": "2",
+    "Input Voltage Noise Density": "14nV/√Hz@1kHz",
+    "Quiescent Current": "475uA",
+    "Features": "ESD protection、EMI filtering/RF suppression",
+    "Ib - Input Bias Current": "15pA",
+    "Dual Supply": "-18V~-1.35V、1.35V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151620_Texas-Instruments-OPA2171AIDR_C40904.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-OPA2171AIDR/C40904",
+   "lcsc_url": "https://www.lcsc.com/product-detail/operational-amplifier_texas-instruments-opa2171aidr_C40904.html"
+  },
+  "C41155": {
+   "code": "C41155",
+   "model": "TLV3491AIDBVR",
+   "brand": "Texas Instruments",
+   "stock": 14938,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     1.1884
+    ],
+    [
+     10,
+     0.9901
+    ],
+    [
+     30,
+     0.8812
+    ],
+    [
+     100,
+     0.7576
+    ],
+    [
+     500,
+     0.6357
+    ],
+    [
+     1000,
+     0.6113
+    ]
+   ],
+   "p1": 1.1884,
+   "desc": "-40℃~+125℃ 1 1.8V~5.5V 1000uV/℃ 10pA 15mV 1pA 6us 6us 74dB 850nA CMOS Push-pull Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Vos - Input Offset Voltage": "15mV",
+    "Output Type": "Push-pull",
+    "Input Offset Current(Ios)": "1pA",
+    "Input Offset Voltage Drift(Vos TC)": "1000uV/℃",
+    "Single Supply": "1.8V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "-",
+    "Response Time (tr)": "6us",
+    "Common Mode Rejection Ratio(CMRR)": "74dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Quiescent Current": "850nA",
+    "Features": "Overvoltage protection",
+    "Ib - Input Bias Current": "10pA",
+    "Propagation Delay Time": "6us",
+    "Output Mode": "CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251730_Texas-Instruments-TLV3491AIDBVR_C41155.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV3491AIDBVR/C41155",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_texas-instruments-tlv3491aidbvr_C41155.html"
+  },
+  "C41164": {
+   "code": "C41164",
+   "model": "AD8221ARMZ-R7",
+   "brand": "Analog Devices",
+   "stock": 183,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-8",
+   "prices": [
+    [
+     1,
+     21.8895
+    ],
+    [
+     10,
+     19.6867
+    ],
+    [
+     30,
+     18.8869
+    ],
+    [
+     100,
+     17.5571
+    ],
+    [
+     102,
+     17.5571
+    ],
+    [
+     104,
+     17.5571
+    ]
+   ],
+   "p1": 21.8895,
+   "desc": "-18V~-2.3V、2.3V~18V -40℃~+85℃ 1 10us 18mA 1nA 2V/us 36V 3pA/℃ 400nV/℃ 500pA 60uV 80dB 825kHz 8nV/√Hz@1kHz 900uA 90dB Rail-to-Rail Output MSOP-8 Instrumentation Amplifiers ROHS",
+   "cat": "Instrumentation Amplifiers",
+   "attrs": {
+    "Operating Temperature": "-40℃~+85℃",
+    "Voltage Gain": "1V/V~1000V/V",
+    "Vos - Input Offset Voltage": "60uV",
+    "Input Offset Current(Ios)": "1nA",
+    "Output Current": "18mA",
+    "Input Offset Voltage Drift(Vos TC)": "400nV/℃",
+    "Slew Rate": "2V/us",
+    "Quiescent Current(Iq)": "900uA",
+    "Power Supply Rejection Ratio (PSRR)": "90dB",
+    "Common Mode Rejection Ratio(CMRR)": "80dB",
+    "Rail to Rail": "Rail-to-rail output",
+    "-3dB Bandwidth": "825kHz",
+    "Number of Channels": "1",
+    "Gain Error": "0.1%",
+    "Settling time": "10us",
+    "Input Voltage Noise Density": "8nV/√Hz@1kHz",
+    "Features": "External resistor gain",
+    "Ib - Input Bias Current": "500pA",
+    "Input Offset Current Drift (Ios TC)": "3pA/℃",
+    "Dual Supply": "-18V~-2.3V、2.3V~18V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121549_Analog-Devices-AD8221ARMZ-R7_C41164.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-AD8221ARMZR7/C41164",
+   "lcsc_url": "https://www.lcsc.com/product-detail/instrumentation-amplifiers_analog-devices-ad8221armz-r7_C41164.html"
+  }
+ }
+}

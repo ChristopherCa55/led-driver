@@ -1,0 +1,107 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 15:34 Pacific Daylight Time",
+ "res": {
+  "C220014": {
+   "code": "C220014",
+   "model": "MIC29150-12WU",
+   "brand": "Microchip Tech",
+   "stock": 3,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     6.0491
+    ],
+    [
+     10,
+     5.9093
+    ],
+    [
+     50,
+     5.7126
+    ],
+    [
+     100,
+     5.6199
+    ],
+    [
+     102,
+     5.6199
+    ],
+    [
+     104,
+     5.6199
+    ]
+   ],
+   "p1": 6.0491,
+   "desc": "-40℃~+125℃@(Tj) 1 1.5A 12V 20mA 26V 400uVrms 600mV@(1.5A) Fixed Over Current Protection、Thermal Shutdown Positive TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "20mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "400uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Input overvoltage protection、Operating status indication、Reverse-polarity current protection",
+    "Voltage Dropout": "600mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MIC29150-12WU_C220014.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MIC2915012WU/C220014",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microchip-tech-mic29150-12wu_C220014.html"
+  },
+  "C632717": {
+   "code": "C632717",
+   "model": "MIC29150-12WU-TR",
+   "brand": "Microchip Tech",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     11.3243
+    ],
+    [
+     10,
+     11.3243
+    ],
+    [
+     12,
+     11.3243
+    ],
+    [
+     200,
+     4.3828
+    ],
+    [
+     750,
+     4.23
+    ],
+    [
+     1500,
+     4.1536
+    ]
+   ],
+   "p1": 11.3243,
+   "desc": "TO-263-3 Power Management - Specialized ROHS",
+   "cat": "Power Management - Specialized",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Output Current": "1.5A",
+    "Features": "Overcurrent Protection、Operating status indication",
+    "Output Voltage": "12V"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210172330_Microchip-Tech-MIC29150-12WU-TR_C632717.pdf",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-MIC29150_12WUTR/C632717",
+   "lcsc_url": "https://www.lcsc.com/product-detail/power-management-specialized_microchip-tech-mic29150-12wu-tr_C632717.html"
+  }
+ }
+}

@@ -1,0 +1,5082 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:52 Pacific Daylight Time",
+ "res": {
+  "C54560858": {
+   "code": "C54560858",
+   "model": "HR79L12V",
+   "brand": "hongjiacheng",
+   "stock": 5630,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0922
+    ],
+    [
+     50,
+     0.0734
+    ],
+    [
+     150,
+     0.0638
+    ],
+    [
+     1000,
+     0.0568
+    ],
+    [
+     2000,
+     0.0511
+    ],
+    [
+     5000,
+     0.0482
+    ]
+   ],
+   "p1": 0.0922,
+   "desc": "-40℃~+125℃ 1 1.7V@(40mA) 100mA 12V 30V 42dB@(120Hz) 6.5mA Fixed Negative Short Circuit Protection、Thermal shutdown SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "42dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "6.5mA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Negative",
+    "Voltage Dropout": "1.7V@(40mA)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/hongjiacheng-HR79L12V/C54560858",
+   "lcsc_url": null
+  },
+  "C26184": {
+   "code": "C26184",
+   "model": "CJ7812",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 37659,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2",
+   "prices": [
+    [
+     1,
+     0.2241
+    ],
+    [
+     50,
+     0.1784
+    ],
+    [
+     150,
+     0.1561
+    ],
+    [
+     500,
+     0.1363
+    ],
+    [
+     2500,
+     0.1272
+    ],
+    [
+     5000,
+     0.1239
+    ]
+   ],
+   "p1": 0.2241,
+   "desc": "-25℃~+125℃@(Tj) 1 1.5A 12V 2V@(1.0A) 30V 4.3mA 71dB@(120Hz) Fixed Positive TO-252-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "-25℃~+125℃@(Tj)",
+    "standby current": "4.3mA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811141711_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJ7812_C26184.pdf",
+   "url": "https://jlcpcb.com/partdetail/26927-CJ7812/C26184",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_jiangsu-changjing-electronics-technology-co-ltd-cj7812_C26184.html"
+  },
+  "C64551": {
+   "code": "C64551",
+   "model": "HT75C0-1",
+   "brand": "Holtek Semicon",
+   "stock": 28699,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1543
+    ],
+    [
+     50,
+     0.1246
+    ],
+    [
+     150,
+     0.1098
+    ],
+    [
+     1000,
+     0.0802
+    ],
+    [
+     2000,
+     0.0713
+    ],
+    [
+     5000,
+     0.0669
+    ]
+   ],
+   "p1": 0.1543,
+   "desc": "-40℃~+85℃ 1 12V 150mA 30V 55mV@(1mA) Fixed Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "55mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031724_Holtek-Semicon-HT75C0-1_C64551.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C01/C64551",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-1_C64551.html"
+  },
+  "C95005": {
+   "code": "C95005",
+   "model": "HT75C0-2",
+   "brand": "Holtek Semicon",
+   "stock": 2419,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1641
+    ],
+    [
+     50,
+     0.1298
+    ],
+    [
+     150,
+     0.115
+    ],
+    [
+     500,
+     0.0966
+    ],
+    [
+     3000,
+     0.0885
+    ],
+    [
+     6000,
+     0.0836
+    ]
+   ],
+   "p1": 0.1641,
+   "desc": "-40℃~+85℃ 1 12V 150mA 2.5uA 25mV@(1mA) 30V Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031726_Holtek-Semicon-HT75C0-2_C95005.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C02/C95005",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-2_C95005.html"
+  },
+  "C130175": {
+   "code": "C130175",
+   "model": "LM3480IM3-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 1032,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     1.8029
+    ],
+    [
+     10,
+     1.4875
+    ],
+    [
+     30,
+     1.3152
+    ],
+    [
+     100,
+     1.1185
+    ],
+    [
+     500,
+     1.0112
+    ],
+    [
+     1000,
+     0.9722
+    ]
+   ],
+   "p1": 1.8029,
+   "desc": "-40℃~+125℃@(Tj) 1 1.2V@(100mA) 100mA 12V 30V 360uVrms Fixed Over Current Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.2V@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809111512_Texas-Instruments-LM3480IM3-12-NOPB_C130175.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM3480IM3_12NOPB/C130175",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm3480im3-12-nopb_C130175.html"
+  },
+  "C131946": {
+   "code": "C131946",
+   "model": "UA7812CKTTR",
+   "brand": "Texas Instruments",
+   "stock": 4476,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-3(TO-263-3)",
+   "prices": [
+    [
+     1,
+     0.8405
+    ],
+    [
+     10,
+     0.7105
+    ],
+    [
+     30,
+     0.6194
+    ],
+    [
+     100,
+     0.5446
+    ],
+    [
+     500,
+     0.5203
+    ],
+    [
+     1000,
+     0.5056
+    ]
+   ],
+   "p1": 0.8405,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 4.3mA 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection Positive DDPAK-3(TO-263-3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input overvoltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-UA7812CKTTR_C131946.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA7812CKTTR/C131946",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua7812ckttr_C131946.html"
+  },
+  "C134029": {
+   "code": "C134029",
+   "model": "TLV76012DBZT",
+   "brand": "Texas Instruments",
+   "stock": 756,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23",
+   "prices": [
+    [
+     1,
+     0.2007
+    ],
+    [
+     50,
+     0.1597
+    ],
+    [
+     250,
+     0.1291
+    ],
+    [
+     500,
+     0.1072
+    ],
+    [
+     2500,
+     0.0974
+    ],
+    [
+     5000,
+     0.0916
+    ]
+   ],
+   "p1": 0.2007,
+   "desc": "-40℃~+125℃@(Tj) 1 1.2V@(100mA) 100mA 12V 30V 5mA Fixed Over Current Protection Positive SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.2V@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809111519_Texas-Instruments-TLV76012DBZT_C134029.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV76012DBZT/C134029",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-tlv76012dbzt_C134029.html"
+  },
+  "C152478": {
+   "code": "C152478",
+   "model": "MC7812ABD2TR4G",
+   "brand": "onsemi",
+   "stock": 803,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-2",
+   "prices": [
+    [
+     1,
+     0.7397
+    ],
+    [
+     10,
+     0.595
+    ],
+    [
+     30,
+     0.5235
+    ],
+    [
+     100,
+     0.452
+    ],
+    [
+     500,
+     0.4097
+    ],
+    [
+     800,
+     0.387
+    ]
+   ],
+   "p1": 0.7397,
+   "desc": "-40℃~+125℃@(Tj) 1 10uVrms 12V 1A 2V@(1A) 3.4mA 30V 60dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "10uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MC7812ABD2TR4G_C152478.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812ABD2TR4G/C152478",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812abd2tr4g_C152478.html"
+  },
+  "C259521": {
+   "code": "C259521",
+   "model": "HT75C0-3",
+   "brand": "Holtek Semicon",
+   "stock": 880,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1839
+    ],
+    [
+     50,
+     0.1454
+    ],
+    [
+     150,
+     0.1288
+    ],
+    [
+     1000,
+     0.1083
+    ],
+    [
+     2000,
+     0.0991
+    ],
+    [
+     5000,
+     0.0935
+    ]
+   ],
+   "p1": 0.1839,
+   "desc": "-40℃~+85℃@(Ta) 1 12V 150mA 1uA 25mV@(1mA) 30V Fixed Positive Short Circuit Protection SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031722_Holtek-Semicon-HT75C0-3_C259521.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C03/C259521",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-3_C259521.html"
+  },
+  "C259535": {
+   "code": "C259535",
+   "model": "HT75C0-7",
+   "brand": "Holtek Semicon",
+   "stock": 212,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.1721
+    ],
+    [
+     50,
+     0.1368
+    ],
+    [
+     150,
+     0.1216
+    ],
+    [
+     1000,
+     0.1028
+    ],
+    [
+     2000,
+     0.0943
+    ],
+    [
+     5000,
+     0.0893
+    ]
+   ],
+   "p1": 0.1721,
+   "desc": "-40℃~+85℃@(Ta) 1 10mV@(1mA) 12V 150mA 2.5uA 30V Fixed Over Current Protection、Over Temperature Protection、Enable Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "2.5uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Output discharge",
+    "Voltage Dropout": "10mV@(1mA)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031722_Holtek-Semicon-HT75C0-7_C259535.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C07/C259535",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-7_C259535.html"
+  },
+  "C499638": {
+   "code": "C499638",
+   "model": "78M12",
+   "brand": "KEXIN",
+   "stock": 858,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2",
+   "prices": [
+    [
+     1,
+     0.1434
+    ],
+    [
+     50,
+     0.1134
+    ],
+    [
+     150,
+     0.0984
+    ],
+    [
+     500,
+     0.087
+    ],
+    [
+     2500,
+     0.0781
+    ],
+    [
+     5000,
+     0.0735
+    ]
+   ],
+   "p1": 0.1434,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V@(350mA) 30V 500mA 6mA 75uV 80dB@(120Hz) Fixed Positive Short Circuit Protection TO-252-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(350mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2003232007_KEXIN-78M12_C499638.pdf",
+   "url": "https://jlcpcb.com/partdetail/KEXIN-78M12/C499638",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_kexin-78m12_C499638.html"
+  },
+  "C2863047": {
+   "code": "C2863047",
+   "model": "LM78L12ACZ/LFT4",
+   "brand": "Texas Instruments",
+   "stock": 62,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-92",
+   "prices": [
+    [
+     1,
+     0.5967
+    ],
+    [
+     10,
+     0.5837
+    ],
+    [
+     30,
+     0.5755
+    ],
+    [
+     100,
+     0.5658
+    ],
+    [
+     102,
+     0.5658
+    ],
+    [
+     104,
+     0.5658
+    ]
+   ],
+   "p1": 0.5967,
+   "desc": "0℃~+125℃@(Tj) 1 100mA 12V 30V 54dB@(120Hz) 5mA 80uV Fixed Over Temperature Protection、Short Circuit Protection Positive TO-92 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "80uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010800_Texas-Instruments-LM78L12ACZ-LFT4_C2863047.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM78L12ACZLFT4/C2863047",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm78l12acz-lft4_C2863047.html"
+  },
+  "C2864511": {
+   "code": "C2864511",
+   "model": "LM78L12ACZ/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 4,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-92-3",
+   "prices": [
+    [
+     1,
+     0.3382
+    ],
+    [
+     10,
+     0.3317
+    ],
+    [
+     30,
+     0.3268
+    ],
+    [
+     100,
+     0.3219
+    ],
+    [
+     102,
+     0.3219
+    ],
+    [
+     104,
+     0.3219
+    ]
+   ],
+   "p1": 0.3382,
+   "desc": "0℃~+125℃@(Tj) 1 100mA 12V 30V 54dB@(120Hz) 5mA 80uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-92-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "80uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302212330_Texas-Instruments-LM78L12ACZ-NOPB_C2864511.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM78L12ACZNOPB/C2864511",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm78l12acz-nopb_C2864511.html"
+  },
+  "C2865175": {
+   "code": "C2865175",
+   "model": "LM78L12ACZ/LFT3",
+   "brand": "Texas Instruments",
+   "stock": 90,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-92",
+   "prices": [
+    [
+     1,
+     0.5772
+    ],
+    [
+     10,
+     0.5642
+    ],
+    [
+     30,
+     0.556
+    ],
+    [
+     100,
+     0.5463
+    ],
+    [
+     102,
+     0.5463
+    ],
+    [
+     104,
+     0.5463
+    ]
+   ],
+   "p1": 0.5772,
+   "desc": "0℃~+125℃@(Tj) 1 100mA 12V 30V 54dB@(120Hz) 5mA 80uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-92 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "80uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220730_Texas-Instruments-LM78L12ACZ-LFT3_C2865175.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM78L12ACZLFT3/C2865175",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm78l12acz-lft3_C2865175.html"
+  },
+  "C2866050": {
+   "code": "C2866050",
+   "model": "UA78M12CKVURG3",
+   "brand": "Texas Instruments",
+   "stock": 42,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-3",
+   "prices": [
+    [
+     1,
+     0.9998
+    ],
+    [
+     10,
+     0.886
+    ],
+    [
+     30,
+     0.7787
+    ],
+    [
+     100,
+     0.6991
+    ],
+    [
+     500,
+     0.6666
+    ],
+    [
+     1000,
+     0.6503
+    ]
+   ],
+   "p1": 0.9998,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V 30V 500mA 55dB@(120Hz) 75uV Fixed Over Temperature Protection、Short Circuit Protection Positive TO-252-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010600_Texas-Instruments-UA78M12CKVURG3_C2866050.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA78M12CKVURG3/C2866050",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua78m12ckvurg3_C2866050.html"
+  },
+  "C2866978": {
+   "code": "C2866978",
+   "model": "LM78L12ACM/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 98,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOIC-8",
+   "prices": [
+    [
+     1,
+     0.6844
+    ],
+    [
+     10,
+     0.5544
+    ],
+    [
+     30,
+     0.491
+    ],
+    [
+     95,
+     0.426
+    ],
+    [
+     475,
+     0.3886
+    ],
+    [
+     1045,
+     0.3691
+    ]
+   ],
+   "p1": 0.6844,
+   "desc": "0℃~+125℃@(Tj) 1 100mA 12V 30V 54dB@(120Hz) 5mA 80uV Fixed Over Temperature Protection、Short Circuit Protection Positive SOIC-8 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "80uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220700_Texas-Instruments-LM78L12ACM-NOPB_C2866978.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM78L12ACMNOPB/C2866978",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm78l12acm-nopb_C2866978.html"
+  },
+  "C2868177": {
+   "code": "C2868177",
+   "model": "LM78L12ACZ/LFT7",
+   "brand": "Texas Instruments",
+   "stock": 100,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-92",
+   "prices": [
+    [
+     1,
+     0.8113
+    ],
+    [
+     10,
+     0.6552
+    ],
+    [
+     30,
+     0.5772
+    ],
+    [
+     100,
+     0.5008
+    ],
+    [
+     500,
+     0.4536
+    ],
+    [
+     1000,
+     0.4308
+    ]
+   ],
+   "p1": 0.8113,
+   "desc": "0℃~+125℃@(Tj) 1 100mA 12V 30V 54dB@(120Hz) 5mA 80uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-92 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "80uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220000_Texas-Instruments-LM78L12ACZ-LFT7_C2868177.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM78L12ACZLFT7/C2868177",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm78l12acz-lft7_C2868177.html"
+  },
+  "C2872732": {
+   "code": "C2872732",
+   "model": "TLV76012DBZR",
+   "brand": "Texas Instruments",
+   "stock": 6910,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.1987
+    ],
+    [
+     50,
+     0.1577
+    ],
+    [
+     150,
+     0.1402
+    ],
+    [
+     500,
+     0.1182
+    ],
+    [
+     3000,
+     0.1085
+    ],
+    [
+     6000,
+     0.1026
+    ]
+   ],
+   "p1": 0.1987,
+   "desc": "-40℃~+125℃@(Tj) 1 1.2V@(100mA) 100mA 12V 30V 5mA Fixed Over Current Protection、Over Temperature Protection Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "5mA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.2V@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010130_Texas-Instruments-TLV76012DBZR_C2872732.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV76012DBZR/C2872732",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-tlv76012dbzr_C2872732.html"
+  },
+  "C6398163": {
+   "code": "C6398163",
+   "model": "LR78M12-K",
+   "brand": "LR",
+   "stock": 1137,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252",
+   "prices": [
+    [
+     1,
+     0.1665
+    ],
+    [
+     50,
+     0.1308
+    ],
+    [
+     150,
+     0.1155
+    ],
+    [
+     500,
+     0.0963
+    ],
+    [
+     2500,
+     0.0878
+    ],
+    [
+     5000,
+     0.0828
+    ]
+   ],
+   "p1": 0.1665,
+   "desc": "-40℃~+125℃ 1 12V 2V@(500mA) 30V 3mA 500mA 71dB@(120Hz) 76uV Fixed Over Current Protection、Short Circuit Protection Positive TO-252 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "3mA",
+    "Noise": "76uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2305231109_LR-LR78M12-K_C6398163.pdf",
+   "url": "https://jlcpcb.com/partdetail/LR-LR78M12K/C6398163",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_lr-lr78m12-k_C6398163.html"
+  },
+  "C6398169": {
+   "code": "C6398169",
+   "model": "LR7812-L",
+   "brand": "LR",
+   "stock": 199,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3",
+   "prices": [
+    [
+     1,
+     0.3436
+    ],
+    [
+     50,
+     0.2697
+    ],
+    [
+     150,
+     0.238
+    ],
+    [
+     800,
+     0.1987
+    ],
+    [
+     2400,
+     0.1811
+    ],
+    [
+     4800,
+     0.1706
+    ]
+   ],
+   "p1": 0.3436,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 71dB@(120Hz) 76uV Fixed Over Current Protection、Short Circuit Protection TO-263-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "2mA",
+    "Noise": "76uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2305231109_LR-LR7812-L_C6398169.pdf",
+   "url": "https://jlcpcb.com/partdetail/LR-LR7812L/C6398169",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_lr-lr7812-l_C6398169.html"
+  },
+  "C6430949": {
+   "code": "C6430949",
+   "model": "L7812CV",
+   "brand": "GOODWORK",
+   "stock": 46,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220AB",
+   "prices": [
+    [
+     1,
+     0.2285
+    ],
+    [
+     50,
+     0.1708
+    ],
+    [
+     150,
+     0.1507
+    ],
+    [
+     500,
+     0.1259
+    ],
+    [
+     2000,
+     0.1147
+    ],
+    [
+     5000,
+     0.108
+    ]
+   ],
+   "p1": 0.2285,
+   "desc": "0℃~+125℃ 1 1.5A 100mV@(1A) 12V 30V 9mA Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220AB Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "standby current": "9mA",
+    "Operating Temperature": "0℃~+125℃",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "100mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407291511_GOODWORK-L7812CV_C6430949.pdf",
+   "url": "https://jlcpcb.com/partdetail/GOODWORK-L7812CV/C6430949",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_goodwork-l7812cv_C6430949.html"
+  },
+  "C7432058": {
+   "code": "C7432058",
+   "model": "LM78M12ADT/TR",
+   "brand": "HGSEMI",
+   "stock": 648,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2",
+   "prices": [
+    [
+     1,
+     0.1356
+    ],
+    [
+     50,
+     0.1067
+    ],
+    [
+     150,
+     0.0922
+    ],
+    [
+     500,
+     0.0815
+    ],
+    [
+     2500,
+     0.0752
+    ],
+    [
+     5000,
+     0.0709
+    ]
+   ],
+   "p1": 0.1356,
+   "desc": "0℃~+125℃@(Tj) 1 12V 1A 2V@(500mA) 30V 4.1mA 75uVrms 80dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive TO-252-2 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "standby current": "4.1mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Voltage Dropout": "2V@(500mA)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031724_HGSEMI-LM78M12ADT-TR_C7432058.pdf",
+   "url": "https://jlcpcb.com/partdetail/HGSEMI-LM78M12ADTTR/C7432058",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hgsemi-lm78m12adt-tr_C7432058.html"
+  },
+  "C7434475": {
+   "code": "C7434475",
+   "model": "78L12",
+   "brand": "Shanghai Siproin Microelectronics",
+   "stock": 551,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.056
+    ],
+    [
+     100,
+     0.0443
+    ],
+    [
+     300,
+     0.0384
+    ],
+    [
+     1000,
+     0.034
+    ],
+    [
+     5000,
+     0.0304
+    ],
+    [
+     10000,
+     0.0287
+    ]
+   ],
+   "p1": 0.056,
+   "desc": "-25℃~+125℃@(Tj) 1 100mA 12V 30V 40uV 5.5mA 80dB Fixed Over Temperature Protection、Short Circuit Protection Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB",
+    "Operating Temperature": "-25℃~+125℃@(Tj)",
+    "standby current": "5.5mA",
+    "Noise": "40uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312190036_Shanghai-Siproin-Microelectronics-78L12_C7434475.pdf",
+   "url": "https://jlcpcb.com/partdetail/8446386-78L12/C7434475",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_shanghai-siproin-microelectronics-78l12_C7434475.html"
+  },
+  "C7544694": {
+   "code": "C7544694",
+   "model": "78L12",
+   "brand": "ShunYe",
+   "stock": 686,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.1008
+    ],
+    [
+     50,
+     0.0797
+    ],
+    [
+     150,
+     0.0691
+    ],
+    [
+     1000,
+     0.0612
+    ],
+    [
+     2000,
+     0.0548
+    ],
+    [
+     5000,
+     0.0517
+    ]
+   ],
+   "p1": 0.1008,
+   "desc": "-40℃~+125℃@(Tj) 1 1.7V@(40mA) 100mA 12V 30V 4.3mA 42dB@(120Hz) 70uVrms Fixed Positive SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "42dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "70uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Voltage Dropout": "1.7V@(40mA)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/ShunYe-78L12/C7544694",
+   "lcsc_url": null
+  },
+  "C17702054": {
+   "code": "C17702054",
+   "model": "7812",
+   "brand": "HXY MOSFET",
+   "stock": 271,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.248
+    ],
+    [
+     50,
+     0.1948
+    ],
+    [
+     150,
+     0.1719
+    ],
+    [
+     500,
+     0.1434
+    ],
+    [
+     2500,
+     0.1308
+    ],
+    [
+     5000,
+     0.1231
+    ]
+   ],
+   "p1": 0.248,
+   "desc": "-25℃~+125℃@(Tj) 1 12V 1A 2V@(1A) 30V 71dB@(120Hz) 8mA Fixed Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "-25℃~+125℃@(Tj)",
+    "standby current": "8mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309121406_HXY-MOSFET-7812_C17702054.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-7812/C17702054",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-7812_C17702054.html"
+  },
+  "C20606625": {
+   "code": "C20606625",
+   "model": "7812",
+   "brand": "YFW",
+   "stock": 6,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220AB",
+   "prices": [
+    [
+     1,
+     0.3117
+    ],
+    [
+     50,
+     0.2439
+    ],
+    [
+     150,
+     0.2153
+    ],
+    [
+     500,
+     0.1797
+    ],
+    [
+     2000,
+     0.1638
+    ],
+    [
+     5000,
+     0.1542
+    ]
+   ],
+   "p1": 0.3117,
+   "desc": "0℃~+150℃@(Tj) 1 1.5A 12V 2V@(500mA) 30V 55dB@(120Hz) 75uV 8mA Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220AB Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+150℃@(Tj)",
+    "standby current": "8mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121842_YFW-7812_C20606625.pdf",
+   "url": "https://jlcpcb.com/partdetail/YFW-7812/C20606625",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_yfw-7812_C20606625.html"
+  },
+  "C20611634": {
+   "code": "C20611634",
+   "model": "7812",
+   "brand": "HXY MOSFET",
+   "stock": 1666,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2L",
+   "prices": [
+    [
+     1,
+     0.1679
+    ],
+    [
+     50,
+     0.1347
+    ],
+    [
+     150,
+     0.1205
+    ],
+    [
+     500,
+     0.1026
+    ],
+    [
+     2500,
+     0.0904
+    ],
+    [
+     5000,
+     0.0857
+    ]
+   ],
+   "p1": 0.1679,
+   "desc": "1 12V 2V@(350mA) 30V 4.6mA 500mA 75uV 80dB@(120Hz) Fixed Positive TO-252-2L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "Operating Temperature": "-",
+    "standby current": "4.6mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(350mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401261511_HXY-MOSFET-7812_C20611634.pdf",
+   "url": "https://jlcpcb.com/partdetail/HXYMOSFET-7812/C20611634",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_hxy-mosfet-7812_C20611634.html"
+  },
+  "C22378638": {
+   "code": "C22378638",
+   "model": "L7812",
+   "brand": "OSEN",
+   "stock": 84,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220ST",
+   "prices": [
+    [
+     1,
+     0.1679
+    ],
+    [
+     50,
+     0.1319
+    ],
+    [
+     150,
+     0.1164
+    ],
+    [
+     500,
+     0.0971
+    ],
+    [
+     2000,
+     0.0885
+    ],
+    [
+     5000,
+     0.0834
+    ]
+   ],
+   "p1": 0.1679,
+   "desc": "0℃~+125℃@(Tj) 1 1.2A 12V 2V@(1A) 30V 71dB@(120Hz) 76uV Fixed Positive Short Circuit Protection TO-220ST Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "5.1mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "76uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.2A",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404081638_OSEN-L7812_C22378638.pdf",
+   "url": "https://jlcpcb.com/partdetail/OSEN-L7812/C22378638",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_osen-l7812_C22378638.html"
+  },
+  "C22438931": {
+   "code": "C22438931",
+   "model": "78M12",
+   "brand": "FUXINSEMI",
+   "stock": 2400,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252",
+   "prices": [
+    [
+     1,
+     0.0932
+    ],
+    [
+     50,
+     0.0737
+    ],
+    [
+     150,
+     0.0639
+    ],
+    [
+     500,
+     0.0566
+    ],
+    [
+     2500,
+     0.0508
+    ],
+    [
+     5000,
+     0.0478
+    ]
+   ],
+   "p1": 0.0932,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 2V@(350mA) 30V 4.6mA 500mA 75uVrms 80dB@(120Hz) Fixed Positive TO-252 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "standby current": "4.6mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "75uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(350mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2405241452_FUXINSEMI-78M12_C22438931.pdf",
+   "url": "https://jlcpcb.com/partdetail/FUXINSEMI-78M12/C22438931",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_fuxinsemi-78m12_C22438931.html"
+  },
+  "C28310390": {
+   "code": "C28310390",
+   "model": "HE2210PBC0R",
+   "brand": "HEERMICR",
+   "stock": 800,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89B-3",
+   "prices": [
+    [
+     1,
+     0.1717
+    ],
+    [
+     50,
+     0.1348
+    ],
+    [
+     150,
+     0.119
+    ],
+    [
+     1000,
+     0.0994
+    ],
+    [
+     2000,
+     0.0906
+    ],
+    [
+     5000,
+     0.0852
+    ]
+   ],
+   "p1": 0.1717,
+   "desc": "-40℃~+85℃ 1 100uVrms 12V 2uA 30V 400mA 85dB@(1kHz) Fixed Positive Short Circuit Protection、Thermal Shutdown SOT-89B-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "85dB@(1kHz)",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "2uA",
+    "Noise": "100uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "400mA",
+    "Features": "Short Circuit Protection、Thermal shutdown、Enable control",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/HEERMICR-HE2210PBC0R/C28310390",
+   "lcsc_url": null
+  },
+  "C50407967": {
+   "code": "C50407967",
+   "model": "MG78M12N3",
+   "brand": "Megain",
+   "stock": 3054,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0355
+    ],
+    [
+     200,
+     0.0278
+    ],
+    [
+     1000,
+     0.0235
+    ],
+    [
+     2000,
+     0.0209
+    ],
+    [
+     10000,
+     0.0187
+    ],
+    [
+     20000,
+     0.0174
+    ]
+   ],
+   "p1": 0.0355,
+   "desc": "-40℃~+85℃ 1 1.8V@(500mA) 12V 250uA 30V 500mA 80dB@(1kHz) Fixed Over Current Protection、Over Temperature Protection、Current Limit Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(1kHz)",
+    "Operating Temperature": "-40℃~+85℃",
+    "standby current": "250uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Voltage Dropout": "1.8V@(500mA)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Megain-MG78M12N3/C50407967",
+   "lcsc_url": null
+  },
+  "C52268400": {
+   "code": "C52268400",
+   "model": "AiP7812JG252.TR",
+   "brand": "Wuxi I-core Elec",
+   "stock": 490,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252",
+   "prices": [
+    [
+     1,
+     0.2619
+    ],
+    [
+     50,
+     0.2046
+    ],
+    [
+     150,
+     0.18
+    ],
+    [
+     500,
+     0.1493
+    ]
+   ],
+   "p1": 0.2619,
+   "desc": "-40℃~+125℃ 1 12V 2V@(1A) 30V 3mA 72dB 75uV Fixed Positive TO-252 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "72dB",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "3mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Wuxi_I_coreElec-AiP7812JG252TR/C52268400",
+   "lcsc_url": null
+  },
+  "C125239": {
+   "code": "C125239",
+   "model": "KIA7812AF-RTF/P",
+   "brand": "KEC Semicon",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-2(DPAK)",
+   "prices": [
+    [
+     1,
+     0.2346
+    ],
+    [
+     50,
+     0.1855
+    ],
+    [
+     150,
+     0.1645
+    ],
+    [
+     500,
+     0.1382
+    ],
+    [
+     3000,
+     0.115
+    ],
+    [
+     6000,
+     0.108
+    ]
+   ],
+   "p1": 0.2346,
+   "desc": "-40℃~+150℃@(Tj) 1 12V 1A 2V@(1.0A) 30V 4.3mA 71dB@(120Hz) 90uVrms Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-252-2(DPAK) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "90uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEC-Semicon-KIA7812AF-RTF-P_C125239.pdf",
+   "url": "https://jlcpcb.com/partdetail/KECSemicon-KIA7812AF_RTFP/C125239",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_kec-semicon-kia7812af-rtf-p_C125239.html"
+  },
+  "C139828": {
+   "code": "C139828",
+   "model": "CJ78M12",
+   "brand": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-251",
+   "prices": [
+    [
+     1,
+     0.1532
+    ],
+    [
+     50,
+     0.1228
+    ],
+    [
+     150,
+     0.1075
+    ],
+    [
+     500,
+     0.0961
+    ],
+    [
+     2500,
+     0.087
+    ],
+    [
+     5000,
+     0.0825
+    ]
+   ],
+   "p1": 0.1532,
+   "desc": "-25℃~+125℃ 1 12V 2V@(350mA) 30V 4.6mA 500mA 75uV 80dB@(120Hz) Fixed Positive TO-251 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "standby current": "4.6mA",
+    "Operating Temperature": "-25℃~+125℃",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(350mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810010519_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--CJ78M12_C139828.pdf",
+   "url": "https://jlcpcb.com/partdetail/151153-CJ78M12/C139828",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_jiangsu-changjing-electronics-technology-co-ltd-cj78m12_C139828.html"
+  },
+  "C185496": {
+   "code": "C185496",
+   "model": "MC7812ABTG",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.821
+    ],
+    [
+     10,
+     0.6682
+    ],
+    [
+     30,
+     0.5902
+    ],
+    [
+     100,
+     0.4829
+    ],
+    [
+     500,
+     0.4374
+    ],
+    [
+     1000,
+     0.413
+    ]
+   ],
+   "p1": 0.821,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 2V@(1A) 3.4mA 30V 60dB@(120Hz) Fixed Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3.4mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "10uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2210210200_onsemi-MC7812ABTG_C185496.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812ABTG/C185496",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812abtg_C185496.html"
+  },
+  "C233235": {
+   "code": "C233235",
+   "model": "MC79M12BDTG",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     0.5755
+    ],
+    [
+     10,
+     0.5625
+    ],
+    [
+     30,
+     0.5544
+    ],
+    [
+     100,
+     0.5463
+    ],
+    [
+     500,
+     0.5463
+    ],
+    [
+     1000,
+     0.5463
+    ]
+   ],
+   "p1": 0.5755,
+   "desc": "-40℃~+125℃@(Tj) 1.1V@(500mA) 12V 30V 500mA 60dB@(120Hz) 75uV Fixed Negative Over Current Protection、Over Temperature Protection、Short Circuit Protection DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Output discharge、Reverse polarity voltage protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_onsemi-MC79M12BDTG_C233235.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC79M12BDTG/C233235",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc79m12bdtg_C233235.html"
+  },
+  "C259861": {
+   "code": "C259861",
+   "model": "HT75C0-3",
+   "brand": "Holtek Semicon",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     0.1785
+    ],
+    [
+     50,
+     0.14
+    ],
+    [
+     150,
+     0.1234
+    ],
+    [
+     500,
+     0.103
+    ],
+    [
+     3000,
+     0.0937
+    ],
+    [
+     6000,
+     0.0882
+    ]
+   ],
+   "p1": 0.1785,
+   "desc": "-40℃~+85℃@(Ta) 1 12V 150mA 1uA 25mV@(1mA) 30V Fixed Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1uA",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "150mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "25mV@(1mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031722_Holtek-Semicon-HT75C0-3_C259861.pdf",
+   "url": "https://jlcpcb.com/partdetail/HoltekSemicon-HT75C03/C259861",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_holtek-semicon-ht75c0-3_C259861.html"
+  },
+  "C438618": {
+   "code": "C438618",
+   "model": "KA7812B",
+   "brand": "FeiHong",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.1486
+    ],
+    [
+     50,
+     0.1455
+    ],
+    [
+     150,
+     0.1434
+    ],
+    [
+     500,
+     0.1415
+    ],
+    [
+     2500,
+     0.1415
+    ],
+    [
+     5000,
+     0.1415
+    ]
+   ],
+   "p1": 0.1486,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 4mA 71dB@(120Hz) 76uV Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "4mA",
+    "Noise": "76uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/1912111437_FeiHong-KA7812B_C438618.pdf",
+   "url": "https://jlcpcb.com/partdetail/FeiHong-KA7812B/C438618",
+   "lcsc_url": "https://www.lcsc.com/product-detail/linear voltage regulators (ldo)_feihong_ka7812b_C438618.html"
+  },
+  "C544724": {
+   "code": "C544724",
+   "model": "UA78M12CKCS",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     1.1591
+    ],
+    [
+     10,
+     1.1591
+    ],
+    [
+     30,
+     1.1591
+    ],
+    [
+     200,
+     0.4487
+    ],
+    [
+     500,
+     0.4325
+    ],
+    [
+     1000,
+     0.426
+    ]
+   ],
+   "p1": 1.1591,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V 30V 500mA 55dB@(120Hz) 75uVrms Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "75uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303021130_Texas-Instruments-UA78M12CKCS_C544724.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA78M12CKCS/C544724",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua78m12ckcs_C544724.html"
+  },
+  "C666280": {
+   "code": "C666280",
+   "model": "LT3015EDD-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DFN-8-EP(3x3)",
+   "prices": [
+    [
+     1,
+     5.9304
+    ],
+    [
+     10,
+     5.9304
+    ],
+    [
+     30,
+     5.9304
+    ],
+    [
+     200,
+     2.2955
+    ],
+    [
+     500,
+     2.2142
+    ],
+    [
+     1000,
+     2.1752
+    ]
+   ],
+   "p1": 5.9304,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 500mV@(1.5A) 53dB@(120Hz) Fixed Negative Over Current Protection、Over Temperature Protection、Reverse connection protection DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015EDD-12-PBF_C666280.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015EDD_12PBF/C666280",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015edd-12-pbf_C666280.html"
+  },
+  "C666281": {
+   "code": "C666281",
+   "model": "LT3015EDD-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DFN-8-EP(3x3)",
+   "prices": [
+    [
+     1,
+     5.1859
+    ],
+    [
+     10,
+     5.1859
+    ],
+    [
+     12,
+     5.1859
+    ],
+    [
+     200,
+     2.0077
+    ],
+    [
+     500,
+     1.9378
+    ],
+    [
+     1000,
+     1.9021
+    ]
+   ],
+   "p1": 5.1859,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 500mV@(1.5A) 53dB@(120Hz) Fixed Negative DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015EDD-12-TRPBF_C666281.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015EDD_12TRPBF/C666281",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015edd-12-trpbf_C666281.html"
+  },
+  "C666294": {
+   "code": "C666294",
+   "model": "LT3015EMSE-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-12-EP-0.65mm",
+   "prices": [
+    [
+     1,
+     5.1859
+    ],
+    [
+     10,
+     5.1859
+    ],
+    [
+     30,
+     5.1859
+    ],
+    [
+     200,
+     2.0077
+    ],
+    [
+     500,
+     1.9378
+    ],
+    [
+     1000,
+     1.9021
+    ]
+   ],
+   "p1": 5.1859,
+   "desc": "-40℃~+125℃ 1 12V 30V Fixed Negative Under Voltage Lockout、Over Current Protection、Over Temperature Protection MSOP-12-EP-0.65mm Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "62dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse-polarity current protection",
+    "Voltage Dropout": "310mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015EMSE-12-PBF_C666294.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015EMSE_12PBF/C666294",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015emse-12-pbf_C666294.html"
+  },
+  "C666295": {
+   "code": "C666295",
+   "model": "LT3015EMSE-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-12-EP-0.65mm",
+   "prices": [
+    [
+     1,
+     5.1859
+    ],
+    [
+     10,
+     5.1859
+    ],
+    [
+     12,
+     5.1859
+    ],
+    [
+     200,
+     2.0077
+    ],
+    [
+     500,
+     1.9378
+    ],
+    [
+     1000,
+     1.9021
+    ]
+   ],
+   "p1": 5.1859,
+   "desc": "-40℃~+125℃ 1 12V 30V Fixed Negative MSOP-12-EP-0.65mm Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "62dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Voltage Dropout": "310mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015EMSE-12-TRPBF_C666295.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015EMSE_12TRPBF/C666295",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015emse-12-trpbf_C666295.html"
+  },
+  "C666307": {
+   "code": "C666307",
+   "model": "LT3015EQ-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-5",
+   "prices": [
+    [
+     1,
+     5.6915
+    ],
+    [
+     10,
+     5.6915
+    ],
+    [
+     30,
+     5.6915
+    ],
+    [
+     200,
+     2.2028
+    ],
+    [
+     500,
+     2.1264
+    ],
+    [
+     1000,
+     2.0874
+    ]
+   ],
+   "p1": 5.6915,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative Under Voltage Lockout、Over Current Protection、Over Temperature Protection DDPAK-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015EQ-12-PBF_C666307.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015EQ_12PBF/C666307",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015eq-12-pbf_C666307.html"
+  },
+  "C666308": {
+   "code": "C666308",
+   "model": "LT3015EQ-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-5",
+   "prices": [
+    [
+     1,
+     5.8231
+    ],
+    [
+     10,
+     5.8231
+    ],
+    [
+     12,
+     5.8231
+    ],
+    [
+     200,
+     2.2548
+    ],
+    [
+     750,
+     2.1752
+    ],
+    [
+     1500,
+     2.1362
+    ]
+   ],
+   "p1": 5.8231,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative DDPAK-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015EQ-12-TRPBF_C666308.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015EQ_12TRPBF/C666308",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015eq-12-trpbf_C666308.html"
+  },
+  "C666320": {
+   "code": "C666320",
+   "model": "LT3015ET-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-5",
+   "prices": [
+    [
+     1,
+     5.7142
+    ],
+    [
+     10,
+     5.7142
+    ],
+    [
+     30,
+     5.7142
+    ],
+    [
+     200,
+     2.2126
+    ],
+    [
+     500,
+     2.1345
+    ],
+    [
+     1000,
+     2.0955
+    ]
+   ],
+   "p1": 5.7142,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative Under Voltage Lockout、Over Current Protection、Over Temperature Protection TO-220-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015ET-12-PBF_C666320.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015ET_12PBF/C666320",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015et-12-pbf_C666320.html"
+  },
+  "C666328": {
+   "code": "C666328",
+   "model": "LT3015IDD-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DFN-8-EP(3x3)",
+   "prices": [
+    [
+     1,
+     5.8231
+    ],
+    [
+     10,
+     5.8231
+    ],
+    [
+     30,
+     5.8231
+    ],
+    [
+     200,
+     2.2548
+    ],
+    [
+     500,
+     2.1752
+    ],
+    [
+     1000,
+     2.1362
+    ]
+   ],
+   "p1": 5.8231,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 500mV@(1.5A) 53dB@(120Hz) Fixed Negative Under Voltage Lockout、Over Current Protection、Over Temperature Protection DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse-polarity current protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015IDD-12-PBF_C666328.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015IDD_12PBF/C666328",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015idd-12-pbf_C666328.html"
+  },
+  "C666329": {
+   "code": "C666329",
+   "model": "LT3015IDD-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DFN-8-EP(3x3)",
+   "prices": [
+    [
+     1,
+     5.8231
+    ],
+    [
+     10,
+     5.8231
+    ],
+    [
+     12,
+     5.8231
+    ],
+    [
+     200,
+     2.2548
+    ],
+    [
+     500,
+     2.1752
+    ],
+    [
+     1000,
+     2.1362
+    ]
+   ],
+   "p1": 5.8231,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 500mV@(1.5A) 53dB@(120Hz) Fixed Negative DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "500mV@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015IDD-12-TRPBF_C666329.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015IDD_12TRPBF/C666329",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015idd-12-trpbf_C666329.html"
+  },
+  "C666356": {
+   "code": "C666356",
+   "model": "LT3015IQ-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-5",
+   "prices": [
+    [
+     1,
+     6.6782
+    ],
+    [
+     10,
+     6.6782
+    ],
+    [
+     30,
+     6.6782
+    ],
+    [
+     200,
+     2.5848
+    ],
+    [
+     500,
+     2.4938
+    ],
+    [
+     1000,
+     2.4499
+    ]
+   ],
+   "p1": 6.6782,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative Under Voltage Lockout、Over Current Protection、Over Temperature Protection DDPAK-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015IQ-12-PBF_C666356.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015IQ_12PBF/C666356",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015iq-12-pbf_C666356.html"
+  },
+  "C666357": {
+   "code": "C666357",
+   "model": "LT3015IQ-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-5",
+   "prices": [
+    [
+     1,
+     6.6782
+    ],
+    [
+     10,
+     6.6782
+    ],
+    [
+     12,
+     6.6782
+    ],
+    [
+     200,
+     2.5848
+    ],
+    [
+     750,
+     2.4938
+    ],
+    [
+     1500,
+     2.4499
+    ]
+   ],
+   "p1": 6.6782,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative DDPAK-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015IQ-12-TRPBF_C666357.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015IQ_12TRPBF/C666357",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015iq-12-trpbf_C666357.html"
+  },
+  "C666369": {
+   "code": "C666369",
+   "model": "LT3015IT-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-5",
+   "prices": [
+    [
+     1,
+     7.5122
+    ],
+    [
+     10,
+     7.5122
+    ],
+    [
+     30,
+     7.5122
+    ],
+    [
+     200,
+     2.9083
+    ],
+    [
+     500,
+     2.8059
+    ],
+    [
+     1000,
+     2.7555
+    ]
+   ],
+   "p1": 7.5122,
+   "desc": "-40℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative Over Current Protection TO-220-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "1.1mA",
+    "Noise": "60uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015IT-12-PBF_C666369.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015IT_12PBF/C666369",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015it-12-pbf_C666369.html"
+  },
+  "C666378": {
+   "code": "C666378",
+   "model": "LT3015MPMSE-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "MSOP-12-EP-0.65mm",
+   "prices": [
+    [
+     1,
+     13.8295
+    ],
+    [
+     10,
+     13.8295
+    ],
+    [
+     12,
+     13.8295
+    ],
+    [
+     200,
+     5.3517
+    ],
+    [
+     500,
+     5.1647
+    ],
+    [
+     1000,
+     5.0721
+    ]
+   ],
+   "p1": 13.8295,
+   "desc": "-55℃~+125℃ 1 12V 30V Fixed Negative MSOP-12-EP-0.65mm Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-55℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015MPMSE-12-TRPBF_C666378.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015MPMSE_12TRPBF/C666378",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015mpmse-12-trpbf_C666378.html"
+  },
+  "C666391": {
+   "code": "C666391",
+   "model": "LT3015MPQ-12#PBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-5",
+   "prices": [
+    [
+     1,
+     15.5218
+    ],
+    [
+     10,
+     15.5218
+    ],
+    [
+     30,
+     15.5218
+    ],
+    [
+     200,
+     6.0068
+    ],
+    [
+     500,
+     5.7955
+    ],
+    [
+     1000,
+     5.6915
+    ]
+   ],
+   "p1": 15.5218,
+   "desc": "-55℃~+125℃ 1 1.5A 12V 30V 680mV@(1.5A) Fixed Negative Under Voltage Lockout、Over Current Protection、Over Temperature Protection DDPAK-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "Operating Temperature": "-55℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Input under-voltage protection、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015MPQ-12-PBF_C666391.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015MPQ_12PBF/C666391",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015mpq-12-pbf_C666391.html"
+  },
+  "C666392": {
+   "code": "C666392",
+   "model": "LT3015MPQ-12#TRPBF",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-5",
+   "prices": [
+    [
+     1,
+     15.5218
+    ],
+    [
+     10,
+     15.5218
+    ],
+    [
+     12,
+     15.5218
+    ],
+    [
+     200,
+     6.0068
+    ],
+    [
+     750,
+     5.7955
+    ],
+    [
+     1500,
+     5.6915
+    ]
+   ],
+   "p1": 15.5218,
+   "desc": "-55℃~+125℃ 1 1.5A 12V 30V 53dB@(120Hz) 680mV@(1.5A) Fixed Negative DDPAK-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "Operating Temperature": "-55℃~+125℃",
+    "standby current": "-",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown、Enable control、Reverse-polarity current protection",
+    "Voltage Dropout": "680mV@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-LT3015MPQ-12-TRPBF_C666392.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-LT3015MPQ_12TRPBF/C666392",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_analog-devices-lt3015mpq-12-trpbf_C666392.html"
+  },
+  "C904230": {
+   "code": "C904230",
+   "model": "MC78M12CDTT5G",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     0.1901
+    ],
+    [
+     50,
+     0.1901
+    ],
+    [
+     60,
+     0.1901
+    ],
+    [
+     1000,
+     0.0737
+    ],
+    [
+     2500,
+     0.0711
+    ],
+    [
+     5000,
+     0.0698
+    ]
+   ],
+   "p1": 0.1901,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 2V@(350mA) 30V 500mA 75uV 80dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "standby current": "3.2mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(350mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_onsemi-MC78M12CDTT5G_C904230.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC78M12CDTT5G/C904230",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc78m12cdtt5g_C904230.html"
+  },
+  "C2762202": {
+   "code": "C2762202",
+   "model": "FHP7812B",
+   "brand": "FeiHong",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.3637
+    ],
+    [
+     50,
+     0.2899
+    ],
+    [
+     250,
+     0.238
+    ],
+    [
+     500,
+     0.1985
+    ],
+    [
+     2500,
+     0.181
+    ],
+    [
+     5000,
+     0.1705
+    ]
+   ],
+   "p1": 0.3637,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 4mA 71dB@(120Hz) 76uV Fixed Over Current Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "4mA",
+    "Noise": "76uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2202131830_FeiHong-FHP7812B_C2762202.pdf",
+   "url": "https://jlcpcb.com/partdetail/FeiHong-FHP7812B/C2762202",
+   "lcsc_url": "https://www.lcsc.com/product-detail/linear voltage regulators (ldo)_feihong_fhp7812b_C2762202.html"
+  },
+  "C2861711": {
+   "code": "C2861711",
+   "model": "UA7812CKCT",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.3744
+    ],
+    [
+     50,
+     0.3744
+    ],
+    [
+     150,
+     0.3744
+    ],
+    [
+     1000,
+     0.1449
+    ],
+    [
+     2500,
+     0.1399
+    ],
+    [
+     5000,
+     0.1374
+    ]
+   ],
+   "p1": 0.3744,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010900_Texas-Instruments-UA7812CKCT_C2861711.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA7812CKCT/C2861711",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua7812ckct_C2861711.html"
+  },
+  "C2867449": {
+   "code": "C2867449",
+   "model": "TL780-12KCS",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.4845
+    ],
+    [
+     50,
+     0.4845
+    ],
+    [
+     150,
+     0.4845
+    ],
+    [
+     1000,
+     0.1875
+    ],
+    [
+     2500,
+     0.181
+    ],
+    [
+     5000,
+     0.1777
+    ]
+   ],
+   "p1": 0.4845,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 180uV 2V@(1A) 30V 80dB@(120Hz) Fixed Over Current Protection、Thermal Shutdown Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "5.5mA",
+    "Noise": "180uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010530_Texas-Instruments-TL780-12KCS_C2867449.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TL78012KCS/C2867449",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-tl780-12kcs_C2867449.html"
+  },
+  "C2870441": {
+   "code": "C2870441",
+   "model": "LM3480IM3X-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-3",
+   "prices": [
+    [
+     1,
+     0.4796
+    ],
+    [
+     10,
+     0.4634
+    ],
+    [
+     30,
+     0.452
+    ],
+    [
+     100,
+     0.4406
+    ],
+    [
+     102,
+     0.4406
+    ],
+    [
+     104,
+     0.4406
+    ]
+   ],
+   "p1": 0.4796,
+   "desc": "-40℃~+125℃@(Tj) 1 1.2V@(100mA) 100mA 12V 2mA 30V 360uVrms Fixed Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "2mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "360uVrms",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.2V@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010330_Texas-Instruments-LM3480IM3X-12-NOPB_C2870441.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM3480IM3X_12NOPB/C2870441",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm3480im3x-12-nopb_C2870441.html"
+  },
+  "C3039547": {
+   "code": "C3039547",
+   "model": "CN86L120OGR",
+   "brand": "Xinbei Electronics Technology",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.0678
+    ],
+    [
+     50,
+     0.0664
+    ],
+    [
+     150,
+     0.0652
+    ],
+    [
+     500,
+     0.0643
+    ],
+    [
+     510,
+     0.0643
+    ],
+    [
+     520,
+     0.0643
+    ]
+   ],
+   "p1": 0.0678,
+   "desc": "-40℃~+85℃@(Ta) 1 1.2uA 12V 300mA 30V 60dB@(100Hz) 700mV@(300mA) Fixed Over Temperature Protection、Short Circuit Protection Positive SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(100Hz)",
+    "Operating Temperature": "-40℃~+85℃@(Ta)",
+    "standby current": "1.2uA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "300mA",
+    "Features": "Short Circuit Protection、Thermal shutdown、Adjustable current limiting",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "700mV@(300mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/3593727-CN86L120OGR/C3039547",
+   "lcsc_url": null
+  },
+  "C3743521": {
+   "code": "C3743521",
+   "model": "TL780-12CKTE",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     0.6064
+    ],
+    [
+     10,
+     0.6064
+    ],
+    [
+     30,
+     0.6064
+    ],
+    [
+     200,
+     0.2341
+    ],
+    [
+     500,
+     0.226
+    ],
+    [
+     1000,
+     0.2228
+    ]
+   ],
+   "p1": 0.6064,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 180uV 2V@(1A) 30V 65dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive - Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "65dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "180uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402031450_Texas-Instruments-TL780-12CKTE_C3743521.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-TL78012CKTE/C3743521",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-tl780-12ckte_C3743521.html"
+  },
+  "C3743782": {
+   "code": "C3743782",
+   "model": "MC7812ECDTXM",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-3(DPAK)",
+   "prices": [
+    [
+     1,
+     0.1047
+    ],
+    [
+     50,
+     0.1047
+    ],
+    [
+     60,
+     0.1047
+    ],
+    [
+     1000,
+     0.0405
+    ],
+    [
+     2500,
+     0.0392
+    ],
+    [
+     5000,
+     0.0384
+    ]
+   ],
+   "p1": 0.1047,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 2V@(1A) 30V 5.1mA 71dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive TO-252-3(DPAK) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "5.1mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402101900_onsemi-MC7812ECDTXM_C3743782.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812ECDTXM/C3743782",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812ecdtxm_C3743782.html"
+  },
+  "C3744120": {
+   "code": "C3744120",
+   "model": "UA7812CKCE3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.6064
+    ],
+    [
+     10,
+     0.6064
+    ],
+    [
+     30,
+     0.6064
+    ],
+    [
+     200,
+     0.2341
+    ],
+    [
+     500,
+     0.226
+    ],
+    [
+     1000,
+     0.2228
+    ]
+   ],
+   "p1": 0.6064,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 4.3mA 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312071940_Texas-Instruments-UA7812CKCE3_C3744120.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA7812CKCE3/C3744120",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua7812ckce3_C3744120.html"
+  },
+  "C3744218": {
+   "code": "C3744218",
+   "model": "KA78M12TU",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.221
+    ],
+    [
+     50,
+     0.221
+    ],
+    [
+     150,
+     0.221
+    ],
+    [
+     1000,
+     0.0856
+    ],
+    [
+     2500,
+     0.0826
+    ],
+    [
+     5000,
+     0.0812
+    ]
+   ],
+   "p1": 0.221,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V@(500mA) 30V 4.1mA 500mA 80dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "80dB@(120Hz)",
+    "standby current": "4.1mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402211250_onsemi-KA78M12TU_C3744218.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-KA78M12TU/C3744218",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ka78m12tu_C3744218.html"
+  },
+  "C3744230": {
+   "code": "C3744230",
+   "model": "UA79M12CKC",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     0.9901
+    ],
+    [
+     10,
+     0.9901
+    ],
+    [
+     30,
+     0.9901
+    ],
+    [
+     200,
+     0.3837
+    ],
+    [
+     500,
+     0.3707
+    ],
+    [
+     1000,
+     0.3626
+    ]
+   ],
+   "p1": 0.9901,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V 1.5mA 12V 300uV 30V 500mA 50dB@(120Hz) Fixed Negative Over Current Protection、Thermal Shutdown - Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "50dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "1.5mA",
+    "Noise": "300uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "1.1V",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309250943_Texas-Instruments-UA79M12CKC_C3744230.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA79M12CKC/C3744230",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua79m12ckc_C3744230.html"
+  },
+  "C3744384": {
+   "code": "C3744384",
+   "model": "NJM7812FA",
+   "brand": "Nisshinbo Micro Devices Inc.",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220F",
+   "prices": [
+    [
+     1,
+     0.504
+    ],
+    [
+     10,
+     0.3983
+    ],
+    [
+     30,
+     0.3528
+    ],
+    [
+     100,
+     0.2959
+    ],
+    [
+     500,
+     0.2699
+    ],
+    [
+     1000,
+     0.2553
+    ]
+   ],
+   "p1": 0.504,
+   "desc": "-40℃~+150℃@(Tj) 1 1.5A 12V 30V 6mA 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection Positive TO-220F Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161344_Nisshinbo-Micro-Devices-Inc--NJM7812FA_C3744384.pdf",
+   "url": "https://jlcpcb.com/partdetail/4311910-NJM7812FA/C3744384",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_nisshinbo-micro-devices-inc-njm7812fa_C3744384.html"
+  },
+  "C3744598": {
+   "code": "C3744598",
+   "model": "LM79L12ACZ",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-92-3",
+   "prices": [
+    [
+     1,
+     0.3606
+    ],
+    [
+     10,
+     0.3606
+    ],
+    [
+     30,
+     0.3606
+    ],
+    [
+     200,
+     0.1395
+    ],
+    [
+     500,
+     0.1347
+    ],
+    [
+     1000,
+     0.1322
+    ]
+   ],
+   "p1": 0.3606,
+   "desc": "0℃~+70℃@(Ta) 1 100mA 12V 30V 6mA Fixed Negative Over Current Protection、Thermal Shutdown、Short Circuit Protection TO-92-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Operating Temperature": "0℃~+70℃@(Ta)",
+    "standby current": "6mA",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Features": "Over Current Protection、Thermal Shutdown、Short Circuit Protection",
+    "Output Configuration": "Negative",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309250943_Texas-Instruments-LM79L12ACZ_C3744598.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM79L12ACZ/C3744598",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm79l12acz_C3744598.html"
+  },
+  "C3744660": {
+   "code": "C3744660",
+   "model": "UA78M12CKTP",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-3",
+   "prices": [
+    [
+     1,
+     0.2327
+    ],
+    [
+     50,
+     0.2327
+    ],
+    [
+     60,
+     0.2327
+    ],
+    [
+     1000,
+     0.0901
+    ],
+    [
+     2500,
+     0.0869
+    ],
+    [
+     5000,
+     0.0854
+    ]
+   ],
+   "p1": 0.2327,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V 30V 500mA 55dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection Positive TO-252-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "standby current": "4.8mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309250943_Texas-Instruments-UA78M12CKTP_C3744660.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA78M12CKTP/C3744660",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua78m12cktp_C3744660.html"
+  },
+  "C3744781": {
+   "code": "C3744781",
+   "model": "UPC78N12H-AZ",
+   "brand": "RENESAS",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     0.9543
+    ],
+    [
+     10,
+     0.9543
+    ],
+    [
+     30,
+     0.9543
+    ],
+    [
+     200,
+     0.3707
+    ],
+    [
+     500,
+     0.3577
+    ],
+    [
+     1000,
+     0.3512
+    ]
+   ],
+   "p1": 0.9543,
+   "desc": "-20℃~+125℃@(Tj) 1 1.7V 12V 280uVrms 3.6mA 300mA 30V 64dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection Positive - Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "64dB@(120Hz)",
+    "standby current": "3.6mA",
+    "Operating Temperature": "-20℃~+125℃@(Tj)",
+    "Noise": "280uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "300mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.7V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161347_RENESAS-UPC78N12H-AZ_C3744781.pdf",
+   "url": "https://jlcpcb.com/partdetail/RENESAS-UPC78N12HAZ/C3744781",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_renesas-upc78n12h-az_C3744781.html"
+  },
+  "C3744803": {
+   "code": "C3744803",
+   "model": "UA78M12CKTPRG3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-3",
+   "prices": [
+    [
+     1,
+     0.4653
+    ],
+    [
+     10,
+     0.4653
+    ],
+    [
+     12,
+     0.4653
+    ],
+    [
+     200,
+     0.1802
+    ],
+    [
+     500,
+     0.1738
+    ],
+    [
+     1000,
+     0.1706
+    ]
+   ],
+   "p1": 0.4653,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V 30V 500mA 55dB@(120Hz) 6mA 75uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-252-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403031935_Texas-Instruments-UA78M12CKTPRG3_C3744803.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA78M12CKTPRG3/C3744803",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua78m12cktprg3_C3744803.html"
+  },
+  "C3745395": {
+   "code": "C3745395",
+   "model": "UA78M12CKC",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.5593
+    ],
+    [
+     10,
+     0.5593
+    ],
+    [
+     30,
+     0.5593
+    ],
+    [
+     200,
+     0.2163
+    ],
+    [
+     500,
+     0.2098
+    ],
+    [
+     1000,
+     0.2049
+    ]
+   ],
+   "p1": 0.5593,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V 30V 500mA 55dB@(120Hz) 6mA 75uVrms Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "75uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309211359_Texas-Instruments-UA78M12CKC_C3745395.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA78M12CKC/C3745395",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua78m12ckc_C3745395.html"
+  },
+  "C3746373": {
+   "code": "C3746373",
+   "model": "MC7812AECT",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.1397
+    ],
+    [
+     50,
+     0.1397
+    ],
+    [
+     150,
+     0.1397
+    ],
+    [
+     1000,
+     0.054
+    ],
+    [
+     2500,
+     0.0522
+    ],
+    [
+     5000,
+     0.0513
+    ]
+   ],
+   "p1": 0.1397,
+   "desc": "0℃~+125℃@(Ta) 1 12V 1A 2V@(1A) 30V 5.1mA 71dB@(120Hz) 76.0uVrms Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "5.1mA",
+    "Operating Temperature": "0℃~+125℃@(Ta)",
+    "Noise": "76.0uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402101820_onsemi-MC7812AECT_C3746373.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-MC7812AECT/C3746373",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-mc7812aect_C3746373.html"
+  },
+  "C3746933": {
+   "code": "C3746933",
+   "model": "LM79M12CT/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.7105
+    ],
+    [
+     10,
+     0.7105
+    ],
+    [
+     30,
+     0.7105
+    ],
+    [
+     200,
+     0.2748
+    ],
+    [
+     500,
+     0.265
+    ],
+    [
+     1000,
+     0.2618
+    ]
+   ],
+   "p1": 0.7105,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V@(1A) 1.5A 1.5mA 12V 300uVrms 30V 54dB@(120Hz) Fixed Negative Over Current Protection、Over Temperature Protection、Short Circuit Protection TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "1.5mA",
+    "Noise": "300uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402250055_Texas-Instruments-LM79M12CT-NOPB_C3746933.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM79M12CTNOPB/C3746933",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm79m12ct-nopb_C3746933.html"
+  },
+  "C3747010": {
+   "code": "C3747010",
+   "model": "KA79M12TU",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     0.1397
+    ],
+    [
+     50,
+     0.1397
+    ],
+    [
+     150,
+     0.1397
+    ],
+    [
+     1000,
+     0.054
+    ],
+    [
+     2500,
+     0.0522
+    ],
+    [
+     5000,
+     0.0513
+    ]
+   ],
+   "p1": 0.1397,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V@(500mA) 12V 30V 3mA 500mA 60dB@(120Hz) Fixed Negative Over Temperature Protection、Short Circuit Protection TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309151241_onsemi-KA79M12TU_C3747010.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-KA79M12TU/C3747010",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ka79m12tu_C3747010.html"
+  },
+  "C3747782": {
+   "code": "C3747782",
+   "model": "UA79M12MFKB",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     10.6546
+    ],
+    [
+     10,
+     10.6546
+    ],
+    [
+     30,
+     10.6546
+    ],
+    [
+     200,
+     4.1243
+    ],
+    [
+     500,
+     3.9796
+    ],
+    [
+     1000,
+     3.9065
+    ]
+   ],
+   "p1": 10.6546,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V@(350mA) 12V 300uV 30V 500mA 60dB@(120Hz) Fixed Negative Short Circuit Protection、Thermal Shutdown - Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "-",
+    "Noise": "300uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Negative",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(350mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403021055_Texas-Instruments-UA79M12MFKB_C3747782.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA79M12MFKB/C3747782",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua79m12mfkb_C3747782.html"
+  },
+  "C3748338": {
+   "code": "C3748338",
+   "model": "KA7812ERTM",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     0.4421
+    ],
+    [
+     50,
+     0.4421
+    ],
+    [
+     150,
+     0.4421
+    ],
+    [
+     1000,
+     0.1711
+    ],
+    [
+     2500,
+     0.1651
+    ],
+    [
+     5000,
+     0.1621
+    ]
+   ],
+   "p1": 0.4421,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 1A 2V@(1A) 30V 5.1mA 71dB@(120Hz) 76uV Fixed Over Temperature Protection、Short Circuit Protection Positive DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "5.1mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "76uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402220300_onsemi-KA7812ERTM_C3748338.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-KA7812ERTM/C3748338",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ka7812ertm_C3748338.html"
+  },
+  "C3749329": {
+   "code": "C3749329",
+   "model": "SG7912AK-DESC",
+   "brand": "Microchip Tech",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-3",
+   "prices": [
+    [
+     1,
+     66.1105
+    ],
+    [
+     10,
+     66.1105
+    ],
+    [
+     30,
+     66.1105
+    ],
+    [
+     200,
+     25.5846
+    ],
+    [
+     500,
+     24.6856
+    ],
+    [
+     1000,
+     24.2418
+    ]
+   ],
+   "p1": 66.1105,
+   "desc": "-55℃~+125℃@(Ta) 1 1.1V@(1A) 1.5A 12V 30V 4mA 54dB@(120Hz) Fixed Negative Over Current Protection、Over Temperature Protection、Thermal Shutdown TO-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "-55℃~+125℃@(Ta)",
+    "standby current": "4mA",
+    "Noise": "80uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/MicrochipTech-SG7912AKDESC/C3749329",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_microchip-tech-sg7912ak-desc_C3749329.html"
+  },
+  "C3750294": {
+   "code": "C3750294",
+   "model": "NJM79L12SU3-TE1",
+   "brand": "Nisshinbo Micro Devices Inc.",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3",
+   "prices": [
+    [
+     1,
+     0.2509
+    ],
+    [
+     10,
+     0.1979
+    ],
+    [
+     30,
+     0.1751
+    ],
+    [
+     100,
+     0.1468
+    ],
+    [
+     500,
+     0.1342
+    ],
+    [
+     1000,
+     0.1265
+    ]
+   ],
+   "p1": 0.2509,
+   "desc": "-40℃~+125℃@(Ta) 1 1.6V@(100mA) 100mA 12V 290uV 3.5mA 30V 67dB@(120Hz) Fixed Negative Over Current Protection、Thermal Shutdown SOT-89-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "67dB@(120Hz)",
+    "standby current": "3.5mA",
+    "Operating Temperature": "-40℃~+125℃@(Ta)",
+    "Noise": "290uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "100mA",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Voltage Dropout": "1.6V@(100mA)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161447_Nisshinbo-Micro-Devices-Inc--NJM79L12SU3-TE1_C3750294.pdf",
+   "url": "https://jlcpcb.com/partdetail/4317821-NJM79L12SU3TE1/C3750294",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_nisshinbo-micro-devices-inc-njm79l12su3-te1_C3750294.html"
+  },
+  "C3750303": {
+   "code": "C3750303",
+   "model": "KA79M12RTM",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DPAK",
+   "prices": [
+    [
+     1,
+     0.2676
+    ],
+    [
+     50,
+     0.2676
+    ],
+    [
+     150,
+     0.2676
+    ],
+    [
+     1000,
+     0.1036
+    ],
+    [
+     2500,
+     0.1
+    ],
+    [
+     5000,
+     0.0981
+    ]
+   ],
+   "p1": 0.2676,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V@(500mA) 12V 30V 3mA 500mA 60dB@(120Hz) 75uV Fixed Negative Over Temperature Protection、Short Circuit Protection DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Negative",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402121650_onsemi-KA79M12RTM_C3750303.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-KA79M12RTM/C3750303",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ka79m12rtm_C3750303.html"
+  },
+  "C3750372": {
+   "code": "C3750372",
+   "model": "UPC7812AHF-1-AZ",
+   "brand": "RENESAS",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "-",
+   "prices": [
+    [
+     1,
+     1.2681
+    ],
+    [
+     10,
+     1.2681
+    ],
+    [
+     30,
+     1.2681
+    ],
+    [
+     200,
+     0.491
+    ],
+    [
+     500,
+     0.4747
+    ],
+    [
+     1000,
+     0.465
+    ]
+   ],
+   "p1": 1.2681,
+   "desc": "-30℃~+125℃ 1 1.8V@(1A) 12V 3.1mA 30V 500mA 68dB Fixed Positive - Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "68dB",
+    "standby current": "3.1mA",
+    "Operating Temperature": "-30℃~+125℃",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "-",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.8V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "",
+   "url": "https://jlcpcb.com/partdetail/RENESAS-UPC7812AHF_1AZ/C3750372",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_renesas-upc7812ahf-1-az_C3750372.html"
+  },
+  "C3750424": {
+   "code": "C3750424",
+   "model": "KA79M12RTF",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-252-3(DPAK)",
+   "prices": [
+    [
+     1,
+     0.3956
+    ],
+    [
+     50,
+     0.3956
+    ],
+    [
+     60,
+     0.3956
+    ],
+    [
+     1000,
+     0.153
+    ],
+    [
+     2500,
+     0.1477
+    ],
+    [
+     5000,
+     0.1451
+    ]
+   ],
+   "p1": 0.3956,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V@(500mA) 12V 30V 3mA 500mA 60dB@(120Hz) 75uV Fixed Negative Over Temperature Protection、Short Circuit Protection TO-252-3(DPAK) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+    "standby current": "3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Negative",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(500mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402121650_onsemi-KA79M12RTF_C3750424.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-KA79M12RTF/C3750424",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-ka79m12rtf_C3750424.html"
+  },
+  "C3751930": {
+   "code": "C3751930",
+   "model": "NJM78M12FA",
+   "brand": "Nisshinbo Micro Devices Inc.",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220F",
+   "prices": [
+    [
+     1,
+     0.3894
+    ],
+    [
+     10,
+     0.3894
+    ],
+    [
+     30,
+     0.3894
+    ],
+    [
+     200,
+     0.1507
+    ],
+    [
+     500,
+     0.1454
+    ],
+    [
+     1000,
+     0.1428
+    ]
+   ],
+   "p1": 0.3894,
+   "desc": "-40℃~+150℃@(Tj) 1 100uV 12V 30V 4.1mA 500mA 70dB@(120Hz) Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220F Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "70dB@(120Hz)",
+    "standby current": "4.1mA",
+    "Operating Temperature": "-40℃~+150℃@(Tj)",
+    "Noise": "100uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161502_Nisshinbo-Micro-Devices-Inc--NJM78M12FA_C3751930.pdf",
+   "url": "https://jlcpcb.com/partdetail/4319457-NJM78M12FA/C3751930",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_nisshinbo-micro-devices-inc-njm78m12fa_C3751930.html"
+  },
+  "C3752117": {
+   "code": "C3752117",
+   "model": "LM7912CT",
+   "brand": "onsemi",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     1.2567
+    ],
+    [
+     10,
+     1.2567
+    ],
+    [
+     30,
+     1.2567
+    ],
+    [
+     200,
+     0.4877
+    ],
+    [
+     500,
+     0.4699
+    ],
+    [
+     1000,
+     0.4617
+    ]
+   ],
+   "p1": 1.2567,
+   "desc": "0℃~+125℃@(Tj) 1 1.1V@(1A) 1.5A 1.5mA 12V 300uVrms 30V 54dB@(120Hz) Fixed Negative Over Current Protection、Over Temperature Protection、Short Circuit Protection TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "standby current": "1.5mA",
+    "Noise": "300uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.1V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402120100_onsemi-LM7912CT_C3752117.pdf",
+   "url": "https://jlcpcb.com/partdetail/onsemi-LM7912CT/C3752117",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_onsemi-lm7912ct_C3752117.html"
+  },
+  "C3752835": {
+   "code": "C3752835",
+   "model": "UA78M12CKCSE3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.5967
+    ],
+    [
+     10,
+     0.5967
+    ],
+    [
+     30,
+     0.5967
+    ],
+    [
+     200,
+     0.2309
+    ],
+    [
+     500,
+     0.2228
+    ],
+    [
+     1000,
+     0.2195
+    ]
+   ],
+   "p1": 0.5967,
+   "desc": "0℃~+125℃@(Tj) 1 12V 2V 30V 4.8mA 500mA 55dB@(120Hz) 75uVrms Fixed Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "standby current": "4.8mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uVrms",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-UA78M12CKCSE3_C3752835.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA78M12CKCSE3/C3752835",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua78m12ckcse3_C3752835.html"
+  },
+  "C3752886": {
+   "code": "C3752886",
+   "model": "UA7812CKCSE3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.5138
+    ],
+    [
+     10,
+     0.5138
+    ],
+    [
+     30,
+     0.5138
+    ],
+    [
+     200,
+     0.2
+    ],
+    [
+     500,
+     0.1919
+    ],
+    [
+     1000,
+     0.1886
+    ]
+   ],
+   "p1": 0.5138,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 4.3mA 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302282000_Texas-Instruments-UA7812CKCSE3_C3752886.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA7812CKCSE3/C3752886",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-ua7812ckcse3_C3752886.html"
+  },
+  "C5152855": {
+   "code": "C5152855",
+   "model": "SGM2217-12XTEL8G/TR",
+   "brand": "SGMICRO",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TDFN-4x4-8L",
+   "prices": [
+    [
+     1,
+     1.1299
+    ],
+    [
+     10,
+     0.9007
+    ],
+    [
+     30,
+     0.7755
+    ],
+    [
+     100,
+     0.6341
+    ],
+    [
+     500,
+     0.6341
+    ],
+    [
+     1000,
+     0.6341
+    ]
+   ],
+   "p1": 1.1299,
+   "desc": "-40℃~+125℃@(Tj) 1 1.3V@(1.5A) 1.5A 12V 2mA 30V 53dB@(120Hz) Fixed Positive Short Circuit Protection、Thermal Shutdown TDFN-4x4-8L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "standby current": "2mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "0.004%Vout",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Features": "Short Circuit Protection、Thermal shutdown",
+    "Output Configuration": "Positive",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.3V@(1.5A)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209281630_SGMICRO-SGM2217-12XTEL8G-TR_C5152855.pdf",
+   "url": "https://jlcpcb.com/partdetail/SGMICRO-SGM2217_12XTEL8GTR/C5152855",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_sgmicro-sgm2217-12xtel8g-tr_C5152855.html"
+  },
+  "C5152871": {
+   "code": "C5152871",
+   "model": "SGM2217-12XOA3G/TR",
+   "brand": "SGMICRO",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-263-3A",
+   "prices": [
+    [
+     1,
+     1.2551
+    ],
+    [
+     10,
+     1.0015
+    ],
+    [
+     30,
+     0.8616
+    ],
+    [
+     100,
+     0.7056
+    ],
+    [
+     500,
+     0.7056
+    ],
+    [
+     800,
+     0.7056
+    ]
+   ],
+   "p1": 1.2551,
+   "desc": "-40℃~+125℃@(Tj) 0.004%Vout 1 1.55V@(1.5A) 1.5A 12V 2mA 30V 53dB@(120Hz) Fixed Over Current Protection、Over Temperature Protection、Short Circuit Protection Positive TO-263-3A Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "53dB@(120Hz)",
+    "standby current": "2mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "0.004%Vout",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "1.55V@(1.5A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209281630_SGMICRO-SGM2217-12XOA3G-TR_C5152871.pdf",
+   "url": "https://jlcpcb.com/partdetail/SGMICRO-SGM2217_12XOA3GTR/C5152871",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_sgmicro-sgm2217-12xoa3g-tr_C5152871.html"
+  },
+  "C5362839": {
+   "code": "C5362839",
+   "model": "UA7812CKTTRG3",
+   "brand": "Texas Instruments",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "DDPAK-3(TO-263-3)",
+   "prices": [
+    [
+     1,
+     1.1218
+    ],
+    [
+     10,
+     1.1218
+    ],
+    [
+     30,
+     1.1218
+    ],
+    [
+     200,
+     0.4487
+    ],
+    [
+     500,
+     0.4341
+    ],
+    [
+     1000,
+     0.426
+    ]
+   ],
+   "p1": 1.1218,
+   "desc": "0℃~+125℃@(Tj) 1 1.5A 12V 2V@(1A) 30V 71dB@(120Hz) 75uV Fixed Over Current Protection、Over Temperature Protection Positive DDPAK-3(TO-263-3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "71dB@(120Hz)",
+    "standby current": "4.3mA",
+    "Operating Temperature": "0℃~+125℃@(Tj)",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "1.5A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(1A)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-UA7812CKTTRG3/C5362839",
+   "lcsc_url": null
+  },
+  "C6398167": {
+   "code": "C6398167",
+   "model": "LR78L12-M",
+   "brand": "LR",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3L",
+   "prices": [
+    [
+     1,
+     0.0358
+    ],
+    [
+     200,
+     0.0278
+    ],
+    [
+     600,
+     0.0235
+    ],
+    [
+     4000,
+     0.0209
+    ],
+    [
+     8000,
+     0.0186
+    ],
+    [
+     20000,
+     0.0174
+    ]
+   ],
+   "p1": 0.0358,
+   "desc": "-40℃~+125℃ 100mA 12V 30V 54dB@(120Hz) Fixed SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "54dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃",
+    "standby current": "2.5mA",
+    "Noise": "-",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "-",
+    "Number of Outputs": "-"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2305231109_LR-LR78L12-M_C6398167.pdf",
+   "url": "https://jlcpcb.com/partdetail/LR-LR78L12M/C6398167",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_lr-lr78l12-m_C6398167.html"
+  },
+  "C6902999": {
+   "code": "C6902999",
+   "model": "UPC78M12AHF-AZ",
+   "brand": "RENESAS",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220-3",
+   "prices": [
+    [
+     1,
+     6.106
+    ],
+    [
+     10,
+     6.106
+    ],
+    [
+     30,
+     6.106
+    ],
+    [
+     200,
+     2.4369
+    ],
+    [
+     500,
+     2.3556
+    ],
+    [
+     1000,
+     2.315
+    ]
+   ],
+   "p1": 6.106,
+   "desc": "-20℃~+85℃ 12V 30V Fixed Negative Over Current Protection TO-220-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "-",
+    "standby current": "4.4mA",
+    "Operating Temperature": "-20℃~+85℃",
+    "Noise": "-",
+    "Voltage - Supply": "30V",
+    "Output Type": "Fixed",
+    "Output Current": "350mA",
+    "Output Configuration": "Negative",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Voltage Dropout": "1.1V",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401161836_RENESAS-UPC78M12AHF-AZ_C6902999.pdf",
+   "url": "https://jlcpcb.com/partdetail/RENESAS-UPC78M12AHFAZ/C6902999",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_renesas-upc78m12ahf-az_C6902999.html"
+  },
+  "C7551065": {
+   "code": "C7551065",
+   "model": "AiP78M12JE220.TB",
+   "brand": "Wuxi I-core Elec",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "TO-220",
+   "prices": [
+    [
+     1,
+     0.3086
+    ],
+    [
+     50,
+     0.2374
+    ],
+    [
+     150,
+     0.2068
+    ],
+    [
+     500,
+     0.1686
+    ]
+   ],
+   "p1": 0.3086,
+   "desc": "-40℃~+125℃@(Tj) 1 12V 2V@(300mA) 30V 500mA 55dB@(120Hz) 6mA 75uV Fixed Positive TO-220 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "55dB@(120Hz)",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "standby current": "6mA",
+    "Noise": "75uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "500mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "2V@(300mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": null,
+   "url": "https://jlcpcb.com/partdetail/Wuxi_I_coreElec-AiP78M12JE220TB/C7551065",
+   "lcsc_url": null
+  },
+  "C22468581": {
+   "code": "C22468581",
+   "model": "YJ78L12Y",
+   "brand": "Yangzhou Yangjie Elec Tech",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89-3L",
+   "prices": [
+    [
+     1,
+     0.1295
+    ],
+    [
+     10,
+     0.1295
+    ],
+    [
+     30,
+     0.1295
+    ],
+    [
+     200,
+     0.0517
+    ],
+    [
+     500,
+     0.05
+    ],
+    [
+     1000,
+     0.0491
+    ]
+   ],
+   "p1": 0.1295,
+   "desc": "-40℃~+125℃@(Tj) 1 1.8V@(100mA) 100mA 12V 30V 3mA 42dB@(120Hz) 80uV Fixed Over Current Protection、Over Temperature Protection Positive SOT-89-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "42dB@(120Hz)",
+    "standby current": "3mA",
+    "Operating Temperature": "-40℃~+125℃@(Tj)",
+    "Noise": "80uV",
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Thermal shutdown",
+    "Output Voltage": "12V",
+    "Voltage Dropout": "1.8V@(100mA)",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407261709_Yangzhou-Yangjie-Elec-Tech-YJ78L12Y_C22468581.pdf",
+   "url": "https://jlcpcb.com/partdetail/24175798-YJ78L12Y/C22468581",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_yangzhou-yangjie-elec-tech-yj78l12y_C22468581.html"
+  },
+  "C28642119": {
+   "code": "C28642119",
+   "model": "78L12-EV",
+   "brand": "EVVO",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-89",
+   "prices": [
+    [
+     1,
+     0.0413
+    ],
+    [
+     100,
+     0.0335
+    ],
+    [
+     300,
+     0.0296
+    ],
+    [
+     1000,
+     0.0267
+    ],
+    [
+     5000,
+     0.0244
+    ],
+    [
+     10000,
+     0.0233
+    ]
+   ],
+   "p1": 0.0413,
+   "desc": "100mA 12V 30V Fixed SOT-89 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Output Type": "Fixed",
+    "Voltage - Supply": "30V",
+    "Output Current": "100mA",
+    "Output Voltage": "12V"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407121203_EVVO-78L12-EV_C28642119.pdf",
+   "url": "https://jlcpcb.com/partdetail/EVVO-78L12EV/C28642119",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_evvo-78l12-ev_C28642119.html"
+  }
+ }
+}

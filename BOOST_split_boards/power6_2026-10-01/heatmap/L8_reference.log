@@ -1,0 +1,134 @@
+GND voltage above J2.1, full-load DC (L8_cu.json, L8, grid 0.10 mm)
+currents in: M1.3 11.03 A, R52.2 2.63 A, R53.2 2.37 A, R7.2 2.37 A; out at J2.1 18.40 A
+
+terminal pads (mV): M1.3 4.23, R52.2 4.52, R53.2 4.87, R7.2 4.62, J2.1 0.00
+highest GND voltage per layer (mV): F.Cu 4.87, In1.Cu 4.82, In2.Cu 4.75, In3.Cu 4.72, In4.Cu 4.27, In5.Cu 4.51, In6.Cu 4.64, B.Cu 4.45
+floating GND copper (mm2): none
+
+GND pins per part, lowest-highest pad (mV), highest first:
+  R53      4.87 -   4.87
+  U12      4.71 -   4.71
+  R7       4.62 -   4.62
+  U1       4.61 -   4.61
+  C45      4.60 -   4.60
+  C44      4.60 -   4.60
+  C7       4.58 -   4.58
+  U11      4.55 -   4.55
+  C55      4.54 -   4.54
+  C21      4.54 -   4.54
+  C34      4.54 -   4.54
+  C56      4.54 -   4.54
+  R52      4.52 -   4.52
+  C33      4.51 -   4.51
+  C87      4.46 -   4.46
+  C71      4.43 -   4.43
+  C39      4.33 -   4.33
+  C78      4.30 -   4.30
+  C3       4.30 -   4.30
+  J10      3.76 -   4.28
+  U17      4.27 -   4.27
+  M1       4.22 -   4.22
+  C73      4.21 -   4.21
+  U6       4.16 -   4.16
+  C35      4.10 -   4.10
+  C41      4.07 -   4.07
+  U10      4.04 -   4.04
+  C90      4.01 -   4.01
+  C80      3.99 -   3.99
+  C83      3.99 -   3.99
+  C48      3.96 -   3.96
+  C79      3.96 -   3.96
+  U15      3.96 -   3.96
+  C62      3.94 -   3.94
+  U19      3.93 -   3.93
+  R62      3.93 -   3.93
+  C20      3.93 -   3.93
+  U25      3.93 -   3.93
+  C82      3.93 -   3.93
+  C30      3.93 -   3.93
+  R104     3.93 -   3.93
+  C31      3.93 -   3.93
+  C88      3.92 -   3.92
+  C86      3.91 -   3.91
+  D19      3.91 -   3.91
+  C84      3.89 -   3.89
+  C77      3.88 -   3.88
+  C89      3.82 -   3.82
+  U8       3.82 -   3.82
+  C75      3.69 -   3.69
+  C72      3.68 -   3.68
+  C1       3.64 -   3.64
+  C74      3.36 -   3.36
+  C70      2.98 -   2.98
+  C69      2.97 -   2.97
+  C76      2.20 -   2.20
+  C85      2.08 -   2.08
+  C40      1.95 -   1.95
+  C4       1.72 -   1.72
+  C25      1.71 -   1.71
+  C6       1.70 -   1.70
+  R14      1.70 -   1.70
+  C81      1.70 -   1.70
+  U16      0.71 -   1.70
+  J2       0.00 -   0.00
+
+GND vias carrying the most current (IPC 10 C rating 0.97 A for 0.4 mm):
+  ( 79.65,  52.80) drill 0.40  0.67 A  0.69x
+  ( 42.30,  96.05) drill 0.40  0.64 A  0.66x
+  ( 91.30,  62.00) drill 0.50  0.62 A  0.54x
+  ( 40.10,  96.05) drill 0.40  0.57 A  0.59x
+  ( 86.90,  67.50) drill 0.40  0.53 A  0.55x
+  ( 41.57,  96.05) drill 0.40  0.53 A  0.54x
+  ( 63.40, 109.55) drill 0.40  0.52 A  0.53x
+  ( 40.83,  96.05) drill 0.40  0.51 A  0.53x
+  ( 61.06,  94.90) drill 0.40  0.51 A  0.52x
+  ( 91.30,  60.40) drill 0.50  0.48 A  0.42x
+  ( 61.06,  97.10) drill 0.40  0.46 A  0.47x
+  ( 61.20, 109.55) drill 0.40  0.43 A  0.44x
+  ( 61.06,  95.63) drill 0.40  0.42 A  0.44x
+  ( 62.67, 109.55) drill 0.40  0.42 A  0.43x
+  ( 61.06,  96.37) drill 0.40  0.41 A  0.42x
+
+new GND via candidates that cut no power pour (numbered on the map), ranked by the voltage across the layers they would join:
+   1 ( 70.65,  82.75)  0.442 mV  joins F In1 In3 In5 In6 B  cuts 5V on In4.Cu
+   2 ( 73.55,  88.75)  0.421 mV  joins F In1 In5 In6 B  cuts 5V on In4.Cu
+   3 ( 56.15,  82.95)  0.407 mV  joins F In1 In2 In6 B  cuts 5V on In4.Cu
+   4 ( 56.15,  80.85)  0.388 mV  joins F In1 In2 In6 B  cuts 5V on In4.Cu
+   5 ( 56.15,  78.75)  0.380 mV  joins F In1 In2 In6 B  cuts 5V on In4.Cu
+   6 ( 58.25,  80.55)  0.357 mV  joins F In1 In2 In6 B  cuts 5V on In4.Cu
+   7 ( 59.25,  87.75)  0.354 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+   8 ( 75.95,  88.65)  0.341 mV  joins In1 In5 In6 B  cuts 5V on In4.Cu
+   9 ( 61.35,  88.25)  0.280 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  10 ( 81.75, 110.65)  0.270 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  11 ( 61.75, 105.25)  0.261 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  12 ( 42.55, 109.55)  0.259 mV  joins F In1 In2 In3 In5 In6  cuts 5V on In4.Cu
+  13 ( 36.65, 110.75)  0.256 mV  joins F In1 In2 In3 In5 In6  cuts 5V on In4.Cu
+  14 ( 41.75, 114.05)  0.256 mV  joins F In1 In2 In3 In5 In6  cuts 5V on In4.Cu
+  15 ( 36.65, 112.85)  0.256 mV  joins F In1 In2 In3 In5 In6  cuts 5V on In4.Cu
+  16 ( 39.65, 114.25)  0.256 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  17 ( 37.55, 114.95)  0.256 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  18 ( 35.45, 115.65)  0.256 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  19 ( 33.35, 115.65)  0.256 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+  20 ( 31.25, 115.65)  0.256 mV  joins F In1 In2 In3 In5 In6 B  cuts 5V on In4.Cu
+
+stronger spots that would cut a power pour (not on the map), ranked by the voltage across the layers they would join:
+   1 ( 93.95,  65.95)  1.383 mV  joins F In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+   2 ( 80.15,  47.75)  0.969 mV  joins In1 In3 In5 In6 B  cuts 5V on In4.Cu, LX on F.Cu, LX on In2.Cu
+   3 ( 79.75,  49.85)  0.946 mV  joins In1 In3 In5 In6 B  cuts 5V on In4.Cu, LX on In2.Cu
+   4 ( 96.65,  67.65)  0.860 mV  joins F In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+   5 ( 92.15,  51.45)  0.824 mV  joins F In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+   6 ( 95.05,  69.75)  0.761 mV  joins F In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+   7 ( 80.95,  59.25)  0.749 mV  joins In1 In5 In6 B  cuts 5V on In4.Cu, LX on F.Cu, LX on In2.Cu, Vout_1 on In3.Cu
+   8 ( 97.55,  58.55)  0.748 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vin on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+   9 ( 76.75,  81.95)  0.732 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vout_1 on In5.Cu
+  10 ( 93.95,  63.85)  0.716 mV  joins F In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  11 ( 97.55,  56.45)  0.680 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vin on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  12 ( 92.85,  45.15)  0.675 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vin on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  13 ( 95.45,  60.65)  0.674 mV  joins F In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  14 ( 74.65,  80.05)  0.672 mV  joins F In1 In3 In6 B  cuts 5V on In4.Cu, Vout_1 on In5.Cu
+  15 ( 81.45,  51.95)  0.671 mV  joins F In1 In3 In5 In6 B  cuts 5V on In4.Cu, LX on In2.Cu
+  16 ( 98.75,  67.65)  0.666 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vin on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  17 ( 92.35,  42.35)  0.655 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vin on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  18 ( 97.55,  54.35)  0.641 mV  joins F In1 In6 B  cuts 5V on In4.Cu, Vin on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  19 ( 95.05,  77.45)  0.620 mV  joins In1 In6 B  cuts 5V on In4.Cu, LX on In2.Cu, Vin on In3.Cu, Vin on In5.Cu
+  20 ( 76.25,  85.05)  0.618 mV  joins In1 In6 B  cuts 5V on In4.Cu, Vout_1 on In5.Cu

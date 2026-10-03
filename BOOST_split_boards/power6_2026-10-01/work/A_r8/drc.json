@@ -1,0 +1,1352 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T20:51:21",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "BOOST_power_RC2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 79.35,
+                        "y": 102.55
+                    },
+                    "uuid": "09d60dc7-73d4-4c80-b329-3eceacde2a9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 66.05,
+                        "y": 41.35
+                    },
+                    "uuid": "2c0a4fff-dbc1-4e7c-a87e-c51efd451b85"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 56.65,
+                        "y": 56.75
+                    },
+                    "uuid": "419e2985-e19c-446e-812c-8f001ea25d63"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 56.95,
+                        "y": 45.75
+                    },
+                    "uuid": "53fc39a7-0e7f-4e4d-9539-7b3a59fbb96b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.95,
+                        "y": 42.55
+                    },
+                    "uuid": "655ee9e0-844e-4619-be53-818b796f5a64"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 65.05,
+                        "y": 34.05
+                    },
+                    "uuid": "6ca8d783-df7e-414b-9e9a-b81f667b1fde"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 60.95,
+                        "y": 92.95
+                    },
+                    "uuid": "78ff27eb-d4fd-4c8b-a0ad-738fc433ec2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 54.05,
+                        "y": 45.75
+                    },
+                    "uuid": "8783cc2d-db42-4650-8d48-118ad4cb6c28"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 56.15,
+                        "y": 91.95
+                    },
+                    "uuid": "89d3dc48-ac7d-436f-bd0b-bb7ce75e4cf2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.45,
+                        "y": 99.05
+                    },
+                    "uuid": "8dab1e8d-4d4f-4770-8eb0-a82eadec9c1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 49.85,
+                        "y": 107.95
+                    },
+                    "uuid": "a70751ca-53e1-4c51-bfaf-96f0013f3b42"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 83.05,
+                        "y": 103.85
+                    },
+                    "uuid": "ceba0290-a50a-4849-b90e-7068e5904ca2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 58.15,
+                        "y": 50.15
+                    },
+                    "uuid": "f2e02e8d-7b64-4e86-b26a-79b18d0314b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Footprint 'PinSocket_2x15_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J10",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "287e1643-b0d0-422a-b42a-2838077dc46c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C87 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.845322,
+                        "y": 82.130166
+                    },
+                    "uuid": "de102786-8cbf-42a3-b7a1-8be012b170b3"
+                },
+                {
+                    "description": "Segment of C71 on F.Silkscreen",
+                    "pos": {
+                        "x": 43.815313,
+                        "y": 82.802269
+                    },
+                    "uuid": "e7a5781f-b266-4e6a-86a9-b3cfc06b7d95"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C86 on F.Silkscreen",
+                    "pos": {
+                        "x": 67.890604,
+                        "y": 60.001964
+                    },
+                    "uuid": "6b2b3db1-075b-4080-9dce-15bb2c005fe6"
+                },
+                {
+                    "description": "Segment of C88 on F.Silkscreen",
+                    "pos": {
+                        "x": 68.712571,
+                        "y": 60.094877
+                    },
+                    "uuid": "79aef992-d6fc-4b2f-a196-8b4ede204af9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.331196,
+                        "y": 49.503841
+                    },
+                    "uuid": "f1bc1eec-e699-444f-8dd8-24c66a4594e8"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.400638,
+                        "y": 49.465262
+                    },
+                    "uuid": "f646c60b-4402-4d68-be47-37842fe2cb0c"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.706693,
+                        "y": 49.517986
+                    },
+                    "uuid": "f27c8400-bfeb-479e-b7bf-b3086c885e9f"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.360753,
+                        "y": 49.488718
+                    },
+                    "uuid": "60a59995-e42a-40c8-bb3b-2c19c838f8c8"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.476018,
+                        "y": 49.497497
+                    },
+                    "uuid": "abc94e6c-8d06-470e-a1a0-9b63a2fd5518"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.747843,
+                        "y": 49.488409
+                    },
+                    "uuid": "781b5f66-b6cc-45c0-952f-124c55dc00f8"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.963882,
+                        "y": 49.418968
+                    },
+                    "uuid": "bc716f30-2577-489c-9661-d26ae96ffe0a"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.992173,
+                        "y": 49.024183
+                    },
+                    "uuid": "35a94f4e-9b99-418a-af13-69cb5a8a5587"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.038618,
+                        "y": 49.049742
+                    },
+                    "uuid": "6c605384-ba1f-4bb9-9d38-9b7ffb0fee23"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.156774,
+                        "y": 49.056332
+                    },
+                    "uuid": "a2190f5e-4571-4d4d-ac6b-159c417cde42"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.226215,
+                        "y": 49.457547
+                    },
+                    "uuid": "28284107-ae8f-40c9-96df-b5c85056d67e"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.565704,
+                        "y": 49.09491
+                    },
+                    "uuid": "dc364365-a83d-4604-9b0a-f7cd2742ca18"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.696871,
+                        "y": 49.133488
+                    },
+                    "uuid": "0443f954-928f-43ce-add1-75cf4c675c7c"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.639207,
+                        "y": 49.092542
+                    },
+                    "uuid": "78e983ae-e7af-4679-958f-070874d7cf2f"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.254657,
+                        "y": 49.111468
+                    },
+                    "uuid": "87696083-b749-4410-8632-5702ec5682b1"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.411302,
+                        "y": 49.282198
+                    },
+                    "uuid": "63be8f85-a43f-4de6-9548-a6e1fad74941"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.449969,
+                        "y": 48.994606
+                    },
+                    "uuid": "29f6cb9e-d700-4e96-9e64-4267fc4d495a"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.524554,
+                        "y": 48.468654
+                    },
+                    "uuid": "8ba34cd0-e70e-4296-a723-4625a7fe8703"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.433642999999996,
+                        "y": 48.594848
+                    },
+                    "uuid": "d7bcf7b2-2c51-4528-8954-b94a959609e9"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.521585,
+                        "y": 48.490032
+                    },
+                    "uuid": "a1906ef3-3d5e-465a-b7df-e17cd21150bc"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.39596,
+                        "y": 49.457547
+                    },
+                    "uuid": "8289f7cd-0751-47e6-aabf-23c65f6f12a7"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.401103,
+                        "y": 49.494839
+                    },
+                    "uuid": "3d4fe6e9-3c96-4938-8ae6-2b64623955fc"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.37162,
+                        "y": 49.449094
+                    },
+                    "uuid": "24b9d1de-a58e-42b0-b1fa-884a86b05354"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.349441,
+                        "y": 49.490423
+                    },
+                    "uuid": "74fb4039-05fb-4529-af07-ff8c05787fc1"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.38802,
+                        "y": 49.474992
+                    },
+                    "uuid": "b2806b93-dd9d-4133-819e-e264a530f6dd"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.871294,
+                        "y": 48.979175
+                    },
+                    "uuid": "e043346f-c7ed-4268-8e66-9d043531a099"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.11048,
+                        "y": 49.033185
+                    },
+                    "uuid": "8a57febb-773f-43bc-8b01-c43a602e30ca"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 35.899585,
+                        "y": 48.962458
+                    },
+                    "uuid": "ed9361f3-7f87-433f-a1e2-beb7375044b0"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.13877,
+                        "y": 48.638399
+                    },
+                    "uuid": "3638406c-ce51-409f-96d9-460105dcb09b"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.154684,
+                        "y": 48.669744
+                    },
+                    "uuid": "251e0abc-73e3-44e5-8a32-e09dad3664a5"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.339378,
+                        "y": 49.517986
+                    },
+                    "uuid": "83e1bf25-484e-47a0-9501-1bee99f0c819"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.588851,
+                        "y": 48.392784
+                    },
+                    "uuid": "c688235b-ad92-440f-8e86-7cbd76548a0e"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.635145,
+                        "y": 48.323343
+                    },
+                    "uuid": "49236b47-31e5-496a-a504-f8d44cc0a205"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.68144,
+                        "y": 48.377352
+                    },
+                    "uuid": "7ef17309-7b9f-421d-be87-f0c83cd7b126"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.66378,
+                        "y": 48.336253
+                    },
+                    "uuid": "7a8f5abf-652c-4da3-8bce-4b6b3aa4051d"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.608775,
+                        "y": 48.434333
+                    },
+                    "uuid": "70dcedbd-fb12-4b54-844a-5d0bb742adbe"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 37.396111,
+                        "y": 49.511379
+                    },
+                    "uuid": "9f9cbe7c-dba2-4f1c-b07f-5588156e0b34"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.897478,
+                        "y": 48.207608
+                    },
+                    "uuid": "9b874afa-c99e-40d3-a37a-6980b8edfb5f"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.91291,
+                        "y": 48.215323
+                    },
+                    "uuid": "8920f8b8-7d5a-47c7-b373-9138cec8fada"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 37.306409,
+                        "y": 48.462225
+                    },
+                    "uuid": "e0f6ac65-29ca-45ca-9b9e-4f22d9b49f1f"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 37.365563,
+                        "y": 48.846723
+                    },
+                    "uuid": "fad0cc6f-e813-4117-9b37-f4be93b1696b"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 37.468343,
+                        "y": 48.560178
+                    },
+                    "uuid": "1b68b465-8f2f-4680-8575-9b09fbcc08fc"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.898562,
+                        "y": 48.184876
+                    },
+                    "uuid": "5b755465-8d9d-4f92-b37b-514fbf648094"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 37.149524,
+                        "y": 49.340526
+                    },
+                    "uuid": "a00636c8-bab4-4a47-a0c8-0df012348020"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 37.561026,
+                        "y": 49.233792
+                    },
+                    "uuid": "3fe1f15e-bcc8-4517-992e-1bb1695b79d1"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of G*** on F.Silkscreen",
+                    "pos": {
+                        "x": 36.962873,
+                        "y": 47.887278
+                    },
+                    "uuid": "74137e43-4a4b-412a-89bf-94115fe2dd2f"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of L1 on F.Cu",
+                    "pos": {
+                        "x": 34.093023,
+                        "y": 46.535081
+                    },
+                    "uuid": "daff8e10-e386-44f0-a0dd-e760a414dcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

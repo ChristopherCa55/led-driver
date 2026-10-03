@@ -1,0 +1,56 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\drop_vin_168.net
+Start Time: Thu Oct  1 12:26:17 2026
+Options:gmin=100f reltol=0.001
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-13
+C69: Increased Cpar to 6.8e-10
+C86: Increased Cpar to 2.2e-10
+C40: Increased Cpar to 6.8e-10
+C70: Increased Cpar to 2.2e-10
+C71: Increased Cpar to 2.2e-10
+C78: Increased Cpar to 2.2e-10
+C74: Increased Cpar to 2.2e-10
+C85: Increased Cpar to 6.8e-10
+C77: Increased Cpar to 2.2e-10
+C87: Increased Cpar to 2.2e-10
+C75: Increased Cpar to 2.2e-10
+C88: Increased Cpar to 2.2e-10
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 3662.085 seconds.
+
+Files loaded:
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\drop_vin_168.net
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\TLV9001.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\MCP6561.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\CD4000_v.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\HYG180N10.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\INA241A4.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\L78L05.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\LM2940_12.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\CD74HC4066.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\74HC4051.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\MCP4451.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\CSS4J.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\TVS_5p0SMDJ.lib
+C:\Users\bubba\AppData\Local\Temp\claude\C--Users-bubba-OneDrive-Documents-led-driver\a61b5f50-2814-4909-a59b-f34187a748dd\scratchpad\opamp\UCC21520.lib
+
+lxmax: MAX(V(lx))=80.803237915 FROM 0 TO 0.04
+lx_pre: MAX(V(lx) )=60.3664512634 FROM 0.005 TO 0.015
+lx_drop: MAX(V(lx) )=60.3059501648 FROM 0.015 TO 0.025
+lx_back: MAX(V(lx) )=62.0532073975 FROM 0.025 TO 0.04
+il_drop: MAX(abs(I(L1)) )=32.4561233521 FROM 0.015 TO 0.025
+il_back: MAX(abs(I(L1)) )=48.2320823669 FROM 0.025 TO 0.04
+e_drop: INTEG((-1)*V(LX)*I(D19) )=6.5859483122e-05 FROM 0.015 TO 0.025
+e_back: INTEG((-1)*V(LX)*I(D19) )=0.000137899876238 FROM 0.025 TO 0.04
+v12min: MIN(V(12V) )=9.64009189606 FROM 0.015 TO 0.025
+t_inh: V(N013)=2.5  AT 0.0230360838166
+iled1_end: AVG(I(SIM_LED1) )=2.63482269637 FROM 0.038 TO 0.04
+iled2_end: AVG(I(SIM_LED2) )=2.37131388964 FROM 0.038 TO 0.04
+iled1_drop: AVG(I(SIM_LED1) )=2.0883736641 FROM 0.02 TO 0.025

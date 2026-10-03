@@ -1,0 +1,229 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:37 Pacific Daylight Time",
+ "res": {
+  "C208018": {
+   "code": "C208018",
+   "model": "ADCMP600BRJZ-R2",
+   "brand": "Analog Devices",
+   "stock": 100,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     4.7665
+    ],
+    [
+     10,
+     4.1032
+    ],
+    [
+     30,
+     3.7082
+    ],
+    [
+     250,
+     3.3099
+    ],
+    [
+     500,
+     3.1262
+    ],
+    [
+     1000,
+     3.0433
+    ]
+   ],
+   "p1": 4.7665,
+   "desc": "-40℃~+125℃ 2.5V~5.5V 2mV 2uA 3.5mA 50dB 5mV 5ns 5uA Rail-to-Rail Input TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Common Mode Rejection Ratio(CMRR)": "50dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Operating Temperature": "-40℃~+125℃",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "5mV",
+    "Input Offset Current(Ios)": "2uA",
+    "Quiescent Current": "3.5mA",
+    "Features": "Built-in hysteresis、Latch function",
+    "Single Supply": "2.5V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "2mV",
+    "Ib - Input Bias Current": "5uA",
+    "Propagation Delay Time": "5ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-ADCMP600BRJZ-R2_C208018.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-ADCMP600BRJZR2/C208018",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_analog-devices-adcmp600brjz-r2_C208018.html"
+  },
+  "C207535": {
+   "code": "C207535",
+   "model": "ADCMP600BKSZ-R2",
+   "brand": "Analog Devices",
+   "stock": 0,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SC-70-5",
+   "prices": [
+    [
+     1,
+     5.9808
+    ],
+    [
+     10,
+     5.1176
+    ],
+    [
+     30,
+     4.5925
+    ],
+    [
+     100,
+     4.1503
+    ],
+    [
+     102,
+     4.1503
+    ],
+    [
+     104,
+     4.1503
+    ]
+   ],
+   "p1": 5.9808,
+   "desc": "-40℃~+125℃ 2.5V~5.5V 2000nA 2mV 4mA 50dB 5mV 5ns 5uA Rail-to-Rail Input TTL、CMOS SC-70-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Common Mode Rejection Ratio(CMRR)": "50dB",
+    "Rail to Rail": "Rail-to-Rail Input",
+    "Operating Temperature": "-40℃~+125℃",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "5mV",
+    "Input Offset Current(Ios)": "2000nA",
+    "Quiescent Current": "4mA",
+    "Single Supply": "2.5V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "2mV",
+    "Ib - Input Bias Current": "5uA",
+    "Propagation Delay Time": "5ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://datasheet.lcsc.com/lcsc/2304140030_Analog-Devices-ADCMP600BKSZ-R2_C207535.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-ADCMP600BKSZR2/C207535",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_analog devices_adcmp600bksz-r2_C207535.html"
+  },
+  "C93798": {
+   "code": "C93798",
+   "model": "ADCMP600BRJZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 1073,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-23-5",
+   "prices": [
+    [
+     1,
+     4.6332
+    ],
+    [
+     10,
+     4.0528
+    ],
+    [
+     30,
+     3.7082
+    ],
+    [
+     100,
+     3.2627
+    ],
+    [
+     500,
+     3.1018
+    ],
+    [
+     1000,
+     3.0303
+    ]
+   ],
+   "p1": 4.6332,
+   "desc": "-40℃~+125℃ 1 2.5V~5.5V 2000nA 2mV 3.5mA 3.5ns 50dB 5mV 5uA Rail-to-Rail Input, Rail-to-Rail Output TTL、CMOS SOT-23-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Operating Temperature": "-40℃~+125℃",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "5mV",
+    "Input Offset Current(Ios)": "2000nA",
+    "Single Supply": "2.5V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "2mV",
+    "Common Mode Rejection Ratio(CMRR)": "50dB",
+    "Rail to Rail": "Rail-to-Rail Input, Rail-to-Rail Output",
+    "Number of Channels": "1",
+    "Quiescent Current": "3.5mA",
+    "Features": "Built-in hysteresis、Latch function",
+    "Ib - Input Bias Current": "5uA",
+    "Propagation Delay Time": "3.5ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-ADCMP600BRJZ-REEL7_C93798.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-ADCMP600BRJZREEL7/C93798",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_analog-devices-adcmp600brjz-reel7_C93798.html"
+  },
+  "C208228": {
+   "code": "C208228",
+   "model": "ADCMP600BKSZ-REEL7",
+   "brand": "Analog Devices",
+   "stock": 16,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SC-70-5",
+   "prices": [
+    [
+     1,
+     8.8972
+    ],
+    [
+     10,
+     7.8715
+    ],
+    [
+     30,
+     7.2472
+    ],
+    [
+     100,
+     6.132
+    ],
+    [
+     102,
+     6.132
+    ],
+    [
+     104,
+     6.132
+    ]
+   ],
+   "p1": 8.8972,
+   "desc": "-40℃~+125℃ 2.5V~5.5V 2mV 2uA 3.5mA 50dB 5mV 5ns 5uA Rail-to-Rail Input TTL、CMOS SC-70-5 Comparators ROHS",
+   "cat": "Comparators",
+   "attrs": {
+    "Common Mode Rejection Ratio(CMRR)": "50dB",
+    "Rail to Rail": "Rail-to-rail input",
+    "Operating Temperature": "-40℃~+125℃",
+    "Output Type": "-",
+    "Vos - Input Offset Voltage": "5mV",
+    "Input Offset Current(Ios)": "2uA",
+    "Quiescent Current": "3.5mA",
+    "Features": "Built-in hysteresis、Latch function",
+    "Single Supply": "2.5V~5.5V",
+    "Input Hysteresis Voltage (Vhys)": "2mV",
+    "Ib - Input Bias Current": "5uA",
+    "Propagation Delay Time": "5ns",
+    "Output Mode": "TTL、CMOS"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-ADCMP600BKSZ-REEL7_C208228.pdf",
+   "url": "https://jlcpcb.com/partdetail/AnalogDevices-ADCMP600BKSZREEL7/C208228",
+   "lcsc_url": "https://www.lcsc.com/product-detail/comparators_analog-devices-adcmp600bksz-reel7_C208228.html"
+  }
+ }
+}

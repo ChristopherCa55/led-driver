@@ -1,0 +1,40 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+kind       layer                         removed    added
+field      B.Fab                               6        6
+field      B.Silkscreen                        1        1
+footprint  B.Cu                                1        1
+fp_shape   B.Courtyard                         1        1
+fp_shape   B.Fab                               1        1
+fp_shape   B.Silkscreen                        2        2
+fp_text    B.Fab                               1        1
+pad        B.Cu                                2        2
+pad        B.Mask                              2        2
+pad        B.Paste                             2        2
+track      B.Cu                              343      279
+track      F.Cu                              138      128
+track      In2.Cu                             11       13
+track      In3.Cu                             19       20
+track      In4.Cu                             51       39
+via        F.Cu-B.Cu                          34      143
+zone       B.Cu                               15       13
+zone       F.Cu                               18       18
+zone       F.Cu,B.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu        0        3
+zone       F.Cu,B.Cu,In2.Cu,In3.Cu,In4.Cu        3        3
+zone       In1.Cu                              0        1
+zone       In2.Cu                              3        4
+zone       In2.Cu,In3.Cu,In4.Cu                1        1
+zone       In3.Cu                              1        1
+zone       In3.Cu,In4.Cu                       2        2
+zone       In4.Cu                              2        2

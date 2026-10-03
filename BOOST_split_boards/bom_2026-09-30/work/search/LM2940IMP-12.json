@@ -1,0 +1,60 @@
+{
+ "_source": "JLCPCB parts library search API, read 2026-10-01 11:52 Pacific Daylight Time",
+ "res": {
+  "C86562": {
+   "code": "C86562",
+   "model": "LM2940IMP-12/NOPB",
+   "brand": "Texas Instruments",
+   "stock": 80,
+   "type": "expand",
+   "pref": false,
+   "pkg": "SOT-223-4",
+   "prices": [
+    [
+     1,
+     1.8175
+    ],
+    [
+     10,
+     1.5363
+    ],
+    [
+     30,
+     1.3607
+    ],
+    [
+     100,
+     1.1006
+    ],
+    [
+     500,
+     1.0193
+    ],
+    [
+     1000,
+     0.9836
+    ]
+   ],
+   "p1": 1.8175,
+   "desc": "-40℃~+125℃ 1 12V 1A 26V 30mA 360uVrms 500mV@(1A) 66dB@(120Hz) Fixed Positive Under Voltage Lockout、Over Current Protection、Over Temperature Protection、Over Voltage Protection、Short Circuit Protection SOT-223-4 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+   "cat": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+   "attrs": {
+    "Power Supply Rejection Ratio (PSRR)": "66dB@(120Hz)",
+    "standby current": "30mA",
+    "Operating Temperature": "-40℃~+125℃",
+    "Noise": "360uVrms",
+    "Voltage - Supply": "26V",
+    "Output Type": "Fixed",
+    "Output Current": "1A",
+    "Output Configuration": "Positive",
+    "Features": "Over Current Protection、Short Circuit Protection、Thermal shutdown、Input under-voltage protection、Input overvoltage protection、Reverse polarity voltage protection",
+    "Voltage Dropout": "500mV@(1A)",
+    "Output Voltage": "12V",
+    "Number of Outputs": "1"
+   },
+   "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-LM2940IMP-12-NOPB_C86562.pdf",
+   "url": "https://jlcpcb.com/partdetail/TexasInstruments-LM2940IMP_12NOPB/C86562",
+   "lcsc_url": "https://www.lcsc.com/product-detail/voltage-regulators-linear-low-drop-out-ldo-regulators_texas-instruments-lm2940imp-12-nopb_C86562.html"
+  }
+ }
+}
