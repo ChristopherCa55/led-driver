@@ -1,0 +1,26 @@
+{
+ "before": "work/step03/kicad/BOOST_power_RC2.kicad_pcb",
+ "after": "work/step04/kicad/BOOST_power_RC2.kicad_pcb",
+ "tracks_removed": [],
+ "tracks_added": [],
+ "vias_removed": [],
+ "vias_added": [
+  {
+   "x": 33.24,
+   "y": 67.25,
+   "size": 0.8,
+   "drill": 0.4,
+   "net": "GND"
+  },
+  {
+   "x": 34.44,
+   "y": 67.85,
+   "size": 0.8,
+   "drill": 0.4,
+   "net": "GND"
+  }
+ ],
+ "zones_removed": [],
+ "zones_added": [],
+ "footprints": []
+}

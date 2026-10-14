@@ -1,0 +1,36 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal 0 -32 80 48
+LINE Normal 0 0 24 0
+LINE Normal 56 0 80 0
+LINE Normal 24 -12 24 12
+LINE Normal 56 -12 56 12
+LINE Normal 24 -12 56 12
+LINE Normal 24 12 56 -12
+LINE Normal 40 0 40 28
+LINE Normal 40 28 64 28
+LINE Normal 64 28 64 48
+TEXT 48 -22 Center 0 VDD
+TEXT 16 38 Center 0 VSS
+TEXT 60 38 Right 0 CTRL
+WINDOW 0 40 -40 Bottom 2
+WINDOW 3 40 64 Top 1
+SYMATTR Prefix X
+SYMATTR Value CD74HC4066
+SYMATTR Description One channel of the TI CD74HC4066 quad bilateral switch (behavioural). Pins A B CTRL VDD VSS; CTRL high = closed. Requires CD74HC4066.lib.
+SYMATTR ModelFile CD74HC4066.lib
+PIN 0 0 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 80 0 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2
+PIN 64 48 NONE 0
+PINATTR PinName CTRL
+PINATTR SpiceOrder 3
+PIN 48 -32 NONE 0
+PINATTR PinName VDD
+PINATTR SpiceOrder 4
+PIN 16 48 NONE 0
+PINATTR PinName VSS
+PINATTR SpiceOrder 5

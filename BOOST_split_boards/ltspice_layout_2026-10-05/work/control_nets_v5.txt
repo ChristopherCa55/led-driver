@@ -1,0 +1,346 @@
+in area not CONTROL: ['C12', 'C21', 'C22', 'C24', 'C28', 'C29', 'C52', 'C53']
+CONTROL not in area: []
+C12      cap                    R0     (3680,-7696) 100n 
+     A      5V                   -> C104.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C14      cap                    R0     (3056,-8240) 220p 
+     A      N001                 -> Q1.E R66.B U14.In-
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C15      cap                    R0     (3040,-8480) 100p 
+     A      N002                 -> D4.- R71.A
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C17      cap                    R180   (6080,-7472) 330p 
+     A      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+     B      N003                 -> R80.A R81.A
+C19      cap                    R270   (7088,-7136) 330p 
+     A      N004                 -> R26.B R51.B
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C21      cap                    R0     (4304,-7664) 1µ 
+     A      analog_5V            -> C20.A C32.A C33.A C34.A C35.A C36.B C37.B C38.B C55.A C56.A C63.A C66.A R44.A R91.A R96.A U1.OUT U11.V+ U12.V+ U13.V+ U22.V+ U23.V+ U24.V+ U25.VS U3.V+ U6.V+ U7
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C22      cap                    R0     (5408,-7648) 100n 
+     A      5V                   -> C104.A C12.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C24      cap                    R0     (5600,-7856) 100n 
+     A      5V                   -> C104.A C12.A C22.A C23.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C32.B C
+C28      cap                    M0     (7280,-7584) 100n 
+     A      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C29.B C3.B C30.B C31.B C32.B C
+C29      cap                    R0     (5584,-7600) 100n 
+     A      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C3.B C30.B C31.B C32.B C
+C52      cap                    R0     (2864,-8224) 100n 
+     A      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+C53      cap                    R90    (3120,-8368) 100n 
+     A      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     B      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.A R103
+C8       cap                    R0     (7328,-6160) 330p 
+     A      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     B      N005                 -> R63.A R64.A
+C9       cap                    R0     (6928,-6832) 330p 
+     A      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     B      N006                 -> R78.A R79.A
+D1       diode                  R90    (7136,-7248)  
+     +      0err_hi              -> D3.- R18.A R66.A U104E.in U4.OUT
+     -      M1_INHIBIT           -> D15.- D24.- D27.- R26.A U104A.in
+D15      diode                  R180   (6928,-7056)  
+     +      Out-                 -> R51.A U101C.d U101D._Q U102A.b U102D.b U103B.d U18.CPN
+     -      M1_INHIBIT           -> D1.- D24.- D27.- R26.A U104A.in
+D20      diode                  R90    (6160,-7456)  
+     +      N007                 -> R80.B U102B._Q
+     -      N008                 -> R81.B U105A.in
+D24      diode                  R0     (7328,-7440)  
+     +      N009                 -> R86.A U21.OUT
+     -      M1_INHIBIT           -> D1.- D15.- D27.- R26.A U104A.in
+D27      diode                  R90    (7504,-7312)  
+     +      ARD_M1_INHIBIT       -> R105.A SIM_ARD_INH.+
+     -      M1_INHIBIT           -> D1.- D15.- D24.- R26.A U104A.in
+D3       diode                  R270   (3392,-8208)  
+     +      N010                 -> R65.B
+     -      0err_hi              -> D1.+ R18.A R66.A U104E.in U4.OUT
+D4       diode                  R90    (3184,-8496)  
+     +      N011                 -> Q1.B R65.A
+     -      N002                 -> C15.A R71.A
+D5       diode                  R90    (7392,-6000)  
+     +      N012                 -> R63.B U103A._Q
+     -      N013                 -> R64.B U105B.in
+D6       diode                  R180   (6480,-7808)  
+     +      set-                 -> R4.A U101C.b
+     -      low_error_timeout    -> R67.A R71.B U14.OUT U18.CP
+D7       diode                  R90    (6992,-6672)  
+     +      N014                 -> R78.B U102C._Q
+     -      N015                 -> R79.B U104F.in
+Q1       pnp                    R180   (3264,-8176)  
+     C      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     B      N011                 -> D4.+ R65.A
+     E      N001                 -> C14.A R66.B U14.In-
+R105     res                    R0     (7504,-7248) 100k 
+     A      ARD_M1_INHIBIT       -> D27.+ SIM_ARD_INH.+
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+R11      res                    R0     (5920,-7664) 510k 
+     A      0A_hi                -> U101A.d U2.OUT
+     B      N016                 -> R16.A R17.A U2.In+
+R16      res                    R0     (5920,-7552) 5.1k 
+     A      N016                 -> R11.B R17.A U2.In+
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+R17      res                    R90    (5712,-7648) 510k 
+     A      N016                 -> R11.B R16.A U2.In+
+     B      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+R18      res                    R0     (5936,-7920) 200k 
+     A      0err_hi              -> D1.+ D3.- R66.A U104E.in U4.OUT
+     B      N017                 -> R19.A R20.A U4.In+
+R19      res                    R0     (5936,-7808) 5.1k 
+     A      N017                 -> R18.B R20.A U4.In+
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+R20      res                    R90    (5728,-7904) 200k 
+     A      N017                 -> R18.B R19.A U4.In+
+     B      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+R26      res                    R270   (6960,-7136) 220 
+     A      M1_INHIBIT           -> D1.- D15.- D24.- D27.- U104A.in
+     B      N004                 -> C19.A R51.B
+R4       res                    R90    (6432,-7824) 1k 
+     A      set-                 -> D6.+ U101C.b
+     B      N018                 -> U101A._Q
+R51      res                    R180   (7088,-7040) 2k 
+     A      Out-                 -> D15.+ U101C.d U101D._Q U102A.b U102D.b U103B.d U18.CPN
+     B      N004                 -> C19.A R26.B
+R63      res                    R0     (7360,-6112) 2k 
+     A      N005                 -> C8.B R64.A
+     B      N012                 -> D5.+ U103A._Q
+R64      res                    R0     (7312,-6112) 220 
+     A      N005                 -> C8.B R63.A
+     B      N013                 -> D5.- U105B.in
+R65      res                    R270   (3280,-8208) 22k 
+     A      N011                 -> D4.+ Q1.B
+     B      N010                 -> D3.+
+R66      res                    R90    (3360,-8336) 3.3k 
+     A      0err_hi              -> D1.+ D3.- R18.A U104E.in U4.OUT
+     B      N001                 -> C14.A Q1.E U14.In-
+R67      res                    R180   (2736,-8288) 10k 
+     A      low_error_timeout    -> D6.- R71.B U14.OUT U18.CP
+     B      N019                 -> R68.A R69.A U14.In+
+R68      res                    R180   (2736,-8400) 62k 
+     A      N019                 -> R67.B R69.A U14.In+
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+R69      res                    R270   (2944,-8304) 20k 
+     A      N019                 -> R67.B R68.A U14.In+
+     B      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+R71      res                    R90    (3024,-8496) 1k 
+     A      N002                 -> C15.A D4.-
+     B      low_error_timeout    -> D6.- R67.A U14.OUT U18.CP
+R78      res                    R0     (6960,-6784) 2k 
+     A      N006                 -> C9.B R79.A
+     B      N014                 -> D7.+ U102C._Q
+R79      res                    R0     (6912,-6784) 220 
+     A      N006                 -> C9.B R78.A
+     B      N015                 -> D7.- U104F.in
+R80      res                    R0     (6128,-7552) 2k 
+     A      N003                 -> C17.B R81.A
+     B      N007                 -> D20.+ U102B._Q
+R81      res                    R0     (6080,-7552) 220 
+     A      N003                 -> C17.B R80.A
+     B      N008                 -> D20.- U105A.in
+R82      res                    R0     (6880,-7600) 56k 
+     A      5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     B      N020                 -> R85.A R86.B U21.In+
+R83      res                    R0     (7008,-7504) 10k 
+     A      N021                 -> R84.B U21.In-
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+R84      res                    R0     (7008,-7600) 120k 
+     A      12V                  -> C25.A C30.A C31.A C6.A D10.+ D21.+ D9.+ U16.OUT U19.VDDA U19.VDDB
+     B      N021                 -> R83.A U21.In-
+R85      res                    R0     (6880,-7504) 10k 
+     A      N020                 -> R82.B R86.B U21.In+
+     B      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+R86      res                    R90    (7248,-7392) 1Meg 
+     A      N009                 -> D24.+ U21.OUT
+     B      N020                 -> R82.B R85.A U21.In+
+SIM_ARD_INH voltage                R0     (7632,-7232) 0 
+     +      ARD_M1_INHIBIT       -> D27.+ R105.A
+     -      0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U101A    and                    R0     (6224,-7888)  
+     a      N022                 -> 
+     b      VerrGT0              -> U102B.d U102C.d U103A.d U104E._Q
+     c      N023                 -> 
+     d      0A_hi                -> R11.A U2.OUT
+     e      N024                 -> 
+     _Q     N018                 -> R4.B
+     Q      N025                 -> 
+     com    N026                 -> 
+U101B    and                    R270   (6368,-7616) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N027                 -> 
+     b      Reset_raw            -> U5.OUT
+     c      N028                 -> 
+     d      M1_ON                -> U104A._Q U19.INA
+     e      N029                 -> 
+     _Q     RESET-               -> U101D.d
+     Q      N030                 -> 
+     com    N031                 -> 
+U101C    and                    R0     (6560,-7856)  
+     a      N032                 -> 
+     b      set-                 -> D6.+ R4.A
+     c      N033                 -> 
+     d      Out-                 -> D15.+ R51.A U101D._Q U102A.b U102D.b U103B.d U18.CPN
+     e      N034                 -> 
+     _Q     Out                  -> U101D.b
+     Q      N035                 -> 
+     com    N036                 -> 
+U101D    and                    R0     (6560,-7744)  
+     a      N037                 -> 
+     b      Out                  -> U101C._Q
+     c      N038                 -> 
+     d      RESET-               -> U101B._Q
+     e      N039                 -> 
+     _Q     Out-                 -> D15.+ R51.A U101C.d U102A.b U102D.b U103B.d U18.CPN
+     Q      N040                 -> 
+     com    N041                 -> 
+U102A    and                    R180   (6160,-7184) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N042                 -> 
+     b      Out-                 -> D15.+ R51.A U101C.d U101D._Q U102D.b U103B.d U18.CPN
+     c      N043                 -> 
+     d      ena_out_1            -> U105A._Q U15.INB
+     e      N044                 -> 
+     _Q     N045                 -> U104B.in
+     Q      N046                 -> 
+     com    N047                 -> 
+U102B    and                    R90    (6288,-7472) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N048                 -> 
+     b      OUT_1_ENA            -> U18.Q0 U28.A
+     c      N049                 -> 
+     d      VerrGT0              -> U101A.b U102C.d U103A.d U104E._Q
+     e      N050                 -> 
+     _Q     N007                 -> D20.+ R80.B
+     Q      N051                 -> 
+     com    N052                 -> 
+U102C    and                    R90    (7136,-6640) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N053                 -> 
+     b      OUT_2_ENA            -> U18.Q1 U28.B
+     c      N054                 -> 
+     d      VerrGT0              -> U101A.b U102B.d U103A.d U104E._Q
+     e      N055                 -> 
+     _Q     N014                 -> D7.+ R78.B
+     Q      N056                 -> 
+     com    N057                 -> 
+U102D    and                    R180   (6976,-6320) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N058                 -> 
+     b      Out-                 -> D15.+ R51.A U101C.d U101D._Q U102A.b U103B.d U18.CPN
+     c      N059                 -> 
+     d      ena_out_2            -> U10.INB U104F._Q
+     e      N060                 -> 
+     _Q     N061                 -> U104C.in
+     Q      N062                 -> 
+     com    N063                 -> 
+U103A    and                    R180   (7392,-5840) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N064                 -> 
+     b      OUT_3_ENA            -> U18.Q2 U28.C
+     c      N065                 -> 
+     d      VerrGT0              -> U101A.b U102B.d U102C.d U104E._Q
+     e      N066                 -> 
+     _Q     N012                 -> D5.+ R63.B
+     Q      N067                 -> 
+     com    N068                 -> 
+U103B    and                    R180   (6960,-5872) Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75 
+     a      N069                 -> 
+     b      ena_out_3            -> U105B._Q U8.INB
+     c      N070                 -> 
+     d      Out-                 -> D15.+ R51.A U101C.d U101D._Q U102A.b U102D.b U18.CPN
+     e      N071                 -> 
+     _Q     N072                 -> U104D.in
+     Q      N073                 -> 
+     com    N074                 -> 
+U104A    schmtinv               R270   (6864,-7184) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     M1_INHIBIT           -> D1.- D15.- D24.- D27.- R26.A
+     _Q     M1_ON                -> U101B.d U19.INA
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U104B    schmtinv               R180   (6080,-7200) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     N045                 -> U102A._Q
+     _Q     M2_ON                -> U15.INA
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U104C    schmtinv               R180   (6896,-6336) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     N061                 -> U102D._Q
+     _Q     out_2_on             -> U10.INA
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U104D    schmtinv               R180   (6880,-5888) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     N072                 -> U103B._Q
+     _Q     out_3_on             -> U8.INA
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U104E    schmtinv               R0     (6064,-7936) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     0err_hi              -> D1.+ D3.- R18.A R66.A U4.OUT
+     _Q     VerrGT0              -> U101A.b U102B.d U102C.d U103A.d
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U104F    schmtinv               R90    (7120,-6560) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     N015                 -> D7.- R79.B
+     _Q     ena_out_2            -> U10.INB U102D.d
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U105A    schmtinv               R90    (6272,-7392) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     N008                 -> D20.- R81.B
+     _Q     ena_out_1            -> U102A.d U15.INB
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U105B    schmtinv               R180   (7312,-5856) Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n 
+     in     N013                 -> D5.- R64.B
+     _Q     ena_out_3            -> U103B.b U8.INB
+     com    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+U14      opamp2                 R180   (2880,-8240) MCP6561 
+     In+    N019                 -> R67.B R68.A R69.A
+     In-    N001                 -> C14.A Q1.E R66.B
+     V+     5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     V-     0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     OUT    low_error_timeout    -> D6.- R67.A R71.B U18.CP
+U18      CD4017B                R0     (2656,-7904)  5V 0
+     MR     4                    -> 
+     CPN    Out-                 -> D15.+ R51.A U101C.d U101D._Q U102A.b U102D.b U103B.d
+     CP     low_error_timeout    -> D6.- R67.A R71.B U14.OUT
+     Q0     OUT_1_ENA            -> U102B.b U28.A
+     Q1     OUT_2_ENA            -> U102C.b U28.B
+     Q2     OUT_3_ENA            -> U103A.b U28.C
+     Q3     4                    -> 
+     Q4     5                    -> 
+     Q5     6                    -> 
+     Q6     7                    -> 
+     Q7     8                    -> 
+     Q8     9                    -> 
+     Q9     10                   -> 
+     Q59    N075                 -> 
+U2       opamp2                 R0     (5776,-7712) MCP6561 
+     In+    N016                 -> R11.B R16.A R17.A
+     In-    Current              -> U25.OUT U5.In+
+     V+     5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     V-     0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     OUT    0A_hi                -> R11.A U101A.d
+U21      opamp2                 R0     (7184,-7520) MCP6561 
+     In+    N020                 -> R82.B R85.A R86.B
+     In-    N021                 -> R83.A R84.B
+     V+     5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     V-     0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     OUT    N009                 -> D24.+ R86.A
+U28      74HC4051               R0     (3168,-7744)  
+     IO4    Verr3                -> C10.B R45.B R46.B
+     IO6    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     IOC    V_err                -> U4.In- U5.In-
+     IO7    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     IO5    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     INH    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     VEE    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     VSS    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     VDD    5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     IO2    Verr2                -> C11.B R37.B R38.B
+     IO1    Verr1                -> C13.B R27.B R28.B
+     IO0    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     IO3    0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     A      OUT_1_ENA            -> U102B.b U18.Q0
+     B      OUT_2_ENA            -> U102C.b U18.Q1
+     C      OUT_3_ENA            -> U103A.b U18.Q2
+U4       opamp2                 R0     (5792,-7968) MCP6561 
+     In+    N017                 -> R18.B R19.A R20.A
+     In-    V_err                -> U28.IOC U5.In-
+     V+     5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     V-     0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     OUT    0err_hi              -> D1.+ D3.- R18.A R66.A U104E.in
+U5       opamp2                 R0     (5344,-7616) MCP6561 
+     In+    Current              -> U2.In- U25.OUT
+     In-    V_err                -> U28.IOC U4.In-
+     V+     5V                   -> C104.A C12.A C22.A C23.A C24.A C26.A C28.A C29.A C39.A C48.A C52.A C53.B C54.A C57.B C58.A C62.B C7.A C89.B C90.A C91.B C92.A C94.A C95.A C96.A C97.A C98.A C99.
+     V-     0                    -> C1.B C10.A C100.B C101.B C102.B C103.B C104.B C11.A C12.B C13.A C14.B C15.B C17.A C19.B C20.B C21.B C22.B C23.B C24.B C25.B C26.B C28.B C29.B C3.B C30.B C31.B C
+     OUT    Reset_raw            -> U101B.b

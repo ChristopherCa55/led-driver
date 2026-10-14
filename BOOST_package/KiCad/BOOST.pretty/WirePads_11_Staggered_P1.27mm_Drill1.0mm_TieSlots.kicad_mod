@@ -29,7 +29,7 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.500 -3.330)
-		(end 13.900 -3.330)
+		(end -1.200 -3.330)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -37,8 +37,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 13.900 -3.330)
-		(end 13.900 5.870)
+		(start -1.200 -3.330)
+		(end -1.200 -1.150)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -46,7 +46,43 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 13.900 5.870)
+		(start -1.200 -1.150)
+		(end 13.900 -1.150)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 13.900 -1.150)
+		(end 13.900 3.690)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 13.900 3.690)
+		(end -1.200 3.690)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.200 3.690)
+		(end -1.200 5.870)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.200 5.870)
 		(end -4.500 5.870)
 		(stroke
 			(width 0.05)
@@ -176,7 +212,7 @@
 		)
 	)
 	(fp_text user "I2"
-		(at 5.080 -1.825 0)
+		(at 5.080 -3.100 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -196,7 +232,7 @@
 		)
 	)
 	(fp_text user "SCL"
-		(at 7.320 -1.825 0)
+		(at 7.320 -3.100 0)
 		(layer "F.SilkS")
 		(effects
 			(font

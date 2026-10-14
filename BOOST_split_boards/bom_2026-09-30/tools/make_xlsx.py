@@ -1,10 +1,13 @@
 """BOOST_BOM.xlsx: the bill of materials as a spreadsheet (system Python, no extra packages), 2026-10-01.
 
-usage: python tools/make_xlsx.py OUT.xlsx        (run from bom_2026-09-30/, after build_bom.py and cost_summary.py)
+usage: python tools/make_xlsx.py OUT.xlsx [--review]   (run from bom_2026-09-30/, after build_bom.py and cost_summary.py)
 
 Sheets: Summary, Power board, Control card, Bought elsewhere, Fees, Ways to save.
 Quantities, line costs and totals are Excel formulas, so editing a unit price or a quantity updates the totals.
 Links are HYPERLINK() formulas.
+--review (2026-10-02) writes the copy for an outside reviewer: the same parts, prices and formulas, without dates,
+revision history, "your choice"/"approved" wording or references to internal work files (REVIEW_SUBS below), and
+without the "Applied" savings list.
 """
 import csv, json, sys, zipfile, datetime
 from xml.sax.saxutils import escape
@@ -14,6 +17,62 @@ snap = json.load(open('bom/jlc_snapshot_2026-10-01.json', encoding='utf-8'))['re
 cand = snap
 cost = json.load(open('cost/cost_summary.json', encoding='utf-8'))
 N = 2
+REVIEW = '--review' in sys.argv
+HAND = 'by hand' if REVIEW else 'you (hand)'
+REVIEW_SUBS = [   # exact substrings, applied in order to every text cell when --review
+    ('part chosen earlier (HANDOFF_SUMMARY / replace_notes / ANSWERS); ', ''),
+    ('part chosen earlier (HANDOFF_SUMMARY / replace_notes / ANSWERS)', ''),
+    ('your choice of 2026-09-24; ', ''),
+    ('approved 2026-10-01: ', ''),
+    ('rev6: 5 -> 5.1 Ohm (5.0 Ohm 0805 is not stocked), the value R59/R70 already use',
+     '5.1 Ohm (5.0 Ohm 0805 is not stocked), the value R59/R70 also use'),
+    ('rev6: 1 mOhm with U25 = INA241A4 (100 V/V): Current stays 0.1 V/A.',
+     '1 mOhm with U25 = INA241A4 (100 V/V): Current is 0.1 V/A.'),
+    ('rev6: gain 100 V/V', 'gain 100 V/V'),
+    (' INA241A3IDR (rev5)', ' INA241A3IDR'),
+    ('(BOOST_AUDIT section 6: up to 3.46 A); since 2026-10-01 the other six are EEH-ZS1H221P',
+     '(up to 3.46 A); the other six are EEH-ZS1H221P'),
+    ('; cheaper, and the ZU had too little stock', '; cheaper than the ZU'),
+    (' (chosen 2026-09-29)', ''),
+    (' (precharge_surge_2026-09-30), kept 2026-09-30', ' (simulated)'),
+    (' (as decided 2026-09-15)', ''),
+    ('as the MCP6241; NOT the TLV9001U', 'NOT the TLV9001U'),
+    (' LTspice re-runs (30 ms, 25 % PWM, cold start) match the MCP6241 within 0.05 %', ''),
+    (' MCP6241T-E/OT (before 2026-10-01)', ' MCP6241T-E/OT'),
+    (' (simulated: BOOST_split_boards/mc7812_lowbatt_2026-10-01)', ' (simulated)'),
+    (' LM2940S-12/NOPB (before 2026-10-01)', ' LM2940S-12/NOPB'),
+    ('Proposal ', 'BOM part: '),
+    ('Mouser price as listed on samtec.com (2026-09-25); bought by you, fitted by you',
+     'Mouser price as listed on samtec.com; bought separately, fitted by hand'),
+    ('you own it; not priced', 'already owned; not priced'),
+    ('you own ten; not priced', 'already owned (ten); not priced'),
+    ('; the user owns it', ''),
+    ('; the user owns ten', ''),
+    ('. the device named in the schematic or the notes', '. The part named in the schematic'),
+    ('the device named in the schematic or the notes', 'the part named in the schematic'),
+    ('read 2026-09-30 (7,030 in stock); derating', '7,030 in stock; derating'),
+    ('read by you 2026-09-25', 'read'),
+    ('read 2026-09-25', 'read'),
+    ('Prices are the 2026-09-25 readings except the PTC (read 2026-09-30). Shipping and tax not included.',
+     "Prices as read on the vendors' sites. Shipping and tax not included."),
+    (' See COST_SUMMARY.md', ''),
+    ('JLC quote 2026-10-01', 'JLC quote'),
+    ('JLC stock 2026-10-01', 'JLC stock'),
+    ('Stock (2026-10-01): every JLC line is in stock for 2 sets. Re-check on the day you order.',
+     'Stock: every JLC line was in stock for 2 sets when priced. Re-check on the day of ordering.'),
+    ('J9 wires (you own them)', 'J9 wires (already owned)'),
+    ('Parts you buy or own (priced lines)', 'Parts bought separately (priced lines)'),
+    ('Needs a Samtec account (your choice).', 'Needs a Samtec account.'),
+    (' (`u16_thermal_2026-10-01`)', ' (thermal model)'),
+    ('you chose to keep TG155.', 'TG155 kept.'),
+]
+
+
+def rv(s):
+    if REVIEW and isinstance(s, str):
+        for a, b in REVIEW_SUBS:
+            s = s.replace(a, b)
+    return s
 
 
 # ------------------------------------------------------------------ minimal xlsx writer
@@ -95,7 +154,7 @@ class Sheet:
                     out.append('<c r="%s" s="%d"><f>%s</f></c>' % (ref, st, escape(v[1:])))
                 else:
                     out.append('<c r="%s" s="%d" t="inlineStr"><is><t xml:space="preserve">%s</t></is></c>'
-                               % (ref, st, escape(str(v))))
+                               % (ref, st, escape(rv(str(v)))))
             out.append('</row>')
         out.append('</sheetData>')
         if self.autofilter:
@@ -200,7 +259,7 @@ def bom_sheet(board, name):
             maker, mpn, price, url, why = ELSE_PRICE.get(key, ('', r['value'], None, '', ''))
             row = [(k, S_INT), (refs, S_WRAP), (n, S_INT), ('=C%d*%d' % (rr, N), S_INT), (r['description'], S_WRAP),
                    maker, mpn, '', '', (price, S_USD4) if price else '', ('=D%d*J%d' % (rr, rr), S_USD2) if price else '',
-                   '', r['footprint'], r['side'], 'you (hand)', link(url, 'Maker'), '', '', r['value'], '',
+                   '', r['footprint'], r['side'], HAND, link(url, 'Maker'), '', '', r['value'], '',
                    (why + '. ' + notes, S_NOTE)]
         sh.add(*row)
         first = first or rr
@@ -209,7 +268,7 @@ def bom_sheet(board, name):
     tot = sh.add('', ('Parts total (JLC lines, %d boards + attrition)' % N, S_BOLD), '', '', '', '', '', '', '', '',
                  ('=SUMIFS(K%d:K%d,O%d:O%d,"JLC")' % (first, last, first, last), S_BUSD))
     sh.add('', ('Parts you buy or own (priced lines)', S_BOLD), '', '', '', '', '', '', '', '',
-           ('=SUMIFS(K%d:K%d,O%d:O%d,"you (hand)")' % (first, last, first, last), S_BUSD))
+           ('=SUMIFS(K%d:K%d,O%d:O%d,"%s")' % (first, last, first, last, HAND), S_BUSD))
     sh.add('', ('Unique JLC part numbers (feeder loading $1.53 each)', S_BOLD), '', '', '', '', '', '', '', '',
            (cost[board]['unique'], S_INT))
     sh.autofilter = 'A1:U%d' % last
@@ -270,9 +329,11 @@ r_ord = fe.add(('Order total (PCBs + assembly)', S_BOLD), ('=SUM(B%d:B%d)' % (r_
 # ------------------------------------------------------------------ summary
 su = Sheet('Summary', [52, 16, 70], freeze=0)
 su.add(('BOOST LED driver: bill of materials and cost', S_TITLE))
-su.add(('Scenario A: 5 bare PCBs of each board, 2 complete sets assembled by JLCPCB. Updated 2026-10-02: schematic rev6 '
-        'plus D28-D30, 6-layer control card with 0.5 oz inner copper, the savings approved on 2026-10-01, and the 6-layer '
-        'power board (2026-10-02, stackup JLC061611-7628D). JLC prices and stock read 2026-10-01.', S_NOTE))
+su.add((('5 bare PCBs of each board; 2 complete sets assembled by JLCPCB. The JLC settings are in JLC_SELECTIONS.md.')
+        if REVIEW else
+        ('Scenario A: 5 bare PCBs of each board, 2 complete sets assembled by JLCPCB. Updated 2026-10-02: schematic rev6 '
+         'plus D28-D30, 6-layer control card with 0.5 oz inner copper, the savings approved on 2026-10-01, and the 6-layer '
+         'power board (2026-10-02, stackup JLC061611-7628D). JLC prices and stock read 2026-10-01.'), S_NOTE))
 su.add()
 su.add(('Item', S_HEAD), ('Cost (USD)', S_HEAD), ('Notes', S_HEAD))
 s1 = su.add('Power board: PCBs + JLC assembly', ("=Fees!B%d" % r_ord, S_USD2), 'JLC order 1')
@@ -280,7 +341,8 @@ su.add('Control card: PCBs + JLC assembly', ("=Fees!C%d" % r_ord, S_USD2), 'JLC 
 su.add('Bought elsewhere: J10/J11, PTC, hardware, McMaster thermal pad', ("='Bought elsewhere'!E%d" % etot, S_USD2),
        'Mouser, LCSC, McMaster-Carr, Digi-Key, Newark/Farnell')
 s4 = su.add(('Total (shipping and tax not included)', S_BOLD), ('=SUM(B%d:B%d)' % (s1, s1 + 2), S_BUSD),
-            ('COST_SUMMARY.md gives $%.2f' % [v for k, v in cost['totals'].items() if 'McMaster' in k][0], S_NOTE))
+            ('' if REVIEW else 'COST_SUMMARY.md gives $%.2f' % [v for k, v in cost['totals'].items() if 'McMaster' in k][0],
+             S_NOTE))
 su.add()
 _short = [l for b in ('power', 'card') for l in cost[b]['lines'] if snap[l['lcsc']]['stock'] < l['qty']]
 su.add((('STOCK PROBLEM: ' + '; '.join('%s (%s): %d in stock, %d needed' % (l['mpn'], l['lcsc'], snap[l['lcsc']]['stock'],
@@ -297,16 +359,17 @@ ws.add(*[(h, S_HEAD) for h in ('Option', 'Saves (USD, this build)', 'What it tak
 ns = dict(P_=cost['power'], C_=cost['card'], stock=snap, m=lambda x: '$%.2f' % x, N=N, HERE='.', PCB=None,
           CARD_SINGLE=None)
 exec(open('tools/savings.py', encoding='utf-8').read(), ns)
-ws.add(('Applied', S_BOLD))
-for it, usd, note in ns['APPLIED']:
-    ws.add((it.replace('**', ''), S_WRAP), (round(usd, 2), S_USD2), (note, S_WRAP), ('applied', S_WRAP))
-ws.add()
-ws.add(('Still open (your choice)', S_BOLD))
+if not REVIEW:
+    ws.add(('Applied', S_BOLD))
+    for it, usd, note in ns['APPLIED']:
+        ws.add((it.replace('**', ''), S_WRAP), (round(usd, 2), S_USD2), (note, S_WRAP), ('applied', S_WRAP))
+    ws.add()
+ws.add(('Possible savings' if REVIEW else 'Still open (your choice)', S_BOLD))
 for it, usd, how, verdict in ns['OPEN']:
     ws.add((it.replace('**', ''), S_WRAP), (round(usd, 2), S_USD2) if usd else ('-' if usd is None else 'shipping'), (how, S_WRAP),
            (verdict.replace('**', ''), S_BOLD if 'Recommended' in verdict else S_WRAP))
 ws.add()
-ws.add(('Looked at, no good cheaper alternative (kept)', S_BOLD))
+ws.add(('Looked at and not used' if REVIEW else 'Looked at, no good cheaper alternative (kept)', S_BOLD))
 for x in ns['SAVINGS_MD']:
     if x.startswith('- '):
         ws.add((x[2:], S_WRAP))

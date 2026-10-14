@@ -1,7 +1,7 @@
-# BOOST order checklist, scenario A (updated 2026-10-02)
+# BOOST order checklist, scenario A (updated 2026-10-14)
 
 Two JLCPCB orders (power: 5 PCBs, 2 assembled; card: 5 panels, 2 assembled), plus four small orders elsewhere.
-**Total $600.61 with the McMaster pad** (shipping and tax not included). Every price is read, except the two Farnell
+**Total $599.01 with the McMaster pad** (shipping and tax not included). Every price is read, except the two Farnell
 UK prices converted from GBP (marked "GBP").
 
 **Since 2026-09-25 ($760.83):**
@@ -59,7 +59,7 @@ UK prices converted from GBP (marked "GBP").
 | Not placed (you fit) | M1-M10, L1, J10 |
 | Check | the placement preview: polarity of the cans and diodes (including **D28-D30 on the bottom**), pin 1 of every IC, and U16's tab over the large pad (JLC lists the MC7812 as TO-263-2) |
 
-PCBs $69.57 + assembly about $204.79 = **$274.36**. The standard build time is 8-9 days.
+PCBs $69.57 + assembly about $203.17 = **$272.74**. The standard build time is 8-9 days.
 
 ## JLC order 2: control card
 
@@ -78,7 +78,7 @@ Same settings as order 1, except:
 | BOM / CPL | `BOOST_control_BOM_JLC.csv` / `BOOST_control_CPL_JLC.csv` (single-card coordinates; check the preview places them on the panelled card) |
 | Not placed (you fit) | J11; J9 is wire pads; H1-H4 are holes |
 
-PCBs $56.83 + assembly about $162.46 = **$219.29**.
+PCBs $56.83 + assembly about $162.48 = **$219.31**.
 
 ## Buy elsewhere (2 sets)
 
@@ -119,11 +119,11 @@ to the case. It is mandatory with the McMaster pad, which publishes no dielectri
 
 | JLC (both orders) | Mouser | LCSC | McMaster | Digi-Key | Newark/Farnell | **Total** |
 |---|---|---|---|---|---|---|
-| $493.65 | $24.62 | $0.29 | $55.61 | $12.64 | $13.80 | **$600.61** + shipping + tax |
+| $492.05 | $24.62 | $0.29 | $55.61 | $12.64 | $13.80 | **$599.01** + shipping + tax |
 
 Pad alternatives:
-- Parker 61-06-0909-G579 (0.060 in) instead of the McMaster pad: **$702.45**.
-- t-Global TG-AD30 1.5 mm instead: $573.70 plus its price.
+- Parker 61-06-0909-G579 (0.060 in) instead of the McMaster pad: **$700.85**.
+- t-Global TG-AD30 1.5 mm instead: $572.10 plus its price.
 
 Pay both JLC orders together so they ship as one parcel.
 

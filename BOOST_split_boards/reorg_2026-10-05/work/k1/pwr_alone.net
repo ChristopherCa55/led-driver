@@ -1,0 +1,187 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\bubba\\OneDrive\\Documents\\led-driver\\BOOST_split_boards\\reorg_2026-10-05\\work\\k1\\BOOST_power_RC2.kicad_sch")
+		(date "2026-10-05T12:24:14")
+		(tool "Eeschema 10.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "BOOST LED driver - Power board")
+				(company)
+				(rev "RC2")
+				(date "2026-10-05")
+				(source "BOOST_power_RC2.kicad_sch")
+				(comment
+					(number "1")
+					(value "One block per circuit; the LTspice schematic uses the same arrangement")
+				)
+				(comment
+					(number "2")
+					(value "Nets between blocks are joined by global labels of the same name")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C87")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZU1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0289207a-eed0-4929-918c-89a00b4d7f04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "ltspice")
+			(part "cap")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "ltspice")
+			(uri "${KIPRJMOD}/ltspice.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "unconnected-(C87-Pad1)")
+			(class "Default")
+			(node
+				(ref "C87")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "unconnected-(C87-Pad2)")
+			(class "Default")
+			(node
+				(ref "C87")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+	)
+)

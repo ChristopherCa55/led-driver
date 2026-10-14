@@ -1,0 +1,7 @@
+{"_why": "D1 pull-ups: R106 (SCL) on B.Cu just above U26, R107 (SDA) on B.Cu under J9 (the only 0603 spots near the bus outside the H1-H4 washer areas); D2 R99 / R102 1k",
+ "footprints": [
+  {"ref": "R106", "template": "R99", "x": 61.15, "y": 82.45, "rot": 180, "value": "4.7k",
+   "path": "/6c1f7a52-3d0e-4b8a-9a61-5e2b4f0c1061", "nets": {"1": "5V", "2": "SCL"}},
+  {"ref": "R107", "template": "R99", "x": 60.0, "y": 106.5, "rot": 0, "value": "4.7k",
+   "path": "/6c1f7a52-3d0e-4b8a-9a61-5e2b4f0c1071", "nets": {"1": "5V", "2": "SDA"}}],
+ "values": [{"ref": "R99", "value": "1k"}, {"ref": "R102", "value": "1k"}]}

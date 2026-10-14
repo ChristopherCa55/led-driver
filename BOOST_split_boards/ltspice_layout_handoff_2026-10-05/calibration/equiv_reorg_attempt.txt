@@ -1,0 +1,40 @@
+E1 netlist identity          PASS
+    elements 302 -> 302, nets compared 152, differing 0
+E2 name-based connections    PASS
+    U18 SpiceModel "5V 0"; net 5V present; labels 4..10 kept
+E3 directives and comments   FAIL
+    original comment missing or reworded without approval: 'I added a lot of capacitors for individual components in the kicad, which are all put here'
+    18 directive texts, 6 original comments checked
+    new comment (allowed: block titles, notes): 'Supplies: 12 V and two 5 V regulators'
+    new comment (allowed: block titles, notes): 'Battery input and input-current sense'
+    new comment (allowed: block titles, notes): 'Boost power stage and output banks'
+    new comment (allowed: block titles, notes): 'LED channel 1 current regulator'
+    new comment (allowed: block titles, notes): 'LED channel 2 current regulator'
+    new comment (allowed: block titles, notes): 'LED channel 3 current regulator'
+    new comment (allowed: block titles, notes): 'Gate driver: M1 (boost switch)'
+    new comment (allowed: block titles, notes): 'Gate driver: channel 1 switches M2/M7'
+    new comment (allowed: block titles, notes): 'Gate driver: channel 2 switches M3/M6'
+    new comment (allowed: block titles, notes): 'Gate driver: channel 3 switches M4/M5'
+    new comment (allowed: block titles, notes): 'Arduino interface and LED-current references'
+    new comment (allowed: block titles, notes): 'Channel sequencer and low-error timeout'
+    new comment (allowed: block titles, notes): 'Error select and comparators'
+    new comment (allowed: block titles, notes): 'Channel 1 output-voltage error amplifier'
+    new comment (allowed: block titles, notes): 'Channel 2 output-voltage error amplifier'
+    new comment (allowed: block titles, notes): 'Channel 3 output-voltage error amplifier'
+    new comment (allowed: block titles, notes): 'Channel 1 reference sample-and-hold'
+    new comment (allowed: block titles, notes): 'Channel 2 reference sample-and-hold'
+    new comment (allowed: block titles, notes): 'Channel 3 reference sample-and-hold'
+    new comment (allowed: block titles, notes): 'Gate-enable logic and M1 inhibit'
+    new comment (allowed: block titles, notes): 'Logic supplies and spare gates'
+    new comment (allowed: block titles, notes): 'Simulation test bench (LTspice only): battery, cable, LED loads, Arduino stimulus, directives'
+    new comment (allowed: block titles, notes): 'BOOST LED driver - power board (left) and control card (right), one block per circuit; the KiCad she'
+E4 referenced identifiers    PASS
+    note: V(C10) names no node in the ORIGINAL either (pre-existing, left as is)
+    note: V(C2) names no node in the ORIGINAL either (pre-existing, left as is)
+    note: V(C5) names no node in the ORIGINAL either (pre-existing, left as is)
+    checked V(): 0A_hi, C10, C2, C5, LX, Out, Out-, SRV1, SRV2, SRV3, Vref_1, Vref_2, Vref_3
+    checked I(): D19, L1
+    checked params: IREF1_DUTY, IREF2_DUTY, IREF3_DUTY, POT1_CODE, POT2_CODE, POT3_CODE
+E5 support files             PASS
+    all .asy/.lib files identical to the original
+ELECTRICAL RESULT: FAIL (E3 directives and comments)

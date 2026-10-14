@@ -1,0 +1,113 @@
+E1 netlist identity          PASS
+    elements 301 -> 301, nets compared 152, differing 0
+    new net name on a previously auto-named net: Vbattery (was auto P001)
+    approved input swap applied: U103B pins 1 and 3 (NAND inputs are interchangeable)
+    approved instance rename applied: SIM_VBATT -> SIM_BATTERY
+    approved instance rename applied: SIM_RCABLE -> SIM_CABLE_RESISTANCE
+    approved instance rename applied: SIM_LCABLE -> SIM_CABLE_INDUCTANCE
+    approved deletion: R14 (absent from the candidate, as approved)
+    approved value change: D1 'D' -> '1N4148W'
+    approved value change: D10 'D' -> 'BAV21W'
+    approved value change: D11 'D' -> 'B5819W'
+    approved value change: D13 'D' -> 'B5819W'
+    approved value change: D14 'D' -> 'B5819W'
+    approved value change: D15 'D' -> '1N4148W'
+    approved value change: D2 'D' -> 'B5819W'
+    approved value change: D20 'D' -> '1N4148W'
+    approved value change: D21 'D' -> 'BAV21W'
+    approved value change: D22 'D' -> 'B5819W'
+    approved value change: D23 'D' -> 'BAT54WS'
+    approved value change: D24 'D' -> '1N4148W'
+    approved value change: D25 'D' -> 'BAT54WS'
+    approved value change: D26 'D' -> 'BAT54WS'
+    approved value change: D27 'D' -> '1N4148W'
+    approved value change: D3 'D' -> '1N4148W'
+    approved value change: D4 'D' -> '1N4148W'
+    approved value change: D5 'D' -> '1N4148W'
+    approved value change: D6 'D' -> '1N4148W'
+    approved value change: D7 'D' -> '1N4148W'
+    approved value change: D8 'D' -> 'B5819W'
+    approved value change: D9 'D' -> 'BAV21W'
+E2 name-based connections    PASS
+    U18 SpiceModel "5V 0"; net 5V present; labels 4..10 kept
+E3 directives and comments   PASS
+    18 directive texts, 6 original comments checked
+    approved directive change: '.ic V(Out)=0 V(Out-)=1 V(C10)=0 V(C5)=0 V(C2)=0' -> '.ic V(Out)=0 V(Out-)=1'
+    approved directive added: "* diode part names: LTspice's default diode, as before\\n.model 1N4148W D\\n.model B5819W D\\n.model BAV21W D\\n.model BAT54"
+    approved comment removal: '.ic V(Vout_1)=30 V(Vout_2)=38 V(Vout_3)=30'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB'
+    new comment (allowed: block titles, notes): 'actual led diode\\nwill not be on the pcb'
+    new comment (allowed: block titles, notes): 'actual led diode\\nwill not be on the pcb'
+    new comment (allowed: block titles, notes): 'actual led diode\\nwill not be on the pcb'
+    new comment (allowed: block titles, notes): 'simulation only - not on the PCB\\n0-5V PWM signal sent from arduino to control brightness'
+    new comment (allowed: block titles, notes): 'U26E: MCP4451 control unit, serves U26A/B/C'
+    new comment (allowed: block titles, notes): 'Channel 1 output-voltage error amplifier, Vout_1 -> Verr1'
+    new comment (allowed: block titles, notes): '0-5V PWM to set minimum voltage reference\\nThis will be connected to an arduino pin'
+    new comment (allowed: block titles, notes): 'this pushes up the reference voltage if the \\noutput voltage is undershooting for a long time'
+    new comment (allowed: block titles, notes): 'digital potentiometer \\nto control current'
+    new comment (allowed: block titles, notes): 'switch used so that circuit \\nonly samples while the led is on'
+    new comment (allowed: block titles, notes): 'error signal - used to control how long the inductor charges up for'
+    new comment (allowed: block titles, notes): 'mosfet used as a kind of variable resistor \\nto keep led current from going too high.'
+    new comment (allowed: block titles, notes): 'op amp will try to \\nmake its output match \\nthe reference current'
+    new comment (allowed: block titles, notes): 'PWM duty = IREF1_DUTY/256 (.param)'
+    new comment (allowed: block titles, notes): '1 mOhm shunt:\\nmeasures inductor current'
+    new comment (allowed: block titles, notes): 'current sense\\namplifies R1 voltage by 100x'
+    new comment (allowed: block titles, notes): 'low side switch'
+    new comment (allowed: block titles, notes): 'clamps LX spikes'
+    new comment (allowed: block titles, notes): 'connects LX to output 1'
+    new comment (allowed: block titles, notes): 'connects LX to output 2'
+    new comment (allowed: block titles, notes): 'connects LX to output 3'
+    new comment (allowed: block titles, notes): 'filters the PWM to DC'
+    new comment (allowed: block titles, notes): 'U26A: one of the 4 pots inside U26 (MCP4451)'
+    new comment (allowed: block titles, notes): 'OUTPUT 1'
+    new comment (allowed: block titles, notes): 'OUTPUT 2'
+    new comment (allowed: block titles, notes): 'OUTPUT 3'
+    new comment (allowed: block titles, notes): 'CH1 LED CURRENT LIMIT'
+    new comment (allowed: block titles, notes): 'CH1 HEADROOM SERVO'
+    new comment (allowed: block titles, notes): 'when m1 pulls inductor to ground, \\ncurrent can conduct through the mosfet \\nbody diode to charge up'
+    new comment (allowed: block titles, notes): 'Channel 2 output-voltage error amplifier, Vout_2 -> Verr2'
+    new comment (allowed: block titles, notes): 'PWM duty = IREF2_DUTY/256 (.param)'
+    new comment (allowed: block titles, notes): 'U26B: one of the 4 pots inside U26 (MCP4451)'
+    new comment (allowed: block titles, notes): 'CH2 LED CURRENT LIMIT'
+    new comment (allowed: block titles, notes): 'CH2 HEADROOM SERVO'
+    new comment (allowed: block titles, notes): 'same as channel 1'
+    new comment (allowed: block titles, notes): 'same as channel 1'
+    new comment (allowed: block titles, notes): 'same as channel 1'
+    new comment (allowed: block titles, notes): 'same as channel 1'
+    new comment (allowed: block titles, notes): 'Channel 3 output-voltage error amplifier, Vout_3 -> Verr3'
+    new comment (allowed: block titles, notes): 'PWM duty = IREF3_DUTY/256 (.param)'
+    new comment (allowed: block titles, notes): 'U26C: one of the 4 pots inside U26 (MCP4451)'
+    new comment (allowed: block titles, notes): 'CH3 LED CURRENT LIMIT'
+    new comment (allowed: block titles, notes): 'CH3 HEADROOM SERVO'
+    new comment (allowed: block titles, notes): 'LOW-ERROR TIMEOUT'
+    new comment (allowed: block titles, notes): 'SEQUENCER / ERROR SELECT'
+    new comment (allowed: block titles, notes): 'M1 ON/OFF LATCH'
+    new comment (allowed: block titles, notes): 'CHANNEL ENABLE'
+    new comment (allowed: block titles, notes): 'M1 INHIBIT'
+    new comment (allowed: block titles, notes): "makes it so that if there is one channel with low error, \\nit doesn't just stop on that one channel."
+    new comment (allowed: block titles, notes): 'rc circuit delays m1 turn on\\ndiode creates fast turn off'
+    ... 19 more
+E4 referenced identifiers    PASS
+    note: V(C10) names no node in the ORIGINAL either (pre-existing, left as is)
+    note: V(C2) names no node in the ORIGINAL either (pre-existing, left as is)
+    note: V(C5) names no node in the ORIGINAL either (pre-existing, left as is)
+    checked V(): 0A_hi, C10, C2, C5, LX, Out, Out-, SRV1, SRV2, SRV3, Vref_1, Vref_2, Vref_3
+    checked I(): D19, L1
+    checked params: IREF1_DUTY, IREF2_DUTY, IREF3_DUTY, POT1_CODE, POT2_CODE, POT3_CODE
+E5 support files             PASS
+    74HC4051.asy: drawing and pin positions changed (approved); pin names, pin order and electrical attributes identical, connections proven by E1
+    CD4017B.asy: drawing and pin positions changed (approved); pin names, pin order and electrical attributes identical, connections proven by E1
+    CD74HC4066.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    CSS4J_4026.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    INA241A4.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    L78L05.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    MC7812.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    MCP4451_CTRL.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    MCP4451_POT.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+    UCC21520.asy: drawing changed (approved graphics-only); pins, pin order and electrical attributes identical
+ELECTRICAL RESULT: PASS

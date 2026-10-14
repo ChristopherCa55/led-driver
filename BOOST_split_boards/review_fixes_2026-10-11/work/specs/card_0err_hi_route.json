@@ -1,0 +1,6 @@
+{"_why": "C1: 0err_hi between its vias (51.275, 79.275) and (64.225, 86.925) on In2 instead of In1",
+ "region": [46.5, 72, 70, 95], "clearance": 0.2, "via": [0.5, 0.3], "via_cost": 3.0, "turn_cost": 0.15,
+ "layers": ["In2.Cu"],
+ "foreign_via_keepout": {"Net-(U2-In+)": 2.0, "Current": 2.0},
+ "connections": [{"start_xy": [51.275, 79.275, "In2.Cu"], "net": "0err_hi", "goal": "points",
+                  "goal_xy": [[64.225, 86.925]], "width": 0.2}]}

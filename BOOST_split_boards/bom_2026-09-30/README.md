@@ -134,3 +134,14 @@ Same footprint and pinout as the LM2940S-12 (1 IN, 2 + tab GND, 3 OUT), searched
   header text.
 - **Copied to BOOST_package:** the power CPL, COST_SUMMARY.md and BOOST_BOM.xlsx.
 - The previous outputs are in `work/before_power6/`.
+
+## 2026-10-02: the reviewer copy of the workbook
+- **`make_xlsx.py --review`** writes the same parts, prices and formulas with the dates, revision labels,
+  "your choice"/"approved" wording and internal file names removed (`REVIEW_SUBS`), and without the "Applied" savings
+  list.
+- **"Fitted by"** reads "by hand" in place of "you (hand)", and the SUMIFS use the same label.
+- **The normal mode** is unchanged: every sheet is byte-identical, apart from the timestamp.
+- **Checked in Excel:** 0 formula errors and a total of $600.61. A scan of every text cell finds no dates or history
+  words.
+- **BOOST_stuff/BOOST_BOM.xlsx** is the review copy (for the outside reviewer). BOOST_package keeps the full one. The
+  user's previous BOOST_stuff copy is in `previous/2026-10-02/before_review_xlsx/`.

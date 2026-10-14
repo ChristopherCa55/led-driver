@@ -251,7 +251,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "RC2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -847,13 +847,18 @@
       {
         "filename": "BOOST_power_RC2.kicad_sch",
         "name": "BOOST_power_RC2",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "16ab5722-fa0c-56d0-91d1-33b4130b19c8"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "16ab5722-fa0c-56d0-91d1-33b4130b19c8",
+      "BOOST_power_RC2"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

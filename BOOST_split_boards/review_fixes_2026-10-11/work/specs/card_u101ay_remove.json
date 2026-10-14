@@ -1,0 +1,3 @@
+{"_why": "C1: Net-(U101A-Y)'s In1 span splits the In1 GND plane; removed here and re-routed off the GND layers",
+ "remove_segments": [{"net": "Net-(U101A-Y)", "layer": "In1.Cu", "bbox": [50.6, 75.1, 55.2, 88.0]}],
+ "expect": {"remove_segments": 14}}

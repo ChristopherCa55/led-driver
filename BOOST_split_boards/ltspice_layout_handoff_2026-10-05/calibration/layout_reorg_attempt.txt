@@ -1,0 +1,182 @@
+LAYOUT CHECK  reference/reorg_2026-10-05_attempt/BOOST.asc  
+H2 membership in frames              PASS  (0)
+    skipped (--no-frames)
+H3 one drawing per block             FAIL  (13)
+    PWR is 16 separate drawings: main 8 parts; islands: C4 C74 C75 C76 C77 D30 M4 M5 | SIM_LCABLE SIM_RCABLE SIM_VBATT | C40 C69 C85 | M3 M6 | R1 | L1 | M1 | D19 | R14 | D29 | C87 | C71 | C78 | C73 | C3
+    SUP is 6 separate drawings: main 5 parts; islands: C55 C56 C81 C83 U1 | C30 C79 C84 U16 | C6 | C21 | C25
+    GATEDRV is 6 separate drawings: main 13 parts; islands: C18 C51 D10 D11 D2 R13 R21 R60 R75 R76 U15 | C60 C61 D13 D21 D22 R47 R59 R72 U8 | C31 C89 C90 R104 R15 R62 U19 | R73 | R74
+    CREG1 is 3 separate drawings: main 5 parts; islands: SIM_LED1 | C33
+    CREG2 is 2 separate drawings: main 6 parts; islands: SIM_LED2
+    CREG3 is 3 separate drawings: main 5 parts; islands: SIM_LED3 | C35
+    REF1 is 7 separate drawings: main 10 parts; islands: C100 R29 R54 U26A | R102 R103 R99 U26E | SIM_IREF1 | C23 | C26 | C32
+    REF2 is 4 separate drawings: main 10 parts; islands: C101 R30 R55 U26B | SIM_IREF2 | C38
+    REF3 is 4 separate drawings: main 10 parts; islands: C102 R57 R58 U26C | SIM_IREF3 | C63
+    EA1 is 4 separate drawings: main 10 parts; islands: C103 R101 | SIM_VREF1 | C66
+    EA2 is 4 separate drawings: main 10 parts; islands: C93 R100 | SIM_VREF2 | C36
+    EA3 is 4 separate drawings: main 10 parts; islands: C47 R77 | SIM_VREF3 | C37
+    CONTROL is 15 separate drawings: main 14 parts; islands: C14 C15 C53 D3 D4 Q1 R65 R66 R67 R68 R69 R71 U14 | C17 D20 R80 R81 U102A U102B U104B U105A | C9 D7 R78 R79 U102C U102D U104C U104F | C8 D5 R63 R64 U103A U103B U104D U105B | C29 R11 R16 R17 U2 U5 | D6 R4 U101A U101B U101C U101D | C24 R18 R19 R20 U4 | D27 R105 | C96 C98 | U28 | U104E | U18 | SIM_ARD_INH | C12
+H3b no orphan parts                  FAIL  (1)
+    orphan (every non-ground pin touches only labels): C104 C12 C3 C54 C71 C73 C78 C87 C91 C92 D19 D29 L1 M1 R14 R73 R74 SIM_ARD_INH SIM_IREF1 SIM_IREF2 SIM_IREF3 SIM_LED1 SIM_LED2 SIM_LED3 SIM_VREF1 SIM_VREF2 SIM_VREF3 U104E U18 U28
+H4 no label jumps inside a block     FAIL  (29)
+    GATEDRV: net m2_source is split into 6 wire groups inside the block (joined only by labels)
+    CONTROL: net Out- is split into 8 wire groups inside the block (joined only by labels)
+    CONTROL: net VerrGT0 is split into 5 wire groups inside the block (joined only by labels)
+    CONTROL: net 0A_hi is split into 2 wire groups inside the block (joined only by labels)
+    EA1: net Vref_1 is split into 2 wire groups inside the block (joined only by labels)
+    CONTROL: net 0err_hi is split into 4 wire groups inside the block (joined only by labels)
+    CONTROL: net V_err is split into 3 wire groups inside the block (joined only by labels)
+    CONTROL: net Reset_raw is split into 2 wire groups inside the block (joined only by labels)
+    GATEDRV: net GATE_M4 is split into 2 wire groups inside the block (joined only by labels)
+    GATEDRV: net m4_source is split into 6 wire groups inside the block (joined only by labels)
+    EA2: net Vref_2 is split into 2 wire groups inside the block (joined only by labels)
+    EA3: net Vref_3_arduino is split into 2 wire groups inside the block (joined only by labels)
+    CONTROL: net low_error_timeout is split into 5 wire groups inside the block (joined only by labels)
+    CONTROL: net OUT_1_ENA is split into 3 wire groups inside the block (joined only by labels)
+    CONTROL: net OUT_2_ENA is split into 3 wire groups inside the block (joined only by labels)
+    CONTROL: net OUT_3_ENA is split into 3 wire groups inside the block (joined only by labels)
+    GATEDRV: net GATE_M5 is split into 2 wire groups inside the block (joined only by labels)
+    CREG2: net Output2_drain is split into 2 wire groups inside the block (joined only by labels)
+    CREG3: net Output3_drain is split into 2 wire groups inside the block (joined only by labels)
+    CREG1: net Output1_drain is split into 2 wire groups inside the block (joined only by labels)
+    CONTROL: net M1_INHIBIT is split into 2 wire groups inside the block (joined only by labels)
+    CONTROL: net M1_ON is split into 2 wire groups inside the block (joined only by labels)
+    REF3: net IREF3 is split into 3 wire groups inside the block (joined only by labels)
+    EA3: net Vref_3 is split into 2 wire groups inside the block (joined only by labels)
+    REF2: net IREF2 is split into 3 wire groups inside the block (joined only by labels)
+    ... 4 more
+H6 block exits                       PASS  (0)
+    skipped (--no-frames)
+H5 continuous power path             FAIL  (6)
+    PWR: Vin is drawn as 6 separate wire pieces (must be one continuous wired drawing)
+    PWR: rsense_lo is drawn as 2 separate wire pieces (must be one continuous wired drawing)
+    PWR: LX is drawn as 7 separate wire pieces (must be one continuous wired drawing)
+    PWR: Vout_2 is drawn as 7 separate wire pieces (must be one continuous wired drawing)
+    PWR: ground return is drawn as 20 separate wire pieces (must be one continuous wired drawing)
+    PWR: the battery terminal net (SIM_VBATT +) has no name flag of its own; label it (e.g. Vbattery) so it is visibly not Vin
+H7 supply labels                     PASS  (0)
+    supply and ground flags are plain
+H8 wiring hygiene                    FAIL  (6)
+    4-way junction at (3136, 2496)
+    wire crossing at (8400, 928) is within 16 units of a junction/pin at (8416, 928) (reads as a connection)
+    wire crossing at (3184, 2432) is within 16 units of a junction/pin at (3168, 2432) (reads as a connection)
+    wire crossing at (3120, 2496) is within 16 units of a junction/pin at (3136, 2496) (reads as a connection)
+    wire (2160, 2416, 2016, 2416) passes through the body of R13
+    wire (2160, 2416, 2016, 2416) passes through the body of D11
+H9 text and spacing (estimated)      FAIL  (948)
+    text overlap: "SIM_VBATT.InstName" / "SIM_RCABLE.Value"
+    text closer than 16 units: "SIM_VBATT.Value" / "GND"
+    text closer than 16 units: "L1.InstName" / "label LX"
+    text overlap: "L1.InstName" / "label rsense_lo"
+    text closer than 16 units: "M1.InstName" / "label GATE_M1"
+    text closer than 16 units: "M1.Value" / "label GATE_M1"
+    text closer than 16 units: "M2.Value" / "label m2_source"
+    text closer than 16 units: "C1.Value" / "C88.Value"
+    text overlap: "C1.Value" / "GND"
+    text closer than 16 units: "R1.InstName" / "label ISNS_N"
+    text closer than 16 units: "R1.InstName" / "label ISNS_P"
+    text closer than 16 units: "R1.Value" / "label rsense_lo"
+    text closer than 16 units: "R1.Value" / "label Vin"
+    text closer than 16 units: "U101C.InstName" / "label Out"
+    text overlap: "U101A.InstName" / "label VerrGT0"
+    wire (6592, 1808, 6272, 1808) runs through text "R2.Value"
+    text closer than 16 units: "R3.Value" / "GND"
+    text closer than 16 units: "R6.Value" / "label .1Vref_1"
+    text closer than 16 units: "R8.InstName" / "label .1Vout_1"
+    text closer than 16 units: "R8.Value" / "GND"
+    text closer than 16 units: "R9.InstName" / "label .1Vout_1"
+    text overlap: "R9.InstName" / "label Vout_1"
+    text closer than 16 units: "R14.Value" / "GND"
+    text closer than 16 units: "R16.Value" / "GND"
+    wire (9824, 208, 9568, 208) runs through text "R17.InstName"
+    ... 923 more
+    note: Text sizes are estimates (blocks.json text_metrics); confirm every finding, and the absence of findings, in LTspice screenshots.
+H10 matching copies                  FAIL  (360)
+    PWR switch columns: M3 is not at the same place relative to M6 as M2 is to M7 (off by 16,0)
+    PWR switch columns: M3 InstName text sits differently from M2
+    PWR switch columns: M3 Value text sits differently from M2
+    PWR switch columns: D29 is not at the same place relative to M6 as D28 is to M7 (off by 1264,256)
+    PWR switch columns: D29 InstName text sits differently from D28
+    PWR switch columns: D29 Value text sits differently from D28
+    PWR switch columns: C87 is not at the same place relative to M6 as C86 is to M7 (off by -144,16)
+    PWR switch columns: C87 InstName text sits differently from C86
+    PWR switch columns: C87 Value text sits differently from C86
+    PWR switch columns: C71 is not at the same place relative to M6 as C70 is to M7 (off by 736,-112)
+    PWR switch columns: C71 InstName text sits differently from C70
+    PWR switch columns: C71 Value text sits differently from C70
+    PWR switch columns: C78 is not at the same place relative to M6 as C88 is to M7 (off by 16,96)
+    PWR switch columns: C78 InstName text sits differently from C88
+    PWR switch columns: C78 Value text sits differently from C88
+    PWR switch columns: C73 is not at the same place relative to M6 as C1 is to M7 (off by 880,-80)
+    PWR switch columns: C73 InstName text sits differently from C1
+    PWR switch columns: C73 Value text sits differently from C1
+    PWR switch columns: C3 is not at the same place relative to M6 as C72 is to M7 (off by 288,48)
+    PWR switch columns: C3 InstName text sits differently from C72
+    PWR switch columns: C3 Value text sits differently from C72
+    PWR switch columns: wiring of copy 2 differs from copy 1 (16 segments only in copy 1, 1 only in copy 2)
+    PWR switch columns: M4 is not at the same place relative to M5 as M2 is to M7 (off by 32,0)
+    PWR switch columns: M4 InstName text sits differently from M2
+    PWR switch columns: M4 Value text sits differently from M2
+    ... 335 more
+H11 notes beside their subject       PASS  (0)
+    notes placed with their subject
+    note: Verbatim presence of every original note is checked by ltspice_equiv.py (E3).
+H12 bypass caps at their IC          FAIL  (26)
+    C6 is not wired to U16 pin OUT (owner provisional)
+    C7 is 273 units from U17 pin OUT (max 240)
+    C12 is not wired to U14 pin V+
+    C21 is not wired to U1 pin OUT
+    C23 is not wired to U106C pin VDD
+    C24 is not wired to U5 pin V+
+    C25 is not wired to U16 pin OUT (owner provisional)
+    C26 is not wired to U26E pin VDD
+    C28 is not wired to U2 pin V+
+    C29 is not wired to U21 pin V+
+    C32 is not wired to U24 pin V+
+    C33 is not wired to U11 pin V+
+    C35 is not wired to U6 pin V+
+    C36 is not wired to U7 pin V+ (owner provisional)
+    C37 is not wired to U13 pin V+ (owner provisional)
+    C38 is not wired to U23 pin V+
+    C48 is not wired to U19 pin VCCI
+    C53 is not wired to U21 pin V+
+    C55 is 242 units from U1 pin OUT (max 240)
+    C62 is not wired to U15 pin VCCI
+    C63 is not wired to U22 pin V+
+    C66 is not wired to U3 pin V+
+    C89 is not wired to U8 pin VCCI
+    C90 is not wired to U10 pin VCCI
+    C96 is not wired to U28 pin VDD (owner provisional)
+    ... 1 more
+    note: Owners marked ambiguous in bypass_map.json are provisional until the user confirms them.
+TRACES (label jumps along the path; budget in brackets)
+  T1 Power path                         13 [0] FAIL SIM_LCABLE -> C69 via label Vin; C69 -> R1 via label Vin; R1 -> L1 via label rsense_lo; L1 -> M1 via label LX; L1 -> M7 via label LX; L1 -> M6 via label LX
+  T2 Vout_1 to Verr1 (error amplifier)  3 [1] FAIL M2 -> R9 via label Vout_1; R27 -> U28 via label Verr1; D26 -> U3 via label .1Vref_1
+  T3 LED current loop ch1               4 [1] FAIL M2 -> SIM_LED1 via label Vout_1; SIM_LED1 -> M10 via label Output1_drain; SIM_IREF1 -> R29 via label IREF1; U26A -> U11 via label IREF1_input
+  T4 Headroom servo ch1                 3 [0] FAIL M10 -> R94 via label Output1_drain; D26 -> U3 via label .1Vref_1; SIM_IREF1 -> U106C via label IREF1
+  T5 Low-error timeout                  3 [0] FAIL U4 -> R66 via label 0err_hi; U14 -> U18 via label low_error_timeout; U14 -> D6 via label low_error_timeout
+  T6 Fault latch                        4 [1] FAIL U25 -> U5 via label Current; U5 -> U101B via label Reset_raw; U101D -> U102A via label Out-; U101D -> D15 via label Out-
+  T7 Channel 1 enable to M7             3 [1] FAIL U18 -> U102B via label OUT_1_ENA; U105A -> U15 via label ena_out_1; R60 -> M7 via label GATE_M7
+  T8 M1 inhibit to M1                   3 [1] FAIL U104A -> U19 via label M1_ON; R15 -> M1 via label GATE_M1; D27 -> U104A via label M1_INHIBIT
+  T9 Gate drive ch1                     2 [1] FAIL U104B -> U15 via label M2_ON; R13 -> M2 via label GATE_M2
+  T10 Kelvin sense R1 to U25 (ISNS block above R1) 0 [0] PASS 
+BLOCK STATS
+  PWR      {'parts': 35, 'crossings': 21, 'labels': 80, 'area_k_units2': 19052, 'parts_per_100k_units2': 0.18}
+  ISNS     {'parts': 2, 'crossings': 0, 'labels': 1, 'area_k_units2': 43, 'parts_per_100k_units2': 4.65}
+  SUP      {'parts': 17, 'crossings': 24, 'labels': 88, 'area_k_units2': 15013, 'parts_per_100k_units2': 0.11}
+  GATEDRV  {'parts': 42, 'crossings': 21, 'labels': 36, 'area_k_units2': 5185, 'parts_per_100k_units2': 0.81}
+  CREG1    {'parts': 7, 'crossings': 9, 'labels': 31, 'area_k_units2': 9107, 'parts_per_100k_units2': 0.08}
+  CREG2    {'parts': 7, 'crossings': 3, 'labels': 12, 'area_k_units2': 3199, 'parts_per_100k_units2': 0.22}
+  CREG3    {'parts': 7, 'crossings': 9, 'labels': 35, 'area_k_units2': 9754, 'parts_per_100k_units2': 0.07}
+  REF1     {'parts': 22, 'crossings': 31, 'labels': 240, 'area_k_units2': 57477, 'parts_per_100k_units2': 0.04}
+  REF2     {'parts': 16, 'crossings': 27, 'labels': 141, 'area_k_units2': 39581, 'parts_per_100k_units2': 0.04}
+  REF3     {'parts': 16, 'crossings': 30, 'labels': 154, 'area_k_units2': 44580, 'parts_per_100k_units2': 0.04}
+  EA1      {'parts': 14, 'crossings': 25, 'labels': 97, 'area_k_units2': 30241, 'parts_per_100k_units2': 0.05}
+  EA2      {'parts': 14, 'crossings': 30, 'labels': 196, 'area_k_units2': 44552, 'parts_per_100k_units2': 0.03}
+  EA3      {'parts': 14, 'crossings': 30, 'labels': 185, 'area_k_units2': 45305, 'parts_per_100k_units2': 0.03}
+  CONTROL  {'parts': 89, 'crossings': 30, 'labels': 222, 'area_k_units2': 47955, 'parts_per_100k_units2': 0.19}
+TOTALS {'wires': 643, 'flags': 427, 'ground_flags': 184, 'signal_label_instances': 243, 'crossings': 31, 'symbols': 302, 'texts': 46, 'frames': 0}
+REVIEW FLAGS
+  upside-down supply/ground flags: []
+  label instances per net (top 15): 15 items, e.g. [('5V', 28), ('analog_5V', 11), ('Vin', 9), ('Vout_2', 9), ('Out-', 8), ('LX', 7)]
+  long wires (> 1600 units): []
+LAYOUT RESULT: FAIL (H3 one drawing per block, H3b no orphan parts, H4 no label jumps inside a block, H5 continuous power path, H8 wiring hygiene, H9 text and spacing (estimated), H10 matching copies, H12 bypass caps at their IC, T1, T2, T3, T4, T5, T6, T7, T8, T9)

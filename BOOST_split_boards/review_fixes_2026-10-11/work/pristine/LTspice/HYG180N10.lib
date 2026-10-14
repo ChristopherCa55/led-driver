@@ -1,0 +1,221 @@
+* ============================================================================
+* HYG180N10 (Huayi HYG180N10LS1P) - UNOFFICIAL behavioral SPICE model
+* 100V / 50A N-Channel MOSFET, TO-220FB-3L
+* Built from published datasheet typical values, not a factory-supplied model.
+*
+* REV 3 - pin list reduced from (D G S B) to (D G S).
+*         The body is now tied to the source INSIDE the subcircuit, which is
+*         what the real TO-220 part does - the body is bonded to the source
+*         lead and is not accessible. This makes the model a drop-in for the
+*         standard 3-terminal nmos symbol.
+*
+*         Nothing changes electrically: every instance in BOOST.net already
+*         had B connected to S.
+*
+*         >>> INSTANCE PREFIX IS STILL X, NOT M <<<
+*         This is a .SUBCKT, so instances read:
+*             X2 N022 GATE_M2 N016 HYG180N10
+*         Use the standard LTspice "nmos" symbol with Prefix changed to X and
+*         Value set to HYG180N10, or the supplied HYG180N10.asy.
+*
+*         A 4-terminal variant HYG180N10_4T (D G S B) is kept at the bottom of
+*         this file for any symbol that still exposes a bulk pin. It is
+*         otherwise identical.
+*
+* REV 2 - became a .SUBCKT (was a plain .MODEL). Added:
+*           1. internal gate resistance  RG = 2.38 ohm
+*           2. drain-source avalanche breakdown at BVDSS = 100 V
+*
+* ---------------------------------------------------------------------------
+* WHY THE BREAKDOWN MATTERS IN THIS CIRCUIT
+* ---------------------------------------------------------------------------
+* Before REV 2 there was no breakdown behaviour at all, so LTspice happily
+* showed 180 V on the switch node with no complaint. Real silicon avalanches
+* at 100 V. With this model the drain-source voltage clamps near 100 V and
+* you will SEE the avalanche current - which is the current that destroys
+* the real part. If you see it, the design is not safe to build yet.
+*
+* Avalanche here is modelled as a hard clamp (about 170 A at 102 V). It does
+* NOT model avalanche energy limits, thermal runaway, or single-pulse
+* avalanche ratings. Treat any avalanche current as a design failure, not as
+* an operating mode.
+*
+* ---------------------------------------------------------------------------
+* VERIFIED IN NGSPICE
+* ---------------------------------------------------------------------------
+*   RDS(on)     17.6 mohm at VGS=10V, ID=22.7A   (datasheet typ 16.5 mohm)
+*   Body diode  VSD = 0.960 V at ISD = 25.00 A   (datasheet typ 0.96 V)
+*   Breakdown   leakage 0.25 nA at 98 V; 1 mA at 100 V; 169 A at 102 V
+*
+* ---------------------------------------------------------------------------
+* REV 4 - checked line by line against the HYG180N10LS1P datasheet
+*         (HuaYi Microelectronics, V1.0, www.hymexa.com).
+*
+*         PART IS 50 A, NOT 180 A. Datasheet: ID = 50 A at Tc=25C, 35.4 A at
+*         Tc=100C, IDM = 200 A, Ciss = 1606 pF. The "180" in the part number
+*         encodes RDS(on) (~18 mohm nominal), not current. Marketplace
+*         listings advertising "100V 180A" are misreading the part number.
+*         This closes the open question about Ciss being 8-12 nF.
+*
+*         Changed in REV 4:
+*           KP    8    -> 8.6     RDS(on) now 16.5 mohm at VGS=10V, ID=25A
+*                                 (was 17.6). Use KP=6.6 for the 21 mohm max
+*                                 corner.
+*           CGSO  1580p-> 1583p   Ciss = CGSO+CGDO = 1606 pF exactly
+*           CGDO  20p  -> 22.8p   Crss spec is 22.8 pF, was 20
+*           CBD   450p -> 2.75n   Coss was 5.05x LOW: 450p collapses to 74 pF
+*                                 by VDS=25V, giving Coss=94 pF against a
+*                                 476 pF spec. 2.75n gives 476 pF at 25 V.
+*                                 This raises LX node capacitance ~2.5x.
+*           TT    120n -> 2.55n   Qrr/IF = 63.7nC/25A. Old value implied
+*                                 ~3 uC of stored charge, 47x too much.
+*
+* ---------------------------------------------------------------------------
+* REV 5 - package lead inductance added to HYG180N10 (LD 4.5 nH, LS 7.5 nH,
+*         LG 7.5 nH, typical TO-220 values). The REV 4 model without leads
+*         is kept as HYG180N10_NOLEADS.
+*
+* ---------------------------------------------------------------------------
+* MATCHED TO DATASHEET
+* ---------------------------------------------------------------------------
+*   VDSS        = 100 V min @ 250uA  -> BV on the body diode
+*   VGS(th) typ = 1.8 V (1.0/3.0)    -> VTO. RUN THE VTO=1.0 CORNER: it is
+*                                       what decides cross-conduction margin.
+*   RDS(on) typ = 16.5 mohm @ VGS=10V, ID=25A
+*   Ciss = 1606 pF, Coss = 476 pF, Crss = 22.8 pF @ VDS=25V
+*   RG typ      = 2.38 ohm           -> Rg
+*   Body diode  VSD typ = 0.96 V @ ISD = 25 A
+*   Qrr = 63.7 nC, trr = 46.9 ns @ ISD=25A, dI/dt=100A/us
+*
+* ---------------------------------------------------------------------------
+* KNOWN MISMATCH THAT LEVEL=1 CANNOT FIX
+* ---------------------------------------------------------------------------
+*   RDS(on) @ VGS=4.5V, ID=20A: datasheet 27 mohm typ, this model 56 mohm.
+*   Square law is too steep to hit both gate-drive points at once - matching
+*   4.5 V would need KP=15.2, which would give 10 mohm at 10 V.
+*
+*   THIS MATTERS FOR DEAD TIME. The model needs VGS ~5.3 V to carry 49 A;
+*   the real part carries it at 4.5 V. So real silicon holds current ~2.4 ns
+*   longer into turn-off than this model shows, and simulated dead time is
+*   optimistic. Do not size dead time from this model alone - use the
+*   UCC21520 DT pin.
+*
+*   Qg(10V) = 17.9 nC here vs 24.6 nC datasheet, Qgd 1.8 vs 3.7 nC, because
+*   SPICE CGDO is a fixed overlap cap with no Vds dependence, so there is no
+*   real Miller plateau. Fixing this needs LTspice VDMOS (Cgdmax/Cgdmin) or
+*   LEVEL=3.
+*
+*   Datasheet caution: the switching-time block (td_on 9.5 ns, tr 31.6 ns,
+*   td_off 20.9 ns, tf 5.1 ns at RG=2.5 ohm) disagrees with the datasheet's
+*   OWN gate-charge data by about 8x. Fit to Qg and C, not to those times.
+*
+* ---------------------------------------------------------------------------
+* STILL NOT MODELLED
+* ---------------------------------------------------------------------------
+*   Temperature dependence of anything
+*   Avalanche energy / thermal limits (datasheet EAS = 62.9 mJ single pulse,
+*     RthJC = 1.6 C/W, TJmax 175 C) - see note above
+*   Body-diode reverse recovery charge Qrr (TT is a rough placeholder)
+*   Accurate Coss vs VDS curvature - LEVEL=1 junction cap, fitted at the
+*     single 25 V datasheet point with MJ=0.5; refine from Figure 9
+*   Gate charge plateau shape (square-law LEVEL=1 limitation)
+*   Package inductance - added in REV 5 (typical TO-220 values, see subckt)
+*
+* Accuracy note: square-law LEVEL=1 core, calibrated mainly at the VGS=10V
+* datasheet point. Expect more error at low gate overdrive.
+* ============================================================================
+
+
+* ============================================================================
+* 3-TERMINAL VERSION - USE THIS ONE
+* ============================================================================
+.SUBCKT HYG180N10 D G S
+*
+* --- package lead inductance (REV 5) ----------------------------------------
+* D, G and S are the PINS. Di, Gi and Si are the die. Everything on the die
+* (channel, body diode, avalanche, junction capacitance) sits inside the
+* leads, so the body diode clamps the DIE, not the pins.
+*
+* Typical TO-220 values, not from the HYG180N10 datasheet (it lists none):
+*   LD 4.5 nH, LS 7.5 nH - the usual TO-220 figures, lead measured 6 mm
+*                          from the package to the centre of the die contact
+*   LG 7.5 nH            - taken equal to the source lead
+* Longer leads (bends for tab-down mounting, standoff height) add roughly
+* 1 nH per mm. For the original model without leads, set the part's Value
+* to HYG180N10_NOLEADS.
+LD D Di 4.5n
+LS Si S 7.5n
+LG G Gp 7.5n
+*
+* --- internal gate resistance -----------------------------------------------
+Rg Gp Gi 2.38
+*
+* --- core transistor and body diode (unchanged from REV 4) ------------------
+Mcore Di Gi Si Si HYG180N10_CORE
+Dbody Si Di HYG180N10_BODY
+*
+.MODEL HYG180N10_CORE NMOS(LEVEL=1 VTO=1.8 KP=8.6 LAMBDA=0.003 L=1 W=1
++ RS=1m RD=1m
++ CGSO=1583p CGDO=22.8p CBD=2.75n PB=0.7 MJ=0.5
++ IS=1e-20)
+*
+.MODEL HYG180N10_BODY D(IS=3e-11 N=1.0 RS=10m BV=100 IBV=1m CJO=0 TT=2.55n)
+*
+.ENDS HYG180N10
+
+
+* ============================================================================
+* REV 4 MODEL WITHOUT LEAD INDUCTANCE - for comparison runs.
+* Identical to HYG180N10 before REV 5. Set the part's Value to
+* HYG180N10_NOLEADS to use it.
+* ============================================================================
+.SUBCKT HYG180N10_NOLEADS D G S
+*
+* --- internal gate resistance -----------------------------------------------
+* Datasheet RG typ = 2.38 ohm. This is in series with whatever external gate
+* resistor you fit, and it slows your real switching edges.
+Rg G Gi 2.38
+*
+* --- core transistor --------------------------------------------------------
+* Bulk is wired to S here: on the physical part the body is bonded to the
+* source lead. IS is set to effectively zero so the intrinsic bulk-drain
+* junction does not conduct; the body diode is modelled explicitly below so
+* it can carry a breakdown voltage. CBD is retained here for junction
+* capacitance (with B=S it is the drain-source junction capacitance).
+Mcore D Gi S S HYG180N10_CORE
+*
+* --- explicit body diode WITH avalanche breakdown ---------------------------
+* Forward: carries normal body-diode conduction (VSD 0.96 V at 25 A).
+* Reverse: breaks down at BV = 100 V, modelling drain-source avalanche.
+* CJO=0 because the junction capacitance is already in CBD on the core.
+Dbody S D HYG180N10_BODY
+*
+.MODEL HYG180N10_CORE NMOS(LEVEL=1 VTO=1.8 KP=8.6 LAMBDA=0.003 L=1 W=1
++ RS=1m RD=1m
++ CGSO=1583p CGDO=22.8p CBD=2.75n PB=0.7 MJ=0.5
++ IS=1e-20)
+*
+.MODEL HYG180N10_BODY D(IS=3e-11 N=1.0 RS=10m BV=100 IBV=1m CJO=0 TT=2.55n)
+*
+.ENDS HYG180N10_NOLEADS
+
+
+* ============================================================================
+* 4-TERMINAL VERSION - legacy, only for symbols that still expose a bulk pin.
+* Identical to the above except the bulk is brought out. Tie B to S unless you
+* have a specific reason not to; the real device gives you no choice.
+* ============================================================================
+.SUBCKT HYG180N10_4T D G S B
+*
+Rg G Gi 2.38
+Mcore D Gi S B HYG180N10_CORE
+Dbody S D HYG180N10_BODY
+*
+.MODEL HYG180N10_CORE NMOS(LEVEL=1 VTO=1.8 KP=8.6 LAMBDA=0.003 L=1 W=1
++ RS=1m RD=1m
++ CGSO=1583p CGDO=22.8p CBD=2.75n PB=0.7 MJ=0.5
++ IS=1e-20)
+*
+.MODEL HYG180N10_BODY D(IS=3e-11 N=1.0 RS=10m BV=100 IBV=1m CJO=0 TT=2.55n)
+*
+.ENDS HYG180N10_4T

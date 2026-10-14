@@ -1,0 +1,38 @@
+* ============================================================================
+* 74HC4051 - 8-channel analog multiplexer, behavioural model (2026-09-29)
+* Not a Nexperia model.  Values from Nexperia's 74HC_HCT4051 data sheet, Rev. 12, 21 March 2024 (the board's
+* 74HC4051D), read 2026-09-29:
+*   on-resistance, VCC 4.5 V, 1 mA .... 80 ohm typ at the low rail, 100 ohm typ mid-supply, 90 ohm typ at VCC
+*                                        -> RON = 90 (the error signals span the range)
+*   address to switch, VCC 5 V ......... turn-on 20 ns typ, turn-off 19 ns typ (CL 15 pF)  -> TON = 20 ns
+*   break-before-make .................. built in (typical)
+*   address/inhibit inputs ............. HC CMOS levels; modelled as a smooth threshold at VDD/2
+* Pin order matches 74HC4051.asy (same pins as CD4051B.asy): A B C INH IO0..IO7 IOC VDD VSS VEE.
+* Channel n is on when A + 2B + 4C = n and INH is low.  During an address change the channels cross-fade over TON
+* (the real part breaks before make).
+* NOT MODELLED: Ron change with signal voltage, charge injection, capacitances, leakage, VEE below VSS.
+* ============================================================================
+.SUBCKT 74HC4051 A B C INH IO0 IO1 IO2 IO3 IO4 IO5 IO6 IO7 IOC VDD VSS VEE PARAMS: RON=90 ROFF=10G TON=20n
+BA a1 VSS V=0.5+0.5*tanh((V(A,VSS)-0.5*V(VDD,VSS))/0.05)
+BB b1 VSS V=0.5+0.5*tanh((V(B,VSS)-0.5*V(VDD,VSS))/0.05)
+BCC c1 VSS V=0.5+0.5*tanh((V(C,VSS)-0.5*V(VDD,VSS))/0.05)
+BI i1 VSS V=0.5-0.5*tanh((V(INH,VSS)-0.5*V(VDD,VSS))/0.05)
+RA a1 a2 1k
+CA a2 VSS {TON/0.69/1k}
+RB b1 b2 1k
+CB b2 VSS {TON/0.69/1k}
+RC c1 c2 1k
+CC c2 VSS {TON/0.69/1k}
+RI i1 i2 1k
+CI i2 VSS {TON/0.69/1k}
+B0 IO0 IOC I=V(IO0,IOC)*((1-V(a2,VSS))*(1-V(b2,VSS))*(1-V(c2,VSS))*V(i2,VSS)/RON+1/ROFF)
+B1 IO1 IOC I=V(IO1,IOC)*(V(a2,VSS)*(1-V(b2,VSS))*(1-V(c2,VSS))*V(i2,VSS)/RON+1/ROFF)
+B2 IO2 IOC I=V(IO2,IOC)*((1-V(a2,VSS))*V(b2,VSS)*(1-V(c2,VSS))*V(i2,VSS)/RON+1/ROFF)
+B3 IO3 IOC I=V(IO3,IOC)*(V(a2,VSS)*V(b2,VSS)*(1-V(c2,VSS))*V(i2,VSS)/RON+1/ROFF)
+B4 IO4 IOC I=V(IO4,IOC)*((1-V(a2,VSS))*(1-V(b2,VSS))*V(c2,VSS)*V(i2,VSS)/RON+1/ROFF)
+B5 IO5 IOC I=V(IO5,IOC)*(V(a2,VSS)*(1-V(b2,VSS))*V(c2,VSS)*V(i2,VSS)/RON+1/ROFF)
+B6 IO6 IOC I=V(IO6,IOC)*((1-V(a2,VSS))*V(b2,VSS)*V(c2,VSS)*V(i2,VSS)/RON+1/ROFF)
+B7 IO7 IOC I=V(IO7,IOC)*(V(a2,VSS)*V(b2,VSS)*V(c2,VSS)*V(i2,VSS)/RON+1/ROFF)
+RVDD VDD VSS 1G
+RVEE VEE VSS 1G
+.ENDS 74HC4051

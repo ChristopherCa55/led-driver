@@ -1,0 +1,21 @@
+{
+ "_why": "Card option (c), C1: the In1 31.1 mm2 GND piece at (73.2, 86.9) (named in the review) reaches the planes through one via only; two free GND stitching vias are added in it (the card's GND is in the Power netclass, 0.25 mm clearance). The In1 11.7 mm2 and In3 21.4 mm2 one-via pieces have no legal spot.",
+ "add_vias": [
+  {
+   "net": "GND",
+   "x": 72.34,
+   "y": 84.823,
+   "size": 0.5,
+   "drill": 0.3,
+   "free": true
+  },
+  {
+   "net": "GND",
+   "x": 74.34,
+   "y": 85.673,
+   "size": 0.5,
+   "drill": 0.3,
+   "free": true
+  }
+ ]
+}

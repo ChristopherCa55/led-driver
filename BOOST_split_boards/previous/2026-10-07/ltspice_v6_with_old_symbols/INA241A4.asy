@@ -1,0 +1,38 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal -64 -64 64 64
+TEXT -56 -32 Left 1 IN+
+TEXT -56 32 Left 1 IN-
+TEXT -56 0 Left 1 REF1
+TEXT 0 -52 Center 1 VS
+TEXT 56 0 Right 1 OUT
+TEXT -2 52 Center 1 GND
+TEXT 38 52 Center 1 REF2
+TEXT 16 -24 Center 1 x100
+WINDOW 0 0 -72 Bottom 2
+WINDOW 3 0 72 Top 2
+SYMATTR Prefix X
+SYMATTR Value INA241A4
+SYMATTR Description Behavioural TI INA241A4 current-sense amplifier, gain 100 V/V, 1.1 MHz, 8 V/us, VOUT ref = (REF1+REF2)/2 (SBOSA30). Pins: IN+ IN- VS GND REF1 REF2 OUT. Requires INA241A4.lib.
+SYMATTR ModelFile INA241A4.lib
+PIN -64 -32 NONE 0
+PINATTR PinName IN+
+PINATTR SpiceOrder 1
+PIN -64 32 NONE 0
+PINATTR PinName IN-
+PINATTR SpiceOrder 2
+PIN 0 -64 NONE 0
+PINATTR PinName VS
+PINATTR SpiceOrder 3
+PIN 0 64 NONE 0
+PINATTR PinName GND
+PINATTR SpiceOrder 4
+PIN -64 0 NONE 0
+PINATTR PinName REF1
+PINATTR SpiceOrder 5
+PIN 32 64 NONE 0
+PINATTR PinName REF2
+PINATTR SpiceOrder 6
+PIN 64 0 NONE 0
+PINATTR PinName OUT
+PINATTR SpiceOrder 7

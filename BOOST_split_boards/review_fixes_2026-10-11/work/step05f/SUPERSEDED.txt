@@ -1,0 +1,2 @@
+SUPERSEDED by step05g (2026-10-12).
+Gates all pass (card DRC 0 err, 1 baseline warning, 0 unconnected, parity 0; ERC 0/0/0; sync 0). Replaced because R106's 5V via at (55.5, 94.225) and the router's SDA stub had a 0.07 mm jog; 5g moves the via to (55.5, 94.4) and writes the SDA link by hand (specs/step05g_sda.json).

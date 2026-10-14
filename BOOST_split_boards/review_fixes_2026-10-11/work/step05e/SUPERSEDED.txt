@@ -1,0 +1,2 @@
+SUPERSEDED by step05g (2026-10-12).
+Gates: 0 errors / 0 unconnected / parity 0, but 3 new silk_overlap warnings (R0603 outline vs the moved I2/SCL labels, J9 I1 and H3 text) and route_new put R107.2's SDA via INSIDE its pad (via-in-pad). route_new.py was then patched (no via in or touching an own-net pad; old copy work/route_new_before_vip.py).

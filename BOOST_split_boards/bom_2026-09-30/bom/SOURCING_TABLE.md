@@ -25,7 +25,6 @@ Stock and prices read from the JLCPCB parts library on 2026-10-01 (snapshot: `jl
 | power | R1 | 1 | current-sense resistor 1 mOhm 4 W, 4-terminal | 4026 4-terminal | top | C2076400 | CSS4J-4026R-1L00F (BOURNS) | Extended | 385 | 1.7086 | 385 | yes | your choice of 2026-09-24; rev6: 1 mOhm with U25 = INA241A4 (100 V/V): Current stays 0.1 V/A. Same Bourns land pattern (series drawing), H 2.70 max against 2.93 Alternates: C2076167 CSS4J-4026K-2L00F 2 mOhm (0 stock) |
 | power | R7 R52 R53 | 3 | current-sense resistor 50 mOhm 1 W, metal strip | 2512 | top | C413486 | WSL2512R0500FEA (Vishay Intertech) | Extended | 41066 | 0.2348 | 13688 | yes | your choice of 2026-09-24; LED current sinks: 2.63 A, 0.35 W each. The value sets the LED current, so the TCR matters: WSL2512 metal strip +/-75 ppm/C ($0.23) against thick film +/-800 ppm/C ($0.04) Alternates: C127698 thick film +/-800 ppm/C |
 | power | R13 R23 R47 | 3 | resistor 220 ohm 1 % (0603) | 0603 | bottom/top | C22962 | 0603WAF2200T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 1903983 | 0.0035 | 271997 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
-| power | R14 | 1 | resistor 1M ohm 1 % (0805) | 0805 | top | C17514 | 0805W8F1004T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 2420510 | 0.0043 | 1210255 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists; on LX (65 V peak): 150 V rated |
 | power | R15 | 1 | resistor 10 ohm 1 % (0805) | 0805 | bottom | C17415 | 0805W8F100JT5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 6880485 | 0.004 | 6880485 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
 | power | R21 R48 R60 R72 | 4 | resistor 5.1 ohm 1 % (0805) | 0805 | bottom | C17724 | 0805W8F510KT5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 418343 | 0.0041 | 69723 | yes | your choice of 2026-09-24; rev6: 5 -> 5.1 Ohm (5.0 Ohm 0805 is not stocked), the value R59/R70 already use Alternates: C25273 4.99 Ohm |
 | power | R22 R50 R56 | 3 | resistor 100 ohm 1 % (0603) | 0603 | top | C22775 | 0603WAF1000T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 11576722 | 0.0031 | 3858907 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
@@ -67,7 +66,7 @@ Stock and prices read from the JLCPCB parts library on 2026-10-01 (snapshot: `jl
 | card | R69 | 1 | resistor 20k ohm 1 % (0603) | 0603 | top | C4184 | 0603WAF2002T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 8044733 | 0.0023 | 8044733 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
 | card | R82 | 1 | resistor 56k ohm 1 % (0603) | 0603 | top | C23206 | 0603WAF5602T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 1026495 | 0.0027 | 1026495 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
 | card | R84 | 1 | resistor 120k ohm 1 % (0603) | 0603 | bottom | C25808 | 0603WAF1203T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 1007305 | 0.0015 | 1007305 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
-| card | R86 | 1 | resistor 1M ohm 1 % (0805) | 0805 | top | C17514 | 0805W8F1004T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 2420510 | 0.0043 | 1210255 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
+| card | R86 | 1 | resistor 1M ohm 1 % (0805) | 0805 | top | C17514 | 0805W8F1004T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 2420510 | 0.0043 | 2420510 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
 | card | R90 R93 R98 | 3 | resistor 10M ohm 1 % (0603) | 0603 | bottom/top | C7250 | 0603WAF1005T5E (UNI-ROYAL(Uniroyal Elec)) | Basic | 297135 | 0.0037 | 99045 | yes | value and package from the schematic; 1% thick film, JLC Basic where one exists |
 | card | U2 U4 U5 U14 U21 | 5 | comparator, push-pull, 56 ns | SOT-23-5 | bottom/top | C117501 | MCP6561T-E/OT (Microchip Tech) | Extended | 4005 | 0.743 | 801 | yes | the device named in the schematic or the notes |
 | card | U3 U7 U13 U22 U23 U24 | 6 | op-amp, rail-to-rail, 1 MHz | SOT-23-5 | bottom/top | C398363 | TLV9001IDBVR (Texas Instruments) | Extended | 48438 | 0.0979 | 5382 | yes | approved 2026-10-01: TI TLV9001IDBVR (the DBV part: pins 1 OUT, 2 V-, 3 IN+, 4 IN-, 5 V+, as the MCP6241; NOT the TLV9001U). 1 MHz, 2 V/us, 1.6 mV max offset. LTspice re-runs (30 ms, 25 % PWM, cold start) match the MCP6241 within 0.05 % Alternates: C49889 MCP6241T-E/OT (before 2026-10-01) |
@@ -107,7 +106,7 @@ Stock and prices read from the JLCPCB parts library on 2026-10-01 (snapshot: `jl
 
 | Board | Files | Unique parts | Basic | Extended | Placements | SMT pads | Components $/board (qty-1 prices) | Sides |
 |---|---|---|---|---|---|---|---|---|
-| power | JLC only | 29 | 12 | 17 | 100 | 285 | 42.32 | bottom + top |
-| power | _with_proposals | 29 | 12 | 17 | 100 | 285 | 42.32 | bottom + top |
+| power | JLC only | 28 | 11 | 17 | 99 | 283 | 42.31 | bottom + top |
+| power | _with_proposals | 28 | 11 | 17 | 99 | 283 | 42.31 | bottom + top |
 | card | JLC only | 41 | 25 | 16 | 160 | 472 | 11.27 | bottom + top |
 | card | _with_proposals | 41 | 25 | 16 | 160 | 472 | 11.27 | bottom + top |

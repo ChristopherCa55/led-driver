@@ -107,6 +107,10 @@ Case floor tapped per `case_drilling_2026-09-15/` rev B (M3: 7.0 mm full thread;
      (drain, up to 60 V) and the case. That is why the tab-to-case check below is mandatory before first power-up.
    - Do not cut the pads larger. In the 3D model, 10 x 16 pads centred on the bodies leave 0.54 mm between M6's and
      M8's, 0.56 mm to M9's, and 0.86 mm between M1's and M7's.
+   - **Heat in M8-M10 (2026-10-11):** in the simulation the sink FETs hold their drains at 1.49 / 1.45 / 1.45 V at
+     full current, so M10 / M9 / M8 dissipate about 3.9 / 3.4 / 3.4 W each. Across a 10 x 16 mm, 3 W/m-K pad
+     compressed to 0.93 mm (about 1.9 K/W) that is about 7.5 K at 3.9 W. The HYG180N10's junction-to-case resistance
+     is not verified (its data sheet is not on file).
 2. FET tab screws (M1, M8, M9, M10), from the top down:
    - McMaster-Carr 92000A107: M2.5 x 12 pan head Phillips, 18-8 stainless. Its head is 2.1 mm tall; the 3D model
      used 1.75 mm.

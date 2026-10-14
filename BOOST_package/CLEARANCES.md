@@ -1,4 +1,4 @@
-# BOOST assembly: clearances and substitutions (2026-10-02)
+# BOOST assembly: clearances and substitutions (2026-10-13)
 
 From `tools/build_assembly.py`: the two release-candidate boards (KiCad STEP export) in the case, with every part that has no 3D model replaced by a dimensioned solid. Distances are exact solid-to-solid minimums (OpenCASCADE BRepExtrema), in mm. **Under 1 mm is flagged.**
 

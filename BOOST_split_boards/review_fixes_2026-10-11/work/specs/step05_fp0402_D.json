@@ -1,0 +1,48 @@
+{
+ "lib": "C:/Program Files/KiCad/10.0/share/kicad/footprints/Resistor_SMD.pretty",
+ "name": "R_0402_1005Metric",
+ "parts": [
+  {
+   "ref": "R106",
+   "value": "4.7k",
+   "x": 54.2,
+   "y": 84.45,
+   "rot": 0,
+   "side": "B",
+   "path": "/6c1f7a52-3d0e-4b8a-9a61-5e2b4f0c1061",
+   "sheetfile": "BOOST_control_RC2.kicad_sch",
+   "nets": {
+    "1": "5V",
+    "2": "SCL"
+   },
+   "fields": {
+    "Datasheet": "",
+    "Description": "",
+    "Sim.Device": "R",
+    "Sim.Params": "R=4.7k"
+   },
+   "ref_layer": "Fab"
+  },
+  {
+   "ref": "R107",
+   "value": "4.7k",
+   "x": 60.0,
+   "y": 106.6,
+   "rot": 0,
+   "side": "B",
+   "path": "/6c1f7a52-3d0e-4b8a-9a61-5e2b4f0c1071",
+   "sheetfile": "BOOST_control_RC2.kicad_sch",
+   "nets": {
+    "1": "5V",
+    "2": "SDA"
+   },
+   "fields": {
+    "Datasheet": "",
+    "Description": "",
+    "Sim.Device": "R",
+    "Sim.Params": "R=4.7k"
+   },
+   "ref_layer": "Fab"
+  }
+ ]
+}

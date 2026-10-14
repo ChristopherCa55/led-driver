@@ -1,0 +1,293 @@
+C8     CONTROL  330p           (484,208)                GND
+C9     CONTROL  330p           (452,155)                GND
+C10    CONTROL  4.7n           (367,212)                GND Verr3
+C11    CONTROL  4.7n           (368,178)                GND Verr2
+C12    CONTROL  100n           (173,64)                 5V GND
+C13    CONTROL  4.7n           (356,147)                GND Verr1
+C14    CONTROL  220p           (145,43)                 GND
+C15    CONTROL  100p           (144,24)                 GND
+C17    CONTROL  330p           (385,104)                GND
+C19    CONTROL  330p           (465,131)                GND
+C22    CONTROL  100n           (331,90)                 5V GND
+C23    CONTROL  100n           (354,60)                 5V GND
+C24    CONTROL  100n           (347,74)                 5V GND
+C26    CONTROL  100n           (364,81)                 5V GND
+C28    CONTROL  100n           (480,95)                 5V GND
+C29    CONTROL  100n           (345,94)                 5V GND
+C32    CONTROL  100n           (310,235)                GND analog_5V
+C36    CONTROL  100n           (331,203)                GND analog_5V
+C37    CONTROL  100n           (333,169)                GND analog_5V
+C38    CONTROL  100n           (331,132)                GND analog_5V
+C42    CONTROL  100n           (328,215)                .1Vref_3 GND
+C43    CONTROL  100n           (328,180)                .1Vref_2 GND
+C46    CONTROL  100n           (329,144)                .1Vref_1 GND
+C47    CONTROL  10u            (306,204)                GND Vref_3
+C49    CONTROL  100n           (283,244)                
+C52    CONTROL  100n           (130,44)                 5V GND
+C53    CONTROL  100n           (150,33)                 5V GND
+C54    CONTROL  100n           (102,72)                 5V GND
+C57    CONTROL  1µ             (367,235)                5V GND
+C58    CONTROL  100n           (368,230)                5V GND
+C59    CONTROL  100n           (300,246)                GND
+C63    CONTROL  100n           (305,290)                GND analog_5V
+C64    CONTROL  100n           (278,298)                
+C65    CONTROL  100n           (295,301)                GND
+C66    CONTROL  100n           (392,288)                GND analog_5V
+C67    CONTROL  100n           (366,297)                
+C68    CONTROL  100n           (382,300)                GND
+C91    CONTROL  1µ             (348,132)                5V GND
+C92    CONTROL  100n           (349,127)                5V GND
+C93    CONTROL  10u            (310,165)                GND Vref_2
+C94    CONTROL  100n           (517,339)                5V GND
+C95    CONTROL  100n           (486,338)                5V GND
+C96    CONTROL  100n           (457,339)                5V GND
+C97    CONTROL  100n           (427,339)                5V GND
+C98    CONTROL  100n           (396,339)                5V GND
+C99    CONTROL  100n           (367,339)                5V GND
+C100   CONTROL  1n             (36,318)                 GND
+C101   CONTROL  1n             (100,320)                GND
+C102   CONTROL  1n             (164,321)                GND
+C103   CONTROL  10u            (307,128)                GND Vref_1
+C104   CONTROL  100n           (150,356)                5V GND
+D1     CONTROL  D              (469,122)                0err_hi M1_INHIBIT
+D3     CONTROL  D              (171,46)                 0err_hi
+D4     CONTROL  D              (155,23)                 
+D5     CONTROL  D              (489,221)                
+D6     CONTROL  D              (417,77)                 low_error_timeout set-
+D7     CONTROL  D              (457,168)                
+D15    CONTROL  D              (452,137)                M1_INHIBIT Out-
+D20    CONTROL  D              (391,105)                
+D23    CONTROL  D              (316,246)                .1Vref_3
+D24    CONTROL  D              (484,107)                M1_INHIBIT
+D25    CONTROL  D              (311,301)                .1Vref_2
+D26    CONTROL  D              (399,300)                .1Vref_1
+D27    CONTROL  D              (493,117)                ARD_M1_INHIBIT M1_INHIBIT
+H1     CONTROL  MountingHole_M (296,381)                
+H2     CONTROL  MountingHole_M (306,381)                
+H3     CONTROL  MountingHole_M (316,381)                
+H4     CONTROL  MountingHole_M (326,381)                
+J9     CONTROL  Conn_01x11     (304,344)                12V ARD_M1_INHIBIT GND IREF1 IREF2 IREF3 SCL SDA Vref_1_arduino Vref_2_arduino Vref_3_arduino
+J11    CONTROL  Conn_02x15_2.5 (254,376)                12V 5V Current GND IREF1_input IREF2_input IREF3_input M1_ON M2_ON Output1_drain Output2_drain Output3_drain V
+Q1     CONTROL  PNP            (161,48)                 GND
+R2     CONTROL  10k            (325,140)                .1Vout_1
+R3     CONTROL  620k           (334,127)                Voltage_err_1
+R4     CONTROL  1k             (413,76)                 set-
+R6     CONTROL  10k            (300,133)                .1Vref_1 Vref_1
+R8     CONTROL  2k             (314,147)                .1Vout_1 GND
+R9     CONTROL  18k            (311,147)                .1Vout_1 Vout_1
+R11    CONTROL  510k           (372,89)                 0A_hi
+R16    CONTROL  5.1k           (372,98)                 GND
+R17    CONTROL  510k           (356,90)                 5V
+R18    CONTROL  200k           (373,69)                 0err_hi
+R19    CONTROL  5.1k           (373,77)                 GND
+R20    CONTROL  200k           (357,70)                 5V
+R25    CONTROL  910k           (250,287)                Output2_drain
+R26    CONTROL  220            (455,131)                M1_INHIBIT
+R27    CONTROL  4.7k           (345,144)                Verr1 Voltage_err_1
+R28    CONTROL  100k           (354,132)                GND Verr1
+R29    CONTROL  22k            (29,305)                 IREF1
+R30    CONTROL  22k            (94,307)                 IREF2
+R31    CONTROL  10k            (326,177)                .1Vout_2
+R32    CONTROL  620k           (335,164)                Voltage_err_2
+R33    CONTROL  10k            (301,170)                .1Vref_2 Vref_2
+R34    CONTROL  2k             (315,184)                .1Vout_2 GND
+R35    CONTROL  18k            (312,184)                .1Vout_2 Vout_2
+R36    CONTROL  100k           (250,298)                GND
+R37    CONTROL  4.7k           (347,180)                Verr2 Voltage_err_2
+R38    CONTROL  100k           (356,169)                GND Verr2
+R39    CONTROL  10k            (325,211)                .1Vout_3
+R40    CONTROL  620k           (334,198)                Voltage_err_3
+R41    CONTROL  10k            (300,204)                .1Vref_3 Vref_3
+R42    CONTROL  2k             (314,218)                .1Vout_3 GND
+R43    CONTROL  18k            (311,218)                .1Vout_3 Vout_3
+R44    CONTROL  100k           (295,234)                analog_5V
+R45    CONTROL  4.7k           (345,215)                Verr3 Voltage_err_3
+R46    CONTROL  100k           (354,203)                GND Verr3
+R51    CONTROL  2k             (465,138)                Out-
+R54    CONTROL  1k             (29,316)                 GND
+R55    CONTROL  1k             (94,319)                 GND
+R57    CONTROL  22k            (157,309)                IREF3
+R58    CONTROL  1k             (157,320)                GND
+R63    CONTROL  2k             (486,212)                
+R64    CONTROL  220            (483,212)                
+R65    CONTROL  22k            (163,46)                 
+R66    CONTROL  3.3k           (169,36)                 0err_hi
+R67    CONTROL  10k            (119,39)                 low_error_timeout
+R68    CONTROL  62k            (119,30)                 GND
+R69    CONTROL  20k            (136,38)                 5V
+R71    CONTROL  1k             (142,23)                 low_error_timeout
+R77    CONTROL  10k            (319,202)                Vref_3 Vref_3_arduino
+R78    CONTROL  2k             (455,159)                
+R79    CONTROL  220            (451,159)                
+R80    CONTROL  2k             (389,98)                 
+R81    CONTROL  220            (385,98)                 
+R82    CONTROL  56k            (448,94)                 5V
+R83    CONTROL  10k            (458,102)                GND
+R84    CONTROL  120k           (458,94)                 12V
+R85    CONTROL  10k            (448,102)                GND
+R86    CONTROL  1Meg           (478,110)                
+R87    CONTROL  910k           (255,232)                Output3_drain
+R88    CONTROL  100k           (255,244)                GND
+R89    CONTROL  3.3k           (295,246)                GND
+R90    CONTROL  10Meg          (288,243)                
+R91    CONTROL  100k           (290,288)                analog_5V
+R92    CONTROL  3.3k           (290,301)                GND
+R93    CONTROL  10Meg          (283,297)                
+R94    CONTROL  910k           (338,286)                Output1_drain
+R95    CONTROL  100k           (338,297)                GND
+R96    CONTROL  100k           (377,287)                analog_5V
+R97    CONTROL  3.3k           (377,300)                GND
+R98    CONTROL  10Meg          (371,296)                
+R99    CONTROL  10k            (142,384)                GND
+R100   CONTROL  10k            (323,163)                Vref_2 Vref_2_arduino
+R101   CONTROL  10k            (320,126)                Vref_1 Vref_1_arduino
+R102   CONTROL  10k            (136,384)                GND
+R103   CONTROL  10k            (140,358)                5V
+R105   CONTROL  100k           (497,119)                ARD_M1_INHIBIT GND
+U2     CONTROL  MCP6561        (361,85)                 0A_hi 5V Current GND
+U3     CONTROL  TLV9001        (333,137)                .1Vref_1 GND Voltage_err_1 analog_5V
+U4     CONTROL  MCP6561        (362,65)                 0err_hi 5V GND V_err
+U5     CONTROL  MCP6561        (326,93)                 5V Current GND Reset_raw V_err
+U7     CONTROL  TLV9001        (334,174)                .1Vref_2 GND Voltage_err_2 analog_5V
+U13    CONTROL  TLV9001        (333,208)                .1Vref_3 GND Voltage_err_3 analog_5V
+U14    CONTROL  MCP6561        (131,43)                 5V GND low_error_timeout
+U18    CONTROL  4017           (109,98)                 5V GND Out- low_error_timeout
+U21    CONTROL  MCP6561        (472,100)                5V GND
+U22    CONTROL  TLV9001        (306,240)                GND analog_5V
+U23    CONTROL  TLV9001        (301,295)                GND analog_5V
+U24    CONTROL  TLV9001        (389,293)                GND analog_5V
+U26    CONTROL  MCP4451-103E/S (55,318) (119,320) (160, 5V GND IREF1_input IREF2_input IREF3_input SCL SDA
+U28    CONTROL  74HC4051       (166,90)                 5V GND V_err Verr1 Verr2 Verr3
+U101   CONTROL  74HC00         (408,93) (396,71) (423,8 0A_hi 5V GND M1_ON Out Out- RESET- Reset_raw VerrGT0 set-
+U102   CONTROL  74HC00         (401,104) (409,340) (469 5V GND Out- VerrGT0 ena_out_1 ena_out_2
+U103   CONTROL  74HC00         (424,316) (436,316) (489 5V GND Out- VerrGT0 ena_out_3
+U104   CONTROL  74HC14         (447,127) (450,194) (467 0err_hi 5V GND M1_INHIBIT M1_ON M2_ON VerrGT0 ena_out_2 out_2_on out_3_on
+U105   CONTROL  74HC14         (504,315) (499,340) (525 5V GND ena_out_1 ena_out_3
+U106   CONTROL  CD74HC4066     (274,244) (257,316) (357 5V GND IREF1 IREF2 IREF3
+C1     POWER    4.7µ           (259,137)                GND Vout_1
+C3     POWER    100n           (258,169)                GND Vout_2
+C4     POWER    4.7µ           (234,208)                GND Vout_3
+C6     POWER    1µ             (466,208)                12V GND
+C7     POWER    22µ            (66,127)                 5V GND
+C16    POWER    2.2µ           (452,207)                m3_source
+C18    POWER    2.2µ           (410,131)                m2_source
+C20    POWER    100n           (249,89)                 GND analog_5V
+C21    POWER    1µ             (244,89)                 GND analog_5V
+C25    POWER    1µ             (453,253)                12V GND
+C30    POWER    47µ            (93,147)                 12V GND
+C31    POWER    1µ             (429,133)                12V GND
+C33    POWER    100n           (274,201)                GND analog_5V
+C34    POWER    100n           (279,166)                GND analog_5V
+C35    POWER    100n           (276,131)                GND analog_5V
+C39    POWER    10µ            (58,127)                 5V GND
+C40    POWER    680µ           (206,140)                GND Vin
+C41    POWER    1n             (170,331)                GND IREF3_input
+C44    POWER    1n             (107,330)                GND IREF2_input
+C45    POWER    1n             (42,328)                 GND IREF1_input
+C48    POWER    100n           (385,180)                5V GND
+C50    POWER    100n           (452,199)                m3_source
+C51    POWER    100n           (414,131)                m2_source
+C55    POWER    22µ            (65,112)                 GND analog_5V
+C56    POWER    10µ            (60,112)                 GND analog_5V
+C60    POWER    2.2µ           (436,240)                m4_source
+C61    POWER    100n           (441,240)                m4_source
+C62    POWER    1µ             (384,185)                5V GND
+C69    POWER    680µ           (201,140)                GND Vin
+C70    POWER    220µ           (249,140)                GND Vout_1
+C71    POWER    220µ           (250,175)                GND Vout_2
+C72    POWER    100n           (263,127)                GND Vout_1
+C73    POWER    4.7µ           (264,169)                GND Vout_2
+C74    POWER    220µ           (245,208)                GND Vout_3
+C75    POWER    220µ           (257,208)                GND Vout_3
+C76    POWER    100n           (239,208)                GND Vout_3
+C77    POWER    220µ           (251,208)                GND Vout_3
+C78    POWER    220µ           (269,163)                GND Vout_2
+C79    POWER    10µ            (64,147)                 GND Vin
+C80    POWER    10µ            (24,127)                 GND Vin
+C81    POWER    10µ            (23,112)                 GND Vin
+C82    POWER    100n           (29,127)                 GND Vin
+C83    POWER    100n           (29,112)                 GND Vin
+C84    POWER    100n           (67,147)                 GND Vin
+C85    POWER    680µ           (210,140)                GND Vin
+C86    POWER    220µ           (245,146)                GND Vout_1
+C87    POWER    220µ           (268,170)                GND Vout_2
+C88    POWER    220µ           (254,140)                GND Vout_1
+C89    POWER    1µ             (410,145)                5V GND
+C90    POWER    100n           (411,140)                5V GND
+D2     POWER    D              (381,110)                GATE_M7
+D8     POWER    D              (403,180)                GATE_M6
+D9     POWER    D              (465,207)                12V
+D10    POWER    D              (427,130)                12V
+D11    POWER    D              (408,127)                GATE_M2
+D13    POWER    D              (375,198)                GATE_M4
+D14    POWER    D              (420,174)                GATE_M3
+D19    POWER    5.0SMDJ54A     (217,203)                GND LX
+D21    POWER    D              (456,248)                12V
+D22    POWER    D              (384,198)                GATE_M5
+D28    POWER    S2MW           (204,163)                Vin Vout_1
+D29    POWER    S2MW           (204,169)                Vin Vout_2
+D30    POWER    S2MW           (204,175)                Vin Vout_3
+H5     POWER    MountingHole_M (336,381)                
+H6     POWER    MountingHole_M (346,381)                
+H7     POWER    MountingHole_M (357,381)                
+H8     POWER    MountingHole_M (367,381)                
+J1     POWER    Conn_01x01_Pin (174,135)                Vin
+J2     POWER    Conn_01x01_Pin (174,150)                GND
+J3     POWER    Conn_01x01_Pin (298,119)                Vout_1
+J4     POWER    Conn_01x01_Pin (297,135)                Output1_drain
+J5     POWER    Conn_01x01_Pin (309,197)                Vout_3
+J6     POWER    Conn_01x01_Pin (296,202)                Output3_drain
+J7     POWER    Conn_01x01_Pin (297,170)                Output2_drain
+J8     POWER    Conn_01x01_Pin (304,164)                Vout_2
+J10    POWER    Conn_02x15_2.5 (203,376)                12V 5V Current GND IREF1_input IREF2_input IREF3_input M1_ON M2_ON Output1_drain Output2_drain Output3_drain V
+L1     POWER    6.8µ           (216,133)                LX rsense_lo
+M1     POWER    HYG180N10      (215,141)                GATE_M1 GND LX
+M2     POWER    HYG180N10      (250,131)                GATE_M2 Vout_1 m2_source
+M3     POWER    HYG180N10      (250,163)                GATE_M3 Vout_2 m3_source
+M4     POWER    HYG180N10      (251,193)                GATE_M4 Vout_3 m4_source
+M5     POWER    HYG180N10      (230,201)                GATE_M5 LX m4_source
+M6     POWER    HYG180N10      (230,170)                GATE_M6 LX m3_source
+M7     POWER    HYG180N10      (231,138)                GATE_M7 LX m2_source
+M8     POWER    HYG180N10      (282,204)                Output3_drain
+M9     POWER    HYG180N10      (286,170)                Output2_drain
+M10    POWER    HYG180N10      (282,135)                Output1_drain
+NT1    POWER    NetTie_2       (283,144)                SNS_CH1
+NT2    POWER    NetTie_2       (287,179)                SNS_CH2
+NT3    POWER    NetTie_2       (283,213)                SNS_CH3
+R1     POWER    1m             (202,135)                ISNS_N ISNS_P Vin rsense_lo
+R7     POWER    .05            (284,213)                GND
+R13    POWER    220            (401,126)                GATE_M2
+R14    POWER    1Meg           (221,133)                GND LX
+R15    POWER    10             (401,146)                GATE_M1
+R21    POWER    5.1            (423,130)                
+R22    POWER    100            (281,210)                
+R23    POWER    220            (428,175)                GATE_M3
+R47    POWER    220            (371,196)                GATE_M4
+R48    POWER    5.1            (461,207)                
+R49    POWER    10k            (413,163)                GATE_M6 m3_source
+R50    POWER    100            (287,175)                
+R52    POWER    .05            (284,144)                GND
+R53    POWER    .05            (288,179)                GND
+R56    POWER    100            (282,140)                
+R59    POWER    5.1            (380,196)                GATE_M5
+R60    POWER    5.1            (387,113)                GATE_M7
+R61    POWER    10k            (408,169)                GATE_M3 m3_source
+R62    POWER    10k            (447,164)                GND
+R70    POWER    5.1            (409,180)                GATE_M6
+R72    POWER    5.1            (455,239)                
+R73    POWER    10k            (377,189)                GATE_M4 m4_source
+R74    POWER    10k            (386,189)                GATE_M5 m4_source
+R75    POWER    10k            (362,114)                GATE_M2 m2_source
+R76    POWER    10k            (356,114)                GATE_M7 m2_source
+R104   POWER    10k            (408,152)                GATE_M1 GND
+U1     POWER    L78L05_SOT89   (44,112)                 GND Vin analog_5V
+U6     POWER    TLV9001        (271,206)                GND IREF3_input SNS_CH3 analog_5V
+U8     POWER    UCC21520DW     (400,240)                5V GND ena_out_3 m4_source out_3_on
+U10    POWER    UCC21520DW     (411,198)                5V GND ena_out_2 m3_source out_2_on
+U11    POWER    TLV9001        (272,136)                GND IREF1_input SNS_CH1 analog_5V
+U12    POWER    TLV9001        (276,171)                GND IREF2_input SNS_CH2 analog_5V
+U15    POWER    UCC21520DW     (380,141)                5V GND M2_ON ena_out_1 m2_source
+U16    POWER    MC7812         (77,147)                 12V GND Vin
+U17    POWER    L78L05_SOT89   (43,127)                 5V GND Vin
+U19    POWER    UCC21520DW     (432,155)                12V 5V GND M1_ON
+U25    POWER    INA241A4xD     (245,100)                Current GND ISNS_N ISNS_P analog_5V

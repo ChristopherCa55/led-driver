@@ -1,0 +1,6205 @@
+=== page 1
+ 2010 Microchip Technology Inc. DS22267A-page 1
+MCP443X/5X
+Features
+• Quad Resistor Network 
+• Potentiometer or Rheostat Configuration Options
+• Resistor Network Resolution:
+7-bit – 128 Resistors (129 Taps) 
+8-bit – 256 Resistors (257 Taps)
+•F o u r  RAB Resistances options:
+5k 
+10 k
+50 k
+100 k
+• Zero-scale to Full-scale Wiper Operation
+• Low Wiper Resistance – 75  typical
+•L o w  T e m p c o :
+Absolute (Rheostat) – 50 ppm typical (0°-70°C) 
+Ratiometric (Potentiometer) – 15 ppm typical
+•I 2C Serial Interface Support:
+100 kHz
+400 kHz
+3.4 MHz
+• Serial Protocol Allows High-Speed Read/Write to 
+Wiper
+• Resistor Network Terminal Disconnect Feature 
+via Terminal Control (TCON) Register 
+• Reset Input Pin
+• Brown-out Reset Protection – 1.5V typical
+• Serial Interface Inactive Current – 2.5 uA typical
+• High-Voltage Tolerant Digital Inputs Up to 12.5V
+• Supports Split Rail Applications 
+• Internal Weak Pull-up on All Digital Inputs, except 
+SCL and SDA
+• Wide Operating Voltage: 
+2.7V to 5.5V - Device Characteristics Specified
+1.8V to 5.5V - Device Operation
+• Wide Bandwidth (-3 dB) Operation – 
+2 MHz typical for 5.0 k Device 
+• Extended Temperature Range (-40°C to +125°C)
+• Three Package Types: 
+4x4 QFN-20
+TSSOP-20
+TSSOP-14
+Package Types (Top View)         
+MCP44X1 Quad Potentiometers
+TSSOP 
+1
+2
+3
+4
+14
+151718
+P2A 
+P2W
+4x4 QFN 
+6 7 89
+12
+13 RESET 
+A1 
+NC 
+P0A
+P1A
+P1W
+SDA
+P3B
+SCL
+HVC/A0
+1920
+P1B
+P3A
+P3W
+VDD 
+MCP44X2 Quad Rheostat
+TSSOP
+5VSS
+10
+P0W
+11 P0B
+16
+P2B
+1
+2
+3
+4 17
+18
+19
+20
+RESET
+A1
+NC
+VDD
+5
+6
+7 14
+15
+16
+P0W
+P0B
+P0AP1A
+P1W
+P1B
+VSS
+HVC/A0
+SDA
+SCL
+8
+9
+10
+P3B
+P3W
+P3A
+12
+12
+P2W
+P2A
+P2B
+11
+1
+2
+3
+4 11
+12
+13
+14
+P0B
+A1
+P0W
+VDD
+5
+6
+7 8
+9
+10
+P2W
+P1W
+P2BP3B
+P3W
+P1B
+VSS
+HVC/A0
+SDA
+SCL
+EP
+21
+7/8-Bit Volatile Quad Digital POT 
+with I2C Interface 
+=== page 2
+MCP443X/5X
+DS22267A-page 2  2010 Microchip Technology Inc.
+Device Block Diagram       
+Device Features  
+Device
+# of POTs
+Wiper 
+Configuration
+Control 
+Memory 
+Type
+WiperLock 
+Technology
+POR Wiper 
+Setting 
+Resistance (typical)
+# of Taps
+VDD 
+Operating 
+Range(2) RAB Options (k)
+Wiper 
+- RW 
+()
+MCP4431 4 Potentiometer (1) I2C RAM No Mid-Scale 5.0, 10.0, 50.0, 100.0 75 129 1.8V to 5.5V
+MCP4432 4 Rheostat I 2C RAM No Mid-Scale 5.0, 10.0, 50.0, 100.0 75 129 1.8V to 5.5V
+MCP4441 4 Potentiometer (1) I2C EE Yes NV Wiper 5.0, 10.0, 50.0, 100.0 75 129 2.7V to 5.5V
+MCP4442 4 Rheostat I2C EE Yes NV Wiper 5.0, 10.0, 50.0, 100.0 75 129 2.7V to 5.5V
+MCP4451 4 Potentiometer (1) I2C RAM No Mid-Scale 5.0, 10.0, 50.0, 100.0 75 257 1.8V to 5.5V
+MCP4452 4 Rheostat I 2C RAM No Mid-Scale 5.0, 10.0, 50.0, 100.0 75 257 1.8V to 5.5V
+MCP4461 4 Potentiometer(1) I2C EE Yes NV Wiper 5.0, 10.0, 50.0, 100.0 75 257 2.7V to 5.5V
+MCP4462 4 Rheostat I2C EE Yes NV Wiper 5.0, 10.0, 50.0, 100.0 75 257 2.7V to 5.5V
+Note 1: Floating either terminal (A or B) allows the device to be used as a Rheostat (variable resistor).
+2: Analog characteristics only tested from 2.7V to 5.5V unless otherwise noted.
+Power-up/
+Brown-out
+Control
+VDD 
+VSS 
+I2C Serial
+Interface
+Module &
+Control
+Logic
+Resistor
+Network 0
+(Pot 0)
+Wiper 0 
+& TCON0
+Register 
+Resistor
+Network 1
+(Pot 1)
+Wiper 1 
+& TCON0
+Register 
+HVC/A0 
+SCL 
+SDA 
+A1 
+RESET 
+Memory (16x9)
+Wiper0 (Vol)
+Wiper1 (Vol)
+TCON0
+P0A 
+P0W 
+P0B 
+P1A 
+P1W 
+P1B 
+Resistor
+Network 2
+(Pot 2)
+Wiper 2 
+& TCON1
+Register 
+P2A 
+P2W 
+P2B 
+Resistor
+Network 3
+(Pot 3)
+Wiper 3 
+& TCON1
+Register 
+P3A 
+P3W 
+P3B 
+Wiper2 (Vol)
+Wiper3 (Vol)
+TCON1
+=== page 3
+ 2010 Microchip Technology Inc. DS22267A-page 3
+MCP443X/5X
+1.0 ELECTRICAL 
+CHARACTERISTICS
+Absolute Maximum Ratings †
+Voltage on VDD with respect to VSS .....  -0.6V to +7.0V
+Voltage on HVC/A0, A1, SCL, SDA, and R ESET, with
+respect to VSS ...............................................  -0.6V to 12.5V
+Voltage on all other pins (PxA, PxW, and PxB), with
+respect to VSS ..................................... -0.3V to VDD + 0.3V
+Input clamp current, IIK 
+(VI < 0, VI > VDD, VI > VPP ON HV pins) ........... ±20 mA
+Output clamp current, IOK 
+(VO < 0 or VO > VDD) ....................................... ±20 mA
+Maximum output current sunk by any Output pin
+........................................................................... 25 mA
+Maximum output current sourced by any Output pin 
+........................................................................... 25 mA
+Maximum current out of VSS pin ...................... 100 mA
+Maximum current into VDD pin ......................... 100 mA
+Maximum current into PXA, PXW & PXB pins . ±2.5 mA
+Storage temperature ......................... -65°C to +150°C
+Ambient temperature with power applied 
+..........................................................  -40°C to +125°C
+Package power dissipation (TA = +50°C, TJ = +150°C)
+TSSOP-14 ................................................. 1000 mW
+TSSOP-20 ..................................................1110 mW
+QFN-20 (4x4).............................................2320 mW
+Soldering temperature of leads (10 seconds) .. +300°C
+ESD protection on all pins 4 kV (HBM),
+................................................................ 300V (MM)
+Maximum Junction Temperature (TJ) .............. +150°C
+† Notice: Stresses above those listed under “Maximum
+Ratings” may cause permanent damage to the device.
+This is a stress rating only and functional operation of
+the device at those or any other conditions above those
+indicated in the operational listings of this specification
+is not implied. Exposure to maximum rating conditions
+for extended periods may affect device reliability.
+=== page 4
+MCP443X/5X
+DS22267A-page 4  2010 Microchip Technology Inc.
+AC/DC CHARACTERISTICS
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Supply Voltage V DD 2.7 — 5.5 V
+1.8 — 2.7 V Serial Interface only. 
+HVC/A0, SDA, 
+SCL, A1, RESET 
+pin 
+Voltage Range 
+VHV V SS —1 2 . 5 V V V DD  
+4.5V
+The HVC/A0 pin will be at one 
+of three input levels 
+(VIL, VIH or VIHH). (Note 6)VSS —V DD + 
+8.0V
+VV DD < 
+4.5V
+VDD Start Voltage 
+to ensure Wiper 
+Reset
+VBOR — — 1.65 V RAM retention voltage (V RAM) < VBOR 
+VDD Rise Rate to 
+ensure Power-on 
+Reset
+VDDRR ( Note 9)V / m s
+Delay after device 
+exits the Reset 
+state 
+(VDD > VBOR) 
+TBORD —1 0 2 0 µ s
+Supply Current
+(Note 10)
+IDD — — 600 µA Serial Interface Active, 
+HVC/A0 = VIH (or VIL) (Note 11) 
+Write all 0’s to volatile Wiper 0 
+VDD = 5.5V, FSCL @ 3.4 MHz 
+— — 250 µA Serial Interface Active, 
+HVC/A0 = VIH (or VIL) (Note 11) 
+Write all 0’s to volatile Wiper 0 
+VDD = 5.5V, FSCL @ 100 kHz 
+— 2.5 5 µA Serial Interface Inactive, 
+(Stop condition, SCL = SDA = VIH), 
+Wiper = 0 
+VDD = 5.5V, HVC/A0 = VIH 
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 5
+ 2010 Microchip Technology Inc. DS22267A-page 5
+MCP443X/5X
+Resistance
+(± 20%) 
+RAB 4.0 5 6.0 k  -502 devices (Note 1)
+8.0 10 12.0 k  -103 devices (Note 1)
+40.0 50 60.0 k  -503 devices (Note 1)
+80.0 100 120.0 k  -104 devices (Note 1)
+Resolution N 257 Taps 8-bit No Missing Codes
+129 Taps 7-bit No Missing Codes
+Step Resistance R S —R AB / 
+(256)
+—  8-bit Note 6
+—R AB / 
+(128)
+—  7-bit Note 6
+Nominal 
+Resistance Match
+(| RABWC - 
+RABMEAN |) / 
+RABMEAN 
+— 0.2 1.50 % 5 k  MCP44X1 devices only 
+— 0.2 1.25 % 10 k  
+—0 . 2 1 . 0% 5 0 k  
+— 0.2 1.0 % 100 k  
+(| RBWWC - 
+RBWMEAN |) / 
+RBWMEAN 
+—0 . 2 5 1 . 7 5% 5 k  Code = Full Scale 
+—0 . 2 5 1 . 5 0% 1 0 k  
+—0 . 2 5 1 . 2 5% 5 0 k  
+— 0.25 1.25 % 100 k  
+Wiper Resistance 
+(Note 3, Note 4)
+RW — 75 160  V DD = 5.5 V, IW = 2.0 mA, code = 00h
+— 75 300  V DD = 2.7 V, IW = 2.0 mA, code = 00h
+Nominal 
+Resistance 
+Tempco
+RAB/T—5 0— p p m / ° C T A = -20°C to +70°C
+—1 0 0 — p p m / ° C T A = -40°C to +85°C
+—1 5 0 — p p m / ° C T A = -40°C to +125°C
+Ratiometeric 
+Tempco
+VWB/T — 15 — ppm/°C Code = Midscale (80h or 40h) 
+Resistance 
+Tracking
+RTRACK Section 2.0 ppm/°C See Typical Performance Curves
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 6
+MCP443X/5X
+DS22267A-page 6  2010 Microchip Technology Inc.
+Resistor Terminal 
+Input Voltage 
+Range (Terminals 
+A, B and W)
+VA,VW,VB VSS —V DD V Note 5, Note 6
+Maximum current 
+through A, W or B 
+(Note 6) 
+IW — — 2.5 mA Terminal A IAW, 
+W = Full Scale (FS)
+— — 2.5 mA Terminal B IBW, 
+W = Zero Scale (ZS)
+— — 2.5 mA Terminal W IAW (W = FS) or 
+IBW (W = ZS)
+Maximum RAB 
+current (IAB) 
+(Note 6) 
+IAB —— 1 . 3 8 m A V B = 0V, VA = 5.5V, RAB(MIN) = 4000 
+— — 0.688 mA V B = 0V, VA = 5.5V, RAB(MIN) = 8000 
+— — 0.138 mA V B = 0V, VA = 5.5V, RAB(MIN) = 40000 
+— — 0.069 mA V B = 0V, VA = 5.5V, RAB(MIN) = 80000 
+Leakage current 
+into A, W or B
+IWL —1 0 0 —n A MCP44X1 PxA = PxW = PxB = VSS
+—1 0 0 —n A MCP44X2 PxB = PxW = VSS 
+— 100 — nA Terminals Disconnected 
+(R0A = R0W = R0B = 0; 
+R1A = R1W = R1B = 0;
+R2A = R2W = R2B = 0;
+R3A = R3W = R3B = 0)
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 7
+ 2010 Microchip Technology Inc. DS22267A-page 7
+MCP443X/5X
+Full Scale Error 
+(MCP44X1 only)
+(8-bit code = 100h, 
+7-bit code = 80h)
+VWFSE -6.0 -0.1 — LSb 5 k  8-bit 3.0V  VDD  5.5V 
+-4.0 -0.1 — LSb 7-bit 3.0V  VDD  5.5V
+-3.5 -0.1 — LSb 10 k 8-bit 3.0V  VDD  5.5V
+-2.0 -0.1 — LSb 7-bit 3.0V  VDD  5.5V
+-0.8 -0.1 — LSb 50 k  8-bit 3.0V  VDD  5.5V
+-0.5 -0.1 — LSb 7-bit 3.0V  VDD  5.5V
+-0.5 -0.1 — LSb 100 k 8-bit 3.0V  VDD  5.5V
+-0.5 -0.1 — LSb 7-bit 3.0V  VDD  5.5V
+Zero Scale Error 
+(MCP44X1 only)
+(8-bit code = 00h, 
+7-bit code = 00h)
+VWZSE —+ 0 . 1 + 6 . 0 L S b 5 k  8-bit 3.0V  VDD  5.5V
+— +0.1 +3.0 LSb 7-bit 3.0V  VDD  5.5V
+— +0.1 +3.5 LSb 10 k 8-bit 3.0V  VDD  5.5V
+— +0.1 +2.0 LSb 7-bit 3.0V  VDD  5.5V
+— +0.1 +0.8 LSb 50 k  8-bit 3.0V  VDD  5.5V
+— +0.1 +0.5 LSb 7-bit 3.0V  VDD  5.5V
+— +0.1 +0.5 LSb 100 k 8-bit 3.0V  VDD  5.5V
+— +0.1 +0.5 LSb 7-bit 3.0V  VDD  5.5V
+Potentiometer 
+Integral 
+Non-linearity
+INL -1 ±0.5 +1 LSb 8-bit 3.0V  VDD  5.5V 
+MCP44X1 devices only 
+(Note 2)
+-0.5 ±0.25 +0.5 LSb 7-bit 
+Potentiometer 
+Differential Non-
+linearity
+DNL -0.5 ±0.25 +0.5 LSb 8-bit 3.0V  VDD  5.5V 
+MCP44X1 devices only 
+(Note 2)
+-0.25 ±0.125 +0.25 LSb 7-bit 
+Bandwidth -3 dB 
+(See Figure 2-90, 
+load = 30 pF)
+BW — 2 — MHz 5 k  8-bit Code = 80h 
+— 2 — MHz 7-bit Code = 40h 
+—1 — M H z 1 0 k  8-bit Code = 80h 
+— 1 — MHz 7-bit Code = 40h 
+—2 0 0 — k H z 5 0 k  8-bit Code = 80h 
+— 200 — kHz 7-bit Code = 40h 
+— 100 — kHz 100 k  8-bit Code = 80h 
+— 100 — kHz 7-bit Code = 40h 
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 8
+MCP443X/5X
+DS22267A-page 8  2010 Microchip Technology Inc.
+Rheostat Integral 
+Non-linearity 
+MCP44X1 
+(Note 4, Note 8) 
+MCP44X2 devices 
+only (Note 4) 
+R-INL -1.5 ±0.5 +1.5 LSb 5 k  8-bit 5.5V, I W = 900 µA
+-8.25 +4.5 +8.25 LSb 3.0V, IW = 480 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 190 µA 
+-1.125 ±0.5 +1.125 LSb 7-bit 5.5V, I W = 900 µA 
+-6.0 +4.5 +6.0 LSb 3.0V, IW = 480 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 190 µA 
+-1.5 ±0.5 +1.5 LSb 10 k  8-bit 5.5V, I W = 450 µA
+-5.5 +2.5 +5.5 LSb 3.0V, IW = 240 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 150 µA 
+-1.125 ±0.5 +1.125 LSb 7-bit 5.5V, I W = 450 µA
+-4.0 +2.5 +4.0 LSb 3.0V, IW = 240 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 150 µA 
+-1.5 ±0.5 +1.5 LSb 50 k  8-bit 5.5V, I W = 90 µA
+-2.0 +1 +2.0 LSb 3.0V, IW = 48 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 30 µA 
+-1.125 ±0.5 +1.125 LSb 7-bit 5.5V, I W = 90 µA
+-1.5 +1 +1.5 LSb 3.0V, IW = 48 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 30 µA 
+-1.0 ±0.5 +1.0 LSb 100 k  8-bit 5.5V, I W = 45 µA
+-1.5 +0.25 +1.5 LSb 3.0V, IW = 24 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 15 µA 
+-0.8 ±0.5 +0.8 LSb 7-bit 5.5V, I W = 45 µA
+-1.125 +0.25 +1.125 LSb 3.0V, IW = 24 µA 
+(Note 7)
+Section 2.0 1.8V, IW = 15 µA 
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 9
+ 2010 Microchip Technology Inc. DS22267A-page 9
+MCP443X/5X
+Rheostat 
+Differential Non-
+linearity 
+MCP44X1 
+(Note 4, Note 8) 
+MCP44X2 devices 
+only 
+(Note 4) 
+R-DNL -0.5 ±0.25 +0.5 LSb 5 k  8-bit 5.5V, I W = 900 µA
+-1.0 +0.5 +1.0 LSb 3.0V, IW = 480 µA  
+(Note 7)
+Section 2.0 1.8V, IW = 190 µA 
+-0.375 ±0.25 +0.375 LSb 7-bit 5.5V, I W = 900 µA
+-0.75 +0.5 +0.75 LSb 3.0V, IW = 480 µA  
+(Note 7)
+Section 2.0 1.8V, IW = 190 µA 
+-0.5 ±0.25 +0.5 LSb 10 k  8-bit 5.5V, I W = 450 µA
+-1.0 +0.25 +1.0 LSb 3.0V, IW = 240 µA  
+(Note 7)
+Section 2.0 1.8V, IW = 150 µA 
+-0.375 ±0.25 +0.375 LSb 7-bit 5.5V, I W = 450 µA
+-0.75 +0.5 +0.75 LSb 3.0V, IW = 240 µA   
+(Note 7)
+Section 2.0 1.8V, IW = 150 µA 
+-0.5 ±0.25 +0.5 LSb 50 k  8-bit 5.5V, I W = 90 µA
+-0.5 ±0.25 +0.5 LSb 3.0V, IW = 48 µA  
+(Note 7)
+Section 2.0 1.8V, IW = 30 µA 
+-0.375 ±0.25 +0.375 LSb 7-bit 5.5V, I W = 90 µA
+-0.375 ±0.25 +0.375 LSb 3.0V, IW = 48 µA  
+(Note 7)
+Section 2.0 1.8V, IW = 30 µA 
+-0.5 ±0.25 +0.5 LSb 100 k  8-bit 5.5V, I W = 45 µA
+-0.5 ±0.25 +0.5 LSb 3.0V, IW = 24 µA   
+(Note 7)
+Section 2.0 1.8V, IW = 15 µA 
+-0.375 ±0.25 +0.375 LSb 7-bit 5.5V, I W = 45 µA
+-0.375 ±0.25 +0.375 LSb 3.0V, IW = 24 µA   
+(Note 7)
+Section 2.0 1.8V, IW = 15 µA 
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 10
+MCP443X/5X
+DS22267A-page 10  2010 Microchip Technology Inc.
+Digital Inputs/Outputs (HVC/A0, A1, SDA, SCL, RESET)
+Schmitt Trigger 
+High Input 
+Threshold
+VIH 0.45 VDD — — V All 
+Inputs 
+except 
+SDA 
+and 
+SCL
+2.7V  VDD  5.5V 
+(Allows 2.7V Digital VDD with 
+5V Analog VDD) 
+0.5 VDD —— V 1 . 8 V   VDD  2.7V
+0.7 VDD —V MAX V
+SDA 
+and 
+SCL
+100 kHz
+0.7 VDD —V MAX V4 00 kHz
+0.7 VDD —V MAX V1 .7 MHz
+0.7 VDD —V MAX V3 .4 Mhz
+Schmitt Trigger 
+Low Input 
+Threshold
+VIL — — 0.2V DD V All inputs except SDA and SCL
+-0.5 — 0.3V DD V
+SDA 
+and 
+SCL
+100 kHz
+-0.5 — 0.3V DD V4 00 kHz
+-0.5 — 0.3V DD V1 .7 MHz
+-0.5 — 0.3V DD V3 .4 Mhz
+Hysteresis of 
+Schmitt Trigger 
+Inputs
+VHYS —0 . 1 V DD — V All inputs except SDA and SCL
+N.A. — — V
+SDA 
+and 
+SCL
+100 kHz VDD < 2.0V
+N.A. — — V V DD  2.0V
+0.1 VDD —— V 400 kHz VDD < 2.0V
+0.05 VDD —— V VDD  2.0V
+0.1 VDD —— V 1 . 7 M H z
+0.1 VDD —— V 3 . 4 M h z
+High Voltage Input 
+Entry Voltage
+VIHHEN 9.0 — 12.5 
+(Note 6)
+V Threshold for WiperLock Technology 
+High Voltage Input 
+Exit Voltage
+VIHHEX —— V DD + 
+0.8V 
+(Note 6)
+V
+High Voltage Limit V MAX —— 1 2 . 5  
+(Note 6)
+V Pin can tolerate V MAX or less. 
+Output Low 
+Voltage (SDA) 
+VOL V SS —0 . 2 V DD VV DD < 2.0V, IOL = 1 mA, 
+VSS —0 . 4 V V DD ≥2.0V, IOL = 3 mA  
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 11
+ 2010 Microchip Technology Inc. DS22267A-page 11
+MCP443X/5X
+Weak Pull-up 
+Current
+IPU — — 1.75 mA Internal V DD pull-up, VIHH pull-down, 
+VDD = 5.5V, VHVC = 12.5V 
+— 170 — µA HVC pin, V DD = 5.5V, VHVC = 3V 
+HVC Pull-up / 
+Pull-down 
+Resistance
+RHVC —1 6 — k  V DD = 5.5V, VHVC = 3V 
+RESET Pull-up 
+Resistance
+RRESET —1 6 — k  V DD = 5.5V, VRESET = 0V 
+Input Leakage 
+Current
+IIL -1 — 1 µA V IN = VDD (all pins) and 
+VIN = VSS (all pins except RESET) 
+Pin Capacitance C IN, COUT —1 0 — p F f C = 20 MHz
+Capacitance (PA)C AW — 75 — pF f =1 MHz, Code = Full Scale 
+Capacitance (Pw)C W — 120 — pF f =1 MHz, Code = Full Scale 
+Capacitance (PB)C BW — 75 — pF f =1 MHz, Code = Full Scale 
+RAM (Wiper, TCON) Value
+Value Range N 0h — 1FFh hex 8-bit device
+0h — 1FFh hex 7-bit device
+TCON POR/BOR 
+Setting
+1FF hex All Terminals connected
+Power Requirements
+Power Supply 
+Sensitivity 
+(MCP44X1)
+PSS — 0.0015 0.0035 %/% 8-bit V DD = 2.7V to 5.5V, 
+VA = 2.7V, Code = 80h
+— 0.0015 0.0035 %/% 7-bit V DD = 2.7V to 5.5V, 
+VA = 2.7V, Code = 40h
+AC/DC CHARACTERISTICS (CONTINUED)
+DC Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+Note 1: Resistance is defined as the resistance between terminal A to terminal B.
+2: INL and DNL are measured at VW with VA = VDD and VB = VSS. 
+3: MCP44X1  only.
+4: MCP44X2  only, includes VWZSE and VWFSE.
+5: Polarity of resistor terminals A, W and B, with respect to each other, is not restricted.
+6: This specification by design.
+7: Non-linearity is affected by wiper resistance (RW), which changes significantly over voltage and 
+temperature. 
+8: The MCP44X1 is externally connected to match the configurations of the MCP44X2, and then tested.
+9: POR/BOR is not rate dependent.
+10: Supply current is independent of current through the resistor network.
+11: When HVC/A0 = VIHH, the IDD current is less due to current into the HVC/A0 pin. See IPU specification. 
+=== page 12
+MCP443X/5X
+DS22267A-page 12  2010 Microchip Technology Inc.
+1.1 I 2C Mode Timing Waveforms and Requirements      
+FIGURE 1-1: RESET Waveforms.
+TABLE 1-1: RESET TIMING       
+Timing Characteristics
+Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40°C  TA  +125°C (extended) 
+All parameters apply across the specified operating ranges unless noted. 
+VDD = +2.7V to 5.5V, 5 k, 10 k, 50 k, 100 k devices. 
+Typical specifications represent values for VDD = 5.5V, TA = +25°C.
+Parameters Sym Min Typ Max Units Conditions
+RESET pulse width t RST 50 — — ns
+RESET rising edge 
+normal mode (Wiper 
+driving and I2C 
+interface operational)
+tRSTD —— 2 0 n s
+RESET
+SDA
+tRST tRSTD 
+Wx
+SCL VIH VIH
+=== page 13
+ 2010 Microchip Technology Inc. DS22267A-page 13
+MCP443X/5X
+    
+FIGURE 1-2: I2C Bus Start/Stop Bits Timing Waveforms.
+TABLE 1-2: I 2C BUS START/STOP BITS REQUIREMENTS      
+I2C AC Characteristics Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40 C  TA  +125C (Extended) 
+Operating Voltage VDD range is described in AC/DC characteristics
+Param. 
+No. Symbol Characteristic Min Max Units Conditions
+FSCL Standard Mode 0 100 kHz C b = 400 pF, 1.8V - 5.5V
+Fast Mode 0 400 kHz C b = 400 pF, 2.7V - 5.5V
+High-Speed 1.7 0 1.7 MHz C b = 400 pF, 4.5V - 5.5V
+High-Speed 3.4 0 3.4 MHz C b = 100 pF, 4.5V - 5.5V
+D102 Cb Bus capacitive 
+loading
+100 kHz mode —  400 pF 
+400 kHz mode —  400 pF 
+1.7 MHz mode —  400 pF 
+3.4 MHz mode — 100 pF
+90 T SU:STA START condition 100 kHz mode 4700 — ns Only relevant for repeated 
+START conditionSetup time 400 kHz mode 600 — ns
+1.7 MHz mode 160 — ns
+3.4 MHz mode 160 — ns
+91 T HD:STA START condition 100 kHz mode 4000 — ns After this period the first 
+clock pulse is generatedHold time 400 kHz mode 600 — ns
+1.7 MHz mode 160 — ns
+3.4 MHz mode 160 — ns
+92 T SU:STO STOP condition 100 kHz mode 4000 — ns
+Setup time 400 kHz mode 600 — ns
+1.7 MHz mode 160 — ns
+3.4 MHz mode 160 — ns
+93 T HD:STO STOP condition 100 kHz mode 4000 — ns
+Hold time 400 kHz mode 600 — ns
+1.7 MHz mode 160 — ns
+3.4 MHz mode 160 — ns
+94 T HVCSU HVC to SCL Setup time 25 — uS High Voltage Commands
+95 T HVCHD SCL to HVC Hold time 25 — uS High Voltage Commands
+91 93SCL
+SDA
+START
+Condition
+STOP
+Condition
+90 92
+HVC/A0 VIH 
+VIHH 
+VIH or VIL 
+or VIL 
+94 95
+=== page 14
+MCP443X/5X
+DS22267A-page 14  2010 Microchip Technology Inc.
+          
+FIGURE 1-3: I2C Bus Data Timing.
+     
+90 91 92
+100
+101
+103
+106 107
+109 109 110
+102
+SCL
+SDA
+In
+SDA
+Out
+TABLE 1-3: I 2C BUS DATA REQUIREMENTS (SLAVE MODE)  
+I2C AC Characteristics Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40 C  TA  +125C (Extended) 
+Operating Voltage VDD range is described in AC/DC characteristics
+Param. 
+No.
+Sym Characteristic Min Max Units Conditions
+100 T HIGH Clock high time   100 kHz mode 4000 — ns 1.8V-5.5V 
+400 kHz mode 600 — ns 2.7V-5.5V
+1.7 MHz mode 120 ns 4.5V-5.5V
+3.4 MHz mode 60 — ns 4.5V-5.5V
+101 T LOW Clock low time 100 kHz mode 4700 — ns 1.8V-5.5V 
+400 kHz mode 1300 — ns 2.7V-5.5V
+1.7 MHz mode 320 ns 4.5V-5.5V
+3.4 MHz mode 160 — ns 4.5V-5.5V
+Note 1: As a transmitter, the device must provide this internal minimum delay time to bridge the undefined region 
+(minimum 300 ns) of the falling edge of SCL to avoid unintended generation of START or STOP conditions.
+2: A fast-mode (400 kHz) I2C-bus device can be used in a standard-mode (100 kHz) I2C-bus system, but the 
+requirement tSU;DAT  250 ns must then be met. This will automatically be the case if the device does not 
+stretch the LOW period of the SCL signal. If such a device does stretch the LOW period of the SCL signal, 
+it must output the next data bit to the SDA line 
+TR max.+tSU;DAT = 1000 + 250 = 1250 ns (according to the standard-mode I2C bus specification) before 
+the SCL line is released. 
+3: The MCP44X1/MCP44X2 device must provide a data hold time to bridge the undefined part between VIH 
+and VIL of the falling edge of the SCL signal. This specification is not a part of the I2C specification, but 
+must be tested in order to ensure that the output data will meet the setup and hold specifications for the 
+receiving device. 
+4: Use Cb in pF for the calculations.
+5: Not Tested.
+6: A Master Transmitter must provide a delay to ensure that difference between SDA and SCL fall times do 
+not unintentionally create a Start or Stop condition. 
+7: Ensured by the TAA 3.4 MHz specification test.
+=== page 15
+ 2010 Microchip Technology Inc. DS22267A-page 15
+MCP443X/5X
+102A (5) TRSCL SCL rise time 100 kHz mode — 1000 ns Cb is specified to be from 
+10 to 400 pF (100 pF 
+maximum for 3.4 MHz 
+mode)
+400 kHz mode 20 + 0.1Cb 300 ns
+1.7 MHz mode 20 80 ns
+1.7 MHz mode 20 160 ns After a Repeated Start 
+condition or an 
+Acknowledge bit  
+3.4 MHz mode 10 40 ns
+3.4 MHz mode 10 80 ns After a Repeated Start 
+condition or an 
+Acknowledge bit  
+102B (5) TRSDA SDA rise time 100 kHz mode — 1000 ns Cb is specified to be from 
+10 to 400 pF (100 pF max 
+for 3.4 MHz mode)
+400 kHz mode 20 + 0.1Cb 300 ns
+1.7 MHz mode 20 160 ns
+3.4 MHz mode 10 80 ns
+103A (5) TFSCL SCL fall time 100 kHz mode — 300 ns Cb is specified to be from 
+10 to 400 pF (100 pF max 
+for 3.4 MHz mode)
+400 kHz mode 20 + 0.1Cb 300 ns
+1.7 MHz mode 20 80 ns
+3.4 MHz mode 10 40 ns
+103B (5) TFSDA SDA fall time 100 kHz mode — 300 ns Cb is specified to be from 
+10 to 400 pF (100 pF max 
+for 3.4 MHz mode)
+400 kHz mode 20 + 0.1Cb (4) 300 ns
+1.7 MHz mode 20 160 ns
+3.4 MHz mode 10 80 ns
+106 T HD:DAT Data input hold 
+time
+100 kHz mode 0 — ns 1.8V-5.5V, Note 6
+400 kHz mode 0 — ns 2.7V-5.5V, Note 6
+1.7 MHz mode 0 — ns 4.5V-5.5V, Note 6
+3.4 MHz mode 0 — ns 4.5V-5.5V, Note 6
+TABLE 1-3: I 2C BUS DATA REQUIREMENTS (SLAVE MODE) (CONTINUED) 
+I2C AC Characteristics Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40 C  TA  +125C (Extended) 
+Operating Voltage VDD range is described in AC/DC characteristics
+Param. 
+No.
+Sym Characteristic Min Max Units Conditions
+Note 1: As a transmitter, the device must provide this internal minimum delay time to bridge the undefined region 
+(minimum 300 ns) of the falling edge of SCL to avoid unintended generation of START or STOP conditions.
+2: A fast-mode (400 kHz) I2C-bus device can be used in a standard-mode (100 kHz) I2C-bus system, but the 
+requirement tSU;DAT  250 ns must then be met. This will automatically be the case if the device does not 
+stretch the LOW period of the SCL signal. If such a device does stretch the LOW period of the SCL signal, 
+it must output the next data bit to the SDA line 
+TR max.+tSU;DAT = 1000 + 250 = 1250 ns (according to the standard-mode I2C bus specification) before 
+the SCL line is released. 
+3: The MCP44X1/MCP44X2 device must provide a data hold time to bridge the undefined part between VIH 
+and VIL of the falling edge of the SCL signal. This specification is not a part of the I2C specification, but 
+must be tested in order to ensure that the output data will meet the setup and hold specifications for the 
+receiving device. 
+4: Use Cb in pF for the calculations.
+5: Not Tested.
+6: A Master Transmitter must provide a delay to ensure that difference between SDA and SCL fall times do 
+not unintentionally create a Start or Stop condition. 
+7: Ensured by the TAA 3.4 MHz specification test.
+=== page 16
+MCP443X/5X
+DS22267A-page 16  2010 Microchip Technology Inc.
+107 T SU:DAT Data input setup 
+time
+100 kHz mode 250 — ns Note 2
+400 kHz mode 100 — ns
+1.7 MHz mode 10 — ns
+3.4 MHz mode 10 — ns
+109 T AA Output valid 
+from clock 
+100 kHz mode — 3450 ns Note 1
+400 kHz mode — 900 ns
+1.7 MHz mode — 150 ns Cb = 100 pF,
+Note 1, Note 7
+— 310 ns Cb = 400 pF,
+Note 1, Note 5
+3.4 MHz mode — 150 ns Cb = 100 pF, Note 1
+110 T BUF Bus free time 100 kHz mode 4700 — ns Time the bus must be free 
+before a new transmission 
+can start
+400 kHz mode 1300 — ns
+1.7 MHz mode N.A. — ns
+3.4 MHz mode N.A. — ns
+TSP Input filter spike 
+suppression 
+(SDA and SCL)
+100 kHz mode — 50 ns NXP specification states 
+N.A.
+400 kHz mode — 50 ns
+1.7 MHz mode — 10 ns Spike suppression 
+3.4 MHz mode — 10 ns Spike suppression  
+TABLE 1-3: I 2C BUS DATA REQUIREMENTS (SLAVE MODE) (CONTINUED) 
+I2C AC Characteristics Standard Operating Conditions (unless otherwise specified)
+Operating Temperature –40 C  TA  +125C (Extended) 
+Operating Voltage VDD range is described in AC/DC characteristics
+Param. 
+No.
+Sym Characteristic Min Max Units Conditions
+Note 1: As a transmitter, the device must provide this internal minimum delay time to bridge the undefined region 
+(minimum 300 ns) of the falling edge of SCL to avoid unintended generation of START or STOP conditions.
+2: A fast-mode (400 kHz) I2C-bus device can be used in a standard-mode (100 kHz) I2C-bus system, but the 
+requirement tSU;DAT  250 ns must then be met. This will automatically be the case if the device does not 
+stretch the LOW period of the SCL signal. If such a device does stretch the LOW period of the SCL signal, 
+it must output the next data bit to the SDA line 
+TR max.+tSU;DAT = 1000 + 250 = 1250 ns (according to the standard-mode I2C bus specification) before 
+the SCL line is released. 
+3: The MCP44X1/MCP44X2 device must provide a data hold time to bridge the undefined part between VIH 
+and VIL of the falling edge of the SCL signal. This specification is not a part of the I2C specification, but 
+must be tested in order to ensure that the output data will meet the setup and hold specifications for the 
+receiving device. 
+4: Use Cb in pF for the calculations.
+5: Not Tested.
+6: A Master Transmitter must provide a delay to ensure that difference between SDA and SCL fall times do 
+not unintentionally create a Start or Stop condition. 
+7: Ensured by the TAA 3.4 MHz specification test.
+=== page 17
+ 2010 Microchip Technology Inc. DS22267A-page 17
+MCP443X/5X
+TEMPERATURE CHARACTERISTICS    
+Electrical Specifications: Unless otherwise indicated, VDD = +2.7V to +5.5V, VSS = GND.
+Parameters Sym Min Typ Max Units Conditions
+Temperature Ranges
+Specified Temperature Range TA -40 — +125 °C
+Operating Temperature Range T A -40 — +125 °C
+Storage Temperature Range T A -65 — +150 °C
+Thermal Package Resistances
+Thermal Resistance, 14L-TSSOP JA —1 0 0 — ° C / W
+Thermal Resistance, 20L-QFN JA —4 3 — ° C / W
+Thermal Resistance, 20L-TSSOP JA —9 0 — ° C / W
+=== page 18
+MCP443X/5X
+DS22267A-page 18  2010 Microchip Technology Inc.
+NOTES:
+=== page 19
+ 2010 Microchip Technology Inc. DS22267A-page 19
+MCP443X/5X
+2.0 TYPICAL PERFORMANCE CURVES
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-1: Device Current (IDD) vs. I2C 
+Frequency (fSCL) and Ambient Temperature 
+(VDD = 2.7V and 5.5V).
+FIGURE 2-2: Device Current (ISHDN) and 
+VDD. (HVC/A0 = VDD) vs. Ambient Temperature.
+FIGURE 2-3: HVC/A0 Pull-up/Pull-down 
+Resistance (RHVC) and Current (IHVC) vs. HVC/
+A0 Input Voltage (VHVC) (VDD = 5.5V).
+FIGURE 2-4: HVC/A0 High Input Entry/
+Exit Threshold vs. Ambient Temperature and 
+VDD.
+Note: The graphs and tables provided following this note are a statistical summary based on a limited number of
+samples and are provided for informational purposes only. The performance characteristics listed herein
+are not tested or guaranteed. In some graphs or tables, the data presented may be outside the specified
+operating range (e.g., outside specified power supply range) and therefore outside the warranted range.
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+550
+-40 0 40 80 120
+Temperature (°C)
+IDD (µA)
+3.4MHz, 5.5V
+3.4MHz, 4.5V
+1.7MHz, 5.5V
+1.7MHz, 4.5V
+400kHz, 5.5V
+400kHz, 2.7V
+100kHz, 5.5V
+100kHz, 2.7V
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+-40 0 40 80 120
+Ambient Temperature (°C)
+Standby Current (ISHDN) (µA) 5.5V
+2.7V
+0
+50
+100
+150
+200
+250
+23456789 1 0
+VHVC (V)
+RHVC (kOhms)
+-1000
+-800
+-600
+-400
+-200
+0
+200
+400
+600
+800
+1000
+IHVC 
+RHVC 
+IHVC (µA)
+0.0
+2.0
+4.0
+6.0
+8.0
+10.0
+12.0
+-40 0 40 80 120
+Ambient Temperature (°C)
+HVC/A0 Threshold (V)
+2.7V Entry
+2.7V Exit
+5.5V Entry
+5.5V Exit
+=== page 20
+MCP443X/5X
+DS22267A-page 20  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V. 
+FIGURE 2-5: 5k  Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-6: 5k  Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-7: 5k  Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V).
+FIGURE 2-8: 5k  Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-9: 5k  Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-10: 5k  Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V, IW = 260 µA).
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INLDNL
+RW-40°C 25°C85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+-40°C 25°C
+85°C
+RW
+125°C
+0
+500
+1000
+1500
+2000
+2500
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-1.25
+-0.75
+-0.25
+0.25
+0.75
+1.25
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW 
+-40°C25°C85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-2
+0
+2
+4
+6
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C
+25°C
+85°C125°C
+0
+500
+1000
+1500
+2000
+2500
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-2
+18
+38
+58
+78
+98
+118
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNLRW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 21
+ 2010 Microchip Technology Inc. DS22267A-page 21
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-11: 5k  – Nominal Resistance 
+(RAB) () vs. Ambient Temperature and VDD.
+FIGURE 2-12: 5k  – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 5.5V, IW = 190 µA).
+FIGURE 2-13: 5k  – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 3.0V, IW = 190 µA).
+FIGURE 2-14: 5k  – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 1.8V, IW = 190 µA).
+5050
+5100
+5150
+5200
+5250
+5300
+-40 0 40 80 120
+Ambient Temperature  (°C)
+Nominal Resistance (RAB) 
+(Ohms)
+2.7V
+5.5V
+0
+1000
+2000
+3000
+4000
+5000
+6000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+1000
+2000
+3000
+4000
+5000
+6000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 22
+MCP443X/5X
+DS22267A-page 22  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-15: 5k  – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 5.5V, IW = 190 µA).
+FIGURE 2-16: 5k  – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 3.0V, IW = 190 µA).
+FIGURE 2-17: 5k  – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 1.8V, IW = 190 µA).
+FIGURE 2-18: 5k  – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 5.5V, IW = 190 µA).
+FIGURE 2-19: 5k  – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 3.0V, IW = 190 µA).
+FIGURE 2-20: 5k  – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 1.8V, IW = 190 µA).
+-2.50%
+-1.50%
+-0.50%
+0.50%
+1.50%
+2.50%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C
++25C
++85C
++125C
+-2.50%
+-1.50%
+-0.50%
+0.50%
+1.50%
+2.50%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C
++25C
++85C
++125C
+-7.00%
+-6.00%
+-5.00%
+-4.00%
+-3.00%
+-2.00%
+-1.00%
+0.00%
+1.00%
+2.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C
++25C
++85C
++125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+40
+42
+44
+46
+48
+50
+52
+54
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+60
+65
+70
+75
+80
+85
+90
+95
+100
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+-2000
+-1500
+-1000
+-500
+0
+500
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 23
+ 2010 Microchip Technology Inc. DS22267A-page 23
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-21: 5k  – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-22: 5k  – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+FIGURE 2-23: 5k  – Power-Up Wiper 
+Response Time (20 ms/Div).
+FIGURE 2-24: 5k  – Low-Voltage 
+Increment Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-25: 5k  – Low-Voltage 
+Increment Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+
+=== page 24
+MCP443X/5X
+DS22267A-page 24  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-26: 10 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-27: 10 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-28: 10 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V).
+FIGURE 2-29: 10 k Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-30: 10 k Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-31: 10 k Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V, IW = 125 µA).
+20
+40
+60
+80
+100
+120
+0 25 50 75 100 125 150 175 200 225 250
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INLDNL
+RW
+-40°C25°C
+85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INLDNL
+RW
+-40°C
+25°C85°C125°C
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance 
+(RW)(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-1
+-0.5
+0
+0.5
+1
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNLRW-40°C25°C85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 25 50 75 100 125 150 175 200 225 250
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-2
+-1
+0
+1
+2
+3
+4
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL RW
+-40°C
+25°C85°C125°C
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-2
+8
+18
+28
+38
+48
+58
+68
+78
+88
+98
+Error (LSb)
+-40C Rw 25C Rw 85C Rw
+125C Rw -40C INL 25C INL
+85C INL 125C INL -40C DNL
+25C DNL 85C DNL 125C DNL
+INL
+DNLRW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 25
+ 2010 Microchip Technology Inc. DS22267A-page 25
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-32: 10 k – Nominal Resistance 
+(RAB) () vs. Ambient Temperature and VDD.
+FIGURE 2-33: 10 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 5.5V, IW = 150 µA).
+FIGURE 2-34: 10 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 3.0V, IW = 150 µA).
+FIGURE 2-35: 10 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 1.8V, IW = 150 µA).
+10000
+10050
+10100
+10150
+10200
+10250
+-40 0 40 80 120
+Ambient Temperature  (°C)
+Nominal Resistance (RAB) 
+(Ohms)
+5.5V
+2.7V
+0
+2000
+4000
+6000
+8000
+10000
+12000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance  (/g159) -40C
++25C
++85C
++125C
+0
+2000
+4000
+6000
+8000
+10000
+12000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+2000
+4000
+6000
+8000
+10000
+12000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 26
+MCP443X/5X
+DS22267A-page 26  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-36: 10 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 5.5V, IW = 150 µA).
+FIGURE 2-37: 10 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 3.0V, IW = 150 µA).
+FIGURE 2-38: 10 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 1.8V, IW = 150 µA).
+FIGURE 2-39: 10 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 5.5V, IW = 150 µA).
+FIGURE 2-40: 10 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 3.0V, IW = 150 µA).
+FIGURE 2-41: 10 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 1.8V, IW = 150 µA). 
+-1.50%
+-1.00%
+-0.50%
+0.00%
+0.50%
+1.00%
+1.50%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+-1.50%
+-1.00%
+-0.50%
+0.00%
+0.50%
+1.00%
+1.50%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+-1.50%
+-1.00%
+-0.50%
+0.00%
+0.50%
+1.00%
+1.50%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+10
+15
+20
+25
+30
+35
+40
+45
+50
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+20
+25
+30
+35
+40
+45
+50
+55
+60
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+-1400
+-1200
+-1000
+-800
+-600
+-400
+-200
+0
+200
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 27
+ 2010 Microchip Technology Inc. DS22267A-page 27
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-42: 10 k – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-43: 10 k – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+FIGURE 2-44: 10 k – Low-Voltage 
+Increment Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-45: 10 k – Low-Voltage 
+Increment Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+
+=== page 28
+MCP443X/5X
+DS22267A-page 28  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-46: 50 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-47: 50 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-48: 50 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V).
+FIGURE 2-49: 50 k Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-50: 50 k Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-51: 50 k Rheo Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V, IW = 25 µA).
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INLDNL
+RW
+-40°C25°C
+85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C
+25°C85°C125°C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C25°C85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-1
+-0.75
+-0.5
+-0.25
+0
+0.25
+0.5
+0.75
+1
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C
+25°C85°C125°C
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (Rw) 
+(ohms)
+-1.5
+3.5
+8.5
+13.5
+18.5
+23.5
+28.5
+33.5
+38.5
+43.5
+48.5
+53.5
+58.5
+63.5
+68.5
+73.5
+78.5
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 29
+ 2010 Microchip Technology Inc. DS22267A-page 29
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-52: 50 k – Nominal Resistance 
+(RAB) () vs. Ambient Temperature and VDD.
+FIGURE 2-53: 50 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 5.5V, IW = 90 µA).
+FIGURE 2-54: 50 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 3.0V, IW = 48 µA).
+FIGURE 2-55: 50 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 1.8V, IW = 30 µA).
+49400
+49600
+49800
+50000
+50200
+50400
+50600
+50800
+-40 0 40 80 120
+Ambient Temperature  (°C)
+Nominal Resistance (RAB) 
+(Ohms)
+2.7V
+5.5V
+0
+10000
+20000
+30000
+40000
+50000
+60000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+10000
+20000
+30000
+40000
+50000
+60000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+10000
+20000
+30000
+40000
+50000
+60000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 30
+MCP443X/5X
+DS22267A-page 30  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-56: 50 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 5.5V, IW = 90 µA).
+FIGURE 2-57: 50 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 3.0V, IW = 48 µA).
+FIGURE 2-58: 50 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 1.8V, IW = 30 µA).
+FIGURE 2-59: 50 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 5.5V, IW = 90 µA). 
+FIGURE 2-60: 50 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 3.0V, IW = 48 µA). 
+FIGURE 2-61: 50 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 1.8V, IW = 30 µA).
+-1.00%
+0.00%
+1.00%
+2.00%
+3.00%
+4.00%
+5.00%
+6.00%
+7.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+-2.00%
+-1.00%
+0.00%
+1.00%
+2.00%
+3.00%
+4.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+-1.50%
+-0.50%
+0.50%
+1.50%
+2.50%
+3.50%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+7
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+-2
+0
+2
+4
+6
+8
+10
+12
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+-1400
+-1200
+-1000
+-800
+-600
+-400
+-200
+0
+200
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 31
+ 2010 Microchip Technology Inc. DS22267A-page 31
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-62: 50 k – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-63: 50 k – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+FIGURE 2-64: 50 k – Low-Voltage 
+Increment Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-65: 50 k – Low-Voltage 
+Increment Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+
+=== page 32
+MCP443X/5X
+DS22267A-page 32  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-66: 100 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-67: 100 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-68: 100 k Pot Mode – RW (), 
+INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V).
+FIGURE 2-69: 100 k Rheo Mode – RW 
+(), INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 5.5V).
+FIGURE 2-70: 100 k Rheo Mode – RW 
+(), INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 3.0V).
+FIGURE 2-71: 100 k Rheo Mode – RW 
+(), INL (LSb), DNL (LSb) vs. Wiper Setting and 
+Ambient Temperature (VDD = 1.8V, IW = 10 µA).
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.2
+-0.1
+0
+0.1
+0.2
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C25°C
+85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C
+25°C85°C125°C
+0
+5000
+10000
+15000
+20000
+25000
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-0.35
+-0.25
+-0.15
+-0.05
+0.05
+0.15
+0.25
+0.35
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+20
+40
+60
+80
+100
+120
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (RW) 
+(ohms)
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW-40°C
+25°C85°C125°C
+20
+60
+100
+140
+180
+220
+260
+300
+0 32 64 96 128 160 192 224 256
+Wiper Setting (decimal)
+Wiper Resistance (Rw) 
+(ohms)
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+-40°C
+25°C85°C125°C
+0
+5000
+10000
+15000
+20000
+25000
+0 64 128 192 256
+Wiper Setting (decimal)
+Wiper Resistance (RW)
+(ohms)
+-1
+4
+9
+14
+19
+24
+29
+34
+39
+44
+49
+54
+59
+Error (LSb)
+-40C Rw 25C Rw 85C Rw 125C Rw
+-40C INL 25C INL 85C INL 125C INL
+-40C DNL 25C DNL 85C DNL 125C DNL
+INL
+DNL
+RW
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 33
+ 2010 Microchip Technology Inc. DS22267A-page 33
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-72: 100 k – Nominal 
+Resistance (RAB) () vs. Ambient Temperature 
+and VDD.
+FIGURE 2-73: 100 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 5.5V, IW = 45 µA).
+FIGURE 2-74: 100 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 3.0V, IW = 24 µA).
+FIGURE 2-75: 100 k – RWB () vs. Wiper 
+Setting and Ambient Temperature 
+(VDD = 1.8V, IW = 15 µA).
+99000
+99500
+100000
+100500
+101000
+101500
+-40 0 40 80 120
+Ambient Temperature  (°C)
+Nominal Resistance (RAB) 
+(Ohms)
+5.5V
+2.7V
+0
+20000
+40000
+60000
+80000
+100000
+120000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+20000
+40000
+60000
+80000
+100000
+120000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+0
+20000
+40000
+60000
+80000
+100000
+120000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 34
+MCP443X/5X
+DS22267A-page 34  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-76: 100 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 5.5V, IW = 45 µA).
+FIGURE 2-77: 100 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 3.0V, IW = 24 µA).
+FIGURE 2-78: 100 k – Worst Case RBW 
+from Average RBW (RBW0-RBW3) Error (%) vs. 
+Wiper Setting and Temperature 
+(VDD = 1.8V, IW = 15 µA).
+FIGURE 2-79: 100 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 5.5V, IW = 45 µA). 
+FIGURE 2-80: 100 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 3.0V, IW = 24 µA). 
+FIGURE 2-81: 100 k – RWB PPM/°C vs. 
+Wiper Setting. (RBW(code=n, 125°C)-RBW(code=n, -
+40°C) )/RBW(code = 256, 25°C)/165°C * 1,000,000) 
+(VDD = 1.8V, IW = 15 µA).
+-1.00%
+0.00%
+1.00%
+2.00%
+3.00%
+4.00%
+5.00%
+6.00%
+7.00%
+8.00%
+9.00%
+10.00%
+11.00%
+12.00%
+13.00%
+14.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+-1.00%
+0.00%
+1.00%
+2.00%
+3.00%
+4.00%
+5.00%
+6.00%
+7.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+-1.00%
+0.00%
+1.00%
+2.00%
+3.00%
+4.00%
+5.00%
+6.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C +25C
++85C +125C
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+-1200
+-1000
+-800
+-600
+-400
+-200
+0
+200
+0 32 64 96 128 160 192 224 256
+Wiper Code
+PPM / °C
+CH0 CH1
+CH2 CH3
+Note: See Appendix B:  for additional
+information of R W resistance variation
+characteristics for VDD > 2.7V.
+=== page 35
+ 2010 Microchip Technology Inc. DS22267A-page 35
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-82: 100 k – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-83: 100 k – Low-Voltage 
+Decrement Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+FIGURE 2-84: 100 k – Low-Voltage 
+Increment Wiper Settling Time (VDD = 2.7V) 
+(1 µs/Div).
+FIGURE 2-85: 100 k – Low-Voltage 
+Increment Wiper Settling Time (VDD = 5.5V) 
+(1 µs/Div).
+
+=== page 36
+MCP443X/5X
+DS22267A-page 36  2010 Microchip Technology Inc.
+Note: Unless otherwise indicated, TA = +25°C, VDD = 5V, VSS = 0V.
+FIGURE 2-86: VIH (SDA, SCL) vs. VDD and 
+Temperature.
+FIGURE 2-87: VIL (SDA, SCL) vs. VDD and 
+Temperature.
+FIGURE 2-88: VOL (SDA) vs. VDD and 
+Temperature (IOL = 3 mA).
+1
+1.5
+2
+2.5
+3
+3.5
+4
+-40 0 40 80 120
+Temperature (°C)
+VIH (V)
+5.5V
+2.7V
+1
+1.5
+2
+-40 0 40 80 120
+Temperature (°C)
+VIL (V)
+5.5V
+2.7V
+50
+70
+90
+110
+130
+150
+170
+190
+210
+230
+-40 0 40 80 120
+Temperature (°C)
+VOL (mV)
+5.5V
+2.7V
+=== page 37
+ 2010 Microchip Technology Inc. DS22267A-page 37
+MCP443X/5X
+Note: Unless otherwise indicated, TA = +25°C, VDD =5 V ,  VSS = 0V.
+FIGURE 2-89: POR/BOR Trip point vs. VDD 
+and Temperature.
+2.1 Test Circuits
+FIGURE 2-90: -3 db Gain vs. Frequency 
+Test.
+FIGURE 2-91: RBW and RW Measurement.
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+-40 0 40 80 120
+Temperature (°C)
+VDD (V)
++
+-
+VOUT
+2.5V DC
++5V
+A
+B
+W
+Offset
+GND
+VIN
+A
+B
+W
+IW 
+VW 
+floating
+RBW = VW/IW 
+VA 
+VB RW = (VW-VA)/IW 
+=== page 38
+MCP443X/5X
+DS22267A-page 38  2010 Microchip Technology Inc.
+NOTES:
+=== page 39
+ 2010 Microchip Technology Inc. DS22267A-page 39
+MCP443X/5X
+3.0 PIN DESCRIPTIONS
+The descriptions of the pins are listed in Table 3-1.
+Additional descriptions of the device pins follows.
+TABLE 3-1: PINOUT DESCRIPTION FOR THE MCP443X/5X
+Pin Weak 
+Pull-up/
+down
+(Note 1)
+Standard FunctionTSSOP QFN
+Symbol I/O Buffer 
+Type14L 20L 20L
+—11 9 P3A A Analog No Potentiometer 3 Terminal A 
+12 2 0 P3W A Analog No Potentiometer 3 Wiper Terminal 
+231 P3B A Analog No Potentiometer 3 Terminal B 
+342 HVC/A0 I HV w/ST “smart” High Voltage Command / I2C Address 0
+453 SCL I HV w/ST No I2C Clock Input 
+564 SDA I HV w/ST No I2C Serial Data I/O. Open Drain output 
+675 VSS —P — Ground
+786 P1B A Analog No Potentiometer 1 Terminal B 
+897 P1W A Analog No Potentiometer 1 Wiper Terminal 
+—1 0 8 P1A A Analog No Potentiometer 1 Terminal A 
+—1 1 9 P0A A Analog No Potentiometer 0 Terminal A 
+91 2 1 0 P0W A Analog No Potentiometer 0 Wiper Terminal
+10 13 11 P0B A Analog No Potentiometer 0 Terminal B
+—1 41 2 NC I — — No Connect
+—1 51 3 RESET I HV w/ST Yes Hardware Reset Pin 
+11 16 14 A1 I HV w/ST “smart” I2C Address 1
+12 17 15 VDD —P — Positive Power Supply Input
+13 18 16 P2B A Analog No Potentiometer 2 Terminal B 
+14 19 17 P2W A Analog No Potentiometer 2 Wiper Terminal 
+—2 01 8 P2A A Analog No Potentiometer 2 Terminal A 
+——2 1 EP — — — Exposed Pad. (Note 2)
+Legend: HV w/ST = High Voltage tolerant input (with Schmidtt trigger input) 
+A = Analog pins (Potentiometer terminals) I = digital input (high Z) 
+O = digital output      I/O = Input / Output    
+P = Power
+Note 1: The pin’s “smart” pull-up shuts off while the pin is forced low. This is done to reduce the standby and 
+shut-down current. 
+2: The QFN package has a contact on the bottom of the package. This contact is conductively connected to 
+the die substrate, and therefore should be unconnected or connected to the same ground as the device’s 
+VSS pin. 
+=== page 40
+MCP443X/5X
+DS22267A-page 40  2010 Microchip Technology Inc.
+3.1 High Voltage Command / 
+Address 0 (HVC/A0)
+The HVC/A0 pin is the Address 0 input for the I 2C
+interface as well as the High Voltage Command pin. At
+the device’s POR/BOR the value of the A0 address bit
+is latched. This input along with the A1 pin completes
+the device address. This allows up to 4 MCP44XX
+devices to be on a single I2C bus. 
+During normal operation, the voltage on this pin
+determines whether the I 2C command is a normal
+command or a High Voltage command (when HVC/A0
+= VIHH).
+3.2 Serial Clock (SCL) 
+The SCL pin is the serial interfaces Serial Clock pin.
+This pin is connected to the Host Controllers SCL pin.
+The MCP44XX is a slave device, so its SCL pin accepts
+only external clock signals.
+3.3 Serial Data (SDA) 
+The SDA pin is the serial interfaces Serial Data pin.
+This pin is connected to the Host Controllers SDA pin.
+The SDA pin is an open-drain N-channel driver. 
+3.4 Ground (V SS)
+The VSS pin is the device ground reference.
+3.5 Potentiometer Terminal B
+The terminal B pin is connected to the internal
+potentiometer’s terminal B. 
+The potentiometer’s terminal B is the fixed connection
+to the Zero Scale wiper value of the digital
+potentiometer. This corresponds to a wiper value of
+0x00 for both 7-bit and 8-bit devices.
+The terminal B pin does not have a polarity relative to
+the terminal W or A pins. The terminal B pin can
+support both positive and negative current. The voltage
+on terminal B must be between VSS and VDD. 
+MCP44XX devices have four terminal B pins, one for
+each resistor network. 
+3.6 Potentiometer Wiper (W) Terminal 
+The terminal W pin is connected to the internal
+potentiometer’s terminal W (the wiper). The wiper
+terminal is the adjustable terminal of the digital
+potentiometer. The terminal W pin does not have a
+polarity relative to terminals A or B pins. The terminal
+W pin can support both positive and negative current.
+The voltage on terminal W must be between V SS and
+VDD.
+MCP44XX devices have four terminal W pins, one for
+each resistor network. 
+3.7 Potentiometer Terminal A
+The terminal A pin is available on the MCP44X1
+devices, and is connected to the internal
+potentiometer’s terminal A. 
+The potentiometer’s terminal A is the fixed connection
+to the Full Scale wiper value of the digital
+potentiometer. This corresponds to a wiper value of
+0x100 for 8-bit devices or 0x80 for 7-bit devices. 
+The terminal A pin does not have a polarity relative to
+the terminal W or B pins. The terminal A pin can
+support both positive and negative current. The voltage
+on terminal A must be between VSS and VDD.
+The terminal A pin is not available on the MCP44X2
+devices, and the internally terminal A signal is floating.
+MCP44X1 devices have four terminal A pins, one for
+each resistor network. Terminal A is not available on
+the MCP44X2 devices.
+3.8 Not Connected (NC)  
+The NC pin is not used.
+3.9  Reset (RESET ) 
+The RESET  pin is used to force the device into the
+POR/BOR state.
+3.10 Address 1 (A1) 
+The A1 pin is the I 2C interface’s Address 1 pin. Along
+with the A0 pins, up to 4 MCP44XX devices can be on
+a single I2C bus. 
+3.11 Positive Power Supply Input (V DD)
+The VDD pin is the device’s positive power supply input.
+The input power supply is relative to VSS. 
+While the device V DD < V min (2.7V), the electrical
+performance of the device may not meet the data sheet
+specifications.
+3.12 No Connect (NC)
+These pins should be either connected to VDD or VSS.
+3.13 Exposed Pad (EP)
+This pad is conductively connected to the device's
+substrate. This pad should be tied to the same potential
+as the VSS pin (or left unconnected). This pad could be
+used to assist as a heat sink for the device when
+connected to a PCB heat sink.
+=== page 41
+ 2010 Microchip Technology Inc. DS22267A-page 41
+MCP443X/5X
+4.0 FUNCTIONAL OVERVIEW
+This data sheet covers a family of four volatile Digital
+Potentiometer and Rheostat devices that will be
+referred to as MCP44XX. The MCP44X1 devices are
+the Potentiometer configuration, while the MCP44X2
+devices are the Rheostat configuration.
+As the Device Block Diagram  shows, there are four
+main functional blocks. These are:
+• POR/BOR and RESET Operation
+• Memory Map
+• Resistor Network
+• Serial Interface (I2C)
+The POR/BOR operation and the Memory Map are
+discussed in this section and the Resistor Network and
+I2C operation are described in their own sections. The
+Device Commands  commands are discussed in
+Section 7.0.
+4.1 POR/BOR and RESET  Operation
+The Power-on Reset is the case where the device is
+having power applied to it from V SS. The Brown-out
+Reset occurs when a device had power applied to it,
+and that power (voltage) drops below the specified
+range.
+The devices RAM retention voltage (V RAM) is lower
+than the POR/BOR voltage trip point (VPOR/VBOR). The
+maximum VPOR/VBOR voltage is less then 1.8V. 
+When VPOR/VBOR < V DD < 2.7V, the electrical perfor-
+mance may not meet the data sheet specifications. In
+this region, the device is capable of incrementing, dec-
+rementing, reading and writing to its volatile memory if
+the proper serial command is executed. 
+When VDD < VPOR/VBOR or the RESET pin is Low, the
+pin weak pull-ups are enabled.
+4.1.1 POWER-ON RESET 
+When the device powers up, the device V DD crosses
+the VPOR/VBOR voltage. 
+When the VDD voltage crosses the VPOR/VBOR voltage,
+the following events occur:
+• Volatile wiper register is loaded with the default 
+value 
+• TCON registers are loaded with their default value
+• Device is capable of digital operation 
+4.1.2 BROWN-OUT RESET 
+When the device powers down, device V DD will cross
+VPOR/VBOR voltage. 
+When V DD voltage decreases below V POR/VBOR
+voltage, the serial Interface is disabled. 
+If the VDD voltage decreases below VRAM voltage, the
+following events may occur: 
+• Volatile wiper registers could become corrupted
+• TCON registers could become corrupted
+As the voltage recovers above the VPOR/VBOR voltage,
+the operation is the same as Power-on Reset, as dis-
+cussed in the previous subsection.
+Serial commands that are not completed because of a
+brown-out condition could cause the memory location
+to become corrupted.
+4.1.3 RESET  PIN
+The RESET pin can be used to force the device into
+the POR/BOR state of the device. When the RESET
+pin is forced Low, the device is forced into the Reset
+state. This means that the TCON registers are forced
+to their default values and the volatile wiper registers
+are loaded with the default value. Also the I 2C inter-
+face is disabled. 
+This feature allows a hardware method for all registers
+to be updated at the same time.
+4.1.4 INTERACTION OF RESET  PIN AND 
+BOR/POR CIRCUITRY 
+Figure 4-1 shows how the RESET  pin signal and the
+POR/BOR signal interact to control the hardware Reset
+state of the device. 
+FIGURE 4-1: POR/BOR Signal and 
+RESET Pin Interaction.
+RESET (from pin)   
+POR/BOR signal 
+Device Reset 
+=== page 42
+MCP443X/5X
+DS22267A-page 42  2010 Microchip Technology Inc.
+4.2 Memory Map
+The device memory supports 16 locations that are 9-bit
+wide (16x9 bits). This memory space contains only
+volatile locations (see Table 4-2). 
+4.2.1 VOLATILE MEMORY (RAM)
+There are six Volatile Memory locations. These are:
+• Volatile Wiper 0 
+• Volatile Wiper 1 
+• Volatile Wiper 2 
+• Volatile Wiper 3 
+• Terminal Control (TCON0) Register 0 
+• Terminal Control (TCON)1 Register 1 
+The volatile memory starts functioning at the RAM
+retention voltage (VRAM). The POR/BOR Wiper code is
+shown in Table 4-1.
+TABLE 4-1: STANDARD SETTINGS     
+TABLE 4-2: MEMORY MAP AND THE SUPPORTED COMMANDS  
+Resistance 
+Code
+Typical 
+RAB Value
+Default 
+POR Wiper 
+Setting
+Wiper 
+Code
+8-bit 7-bit
+-502 5.0 k Mid scale 80h 40h
+-103 10.0 k  Mid scale 80h 40h
+-503 50.0 k  Mid scale 80h 40h
+-104 100.0 k  Mid scale 80h 40h
+Address Function Memory 
+Type Allowed Commands Disallowed Commands (1) Factory 
+Initialization
+00h Volatile Wiper 0 RAM Read, Write, 
+Increment, Decrement
+—8 -bit 8 0h
+7-bit 40h
+01h Volatile Wiper 1 RAM Read, Write, 
+Increment, Decrement
+—8 -bit 8 0h
+7-bit 40h
+02h Reserved — None All —
+03h Reserved — None All —
+04h Volatile 
+TCON0 Register
+RAM Read, Write Increment, Decrement 1FFh
+05h Reserved — None All —
+06h Volatile Wiper 2 RAM Read, Write, 
+Increment, Decrement
+—8 -bit 8 0h
+7-bit 40h
+07h Volatile Wiper 3 RAM Read, Write, 
+Increment, Decrement
+—8 -bit 8 0h
+7-bit 40h
+08h Reserved — None All —
+09h Reserved — None All —
+0Ah Volatile 
+TCON1 Register
+RAM Read, Write Increment, Decrement 1FFh
+0Bh - 0Fh Reserved — None All —
+Note 1: This command on this address will generate an error condition. To exit the error condition, the user must 
+take the HVC pin to the VIH level and then back to the active state (VIL or VIHH). 
+=== page 43
+ 2010 Microchip Technology Inc. DS22267A-page 43
+MCP443X/5X
+4.2.1.1 Terminal Control (TCON) Registers 
+There are two Terminal Control (TCON) Registers.
+These are called TCON0 and TCON1. Each register
+contains 8 control bits, four bits for each Wiper.
+Register 4-1 describes each bit of the TCON0 register,
+while Register 4-2 describes each bit of the TCON1
+register. 
+The state of each resistor network terminal connection
+is individually controlled. That is, each terminal
+connection (A, B and W) can be individually connected/
+disconnected from the resistor network. This allows the
+system to minimize the currents through the digital
+potentiometer.
+The value that is written to the specified TCON register
+will appear on the appropriate resistor network
+terminals when the serial command has completed.
+On a POR/BOR these registers are loaded with
+1FFh (9-bit), for all terminals connected. The Host
+Controller needs to detect the POR/BOR event and
+then update the Volatile TCON register values.
+        
+REGISTER 4-1: TCON0 BITS (1)
+R-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1
+D8 R1HW R1A R1W R1B R0HW R0A R0W R0B
+bit 8 bit 0
+Legend:
+R = Readable bit W = Writable bit U = Unimplemented bit, read as ‘0’
+-n = Value at POR ‘1’ = Bit is set ‘0’ = Bit is cleared x = Bit is unknown
+bit 8 D8: Reserved. Forced to ‘1’
+bit 7 R1HW: Resistor 1 Hardware Configuration Control bit
+This bit forces Resistor 1 into the “shutdown” configuration of the Hardware pin
+1 = Resistor 1 is NOT forced to the hardware pin “shutdown” configuration
+0 = Resistor 1 is forced to the hardware pin “shutdown” configuration
+bit 6 R1A: Resistor 1 Terminal A (P1A pin) Connect Control bit 
+This bit connects/disconnects the Resistor 1 Terminal A to the Resistor 1 Network
+1 = P1A pin is connected to the Resistor 1 Network
+0 = P1A pin is disconnected from the Resistor 1 Network
+bit 5 R1W: Resistor 1 Wiper (P1W pin) Connect Control bit
+This bit connects/disconnects the Resistor 1 Wiper to the Resistor 1 Network
+1 = P1W pin is connected to the Resistor 1 Network
+0 = P1W pin is disconnected from the Resistor 1 Network
+bit 4 R1B: Resistor 1 Terminal B (P1B pin) Connect Control bit
+This bit connects/disconnects the Resistor 1 Terminal B to the Resistor 1 Network
+1 = P1B pin is connected to the Resistor 1 Network
+0 = P1B pin is disconnected from the Resistor 1 Network
+bit 3 R0HW: Resistor 0 Hardware Configuration Control bit 
+This bit forces Resistor 0 into the “shutdown” configuration of the Hardware pin
+1 = Resistor 0 is NOT forced to the hardware pin “shutdown” configuration
+0 = Resistor 0 is forced to the hardware pin “shutdown” configuration
+bit 2 R0A: Resistor 0 Terminal A (P0A pin) Connect Control bit
+This bit connects/disconnects the Resistor 0 Terminal A to the Resistor 0 Network
+1 = P0A pin is connected to the Resistor 0 Network
+0 = P0A pin is disconnected from the Resistor 0 Network
+bit 1 R0W: Resistor 0 Wiper (P0W pin) Connect Control bit
+This bit connects/disconnects the Resistor 0 Wiper to the Resistor 0 Network
+1 = P0W pin is connected to the Resistor 0 Network
+0 = P0W pin is disconnected from the Resistor 0 Network
+bit 0 R0B: Resistor 0 Terminal B (P0B pin) Connect Control bit
+This bit connects/disconnects the Resistor 0 Terminal B to the Resistor 0 Network
+1 = P0B pin is connected to the Resistor 0 Network
+0 = P0B pin is disconnected from the Resistor 0 Network
+Note 1: These bits do not affect the wiper register values.
+=== page 44
+MCP443X/5X
+DS22267A-page 44  2010 Microchip Technology Inc.
+    
+REGISTER 4-2: TCON1 BITS (1)
+R-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1 R/W-1
+D8 R3HW R3A R3W R3B R2HW R2A R2W R2B
+bit 8 bit 0
+Legend:
+R = Readable bit W = Writable bit U = Unimplemented bit, read as ‘0’
+-n = Value at POR ‘1’ = Bit is set ‘0’ = Bit is cleared x = Bit is unknown
+bit 8 D8: Reserved. Forced to ‘1’
+bit 7 R3HW: Resistor 3 Hardware Configuration Control bit
+This bit forces Resistor 3 into the “shutdown” configuration of the Hardware pin
+1 = Resistor 3 is NOT forced to the hardware pin “shutdown” configuration
+0 = Resistor 3 is forced to the hardware pin “shutdown” configuration
+bit 6 R3A: Resistor 3 Terminal A (P3A pin) Connect Control bit 
+This bit connects/disconnects the Resistor 3 Terminal A to the Resistor 3 Network
+1 = P3A pin is connected to the Resistor 3 Network
+0 = P3A pin is disconnected from the Resistor 3 Network
+bit 5 R3W: Resistor 3 Wiper (P3W pin) Connect Control bit
+This bit connects/disconnects the Resistor 3 Wiper to the Resistor 3 Network
+1 = P3W pin is connected to the Resistor 3 Network
+0 = P3W pin is disconnected from the Resistor 3 Network
+bit 4 R3B: Resistor 3 Terminal B (P3B pin) Connect Control bit
+This bit connects/disconnects the Resistor 3 Terminal B to the Resistor 3 Network
+1 = P3B pin is connected to the Resistor 3 Network
+0 = P3B pin is disconnected from the Resistor 3 Network
+bit 3 R2HW: Resistor 2 Hardware Configuration Control bit 
+This bit forces Resistor 2 into the “shutdown” configuration of the Hardware pin
+1 = Resistor 2 is NOT forced to the hardware pin “shutdown” configuration
+0 = Resistor 2 is forced to the hardware pin “shutdown” configuration
+bit 2 R2A: Resistor 2 Terminal A (P0A pin) Connect Control bit
+This bit connects/disconnects the Resistor 2 Terminal A to the Resistor 2 Network
+1 = P2A pin is connected to the Resistor 2 Network
+0 = P2A pin is disconnected from the Resistor 2 Network
+bit 1 R2W: Resistor 2 Wiper (P0W pin) Connect Control bit
+This bit connects/disconnects the Resistor 2 Wiper to the Resistor 2 Network
+1 = P2W pin is connected to the Resistor 2 Network
+0 = P2W pin is disconnected from the Resistor 2 Network
+bit 0 R2B: Resistor 2 Terminal B (P2B pin) Connect Control bit
+This bit connects/disconnects the Resistor 2 Terminal B to the Resistor 2 Network
+1 = P2B pin is connected to the Resistor 2 Network
+0 = P2B pin is disconnected from the Resistor 2 Network
+Note 1: These bits do not affect the wiper register values.
+=== page 45
+ 2010 Microchip Technology Inc. DS22267A-page 45
+MCP443X/5X
+5.0 RESISTOR NETWORK
+The Resistor Network has either 7-bit or 8-bit
+resolution. Each Resistor Network allows zero scale to
+full scale connections. Figure 5-1 shows a block
+diagram for the resistive network of a device. 
+The Resistor Network is made up of several parts.
+These include:
+• Resistor Ladder
+•W i p e r
+• Shutdown (Terminal Connections) 
+Devices have four resistor networks. These are
+referred to as Pot 0, Pot 1 Pot 2, and Pot 3. 
+ 
+FIGURE 5-1: Resistor Block Diagram.
+5.1 Resistor Ladder Module
+The resistor ladder is a series of equal value resistors
+(RS) with a connection point (tap) between the two
+resistors. The total number of resistors in the series
+(ladder) determines the R AB resistance (see Figure 5-
+1). The end points of the resistor ladder are connected
+to analog switches which are connected to the device
+Terminal A and Terminal B pins. The R AB (and R S)
+resistance has small variations over voltage and
+temperature. 
+For an 8-bit device, there are 256 resistors in a string
+between terminal A and terminal B. The wiper can be
+set to tap onto any of these 256 resistors, thus
+providing 257 possible settings (including terminal A
+and terminal B). 
+For a 7-bit device, there are 128 resistors in a string
+between terminal A and terminal B. The wiper can be
+set to tap onto any of these 128 resistors, thus
+providing 129 possible settings (including terminal A
+and terminal B). 
+Equation 5-1 shows the calculation for the step
+resistance. 
+EQUATION 5-1: R S CALCULATION
+RS 
+A 
+RS 
+RS
+RS 
+B 
+256 
+255
+254
+1
+0
+RW (1) 
+W 
+(01h) 
+Analog Mux
+RW (1) (00h) 
+RW (1) (FEh) 
+RW (1) (FFh) 
+RW (1) (100h) 
+Note 1:The wiper resistance is dependent on
+several factors including, wiper code,
+device V DD, Terminal voltages (on A, B,
+and W), and temperature. 
+Also for the same conditions, each tap
+selection resistance has a small variation.
+This RW variation has greater effects on
+some specifications (such as INL) for the
+smaller resistance devices (5.0 k )
+compared to larger resistance devices
+(100.0 k).
+RAB
+8-Bit
+N = 
+128 
+127
+126
+1
+0
+(01h) 
+(00h) 
+(7Eh) 
+(7Fh) 
+(80h) 
+7-Bit
+N = 
+RS
+RAB
+256--------------=
+RS
+RAB
+128--------------- =
+8-bit Device
+7-bit Device
+=== page 46
+MCP443X/5X
+DS22267A-page 46  2010 Microchip Technology Inc.
+5.2 Wiper
+Each tap point (between the R S resistors) is a
+connection point for an analog switch. The opposite
+side of the analog switch is connected to a common
+signal which is connected to the Terminal W (Wiper)
+pin. 
+A value in the volatile wiper register selects which
+analog switch to close, connecting the W terminal to
+the selected node of the resistor ladder.
+The wiper can connect directly to Terminal B or to
+Terminal A. A zero scale connections, connects the
+Terminal W (wiper) to Terminal B (wiper setting of
+000h). A full scale connection, connects the Terminal W
+(wiper) to Terminal A (wiper setting of 100h or 80h). In
+these configurations, the only resistance between the
+Terminal W and the other Terminal (A or B) is that of the
+analog switches.
+A wiper setting value greater than full scale (wiper
+setting of 100h for 8-bit device or 80h for 7-bit devices)
+will also be a Full Scale setting (Terminal W (wiper)
+connected to Terminal A). Table 5-1 illustrates the full
+wiper setting map.
+Equation 5-2 illustrates the calculation used to
+determine the resistance between the wiper and
+terminal B.
+EQUATION 5-2: R WB CALCULATION
+TABLE 5-1: VOLATILE WIPER VALUE VS. 
+WIPER POSITION MAP  
+5.3 Shutdown 
+Shutdown is used to minimize the device’s current
+consumption. The MCP44XX has one method to
+achieve this. This is:
+• Terminal Control Register (TCON) 
+This is different from the MCP42XXX devices in that the
+Hardware Shutdown Pin (SHDN) has been replaced by
+a RESET pin. The Hardware Shutdown Pin function is
+still available via software commands to the TCON
+register. 
+5.3.1 TERMINAL CONTROL REGISTER 
+(TCON) 
+The Terminal Control (TCON) register is a volatile
+register used to configure the connection of each
+resistor network terminal pin (A, B, and W) to the
+Resistor Network. These registers are shown in
+Register 4-1 and Register 4-2.
+The RxHW bits forces the selected resistor network
+into the same state as the MCP42X1’s SHDN  pin.
+Alternate low power configurations may be achieved
+with the RxA, RxW, and RxB bits.
+When the RxHW bit is ‘0’: 
+• The P0A, P1A, P2A, and P3A terminals are 
+disconnected
+• The P0W, P1W, P2W, and P3W terminals are 
+simultaneously connect to the P0B, P1B, P2B, 
+and P3B terminals, respectively (see Figure 5-2)
+The RxHW bit does NOT corrupt the values in the
+Volatile Wiper Registers nor the TCON register. When
+the Shutdown mode is exited (RxHW bit = 1):
+• The device returns to the Wiper setting specified 
+by the Volatile Wiper value
+• The TCON register bits return to controlling the 
+terminal connection state
+      
+FIGURE 5-2: Resistor Network Shutdown 
+State (RxHW = ‘0’).
+Wiper Setting
+Properties
+7-bit 8-bit
+3FFh –
+081h
+3FFh –
+101h
+Reserved (Full Scale (W = A)),
+Increment and Decrement 
+commands ignored 
+080h 100h Full Scale (W = A), 
+Increment commands ignored 
+07Fh –
+041h
+0FFh –
+081h
+W = N
+040h 080h W = N (Mid Scale)
+03Fh –
+001h
+07Fh –
+001h
+W = N
+000h 000h Zero Scale (W = B)
+Decrement command ignored
+RWB
+RAB N
+256-------------- RW+ =
+N = 0 to 256 (decimal)
+RWB
+RAB N
+128-------------- RW+ =
+N = 0 to 128 (decimal)
+8-bit Device
+7-bit Device
+Note: When the RxHW bit forces the resistor
+network into the hardware SHDN  state,
+the state of the TCON0 or TCON1
+register’s RxA, RxW, and RxB bits is
+overridden (ignored). When the state of
+the RxHW bit no longer forces the resistor
+network into the hardware SHDN  state,
+the TCON0 or TCON1 register’s RxA,
+RxW, and RxB bits return to controlling the
+terminal connection state. In other words,
+the RxHW bit does not corrupt the state of
+the RxA, RxW, and RxB bits.
+A
+B
+W
+Resistor Network
+=== page 47
+ 2010 Microchip Technology Inc. DS22267A-page 47
+MCP443X/5X
+6.0 SERIAL INTERFACE (I 2C) 
+The MCP44XX devices support the I2C serial protocol.
+The MCP44XX I 2C’s module operates in Slave mode
+(does not generate the serial clock). 
+Figure 6-1 shows a typical I2C Interface connection. All
+I2C interface signals are high-voltage tolerant. 
+The MCP44XX devices use the two-wire I 2C serial
+interface. This interface can operate in standard, fast or
+High-Speed mode. A device that sends data onto the
+bus is defined as transmitter, and a device receiving
+data as receiver. The bus has to be controlled by a
+master device which generates the serial clock (SCL),
+controls the bus access and generates the START and
+STOP conditions. The MCP44XX device works as
+slave. Both master and slave can operate as
+transmitter or receiver, but the master device
+determines which mode is activated. Communication is
+initiated by the master (microcontroller) which sends
+the START bit, followed by the slave address byte. The
+first byte transmitted is always the slave address byte,
+which contains the device code, the address bits, and
+the R/W bit. 
+Refer to the NXP I2C document for more details of the
+I2C specifications.
+    
+FIGURE 6-1: Typical I2C Interface Block 
+Diagram.
+6.1 Signal Descriptions
+The I2C interface uses up to four pins (signals). These
+are:
+• SDA (Serial Data)
+• SCL (Serial Clock)
+• A0 (Address 0 bit)
+• A1 (Address 1 bit)
+6.1.1 SERIAL DATA (SDA)
+The Serial Data (SDA) signal is the data signal of the
+device. The value on this pin is latched on the rising
+edge of the SCL signal when the signal is an input. 
+With the exception of the START and STOP conditions,
+the high or low state of the SDA pin can only change
+when the clock signal on the SCL pin is low. During the
+high period of the clock, the SDA pin’s value (high or
+low) must be stable. Changes in the SDA pin’s value
+while the SCL pin is HIGH will be interpreted as a
+START or a STOP condition.
+6.1.2 SERIAL CLOCK (SCL) 
+The Serial Clock (SCL) signal is the clock signal of the
+device. The rising edge of the SCL signal latches the
+value on the SDA pin. The MCP44XX supports three
+I2C interface clock modes:
+• Standard Mode: clock rates up to 100 kHz
+• Fast Mode: clock rates up to 400 kHz
+• High-Speed Mode (HS mode): clock rates up to 
+3.4 MHz
+The MCP44XX will not stretch the clock signal (SCL)
+since memory read access occur fast enough.
+Depending on the clock rate mode, the interface will
+display different characteristics. 
+6.1.3 THE ADDRESS BITS (A1:A0)
+There are up to two hardware pins used to specify the
+device address. The number of address pins is
+determined by the part number.
+Address 0 is multiplexed with the High Voltage
+Command (HVC) function. So the state of A0 is latched
+on the MCP4XXX’s POR/BOR event.
+The state of the A1 pin should be static, that is they
+should be tied high or tied low.
+6.1.3.1 The High Voltage Command (HVC) 
+Signal 
+The High Voltage Command (HVC) signal is
+multiplexed with Address 0 (A0) and is used to indicate
+that the command, or sequence of commands, are in
+the High Voltage mode. High Voltage commands are
+supported for compatibility with non-volatile devices. 
+The HVC pin has an internal resistor connection to the
+MCP44XXs internal VDD signal.
+SCL SCL
+MCP4XXX
+SDA SDA
+HVC/A0 (2) I/O (1) 
+Host
+Controller
+Typical I2C Interface Connections 
+Note 1: If High voltage commands are desired,
+some type of external circuitry needs to
+be implemented.
+2: These pins have internal pull-ups. If
+faster rise times are required, then
+external pull-ups should be added. 
+3: This pin could be tied high, low, or
+connected to an I/O pin of the Host
+Controller.
+A1 (2, 3) 
+=== page 48
+MCP443X/5X
+DS22267A-page 48  2010 Microchip Technology Inc.
+6.2 I 2C Operation
+The MCP44XX’s I2C module is compatible with the
+NXP I2C specification. The following lists some of the
+modules features:
+• 7-bit slave addressing
+• Supports three clock rate modes:
+- Standard mode, clock rates up to 100 kHz
+- Fast mode, clock rates up to 400 kHz
+- High-speed mode (HS mode), clock rates up 
+to 3.4 MHz 
+• Support Multi-Master Applications
+• General call addressing 
+• Internal weak pull-ups on interface signals
+The I2C 10-bit addressing mode is not supported. 
+The NXP I2C specification only defines the field types,
+field lengths, timings, etc. of a frame. The frame con-
+tent defines the behavior of the device. The frame con-
+tent for the MCP44XX is defined in Section 7.0.
+6.2.1 I 2C BIT STATES AND SEQUENCE 
+Figure 6-8 shows the I2C transfer sequence. The serial
+clock is generated by the master. The following defini-
+tions are used for the bit states:
+• Start bit (S)
+• Data bit 
+• Acknowledge (A) bit (driven low) / 
+No Acknowledge (A) bit (not driven low)
+• Repeated Start bit (Sr)
+• Stop bit (P)
+6.2.1.1 Start Bit
+The Start bit (see Figure 6-2) indicates the beginning of
+a data transfer sequence. The Start bit is defined as the
+SDA signal falling when the SCL signal is “High”.
+      
+FIGURE 6-2: Start Bit.
+6.2.1.2 Data Bit
+The SDA signal may change state while the SCL signal
+is Low. While the SCL signal is High, the SDA signal
+MUST be stable (see Figure 6-5).
+      
+FIGURE 6-3: Data Bit.
+6.2.1.3 Acknowledge (A) Bit
+The A bit (see Figure 6-4) is typically a response from
+the receiving device to the transmitting device.
+Depending on the context of the transfer sequence, the
+A bit may indicate different things. Typically the Slave
+device will supply an A response after the Start bit and
+8 “data” bits have been received. an A bit has the SDA
+signal low.
+      
+FIGURE 6-4: Acknowledge Waveform.
+Not A (A) Response 
+The A  bit has the SDA signal high. Table 6-1 shows
+some of the conditions where the Slave Device will
+issue a Not A (A). 
+If an error condition occurs (such as an A instead of A),
+then an START bit must be issued to reset the
+command state machine.
+TABLE 6-1: MCP45XX/MCP46XX A / A  
+RESPONSES  
+SDA
+SCL
+S
+1st Bit 2nd Bit
+SDA
+SCL
+Data Bit
+1st Bit 2nd Bit
+Event Acknowledge
+Bit Response Comment
+General Call A Only if GCEN bit is 
+set
+Slave Address 
+valid
+A
+Slave Address 
+not valid 
+A  
+Device Memory 
+Address and 
+specified 
+command 
+(AD3:AD0 and 
+C1:C0) are an 
+invalid 
+combination
+A After device has 
+received address 
+and command 
+Communica-
+tion during 
+EEPROM write 
+cycle
+A After device has 
+received address 
+and command, 
+and valid 
+conditions for 
+EEPROM write
+Bus Collision N.A. I 2C Module 
+Resets, or a “Don’t 
+Care” if the 
+collision occurs on 
+the Master’s “Start 
+bit”
+A
+8
+D0
+9
+SDA
+SCL
+=== page 49
+ 2010 Microchip Technology Inc. DS22267A-page 49
+MCP443X/5X
+6.2.1.4 Repeated Start Bit
+The Repeated Start bit (see Figure 6-5) indicates the
+current Master Device wishes to continue communicat-
+ing with the current Slave Device without releasing the
+I2C bus. The Repeated Start condition is the same as
+the Start condition, except that the Repeated Start bit
+follows a Start bit (with the Data bits + A bit) and not a
+Stop bit.
+The Start bit is the beginning of a data transfer
+sequence and is defined as the SDA signal falling when
+the SCL signal is “High”.
+   
+   
+FIGURE 6-5: Repeat Start Condition 
+Waveform.
+6.2.1.5 Stop Bit
+The Stop bit (see Figure 6-6) Indicates the end of the
+I2C Data Transfer Sequence. The Stop bit is defined as
+the SDA signal rising when the SCL signal is “High”. 
+A Stop bit resets the I 2C interface of all MCP44XX
+devices.
+          
+FIGURE 6-6: Stop Condition Receive or 
+Transmit Mode.
+6.2.2 CLOCK STRETCHING
+“Clock Stretching” is something that the receiving
+Device can do, to allow additional time to “respond” to
+the “data” that has been received. 
+The MCP44XX will not stretch the clock signal (SCL)
+since memory read access occur fast enough.
+6.2.3 ABORTING A TRANSMISSION
+If any part of the I 2C transmission does not meet the
+command format, it is aborted. This can be intentionally
+accomplished with a START or STOP condition. This is
+done so that noisy transmissions (usually an extra
+START or STOP condition) are aborted before they
+corrupt the device. 
+      
+FIGURE 6-7: Typical 8-Bit I2C Waveform Format.
+       
+FIGURE 6-8: I2C Data States and Bit Sequence.
+Note 1: A bus collision during the Repeated Start
+condition occurs if: 
+•SDA is sampled low when SCL goes 
+from low to high.
+•SCL goes low before SDA is asserted 
+low. This may indicate that another 
+master is attempting to transmit a 
+data ‘1’.
+SDA
+SCL
+Sr = Repeated Start
+1st Bit
+SCL
+SDA A / A
+P
+1st Bit
+SDA
+SCL
+S 2nd Bit 3rd Bit 4th Bit 5th Bit 6th Bit 7th Bit 8th Bit PA / A
+SCL
+SDA
+START
+Condition
+STOP
+Condition
+Data allowed
+to change
+Data or
+A valid
+=== page 50
+MCP443X/5X
+DS22267A-page 50  2010 Microchip Technology Inc.
+6.2.4 ADDRESSING
+The address byte is the first byte received following the
+START condition from the master device. The address
+contains four (or more) fixed bits and (up to) three user
+defined hardware address bits (pins A1 and A0). These
+7-bits address the desired I 2C device. The A6:A2
+address bits are fixed to ‘ 01011’ and the device
+appends the value of following two address pins (A1
+and A0). 
+Since there are address bits controlled by hardware
+pins, there may be up to four MCP44XX devices on the
+same I2C bus. 
+Figure 6-9 shows the slave address byte format, which
+contains the seven address bits. There is also a read/
+write (R/W) bit. Table 6-2 shows the fixed address for
+device.
+Hardware Address Pins
+The hardware address bits (A1, and A0) correspond to
+the logic level on the associated address pins. This
+allows up to eight devices on the bus.
+These pins have a weak pull-up enabled when the VDD
+< VBOR. The weak pull-up utilizes the “smart” pull-up
+technology and exhibits the same characteristics as the
+High-voltage tolerant I/O structure.
+The state of the A0 address pin is latch on POR/BOR.
+This is required since High Voltage commands force
+this pin (HVC/A0) to the VIHH level.
+           
+FIGURE 6-9: Slave Address Bits in the 
+I2C Control Byte.
+TABLE 6-2: DEVICE SLAVE ADDRESSES     
+6.2.5 SLOPE CONTROL
+The MCP44XX implements slope control on the SDA
+output. 
+As the device transitions from HS mode to FS mode,
+the slope control parameter will change from the HS
+specification to the FS specification.
+For Fast (FS) and High-Speed (HS) modes, the device
+has a spike suppression and a Schmidt trigger at SDA
+and SCL inputs. 
+Device Address Comment
+MCP44XX ‘0101 1’b + A1:A0 Supports up to 4
+devices. (Note 1)
+Note 1: A0 is used for High-Voltage commands 
+(HVC/A0) and the value is latched at 
+POR/BOR.
+SA 6A 5A 4A 3A 2 A1 A0 R/W A/A
+Start
+bit
+Slave Address
+R/W bit
+A bit (controlled by slave device)
+R/W = 0 = write
+R/W = 1 = read
+A = 0 = Slave Device Acknowledges byte
+A = 1 = Slave Device does not Acknowledge byte
+‘0’‘1’ ‘0’‘1’
+See Table 6-2
+‘1’
+=== page 51
+ 2010 Microchip Technology Inc. DS22267A-page 51
+MCP443X/5X
+6.2.6 HS MODE
+The I2C specification requires that a high-speed mode
+device must be ‘activated’ to operate in high-speed
+(3.4 Mbit/s) mode. This is done by the Master sending
+a special address byte following the START bit. This
+byte is referred to as the high-speed Master Mode
+Code (HSMMC). 
+The MCP44XX device does not acknowledge this byte.
+However, upon receiving this command, the device
+switches to HS mode. The device can now
+communicate at up to 3.4 Mbit/s on SDA and SCL
+lines. The device will switch out of the HS mode on the
+next STOP condition.
+The master code is sent as follows:
+1. START condition (S)
+2. High-Speed Master Mode Code ( 0000 1XXX),
+The XXX bits are unique to the high-speed (HS)
+mode Master.
+3. No Acknowledge (A )
+After switching to the High-Speed mode, the next
+transferred byte is the I2C control byte, which specifies
+the device to communicate with, and any number of
+data bytes plus acknowledgements. The Master
+Device can then either issue a Repeated Start bit to
+address a different device (at High-Speed) or a Stop bit
+to return to Fast/Standard bus speed. After the Stop bit,
+any other Master Device (in a Multi-Master system) can
+arbitrate for the I2C bus.
+See Figure 6-10 for illustration of HS mode command
+sequence.
+For more information on the HS mode, or other I 2C
+modes, please refer to the I2C specification.
+6.2.6.1 Slope Control
+The slope control on the SDA output is different
+between the Fast/Standard Speed and the High-Speed
+clock modes of the interface.
+6.2.6.2 Pulse Gobbler
+The pulse gobbler on the SCL pin is automatically
+adjusted to suppress spikes < 10 ns during HS mode.
+           
+FIGURE 6-10: HS Mode Sequence.
+S A ‘0 0 0 0  1 X X X’b Sr A‘Slave Address’ A/A“Data”
+P
+S = Start bit
+Sr = Repeated Start bit
+A = Acknowledge bit
+A = Not Acknowledge bit
+R/W = Read/Write bit
+R/W
+P = Stop bit (Stop condition terminates HS Mode)
+F/S-mode HS-mode
+HS-mode continues
+F/S-mode
+Sr A‘Slave Address’R/WHS Select Byte Control Byte Command/Data Byte(s)
+Control Byte
+=== page 52
+MCP443X/5X
+DS22267A-page 52  2010 Microchip Technology Inc.
+6.2.7 GENERAL CALL 
+The General Call is a method by which the “Master”
+device can communicate with all other “Slave” devices.
+In a Multi-Master application, the other Master devices
+are operating in Slave mode. The General Call address
+has two documented formats. These are shown in
+Figure 6-11. We have added a MCP44XX format in this
+figure as well.
+This will allow customers to have multiple I 2C Digital
+Potentiometers on the bus and have them operate in a
+synchronous fashion (analogous to the DAC Sync pin
+functionality). If these MCP44XX 7-bit commands
+conflict with other I 2C devices on the bus, then the
+customer will need two I2C busses and ensure that the
+devices are on the correct bus for their desired
+application functionality.
+Dual Pot devices can not update both Pot0 and Pot1
+from a single command. To address this, there are
+General Call commands for the Wiper 0, Wiper 1, and
+the TCON registers.
+Table 6-3 shows the General Call Commands. Three
+commands are specified by the I 2C specification and
+are not applicable to the MCP44XX (so command is
+Not Acknowledged). The MCP44XX General Call
+Commands are Acknowledged. Any other command is
+Not Acknowledged.
+     
+TABLE 6-3: GENERAL CALL COMMANDS    
+Note: Only one General Call command per issue
+of the General Call control byte. Any
+additional General Call commands are
+ignored and Not Acknowledged. 
+7-bit 
+Command 
+(1, 2, 3) 
+Comment
+‘1000 00d’b Write Next Byte (Third Byte) to Volatile 
+Wiper 0 Register
+‘1001 00d’b Write Next Byte (Third Byte) to Volatile 
+Wiper 1 Register
+‘1100 00d’b Write Next Byte (Third Byte) to TCON 
+Register
+‘1000 010’b 
+or 
+‘1000 011’b 
+Increment Wiper 0 Register
+‘1001 010’b 
+or 
+‘1001 011’b 
+Increment Wiper 1 Register
+‘1000 100’b 
+or 
+‘1000 101’b 
+Decrement Wiper 0 Register
+‘1001 100’b 
+or 
+‘1001 101’b 
+Decrement Wiper 1 Register
+Note 1: Any other code is Not Acknowledged. 
+These codes may be used by other 
+devices on the I2C bus.
+2: The 7-bit command always appends a ‘0’ 
+to form 8-bits.
+3: “d” is the D8 bit for the 9-bit write value.
+=== page 53
+ 2010 Microchip Technology Inc. DS22267A-page 53
+MCP443X/5X
+          
+FIGURE 6-11: General Call Formats.
+0000S 0000 X XXXXA XX0AP
+General Call Address
+Second Byte
+“7-bit Command” 
+Reserved 7-bit Commands (by I2C Specification - NXP UM10204_3, Version 03 19, June 2007)
+‘0000 011’b - Reset and write programmable part of slave address by hardware.
+‘0000 010’b - Write programmable part of slave address by hardware.
+‘0000 000’b - NOT Allowed
+MCP44XX 7-bit Commands
+‘1000 01x’b - Increment Wiper 0 Register.
+‘1001 01x’b - Increment Wiper 1 Register.
+The Following is a Microchip Extension to this General Call Format 
+0000S 0000 X XXXXAX d 0 A
+General Call Address
+Second Byte
+“7-bit Command” 
+MCP44XX 7-bit Commands
+‘1000 00d’b - Write Next Byte (Third Byte) to Volatile Wiper 0 Register.
+‘1001 00d’b - Write Next Byte (Third Byte) to Volatile Wiper 1 Register.
+ddddd dddAP
+Third Byte
+The Following is a “Hardware General Call” Format 
+0000S0 0 0 0 X XXXXA XX1A
+General Call Address
+Second Byte
+“7-bit Command” 
+XXXXX XXXAP
+n occurrences of (Data + A)
+This indicates a “Hardware General Call”
+MCP44XX will ignore this byte and
+all following bytes (and A), until
+‘1000 10x’b - Decrement Wiper 0 Register.
+‘1001 10x’b - Decrement Wiper 1 Register.
+‘1100 00d’b - Write Next Byte (Third Byte) to TCON Register.
+a Stop bit (P) is encountered.
+ ‘0’ for General Call Command 
+=== page 54
+MCP443X/5X
+DS22267A-page 54  2010 Microchip Technology Inc.
+NOTES:
+=== page 55
+ 2010 Microchip Technology Inc. DS22267A-page 55
+MCP443X/5X
+7.0 DEVICE COMMANDS
+The MCP44XX’s I2C command formats are specified in
+this section. The I 2C protocol does not specify how
+commands are formatted. 
+The MCP44XX supports four basic commands. The
+location accessed determines the commands that are
+supported. 
+For the Volatile Wiper Registers, these commands are:
+• Write Data
+• Read Data
+•I n c r e m e n t  D a t a
+•D e c r e m e n t  D a t a  
+For the TCON Register, these commands are:
+• Write Data
+• Read Data
+These commands have formats for both a single
+command or continuous commands. These commands
+are shown in Table 7-1. 
+Each command has two operational states. These
+operational states are referred to as:
+• Normal Serial Commands
+• High-Voltage Serial Commands   
+TABLE 7-1: I 2C COMMANDS      
+Normal serial commands are those where the HVC pin
+is driven to V IH or V IL. With High-Voltage Serial
+Commands, the HVC pin is driven to V IHH. In each
+mode, there are four possible commands. 
+Table 7-2 shows the supported commands for each
+memory location.
+Table 7-3 shows an overview of all the device
+commands and their interaction with other device
+features. 
+7.1 Command Byte
+The MCP44XX’s Command Byte has three fields: the
+Address, the Command Operation, and 2 Data bits
+(see Figure 7-1). Currently only one of the data bits is
+defined (D8). 
+The device memory is accessed when the Master
+sends a proper Command Byte to select the desired
+operation. The memory location getting accessed is
+contained in the Command Byte’s AD3:AD0 bits. The
+action desired is contained in the Command Byte’s
+C1:C0 bits, see Figure 7-1. C1:C0 determines if the
+desired memory location will be read, written,
+Incremented (wiper setting +1) or Decremented (wiper
+setting -1). The Increment and Decrement commands
+are only valid on the volatile wiper registers, and in
+High Voltage commands to enable/disable WiperLock
+Technology and Software Write Protect.
+If the Address bits and Command bits are not a valid
+combination, then the MCP44XX will generate a Not
+Acknowledge pulse to indicate the invalid combination.
+The I 2C Master device must then force a Start
+Condition to reset the MCP44XX’s I2C module. 
+D9 and D8 are the most significant bits for the digital
+potentiometer’s wiper setting. The 8-bit devices utilize
+D8 as their MSb while the 7-bit devices utilize D7 (from
+the data byte) as their MSb.
+           
+FIGURE 7-1: Command Byte Format.
+Note: High Voltage commands are supported for
+compatibility with Non-Volatile devices in
+the family.
+Command # of Bit Clocks 
+(1) Operation Mode
+Write Data Single 29
+Continuous 18n + 11
+Read Data Single 29
+Random 48
+Continuous 18n + 11
+Increment Single 20
+Continuous 9n + 11
+Decrement Single 20
+Continuous 9n + 11
+Note 1: “n” indicates the number of times the 
+command operation is to be repeated.
+AA
+D
+3
+A
+D
+2
+A
+D
+1
+A
+D
+0
+C
+1
+C
+0
+D
+9
+D
+8
+A
+MCP4XXX 
+COMMAND BYTE
+00 = Write Data
+01 = Increment 
+MSbits (Data)
+10 = Decrement 
+11 = Read Data
+Command Operation bits
+Memory Address
+=== page 56
+MCP443X/5X
+DS22267A-page 56  2010 Microchip Technology Inc.
+TABLE 7-2: MEMORY MAP AND THE SUPPORTED COMMANDS  
+Address Command Data
+(10-bits) (1) Comment
+Value Function
+00h Volatile Wiper 0 Write Data nn nnnn nnnn
+Read Data (3) nn nnnn nnnn
+Increment Wiper —
+Decrement Wiper —
+01h Volatile Wiper 1 Write Data nn nnnn nnnn
+Read Data (3) nn nnnn nnnn
+Increment Wiper —
+Decrement Wiper —
+02h Reserved ——
+03h Reserved ——
+04h (2) Volatile 
+TCON 0 Register
+Write Data nn nnnn nnnn
+Read Data (3) nn nnnn nnnn
+05h (2) — Read Data (3) — Maps to Non-Volatile MCP444x/6x device’s 
+STATUS Register
+06h Volatile Wiper 2 Write Data nn nnnn nnnn
+Read Data (3) nn nnnn nnnn
+Increment Wiper —
+Decrement Wiper —
+07h Volatile Wiper 3 Write Data nn nnnn nnnn
+Read Data (3) nn nnnn nnnn
+Increment Wiper —
+Decrement Wiper —
+08h Reserved ——
+09h Reserved ——
+0Ah (2) Volatile 
+TCON 1 Register
+Write Data nn nnnn nnnn
+Read Data (3) nn nnnn nnnn
+0Bh - 0Fh Reserved ——
+Note 1: The Data Memory is only 9-bits wide, so the MSb is ignored by the device. 
+2: Increment or Decrement commands are invalid for these addresses. 
+3: I2C read operation will read 2 bytes, of which the 10-bits of data are contained within. 
+=== page 57
+ 2010 Microchip Technology Inc. DS22267A-page 57
+MCP443X/5X
+7.2 Data Byte
+Only the Read Command and the Write Command
+have Data Byte(s). 
+The Write command concatenates the 8 bits of the
+Data Byte with the one data bit (D8) contained in the
+Command Byte to form 9 bits of data (D8:D0). The
+Command Byte format supports up to 9 bits of data so
+that the 8-bit resistor network can be set to Full-Scale
+(100h or greater). This allows wiper connections to
+Terminal A and to Terminal B. The D9 bit is currently
+unused. 
+7.3 Error Condition
+If the four address bits received (AD3:AD0), and the
+two command bits received (C1:C0), are a valid
+combination, the MCP44XX will Acknowledge the I 2C
+bus.
+If the address bits and command bits are an invalid
+combination, then the MCP44XX will Not Acknowledge
+the I2C bus.
+When an error condition has occurred, any commands
+that follow are ignored until the I 2C bus is reset with a
+Start Condition.
+7.3.1 ABORTING A TRANSMISSION
+A Restart or Stop condition in the expected data bit
+position will abort the current command sequence and
+data will not be written to the MCP44XX.
+TABLE 7-3: COMMANDS        
+Command Name # of Bits
+High 
+Voltage 
+(VIHH) on 
+HVC pin?
+Write Data 29 —
+Read Data 29 —
+Increment Wiper 20 —
+Decrement Wiper 20 —
+High Voltage Write Data 29 Yes
+High Voltage Read Data 29 Yes
+High Voltage Increment Wiper 20 Yes
+High Voltage Decrement Wiper 20 Yes
+=== page 58
+MCP443X/5X
+DS22267A-page 58  2010 Microchip Technology Inc.
+7.4 Write Data
+Normal and High Voltage
+The Write Command format, see Figure 7-2, includes
+the I2C Control Byte, an A bit, the MCP44XX Command
+Byte, an A bit, the MCP44XX Data Byte, an A bit, and
+a Stop (or Restart) condition. The MCP44XX generates
+the A / A bits.
+A Write command to a Volatile memory location
+changes that location after a properly formatted Write
+Command and the A / A clock have been received.
+7.4.1 SINGLE WRITE TO VOLATILE 
+MEMORY
+For volatile memory locations, data is written to the
+MCP44XX after every byte transfer (during the
+Acknowledge). If a Stop or Restart condition is
+generated during a data transfer (before the A), the
+data will not be written to the MCP44XX. After the A bit,
+the master can initiate the next sequence with a Stop or
+Restart condition. 
+Refer to Figure 7-2 for the byte write sequence.
+7.4.2 CONTINUOUS WRITES TO 
+VOLATILE MEMORY
+A continuous write mode of operation is possible when
+writing to the volatile memory registers (address 00h,
+01h, 04h, 06h, 07h, and 0Ah). This continuous write
+mode allows writes without a Stop or Restart condition
+or repeated transmissions of the I 2C Control Byte.
+Figure 7-3 shows the sequence for three continuous
+writes. The writes do not need to be to the same volatile
+memory address. The sequence ends with the master
+sending a STOP or RESTART condition. 
+7.4.3 THE HIGH VOLTAGE COMMAND 
+(HVC) SIGNAL 
+The High Voltage Command (HVC) signal is
+multiplexed with Address 0 (A0) and is used to indicate
+that the command, or sequence of commands, are in
+the High Voltage operational state. 
+The HVC pin has an internal resistor connection to the
+MCP44XXs internal VDD signal.
+=== page 59
+ 2010 Microchip Technology Inc. DS22267A-page 59
+MCP443X/5X
+          
+FIGURE 7-2: I2C Write Sequence.
+          
+FIGURE 7-3: I2C Continuous Volatile Wiper Write.
+Control Byte WRITE Command Write Data bits
+1010S 1 A1 A0 0 0 AD AD AD ADA0 x D 8 A D 3 D7 D6 D5 D4 D2 D1 D0 A P0 1 2 3
+Fixed 
+Address
+Variable 
+Address
+Device
+Memory
+Address Command Write “Data” bits
+Write bit
+STOP bit
+Control Byte WRITE Command Write Data bits
+1010S 1 A1 A0 0 0 A0 x D 8 A D 3 D7 D6 D5 D4 D2 D1 D0 A
+Fixed 
+Address
+Variable 
+Address
+Device
+Memory
+Address Command Write “Data” bits
+WRITE Command Write Data bits
+00 x D 8 A D 3D7 D6 D5 D4 D2 D1 D0 A
+WRITE Command Write Data bits
+00 x D 8 A D 3D7 D6 D5 D4 D2 D1 D0 A P
+Write bit
+AD AD AD AD
+0 1 2 3
+AD AD AD AD
+0 1 2 3
+AD AD AD AD
+0 1 2 3
+Note: Only functions when writing the volatile wiper registers (AD3:AD0 = 00h, 01h, 06h, and
+07h) or the TCON registers (AD3:AD0 = 04h and 0Ah) 
+=== page 60
+MCP443X/5X
+DS22267A-page 60  2010 Microchip Technology Inc.
+7.5 Read Data
+Normal and High Voltage
+The Read Command format (see Figure 7-4), includes
+the Start condition, I2C Control Byte (with R/W bit set to
+‘0’), A bit, MCP44XX Command Byte, A bit, followed by
+a Repeated Start bit, I2C Control Byte (with R/W bit set
+to ‘1’), and the MCP44XX transmitting the requested
+Data High Byte, and A bit, the Data Low Byte, the
+Master generating the A, and Stop condition.
+The I2C Control Byte requires the R/W bit equal to a
+logic one (R/W = 1) to generate a read sequence. The
+memory location read will be the last address
+contained in a valid write MCP44XX Command Byte or
+address 00h if no write operations have occurred since
+the device was reset (Power-on Reset or Brown-out
+Reset). 
+Read operations initially include the same address byte
+sequence as the write sequence (shown in Figure 6-9).
+This sequence is followed by another control byte
+(including the Start condition and Acknowledge) with
+the R/W bit equal to a logic one (R/W = 1) to indicate a
+read. The MCP44XX will then transmit the data
+contained in the addressed register. This is followed by
+the master generating an A bit in preparation for more
+data, or an A  bit followed by a Stop. The sequence is
+ended with the master generating a Stop or Restart
+condition.
+The internal address pointer is maintained. 
+7.5.1 SINGLE READ
+Figure 7-4 show the waveforms for a single read. 
+For single reads the master sends a STOP or
+RESTART condition after the data byte is sent from the
+slave.
+7.5.1.1 Random Read
+Figure 7-5 shows the sequence for a Random Reads. 
+Refer to Figure 7-5 for the random byte read
+sequence.
+7.5.2 CONTINUOUS READS 
+Continuous reads allows the devices memory to be
+read quickly. Continuous reads are possible to all
+memory locations. 
+Figure 7-6 shows the sequence for three continuous
+reads. 
+For continuous reads, instead of transmitting a Stop
+or Restart condition after the data transfer, the master
+reads the next data byte. The sequence ends with the
+master Not Acknowledging and then sending a Stop or
+Restart.
+7.5.3 THE HIGH VOLTAGE COMMAND 
+(HVC) SIGNAL 
+The High Voltage Command (HVC) signal is
+multiplexed with Address 0 (A0) and is used to indicate
+that the command, or sequence of commands, are in
+the High Voltage mode. 
+The HVC pin has an internal resistor connection to the
+MCP44XX’s internal VDD signal.
+7.5.4 IGNORING AN I 2C TRANSMISSION 
+AND “FALLING OFF” THE BUS
+The MCP44XX expects to receive complete, valid I 2C
+commands and will assume any command not defined
+as a valid command is due to a bus corruption and will
+enter a passive high condition on the SDA signal. All
+signals will be ignored until the next valid Start
+condition and Control Byte are received.
+=== page 61
+ 2010 Microchip Technology Inc. DS22267A-page 61
+MCP443X/5X
+          
+FIGURE 7-4: I2C Read (Last Memory Address Accessed).
+          
+FIGURE 7-5: I2C Random Read.
+STOP bit
+Control Byte
+1010S 1 A1 A0 1 A
+Fixed 
+Address
+Variable 
+Address
+Read bits
+P0000 0 0 0 D 8 A 1
+Read bit
+D3D7 D6 D5 D4 D2 D1 D0 A 2
+Read Data bits
+Note 1: Master Device is responsible for A / A signal. If a A signal occurs, the MCP44XX will abort this
+transfer and release the bus.
+2: The Master Device will Not Acknowledge, and the MCP44XX will release the bus so the
+Master Device can generate a Stop or Repeated Start condition.
+3: The MCP44XX retains the last “Device Memory Address” that it has received. This is the
+MCP44XX does not “corrupt” the “Device Memory Address” after Repeated Start or Stop
+conditions.
+4: The Device Memory Address pointer defaults to 00h on POR and BOR conditions.
+STOP bit
+Control Byte READ Command
+1010S 1 A1 A0 0 1 AD AD AD ADA1 x X A S r 0123
+Fixed 
+Address
+Variable 
+Address
+Device
+Memory
+Address Command
+Control Byte Read bits
+P0000 0 0 0 D 8 A 1
+Write bit
+D3D7 D6 D5 D4 D2 D1 D0 A 210 1 0 1 A1 A0 1 A
+Read bit
+Repeated Start bit
+Read Data bits
+Note 1: Master Device is responsible for A / A signal. If a A signal occurs, the MCP44XX will abort this
+transfer and release the bus.
+2: The Master Device will Not Acknowledge, and the MCP44XX will release the bus so the Mas-
+ter Device can generate a Stop or Repeated Start condition.
+3: The MCP44XX retains the last “Device Memory Address” that it has received. This is the
+MCP44XX does not “corrupt” the “Device Memory Address” after Repeated Start or Stop
+conditions.
+=== page 62
+MCP443X/5X
+DS22267A-page 62  2010 Microchip Technology Inc.
+          
+FIGURE 7-6: I2C Continuous Reads.
+STOP bit
+Control Byte
+1010S 1 A1 A0 1 A
+Fixed 
+Address
+Variable 
+Address
+Read bits
+00000 0 0 D 8 A 1
+Read bit
+D3D7 D6 D5 D4 D2 D1 D0 A 1
+Read Data bits
+0000 0 0 0 D 8 A 1 D3D7 D6 D5 D4 D2 D1 D0 A 1
+P0000 0 0 0 D 8 A 1 D3D7 D6 D5 D4 D2 D1 D0 A 2
+Read Data bits
+Read Data bits
+Note 1: Master Device is responsible for A / A signal. If a A signal occurs, the MCP44XX will abort this
+transfer and release the bus.
+2: The Master Device will Not Acknowledge, and the MCP44XX will release the bus so the
+Master Device can generate a Stop or Repeated Start condition.
+=== page 63
+ 2010 Microchip Technology Inc. DS22267A-page 63
+MCP443X/5X
+7.6 Increment Wiper 
+Normal and High Voltage
+The Increment Command provides a quick and easy
+method to modify the potentiometer’s wiper by +1 with
+minimal overhead. The Increment Command will only
+function on the volatile wiper setting memory locations
+00h, 01h, 06h and 07h. 
+      
+When executing an Increment Command, the volatile
+wiper setting will be altered from n to n+1 for each
+Increment Command received. The value will
+increment up to 100h max on 8-bit devices and 80h on
+7-bit devices. If multiple Increment Commands are
+received after the value has reached 100h (or 80h), the
+value will not be incremented further. Table 7-4 shows
+the Increment Command versus the current volatile
+wiper value.
+The Increment Command will most commonly be
+performed on the Volatile Wiper locations until a
+desired condition is met. The MCP44XX is responsible
+for generating the A bits.
+Refer to Figure 7-7 for the Increment Command
+sequence. The sequence is terminated by the Stop
+condition. So when executing a continuous command
+string, the Increment command can be followed by any
+other valid command. This means that writes do not
+need to be to the same volatile memory address.
+     
+The advantage of using an Increment Command
+instead of a read-modify-write series of commands is
+speed and simplicity. The wiper will transition after each
+Command Acknowledge when accessing the volatile
+wiper registers.
+TABLE 7-4: INCREMENT OPERATION VS. 
+VOLATILE WIPER VALUE    
+7.6.1 THE HIGH VOLTAGE COMMAND 
+(HVC) SIGNAL 
+The High Voltage Command (HVC) signal is
+multiplexed with Address 0 (A0) and is used to indicate
+that the command, or sequence of commands, are in
+the High Voltage mode. Signals > VIHH (~8.5V) on the
+HVC/A0 pin puts MCP44XX devices into High Voltage
+mode. 
+  
+The HVC pin has an internal resistor connection to the
+MCP44XX’s internal VDD signal.
+          
+FIGURE 7-7: I2C Increment Command Sequence.
+Note: Table 7-4 shows the valid addresses for
+the Increment Wiper command. Other
+addresses are invalid. 
+Note: The command sequence can go from an
+increment to any other valid command for
+the specified address.  
+Current Wiper 
+Setting Wiper (W) 
+Properties
+Increment 
+Command 
+Operates?7-bit 
+Pot 
+8-bit 
+Pot 
+3FFh
+081h
+3FFh
+101h
+Reserved 
+(Full-Scale (W = A)) 
+No
+080h 100h Full-Scale (W = A) No
+07Fh
+041h
+0FFh
+081
+W = N
+040h 080h W = N (Mid-Scale) Yes
+03Fh
+001h
+07Fh
+001
+W = N
+000h 000h Zero Scale (W = B) Yes
+Note: There is a required delay after the HVC pin
+is driven to the V IHH level to the 1st edge
+of the SCL pin. 
+Control Byte INCR Command (n+1) INCR Command (n+2)
+1010S 1 A1 A0 0 0 AD AD AD ADA1 x X A 0 AD AD AD AD 1x X AP (2) 0123 4321
+Fixed 
+Address
+Variable 
+Address
+Device
+Memory
+Address Command
+Write bit
+Note1: Increment Command (INCR) only functions when accessing the volatile wiper
+registers (AD3:AD0 = 00h, 01h, 06h, and 07h).
+2: This command sequence does not need to terminate (using the Stop bit) and can
+change to any other desired command sequence (Increment, Read, or Write).
+=== page 64
+MCP443X/5X
+DS22267A-page 64  2010 Microchip Technology Inc.
+7.7 Decrement Wiper 
+Normal and High Voltage
+The Decrement Command provides a quick and easy
+method to modify the potentiometer’s wiper by -1 with
+minimal overhead. The Decrement Command will only
+function on the volatile wiper setting memory locations
+00h and 01h. 
+When executing a Decrement Command, the volatile
+wiper setting will be altered from n to n-1 for each
+Decrement Command received. The value will
+decrement down to 000h min. If multiple Decrement
+Commands are received after the value has reached
+000h, the value will not be decremented further.
+Table 7-5 shows the Increment Command versus the
+current volatile wiper value.
+The Decrement Command will most commonly be
+performed on the Volatile Wiper locations until a
+desired condition is met. The MCP44XX is responsible
+for generating the A bits.
+Refer to Figure 7-8  for the Decrement Command
+sequence. The sequence is terminated by the Stop
+condition. So when executing a continuous command
+string, the Increment command can be followed by any
+other valid command. This means that writes do not
+need to be to the same volatile memory address.
+     
+The advantage of using a Decrement Command
+instead of a read-modify-write series of commands is
+speed and simplicity. The wiper will transition after each
+Command Acknowledge when accessing the volatile
+wiper registers.
+TABLE 7-5: DECREMENT OPERATION VS. 
+VOLATILE WIPER VALUE    
+7.7.1 THE HIGH VOLTAGE COMMAND 
+(HVC) SIGNAL 
+The High Voltage Command (HVC) signal is
+multiplexed with Address 0 (A0) and is used to indicate
+that the command, or sequence of commands, are in
+the High Voltage mode. Signals > VIHH (~8.5V) on the
+HVC/A0 pin puts MCP44XX devices into High Voltage
+mode. 
+    
+The HVC pin has an internal resistor connection to the
+MCP44XX’s internal VDD signal.
+          
+FIGURE 7-8: I2C Decrement Command Sequence.
+Note: Table 7-5 shows the valid addresses for
+the Decrement Wiper command. Other
+addresses are invalid. 
+Note: The command sequence can go from an
+increment to any other valid command for
+the specified address. 
+Current Wiper 
+Setting Wiper (W) 
+Properties
+Decrement 
+Command 
+Operates?7-bit 
+Pot 
+8-bit 
+Pot 
+3FFh
+081h
+3FFh
+101h
+Reserved 
+(Full-Scale (W = A)) 
+No
+080h 100h Full-Scale (W = A) Yes
+07Fh
+041h
+0FFh
+081
+W = N
+040h 080h W = N (Mid-Scale) Yes
+03Fh
+001h
+07Fh
+001
+W = N
+000h 000h Zero Scale (W = B) No
+Note: There is a required delay after the HVC pin
+is driven to the V IHH level to the 1st edge
+of the SCL pin. 
+Control Byte DECR Command (n-1) DECR Command (n-2)
+1010S1 A 1 A 0 0 1 AD AD AD ADA0 X X A 1 AD AD AD AD 0X XAP  (2) 0123 4321
+Fixed 
+Address
+Variable 
+Address
+Device
+Memory
+Address Command
+Write bit
+Note1: Decrement Command (DECR) only functions when accessing the volatile wiper
+registers (AD3:AD0 = 00h, 01h, 06h, and 07h).
+2: This command sequence does not need to terminate (using the Stop bit) and can
+change to any other desired command sequence (INCR, Read, or Write).
+=== page 65
+ 2010 Microchip Technology Inc. DS22267A-page 65
+MCP443X/5X
+8.0 APPLICATIONS EXAMPLES
+Nonvolatile digital potentiometers have a multitude of
+practical uses in modern electronic circuits. The most
+popular uses include precision calibration of set point
+thresholds, sensor trimming, LCD bias trimming, audio
+attenuation, adjustable power supplies, motor control
+overcurrent trip setting, adjustable gain amplifiers and
+offset trimming. The MCP44XX devices can be used to
+replace the common mechanical trim pot in
+applications where the operating and terminal voltages
+are within CMOS process limitations (V DD = 2.7V to
+5.5V).
+8.1 Techniques to Force the HVC/A0 
+Pin to VIHH 
+The circuit in Figure 8-1 shows a method using the
+TC1240A doubling charge pump. When the SHDN pin
+is high, the TC1240A is off, and the level on the HVC/
+A0 pin is controlled by the PIC® microcontrollers
+(MCUs) IO2 pin. 
+When the SHDN pin is low, the TC1240A is on and the
+VOUT voltage is 2 * V DD. The resistor R 1 allows the
+HVC/A0 pin to go higher than the voltage such that the
+PIC MCU’s IO2 pin “clamps” at approximately VDD.
+       
+FIGURE 8-1: Using the TC1240A to 
+Generate the VIHH Voltage.
+The circuit in Figure 8-2 shows the method used on the
+MCP402X Nonvolatile Digital Potentiometer Evaluation
+Board (Part Number: MCP402XEV). This method
+requires that the system voltage be approximately 5V.
+This ensures that when the PIC10F206 enters a brown-
+out condition, there is an insufficient voltage level on
+the HVC/A0 pin to change the stored value of the wiper.
+The MCP402X Nonvolatile Digital Potentiometer Eval-
+uation Board User’s Guide (DS51546) contains a
+complete schematic.
+GP0 is a general purpose I/O pin, while GP2 can either
+be a general purpose I/O pin or it can output the internal
+clock.
+For the serial commands, configure the GP2 pin as an
+input (high impedance). The output state of the GP0 pin
+will determine the voltage on the HVC/A0 pin (V IL or
+VIH). 
+For high-voltage serial commands, force the GP0
+output pin to output a high level (VOH) and configure the
+GP2 pin to output the internal clock. This will form a
+charge pump and increase the voltage on the CS  pin
+(when the system voltage is approximately 5V).
+       
+FIGURE 8-2: MCP4XXX Nonvolatile 
+Digital Potentiometer Evaluation Board 
+(MCP402XEV) implementation to generate the 
+VIHH voltage.
+HVC/A0 
+PIC MCU
+MCP4XXX 
+R1 
+IO1 
+IO2 
+C2 
+TC1240A 
+VIN 
+SHDN
+C+
+C-
+VOUT 
+C1 
+HVC/A0  
+PIC10F206
+MCP4XXX 
+R1 
+GP0 
+GP2 
+C2 C1 
+=== page 66
+MCP443X/5X
+DS22267A-page 66  2010 Microchip Technology Inc.
+8.2 Using Shutdown Modes
+Figure 8-3 shows a possible application circuit where
+the independent terminals could be used.
+Disconnecting the wiper allows the transistor input to
+be taken to the Bias voltage level (disconnecting A and
+or B may be desired to reduce system current).
+Disconnecting Terminal A modifies the transistor input
+by the R BW rheostat value to the Common B.
+Disconnecting Terminal B modifies the transistor input
+by the R AW rheostat value to the Common A. The
+Common A and Common B connections could be
+connected to VDD and VSS.
+      
+FIGURE 8-3: Example Application Circuit 
+using Terminal Disconnects.
+8.3 Software Reset Sequence  
+  
+At times, it may become necessary to perform a
+Software Reset Sequence to ensure the MCP44XX
+device is in a correct and known I 2C Interface state.
+This technique only resets the I2C state machine.
+This is useful if the MCP44XX device powers up in an
+incorrect state (due to excessive bus noise, etc), or if
+the Master Device is reset during communication.
+Figure 8-4 shows the communication sequence to
+software reset the device.
+FIGURE 8-4: Software Reset Sequence 
+Format. 
+The 1st Start bit will cause the device to reset from a
+state in which it is expecting to receive data from the
+Master Device. In this mode, the device is monitoring
+the data bus in Receive mode and can detect the Start
+bit forces an internal Reset. 
+The nine bits of ‘1’ are used to force a Reset of those
+devices that could not be reset by the previous Start bit.
+This occurs only if the MCP44XX is driving an A bit on
+the I 2C bus, or is in output mode (from a Read
+command) and is driving a data bit of ‘0’ onto the I2C
+bus. In both of these cases, the previous Start bit could
+not be generated due to the MCP44XX holding the bus
+low. By sending out nine ‘1’ bits, it is ensured that the
+device will see a A bit (the Master Device does not drive
+the I2C bus low to acknowledge the data sent by the
+MCP44XX), which also forces the MCP44XX to Reset.
+The 2nd Start bit is sent to address the rare possibility
+of an erroneous write. This could occur if the Master
+Device was reset while sending a Write command to
+the MCP44XX, AND then as the Master Device returns
+to normal operation and issues a Start condition while
+the MCP44XX is issuing an Acknowledge. In this case,
+if the 2nd Start bit is not sent (and the Stop bit was sent)
+the MCP44XX could initiate a write cycle.
+    
+The Stop bit terminates the current I2C bus activity. The
+MCP44XX waits to detect the next Start condition.
+This sequence does not effect any other I 2C devices
+which may be on the bus, as they should disregard this
+as an invalid command.
+Balance Bias
+W
+B
+Input
+Input
+To base
+of Transistor
+(or Amplifier)
+A
+Common B
+Common A
+Note: This technique is documented in AN1028.
+Note: The potential for this erroneous write
+ONLY occurs if the Master Device is reset
+while sending a Write command to the
+MCP44XX. 
+     
+S ‘1’ ‘1’ ‘1’ ‘1’ ‘1’ ‘1’ ‘1’ ‘1’ S P
+Start
+bit
+Nine bits of ‘1’
+Start bit
+Stop bit
+=== page 67
+ 2010 Microchip Technology Inc. DS22267A-page 67
+MCP443X/5X
+8.4 Using the General Call Command  
+The use of the General Call Address Increment,
+Decrement, or Write commands is analogous to the
+“Load” feature (LDAC pin) on some DACs (such as the
+MCP4921). This allows all the devices to “Update” the
+output level “at the same time”.
+For some applications, the ability to update the wiper
+values “at the same time” may be a requirement, since
+they delay from writing to one wiper value and then the
+next may cause application issues. A possible example
+would be a “tuned” circuit that uses several MCP44XX
+in rheostat configuration. As the system condition
+changes (temperature, load, etc.) these devices need
+to be changed (incremented/decremented) to adjust for
+the system change. These changes will either be in the
+same direction or in opposite directions. With the
+Potentiometer device, the customer can either select
+the PxB terminals (same direction) or the PxA
+terminal(s) (opposite direction).
+Figure 8-6 shows that the update of six devices takes
+6*TI2CDLY time in “normal” operation, but only
+1*TI2CDLY time in “General Call” operation.
+     
+Figure 8-5 shows two I2C bus configurations. In many
+cases, the single I 2C bus configuration will be
+adequate. For applications that do not want all the
+MCP44XX devices to do General Call support or have
+a conflict with General Call commands, the multiple I2C
+bus configuration would be used.
+FIGURE 8-5: Typical Application I2C Bus 
+Configurations.
+FIGURE 8-6: Example Comparison of “Normal Operation” vs. “General Call Operation” Wiper 
+Updates.
+Note: The application system may need to
+partition the I2C bus into multiple busses to
+ensure that the MCP44XX General Call
+commands do not conflict with the General
+Call commands that the other I2C devices
+may have defined. Also if only a portion of
+the MCP44XX devices are to require this
+synchronous operation, then the devices
+that should not receive these commands
+should be on the second I2C bus.
+Single I2C Bus Configuration
+Host
+Controller
+Device 1 Device 3 Device n
+Device 2 Device 4
+Multiple I2C Bus Configuration
+Host
+Controller
+Device 1a Device 3a Device na
+Device 2a Device 4a
+Device 1b Device 3b Device nb
+Device 2b Device 4b
+Bus b
+Bus a
+Device 1n Device 3n Device nn
+Device 2n Device 4n
+Bus n
+Normal Operation
+General Call Operation
+INC
+POT01
+INC
+POT02
+INC
+POT03
+INC
+POT04
+INC
+POT05
+INC
+POT06
+TI2CDLY TI2CDLY TI2CDLY TI2CDLY TI2CDLY 
+TI2CDLY = Time from one I2C command completed to completing the next I2C command.
+INC
+POTs 01-06
+INC
+POTs 01-06
+INC
+POTs 01-06
+INC
+POTs 01-06
+INC
+POTs 01-06
+INC
+POTs 01-06
+TI2CDLY TI2CDLY TI2CDLY TI2CDLY TI2CDLY 
+TI2CDLY 
+TI2CDLY 
+=== page 68
+MCP443X/5X
+DS22267A-page 68  2010 Microchip Technology Inc.
+8.5 Implementing Log Steps with a 
+Linear Digital Potentiometer 
+In audio volume control applications, the use of
+logarithmic steps is desirable since the human ear
+hears in a logarithmic manner. The use of a linear
+potentiometer can approximate a log potentiometer,
+but with fewer steps. An 8-bit potentiometer can
+achieve fourteen 3 dB log steps plus a 100% (0 dB)
+and a mute setting.
+Figure 8-7 shows a block diagram of one of the
+MCP44x1 resistor networks being used to attenuate an
+input signal. In this case, the attenuation will be ground
+referenced. Terminal B can be connected to a common
+mode voltage, but the voltages on the A, B and Wiper
+terminals must not exceed the MCP44x1’s V DD/VSS
+voltage limits.  
+       
+FIGURE 8-7: Signal Attenuation Block 
+Diagram - Ground Referenced.
+Equation 8-1 shows the equation to calculate voltage
+dB gain ratios for the digital potentiometer, while
+Equation 8-2 shows the equation to calculate
+resistance dB gain ratios. These two equations assume
+that the B terminal is connected to ground. 
+If terminal B is not directly resistively connected to
+ground, then this terminal B to ground resistance
+(RB2GND) must be included into the calculation.
+Equation 8-3 shows this equation.
+EQUATION 8-1: dB CALCULATIONS 
+(VOLTAGE)   
+EQUATION 8-2: dB CALCULATIONS 
+(RESISTANCE) - CASE 1   
+EQUATION 8-3: dB CALCULATIONS 
+(RESISTANCE) - CASE 2   
+Table 8-1 shows the codes that can be used for 8-bit
+digital potentiometers to implement the log attenuation.
+The table shows the wiper codes for -3 dB, -2 dB, and
+-1 dB attenuation steps. This table also shows the
+calculated attenuation based on the wiper code’s linear
+step. Calculated attenuation values less than the
+desired attenuation are shown with red text. At lower
+wiper code values, the attenuation may skip a step, if
+this occurs the next attenuation value is colored
+magenta to highlight that a skip occurred. For example,
+in the -3 dB column the -48 dB value is highlighted
+since the -45 dB step could not be implemented (there
+are no wiper codes between 2 and 1).
+P0A
+MCP44X1 
+P0W
+P0B 
+L = 20 * log10 (VOUT / VIN)
+dB         VOUT / VIN Ratio 
+-3 0.70795
+-2
+-1
+0.79433
+0.89125
+L = 20 * log10 (RBW / RAB)
+Terminal B connected to Ground (see Figure 8-7)
+L = 20 * log10 ( (RBW + RB2GND) / (RAB + RB2GND) )
+Terminal B through RB2GND to Ground
+=== page 69
+ 2010 Microchip Technology Inc. DS22267A-page 69
+MCP443X/5X
+TABLE 8-1: LINEAR TO LOG ATTENUATION FOR 8-BIT DIGITAL POTENTIOMETERS          
+# of 
+Steps
+-3 dB Steps -2 dB Steps -1 dB Steps 
+Desired 
+Attenuation
+Wiper 
+Code
+Calculated 
+Attenuation 
+(1) 
+Desired 
+Attenuation
+Wiper 
+Code
+Calculated 
+Attenuation 
+(1) 
+Desired 
+Attenuation
+Wiper 
+Code
+Calculated 
+Attenuation 
+(1) 
+0 0 dB 256 0 dB 0 dB 256 0 dB 0 dB 256 0 dB
+1 -3 dB 181 -3.011 dB -2 dB 203 -2.015 dB -1 dB 228 -1.006 dB
+2 -6 dB 128 -6.021 dB -4 dB 162 -3.975 dB -2 dB 203 -2.015 dB
+3- 9 d B 9 1 -8.984 dB -6 dB 128 -6.021 dB -3 dB 181 -3.011 dB
+4 -12 dB 64 -12.041 dB -8 dB 102 -7.993 dB -4 dB 162 -3.975 dB
+5 -15 dB 46 -14.910 dB -10 dB 81 -9.995 dB -5 dB 144 -4.998 dB
+6 -18 dB 32 -18.062 dB -12 dB 64 -12.041 dB -6 dB 128 -6.021 dB
+7 -21 dB 23 -20.930 dB -14 dB 51 -14.013 dB -7 dB 114 -7.027 dB
+8 -24 dB 16 -24.082 dB -16 dB 41 -15.909 dB -8 dB 102 -7.993 dB
+9 -27 dB 11 -27.337 dB -18 dB 32 -18.062 dB -9 dB 91 -8.984 dB
+10 -30 dB 8 -30.103 dB -20 dB 26 -19.865 dB -10 dB 81 -9.995 dB
+11 -33 dB 6 -32.602 dB -22 dB 20 -22.144 dB -11 dB 72 -11.018 dB
+12 -36 dB 4 -36.124 dB -24 dB 16 -24.082 dB -12 dB 64 -12.041 dB
+13 -39 dB 3 -38.622 dB -26 dB 13 -25.886 dB -13 dB 57 -13.047 dB
+14 -42 dB 2 -42.144 dB -28 dB 10 -28.165 dB -14 dB 51 -14.013 dB
+15 -48 dB 1 -48.165 dB -30 dB 8 -30.103 dB -15 dB 46 - 14.910 dB
+16 Mute 0 Mute -32 dB 6 -32.602 dB -16 dB 41 -15.909 dB
+17 -34 dB 5 -34.185 dB -17 dB 36 -17.039 dB
+18 -36 dB 4 -36.124 dB -18 dB 32 -18.062 dB
+19 -38 dB 3 -38.622 dB -19 dB 29 -18.917 dB
+20 -42 dB 2 -42.144 dB -20 dB 26 -19.865 dB
+21 -48 dB 1 -48.165 dB -21 dB 23 - 20.930 dB
+22 Mute 0 Mute -22 dB 20 -22.144 dB
+23 -23 dB 18 -23.059 dB
+24 -24 dB 16 -24.082 dB
+25 -25 dB 14 -25.242 dB
+26 -26 dB 13 -25.886 dB
+27 -27dB 11 -27.337 dB
+28 -28 dB 10 -28.165 dB
+29 -29 dB 9 -29.080 dB
+30 -30 dB 8 -30.103 dB
+31 -31 dB 7 -31.263 dB
+32 -33 dB 6 -32.602 dB
+33 -34 dB 5 -34.185 dB
+34 -36 dB 4 -36.124 dB
+35 -39 dB 3 -38.622 dB
+36 -42 dB 2 -42.144 dB
+37 -48 dB 1 -48.165 dB
+38 Mute 0 Mute
+Note 1: Attenuation values do not include errors from Digital Potentiometer errors, such as Full Scale Error or Zero 
+Sc
+ale Error. 
+=== page 70
+MCP443X/5X
+DS22267A-page 70  2010 Microchip Technology Inc.
+8.6 Design Considerations
+In the design of a system with the MCP44XX devices,
+the following considerations should be taken into
+account:
+• Power Supply Considerations
+• Layout Considerations
+8.6.1 POWER SUPPLY 
+CONSIDERATIONS
+The typical application will require a bypass capacitor
+in order to filter high-frequency noise, which can be
+induced onto the power supply's traces. The bypass
+capacitor helps to minimize the effect of these noise
+sources on signal integrity. Figure 8-8 illustrates an
+appropriate bypass strategy.
+In this example, the recommended bypass capacitor
+value is 0.1 µF. This capacitor should be placed as
+close (within 4 mm) to the device power pin (V DD) as
+possible.
+The power source supplying these devices should be
+as clean as possible. If the application circuit has
+separate digital and analog power supplies, V DD and
+VSS should reside on the analog plane.
+FIGURE 8-8: Typical Microcontroller 
+Connections.
+8.6.2 LAYOUT CONSIDERATIONS
+Several layout considerations may be applicable to
+your application. These may include:
+• Noise
+• Footprint Compatibility
+• PCB Area Requirements
+8.6.2.1 Noise
+Inductively-coupled AC transients and digital switching
+noise can degrade the input and output signal integrity,
+potentially masking the MCP44XX’s performance.
+Careful board layout minimizes these effects and
+increases the Signal-to-Noise Ratio (SNR). Multi-layer
+boards utilizing a low-inductance ground plane,
+isolated inputs, isolated outputs and proper decoupling
+are critical to achieving the performance that the silicon
+is capable of providing. Particularly harsh
+environments may require shielding of critical signals. 
+If low noise is desired, breadboards and wire-wrapped
+boards are not recommended.
+8.6.2.2 Footprint Compatibility
+The specification of the MCP44XX pinouts was done to
+allow systems to be designed to easily support the use
+of either the dual (MCP46XX) or quad (MCP44XX)
+device. 
+Figure 8-9 shows how the dual pinout devices fit on the
+quad device footprint. For the Rheostat devices, the
+dual device is in the MSOP package, so the footprints
+would need to be offset from each other. 
+      
+FIGURE 8-9: Quad Pinout (TSSOP 
+Package) vs. Dual Pinout.
+VDD
+VDD
+VSS VSS
+MCP443X/5X
+0.1 µF
+PICTM Microcontroller
+0.1 µF
+SCL
+HVC/A0
+W
+B
+A SDA
+A1
+1
+2
+3
+4 17
+18
+19
+20
+RESET
+A1
+WP
+VDD
+MCP44X1 Quad Potentiometers 
+TSSOP
+5
+6
+7 14
+15
+16
+P0W
+P0B
+P0AP1A
+P1W
+P1B
+VSS
+HVC/A0
+SDA
+SCL
+MCP44X2 Quad Rheostat
+1
+2
+3
+4 11
+12
+13
+14
+P0B
+A1
+P0W
+VDD
+TSSOP
+5
+6
+7 8
+9
+10
+P2W
+P1W
+P2BP3B
+P3W
+P1B
+VSS
+HVC/A0
+SDA
+SCL
+8
+9
+10
+P3B
+P3W
+P3A
+12
+12
+P2W
+P2A
+P2B
+11
+MCP42X1 Pinout (1) 
+MCP42X2 Pinout 
+Note 1: Pin 15 (RESET) is the Address A2 (A2)
+pin on the MCP46x1 device.
+=== page 71
+ 2010 Microchip Technology Inc. DS22267A-page 71
+MCP443X/5X
+Figure 8-10 shows possible layout implementations for
+an application to support the quad and dual options on
+the same PCB.
+      
+FIGURE 8-10: Layout to Support Quad and 
+Dual Devices.
+8.6.2.3 PCB Area Requirements
+In some applications, PCB area is a criteria for device
+selection. Table 8-2 shows the package dimensions
+and area for the different package options. The table
+also shows the relative area factor compared to the
+smallest area. For space critical applications, the QFN
+package would be the suggested package. 
+TABLE 8-2: PACKAGE FOOTPRINT (1)         
+8.6.3 RESISTOR TEMPCO 
+Characterization curves of the resistor temperature
+coefficient (Tempco) are shown in Figure 2-11,
+Figure 2-32, Figure 2-52, and Figure 2-72.
+These curves show that the resistor network is
+designed to correct for the change in resistance as
+temperature increases. This technique reduces the
+end to end change is RAB resistance. 
+8.6.4 HIGH VOLTAGE TOLERANT PINS
+High Voltage support (VIHH) on the Serial Interface pins
+is for compatibility with the non-volatile devices.
+Potentiometers Devices
+Rheostat Devices
+MCP44X1
+MCP46X1
+MCP44X2
+MCP46X2
+Package Package Footprint 
+PinsType Code
+Dimensions 
+(mm) 
+Area (mm2) 
+Relative Area
+XY
+14 TSSOP ST 5.10 6.40 32.64 2.04
+20 QFN ML 4.00 4.00 16.00 1
+TSSOP ST 6.60 6.40 42.24 2.64
+Note 1: Does not include recommended land
+pattern dimensions. 
+=== page 72
+MCP443X/5X
+DS22267A-page 72  2010 Microchip Technology Inc.
+NOTES:
+=== page 73
+ 2010 Microchip Technology Inc. DS22267A-page 73
+MCP443X/5X
+9.0 DEVELOPMENT SUPPORT
+9.1 Development Tools
+Several development tools are available to assist in
+your design and evaluation of the MCP44XX devices.
+The currently available tools are shown in Table 9-1. 
+These boards may be purchased directly from the
+Microchip web site at www.microchip.com.
+9.2 Technical Documentation
+Several additional technical documents are available to
+assist you in your design and development. These
+technical documents include Application Notes,
+Technical Briefs, and Design Guides. Table 9-2 shows
+some of these documents.
+TABLE 9-1: DEVELOPMENT TOOLS      
+TABLE 9-2: TECHNICAL DOCUMENTATION      
+Board Name Part # Supported Devices
+20-pin TSSOP and SSOP Evaluation Board TSSOP20EV MCP44XX
+MCP46XX Digital Potentiometer PICtail Plus Demo
+Board (1, 2) 
+MCP46XXDM-PTPLS MCP46XX
+MCP46XX Digital Potentiometer Evaluation Board (2) MCP46XXEV MCP46X1
+Note 1: Requires a PICDEM Demo board. See the User’s Guide for additional information and requirements. 
+2: Requires a PICkit Serial Analyzer. See the User’s Guide for additional information and requirements. 
+Application
+Note Number
+Title Literature # 
+AN1316 Using Digital Potentiometers for Programmable Amplifier Gain DS01316
+AN1080 Understanding Digital Potentiometers Resistor Variations DS01080
+AN737 Using Digital Potentiometers to Design Low-Pass Adjustable Filters DS00737
+AN692 Using a Digital Potentiometer to Optimize a Precision Single Supply Photo Detect DS00692
+AN691 Optimizing the Digital Potentiometer in Precision Circuits DS00691
+AN219 Comparing Digital Potentiometers to Mechanical Potentiometers DS00219
+— Digital Potentiometer Design Guide DS22017
+— Signal Chain Design Guide DS21825
+=== page 74
+MCP443X/5X
+DS22267A-page 74  2010 Microchip Technology Inc.
+NOTES:
+=== page 75
+ 2010 Microchip Technology Inc. DS22267A-page 75
+MCP443X/5X
+10.0 PACKAGING INFORMATION
+10.1 Package Marking Information
+Legend: XX...X Customer-specific information
+Y Year code (last digit of calendar year)
+YY Year code (last 2 digits of calendar year)
+WW Week code (week of January 1 is week ‘01’)
+NNN Alphanumeric traceability code
+  Pb-free JEDEC designator for Matte Tin (Sn)
+* This package is Pb-free. The Pb-free JEDEC designator (     )
+can be found on the outer packaging for this package.
+Note: In the event the full Microchip part number cannot be marked on one line, it will
+be carried over to the next line, thus limiting the number of available
+characters for customer-specific information.
+3e
+3e
+14-Lead TSSOP
+XXXXXXXX
+YYWW
+NNN
+Example
+4452502E
+1035
+256
+XXXXX
+20-Lead QFN (4x4)
+XXXXXX
+YYWWNNN
+Example
+XXXXXX
+4451
+502EML
+256
+^^3e
+20-Lead TSSOP
+XXXXXXXX
+XXXXX NNN
+Example
+1035
+YYWW
+4451502
+EST 256
+1035
+^^3e
+=== page 76
+MCP443X/5X
+DS22267A-page 76  2010 Microchip Technology Inc.
+Note: For the most current package drawings, please see the Microchip Packaging Specification located at 
+http://www.microchip.com/packaging
+=== page 77
+ 2010 Microchip Technology Inc. DS22267A-page 77
+MCP443X/5X
+Note: For the most current package drawings, please see the Microchip Packaging Specification located at 
+http://www.microchip.com/packaging
+=== page 78
+MCP443X/5X
+DS22267A-page 78  2010 Microchip Technology Inc.
+Note: For the most current package drawings, please see the Microchip Packaging Specification located at 
+http://www.microchip.com/packaging
+=== page 79
+ 2010 Microchip Technology Inc. DS22267A-page 79
+MCP443X/5X
+/g21/g19/g16/g47/g72/g68/g71/g3/g51/g79/g68/g86/g87/g76/g70/g3/g52/g88/g68/g71/g3/g41/g79/g68/g87/g15/g3/g49/g82/g3/g47/g72/g68/g71/g3/g51/g68/g70/g78/g68/g74/g72/g3/g11/g48/g47/g12/g3/g177/g3/g23/g91/g23/g91/g19/g17/g28/g3/g80/g80/g3/g37/g82/g71/g92/g3/g62/g52/g41/g49/g64
+/g3
+/g49/g82/g87/g72/g86/g29
+/g20/g17 /g51/g76/g81/g3/g20/g3/g89/g76/g86/g88/g68/g79/g3/g76/g81/g71/g72/g91/g3/g73/g72/g68/g87/g88/g85/g72/g3/g80/g68/g92/g3/g89/g68/g85/g92/g15/g3/g69/g88/g87/g3/g80/g88/g86/g87/g3/g69/g72/g3/g79/g82/g70/g68/g87/g72/g71/g3/g90/g76/g87/g75/g76/g81/g3/g87/g75/g72/g3/g75/g68/g87/g70/g75/g72/g71/g3/g68/g85/g72/g68/g17
+/g21/g17 /g51/g68/g70/g78/g68/g74/g72/g3/g76/g86/g3/g86/g68/g90/g3/g86/g76/g81/g74/g88/g79/g68/g87/g72/g71/g17
+/g22/g17 /g39/g76/g80/g72/g81/g86/g76/g82/g81/g76/g81/g74/g3/g68/g81/g71/g3/g87/g82/g79/g72/g85/g68/g81/g70/g76/g81/g74/g3/g83/g72/g85/g3/g36/g54/g48/g40/g3/g60/g20/g23/g17/g24/g48/g17
+/g37/g54/g38/g29 /g37/g68/g86/g76/g70/g3/g39/g76/g80/g72/g81/g86/g76/g82/g81/g17/g3/g55/g75/g72/g82/g85/g72/g87/g76/g70/g68/g79/g79/g92/g3/g72/g91/g68/g70/g87/g3/g89/g68/g79/g88/g72/g3/g86/g75/g82/g90/g81/g3/g90/g76/g87/g75/g82/g88/g87/g3/g87/g82/g79/g72/g85/g68/g81/g70/g72/g86/g17
+/g53/g40/g41/g29 /g53/g72/g73/g72/g85/g72/g81/g70/g72/g3/g39/g76/g80/g72/g81/g86/g76/g82/g81/g15/g3/g88/g86/g88/g68/g79/g79/g92/g3/g90/g76/g87/g75/g82/g88/g87/g3/g87/g82/g79/g72/g85/g68/g81/g70/g72/g15/g3/g73/g82/g85/g3/g76/g81/g73/g82/g85/g80/g68/g87/g76/g82/g81/g3/g83/g88/g85/g83/g82/g86/g72/g86/g3/g82/g81/g79/g92/g17
+/g49/g82/g87/g72/g29/g41/g82/g85/g3/g87/g75/g72/g3/g80/g82/g86/g87/g3/g70/g88/g85/g85/g72/g81/g87/g3/g83/g68/g70/g78/g68/g74/g72/g3/g71/g85/g68/g90/g76/g81/g74/g86/g15/g3/g83/g79/g72/g68/g86/g72/g3/g86/g72/g72/g3/g87/g75/g72/g3/g48/g76/g70/g85/g82/g70/g75/g76/g83/g3/g51/g68/g70/g78/g68/g74/g76/g81/g74/g3/g54/g83/g72/g70/g76/g73/g76/g70/g68/g87/g76/g82/g81/g3/g79/g82/g70/g68/g87/g72/g71/g3/g68/g87/g3
+/g75/g87/g87/g83/g29/g18/g18/g90/g90/g90/g17/g80/g76/g70/g85/g82/g70/g75/g76/g83/g17/g70/g82/g80/g18/g83/g68/g70/g78/g68/g74/g76/g81/g74
+/g56/g81/g76/g87/g86/g48/g44/g47/g47/g44/g48/g40/g55/g40/g53/g54
+/g39/g76/g80/g72/g81/g86/g76/g82/g81/g3/g47/g76/g80/g76/g87/g86 /g48/g44/g49 /g49/g50/g48 /g48/g36/g59
+/g49/g88/g80/g69/g72/g85/g3/g82/g73/g3/g51/g76/g81/g86/g49 /g21/g19
+/g51/g76/g87/g70/g75 /g72 /g19/g17/g24/g19/g3/g37/g54/g38
+/g50/g89/g72/g85/g68/g79/g79/g3/g43/g72/g76/g74/g75/g87/g36 /g19/g17/g27/g19 /g19/g17/g28/g19 /g20/g17/g19/g19
+/g54/g87/g68/g81/g71/g82/g73/g73/g3 /g36/g20 /g19/g17/g19/g19 /g19/g17/g19/g21 /g19/g17/g19/g24
+/g38/g82/g81/g87/g68/g70/g87/g3/g55/g75/g76/g70/g78/g81/g72/g86/g86/g36/g22 /g19/g17/g21/g19/g3/g53/g40/g41
+/g50/g89/g72/g85/g68/g79/g79/g3/g58/g76/g71/g87/g75/g40 /g23/g17/g19/g19/g3/g37/g54/g38
+/g40/g91/g83/g82/g86/g72/g71/g3/g51/g68/g71/g3/g58/g76/g71/g87/g75/g40/g21 /g21/g17/g25/g19 /g21/g17/g26/g19 /g21/g17/g27/g19
+/g50/g89/g72/g85/g68/g79/g79/g3/g47/g72/g81/g74/g87/g75/g39 /g23/g17/g19/g19/g3/g37/g54/g38
+/g40/g91/g83/g82/g86/g72/g71/g3/g51/g68/g71/g3/g47/g72/g81/g74/g87/g75/g39/g21 /g21/g17/g25/g19 /g21/g17/g26/g19 /g21/g17/g27/g19
+/g38/g82/g81/g87/g68/g70/g87/g3/g58/g76/g71/g87/g75/g69 /g19/g17/g20/g27 /g19/g17/g21/g24 /g19/g17/g22/g19
+/g38/g82/g81/g87/g68/g70/g87/g3/g47/g72/g81/g74/g87/g75/g47 /g19/g17/g22/g19 /g19/g17/g23/g19 /g19/g17/g24/g19
+/g38/g82/g81/g87/g68/g70/g87/g16/g87/g82/g16/g40/g91/g83/g82/g86/g72/g71/g3/g51/g68/g71/g46 /g19/g17/g21/g19 /g177 /g177
+D
+EXPOSED
+PAD
+E
+E2
+2
+1
+N
+TOP VIEW NOTE 1
+N
+L
+K
+b
+e
+D2
+2
+1
+A
+A1A3
+BOTTOM VIEW
+/g48/g76/g70/g85/g82/g70/g75/g76/g83 /g55/g72/g70/g75/g81/g82/g79/g82/g74/g92 /g39/g85/g68/g90/g76/g81/g74 /g38/g19/g23/g16/g20/g21/g25/g37
+=== page 80
+MCP443X/5X
+DS22267A-page 80  2010 Microchip Technology Inc.
+/g49/g82/g87/g72/g29/g41/g82/g85/g3/g87/g75/g72/g3/g80/g82/g86/g87/g3/g70/g88/g85/g85/g72/g81/g87/g3/g83/g68/g70/g78/g68/g74/g72/g3/g71/g85/g68/g90/g76/g81/g74/g86/g15/g3/g83/g79/g72/g68/g86/g72/g3/g86/g72/g72/g3/g87/g75/g72/g3/g48/g76/g70/g85/g82/g70/g75/g76/g83/g3/g51/g68/g70/g78/g68/g74/g76/g81/g74/g3/g54/g83/g72/g70/g76/g73/g76/g70/g68/g87/g76/g82/g81/g3/g79/g82/g70/g68/g87/g72/g71/g3/g68/g87/g3
+/g75/g87/g87/g83/g29/g18/g18/g90/g90/g90/g17/g80/g76/g70/g85/g82/g70/g75/g76/g83/g17/g70/g82/g80/g18/g83/g68/g70/g78/g68/g74/g76/g81/g74
+=== page 81
+ 2010 Microchip Technology Inc. DS22267A-page 81
+MCP443X/5X
+/g21/g19/g16/g47/g72/g68/g71/g3/g51/g79/g68/g86/g87/g76/g70/g3/g55/g75/g76/g81/g3/g54/g75/g85/g76/g81/g78/g3/g54/g80/g68/g79/g79/g3/g50/g88/g87/g79/g76/g81/g72/g3/g11/g54/g55/g12/g3/g177/g3/g23/g17/g23/g3/g80/g80/g3/g37/g82/g71/g92/g3/g62/g55/g54/g54/g50/g51/g64
+/g49/g82/g87/g72/g86/g29
+/g20/g17 /g51/g76/g81/g3/g20/g3/g89/g76/g86/g88/g68/g79/g3/g76/g81/g71/g72/g91/g3/g73/g72/g68/g87/g88/g85/g72/g3/g80/g68/g92/g3/g89/g68/g85/g92/g15/g3/g69/g88/g87/g3/g80/g88/g86/g87/g3/g69/g72/g3/g79/g82/g70/g68/g87/g72/g71/g3/g90/g76/g87/g75/g76/g81/g3/g87/g75/g72/g3/g75/g68/g87/g70/g75/g72/g71/g3/g68/g85/g72/g68/g17
+/g21/g17 /g39/g76/g80/g72/g81/g86/g76/g82/g81/g86/g3/g39/g3/g68/g81/g71/g3/g40/g20/g3/g71/g82/g3/g81/g82/g87/g3/g76/g81/g70/g79/g88/g71/g72/g3/g80/g82/g79/g71/g3/g73/g79/g68/g86/g75/g3/g82/g85/g3/g83/g85/g82/g87/g85/g88/g86/g76/g82/g81/g86/g17/g3/g48/g82/g79/g71/g3/g73/g79/g68/g86/g75/g3/g82/g85/g3/g83/g85/g82/g87/g85/g88/g86/g76/g82/g81/g86/g3/g86/g75/g68/g79/g79/g3/g81/g82/g87/g3/g72/g91/g70/g72/g72/g71/g3/g19/g17/g20/g24/g3/g80/g80/g3/g83/g72/g85/g3/g86/g76/g71/g72/g17
+/g22/g17 /g39/g76/g80/g72/g81/g86/g76/g82/g81/g76/g81/g74/g3/g68/g81/g71/g3/g87/g82/g79/g72/g85/g68/g81/g70/g76/g81/g74/g3/g83/g72/g85/g3/g36/g54/g48/g40/g3/g60/g20/g23/g17/g24/g48/g17
+/g37/g54/g38/g29 /g37/g68/g86/g76/g70/g3/g39/g76/g80/g72/g81/g86/g76/g82/g81/g17/g3/g55/g75/g72/g82/g85/g72/g87/g76/g70/g68/g79/g79/g92/g3/g72/g91/g68/g70/g87/g3/g89/g68/g79/g88/g72/g3/g86/g75/g82/g90/g81/g3/g90/g76/g87/g75/g82/g88/g87/g3/g87/g82/g79/g72/g85/g68/g81/g70/g72/g86/g17
+/g53/g40/g41/g29 /g53/g72/g73/g72/g85/g72/g81/g70/g72/g3/g39/g76/g80/g72/g81/g86/g76/g82/g81/g15/g3/g88/g86/g88/g68/g79/g79/g92/g3/g90/g76/g87/g75/g82/g88/g87/g3/g87/g82/g79/g72/g85/g68/g81/g70/g72/g15/g3/g73/g82/g85/g3/g76/g81/g73/g82/g85/g80/g68/g87/g76/g82/g81/g3/g83/g88/g85/g83/g82/g86/g72/g86/g3/g82/g81/g79/g92/g17
+/g49/g82/g87/g72/g29/g41/g82/g85/g3/g87/g75/g72/g3/g80/g82/g86/g87/g3/g70/g88/g85/g85/g72/g81/g87/g3/g83/g68/g70/g78/g68/g74/g72/g3/g71/g85/g68/g90/g76/g81/g74/g86/g15/g3/g83/g79/g72/g68/g86/g72/g3/g86/g72/g72/g3/g87/g75/g72/g3/g48/g76/g70/g85/g82/g70/g75/g76/g83/g3/g51/g68/g70/g78/g68/g74/g76/g81/g74/g3/g54/g83/g72/g70/g76/g73/g76/g70/g68/g87/g76/g82/g81/g3/g79/g82/g70/g68/g87/g72/g71/g3/g68/g87/g3
+/g75/g87/g87/g83/g29/g18/g18/g90/g90/g90/g17/g80/g76/g70/g85/g82/g70/g75/g76/g83/g17/g70/g82/g80/g18/g83/g68/g70/g78/g68/g74/g76/g81/g74
+/g56/g81/g76/g87/g86/g48/g44/g47/g47/g44/g48/g40/g55/g40/g53/g54
+/g39/g76/g80/g72/g81/g86/g76/g82/g81/g3/g47/g76/g80/g76/g87/g86 /g48/g44/g49 /g49/g50/g48 /g48/g36/g59
+/g49/g88/g80/g69/g72/g85/g3/g82/g73/g3/g51/g76/g81/g86/g49 /g21/g19
+/g51/g76/g87/g70/g75 /g72 /g19/g17/g25/g24/g3/g37/g54/g38
+/g50/g89/g72/g85/g68/g79/g79/g3/g43/g72/g76/g74/g75/g87/g36 /g177 /g177 /g20/g17/g21/g19
+/g48/g82/g79/g71/g72/g71/g3/g51/g68/g70/g78/g68/g74/g72/g3/g55/g75/g76/g70/g78/g81/g72/g86/g86/g36/g21 /g19/g17/g27/g19 /g20/g17/g19/g19 /g20/g17/g19/g24
+/g54/g87/g68/g81/g71/g82/g73/g73/g3 /g36/g20 /g19/g17/g19/g24/g177 /g19/g17/g20/g24
+/g50/g89/g72/g85/g68/g79/g79/g3/g58/g76/g71/g87/g75/g40 /g25/g17/g23/g19/g3/g37/g54/g38
+/g48/g82/g79/g71/g72/g71/g3/g51/g68/g70/g78/g68/g74/g72/g3/g58/g76/g71/g87/g75/g40/g20 /g23/g17/g22/g19 /g23/g17/g23/g19 /g23/g17/g24/g19
+/g48/g82/g79/g71/g72/g71/g3/g51/g68/g70/g78/g68/g74/g72/g3/g47/g72/g81/g74/g87/g75/g39 /g25/g17/g23/g19 /g25/g17/g24/g19 /g25/g17/g25/g19
+/g41/g82/g82/g87/g3/g47/g72/g81/g74/g87/g75/g47 /g19/g17/g23/g24 /g19/g17/g25/g19 /g19/g17/g26/g24
+/g41/g82/g82/g87/g83/g85/g76/g81/g87 /g47/g20 /g20/g17/g19/g19/g3/g53/g40/g41
+/g41/g82/g82/g87/g3/g36/g81/g74/g79/g72 /g73 /g19/g131 /g177 /g27/g131
+/g47/g72/g68/g71/g3/g55/g75/g76/g70/g78/g81/g72/g86/g86/g70 /g19/g17/g19/g28 /g177 /g19/g17/g21/g19
+/g47/g72/g68/g71/g3/g58/g76/g71/g87/g75 /g69 /g19/g17/g20/g28 /g177 /g19/g17/g22/g19
+D
+E
+E1
+NOTE 1
+1 2
+b e
+A
+A1
+A2
+c
+L1 L
+φ
+N
+/g48/g76/g70/g85/g82/g70/g75/g76/g83 /g55/g72/g70/g75/g81/g82/g79/g82/g74/g92 /g39/g85/g68/g90/g76/g81/g74 /g38/g19/g23/g16/g19/g27/g27/g37
+=== page 82
+MCP443X/5X
+DS22267A-page 82  2010 Microchip Technology Inc.
+Note: For the most current package drawings, please see the Microchip Packaging Specification located at 
+http://www.microchip.com/packaging
+=== page 83
+ 2010 Microchip Technology Inc. DS22267A-page 83
+MCP443X/5X
+APPENDIX A: REVISION HISTORY
+Revision A (November 2010)
+• Original release of this document.
+=== page 84
+MCP443X/5X
+DS22267A-page 84  2010 Microchip Technology Inc.
+NOTES:
+=== page 85
+ 2010 Microchip Technology Inc. DS22267A-page 85
+MCP443X/5X
+APPENDIX B: CHARACTERIZATION 
+DATA ANALYSIS
+Some designers may want to understand the device
+operational characteristics outside of the specified
+operating conditions of the device. 
+Applications where the knowledge of the resistor
+network characteristics could be useful include battery
+powered devices and applications that experience
+brown-out conditions.
+In battery applications, the application voltage decays
+over time until new batteries are installed. As the
+voltage decays, the system will continue to operate. At
+some voltage level, the application will be below its
+specified operating voltage range. This is dependent
+on the individual components used in the design. It is
+still useful to understand the device characteristics to
+expect when this low-voltage range is encountered.
+Unlike a microcontroller, which can use an external
+supervisor device to force the controller into the Reset
+state, a digital potentiometer’s resistance characteristic
+is not specified. But understanding the operational
+characteristics can be important in the design of the
+applications circuit for this low-voltage condition. 
+Other application system scenarios where
+understanding the low-voltage characteristics of the
+resistor network could be important is for system brown
+out conditions.
+For the MCP443X/5X devices, the analog operation is
+specified at a minimum of 2.7V. Device testing has Ter-
+minal A connected to the device V DD (for the
+potentiometer configuration only) and Terminal B
+connected to VSS. 
+B.1 Low-Voltage Operation
+This appendix gives an overview of CMOS
+semiconductor characteristics at lower voltages. This is
+important so that the 1.8V resistor network
+characterization graphs of the MCP443X/5X devices
+can be better understood. 
+For this discussion, we will use the 5 k  device data.
+This data was chosen since the variations of wiper
+resistance have much greater implications for devices
+with smaller RAB resistances. 
+Figure B-1 shows the worst case R BW error from the
+average RBW as a percentage, while Figure B-2 shows
+the R BW resistance versus the wiper code graph.
+Non-linear behavior occurs at approximately wiper
+code 160. This is better shown in Figure B-2, where the
+RBW resistance changes from a linear slope. This
+change is due to the change in the wiper resistance. 
+      
+FIGURE B-1: 1.8V Worst Case RBW Error 
+from Average RBW (RBW0-RBW3) vs. Wiper Code 
+and Temperature (VDD = 1.8V, IW = 190 µA).
+      
+FIGURE B-2: RBW vs. Wiper Code And 
+Temperature (VDD = 1.8V, IW = 190 µA).
+-7.00%
+-6.00%
+-5.00%
+-4.00%
+-3.00%
+-2.00%
+-1.00%
+0.00%
+1.00%
+2.00%
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Error %
+-40C
++25C
++85C
++125C
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Resistance (/g159) -40C
++25C
++85C
++125C
+=== page 86
+MCP443X/5X
+DS22267A-page 86  2010 Microchip Technology Inc.
+Figure B-3 and Figure B-4 show the wiper resistance
+for VDD voltages of 5.5, 3.0, 1.8 Volts. These graphs
+show that as the resistor ladder wiper node voltage
+(VWCn) approaches the V DD/2 voltage, the wiper
+resistance increases. These graphs also show the
+different resistance characteristics of the NMOS and
+PMOS transistors that make up the wiper switch. This
+is demonstrated by the wiper code resistance curve,
+which does not mirror itself around the mid-scale code
+(wiper code = 128).
+So why are the R W graphs showing the maximum
+resistance at about mid-scale (wiper code = 128) and
+the RBW graphs showing the issue at code 160?
+This requires understanding low-voltage transistor
+characteristics as well as how the data was measured.  
+      
+FIGURE B-3: Wiper Resistance (RW) vs. 
+Wiper Code and Temperature 
+(VDD = 5.5V, IW = 900 µA; VDD = 3.0V,
+IW = 480 µA). 
+      
+FIGURE B-4: Wiper Resistance (RW) vs. 
+Wiper Code and Temperature 
+(VDD = 1.8V, IW = 260 µA). 
+The method in which the data was collected is
+important to understand. Figure B-5 shows the
+technique that was used to measure the R BW and RW
+resistance. In this technique, Terminal A is floating and
+Terminal B is connected to ground. A fixed current is
+then forced into the wiper (I W) and the corresponding
+wiper voltage (V W) is measured. Forcing a known
+current through R BW (I W) and then measuring the
+voltage difference between the wiper (V W) and
+Terminal A (V A), the wiper resistance (R W) can be
+calculated, see Figure B-5. Changes in I W current will
+change the wiper voltage (V W). This may affect the
+device’s wiper resistance (RW).
+FIGURE B-5: RBW and RW Measurement.
+Figure B-6 shows a block diagram of the resistor
+network where the R AB resistor is a series of 256 R S
+resistors. These resistors are polysilicon devices. Each
+wiper switch is an analog switch made up of an NMOS
+and PMOS transistor. A more detailed figure of the
+wiper switch is shown in Figure B-7. The wiper
+resistance is influenced by the voltage on the wiper
+switches nodes (VG, VW and VWCn). Temperature also
+influences the characteristics of the wiper switch, see
+Figure B-4.
+The NMOS transistor and PMOS transistor have
+different characteristics. These characteristics, as well
+as the wiper switch node voltages, determine the R W
+resistance at each wiper code. The variation of each
+wiper switch’s characteristics in the resistor network is
+greater then the variation of the RS resistors. 
+The voltage on the resistor network node (V WCn) is
+dependent upon the wiper code selected and the
+voltages applied to VA, VB and VW. The wiper switch VG
+voltage to VW or VWCn voltage determines how strongly
+the transistor is turned on. When the transistor is
+weakly turned on, the wiper resistance RW will be high.
+When the transistor is strongly turned on, the wiper
+resistance (RW) will be in the typical range. 
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+0 64 128 192 256
+Wiper Code
+Resistance (/g159)
+-40C @ 3.0V +25C @ 3.0V +85C @ 3.0V +125C @ 3.0V
+-40C @5.5V +25C @ 5.5V +85C @ 5.5V +125C @ 5.5V
+20
+520
+1020
+1520
+2020
+0 64 128 192 256
+Wiper Code
+Resistance (/g159)
+-40C @ 1.8V
++25C @ 1.8V
++85C @ 1.8V
++125C @ 1.8V
+A
+B
+W
+IW 
+VW 
+floating
+RBW = VW/IW 
+VA 
+VB RW = (VW-VA)/IW 
+=== page 87
+ 2010 Microchip Technology Inc. DS22267A-page 87
+MCP443X/5X
+ 
+FIGURE B-6: Resistor Network Block 
+Diagram.
+The characteristics of the wiper are determined by the
+characteristics of the wiper switch at each of the
+resistor networks tap points. Figure B-7 shows an
+example of a wiper switch. As the device operational
+voltage becomes lower, the characteristics of the wiper
+switch change due to a lower voltage on the VG signal. 
+Figure B-7  shows an implementation of a wiper switch.
+When the transistor is turned off, the switch resistance
+is in the Giga s. When the  transistor is turned on, the
+switch resistance is dependent on the V G, V W and
+VWCn voltages. This resistance is referred to as RW.
+      
+FIGURE B-7: Wiper Switch.
+So looking at the wiper voltage (V W) for the
+3.0V and 1.8V data gives the graphs in Figure B-8 and
+Figure B-9. In the 1.8V graph, as the V W approaches
+0.8V, the voltage increases nonlinearly. Since V = I * R,
+and the current (I W) is constant, it means that the
+device resistance increased nonlinearly at around
+wiper code 160.
+      
+FIGURE B-8: Wiper Voltage (VW) vs. 
+Wiper Code (VDD = 3.0V, IW = 190 µA).
+      
+FIGURE B-9: Wiper Voltage (VW) vs. 
+Wiper Code (VDD = 1.8V, IW = 190 µA).
+RS 
+A 
+RS 
+RS
+RS 
+B 
+RW (1) 
+W
+RW (1) 
+RW (1) 
+RW (1) 
+RW (1) 
+Note 1: The wiper resistance is dependent on
+several factors including, wiper code,
+device V DD, Terminal voltages (on A, B
+and W), and temperature. 
+RAB
+NMOS
+PMOS
+N0 
+Nn-1 
+N1 
+Nn 
+Nn-2 
+Nn-3 
+VW 
+VB 
+VA 
+VWC(n-2) 
+DVG 
+Note 1: Wiper Resistance (RW) depends on the
+voltages at the wiper switch nodes 
+(VG, VW and VWCn).
+RW (1) 
+NMOS
+PMOS
+NWC Wiper
+VG (VDD/VSS) 
+“gate”
+“gate”
+VW VWCn 
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Wiper Voltage (V)
+-40C
++25C
++85C
++125C
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+0 32 64 96 128 160 192 224 256
+Wiper Code
+Wiper Voltage (V)
+-40C
++25C
++85C
++125C
+=== page 88
+MCP443X/5X
+DS22267A-page 88  2010 Microchip Technology Inc.
+Using the simulation models of the NMOS and PMOS
+devices for the MCP44XX analog switch (Figure B-10),
+we plot the device resistance when the devices are
+turned on. Figure B-11 and Figure B-12 show the
+resistances of the NMOS and PMOS devices as the
+VIN voltage is increased. The wiper resistance (RW)  is
+simply the parallel resistance on the NMOS and PMOS
+devices (RW = RNMOS || RPMOS). Below the threshold
+voltage for the NMOS ad PMOS devices, the
+resistance becomes very large (Gigaohms). In the
+transistors active region, the resistance is much lower.
+For these graphs, the resistances are on different
+scales. Figure B-13 and Figure B-14 only plot the
+NMOS and PMOS device resistance for their active
+region and the resulting wiper resistance. For these
+graphs, all resistances are on the same scale. 
+FIGURE B-10: Analog Switch. 
+FIGURE B-11: NMOS and PMOS 
+Transistor Resistance (RNMOS, RPMOS) and 
+Wiper Resistance (RW) VS. VIN 
+(VDD = 3.0V).
+FIGURE B-12: NMOS and PMOS 
+Transistor Resistance (RNMOS, RPMOS) and 
+Wiper Resistance (RW) VS. VIN 
+(VDD = 1.8V). 
+FIGURE B-13: NMOS and PMOS 
+Transistor Resistance (RNMOS, RPMOS) and 
+Wiper Resistance (RW) VS. VIN 
+(VDD = 3.0V).
+ 
+FIGURE B-14: NMOS and PMOS 
+Transistor Resistance (RNMOS, RPMOS) and 
+Wiper Resistance (RW) VS. VIN 
+(VDD = 1.8V).
+RW 
+NMOS
+PMOS
+VG (VDD/VSS) 
+“gate”
+“gate”
+VOUT VIN 
+0.00E+00
+5.00E+09
+1.00E+10
+1.50E+10
+2.00E+10
+2.50E+10
+3.00E+10
+0.0 0.3 0.6 0.9 1.2 1.5 1.8
+VIN Voltage
+NMOS and PMOS Resistance 
+(/g159)
+0
+500
+1000
+1500
+2000
+2500
+Wiper Resistance (/g159)
+RPMOS 
+RNMOS RW 
+PMOS 
+Theshold
+NMOS 
+Theshold
+0.00E+00
+1.00E+09
+2.00E+09
+3.00E+09
+4.00E+09
+5.00E+09
+6.00E+09
+7.00E+09
+0.0 0.6 1.2 1.8 2.4 3.0
+VIN Voltage
+NMOS and PMOS Resistance 
+(/g159)
+0
+20
+40
+60
+80
+100
+120
+140
+160
+Wiper Resistance (/g159)
+RPMOS 
+RNMOS 
+RW 
+PMOS 
+Theshold
+NMOS 
+Theshold
+0
+50
+100
+150
+200
+250
+300
+0.0 0.6 1.2 1.8 2.4 3.0
+VIN Voltage
+Resistance (/g159)
+RPMOS RNMOS 
+RW 
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+0.0 0.3 0.6 0.9 1.2 1.5 1.8
+VIN Voltage
+Resistance (/g159)
+RPMOS RNMOS 
+RW 
+=== page 89
+ 2010 Microchip Technology Inc. DS22267A-page 89
+MCP443X/5X
+B.2 Optimizing Circuit Design for 
+Low-Voltage Characteristics
+The low-voltage nonlinear characteristics can be
+minimized by application design. The section will show
+two application circuits that can be used to control a
+programmable reference voltage (VOUT). 
+Minimizing the low-voltage nonlinear characteristics is
+done by keeping the voltages on the wiper switch
+nodes at a voltage where either the NMOS or PMOS
+transistor is turned on.
+An example of this is if we are using a digital
+potentiometer for a voltage reference (VOUT). Let’s say
+that we want VOUT to range from 0.5 * VDD to 0.6 * VDD. 
+In example implementation #1 ( Figure B-15), we
+window the digital potentiometer using resistors R1 and
+R2. When the wiper code is at full scale, the V OUT
+voltage will be  0.6 * VDD, and when the wiper code is
+at zero scale the V OUT voltage will be  0.5 * V DD.
+Remember that the digital potentiometers RAB variation
+must be included. Table B-1 shows that the V OUT
+voltage can be selected to be between 0.455 * VDD and
+0.727 * V DD, which includes the desired range. With
+respect to the voltages on the resistor network node, at
+1.8V the VA voltage would range from 1.29V to 1.31V
+while the VB voltage would range from 0.82V to 0.86V.
+These voltages cause the wiper resistance to be in the
+nonlinear region (see Figure B-12). In Potentiometer
+mode, the variation of the wiper resistance is typically
+not an issue, as shown by the INL/DNL graph
+(Figure 2-6). 
+In example implementation #2 ( Figure B-16) we use
+the digital potentiometer in Rheostat mode. The
+resistor ladder uses resistors R1 and R2 with R BW at
+the bottom of the ladder. When the wiper code is at full
+scale, the VOUT voltage will be  0.6 * V DD and when
+the wiper code is at full scale the V OUT voltage will be
+ 0.5 * VDD. Remember that the digital potentiometers
+RAB variation must be included. Table B-2 shows that
+the VOUT voltage can be selected to be between 0.50 *
+VDD and 0.687 * V DD, which includes the desired
+range. With respect to the voltages on the resistor
+network node, at 1.8V the VW voltage would range from
+0.29V to 0.38V. These voltages cause the wiper
+resistance to be in the linear region (see Figure B-12). 
+FIGURE B-15: Example Implementation #1.
+TABLE B-1: EXAMPLE #1 VOLTAGE 
+CALCULATIONS
+Variation
+Min Typ Max
+R1 12,000 12,000 12,000
+R2 20,000 20,000 20,000
+RAB 8,000 10,000 12,000
+VOUT (@ FS) 0.714 V DD 0.70 V DD 0.727 V DD 
+VOUT (@ ZS) 0.476 V DD 0.50 V DD 0.455 V DD 
+VA  0.714 VDD 0.70 V DD 0.727 V DD 
+VB  0.476 VDD 0.50 V DD 0.455 V DD 
+Legend: FS – Full Scale, ZS – Zero Scale
+A
+B
+W
+VW 
+VA 
+VB 
+R1
+R2
+VOUT 
+=== page 90
+MCP443X/5X
+DS22267A-page 90  2010 Microchip Technology Inc.
+FIGURE B-16: Example Implementation #2.
+TABLE B-2: EXAMPLE #2 VOLTAGE 
+CALCULATIONS
+Variation
+Min Typ Max
+R1 10,000 10,000 10,000
+R2 10,000 10,000 10,000
+RBW (max) 8,000 10,000 12,000
+VOUT (@ FS) 0.667 V DD 0.643 V DD 0.687 V DD 
+VOUT(@ ZS) 0.50 V DD 0.50 V DD 0.50 V DD 
+VW (@ FS) 0.333 V DD 0.286 V DD 0.375 V DD 
+VW (@ ZS) V SS V SS V SS 
+Legend: FS – Full Scale, ZS – Zero Scale
+A
+B
+W VW 
+VA 
+R1
+R2
+VOUT 
+VB 
+=== page 91
+ 2010 Microchip Technology Inc. DS22267A-page 91
+MCP443X/5X
+PRODUCT IDENTIFICATION SYSTEM
+To order or obtain information, e.g., on pricing or delivery, refer to the factory or the listed sales office .
+PART NO. X /XX-XXX
+Resistance PackageTemperature
+Range
+Device
+   
+Device MCP4431: Quad Volatile 7-bit Potentiometer
+MCP4431T: Quad Volatile 7-bit Potentiometer
+(Tape and Reel)
+MCP4432: Quad Volatile 7-bit Rheostat
+MCP4432T: Quad Volatile 7-bit Rheostat 
+(Tape and Reel)
+MCP4451: Quad Volatile 8-bit Potentiometer
+MCP4451T: Quad Volatile 8-bit Potentiometer 
+(Tape and Reel)
+MCP4452: Quad Volatile 8-bit Rheostat
+MCP4452T: Quad Volatile 8-bit Rheostat 
+(Tape and Reel)
+Resistance Version: 502 = 5 k  
+103 = 10 k  
+503 = 50 k  
+104 = 100 k  
+Temperature Range E =  -40 C to +125C (Extended)
+Package ST = Plastic Thin Shrink Small Outline (TSSOP), 
+14/20-lead
+ML = Plastic Quad Flat No-lead (4x4 QFN), 20-lead 
+Examples:
+a) MCP4431-502E/XX: 5 k  20-LD Device
+b) MCP4431T-502E/XX: T/R, 5 k 20-LD Device
+c) MCP4431-103E/XX: 10 k , 20-LD Device
+d) MCP4431T-103E/XX: T/R, 10 k , 20-LD Device
+e) MCP4431-503E/XX: 50 k , 20-LD Device
+f) MCP4431T-503E/XX: T/R, 50 k , 20-LD Device
+g) MCP4431-104E/XX: 100 k , 20-LD Device
+h) MCP4431T-104E/XX: T/R, 100 k , 
+20-LD Device
+a) MCP4432-502E/XX: 5 k  14-LD Device
+b) MCP4432T-502E/XX: T/R, 5 k 14-LD Device
+c) MCP4432-103E/XX: 10 k , 14-LD Device
+d) MCP4432T-103E/XX: T/R, 10 k , 14-LD Device
+e) MCP4432-503E/XX: 50 k , 8LD Device
+f) MCP4432T-503E/XX: T/R, 50 k , 14-LD Device
+g) MCP4432-104E/XX: 100 k , 14-LD Device
+h) MCP4432T-104E/XX: T/R, 100 k , 
+14-LD Device
+a) MCP4451-502E/XX: 5 k  20-LD Device
+b) MCP4451T-502E/XX: T/R, 5 k 20-LD Device
+c) MCP4451-103E/XX: 10 k , 20-LD Device
+d) MCP4451T-103E/XX: T/R, 10 k , 20-LD Device
+e) MCP4451-503E/XX: 50 k , 20-LD Device
+f) MCP4451T-503E/XX: T/R, 50 k , 20-LD Device
+g) MCP4451-104E/XX: 100 k , 20-LD Device
+h) MCP4451T-104E/XX: T/R, 100 k , 
+20-LD Device
+a) MCP4452-502E/XX: 5 k  14-LD Device
+b) MCP4452T-502E/XX: T/R, 5 k 14-LD Device
+c) MCP4452-103E/XX: 10 k , 14-LD Device
+d) MCP4452T-103E/XX: T/R, 10 k , 14-LD Device
+e) MCP4452-503E/XX: 50 k , 14-LD Device
+f) MCP4452T-503E/XX: T/R, 50 k , 14-LD Device
+g) MCP4452-104E/XX: 100 k , 14-LD Device
+h) MCP4452T-104E/XX: T/R, 100 k , 
+14-LD Device
+XX = ST for 14/20-lead TSSOP 
+= ML for 20-lead QFN  
+Version
+=== page 92
+MCP443X/5X
+DS22267A-page 92  2010 Microchip Technology Inc.
+NOTES:
+=== page 93
+ 2010 Microchip Technology Inc. DS22267A-page 93
+Information contained in this publication regarding device
+applications and the like is provided only for your convenience
+and may be superseded by updates. It is your responsibility to
+ensure that your application meets with your specifications.
+MICROCHIP MAKES NO REPRESENTATIONS OR
+WARRANTIES OF ANY KIND WHETHER EXPRESS OR
+IMPLIED, WRITTEN OR ORAL, STATUTORY OR
+OTHERWISE, RELATED TO THE INFORMATION,
+INCLUDING BUT NOT LIMITED TO ITS CONDITION,
+QUALITY , PERFORMANCE, MERCHANTABILITY OR
+FITNESS FOR PURPOSE . Microchip disclaims all liability
+arising from this information and its use. Use of Microchip
+devices in life support and/or safety applications is entirely at
+the buyer’s risk, and the buyer agrees to defend, indemnify and
+hold harmless Microchip from any and all damages, claims,
+suits, or expenses resulting from such use. No licenses are
+conveyed, implicitly or otherwise, under any Microchip
+intellectual property rights.
+Trademarks
+The Microchip name and logo, the Microchip logo, dsPIC, 
+KEELOQ, KEELOQ logo, MPLAB, PIC, PICmicro, PICSTART, 
+PIC32 logo, rfPIC and UNI/O are registered trademarks of 
+Microchip Technology Incorporated in the U.S.A. and other 
+countries.
+FilterLab, Hampshire, HI-TECH C, Linear Active Thermistor, 
+MXDEV, MXLAB, SEEVAL and The Embedded Control 
+Solutions Company are registered trademarks of Microchip 
+Technology Incorporated in the U.S.A.
+Analog-for-the-Digital Age, Application Maestro, CodeGuard, 
+dsPICDEM, dsPICDEM.net, dsPICworks, dsSPEAK, ECAN, 
+ECONOMONITOR, FanSense, HI-TIDE, In-Circuit Serial 
+Programming, ICSP, Mindi, MiWi, MPASM, MPLAB Certified 
+logo, MPLIB, MPLINK, mTouch, Octopus, Omniscient Code 
+Generation, PICC, PICC-18, PICDEM, PICDEM.net, PICkit, 
+PICtail, REAL ICE, rfLAB, Select Mode, Total Endurance, 
+TSHARC, UniWinDriver, WiperLock and ZENA are 
+trademarks of Microchip Technology Incorporated in the 
+U.S.A. and other countries.
+SQTP is a service mark of Microchip Technology Incorporated 
+in the U.S.A.
+All other trademarks mentioned herein are property of their 
+respective companies.
+© 2010, Microchip Technology Incorporated, Printed in the 
+U.S.A., All Rights Reserved.
+ Printed on recycled paper.
+ISBN: 978-1-60932-533-6 
+Note the following details of the code protection feature on Microchip devices:
+• Microchip products meet the specification cont ained in their particular Microchip Data Sheet.
+• Microchip believes that its family of products is one of the most secure families of its kind on the market today, when used i n the 
+intended manner and under normal conditions.
+• There are dishonest and possibly illegal methods used to breach the code protection feature. All of these methods, to our 
+knowledge, require using the Microchip products in a manner outside the operating specif ications contained in Microchip’s Data 
+Sheets. Most likely, the person doing so is engaged in theft of intellectual property.
+• Microchip is willing to work with the customer who is concerned about the integrity of their code.
+• Neither Microchip nor any other semiconduc tor manufacturer can guarantee the security of their code. Code protection does not 
+mean that we are guaranteeing the product as “unbreakable.”
+Code protection is constantly evolving. We at Microchip are co mmitted to continuously improvin g the code protection features of  our
+products. Attempts to break Microchip’s code protection feature may be a violation of the Digital Millennium Copyright Act. If such acts
+allow unauthorized access to your software or other copyrighted work, you may have a right to sue for relief under that Act.
+Microchip received ISO/TS-16949:2002 certification for its worldwide 
+headquarters, design and wafer fabrication facilities in Chandler and 
+Tempe, Arizona; Gresham, Oregon and design centers in California 
+and India. The Company’s quality system processes and procedures 
+are for its PIC® MCUs and dsPIC® DSCs, KEELOQ® code hopping 
+devices, Serial EEPROMs, microperipherals, nonvolatile memory and 
+analog products. In addition, Microchip’s quality system for the design 
+and manufacture of development systems is ISO 9001:2000 certified.
+
+=== page 94
+DS22267A-page 94  2010 Microchip Technology Inc.
+AMERICAS
+Corporate Office
+2355 West Chandler Blvd.
+Chandler, AZ 85224-6199
+Tel: 480-792-7200 
+Fax: 480-792-7277
+Technical Support: 
+http://support.microchip.com
+Web Address: 
+www.microchip.com
+Atlanta
+Duluth, GA 
+Tel: 678-957-9614 
+Fax: 678-957-1455
+Boston
+Westborough, MA 
+Tel: 774-760-0087 
+Fax: 774-760-0088
+Chicago
+Itasca, IL 
+Tel: 630-285-0071 
+Fax: 630-285-0075
+Cleveland
+Independence, OH 
+Tel: 216-447-0464 
+Fax: 216-447-0643
+Dallas
+Addison, TX 
+Tel: 972-818-7423 
+Fax: 972-818-2924
+Detroit
+Farmington Hills, MI 
+Tel: 248-538-2250
+Fax: 248-538-2260
+Kokomo
+Kokomo, IN 
+Tel: 765-864-8360
+Fax: 765-864-8387
+Los Angeles
+Mission Viejo, CA 
+Tel: 949-462-9523 
+Fax: 949-462-9608
+Santa Clara
+Santa Clara, CA 
+Tel: 408-961-6444
+Fax: 408-961-6445
+Toronto
+Mississauga, Ontario, 
+Canada
+Tel: 905-673-0699 
+Fax: 905-673-6509
+ASIA/PACIFIC
+Asia Pacific Office
+Suites 3707-14, 37th Floor
+Tower 6, The Gateway
+Harbour City, Kowloon
+Hong Kong
+Tel: 852-2401-1200
+Fax: 852-2401-3431
+Australia - Sydney
+Tel: 61-2-9868-6733
+Fax: 61-2-9868-6755
+China - Beijing
+Tel: 86-10-8528-2100 
+Fax: 86-10-8528-2104
+China - Chengdu
+Tel: 86-28-8665-5511
+Fax: 86-28-8665-7889
+China - Chongqing
+Tel: 86-23-8980-9588
+Fax: 86-23-8980-9500
+China - Hong Kong SAR
+Tel: 852-2401-1200 
+Fax: 852-2401-3431
+China - Nanjing
+Tel: 86-25-8473-2460
+Fax: 86-25-8473-2470
+China - Qingdao
+Tel: 86-532-8502-7355
+Fax: 86-532-8502-7205
+China - Shanghai
+Tel: 86-21-5407-5533 
+Fax: 86-21-5407-5066
+China - Shenyang
+Tel: 86-24-2334-2829
+Fax: 86-24-2334-2393
+China - Shenzhen
+Tel: 86-755-8203-2660 
+Fax: 86-755-8203-1760
+China - Wuhan
+Tel: 86-27-5980-5300
+Fax: 86-27-5980-5118
+China - Xian
+Tel: 86-29-8833-7252
+Fax: 86-29-8833-7256
+China - Xiamen
+Tel: 86-592-2388138 
+Fax: 86-592-2388130
+China - Zhuhai
+Tel: 86-756-3210040 
+Fax: 86-756-3210049
+ASIA/PACIFIC
+India - Bangalore
+Tel: 91-80-3090-4444 
+Fax: 91-80-3090-4123
+India - New Delhi
+Tel: 91-11-4160-8631
+Fax: 91-11-4160-8632
+India - Pune
+Tel: 91-20-2566-1512
+Fax: 91-20-2566-1513
+Japan - Yokohama
+Tel: 81-45-471- 6166 
+Fax: 81-45-471-6122
+Korea - Daegu
+Tel: 82-53-744-4301
+Fax: 82-53-744-4302
+Korea - Seoul
+Tel: 82-2-554-7200
+Fax: 82-2-558-5932 or 
+82-2-558-5934
+Malaysia - Kuala Lumpur
+Tel: 60-3-6201-9857
+Fax: 60-3-6201-9859
+Malaysia - Penang
+Tel: 60-4-227-8870
+Fax: 60-4-227-4068
+Philippines - Manila
+Tel: 63-2-634-9065
+Fax: 63-2-634-9069
+Singapore
+Tel: 65-6334-8870
+Fax: 65-6334-8850
+Taiwan - Hsin Chu
+Tel: 886-3-6578-300
+Fax: 886-3-6578-370
+Taiwan - Kaohsiung
+Tel: 886-7-213-7830
+Fax: 886-7-330-9305
+Taiwan - Taipei
+Tel: 886-2-2500-6610 
+Fax: 886-2-2508-0102
+Thailand - Bangkok
+Tel: 66-2-694-1351
+Fax: 66-2-694-1350
+EUROPE
+Austria - Wels
+Tel: 43-7242-2244-39
+Fax: 43-7242-2244-393
+Denmark - Copenhagen
+Tel: 45-4450-2828 
+Fax: 45-4485-2829
+France - Paris
+Tel: 33-1-69-53-63-20 
+Fax: 33-1-69-30-90-79
+Germany - Munich
+Tel: 49-89-627-144-0 
+Fax: 49-89-627-144-44
+Italy - Milan 
+Tel: 39-0331-742611 
+Fax: 39-0331-466781
+Netherlands - Drunen
+Tel: 31-416-690399 
+Fax: 31-416-690340
+Spain - Madrid
+Tel: 34-91-708-08-90
+Fax: 34-91-708-08-91
+UK - Wokingham
+Tel: 44-118-921-5869
+Fax: 44-118-921-5820
+Worldwide Sales and Service
+08/04/10

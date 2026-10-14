@@ -1,0 +1,25 @@
+{
+ "_why": "Step 5e: R106.2 (SCL) to J9.7 on F.Cu only (clearance 0.25, the card's GND class, for every net)",
+ "add_segments": [
+  {
+   "net": "SCL",
+   "layer": "F.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     57.975,
+     94.0
+    ],
+    [
+     58.0,
+     94.45
+    ],
+    [
+     58.0,
+     95.25
+    ]
+   ]
+  }
+ ],
+ "add_vias": []
+}

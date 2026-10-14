@@ -1,0 +1,52 @@
+{
+ "_why": "R107.2 (SDA) to J9.8: F stub to a via at (55.6, 100.7) (outside the pad, under the I1 / I3 label gap), then In2 (the 5V layer) east and 45 degrees into J9.8's In2 pad -- route_new's path from step 5f without its 0.07 mm jog",
+ "add_vias": [
+  {
+   "net": "SDA",
+   "x": 55.6,
+   "y": 100.7,
+   "size": 0.5,
+   "drill": 0.3
+  }
+ ],
+ "add_segments": [
+  {
+   "net": "SDA",
+   "layer": "F.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     55.975,
+     101.45
+    ],
+    [
+     55.6,
+     101.075
+    ],
+    [
+     55.6,
+     100.7
+    ]
+   ]
+  },
+  {
+   "net": "SDA",
+   "layer": "In2.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     55.6,
+     100.7
+    ],
+    [
+     57.25,
+     100.7
+    ],
+    [
+     59.1,
+     98.85
+    ]
+   ]
+  }
+ ]
+}

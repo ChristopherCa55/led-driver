@@ -1,0 +1,143 @@
+{
+ "_note": "The ONLY deviations from the original that the electrical check accepts. Approved by the user. Do not edit without the user's own-words OK.",
+ "instance_renames": {
+  "SIM_VBATT": "SIM_BATTERY",
+  "SIM_RCABLE": "SIM_CABLE_RESISTANCE",
+  "SIM_LCABLE": "SIM_CABLE_INDUCTANCE"
+ },
+ "comment_changes": {},
+ "asy_graphics_only": [
+  "INA241A4.asy",
+  "CSS4J_4026.asy",
+  "CD74HC4066.asy",
+  "MCP4451_POT.asy",
+  "MCP4451_CTRL.asy",
+  "UCC21520.asy",
+  "74HC4051.asy",
+  "CD4017B.asy",
+  "L78L05.asy",
+  "MC7812.asy"
+ ],
+ "_asy_note": "2026-10-07, user OK to fix the custom symbols' doubled pin text now. Drawing changes only; E5 still requires identical pins, pin order and electrical attributes.",
+ "removed_elements": [
+  "R14"
+ ],
+ "_removed_note": "2026-10-07, user's own words: delete the 1Meg resistor R14 (LX to GND) from LTspice, the KiCad schematic and the KiCad PCB.",
+ "_asy_note_2": "2026-10-07, user's words: 'Just go through all custom symbols, and fix them' (no overlapping text, all text inside the box, look like KiCad). All 10 custom symbols redrawn by ltspice_layout_2026-10-05/tools/make_symbols.py.",
+ "asy_pins_moved": [
+  "74HC4051.asy",
+  "CD4017B.asy"
+ ],
+ "_pins_moved_note": "2026-10-07, user's answer: 'Move 4051/4017 pins' to KiCad's arrangement. Pin names, pin order and electrical attributes must still match; E1 proves the rewired connections.",
+ "pin_swaps": [
+  {
+   "element": "U103B",
+   "pins": [
+    1,
+    3
+   ],
+   "why": "NAND inputs are interchangeable"
+  }
+ ],
+ "_pin_swaps_note": "2026-10-09, user's own words: 'For the nand having the inputs swapped, that doesn't matter. you can add it to the approved list.' U103B (74HC00, ch3 enable gate) has Out- and ena_out_3 on each other's input; same logic, but the LTspice pin order for that gate no longer matches the original/KiCad.",
+ "directive_changes": {
+  ".ic V(Out)=0 V(Out-)=1 V(C10)=0 V(C5)=0 V(C2)=0": ".ic V(Out)=0 V(Out-)=1"
+ },
+ "removed_comments": [
+  ".ic V(Vout_1)=30 V(Vout_2)=38 V(Vout_3)=30"
+ ],
+ "added_directives": [
+  "* diode part names: LTspice's default diode, as before\\n.model 1N4148W D\\n.model B5819W D\\n.model BAV21W D\\n.model BAT54WS D"
+ ],
+ "value_changes": {
+  "D2": [
+   "D",
+   "B5819W"
+  ],
+  "D8": [
+   "D",
+   "B5819W"
+  ],
+  "D11": [
+   "D",
+   "B5819W"
+  ],
+  "D13": [
+   "D",
+   "B5819W"
+  ],
+  "D14": [
+   "D",
+   "B5819W"
+  ],
+  "D22": [
+   "D",
+   "B5819W"
+  ],
+  "D9": [
+   "D",
+   "BAV21W"
+  ],
+  "D10": [
+   "D",
+   "BAV21W"
+  ],
+  "D21": [
+   "D",
+   "BAV21W"
+  ],
+  "D1": [
+   "D",
+   "1N4148W"
+  ],
+  "D3": [
+   "D",
+   "1N4148W"
+  ],
+  "D4": [
+   "D",
+   "1N4148W"
+  ],
+  "D5": [
+   "D",
+   "1N4148W"
+  ],
+  "D6": [
+   "D",
+   "1N4148W"
+  ],
+  "D7": [
+   "D",
+   "1N4148W"
+  ],
+  "D15": [
+   "D",
+   "1N4148W"
+  ],
+  "D20": [
+   "D",
+   "1N4148W"
+  ],
+  "D24": [
+   "D",
+   "1N4148W"
+  ],
+  "D27": [
+   "D",
+   "1N4148W"
+  ],
+  "D23": [
+   "D",
+   "BAT54WS"
+  ],
+  "D25": [
+   "D",
+   "BAT54WS"
+  ],
+  "D26": [
+   "D",
+   "BAT54WS"
+  ]
+ },
+ "_review_fixes_note": "2026-10-11, user's own words: 'you can remove the .ic lines that are not used anymore' (V(C10), V(C5), V(C2) name no node; the run without them is bit-identical) and, for the diode values, 'in the ltspice it just says D under the name Dxx, where I feel like it should say the actual name of the diode' (each name is a .model alias of LTspice's default diode, so the simulation is unchanged)."
+}

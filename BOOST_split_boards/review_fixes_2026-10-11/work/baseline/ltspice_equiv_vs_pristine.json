@@ -1,0 +1,42 @@
+{
+ "candidate": "C:\\Users\\bubba\\OneDrive\\Documents\\led-driver\\BOOST_review_fixes\\LTspice\\BOOST.asc",
+ "reference": "review_fixes_2026-10-11\\work\\pristine\\LTspice\\BOOST.asc",
+ "checks": {
+  "E1 netlist identity": {
+   "pass": true,
+   "details": [
+    "elements 301 -> 301, nets compared 152, differing 0"
+   ]
+  },
+  "E2 name-based connections": {
+   "pass": true,
+   "details": [
+    "U18 SpiceModel \"5V 0\"; net 5V present; labels 4..10 kept"
+   ]
+  },
+  "E3 directives and comments": {
+   "pass": true,
+   "details": [
+    "18 directive texts, 73 original comments checked"
+   ]
+  },
+  "E4 referenced identifiers": {
+   "pass": true,
+   "details": [
+    "note: V(C10) names no node in the ORIGINAL either (pre-existing, left as is)",
+    "note: V(C2) names no node in the ORIGINAL either (pre-existing, left as is)",
+    "note: V(C5) names no node in the ORIGINAL either (pre-existing, left as is)",
+    "checked V(): 0A_hi, C10, C2, C5, LX, Out, Out-, SRV1, SRV2, SRV3, Vref_1, Vref_2, Vref_3",
+    "checked I(): D19, L1",
+    "checked params: IREF1_DUTY, IREF2_DUTY, IREF3_DUTY, POT1_CODE, POT2_CODE, POT3_CODE"
+   ]
+  },
+  "E5 support files": {
+   "pass": true,
+   "details": [
+    "all .asy/.lib files identical to the original"
+   ]
+  }
+ },
+ "pass": true
+}

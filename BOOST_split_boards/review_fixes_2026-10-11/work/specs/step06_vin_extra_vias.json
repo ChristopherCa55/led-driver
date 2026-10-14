@@ -1,0 +1,8 @@
+{
+ "_why": "X1 follow-up (user: 12V option A 'looks good', test an extra Vin via): Option A moved current onto the R1 funnel's east column; three more Vin vias (0.9 / 0.5, like the funnel's) extend that column at x 72.25, where every layer is Vin copper, so no plane is cut.",
+ "add_vias": [
+  {"net": "Vin", "x": 72.25, "y": 41.55, "size": 0.9, "drill": 0.5},
+  {"net": "Vin", "x": 72.25, "y": 42.4, "size": 0.9, "drill": 0.5},
+  {"net": "Vin", "x": 72.25, "y": 43.25, "size": 0.9, "drill": 0.5}
+ ]
+}

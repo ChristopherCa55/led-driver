@@ -1,0 +1,30 @@
+ERC report (2026-10-11T10:07:59, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(134.62 mm, 438.15 mm): Symbol U26 Pin 3 [P3B, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(134.62 mm, 440.69 mm): Symbol U26 Pin 2 [P3W, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(134.62 mm, 443.23 mm): Symbol U26 Pin 1 [P3A, Passive, Line]
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(121.92 mm, 438.15 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(121.92 mm, 440.69 mm): No Connect
+[no_connect_dangling]: Unconnected "no connection" flag
+    ; warning
+    @(121.92 mm, 443.23 mm): No Connect
+
+ ** ERC messages: 6  Errors 3  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

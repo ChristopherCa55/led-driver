@@ -1,0 +1,88 @@
+(footprint "R_Bourns_CSS4J-4026"
+	(version 20260206)
+	(generator "boost_scripts")
+	(layer "F.Cu")
+	(descr "Bourns CSS4J-4026 4-terminal metal-strip current sense resistor (10.06 x 6.60 mm). Pads 1,4 current; 2,3 sense. Inner geometry from the Bourns datasheet recommended pad layout (7.30 mm overall, 5.60 mm force pad, 0.80 mm gaps and sense width, 10.40 mm across the sense arms). The datasheet draws the force pads and sense traces continuing outward; the 7.20 mm force-pad outer edge and the 2.1 mm sense-leg stub are layout choices. https://www.bourns.com/docs/product-datasheets/css4j-4026.pdf")
+	(tags "current sense shunt kelvin 4-terminal 4026 Bourns CSS4J")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Bourns_CSS4J-4026"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.03 -3.3)
+		(end 5.03 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -7.45 -4.85)
+		(end 7.45 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(pad "1" smd rect
+		(at -4.7 1.1)
+		(size 5 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "1" smd rect
+		(at -6.6 -2.5)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at -2.825 -2.95)
+		(size 4.75 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at -0.85 -3.55)
+		(size 0.8 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd rect
+		(at 4.7 1.1)
+		(size 5 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "4" smd rect
+		(at 6.6 -2.5)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at 2.825 -2.95)
+		(size 4.75 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at 0.85 -3.55)
+		(size 0.8 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+)

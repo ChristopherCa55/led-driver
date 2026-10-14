@@ -1,0 +1,759 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-11T02:17:35",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D27",
+                    "pos": {
+                        "x": 52.7606,
+                        "y": 77.5629
+                    },
+                    "uuid": "4a2347fc-d624-43c6-b6d2-ef4ab74dafea"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 60.67529,
+                        "y": 76.513695
+                    },
+                    "uuid": "c12b96c5-3238-4f1f-8702-623ebff06f53"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: '', Schematic: 'control card M3 mounting hole (nylon standoff, not plated, isolated)')",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 60.67529,
+                        "y": 76.513695
+                    },
+                    "uuid": "c12b96c5-3238-4f1f-8702-623ebff06f53"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 75.070812,
+                        "y": 75.750733
+                    },
+                    "uuid": "ac2c882b-4678-4338-9bf6-f68e57f1c9b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: '', Schematic: 'control card M3 mounting hole (nylon standoff, not plated, isolated)')",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 75.070812,
+                        "y": 75.750733
+                    },
+                    "uuid": "ac2c882b-4678-4338-9bf6-f68e57f1c9b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 54.456685,
+                        "y": 106.463745
+                    },
+                    "uuid": "6c6ccfe6-b32b-4619-bb60-a8847ee93f60"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: '', Schematic: 'control card M3 mounting hole (nylon standoff, not plated, isolated)')",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 54.456685,
+                        "y": 106.463745
+                    },
+                    "uuid": "6c6ccfe6-b32b-4619-bb60-a8847ee93f60"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 85.121167,
+                        "y": 109.507071
+                    },
+                    "uuid": "edf46ca9-1026-42d5-8f17-b3e9d9b69062"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: '', Schematic: 'control card M3 mounting hole (nylon standoff, not plated, isolated)')",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 85.121167,
+                        "y": 109.507071
+                    },
+                    "uuid": "edf46ca9-1026-42d5-8f17-b3e9d9b69062"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: '', Schematic: 'Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)')",
+            "items": [
+                {
+                    "description": "Footprint J9",
+                    "pos": {
+                        "x": 51.065,
+                        "y": 95.9
+                    },
+                    "uuid": "fd7d84d2-0f04-46cc-86db-a6e6c8a33cf9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "df1f062a-c685-44d6-92d3-b15ddef74d9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 72.6284,
+                        "y": 90.3076
+                    },
+                    "uuid": "0f3b35bc-b4de-4c65-9d8a-9da286980859"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R25",
+                    "pos": {
+                        "x": 82.138,
+                        "y": 94.4579
+                    },
+                    "uuid": "37c76391-82a0-41aa-a584-29f968cb764c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R35",
+                    "pos": {
+                        "x": 71.8732,
+                        "y": 71.3102
+                    },
+                    "uuid": "435eada7-624f-4bd1-b6e0-d858585b019a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R43",
+                    "pos": {
+                        "x": 73.2635,
+                        "y": 94.4813
+                    },
+                    "uuid": "e1e4a27d-5152-480f-8b35-363c4c265b78"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R87",
+                    "pos": {
+                        "x": 78.7432,
+                        "y": 95.1644
+                    },
+                    "uuid": "0d079950-d2df-4d87-af88-57bcffacf0a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R94",
+                    "pos": {
+                        "x": 76.1249,
+                        "y": 71.2195
+                    },
+                    "uuid": "9ec15fb6-dd09-4e36-bda7-dc24927b2375"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R105",
+                    "pos": {
+                        "x": 52.4117,
+                        "y": 81.6737
+                    },
+                    "uuid": "9bce7488-bd55-49dd-81e9-216b4e80cb5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U3) doesn't match symbol value (MCP6241)",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 62.9883,
+                        "y": 90.778
+                    },
+                    "uuid": "11b9957d-9bdd-4327-88f6-50cdd9fc1815"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Library' differs (PCB: 'C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib', Schematic: '../LTspice/TLV9001.lib')",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 62.9883,
+                        "y": 90.778
+                    },
+                    "uuid": "11b9957d-9bdd-4327-88f6-50cdd9fc1815"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U7) doesn't match symbol value (MCP6241)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 87.388,
+                        "y": 84.1662
+                    },
+                    "uuid": "63b32985-71b1-456c-a7ea-2fe3ab92f974"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Library' differs (PCB: 'C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib', Schematic: '../LTspice/TLV9001.lib')",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 87.388,
+                        "y": 84.1662
+                    },
+                    "uuid": "63b32985-71b1-456c-a7ea-2fe3ab92f974"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U13) doesn't match symbol value (MCP6241)",
+            "items": [
+                {
+                    "description": "Footprint U13",
+                    "pos": {
+                        "x": 79.0162,
+                        "y": 86.576
+                    },
+                    "uuid": "67ec1844-3c9c-4d5a-980b-ca6b4f8c9cac"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Library' differs (PCB: 'C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib', Schematic: '../LTspice/TLV9001.lib')",
+            "items": [
+                {
+                    "description": "Footprint U13",
+                    "pos": {
+                        "x": 79.0162,
+                        "y": 86.576
+                    },
+                    "uuid": "67ec1844-3c9c-4d5a-980b-ca6b4f8c9cac"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Pad net (Net-(U102C-A)) doesn't match net given by schematic (OUT_2_ENA)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U102C-A)] of U18 on F.Cu",
+                    "pos": {
+                        "x": 74.6656,
+                        "y": 87.1778
+                    },
+                    "uuid": "ca98d74c-aaee-404d-a85b-ccc0aecb62ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U102B-A)) doesn't match net given by schematic (OUT_1_ENA)",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(U102B-A)] of U18 on F.Cu",
+                    "pos": {
+                        "x": 75.9356,
+                        "y": 87.1778
+                    },
+                    "uuid": "033b81aa-d078-4e21-97e3-0fb132a351a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U103A-A)) doesn't match net given by schematic (OUT_3_ENA)",
+            "items": [
+                {
+                    "description": "Pad 4 [Net-(U103A-A)] of U18 on F.Cu",
+                    "pos": {
+                        "x": 77.2056,
+                        "y": 87.1778
+                    },
+                    "uuid": "304e9856-4b7a-406e-af29-4f7d0fb800b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U18-Q3)) doesn't match net given by schematic (4)",
+            "items": [
+                {
+                    "description": "Pad 7 [Net-(U18-Q3)] of U18 on F.Cu",
+                    "pos": {
+                        "x": 81.0156,
+                        "y": 87.1778
+                    },
+                    "uuid": "1887d456-478c-4361-8483-da3f27335b43"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U18-Q3)) doesn't match net given by schematic (4)",
+            "items": [
+                {
+                    "description": "Pad 15 [Net-(U18-Q3)] of U18 on F.Cu",
+                    "pos": {
+                        "x": 74.6656,
+                        "y": 82.2278
+                    },
+                    "uuid": "3f20b242-a8ac-43d6-8ca2-1f6827cc7375"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Value (U22) doesn't match symbol value (MCP6241)",
+            "items": [
+                {
+                    "description": "Footprint U22",
+                    "pos": {
+                        "x": 49.4962,
+                        "y": 90.387
+                    },
+                    "uuid": "9772f148-71ed-463b-95df-dd1d0b3882d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Library' differs (PCB: 'C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib', Schematic: '../LTspice/TLV9001.lib')",
+            "items": [
+                {
+                    "description": "Footprint U22",
+                    "pos": {
+                        "x": 49.4962,
+                        "y": 90.387
+                    },
+                    "uuid": "9772f148-71ed-463b-95df-dd1d0b3882d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U23) doesn't match symbol value (MCP6241)",
+            "items": [
+                {
+                    "description": "Footprint U23",
+                    "pos": {
+                        "x": 75.4785,
+                        "y": 82.4082
+                    },
+                    "uuid": "b83dc0a0-30b5-449d-9534-43146565dd94"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Library' differs (PCB: 'C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib', Schematic: '../LTspice/TLV9001.lib')",
+            "items": [
+                {
+                    "description": "Footprint U23",
+                    "pos": {
+                        "x": 75.4785,
+                        "y": 82.4082
+                    },
+                    "uuid": "b83dc0a0-30b5-449d-9534-43146565dd94"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U24) doesn't match symbol value (MCP6241)",
+            "items": [
+                {
+                    "description": "Footprint U24",
+                    "pos": {
+                        "x": 77.0072,
+                        "y": 91.4446
+                    },
+                    "uuid": "f570879e-5613-44e6-9d26-fbef1f0da2a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Library' differs (PCB: 'C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\MCP6241.lib', Schematic: '../LTspice/TLV9001.lib')",
+            "items": [
+                {
+                    "description": "Footprint U24",
+                    "pos": {
+                        "x": 77.0072,
+                        "y": 91.4446
+                    },
+                    "uuid": "f570879e-5613-44e6-9d26-fbef1f0da2a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U26",
+                    "pos": {
+                        "x": 57.5481,
+                        "y": 88.6174
+                    },
+                    "uuid": "bdd18763-bd16-4f8a-b82d-58bd10e80b59"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Pad net (Net-(U103A-A)) doesn't match net given by schematic (OUT_3_ENA)",
+            "items": [
+                {
+                    "description": "Pad 9 [Net-(U103A-A)] of U28 on F.Cu",
+                    "pos": {
+                        "x": 78.0979,
+                        "y": 110.0506
+                    },
+                    "uuid": "00eaded4-011d-440e-8d27-c2e61c931039"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U102C-A)) doesn't match net given by schematic (OUT_2_ENA)",
+            "items": [
+                {
+                    "description": "Pad 10 [Net-(U102C-A)] of U28 on F.Cu",
+                    "pos": {
+                        "x": 78.0979,
+                        "y": 108.7806
+                    },
+                    "uuid": "b626e081-6787-4f66-b922-a73ebc5de584"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U102B-A)) doesn't match net given by schematic (OUT_1_ENA)",
+            "items": [
+                {
+                    "description": "Pad 11 [Net-(U102B-A)] of U28 on F.Cu",
+                    "pos": {
+                        "x": 78.0979,
+                        "y": 107.5106
+                    },
+                    "uuid": "917f32e2-ffc8-4107-96ab-f3887ed08a92"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Field 'Sim.Params' differs (PCB: 'Vhigh=5 Vlow=0 Vt=2.5 Td=5n Trise=2n Tfall=2n Rhigh=25 Rlow=15', Schematic: 'model=\"Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75n Tfall=8.75n Rhigh=45 Rlow=38\"')",
+            "items": [
+                {
+                    "description": "Footprint U101",
+                    "pos": {
+                        "x": 57.8164,
+                        "y": 83.8072
+                    },
+                    "uuid": "2c22c5e6-0c9a-4eb9-9ed7-51d3396f5d8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Sim.Params' differs (PCB: 'model=\"Vhigh=5 Vlow=0 Vt=2.5 Td=5n Trise=2n Tfall=2n Rhigh=25 Rlow=15\"', Schematic: 'model=\"Vhigh=5 Vlow=0 Vt=2.5 Td=2.6n Trise=8.75n Tfall=8.75n Rhigh=45 Rlow=38\"')",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 84.4875,
+                        "y": 76.0103
+                    },
+                    "uuid": "f6f875ea-2f01-4ee9-85a2-702ab53a3444"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Pad net (Net-(U102B-A)) doesn't match net given by schematic (OUT_1_ENA)",
+            "items": [
+                {
+                    "description": "Pad 4 [Net-(U102B-A)] of U102 on F.Cu",
+                    "pos": {
+                        "x": 86.9625,
+                        "y": 76.0103
+                    },
+                    "uuid": "471ef7b1-8113-467c-9fa0-52d078b602f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (Net-(U102C-A)) doesn't match net given by schematic (OUT_2_ENA)",
+            "items": [
+                {
+                    "description": "Pad 10 [Net-(U102C-A)] of U102 on F.Cu",
+                    "pos": {
+                        "x": 82.0125,
+                        "y": 74.7403
+                    },
+                    "uuid": "f47da8c3-a096-40a1-b3cf-6aaca1336219"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U103",
+                    "pos": {
+                        "x": 83.9984,
+                        "y": 99.2947
+                    },
+                    "uuid": "4fda9d3a-3a51-48f3-9833-b34963f68efa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Pad net (Net-(U103A-A)) doesn't match net given by schematic (OUT_3_ENA)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U103A-A)] of U103 on F.Cu",
+                    "pos": {
+                        "x": 87.8084,
+                        "y": 96.8197
+                    },
+                    "uuid": "982181db-f10d-43b6-8a79-2671fd2a7bad"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Field 'Sim.Params' differs (PCB: 'model=\"Vhigh=5 Vlow=0 Vt=2.5 Vh=0.45 Td=15n Trise=7n Tfall=7n Rout=50\"', Schematic: 'model=\"Vhigh=5 Vlow=0 Vt=2.098 Vh=0.535 Td=7.6n Trise=8.75n Tfall=8.75n Rout=41\"')",
+            "items": [
+                {
+                    "description": "Footprint U104",
+                    "pos": {
+                        "x": 52.7388,
+                        "y": 79.2247
+                    },
+                    "uuid": "caf94ccb-a2c1-4d48-bd9b-dd8b1f8c1540"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U105",
+                    "pos": {
+                        "x": 86.8949,
+                        "y": 85.2694
+                    },
+                    "uuid": "c7d6a417-c47c-4bc1-b934-d8950886d1d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "BOOST_control_RC2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'PinHeader_2x15_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "df1f062a-c685-44d6-92d3-b15ddef74d9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

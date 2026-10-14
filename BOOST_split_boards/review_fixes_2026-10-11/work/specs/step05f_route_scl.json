@@ -1,0 +1,34 @@
+{
+ "_why": "Step 5e: R106.2 (SCL) to J9.7 on F.Cu only (clearance 0.25, the card's GND class, for every net)",
+ "region": [
+  50,
+  90,
+  64.5,
+  104
+ ],
+ "clearance": 0.25,
+ "via": [
+  0.5,
+  0.3
+ ],
+ "via_cost": 1.5,
+ "turn_cost": 0.15,
+ "foreign_via_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0
+ },
+ "layers": [
+  "F.Cu"
+ ],
+ "connections": [
+  {
+   "pad": [
+    "R106",
+    "2"
+   ],
+   "net": "SCL",
+   "goal": "copper",
+   "width": 0.2
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "_why": "C1: Net-(U101A-Y) between (51.675, 75.175) and (55.125, 87.925) on In2 / B / F instead of In1",
+ "region": [
+  46.5,
+  71,
+  62,
+  92
+ ],
+ "clearance": 0.2,
+ "via": [
+  0.5,
+  0.3
+ ],
+ "via_cost": 3.0,
+ "turn_cost": 0.15,
+ "layers": [
+  "In2.Cu",
+  "B.Cu",
+  "F.Cu"
+ ],
+ "foreign_via_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0
+ },
+ "connections": [
+  {
+   "start_xy": [
+    51.675,
+    75.175,
+    "In2.Cu"
+   ],
+   "net": "Net-(U101A-Y)",
+   "goal": "points",
+   "goal_xy": [
+    [
+     55.125,
+     87.925
+    ]
+   ],
+   "width": 0.2
+  }
+ ],
+ "layer_cost": {
+  "B.Cu": 1.5,
+  "F.Cu": 1.5
+ }
+}

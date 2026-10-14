@@ -1,0 +1,7 @@
+{"_why": "D1 pull-ups R106 (SCL) / R107 (SDA) on B.Cu in the free strip under J9; D2 R99 / R102 1k",
+ "footprints": [
+  {"ref": "R106", "template": "R99", "x": 57.4, "y": 106.5, "rot": 0, "value": "4.7k",
+   "path": "/6c1f7a52-3d0e-4b8a-9a61-5e2b4f0c1061", "nets": {"1": "5V", "2": "SCL"}},
+  {"ref": "R107", "template": "R99", "x": 60.5, "y": 106.5, "rot": 0, "value": "4.7k",
+   "path": "/6c1f7a52-3d0e-4b8a-9a61-5e2b4f0c1071", "nets": {"1": "5V", "2": "SDA"}}],
+ "values": [{"ref": "R99", "value": "1k"}, {"ref": "R102", "value": "1k"}]}

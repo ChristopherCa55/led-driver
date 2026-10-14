@@ -1,0 +1,130 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-11T12:19:11",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [
+        {
+            "description": "Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (Resistor_SMD:R_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 54.2,
+                        "y": 84.45
+                    },
+                    "uuid": "47b88105-ea67-49c1-a073-52bc5e1e5af8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Resistor_SMD:R_0402_1005Metric doesn't match footprint given by symbol (Resistor_SMD:R_0603_1608Metric)",
+            "items": [
+                {
+                    "description": "Footprint R107",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 106.6
+                    },
+                    "uuid": "245a0b10-ada1-4b58-8bb8-553c6288e15f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
+    "source": "BOOST_control_RC2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 54.2,
+                        "y": 84.45
+                    },
+                    "uuid": "47b88105-ea67-49c1-a073-52bc5e1e5af8"
+                },
+                {
+                    "description": "Footprint U26",
+                    "pos": {
+                        "x": 57.5481,
+                        "y": 88.6174
+                    },
+                    "uuid": "bdd18763-bd16-4f8a-b82d-58bd10e80b59"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Footprint 'PinHeader_2x15_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "df1f062a-c685-44d6-92d3-b15ddef74d9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Polygon of U26 on B.Silkscreen",
+                    "pos": {
+                        "x": 54.6181,
+                        "y": 84.7574
+                    },
+                    "uuid": "62a3be35-4b9b-4176-81d9-093881191117"
+                },
+                {
+                    "description": "Pad 2 [SCL] of R106 on B.Cu",
+                    "pos": {
+                        "x": 54.71,
+                        "y": 84.45
+                    },
+                    "uuid": "54b3473a-c0a2-44be-b263-27c2a83a13b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

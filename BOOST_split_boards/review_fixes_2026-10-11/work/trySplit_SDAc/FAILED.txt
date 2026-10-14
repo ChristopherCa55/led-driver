@@ -1,0 +1,1 @@
+REJECTED 2026-10-13: SDA re-routed with per-net clearance takes nearly the same path round J9 east end (main In1 piece 972.3 -> 973.9 mm2; the 7.6 mm separating cut becomes 3.4 mm), but its last leg starves J9.10 GND thermal spokes on In1 (DRC error starved_thermal). SDA must pass round J9 east end anyway: the existing route is already near the least-harm place; SDA stays.

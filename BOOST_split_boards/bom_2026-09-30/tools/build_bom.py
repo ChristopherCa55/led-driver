@@ -96,7 +96,7 @@ line(P, 'R7,R52,R53', '50 mOhm WSL2512', '2512', 'JLC', 'C413486', ['C127698 thi
      'LED current sinks: 2.63 A, 0.35 W each. The value sets the LED current, so the TCR matters: WSL2512 metal strip '
      '+/-75 ppm/C ($0.23) against thick film +/-800 ppm/C ($0.04)')
 line(P, 'R13,R23,R47', '220', '0603', 'JLC', 'C22962', [], 'res')
-line(P, 'R14', '1M', '0805', 'JLC', 'C17514', [], 'res', 'on LX (65 V peak): 150 V rated')
+# R14 (1M, LX to GND) deleted from the design 2026-10-07 at the user's request
 line(P, 'R15', '10', '0805', 'JLC', 'C17415', [], 'res')
 line(P, 'R21,R48,R60,R72', '5.1', '0805', 'JLC', 'C17724', ['C25273 4.99 Ohm'], 'approved',
      'rev6: 5 -> 5.1 Ohm (5.0 Ohm 0805 is not stocked), the value R59/R70 already use')

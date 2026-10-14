@@ -1,0 +1,18 @@
+(version 1)
+# Tightening-only rules for the BOOST power board (2026-09-16). Nothing here relaxes a board or netclass rule.
+
+(rule "every via drill at least 0.30 mm (JLCPCB: 0.25 mm drills add cost and a Kelvin test)"
+	(condition "A.Type == 'Via'")
+	(constraint hole_size (min 0.3mm)))
+
+(rule "Power netclass tracks at least 0.5 mm"
+	(condition "A.Type == 'Track' && A.NetClass == 'Power'")
+	(constraint track_width (min 0.5mm)))
+
+(rule "high-current nets: tracks at least 1.0 mm"
+	(condition "A.Type == 'Track' && (A.NetName == 'Vin' || A.NetName == 'rsense_lo' || A.NetName == 'LX' || A.NetName == 'm2_source' || A.NetName == 'm3_source' || A.NetName == 'm4_source' || A.NetName == 'Vout_1' || A.NetName == 'Vout_2' || A.NetName == 'Vout_3' || A.NetName == 'Output1_drain' || A.NetName == 'Output2_drain' || A.NetName == 'Output3_drain' || A.NetName == 'Net-(M8-S)' || A.NetName == 'Net-(M9-S)' || A.NetName == 'Net-(M10-S)')")
+	(constraint track_width (min 1.0mm)))
+
+(rule "high-current vias at least 0.40 mm drill"
+	(condition "A.Type == 'Via' && (A.NetName == 'Vin' || A.NetName == 'rsense_lo' || A.NetName == 'LX' || A.NetName == 'Vout_1' || A.NetName == 'Vout_2' || A.NetName == 'Vout_3' || A.NetName == 'Output1_drain' || A.NetName == 'Output2_drain' || A.NetName == 'Output3_drain')")
+	(constraint hole_size (min 0.4mm)))

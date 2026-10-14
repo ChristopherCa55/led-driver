@@ -1,0 +1,374 @@
+{
+ "file": "work/BOOST.asc",
+ "mode": {
+  "blocks": [
+   "PWR",
+   "ISNS",
+   "CREG1",
+   "REF1",
+   "EA1"
+  ],
+  "no_frames": false,
+  "split": false
+ },
+ "rules": {
+  "H2 membership in frames": {
+   "pass": true,
+   "details": [],
+   "note": ""
+  },
+  "H3 one drawing per block": {
+   "pass": true,
+   "details": [
+    "every checked block is one connected drawing"
+   ],
+   "note": ""
+  },
+  "H3b no orphan parts": {
+   "pass": true,
+   "details": [
+    "no orphan parts"
+   ],
+   "note": ""
+  },
+  "H4 no label jumps inside a block": {
+   "pass": true,
+   "details": [
+    "no signal net relies on a label inside a block"
+   ],
+   "note": ""
+  },
+  "H6 block exits": {
+   "pass": true,
+   "details": [
+    "every exit is a direct wire to an adjacent block or one port label on the boundary band"
+   ],
+   "note": ""
+  },
+  "H5 continuous power path": {
+   "pass": true,
+   "details": [
+    "power path, battery chain and ground return wired continuously"
+   ],
+   "note": ""
+  },
+  "H7 supply labels": {
+   "pass": true,
+   "details": [
+    "supply and ground flags are plain"
+   ],
+   "note": ""
+  },
+  "H8 wiring hygiene": {
+   "pass": true,
+   "details": [
+    "no 4-way junctions, hidden pin contacts, overlaps, near-junction crossings or wires through symbols"
+   ],
+   "note": ""
+  },
+  "H9 text and spacing (estimated)": {
+   "pass": true,
+   "details": [
+    "no estimated text overlaps or crowding"
+   ],
+   "note": "Text sizes are estimates (blocks.json text_metrics); confirm every finding, and the absence of findings, in LTspice screenshots."
+  },
+  "H10 matching copies": {
+   "pass": true,
+   "details": [
+    "all channel copies match"
+   ],
+   "note": ""
+  },
+  "H11 notes beside their subject": {
+   "pass": true,
+   "details": [
+    "notes placed with their subject"
+   ],
+   "note": "Verbatim presence of every original note is checked by ltspice_equiv.py (E3)."
+  },
+  "H12 bypass caps at their IC": {
+   "pass": true,
+   "details": [
+    "every bypass cap sits on its owner's supply pin"
+   ],
+   "note": "Owners marked ambiguous in bypass_map.json are provisional until the user confirms them."
+  }
+ },
+ "flags": {
+  "upside-down supply/ground flags": [],
+  "label instances per net (top 15)": [
+   [
+    "5V",
+    22
+   ],
+   [
+    "analog_5V",
+    15
+   ],
+   [
+    "12V",
+    5
+   ],
+   [
+    "Vin",
+    4
+   ],
+   [
+    "GATE_M4",
+    3
+   ],
+   [
+    "GATE_M5",
+    3
+   ],
+   [
+    "Vout_1",
+    3
+   ],
+   [
+    "0err_hi",
+    2
+   ],
+   [
+    "GATE_M1",
+    2
+   ],
+   [
+    "GATE_M2",
+    2
+   ],
+   [
+    "Vout_2",
+    2
+   ],
+   [
+    "Vout_3",
+    2
+   ],
+   [
+    ".1Vref_2",
+    2
+   ],
+   [
+    "GATE_M3",
+    2
+   ],
+   [
+    "Verr1",
+    2
+   ]
+  ],
+  "long wires (> 1600 units)": [
+   [
+    2176,
+    -1264,
+    -1792,
+    -1264
+   ],
+   [
+    1664,
+    -864,
+    -672,
+    -864
+   ],
+   [
+    2816,
+    -768,
+    -1904,
+    -768
+   ],
+   [
+    1456,
+    544,
+    -688,
+    544
+   ],
+   [
+    2080,
+    560,
+    -1216,
+    560
+   ],
+   [
+    1504,
+    1408,
+    -720,
+    1408
+   ],
+   [
+    -1184,
+    2032,
+    -1184,
+    -48
+   ],
+   [
+    3152,
+    2032,
+    -1184,
+    2032
+   ],
+   [
+    -1200,
+    2048,
+    -1200,
+    -32
+   ],
+   [
+    2880,
+    2048,
+    -1200,
+    2048
+   ],
+   [
+    -1904,
+    -4192,
+    768,
+    -4192
+   ],
+   [
+    -2624,
+    -3744,
+    2848,
+    -3744
+   ]
+  ]
+ },
+ "traces": {
+  "T1": {
+   "name": "Power path",
+   "jumps": 0,
+   "budget": 0,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T2": {
+   "name": "Vout_1 to Verr1 (error amplifier)",
+   "jumps": 1,
+   "budget": 1,
+   "pass": true,
+   "label_jumps": [
+    "M2 -> R9 via label Vout_1"
+   ],
+   "problems": []
+  },
+  "T3": {
+   "name": "LED current loop ch1",
+   "jumps": 1,
+   "budget": 1,
+   "pass": true,
+   "label_jumps": [
+    "M2 -> SIM_LED1 via label Vout_1"
+   ],
+   "problems": []
+  },
+  "T4": {
+   "name": "Headroom servo ch1",
+   "jumps": 0,
+   "budget": 0,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T5": {
+   "name": "Low-error timeout",
+   "jumps": 0,
+   "budget": 0,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T6": {
+   "name": "Fault latch",
+   "jumps": 0,
+   "budget": 1,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T7": {
+   "name": "Channel 1 enable to M7",
+   "jumps": 0,
+   "budget": 1,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T8": {
+   "name": "M1 inhibit to M1",
+   "jumps": 0,
+   "budget": 1,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T9": {
+   "name": "Gate drive ch1",
+   "jumps": 0,
+   "budget": 1,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  },
+  "T10": {
+   "name": "Kelvin sense R1 to U25 (ISNS block above R1)",
+   "jumps": 0,
+   "budget": 0,
+   "pass": true,
+   "label_jumps": [],
+   "problems": []
+  }
+ },
+ "stats": {
+  "per_block": {
+   "PWR": {
+    "parts": 35,
+    "crossings": 16,
+    "labels": 19,
+    "area_k_units2": 4000,
+    "parts_per_100k_units2": 0.88
+   },
+   "ISNS": {
+    "parts": 2,
+    "crossings": 0,
+    "labels": 2,
+    "area_k_units2": 307,
+    "parts_per_100k_units2": 0.65
+   },
+   "CREG1": {
+    "parts": 7,
+    "crossings": 0,
+    "labels": 5,
+    "area_k_units2": 1217,
+    "parts_per_100k_units2": 0.58
+   },
+   "REF1": {
+    "parts": 22,
+    "crossings": 0,
+    "labels": 8,
+    "area_k_units2": 1912,
+    "parts_per_100k_units2": 1.15
+   },
+   "EA1": {
+    "parts": 14,
+    "crossings": 0,
+    "labels": 8,
+    "area_k_units2": 1791,
+    "parts_per_100k_units2": 0.78
+   }
+  },
+  "totals": {
+   "wires": 956,
+   "flags": 316,
+   "ground_flags": 161,
+   "signal_label_instances": 155,
+   "crossings": 125,
+   "symbols": 302,
+   "texts": 36,
+   "frames": 5
+  }
+ },
+ "pass": true,
+ "failed": []
+}

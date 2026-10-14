@@ -1,0 +1,122 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-12T09:33:08",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "BOOST_control_RC2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'PinHeader_2x15_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 69.476545,
+                        "y": 74.158008
+                    },
+                    "uuid": "df1f062a-c685-44d6-92d3-b15ddef74d9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R107 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.062742,
+                        "y": 100.8275
+                    },
+                    "uuid": "c236b3ef-900a-4c7f-b9c8-784f2986e0b4"
+                },
+                {
+                    "description": "Footprint text of J9 (I1)",
+                    "pos": {
+                        "x": 54.875,
+                        "y": 100.265
+                    },
+                    "uuid": "ea1e4d2c-db74-46a0-9e64-2c1d3ea97adc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R107 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.062742,
+                        "y": 101.8725
+                    },
+                    "uuid": "0ff43f17-9171-402a-bc6e-6e0bfa262c55"
+                },
+                {
+                    "description": "Reference field of H3",
+                    "pos": {
+                        "x": 54.456685,
+                        "y": 102.513745
+                    },
+                    "uuid": "ca5859d2-38a1-429a-84fd-88ca0e57a974"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of J9 (SCL)",
+                    "pos": {
+                        "x": 58.385,
+                        "y": 92.82
+                    },
+                    "uuid": "68c54f2d-6dd7-45fd-914e-6e72136284e6"
+                },
+                {
+                    "description": "Segment of R106 on F.Silkscreen",
+                    "pos": {
+                        "x": 56.912742,
+                        "y": 93.3975
+                    },
+                    "uuid": "d3cd584c-d049-427a-84c0-7d0cb0cd7d60"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

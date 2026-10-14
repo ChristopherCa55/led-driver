@@ -1,0 +1,1187 @@
+{
+ "_note": "Block definitions for the BOOST.asc layout. Read by tools/asc_layout_check.py. Bypass capacitors are NOT listed in 'members': each is added at run time to the block of its owner IC from bypass_map.json (see 'supply_pins'). Changing this file changes the rules: only with the user's OK.",
+ "blocks": {
+  "PWR": {
+   "title": "Power path (power board)",
+   "board": "power",
+   "members": [
+    "SIM_VBATT",
+    "SIM_RCABLE",
+    "SIM_LCABLE",
+    "C69",
+    "C40",
+    "C85",
+    "R1",
+    "L1",
+    "M1",
+    "D19",
+    "M7",
+    "M2",
+    "D28",
+    "C86",
+    "C70",
+    "C88",
+    "C1",
+    "C72",
+    "M6",
+    "M3",
+    "D29",
+    "C87",
+    "C71",
+    "C78",
+    "C73",
+    "C3",
+    "M5",
+    "M4",
+    "D30",
+    "C74",
+    "C75",
+    "C77",
+    "C4",
+    "C76"
+   ]
+  },
+  "ISNS": {
+   "title": "Input-current sense amplifier (power board), directly above R1",
+   "board": "power",
+   "members": [
+    "U25"
+   ]
+  },
+  "SUP": {
+   "title": "Voltage regulators (power board)",
+   "board": "power",
+   "members": [
+    "U16",
+    "C79",
+    "C84",
+    "U17",
+    "C80",
+    "C82",
+    "U1",
+    "C81",
+    "C83"
+   ]
+  },
+  "GATEDRV": {
+   "title": "Gate drivers (power board)",
+   "board": "power",
+   "members": [
+    "U19",
+    "R15",
+    "R104",
+    "R62",
+    "U15",
+    "R13",
+    "D11",
+    "R60",
+    "D2",
+    "R75",
+    "R76",
+    "D10",
+    "R21",
+    "C18",
+    "C51",
+    "U10",
+    "R23",
+    "D14",
+    "R70",
+    "D8",
+    "R61",
+    "R49",
+    "D9",
+    "R48",
+    "C16",
+    "C50",
+    "U8",
+    "R47",
+    "D13",
+    "R59",
+    "D22",
+    "R73",
+    "R74",
+    "D21",
+    "R72",
+    "C60",
+    "C61"
+   ]
+  },
+  "CREG1": {
+   "title": "Channel 1 LED current regulator (power board)",
+   "board": "power",
+   "members": [
+    "SIM_LED1",
+    "M10",
+    "R52",
+    "U11",
+    "R56",
+    "C45"
+   ]
+  },
+  "CREG2": {
+   "title": "Channel 2 LED current regulator (power board)",
+   "board": "power",
+   "members": [
+    "SIM_LED2",
+    "M9",
+    "R53",
+    "U12",
+    "R50",
+    "C44"
+   ]
+  },
+  "CREG3": {
+   "title": "Channel 3 LED current regulator (power board)",
+   "board": "power",
+   "members": [
+    "SIM_LED3",
+    "M8",
+    "R7",
+    "U6",
+    "R22",
+    "C41"
+   ]
+  },
+  "REF1": {
+   "title": "Channel 1 LED-current setpoint and headroom servo: digipot, sample-and-hold, integrator (control card)",
+   "board": "control",
+   "members": [
+    "SIM_IREF1",
+    "R29",
+    "R54",
+    "C100",
+    "U26A",
+    "R94",
+    "R95",
+    "U106C",
+    "U24",
+    "C67",
+    "R98",
+    "R96",
+    "R97",
+    "C68",
+    "D26",
+    "U26E",
+    "R99",
+    "R102",
+    "R103"
+   ]
+  },
+  "REF2": {
+   "title": "Channel 2 LED-current setpoint and headroom servo (control card)",
+   "board": "control",
+   "members": [
+    "SIM_IREF2",
+    "R30",
+    "R55",
+    "C101",
+    "U26B",
+    "R25",
+    "R36",
+    "U106B",
+    "U23",
+    "C64",
+    "R93",
+    "R91",
+    "R92",
+    "C65",
+    "D25"
+   ]
+  },
+  "REF3": {
+   "title": "Channel 3 LED-current setpoint and headroom servo (control card)",
+   "board": "control",
+   "members": [
+    "SIM_IREF3",
+    "R57",
+    "R58",
+    "C102",
+    "U26C",
+    "R87",
+    "R88",
+    "U106A",
+    "U22",
+    "C49",
+    "R90",
+    "R44",
+    "R89",
+    "C59",
+    "D23"
+   ]
+  },
+  "EA1": {
+   "title": "Channel 1 output-voltage error amplifier, Vout_1 -> Verr1 (control card)",
+   "board": "control",
+   "members": [
+    "SIM_VREF1",
+    "R101",
+    "C103",
+    "R6",
+    "C46",
+    "R9",
+    "R8",
+    "R2",
+    "R3",
+    "U3",
+    "R27",
+    "R28",
+    "C13"
+   ]
+  },
+  "EA2": {
+   "title": "Channel 2 output-voltage error amplifier, Vout_2 -> Verr2 (control card)",
+   "board": "control",
+   "members": [
+    "SIM_VREF2",
+    "R100",
+    "C93",
+    "R33",
+    "C43",
+    "R35",
+    "R34",
+    "R31",
+    "R32",
+    "U7",
+    "R37",
+    "R38",
+    "C11"
+   ]
+  },
+  "EA3": {
+   "title": "Channel 3 output-voltage error amplifier, Vout_3 -> Verr3 (control card)",
+   "board": "control",
+   "members": [
+    "SIM_VREF3",
+    "R77",
+    "C47",
+    "R41",
+    "C42",
+    "R43",
+    "R42",
+    "R39",
+    "R40",
+    "U13",
+    "R45",
+    "R46",
+    "C10"
+   ]
+  },
+  "CONTROL": {
+   "title": "Control logic: error select, comparators, latch, low-error timeout, sequencer, channel enables, M1 inhibit (control card)",
+   "board": "control",
+   "members": [
+    "U28",
+    "U2",
+    "U4",
+    "U5",
+    "R11",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "U104E",
+    "U14",
+    "Q1",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R71",
+    "C14",
+    "C15",
+    "D3",
+    "D4",
+    "U101A",
+    "U101B",
+    "U101C",
+    "U101D",
+    "R4",
+    "D6",
+    "U18",
+    "U102A",
+    "U104B",
+    "U102B",
+    "R80",
+    "C17",
+    "D20",
+    "R81",
+    "U105A",
+    "U102D",
+    "U104C",
+    "U102C",
+    "R78",
+    "C9",
+    "D7",
+    "R79",
+    "U104F",
+    "U103B",
+    "U104D",
+    "U103A",
+    "R63",
+    "C8",
+    "D5",
+    "R64",
+    "U105B",
+    "U21",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "D24",
+    "D1",
+    "D15",
+    "R51",
+    "C19",
+    "R26",
+    "D27",
+    "R105",
+    "SIM_ARD_INH",
+    "U104A"
+   ]
+  }
+ },
+ "fallback_split": {
+  "_note": "Pre-approved by the user: if CONTROL cannot meet the rules as one block, replace it with these two (frame titles [CONTROL_A] and [CONTROL_B]); their interface nets are VerrGT0, Out-, OUT_1_ENA, OUT_2_ENA, OUT_3_ENA, M1_ON.",
+  "CONTROL_A": [
+   "U28",
+   "U2",
+   "U4",
+   "U5",
+   "R11",
+   "R16",
+   "R17",
+   "R18",
+   "R19",
+   "R20",
+   "U104E",
+   "U14",
+   "Q1",
+   "R65",
+   "R66",
+   "R67",
+   "R68",
+   "R69",
+   "R71",
+   "C14",
+   "C15",
+   "D3",
+   "D4",
+   "U101A",
+   "U101B",
+   "U101C",
+   "U101D",
+   "R4",
+   "D6",
+   "U18",
+   "U21",
+   "R82",
+   "R83",
+   "R84",
+   "R85",
+   "R86",
+   "D24",
+   "D1",
+   "D15",
+   "R51",
+   "C19",
+   "R26",
+   "D27",
+   "R105",
+   "SIM_ARD_INH",
+   "U104A"
+  ],
+  "CONTROL_B": [
+   "U102A",
+   "U104B",
+   "U102B",
+   "R80",
+   "C17",
+   "D20",
+   "R81",
+   "U105A",
+   "U102D",
+   "U104C",
+   "U102C",
+   "R78",
+   "C9",
+   "D7",
+   "R79",
+   "U104F",
+   "U103B",
+   "U104D",
+   "U103A",
+   "R63",
+   "C8",
+   "D5",
+   "R64",
+   "U105B"
+  ]
+ },
+ "rails": [
+  "Vin",
+  "12V",
+  "5V",
+  "analog_5V"
+ ],
+ "ground": "0",
+ "supply_pins": {
+  "_note": "owner IC (as in bypass_map.json) -> [LTspice instance, pin name] where its bypass cap is drawn. LPWR = the IC's supply pins are not modeled in LTspice; its caps go in the labeled logic-supply group inside CONTROL.",
+  "5V": {
+   "U2": [
+    "U2",
+    "V+"
+   ],
+   "U4": [
+    "U4",
+    "V+"
+   ],
+   "U5": [
+    "U5",
+    "V+"
+   ],
+   "U14": [
+    "U14",
+    "V+"
+   ],
+   "U21": [
+    "U21",
+    "V+"
+   ],
+   "U28": [
+    "U28",
+    "VDD"
+   ],
+   "U106": [
+    "U106C",
+    "VDD"
+   ],
+   "U26": [
+    "U26E",
+    "VDD"
+   ],
+   "U19": [
+    "U19",
+    "VCCI"
+   ],
+   "U15": [
+    "U15",
+    "VCCI"
+   ],
+   "U10": [
+    "U10",
+    "VCCI"
+   ],
+   "U8": [
+    "U8",
+    "VCCI"
+   ],
+   "U17": [
+    "U17",
+    "OUT"
+   ],
+   "U101": "LPWR",
+   "U102": "LPWR",
+   "U103": "LPWR",
+   "U104": "LPWR",
+   "U105": "LPWR",
+   "U18": "LPWR"
+  },
+  "analog_5V": {
+   "U25": [
+    "U25",
+    "VS"
+   ],
+   "U11": [
+    "U11",
+    "V+"
+   ],
+   "U12": [
+    "U12",
+    "V+"
+   ],
+   "U6": [
+    "U6",
+    "V+"
+   ],
+   "U3": [
+    "U3",
+    "V+"
+   ],
+   "U7": [
+    "U7",
+    "V+"
+   ],
+   "U13": [
+    "U13",
+    "V+"
+   ],
+   "U22": [
+    "U22",
+    "V+"
+   ],
+   "U23": [
+    "U23",
+    "V+"
+   ],
+   "U24": [
+    "U24",
+    "V+"
+   ],
+   "U1": [
+    "U1",
+    "OUT"
+   ]
+  },
+  "12V": {
+   "U19": [
+    "U19",
+    "VDDA"
+   ],
+   "U16": [
+    "U16",
+    "OUT"
+   ]
+  }
+ },
+ "regulator_input_caps": {
+  "C79": [
+   "U16",
+   "IN"
+  ],
+  "C84": [
+   "U16",
+   "IN"
+  ],
+  "C80": [
+   "U17",
+   "IN"
+  ],
+  "C82": [
+   "U17",
+   "IN"
+  ],
+  "C81": [
+   "U1",
+   "IN"
+  ],
+  "C83": [
+   "U1",
+   "IN"
+  ]
+ },
+ "pwr": {
+  "block": "PWR",
+  "wired_nets": [
+   "Vin",
+   "rsense_lo",
+   "LX",
+   "m2_source",
+   "m3_source",
+   "m4_source",
+   "Vout_1",
+   "Vout_2",
+   "Vout_3"
+  ],
+  "ground_return_bus": true,
+  "battery": [
+   "SIM_VBATT",
+   "SIM_BATTERY"
+  ],
+  "vin_tag": "Vin"
+ },
+ "interfaces": {
+  "_note": "net -> block that drives it. Port flags must be Out in the driver block and In elsewhere (BiDir accepted for nets marked bidir).",
+  "Vout_1": "PWR",
+  "Vout_2": "PWR",
+  "Vout_3": "PWR",
+  "Current": "ISNS",
+  "M1_ON": "CONTROL",
+  "M2_ON": "CONTROL",
+  "out_2_on": "CONTROL",
+  "out_3_on": "CONTROL",
+  "ena_out_1": "CONTROL",
+  "ena_out_2": "CONTROL",
+  "ena_out_3": "CONTROL",
+  "IREF1_input": "REF1",
+  "IREF2_input": "REF2",
+  "IREF3_input": "REF3",
+  "Output1_drain": "CREG1",
+  "Output2_drain": "CREG2",
+  "Output3_drain": "CREG3",
+  ".1Vref_1": "REF1",
+  ".1Vref_2": "REF2",
+  ".1Vref_3": "REF3",
+  "Verr1": "EA1",
+  "Verr2": "EA2",
+  "Verr3": "EA3",
+  "VerrGT0": "CONTROL_A",
+  "Out-": "CONTROL_A",
+  "OUT_1_ENA": "CONTROL_A",
+  "OUT_2_ENA": "CONTROL_A",
+  "OUT_3_ENA": "CONTROL_A",
+  "bidir": [
+   "m2_source",
+   "m3_source",
+   "m4_source"
+  ]
+ },
+ "copies": [
+  {
+   "name": "PWR switch columns",
+   "parts": [
+    [
+     "M7",
+     "M2",
+     "D28",
+     "C86",
+     "C70",
+     "C88",
+     "C1",
+     "C72"
+    ],
+    [
+     "M6",
+     "M3",
+     "D29",
+     "C87",
+     "C71",
+     "C78",
+     "C73",
+     "C3"
+    ],
+    [
+     "M5",
+     "M4",
+     "D30",
+     "C74",
+     "C75",
+     "C77",
+     "C4",
+     "C76"
+    ]
+   ]
+  },
+  {
+   "name": "Channel switch drivers",
+   "parts": [
+    [
+     "U15",
+     "R13",
+     "D11",
+     "R60",
+     "D2",
+     "R75",
+     "R76",
+     "D10",
+     "R21",
+     "C18",
+     "C51",
+     "C62"
+    ],
+    [
+     "U10",
+     "R23",
+     "D14",
+     "R70",
+     "D8",
+     "R61",
+     "R49",
+     "D9",
+     "R48",
+     "C16",
+     "C50",
+     "C90"
+    ],
+    [
+     "U8",
+     "R47",
+     "D13",
+     "R59",
+     "D22",
+     "R73",
+     "R74",
+     "D21",
+     "R72",
+     "C60",
+     "C61",
+     "C89"
+    ]
+   ],
+   "flip_ok": [
+    "R23",
+    "R49",
+    "R59",
+    "R74"
+   ]
+  },
+  {
+   "name": "CREG",
+   "parts": [
+    [
+     "SIM_LED1",
+     "M10",
+     "R52",
+     "U11",
+     "R56",
+     "C45",
+     "C33"
+    ],
+    [
+     "SIM_LED2",
+     "M9",
+     "R53",
+     "U12",
+     "R50",
+     "C44",
+     "C34"
+    ],
+    [
+     "SIM_LED3",
+     "M8",
+     "R7",
+     "U6",
+     "R22",
+     "C41",
+     "C35"
+    ]
+   ],
+   "frames": [
+    "CREG1",
+    "CREG2",
+    "CREG3"
+   ]
+  },
+  {
+   "name": "REF",
+   "parts": [
+    [
+     "SIM_IREF1",
+     "R29",
+     "R54",
+     "C100",
+     "U26A",
+     "R94",
+     "R95",
+     "U106C",
+     "U24",
+     "C67",
+     "R98",
+     "R96",
+     "R97",
+     "C68",
+     "D26",
+     "C32"
+    ],
+    [
+     "SIM_IREF2",
+     "R30",
+     "R55",
+     "C101",
+     "U26B",
+     "R25",
+     "R36",
+     "U106B",
+     "U23",
+     "C64",
+     "R93",
+     "R91",
+     "R92",
+     "C65",
+     "D25",
+     "C38"
+    ],
+    [
+     "SIM_IREF3",
+     "R57",
+     "R58",
+     "C102",
+     "U26C",
+     "R87",
+     "R88",
+     "U106A",
+     "U22",
+     "C49",
+     "R90",
+     "R44",
+     "R89",
+     "C59",
+     "D23",
+     "C63"
+    ]
+   ],
+   "extra_in_first": [
+    "U26E",
+    "R99",
+    "R102",
+    "R103",
+    "C26",
+    "C23"
+   ],
+   "frames": [
+    "REF1",
+    "REF2",
+    "REF3"
+   ]
+  },
+  {
+   "name": "EA",
+   "parts": [
+    [
+     "SIM_VREF1",
+     "R101",
+     "C103",
+     "R6",
+     "C46",
+     "R9",
+     "R8",
+     "R2",
+     "R3",
+     "U3",
+     "R27",
+     "R28",
+     "C13",
+     "C66"
+    ],
+    [
+     "SIM_VREF2",
+     "R100",
+     "C93",
+     "R33",
+     "C43",
+     "R35",
+     "R34",
+     "R31",
+     "R32",
+     "U7",
+     "R37",
+     "R38",
+     "C11",
+     "C36"
+    ],
+    [
+     "SIM_VREF3",
+     "R77",
+     "C47",
+     "R41",
+     "C42",
+     "R43",
+     "R42",
+     "R39",
+     "R40",
+     "U13",
+     "R45",
+     "R46",
+     "C10",
+     "C37"
+    ]
+   ],
+   "frames": [
+    "EA1",
+    "EA2",
+    "EA3"
+   ]
+  },
+  {
+   "name": "Channel-enable fan-out",
+   "parts": [
+    [
+     "U102A",
+     "U104B",
+     "U102B",
+     "R80",
+     "C17",
+     "D20",
+     "R81",
+     "U105A"
+    ],
+    [
+     "U102D",
+     "U104C",
+     "U102C",
+     "R78",
+     "C9",
+     "D7",
+     "R79",
+     "U104F"
+    ],
+    [
+     "U103B",
+     "U104D",
+     "U103A",
+     "R63",
+     "C8",
+     "D5",
+     "R64",
+     "U105B"
+    ]
+   ],
+   "wire_exceptions": [
+    "U103B"
+   ],
+   "_why": "U103B's AND inputs are netlisted in the opposite order (ena_out_3, Out-); its two input wires may differ, with a note"
+  }
+ ],
+ "notes": {
+  "_note": "original comment (start of its text) -> parts it must sit beside, or SETUP (inside the directives frame)",
+  "D28-D30: pre-charge diodes": [
+   "D28",
+   "D29",
+   "D30"
+  ],
+  "I added a lot of capacitors": "SETUP",
+  "Start-up state": "SETUP",
+  "IREFn_DUTY": "SETUP",
+  "confirmed in Microchip": "SETUP",
+  ".ic V(Vout_1)": "SETUP"
+ },
+ "traces": [
+  {
+   "id": "T1",
+   "name": "Power path",
+   "budget": 0,
+   "chains": [
+    [
+     "SIM_VBATT",
+     "SIM_RCABLE",
+     "SIM_LCABLE",
+     "C69",
+     "R1",
+     "L1",
+     "M1"
+    ],
+    [
+     "L1",
+     "M7",
+     "M2",
+     "C86"
+    ],
+    [
+     "L1",
+     "M6",
+     "M3",
+     "C87"
+    ],
+    [
+     "L1",
+     "M5",
+     "M4",
+     "C74"
+    ],
+    [
+     "SIM_LCABLE",
+     "D28",
+     "C86"
+    ],
+    [
+     "SIM_LCABLE",
+     "D29",
+     "C87"
+    ],
+    [
+     "SIM_LCABLE",
+     "D30",
+     "C74"
+    ],
+    [
+     "M1",
+     "SIM_VBATT"
+    ]
+   ]
+  },
+  {
+   "id": "T2",
+   "name": "Vout_1 to Verr1 (error amplifier)",
+   "budget": 1,
+   "chains": [
+    [
+     "M2",
+     "R9",
+     "R2",
+     "U3",
+     "R27",
+     "U28"
+    ],
+    [
+     "D26",
+     "U3"
+    ]
+   ]
+  },
+  {
+   "id": "T3",
+   "name": "LED current loop ch1",
+   "budget": 1,
+   "chains": [
+    [
+     "M2",
+     "SIM_LED1",
+     "M10",
+     "R52",
+     "U11"
+    ],
+    [
+     "SIM_IREF1",
+     "R29",
+     "U26A",
+     "U11",
+     "R56",
+     "M10"
+    ]
+   ]
+  },
+  {
+   "id": "T4",
+   "name": "Headroom servo ch1",
+   "budget": 0,
+   "chains": [
+    [
+     "M10",
+     "R94",
+     "U106C",
+     "U24",
+     "D26",
+     "U3"
+    ],
+    [
+     "SIM_IREF1",
+     "U106C"
+    ]
+   ]
+  },
+  {
+   "id": "T5",
+   "name": "Low-error timeout",
+   "budget": 0,
+   "chains": [
+    [
+     "U4",
+     "R66",
+     "Q1",
+     "U14",
+     "U18"
+    ],
+    [
+     "U14",
+     "D6"
+    ]
+   ]
+  },
+  {
+   "id": "T6",
+   "name": "Fault latch",
+   "budget": 1,
+   "chains": [
+    [
+     "U25",
+     "U5",
+     "U101B",
+     "U101D",
+     "U102A"
+    ],
+    [
+     "U101D",
+     "D15"
+    ]
+   ]
+  },
+  {
+   "id": "T7",
+   "name": "Channel 1 enable to M7",
+   "budget": 1,
+   "chains": [
+    [
+     "U18",
+     "U102B",
+     "R80",
+     "R81",
+     "U105A",
+     "U15",
+     "R60",
+     "M7"
+    ]
+   ]
+  },
+  {
+   "id": "T8",
+   "name": "M1 inhibit to M1",
+   "budget": 1,
+   "chains": [
+    [
+     "R84",
+     "U21",
+     "D24",
+     "U104A",
+     "U19",
+     "R15",
+     "M1"
+    ],
+    [
+     "D1",
+     "U104A"
+    ],
+    [
+     "D27",
+     "U104A"
+    ]
+   ]
+  },
+  {
+   "id": "T9",
+   "name": "Gate drive ch1",
+   "budget": 1,
+   "chains": [
+    [
+     "U104B",
+     "U15",
+     "R13",
+     "M2"
+    ],
+    [
+     "D10",
+     "R21",
+     "U15",
+     "C18"
+    ]
+   ]
+  },
+  {
+   "id": "T10",
+   "name": "Kelvin sense R1 to U25 (ISNS block above R1)",
+   "budget": 0,
+   "chains": [
+    [
+     "R1",
+     "U25"
+    ]
+   ]
+  }
+ ],
+ "thresholds": {
+  "boundary_band": 64,
+  "stub_min": 16,
+  "text_clear": 16,
+  "cross_near": 16,
+  "bypass_dist": 240,
+  "note_dist": 400,
+  "adjacent_gap": 160,
+  "long_wire": 1600
+ },
+ "text_metrics": {
+  "_note": "LTspice font size index -> multiplier; height = base * multiplier (schematic units). Estimated; confirm in LTspice screenshots.",
+  "base": 16,
+  "mult": [
+   0.625,
+   1.0,
+   1.5,
+   2.0,
+   2.5,
+   3.5,
+   5.0,
+   7.0
+  ],
+  "char_w": 0.6
+ }
+}

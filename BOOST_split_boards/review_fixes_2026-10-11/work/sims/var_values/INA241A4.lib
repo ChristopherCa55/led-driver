@@ -1,0 +1,36 @@
+* ============================================================================
+* INA241A4 - behavioural current-sense amplifier model for LTspice (2026-09-28)
+* Not Texas Instruments' model (TI's PSpice model for the A4 is SBOMCA0).  Built from the INA241A3 model in this
+* folder with the A4's gain, both reference pins and the datasheet output swing.
+*
+* DATASHEET VALUES MODELLED (TI INA241x, SBOSA30, read 2026-09-28)
+*   Gain ......................... 100 V/V (A4)          -> "100*" in BG1
+*   Bandwidth .................... 1.1 MHz, all gains    -> CC1 = 144.69 pF with 1 mA/V
+*   Slew rate .................... 8 V/us rising         -> BG1 current limit 1.157 mA
+*   Output reference ............. (VREF1 + VREF2) / 2   -> "(V(5)+V(6))/2" in BG1
+*   Swing to VS .................. VS - 0.07 V typ       -> output clamp
+*   Swing to ground .............. 8 mV typ (10 k load)  -> output clamp
+*   Input bias current ........... 35 uA typ per input   -> IB1, IB2
+*   Quiescent current ............ 2.5 mA typ            -> IQ
+*   Common-mode range -5 V to 110 V; supply 2.7 V to 20 V.
+* NOT MODELLED: offset (+/-3 uV typ), gain error (+/-0.003 % typ), CMRR (166 dB typ), noise, temperature.
+*
+* With the board's 1 mOhm shunt: 1 mOhm x 100 = 0.1 V/A, the same scale as the old 2 mOhm x 50.
+*
+* PIN ORDER (this model's choice; the INA241A4.asy symbol matches it):
+*   1 IN+   2 IN-   3 VS   4 GND   5 REF1   6 REF2   7 OUT
+* Package pins (SOIC-8): 8 IN+, 1 IN-, 6 VS, 2 and 4 GND, 7 REF1, 3 REF2, 5 OUT.
+* ============================================================================
+.SUBCKT INA241A4 1 2 3 4 5 6 7
+BG1 0 10 I=1.157m*tanh(1m*(100*(V(1)-V(2))+(V(5)+V(6))/2-V(10))/1.157m)
+RG1 10 4 1G
+CC1 10 4 144.69p
+* gain-node rail clamp (keeps overdrive recovery fast; see the INA241A3 model)
+BCL 10 4 I=1e-2*(0.5*((V(10)-V(3)-0.1)+sqrt((V(10)-V(3)-0.1)*(V(10)-V(3)-0.1)+1e-6))-0.5*((V(4)-0.1-V(10))+sqrt((V(4)-0.1-V(10))*(V(4)-0.1-V(10))+1e-6)))
+RIN1 1 2 10MEG
+IB1 1 4 35u
+IB2 2 4 35u
+BE1 11 0 V=max(min(V(10),V(3)-0.07),V(4)+0.008)
+RO1 11 7 5
+IQ 3 4 2.5M
+.ENDS INA241A4

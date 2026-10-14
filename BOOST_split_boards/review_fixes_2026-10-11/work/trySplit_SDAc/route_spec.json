@@ -1,0 +1,65 @@
+{
+ "_why": "Experiment: re-route SDA from its U26 via to J9.8 (or the R107 link's via) where it removes the least plane; region [47, 85, 70, 106], weighted A* 2.5; start on In1 (where the old run left the via); clearance 0.2 (Default) with GND 0.25 (Power class) per net",
+ "add_segments": [
+  {
+   "net": "SDA",
+   "layer": "In1.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     59.675,
+     89.925
+    ],
+    [
+     64.3,
+     94.55
+    ],
+    [
+     64.35,
+     94.55
+    ],
+    [
+     65.2,
+     95.4
+    ],
+    [
+     65.2,
+     99.3
+    ],
+    [
+     63.95,
+     100.55
+    ],
+    [
+     63.75,
+     100.55
+    ],
+    [
+     63.4,
+     100.9
+    ],
+    [
+     62.2,
+     100.9
+    ],
+    [
+     61.8,
+     100.5
+    ],
+    [
+     61.8,
+     99.75
+    ],
+    [
+     60.4,
+     98.35
+    ],
+    [
+     59.955,
+     98.44
+    ]
+   ]
+  }
+ ],
+ "add_vias": []
+}

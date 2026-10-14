@@ -1,0 +1,18 @@
+[
+ {"name": "c01_In1_GND_pieces", "layer": "In1.Cu", "box": [45.4, 69.5, 91.4, 115.5], "pieces": "GND",
+  "title": "card In1 (GND plane under F.Cu): separate GND pieces (number = mm2)"},
+ {"name": "c02_In3_GND_pieces", "layer": "In3.Cu", "box": [45.4, 69.5, 91.4, 115.5], "pieces": "GND",
+  "title": "card In3 (GND plane): separate GND pieces"},
+ {"name": "c03_In4_GND_pieces", "layer": "In4.Cu", "box": [45.4, 69.5, 91.4, 115.5], "pieces": "GND",
+  "tracks": [["0err_hi", "In4.Cu"], ["Net-(D5--)", "In4.Cu"]],
+  "title": "card In4 (GND plane under B.Cu): 0err_hi and D5- tracks (red) cut it in two",
+  "marks": [[79.67, 101.66, "0err_hi", 4, -3], [76.83, 111.32, "D5-", -6, 2]]},
+ {"name": "c04_BCu_GND_pieces", "layer": "B.Cu", "box": [45.4, 69.5, 91.4, 115.5], "pieces": "GND",
+  "title": "card B.Cu: separate GND pieces"},
+ {"name": "c05_FCu_GND_pieces", "layer": "F.Cu", "box": [45.4, 69.5, 91.4, 115.5], "pieces": "GND",
+  "title": "card F.Cu: separate GND pieces"},
+ {"name": "c06_In2_5V_cuts", "layer": "In2.Cu", "box": [45.4, 69.5, 91.4, 115.5],
+  "tracks": [["Net-(U23-In+)", "In2.Cu"], ["Net-(D20--)", "In2.Cu"], ["ena_out_3", "In2.Cu"], ["IREF2", "In2.Cu"],
+             ["Net-(U102A-Y)", "In2.Cu"]],
+  "title": "card In2 (5V pour): the longest tracks through it (red)"}
+]

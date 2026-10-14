@@ -1,0 +1,56 @@
+{
+ "_why": "Step 5e: R107.2 (SDA) to SDA copper (J9.8) on F.Cu or the In2 5V layer (In2 costs 1.5x), never a GND-plane layer (clearance 0.25)",
+ "add_segments": [
+  {
+   "net": "SDA",
+   "layer": "F.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     55.975,
+     101.45
+    ],
+    [
+     55.65,
+     101.1
+    ],
+    [
+     55.6,
+     101.05
+    ],
+    [
+     55.6,
+     100.7
+    ]
+   ]
+  },
+  {
+   "net": "SDA",
+   "layer": "In2.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     55.6,
+     100.7
+    ],
+    [
+     57.25,
+     100.7
+    ],
+    [
+     59.1,
+     98.85
+    ]
+   ]
+  }
+ ],
+ "add_vias": [
+  {
+   "net": "SDA",
+   "x": 55.6,
+   "y": 100.7,
+   "size": 0.5,
+   "drill": 0.3
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dc4aa17e-0995-4bac-889e-471ae16ef44e")
+	(paper "A4")
+	(title_block
+		(title "BOOST LED driver - system")
+		(date "2026-10-05")
+		(rev "RC2")
+	)
+	(lib_symbols
+	)
+	(sheet
+		(at 30.48 60.96)
+		(size 101.6 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "173d28ba-605b-4f2f-87f0-40467700393d")
+		(property "Sheetname" "Power board"
+			(at 30.48 60.26 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BOOST_power_RC2.kicad_sch"
+			(at 30.48 125.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOOST"
+				(path "/dc4aa17e-0995-4bac-889e-471ae16ef44e"
+					(page "2")
+				)
+			)
+		)
+	)
+
+	(sheet
+		(at 151.13 60.96)
+		(size 101.6 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bf8e931-58f7-46ae-ad4e-91ff59ad6fc4")
+		(property "Sheetname" "Control card"
+			(at 151.13 60.26 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BOOST_control_RC2.kicad_sch"
+			(at 151.13 125.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BOOST"
+				(path "/dc4aa17e-0995-4bac-889e-471ae16ef44e"
+					(page "3")
+				)
+			)
+		)
+	)
+
+	(text "BOOST LED driver: system schematic"
+		(exclude_from_sim no)
+		(at 30.48 30.48 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1957abb-f622-427c-b7ed-98b614f72f0a")
+	)
+
+	(text "Two boards, two KiCad projects. Open the power board with BOOST_power_RC2.kicad_pro and the control card with BOOST_control_RC2.kicad_pro:"
+		(exclude_from_sim no)
+		(at 30.48 40.64 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cbda53b-088e-4342-a419-2333925dbfc0")
+	)
+
+	(text "each board project opens its own sheet (below) as its schematic, and its PCB updates from it. This root sheet ties both together for whole-system ERC."
+		(exclude_from_sim no)
+		(at 30.48 45.72 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "954915e6-246f-40c3-9cb2-4bb0ff7d69eb")
+	)
+
+	(text "The boards connect through the 30-pin J10 (power board) / J11 (control card) pair: every signal that crosses between them carries the same global label on both sheets."
+		(exclude_from_sim no)
+		(at 30.48 137.16 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6e6ce5a-cedc-4014-92d1-4f3ace4abca2")
+	)
+
+	(text "LTspice: LTspice/BOOST.asc simulates both boards together, laid out in the same blocks as these sheets (power board left, control card right, test bench below)."
+		(exclude_from_sim no)
+		(at 30.48 142.24 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d5e6fde-b835-43bc-883d-b04a42e230bc")
+	)
+
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

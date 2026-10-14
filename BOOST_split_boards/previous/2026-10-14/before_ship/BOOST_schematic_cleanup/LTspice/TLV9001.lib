@@ -1,0 +1,48 @@
+* ============================================================================
+* TLV9001 - behavioural model for LTspice
+*
+* Written the same way as this project's MCP6241.lib (smooth gm-C model with a
+* tanh slew limit and a gain-node rail clamp), so the two can be compared
+* like for like. It is NOT TI's macromodel.
+*
+* ---------------------------------------------------------------------------
+* DATASHEET VALUES MODELLED   (TI SBOS833R, TLV9001/2/4, Nov 2021)
+* ---------------------------------------------------------------------------
+*   Gain bandwidth product ...... 1 MHz (VS = 5 V)       -> CC1 = 159.15 pF
+*   Slew rate ................... 2 V/us (VS = 5 V)      -> BG1 limit = 318.3 uA
+*   Open loop gain .............. 104 dB min (117 typ)  -> RG1 = 158 MEG (104 dB)
+*   Output swing ................ 10 mV typ from rails (RL 10k) -> clamped 10 mV
+*   Input common mode ........... (V-) - 0.1 V to (V+) + 0.1 V (rail-to-rail)
+*   Input bias current .......... 5 pA                  -> 1e12 input resistors
+*   Input capacitance ........... 5 pF common mode
+*   Quiescent current ........... 60 uA typ             -> IQ
+*   Input offset voltage ........ 0 (typical case). Datasheet max +/-1.6 mV
+*                                 (MCP6241: +/-5 mV).
+*   Phase margin 78 deg (G = 1) and the 40 mA short-circuit limit are not
+*   modelled (neither are they in MCP6241.lib).
+*
+* Supply 1.8 V to 5.5 V (absolute maximum 7 V), as the MCP6241.
+* Pinout of TLV9001IDBVR (SOT-23-5, "DBV", not the "U" variant): 1 OUT, 2 V-,
+* 3 IN+, 4 IN-, 5 V+ - the same as MCP6241T-E/OT.
+*
+* PIN ORDER (as MCP6241.lib):  In+  In-  V+  V-  OUT
+* ============================================================================
+.SUBCKT TLV9001 1 2 3 4 5
+* input stage: gm = 1 mA/V, smooth slew limit at 318.3 uA -> 2 V/us into CC1
+BG1 0 10 I=318.3u*tanh(1m*(V(1)-V(2))/318.3u)
+* dominant pole: GBW = gm/(2*pi*CC1) = 1 MHz, Avol = gm*RG1 = 158000 (104 dB)
+RG1 10 0 158MEG
+CC1 10 0 159.15p
+* gain-node rail clamp (wind-up fix, as in MCP6241.lib)
+BCL 10 0 I=1e-2*(0.5*((V(10)-V(3)-0.1)+sqrt((V(10)-V(3)-0.1)*(V(10)-V(3)-0.1)+1e-6))-0.5*((V(4)-0.1-V(10))+sqrt((V(4)-0.1-V(10))*(V(4)-0.1-V(10))+1e-6)))
+* input impedance
+RIN1 1 0 1E12
+RIN2 2 0 1E12
+CIN1 1 0 5P
+CIN2 2 0 5P
+* output stage: rail-to-rail, 10 mV inside the supplies
+BE1 11 0 V=max(min(V(10),V(3)-0.01),V(4)+0.01)
+RO1 11 5 10
+* quiescent supply current
+IQ 3 4 60U
+.ENDS TLV9001

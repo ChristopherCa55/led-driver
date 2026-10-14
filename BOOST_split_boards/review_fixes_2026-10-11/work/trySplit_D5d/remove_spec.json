@@ -1,0 +1,18 @@
+{
+ "_why": "Experiment: take Net-(D5--)'s 27 mm In4 run (via (82.125, 95.575) -> via (69.575, 114.375)) off the board so In4 can heal; both vias stay",
+ "remove_segments": [
+  {
+   "net": "Net-(D5--)",
+   "layer": "In4.Cu",
+   "bbox": [
+    68,
+    94,
+    84,
+    115
+   ]
+  }
+ ],
+ "expect": {
+  "remove_segments": 62
+ }
+}

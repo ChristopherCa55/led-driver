@@ -10,13 +10,13 @@ The BOM is schematic **rev6** (R1 = Bourns CSS4J-4026R-1L00F, U25 = INA241A4) **
 | | Power board | Control card | Total |
 |---|---|---|---|
 | Bare PCBs (5 each) | $69.57 | $56.83 | $126.40 |
-| JLC assembly of 2 each (fees + parts) | $204.79 | $162.46 | $367.25 |
+| JLC assembly of 2 each (fees + parts) | $203.17 | $162.48 | $365.65 |
 | Parts bought elsewhere (J10, J11, PTC) | | | $24.91 |
 | Hardware for 2 sets, without the thermal pad | | | $55.14 |
-| **Subtotal without the pad** | | | **$573.70** |
-| + McMaster 1272N32 pad (default) | | | **$600.61** |
-| + Parker G579 0.060 in pad instead | | | $702.45 |
-| + t-Global TG-AD30 1.5 mm instead | | | $573.70 + its price (not read) |
+| **Subtotal without the pad** | | | **$572.10** |
+| + McMaster 1272N32 pad (default) | | | **$599.01** |
+| + Parker G579 0.060 in pad instead | | | $700.85 |
+| + t-Global TG-AD30 1.5 mm instead | | | $572.10 + its price (not read) |
 | Shipping, tax | | | not included |
 
 Against the 2026-09-25 total ($760.83 with the McMaster pad):
@@ -77,8 +77,8 @@ Set-up $51.12 and stencil $16.42 per order (both boards are double-sided); feede
 
 | Board | Unique parts | Set-up | Stencil | Loading | Joints | Parts | Attrition | **Assembly** | PCB | **Order** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Power | 29 | $51.12 | $16.42 | $44.37 | $0.91 (570) | $84.64 | $7.33 | **$204.79** | $69.57 | **$274.36** |
-| Card | 41 | $51.12 | $16.42 | $62.73 | $1.51 (944) | $22.53 | $8.15 | **$162.46** | $56.83 | **$219.29** |
+| Power | 28 | $51.12 | $16.42 | $42.84 | $0.91 (566) | $84.63 | $7.25 | **$203.17** | $69.57 | **$272.74** |
+| Card | 41 | $51.12 | $16.42 | $62.73 | $1.52 (952) | $22.55 | $8.15 | **$162.48** | $56.83 | **$219.31** |
 
 ## Stock on 2026-10-01 (JLC parts library)
 
@@ -120,7 +120,6 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | R1 | C2076400 | CSS4J-4026R-1L00F | 1 | $1.7086 | 2 (+0) | $3.42 |
 | R7 R52 R53 | C413486 | WSL2512R0500FEA | 3 | $0.2348 | 6 (+0) | $1.41 |
 | R13 R23 R47 | C22962 | 0603WAF2200T5E | 3 | $0.0035 | 6 (+20) | $0.09 |
-| R14 | C17514 | 0805W8F1004T5E | 1 | $0.0043 | 2 (+20) | $0.09 |
 | R15 | C17415 | 0805W8F100JT5E | 1 | $0.0040 | 2 (+20) | $0.09 |
 | R21 R48 R60 R72 | C17724 | 0805W8F510KT5E | 4 | $0.0041 | 8 (+20) | $0.11 |
 | R22 R50 R56 | C22775 | 0603WAF1000T5E | 3 | $0.0031 | 6 (+20) | $0.08 |
@@ -131,7 +130,7 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | U8 U10 U15 U19 | C601651 | UCC21520DWR | 4 | $0.8893 | 8 (+0) | $7.11 |
 | U16 | C231294 | MC7812BD2TR4G | 1 | $0.5316 | 2 (+0) | $1.06 |
 | U25 | C22427873 | INA241A4IDR | 1 | $3.5277 | 2 (+0) | $7.06 |
-| **Total** | | | | | | **$91.97** |
+| **Total** | | | | | | **$91.88** |
 
 ### Control card
 
@@ -149,9 +148,9 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | D1 D3 D4 D5 D6 D7 D15 D20 D24 D27 | C81598 | 1N4148W | 10 | $0.0123 | 20 (+20) | $0.49 |
 | D23 D25 D26 | C22629 | BAT54WS L9 | 3 | $0.0238 | 6 (+20) | $0.62 |
 | Q1 | C53444 | MMBT3906LT1G | 1 | $0.0189 | 2 (+20) | $0.42 |
-| R2 R6 R31 R33 R39 R41 R67 R77 R83 R85 R99 R100 R101 R102 R103 | C25804 | 0603WAF1002T5E | 15 | $0.0018 | 30 (+20) | $0.09 |
+| R2 R6 R31 R33 R39 R41 R67 R77 R83 R85 R100 R101 R103 | C25804 | 0603WAF1002T5E | 13 | $0.0018 | 26 (+20) | $0.08 |
 | R3 R32 R40 | C23219 | 0603WAF6203T5E | 3 | $0.0020 | 6 (+20) | $0.05 |
-| R4 R54 R55 R58 R71 | C21190 | 0603WAF1001T5E | 5 | $0.0026 | 10 (+20) | $0.08 |
+| R4 R54 R55 R58 R71 R99 R102 | C21190 | 0603WAF1001T5E | 7 | $0.0026 | 14 (+20) | $0.09 |
 | R8 R34 R42 R51 R63 R78 R80 | C22975 | 0603WAF2001T5E | 7 | $0.0024 | 14 (+20) | $0.08 |
 | R9 R35 R43 | C17506 | 0805W8F1802T5E | 3 | $0.0043 | 6 (+20) | $0.11 |
 | R11 R17 | C23192 | 0603WAF5103T5E | 2 | $0.0024 | 4 (+20) | $0.06 |
@@ -159,7 +158,7 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | R18 R20 | C25811 | 0603WAF2003T5E | 2 | $0.0023 | 4 (+20) | $0.06 |
 | R25 R87 R94 | C17864 | 0805W8F9103T5E | 3 | $0.0034 | 6 (+20) | $0.09 |
 | R26 R64 R79 R81 | C22962 | 0603WAF2200T5E | 4 | $0.0035 | 8 (+20) | $0.10 |
-| R27 R37 R45 | C23162 | 0603WAF4701T5E | 3 | $0.0028 | 6 (+20) | $0.07 |
+| R27 R37 R45 R106 R107 | C23162 | 0603WAF4701T5E | 5 | $0.0028 | 10 (+20) | $0.08 |
 | R28 R36 R38 R44 R46 R88 R91 R95 R96 R105 | C25803 | 0603WAF1003T5E | 10 | $0.0031 | 20 (+20) | $0.12 |
 | R29 R30 R57 | C17560 | 0805W8F2202T5E | 3 | $0.0048 | 6 (+20) | $0.12 |
 | R65 | C31850 | 0603WAF2202T5E | 1 | $0.0041 | 2 (+20) | $0.09 |
@@ -178,7 +177,7 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | U101 U102 U103 | C5586 | 74HC00D,653 | 3 | $0.1546 | 6 (+0) | $0.93 |
 | U104 U105 | C5605 | 74HC14D,653 | 2 | $0.1023 | 4 (+0) | $0.41 |
 | U106 | C179842 | CD74HC4066M96 | 1 | $0.6097 | 2 (+0) | $1.22 |
-| **Total** | | | | | | **$30.68** |
+| **Total** | | | | | | **$30.70** |
 
 ## Parts bought elsewhere
 

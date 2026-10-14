@@ -1,0 +1,11139 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\bubba\\OneDrive\\Documents\\led-driver\\BOOST_split_boards\\reorg_2026-10-05\\work\\k1\\BOOST_power_RC2.kicad_sch")
+		(date "2026-10-05T12:27:44")
+		(tool "Eeschema 10.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "BOOST LED driver - Power board")
+				(company)
+				(rev "RC2")
+				(date "2026-10-05")
+				(source "BOOST_power_RC2.kicad_sch")
+				(comment
+					(number "1")
+					(value "One block per circuit; the LTspice schematic uses the same arrangement")
+				)
+				(comment
+					(number "2")
+					(value "Nets between blocks are joined by global labels of the same name")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "4.7µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=4.7µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=4.7µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "80ecd69e-80ae-47f8-a0a9-e96a3c1f40cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22a28455-70b8-46d2-8f56-bf4b4d6ee4e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "4.7µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=4.7µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=4.7µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c367dcf9-75dd-45e2-82a7-86959adaa4a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "1µ")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9500c70b-dd5a-4f9f-9a99-92f9b137105f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "22µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=22µ")
+				(field
+					(name "MPN") "GRM32ER71E226KE15L")
+				(field
+					(name "LCSC") "C21397")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=22µ")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71E226KE15L")
+			)
+			(property
+				(name "LCSC")
+				(value "C21397")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "27ecd4fb-88c4-421f-972c-28889b7b12e0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "2.2µ")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=2.2µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=2.2µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c018e47-2aae-4829-9d69-1bc2b790b595")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "2.2µ")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=2.2µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=2.2µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "729d77fd-64a4-4055-8cac-228a040310c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "61d37900-de50-4f45-8296-d7da4e4aa6e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "1µ")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "99024896-3faf-4084-9ef2-fb8bf4e20e0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "1µ")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "50485665-3c39-44b5-8f18-60916396cef5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C30")
+			(value "47µ")
+			(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=47µ")
+				(field
+					(name "MPN") "TR3D476K025C0250")
+				(field
+					(name "LCSC") "C4979367")
+				(field
+					(name "Footprint") "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=47µ")
+			)
+			(property
+				(name "MPN")
+				(value "TR3D476K025C0250")
+			)
+			(property
+				(name "LCSC")
+				(value "C4979367")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c7da8e0-e748-4387-a8f4-694c2eab7d7d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C31")
+			(value "1µ")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a9a2e5bc-aafd-416d-b8bd-2d7e7994afd4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C33")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "beaea767-4480-412b-b2e0-66f5acd0da64")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C34")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fc054014-b792-4a7a-a572-574e049a6a31")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C35")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dba1a1d1-6452-4978-b6d7-e0a73c7e431a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C39")
+			(value "10µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=10µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=10µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "74c0de40-b7e0-4b0e-9f97-7c9c80d0b536")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C40")
+			(value "680µ")
+			(footprint "Capacitor_SMD:CP_Elec_10x12.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=680µ")
+				(field
+					(name "MPN") "EEH-ZU1E681UP")
+				(field
+					(name "LCSC") "C29664285")
+				(field
+					(name "Footprint") "Capacitor_SMD:CP_Elec_10x12.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=680µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1E681UP")
+			)
+			(property
+				(name "LCSC")
+				(value "C29664285")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b4396b4c-2cb0-42cd-b69a-957dacbebc12")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C41")
+			(value "1n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "1 nF C0G: IREF filter at the sink op-amp input")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1 nF C0G: IREF filter at the sink op-amp input")
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "af3d3252-0c57-4c95-b124-d9203815e3ab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C44")
+			(value "1n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "1 nF C0G: IREF filter at the sink op-amp input")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1 nF C0G: IREF filter at the sink op-amp input")
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f5c7cd55-ac38-4ff7-96cc-e1d81f95f8fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C45")
+			(value "1n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "1 nF C0G: IREF filter at the sink op-amp input")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1 nF C0G: IREF filter at the sink op-amp input")
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c0f8d79-7a70-4227-a5d1-8d0ce8e164bf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C48")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f1ea5eb5-eee2-4d78-a404-f45d337baabe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C50")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "235ccc95-c397-4639-9003-6ce8578e7c3a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C51")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d021a09-b233-49ae-91dc-c3c43833f275")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C55")
+			(value "22µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=22µ")
+				(field
+					(name "MPN") "GRM32ER71E226KE15L")
+				(field
+					(name "LCSC") "C21397")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=22µ")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71E226KE15L")
+			)
+			(property
+				(name "LCSC")
+				(value "C21397")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a3eaa37e-9091-45cb-86ab-147df737b3f8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C56")
+			(value "10µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=10µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=10µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b6832b5c-4072-4931-bd4d-f991db92a33d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C60")
+			(value "2.2µ")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=2.2µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=2.2µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3a03edcd-b78e-4937-82f9-c6b8e3adf20b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C61")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8d3e536f-4979-4591-bcd9-cd30bb692c41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C62")
+			(value "1µ")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "50cffef9-889c-417b-9c1c-3dc9ce0cf9c7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C69")
+			(value "680µ")
+			(footprint "Capacitor_SMD:CP_Elec_10x12.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=680µ")
+				(field
+					(name "MPN") "EEH-ZU1E681UP")
+				(field
+					(name "LCSC") "C29664285")
+				(field
+					(name "Footprint") "Capacitor_SMD:CP_Elec_10x12.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=680µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1E681UP")
+			)
+			(property
+				(name "LCSC")
+				(value "C29664285")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "986a2857-4a08-4158-ab25-e871786d6d34")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C70")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZS1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZS1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "03bb4d73-c0fb-4cf8-8489-163436c60739")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C71")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZS1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZS1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e63bf770-d25c-42f6-b09f-fb4161c12c53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C72")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd5c4c1b-8737-4ff3-8db6-33a50cdba98d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C73")
+			(value "4.7µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=4.7µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=4.7µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "04b10ca8-740c-4f4e-b263-de5e5c9069cd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C74")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZU1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8284f0cd-fe21-4f48-8e5e-59c16eb114f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C75")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZS1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZS1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "06b0c6c9-ee4b-49c5-917a-e4901f299d38")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C76")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3a8a8af8-5ffc-4483-802c-49c98c6d3af4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C77")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZS1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZS1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3151461d-3c1c-4de5-94d9-7eb32dd3d67c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C78")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZS1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZS1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "41794211-dcc3-4ce2-8f55-ccb0c0e3de27")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C79")
+			(value "10µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=10µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=10µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2dd55058-2cda-4969-a087-515fc2dc58fc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C80")
+			(value "10µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=10µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=10µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "756564c6-f695-4aab-82ff-321b45501be3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C81")
+			(value "10µ")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=10µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=10µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9bdebf73-9b42-4a69-99cd-0de28f0eb8b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C82")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1768046e-0285-4b41-8f2b-afad5e43574b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C83")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4b5e4bfc-0c53-42f4-b219-b88c3ab2385d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C84")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9dd5aa3b-3b1f-4ecb-a5a1-68db10bdd670")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C85")
+			(value "680µ")
+			(footprint "Capacitor_SMD:CP_Elec_10x12.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=680µ")
+				(field
+					(name "MPN") "EEH-ZU1E681UP")
+				(field
+					(name "LCSC") "C29664285")
+				(field
+					(name "Footprint") "Capacitor_SMD:CP_Elec_10x12.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=680µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1E681UP")
+			)
+			(property
+				(name "LCSC")
+				(value "C29664285")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8bb8da11-5787-454b-a252-d4384327abb5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C86")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZU1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ac0d167-3e6d-48b1-b9ed-a5b560da8696")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C87")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZU1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZU1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0289207a-eed0-4929-918c-89a00b4d7f04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C88")
+			(value "220µ")
+			(footprint "BOOST:CP_Elec_10x16.5")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=220µ")
+				(field
+					(name "MPN") "EEH-ZS1H221P")
+				(field
+					(name "Footprint") "BOOST:CP_Elec_10x16.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=220µ")
+			)
+			(property
+				(name "MPN")
+				(value "EEH-ZS1H221P")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2298c814-c54f-4a09-9b51-2a222a6942f3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C89")
+			(value "1µ")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=1µ")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=1µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "20db7305-6a7c-4a59-bc01-990d6f0b6ac9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C90")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "C")
+				(field
+					(name "Sim.Params") "C=100n")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "cap")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "C")
+			)
+			(property
+				(name "Sim.Params")
+				(value "C=100n")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a6f9131-8c98-419b-898b-9e43980bcd4b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ec1f11bd-6325-4f40-a77a-f78592b11934")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b42d47f-2e28-40bb-b5da-101118ee8b1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D9")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7448aa83-daab-41f4-a87b-315ab26cbd29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D10")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "26ab0e6f-06bd-4e4d-a7b4-40a3fc7a3343")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D11")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bc25a725-54a2-4aff-a054-c49fd265882b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D13")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36c12da3-f450-4bcf-b281-f69e2650500d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D14")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3b96ffb8-8c43-4daf-a1e3-80b1f78a03c0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D19")
+			(value "5.0SMDJ54A")
+			(footprint "Diode_SMD:D_SMC")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"TVS_5KP54A\"")
+				(field
+					(name "MPN") "5.0SMDJ54A")
+				(field
+					(name "LCSC") "C20415356")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMC")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "TVSdiode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"TVS_5KP54A\"")
+			)
+			(property
+				(name "MPN")
+				(value "5.0SMDJ54A")
+			)
+			(property
+				(name "LCSC")
+				(value "C20415356")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c12ac945-5a4a-4dfa-9f84-a697ffc3294b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D21")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7368527-a923-4e7f-a7b0-30281a2a747e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D22")
+			(value "D")
+			(footprint "Diode_SMD:D_SOD-123")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"D\"")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"D\"")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0515eaa6-5c86-45d9-a740-249de1467527")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D28")
+			(value "S2MW")
+			(footprint "Diode_SMD:D_SOD-123F")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf")
+			(description "Pre-charge diode Vin -> Vout_1 (Jingdao S2MW, 1000 V 2 A, IFSM 50 A); conducts only while Vout_1 is below Vin")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"S2MW\"")
+				(field
+					(name "MPN") "S2MW")
+				(field
+					(name "LCSC") "C128729")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123F")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf")
+				(field
+					(name "Description") "Pre-charge diode Vin -> Vout_1 (Jingdao S2MW, 1000 V 2 A, IFSM 50 A); conducts only while Vout_1 is below Vin")
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"S2MW\"")
+			)
+			(property
+				(name "MPN")
+				(value "S2MW")
+			)
+			(property
+				(name "LCSC")
+				(value "C128729")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c399746a-53eb-4c48-a735-e8265130f622")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D29")
+			(value "S2MW")
+			(footprint "Diode_SMD:D_SOD-123F")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf")
+			(description "Pre-charge diode Vin -> Vout_2 (Jingdao S2MW, 1000 V 2 A, IFSM 50 A); conducts only while Vout_2 is below Vin")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"S2MW\"")
+				(field
+					(name "MPN") "S2MW")
+				(field
+					(name "LCSC") "C128729")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123F")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf")
+				(field
+					(name "Description") "Pre-charge diode Vin -> Vout_2 (Jingdao S2MW, 1000 V 2 A, IFSM 50 A); conducts only while Vout_2 is below Vin")
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"S2MW\"")
+			)
+			(property
+				(name "MPN")
+				(value "S2MW")
+			)
+			(property
+				(name "LCSC")
+				(value "C128729")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad541492-5975-4a76-baf7-2fb8e76d43fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D30")
+			(value "S2MW")
+			(footprint "Diode_SMD:D_SOD-123F")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf")
+			(description "Pre-charge diode Vin -> Vout_3 (Jingdao S2MW, 1000 V 2 A, IFSM 50 A); conducts only while Vout_3 is below Vin")
+			(fields
+				(field
+					(name "Sim.Device") "SPICE")
+				(field
+					(name "Sim.Params") "model=\"S2MW\"")
+				(field
+					(name "MPN") "S2MW")
+				(field
+					(name "LCSC") "C128729")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123F")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_1810121033_Shandong-Jingdao-Microelectronics-S2MW_C128729.pdf")
+				(field
+					(name "Description") "Pre-charge diode Vin -> Vout_3 (Jingdao S2MW, 1000 V 2 A, IFSM 50 A); conducts only while Vout_3 is below Vin")
+			)
+			(libsource
+				(lib "ltspice")
+				(part "diode")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SPICE")
+			)
+			(property
+				(name "Sim.Params")
+				(value "model=\"S2MW\"")
+			)
+			(property
+				(name "MPN")
+				(value "S2MW")
+			)
+			(property
+				(name "LCSC")
+				(value "C128729")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "68d2cdfe-4062-478b-951b-a3c5578ea96a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H5")
+			(value "MountingHole_M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a9611ed7-7bad-437c-840e-3e9cd57fcff8")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H6")
+			(value "MountingHole_M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bfb98125-95e4-448a-885b-7e42c96c429b")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H7")
+			(value "MountingHole_M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "750fd80f-c571-4458-8719-e002ab057dce")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H8")
+			(value "MountingHole_M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "power board M3 standoff hole (nylon standoff, not plated, isolated)")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e657c4af-2750-46e5-89b9-8601ad9302c6")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Conn_01x01_Pin")
+			(footprint "BOOST:MountingHole_4.3mm_M4_Pad7.0_TopBottom")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "BOOST:MountingHole_4.3mm_M4_Pad7.0_TopBottom")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dc1a6f05-cf91-4502-8a2f-c1a1469f530d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_01x01_Pin")
+			(footprint "BOOST:MountingHole_4.3mm_M4_Pad7.0_TopBottom")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "BOOST:MountingHole_4.3mm_M4_Pad7.0_TopBottom")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8852304-7289-4f19-bcdb-b20de4047d04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Conn_01x01_Pin")
+			(footprint "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "65d41ce1-5121-4947-9a93-b52a91ff5d0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Conn_01x01_Pin")
+			(footprint "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c276fb0-c4fe-49c9-9d6e-9a772fbc7818")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "Conn_01x01_Pin")
+			(footprint "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6c6146c2-44b7-42bc-8012-49df0d57ef48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "Conn_01x01_Pin")
+			(footprint "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "84b41429-49eb-4262-b4b0-4d2967136afb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "Conn_01x01_Pin")
+			(footprint "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "446f448d-c3a8-484f-8f0f-5eb6cb91e2d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J8")
+			(value "Conn_01x01_Pin")
+			(footprint "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+			(description "Generic connector, single row, 01x01, script generated")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x01_Pin")
+				(description "Generic connector, single row, 01x01, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "49ca8ad8-9a11-4f49-b734-df3b55e0b114")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J10")
+			(value "Conn_02x15_2.54mm")
+			(footprint "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical")
+			(datasheet "https://www.samtec.com/products/esq")
+			(description "Board-to-board elevated socket, power board top side, 18.67 mm body; with J11 (TSW-07) the card gap is 21.21 mm (mates with J11 pin for pin)")
+			(fields
+				(field
+					(name "MPN") "ESQ-115-44-G-D")
+				(field
+					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://www.samtec.com/products/esq")
+				(field
+					(name "Description") "Board-to-board elevated socket, power board top side, 18.67 mm body; with J11 (TSW-07) the card gap is 21.21 mm (mates with J11 pin for pin)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_02x15_Odd_Even")
+				(description "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "MPN")
+				(value "ESQ-115-44-G-D")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_2x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8502ea64-3033-4324-a9f3-55d2969f9e11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "30")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "6.8µ")
+			(footprint "CSCF3218-6R8MC:IND_CSCF3218-6R8MC")
+			(fields
+				(field
+					(name "Sim.Device") "L")
+				(field
+					(name "Sim.Params") "L=6.8µ")
+				(field
+					(name "Footprint") "CSCF3218-6R8MC:IND_CSCF3218-6R8MC")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "ind")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "L")
+			)
+			(property
+				(name "Sim.Params")
+				(value "L=6.8µ")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a037b72-e206-409f-88c3-e68df970fb15")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M1")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e59c367e-baf5-4dcc-9223-bcc064c916dc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M2")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9fb07e2e-1f5f-4bad-a261-40bb3bc90762")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M3")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "67debde5-2e5f-40c2-8250-e5a25f7243d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M4")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4bc4097a-e6de-4e41-b13a-b29ed517cb53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M5")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9a672681-8e79-4ead-9133-ed39713894f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M6")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7075abb-6a7c-443e-b477-8694f1cfff74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M7")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_NoHole")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c54ce830-6446-42af-a03a-d9d682a5295d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M8")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0e75f021-2c7b-403f-ab27-b904015d4a82")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M9")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dcb925b5-870f-4b94-afba-19a9fdd10146")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "M10")
+			(value "HYG180N10")
+			(footprint "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+			(fields
+				(field
+					(name "Sim.Library") "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+				(field
+					(name "Sim.Name") "NMOS")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "Footprint") "BOOST:TO-220-3_Horizontal_TabUp_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "nmos")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "C:\\Users\\bubba\\AppData\\Local\\LTspice\\lib\\sub\\HYG180N10.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "NMOS")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d805daf8-0cbd-4385-90ec-c4d61786abf3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "NT1")
+			(value "NetTie_2")
+			(footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
+			(description "Net tie: U11 senses the shunt pad directly")
+			(fields
+				(field
+					(name "Footprint") "NetTie:NetTie-2_SMD_Pad0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Net tie: U11 senses the shunt pad directly")
+			)
+			(libsource
+				(lib "Device")
+				(part "NetTie_2")
+				(description "Net tie, 2 pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "net tie short")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Net*Tie*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4eafdd43-2c64-46eb-b683-0ead81622a26")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "NT2")
+			(value "NetTie_2")
+			(footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
+			(description "Net tie: U12 senses the shunt pad directly")
+			(fields
+				(field
+					(name "Footprint") "NetTie:NetTie-2_SMD_Pad0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Net tie: U12 senses the shunt pad directly")
+			)
+			(libsource
+				(lib "Device")
+				(part "NetTie_2")
+				(description "Net tie, 2 pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "net tie short")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Net*Tie*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de3b5a83-b42f-48b3-99df-5d8d0c909253")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "NT3")
+			(value "NetTie_2")
+			(footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
+			(description "Net tie: U6 senses the shunt pad directly")
+			(fields
+				(field
+					(name "Footprint") "NetTie:NetTie-2_SMD_Pad0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Net tie: U6 senses the shunt pad directly")
+			)
+			(libsource
+				(lib "Device")
+				(part "NetTie_2")
+				(description "Net tie, 2 pins")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "net tie short")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Net*Tie*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "467ca628-a7c1-419d-8531-55c7bd2d23cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1m")
+			(footprint "BOOST:R_Bourns_CSS4J-4026")
+			(description "1 mOhm 4-terminal current sense shunt, Bourns CSS4J-4026R-1L00F (pins 1,4 current; 2,3 sense); with U25 = INA241A4 (100 V/V) the Current signal stays 0.1 V/A (rev6)")
+			(fields
+				(field
+					(name "MPN") "CSS4J-4026R-1L00F")
+				(field
+					(name "LCSC") "C2076400")
+				(field
+					(name "Footprint") "BOOST:R_Bourns_CSS4J-4026")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1 mOhm 4-terminal current sense shunt, Bourns CSS4J-4026R-1L00F (pins 1,4 current; 2,3 sense); with U25 = INA241A4 (100 V/V) the Current signal stays 0.1 V/A (rev6)")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Shunt")
+				(description "Shunt resistor with Kelvin connections")
+			)
+			(property
+				(name "MPN")
+				(value "CSS4J-4026R-1L00F")
+			)
+			(property
+				(name "LCSC")
+				(value "C2076400")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res shunt resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*Shunt*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b4bfd100-b54f-49db-9bee-230b77aa84e0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value ".05")
+			(footprint "Resistor_SMD:R_2512_6332Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=.05")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=.05")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab423aa5-dc6f-432e-8a3d-85329f7e6f35")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "220")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=220")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=220")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "34fd8b57-d505-40a8-a5ee-c200160bfb8e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "1Meg")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=1Meg")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=1Meg")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1db6f0e2-9d20-4622-80f1-b1b7369f4ca9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "10")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "26ac5ee8-99f9-4ab3-a3c0-1d16fb4e1f5f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "5.1")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=5.1")
+				(field
+					(name "MPN") "0805W8F510KT5E")
+				(field
+					(name "LCSC") "C17724")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=5.1")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F510KT5E")
+			)
+			(property
+				(name "LCSC")
+				(value "C17724")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abc07d5f-b1e3-4dc6-bca8-dcfbb06f23be")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "100")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=100")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=100")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9567d51a-1c59-4efa-b6e8-651bf449c157")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "220")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=220")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=220")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6fc878aa-6c87-47fc-87a7-ce36b0deb926")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R47")
+			(value "220")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=220")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=220")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71bd0f1f-c2f4-484c-8d3f-5e7f87ee080d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R48")
+			(value "5.1")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=5.1")
+				(field
+					(name "MPN") "0805W8F510KT5E")
+				(field
+					(name "LCSC") "C17724")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=5.1")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F510KT5E")
+			)
+			(property
+				(name "LCSC")
+				(value "C17724")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "20607170-6c39-4ea4-a181-d07487df79bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R49")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bdc14635-67f6-44da-bd42-b5fcd907f1fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R50")
+			(value "100")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=100")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=100")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "60dd2fc6-d845-452f-93fe-f0a307957047")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R52")
+			(value ".05")
+			(footprint "Resistor_SMD:R_2512_6332Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=.05")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=.05")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4894b21a-009d-4d05-92fe-75719dc319d2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R53")
+			(value ".05")
+			(footprint "Resistor_SMD:R_2512_6332Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=.05")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=.05")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "91c34481-0ecc-4eaa-815d-5e7624791cca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R56")
+			(value "100")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=100")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=100")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ebf5004-bad4-4455-9147-ada6a4817576")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R59")
+			(value "5.1")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=5.1")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=5.1")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1298f60b-bc64-45df-9718-4b0c4edde14e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R60")
+			(value "5.1")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=5.1")
+				(field
+					(name "MPN") "0805W8F510KT5E")
+				(field
+					(name "LCSC") "C17724")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=5.1")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F510KT5E")
+			)
+			(property
+				(name "LCSC")
+				(value "C17724")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1d0e19b5-bc36-43de-8d47-ca704015934a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R61")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f43ced6e-8a1c-439e-b4ce-76a4044f673e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R62")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8883f62-bc67-4fd5-a482-a767cc70be4b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R70")
+			(value "5.1")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=5.1")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=5.1")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "11dd724c-1d66-42e0-98aa-1cdf44292cd9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R72")
+			(value "5.1")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=5.1")
+				(field
+					(name "MPN") "0805W8F510KT5E")
+				(field
+					(name "LCSC") "C17724")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=5.1")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F510KT5E")
+			)
+			(property
+				(name "LCSC")
+				(value "C17724")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d7906899-6a27-4cc4-ba82-45b230385c93")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R73")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ec36dc99-9b10-49fc-886f-1d0d49e3715e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R74")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22943188-1c27-4229-9c81-ab18226b07b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R75")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "13eebd83-d349-4132-a994-4a57912a3ead")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R76")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "78f2d828-6d01-4ca3-97c4-1c4332aa949a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R104")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0603_1608Metric")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Params") "R=10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "res")
+				(description "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Params")
+				(value "R=10k")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2bd8d9d2-8e22-4d3e-af99-6f2c3efa9948")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "L78L05_SOT89")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+			(description "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+				(field
+					(name "Description") "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "L78L05_SOT89")
+				(description "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 100mA Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?89*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bb8e0db9-c055-49a9-b2b1-1b4a3d58b3f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "TLV9001")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Sim.Library") "../LTspice/TLV9001.lib")
+				(field
+					(name "Sim.Name") "OPAMPS/OPAMP2")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "MPN") "TLV9001IDBVR")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "OpAmps/opamp2")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "../LTspice/TLV9001.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "OPAMPS/OPAMP2")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "MPN")
+				(value "TLV9001IDBVR")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "21815d9a-b09e-40b2-beec-b7b5e69a9858")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "UCC21520DW")
+			(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+			(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+				(field
+					(name "Description") "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(libsource
+				(lib "Driver_FET")
+				(part "UCC21520DW")
+				(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Isolated Gate Driver")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*7.5x10.3mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0e24db3-6eb5-4f19-b538-11c16b760c46")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U10")
+			(value "UCC21520DW")
+			(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+			(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+				(field
+					(name "Description") "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(libsource
+				(lib "Driver_FET")
+				(part "UCC21520DW")
+				(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Isolated Gate Driver")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*7.5x10.3mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3e90e07d-4057-4192-8874-1fcae5e599e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U11")
+			(value "TLV9001")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Sim.Library") "../LTspice/TLV9001.lib")
+				(field
+					(name "Sim.Name") "OPAMPS/OPAMP2")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "MPN") "TLV9001IDBVR")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "OpAmps/opamp2")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "../LTspice/TLV9001.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "OPAMPS/OPAMP2")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "MPN")
+				(value "TLV9001IDBVR")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "09e25818-d3be-4967-b4c0-9ca926ee0bda")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U12")
+			(value "TLV9001")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Sim.Library") "../LTspice/TLV9001.lib")
+				(field
+					(name "Sim.Name") "OPAMPS/OPAMP2")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "MPN") "TLV9001IDBVR")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "OpAmps/opamp2")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "../LTspice/TLV9001.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "OPAMPS/OPAMP2")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "MPN")
+				(value "TLV9001IDBVR")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6723db58-d54d-4835-95e6-f56b2f44c7a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U15")
+			(value "UCC21520DW")
+			(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+			(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+				(field
+					(name "Description") "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(libsource
+				(lib "Driver_FET")
+				(part "UCC21520DW")
+				(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Isolated Gate Driver")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*7.5x10.3mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "202d2fa1-6ea8-48f6-ad35-49a3e16e6315")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U16")
+			(value "MC7812")
+			(footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")
+			(fields
+				(field
+					(name "Sim.Library") "../LTspice/MC7812.lib")
+				(field
+					(name "Sim.Name") "MC7812_TYP")
+				(field
+					(name "Sim.Device") "SUBCKT")
+				(field
+					(name "MPN") "MC7812BD2TR4G")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:TO-263-3_TabPin2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "ltspice")
+				(part "LM2940_12")
+				(description "")
+			)
+			(property
+				(name "Sim.Library")
+				(value "../LTspice/MC7812.lib")
+			)
+			(property
+				(name "Sim.Name")
+				(value "MC7812_TYP")
+			)
+			(property
+				(name "Sim.Device")
+				(value "SUBCKT")
+			)
+			(property
+				(name "MPN")
+				(value "MC7812BD2TR4G")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d8536220-5760-483f-94bc-e2bfac667405")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U17")
+			(value "L78L05_SOT89")
+			(footprint "Package_TO_SOT_SMD:SOT-89-3")
+			(datasheet "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+			(description "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+				(field
+					(name "Description") "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			)
+			(libsource
+				(lib "Regulator_Linear")
+				(part "L78L05_SOT89")
+				(description "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Voltage Regulator 100mA Positive")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?89*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e36127a-55b1-4d92-baf6-d21850b5d763")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U19")
+			(value "UCC21520DW")
+			(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+			(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+				(field
+					(name "Description") "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(libsource
+				(lib "Driver_FET")
+				(part "UCC21520DW")
+				(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Dual Isolated Gate Driver")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*7.5x10.3mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0a16d2f-3809-4cb5-a1bb-e825b215fa28")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U25")
+			(value "INA241A4xD")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ina241b.pdf")
+			(description "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8")
+			(fields
+				(field
+					(name "MPN") "INA241A4IDR")
+				(field
+					(name "LCSC") "C22427873")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina241b.pdf")
+				(field
+					(name "Description") "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8")
+			)
+			(libsource
+				(lib "Amplifier_Current")
+				(part "INA241A3xD")
+				(description "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8")
+			)
+			(property
+				(name "MPN")
+				(value "INA241A4IDR")
+			)
+			(property
+				(name "LCSC")
+				(value "C22427873")
+			)
+			(property
+				(name "Sheetname")
+				(value "")
+			)
+			(property
+				(name "Sheetfile")
+				(value "BOOST_power_RC2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "current monitor shunt sensor bidirectional high low")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4f98bd6c-7e06-45cc-9636-40803efc3719")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Amplifier_Current")
+			(part "INA241A3xD")
+			(description "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8")
+			(docs "https://www.ti.com/lit/ds/symlink/ina241b.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "INA241A3xD")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina241b.pdf")
+				(field
+					(name "Description") "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "REF2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "REF1")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "+")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x01_Pin")
+			(description "Generic connector, single row, 01x01, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x01_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x01, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_02x15_Odd_Even")
+			(description "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_2x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_02x15_Odd_Even")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "Pin_15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "Pin_16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "Pin_17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "Pin_18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "Pin_19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "Pin_20")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "Pin_21")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "Pin_22")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "Pin_23")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "Pin_24")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "Pin_25")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "Pin_26")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "Pin_27")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "Pin_28")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "Pin_29")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "Pin_30")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "NetTie_2")
+			(description "Net tie, 2 pins")
+			(footprints
+				(fp "Net*Tie*")
+			)
+			(fields
+				(field
+					(name "Reference") "NT")
+				(field
+					(name "Value") "NetTie_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Net tie, 2 pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_Shunt")
+			(description "Shunt resistor with Kelvin connections")
+			(footprints
+				(fp "R_*Shunt*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R_Shunt")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Shunt resistor with Kelvin connections")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Driver_FET")
+			(part "UCC21520DW")
+			(description "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			(docs "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+			(footprints
+				(fp "SOIC*7.5x10.3mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "UCC21520DW")
+				(field
+					(name "Footprint") "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ucc21520.pdf")
+				(field
+					(name "Description") "Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "INA")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "INB")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "VCCI")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "DIS")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "DT")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "8")
+					(name "VCCI")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "VSSB")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "OUTB")
+					(type "output")
+				)
+				(pin
+					(num "11")
+					(name "VDDB")
+					(type "power_in")
+				)
+				(pin
+					(num "12")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "13")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "14")
+					(name "VSSA")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "OUTA")
+					(type "output")
+				)
+				(pin
+					(num "16")
+					(name "VDDA")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Regulator_Linear")
+			(part "L78L05_SOT89")
+			(description "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			(docs "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+			(footprints
+				(fp "SOT?89*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "L78L05_SOT89")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-89-3")
+				(field
+					(name "Datasheet") "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf")
+				(field
+					(name "Description") "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "IN")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "LM2940_12")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "OpAmps/opamp2")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "V-")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "In+")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "In-")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "V+")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "TVSdiode")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "-")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "+")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "cap")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "diode")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "-")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "+")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "ind")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "nmos")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "S")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "ltspice")
+			(part "res")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Amplifier_Current")
+			(uri "${KICAD10_SYMBOL_DIR}/Amplifier_Current.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Driver_FET")
+			(uri "${KICAD10_SYMBOL_DIR}/Driver_FET.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Linear")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym")
+		)
+		(library
+			(logical "ltspice")
+			(uri "${KIPRJMOD}/ltspice.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "5V")
+			(class "Rail,Default")
+			(node
+				(ref "C39")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C48")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C62")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C89")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C90")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "3")
+				(pinfunction "VCCI_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "6")
+				(pinfunction "DT_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "8")
+				(pinfunction "VCCI_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "3")
+				(pinfunction "VCCI_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U15")
+				(pin "6")
+				(pinfunction "DT_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "8")
+				(pinfunction "VCCI_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U17")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U19")
+				(pin "3")
+				(pinfunction "VCCI_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U19")
+				(pin "6")
+				(pinfunction "DT_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "8")
+				(pinfunction "VCCI_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "VCCI_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "6")
+				(pinfunction "DT_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "8")
+				(pinfunction "VCCI_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "12V")
+			(class "Rail,Default")
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D10")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D21")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D9")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "19")
+				(pinfunction "Pin_19_19")
+				(pintype "passive")
+			)
+			(node
+				(ref "U16")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "11")
+				(pinfunction "VDDB_11")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U19")
+				(pin "16")
+				(pinfunction "VDDA_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "3")
+			(name "Current")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "23")
+				(pinfunction "Pin_23_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "U25")
+				(pin "5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "4")
+			(name "GATE_M1")
+			(class "Gate,Default")
+			(node
+				(ref "M1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R104")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "GATE_M2")
+			(class "Gate,Default")
+			(node
+				(ref "D11")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R75")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "GATE_M3")
+			(class "Gate,Default")
+			(node
+				(ref "D14")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M3")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R61")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "GATE_M4")
+			(class "Gate,Default")
+			(node
+				(ref "D13")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M4")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R47")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R73")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "GATE_M5")
+			(class "Gate,Default")
+			(node
+				(ref "D22")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M5")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R59")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R74")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "GATE_M6")
+			(class "Gate,Default")
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M6")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R49")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R70")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "GATE_M7")
+			(class "Gate,Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M7")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R60")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R76")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "GND")
+			(class "Power,Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C35")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C39")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C40")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C41")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C44")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C45")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C48")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C55")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C56")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C62")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C69")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C70")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C71")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C72")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C73")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C74")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C75")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C76")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C77")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C78")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C79")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C80")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C81")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C82")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C83")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C84")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C85")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C86")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C87")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C88")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C89")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C90")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D19")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "20")
+				(pinfunction "Pin_20_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "21")
+				(pinfunction "Pin_21_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "24")
+				(pinfunction "Pin_24_24")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "25")
+				(pinfunction "Pin_25_25")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "28")
+				(pinfunction "Pin_28_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "29")
+				(pinfunction "Pin_29_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M1")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R104")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R52")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R53")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R62")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "5")
+				(pinfunction "DIS_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U11")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U15")
+				(pin "5")
+				(pinfunction "DIS_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U16")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U17")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U19")
+				(pin "14")
+				(pinfunction "VSSA_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "2")
+				(pinfunction "INB_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U19")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U19")
+				(pin "5")
+				(pinfunction "DIS_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U19")
+				(pin "9")
+				(pinfunction "VSSB_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U25")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U25")
+				(pin "3")
+				(pinfunction "REF2_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U25")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U25")
+				(pin "7")
+				(pinfunction "REF1_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "5")
+				(pinfunction "DIS_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "IREF1_input")
+			(class "Default")
+			(node
+				(ref "C45")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "26")
+				(pinfunction "Pin_26_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "3")
+				(pinfunction "In+_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "IREF2_input")
+			(class "Default")
+			(node
+				(ref "C44")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "27")
+				(pinfunction "Pin_27_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "3")
+				(pinfunction "In+_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "IREF3_input")
+			(class "Default")
+			(node
+				(ref "C41")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "30")
+				(pinfunction "Pin_30_30")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "In+_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "ISNS_N")
+			(class "Sense,Default")
+			(node
+				(ref "R1")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U25")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "ISNS_P")
+			(class "Sense,Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U25")
+				(pin "8")
+				(pinfunction "+_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "LX")
+			(class "Power,Default")
+			(node
+				(ref "D19")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M1")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M5")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M6")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M7")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "M1_ON")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "1")
+				(pinfunction "INA_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "M2_ON")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "1")
+				(pinfunction "INA_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(D2--)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R60")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "10")
+				(pinfunction "OUTB_10")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(D8--)")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R70")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "10")
+				(pinfunction "OUTB_10")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(D9--)")
+			(class "Default")
+			(node
+				(ref "D9")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R48")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(D10--)")
+			(class "Default")
+			(node
+				(ref "D10")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(D11--)")
+			(class "Default")
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "15")
+				(pinfunction "OUTA_15")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(D13--)")
+			(class "Default")
+			(node
+				(ref "D13")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R47")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "15")
+				(pinfunction "OUTA_15")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(D14--)")
+			(class "Default")
+			(node
+				(ref "D14")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "15")
+				(pinfunction "OUTA_15")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(D21--)")
+			(class "Default")
+			(node
+				(ref "D21")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R72")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(D22--)")
+			(class "Default")
+			(node
+				(ref "D22")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R59")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "10")
+				(pinfunction "OUTB_10")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(M8-G)")
+			(class "Default")
+			(node
+				(ref "M8")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(M8-S)")
+			(class "Power,Default")
+			(node
+				(ref "M8")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "NT3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(M9-G)")
+			(class "Default")
+			(node
+				(ref "M9")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R50")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(M9-S)")
+			(class "Power,Default")
+			(node
+				(ref "M9")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "NT2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R53")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(M10-G)")
+			(class "Default")
+			(node
+				(ref "M10")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R56")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(M10-S)")
+			(class "Power,Default")
+			(node
+				(ref "M10")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "NT1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R52")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(U6-OUT)")
+			(class "Default")
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(U8-VDDA)")
+			(class "Default")
+			(node
+				(ref "C60")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C61")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R72")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "11")
+				(pinfunction "VDDB_11")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "16")
+				(pinfunction "VDDA_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(U10-VDDA)")
+			(class "Default")
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R48")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "11")
+				(pinfunction "VDDB_11")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U10")
+				(pin "16")
+				(pinfunction "VDDA_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(U11-OUT)")
+			(class "Default")
+			(node
+				(ref "R56")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(U12-OUT)")
+			(class "Default")
+			(node
+				(ref "R50")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(U15-VDDA)")
+			(class "Default")
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C51")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "11")
+				(pinfunction "VDDB_11")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U15")
+				(pin "16")
+				(pinfunction "VDDA_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(U19-OUTA)")
+			(class "Default")
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "15")
+				(pinfunction "OUTA_15")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(U19-OUTB)")
+			(class "Default")
+			(node
+				(ref "R62")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U19")
+				(pin "10")
+				(pinfunction "OUTB_10")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "43")
+			(name "Output1_drain")
+			(class "Power,Default")
+			(node
+				(ref "J10")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M10")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "Output2_drain")
+			(class "Power,Default")
+			(node
+				(ref "J10")
+				(pin "16")
+				(pinfunction "Pin_16_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M9")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "Output3_drain")
+			(class "Power,Default")
+			(node
+				(ref "J10")
+				(pin "18")
+				(pinfunction "Pin_18_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M8")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "SNS_CH1")
+			(class "Sense,Default")
+			(node
+				(ref "NT1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "4")
+				(pinfunction "In-_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "SNS_CH2")
+			(class "Sense,Default")
+			(node
+				(ref "NT2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "4")
+				(pinfunction "In-_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "SNS_CH3")
+			(class "Sense,Default")
+			(node
+				(ref "NT3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "In-_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "Vin")
+			(class "Power,Default")
+			(node
+				(ref "C40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C69")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C79")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C80")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C81")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C82")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C83")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C84")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C85")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D28")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D29")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D30")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "IN_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U16")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U17")
+				(pin "3")
+				(pinfunction "IN_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "50")
+			(name "Vout_1")
+			(class "Power,Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C70")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C72")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C86")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C88")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D28")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M2")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "Vout_2")
+			(class "Power,Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C71")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C73")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C78")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C87")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D29")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M3")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "Vout_3")
+			(class "Power,Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C74")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C75")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C76")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C77")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D30")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "17")
+				(pinfunction "Pin_17_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "M4")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "analog_5V")
+			(class "Rail,Default")
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C35")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C55")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C56")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J10")
+				(pin "22")
+				(pinfunction "Pin_22_22")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U11")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U25")
+				(pin "6")
+				(pinfunction "V+_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "V+_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "ena_out_1")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "2")
+				(pinfunction "INB_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "55")
+			(name "ena_out_2")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "2")
+				(pinfunction "INB_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "56")
+			(name "ena_out_3")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "2")
+				(pinfunction "INB_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "57")
+			(name "m2_source")
+			(class "Power,Default")
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C51")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M2")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "M7")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R75")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R76")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "14")
+				(pinfunction "VSSA_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "9")
+				(pinfunction "VSSB_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "58")
+			(name "m3_source")
+			(class "Power,Default")
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C50")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M3")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "M6")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R49")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R61")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "14")
+				(pinfunction "VSSA_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "9")
+				(pinfunction "VSSB_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "59")
+			(name "m4_source")
+			(class "Power,Default")
+			(node
+				(ref "C60")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C61")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "M4")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "M5")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R73")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R74")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "14")
+				(pinfunction "VSSA_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "9")
+				(pinfunction "VSSB_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "60")
+			(name "out_2_on")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U10")
+				(pin "1")
+				(pinfunction "INA_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "61")
+			(name "out_3_on")
+			(class "Default")
+			(node
+				(ref "J10")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "INA_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "62")
+			(name "rsense_lo")
+			(class "Power,Default")
+			(node
+				(ref "L1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(U8-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(U8-NC-Pad12)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "12")
+				(pinfunction "NC_12")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U8-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U10-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U10-NC-Pad12)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "12")
+				(pinfunction "NC_12")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U10-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U10")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U15-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U15")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U15-NC-Pad12)")
+			(class "Default")
+			(node
+				(ref "U15")
+				(pin "12")
+				(pinfunction "NC_12")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U15-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U15")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(U19-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U19")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(U19-NC-Pad12)")
+			(class "Default")
+			(node
+				(ref "U19")
+				(pin "12")
+				(pinfunction "NC_12")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(U19-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U19")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

@@ -1,0 +1,26 @@
+wrote C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\step05\blocks\R106.block.txt [('1', 53.19, 84.3, '5V'), ('2', 54.21, 84.3, 'SCL')]
+wrote C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\step05\blocks\R107.block.txt [('1', 59.49, 106.6, '5V'), ('2', 60.51, 106.6, 'SDA')]
+R99 value 10k -> 1k (Value and Sim.Params)
+R102 value 10k -> 1k (Value and Sim.Params)
+R106 added from R106.block.txt (after R99)
+R107 added from R107.block.txt (after R99)
+SCL R106.2 -> track: 32607 states; B.Cu (54.21, 84.3) (54.3, 84.2) (54.35, 84.15) (56.75, 84.15) (57.15, 84.55) (57.15, 85.1); vias []
+5V R106.1 -> via: 18601 states; B.Cu (53.19, 84.3) (50.4, 84.3); vias [(50.4, 84.3)]
+SDA R107.2 -> via: 1054095 states; B.Cu (60.51, 106.6) (60.5, 106.5) (60.5, 105.85) (60.75, 105.6); In2.Cu (60.75, 105.6) (60.75, 100.95) (60, 100.2) (60, 100.1); vias [(60.75, 105.6), (60.0, 100.1)]
+5V R107.1 -> via: 29 states; B.Cu (59.49, 106.6) (59.6, 106.7) (59.65, 106.75); vias [(59.65, 106.75)]
+wrote C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\step05\route_spec.json
+removed 1 segments and 0 vias; added 16 segments and 4 vias -> C:/Users/bubba/OneDrive/Documents/led-driver/BOOST_split_boards/review_fixes_2026-10-11/work/step05/routed.kicad_pcb
+card PCB lines 112320 CRLF 112320
+== ERC
+Found 0 violations
+Found 0 violations
+Found 0 violations
+== DRC (refill, parity)
+== sync
+326 part units on the main page; board sheets 126 + 200; 0 differences
+== exports (scratch copies, zones refilled in memory)
+exported 74 nets, 1035 barrels, 359 pads
+exported 133 nets, 438 barrels, 517 pads
+== cover, sense, gates
+== card sensitive nets
+done in 150 s

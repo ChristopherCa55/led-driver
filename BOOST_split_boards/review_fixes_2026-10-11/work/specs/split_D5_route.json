@@ -1,0 +1,63 @@
+{
+ "_why": "Experiment: re-route Net-(D5--) between its two vias where it removes the least plane (GND on F/In1/In3/In4/B, 5V on In2); clearance 0.25 for every net",
+ "region": [
+  46,
+  70,
+  92,
+  116
+ ],
+ "clearance": 0.25,
+ "via": [
+  0.5,
+  0.3
+ ],
+ "via_cost": 1.5,
+ "turn_cost": 0.15,
+ "foreign_via_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0
+ },
+ "layers": [
+  "F.Cu",
+  "In1.Cu",
+  "In2.Cu",
+  "In3.Cu",
+  "In4.Cu",
+  "B.Cu"
+ ],
+ "fill_cost": {
+  "net": "GND",
+  "layer_nets": {
+   "In2.Cu": "5V"
+  },
+  "factor": {
+   "F.Cu": 12,
+   "In1.Cu": 12,
+   "In2.Cu": 12,
+   "In3.Cu": 12,
+   "In4.Cu": 12,
+   "B.Cu": 12
+  },
+  "via_factor": 4,
+  "radius": 0.4,
+  "via_radius": 0.55
+ },
+ "connections": [
+  {
+   "start_xy": [
+    82.125,
+    95.575,
+    "In4.Cu"
+   ],
+   "net": "Net-(D5--)",
+   "goal": "points",
+   "goal_xy": [
+    [
+     69.575,
+     114.375
+    ]
+   ],
+   "width": 0.2
+  }
+ ]
+}

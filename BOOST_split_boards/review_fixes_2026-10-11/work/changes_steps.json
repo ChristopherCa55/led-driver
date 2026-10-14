@@ -1,0 +1,22 @@
+[
+ {"step": "Step 1", "title": "LTspice documentation (D5, D7, D8)", "status": "in the copy (LTspice/BOOST.asc 1f008632 -> cc28c9fa)",
+  "ltspice": "step01/ltspice_changes.txt"},
+ {"step": "Step 2", "title": "KiCad documentation: diode part names, Vin+/Vin-/Out1+... labels, title block, U26D (D7, D8)",
+  "status": "in the copy (needs your OK on the label pictures img/step02/silk_*_v3.png)", "sch": "step02d/kicad_changes.json"},
+ {"step": "Step 3", "title": "12V route, Option A (X1)", "status": "in the copy",
+  "pcb": [["Power", "step02d/kicad/BOOST_power_RC2.kicad_pcb", "step03/kicad/BOOST_power_RC2.kicad_pcb"]]},
+ {"step": "Step 4", "title": "ch2 loop vias (D10 option a)", "status": "in the copy",
+  "pcb": [["Power", "step03/kicad/BOOST_power_RC2.kicad_pcb", "step04/kicad/BOOST_power_RC2.kicad_pcb"]]},
+ {"step": "Step 6", "title": "three more Vin vias in R1's funnel (X1 follow-up)", "status": "in the copy",
+  "pcb": [["Power", "step05d/kicad/BOOST_power_RC2.kicad_pcb", "step06b/kicad/BOOST_power_RC2.kicad_pcb"]],
+  "notes": ["The first try (0.9/0.5 mm at x 72.25, work/step06) broke clearance to U19 pins 15/16 and was dropped."]},
+ {"step": "Step 5", "title": "I2C pull-ups R106 / R107 (D1) and R99 / R102 1k (D2)", "status": "**waiting for your OK** (work/step05d/STEP.md lists the four points)",
+  "ltspice": "step05_lt/ltspice_changes.txt", "sch": "step05d/sch_changes.json",
+  "pcb": [["Control card", "step04/kicad/BOOST_control_RC2.kicad_pcb", "step05d/kicad/BOOST_control_RC2.kicad_pcb"]],
+  "notes": ["LTspice candidate 5b adds: directive at (-6376, -4088) .options gmin=100f reltol=0.001 -> + solver=alt (waiting for your OK).",
+            "Card BOM: R99 / R102 move from the 10k line (C25804) to the existing 1k line (C21190); new line 0402WGF4701TCE R106,R107 C25900. CPL: R106 53.2000 / -84.5000 Bottom 0; R107 60.0000 / -106.6000 Bottom 0."]},
+ {"step": "Step 7", "title": "two GND stitching vias in the one-via In1 piece (C1)", "status": "**waiting for your OK** (built on step 5's card)",
+  "pcb": [["Control card", "step06b/kicad/BOOST_control_RC2.kicad_pcb", "step07d/kicad/BOOST_control_RC2.kicad_pcb"]]},
+ {"step": "Step 8", "title": "Net-(U101A-Y) from In1 to In2 (C1)", "status": "**waiting for your OK** (built on step 7)",
+  "pcb": [["Control card", "step07d/kicad/BOOST_control_RC2.kicad_pcb", "step08b/kicad/BOOST_control_RC2.kicad_pcb"]]}
+]

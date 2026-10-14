@@ -1,0 +1,74 @@
+{
+  "candidatePCB": "C:\\Users\\bubba\\OneDrive\\Documents\\led-driver\\BOOST_split_boards\\review_fixes_2026-10-11\\work\\step05g\\kicad\\BOOST_control_RC2.kicad_pcb",
+  "pcbSHA256": "82b638b606ea6e1e294ea37d4ad58e6a0340da94dd3be8194e5f616207866fb0",
+  "status": "PASS",
+  "files": [
+    {
+      "file": "BOOST_control_BOM_JLC.csv",
+      "sourceSHA256": "c66c63fc9b30963babeaef8a80d4286846c8c286119b1997d7fed2d7d568d6ee",
+      "outputSHA256": "9b2132ffedb63a1d722e0cdb31abd4f8518a3759e4f48963b7a3df67acdf93c9",
+      "lineEnding": "CRLF",
+      "rowsBefore": 41,
+      "rowsAfter": 41,
+      "changes": [
+        {
+          "row": 14,
+          "values": [
+            "0603WAF1002T5E",
+            "R2,R6,R31,R33,R39,R41,R67,R77,R83,R85,R100,R101,R103",
+            "0603",
+            "C25804"
+          ]
+        },
+        {
+          "row": 16,
+          "values": [
+            "0603WAF1001T5E",
+            "R4,R54,R55,R58,R71,R99,R102",
+            "0603",
+            "C21190"
+          ]
+        },
+        {
+          "row": 24,
+          "values": [
+            "0603WAF4701T5E",
+            "R27,R37,R45,R106,R107",
+            "0603",
+            "C23162"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "BOOST_control_CPL_JLC.csv",
+      "sourceSHA256": "5b7a2d14a18f5e5b24d962d2ac0e944acb37cdb64b62869a629131c11af1a7b4",
+      "outputSHA256": "97e29ddfcbc6648a26185577f3ffcc54d57ca2d527572663922afcfe085493f8",
+      "lineEnding": "CRLF",
+      "rowsBefore": 160,
+      "rowsAfter": 162,
+      "changes": [
+        {
+          "row": 142,
+          "values": [
+            "R106",
+            "57.1500mm",
+            "-94.0000mm",
+            "Top",
+            "0"
+          ]
+        },
+        {
+          "row": 143,
+          "values": [
+            "R107",
+            "55.1500mm",
+            "-101.4500mm",
+            "Top",
+            "0"
+          ]
+        }
+      ]
+    }
+  ]
+}

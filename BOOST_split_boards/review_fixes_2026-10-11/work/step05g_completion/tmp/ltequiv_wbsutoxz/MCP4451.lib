@@ -1,0 +1,38 @@
+* ============================================================================
+* MCP4451-103 - quad 8-bit (257-tap) I2C digital potentiometer, 10 kOhm, simple models (2026-09-29)
+* Not a Microchip model.  Values from Microchip's MCP443X/5X data sheet DS22267A (read 2026-09-29):
+*   RAB ................................ 10 kOhm, +/-20 % (8.0-12.0 kOhm) for the -103 option
+*   taps ............................... 257; step RS = RAB/256
+*   wiper position ..................... code 000h = wiper at terminal B (zero scale); 100h = wiper at terminal A
+*                                        (full scale), so RWB = RAB * CODE/256 + RW
+*   wiper resistance RW ................ 75 ohm typ, 160 ohm max (VDD 5.5 V)
+*   power-on / brown-out wiper value ... mid-scale, 80h (CODE 128); the firmware must write the wanted code
+*   terminal capacitances .............. CAW 75 pF, CW 120 pF, CBW 75 pF typ (1 MHz, full scale) -> to ground here
+*   supply current ..................... 2.5 uA typ (5 uA max) with the I2C bus idle
+*   RESET pin .......................... internal 16 kOhm typ pull-up to VDD
+* On the board each pot has A = GND and B = the 22k/1k divider node, so a HIGHER code gives a LOWER LED current.
+* The wiper drives only an op-amp input and 1 nF, so RW does not change the DC result.
+* NOT MODELLED: RAB tolerance (+/-20 % shifts the 22k/1k divider by about 2 %), temperature, the I2C interface
+* (the code is a parameter, not written over SCL/SDA), the HVC/A0 and A1 weak pull-ups (on only while VDD is below
+* the ~1.65 V brown-out level, when A0 is latched).
+*
+* MCP4451_POT: one potentiometer (units A, B, C of U26 = P0, P1, P2).  Pins A W B.  Parameter CODE (0-256).
+* MCP4451_CTRL: the control/supply unit (U26E).  Pins VDD VSS SCL SDA HVC/A0 A1 RESET.
+* ============================================================================
+.SUBCKT MCP4451_POT A W B PARAMS: CODE=128 RAB=10k RW=75
+RB B WI {max(RAB*min(max(CODE,0),256)/256,1m)}
+RA WI A {max(RAB*(256-min(max(CODE,0),256))/256,1m)}
+RWP WI W {RW}
+CA A 0 75p
+CW W 0 120p
+CB B 0 75p
+.ENDS MCP4451_POT
+
+.SUBCKT MCP4451_CTRL VDD VSS SCL SDA HVC_A0 A1 RESET
+IDD VDD VSS 2.5u
+RPU RESET VDD 16k
+R2 SCL VSS 1G
+R3 SDA VSS 1G
+R4 HVC_A0 VSS 1G
+R5 A1 VSS 1G
+.ENDS MCP4451_CTRL

@@ -1,0 +1,48 @@
+{
+ "_why": "D1: R106 / R107 to 5V (via into the In2 5V pour) and to SCL / SDA (existing copper)",
+ "region": [
+  46.5,
+  76,
+  70,
+  114
+ ],
+ "clearance": 0.2,
+ "via": [
+  0.5,
+  0.3
+ ],
+ "via_cost": 1.5,
+ "foreign_via_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0
+ },
+ "connections": [
+  {
+   "pad": [
+    "R107",
+    "1"
+   ],
+   "net": "5V",
+   "goal": "plane",
+   "plane_layer": "In2.Cu",
+   "width": 0.3
+  },
+  {
+   "pad": [
+    "R107",
+    "2"
+   ],
+   "net": "SDA",
+   "goal": "copper",
+   "width": 0.2
+  }
+ ],
+ "layers": [
+  "F.Cu",
+  "B.Cu",
+  "In2.Cu"
+ ],
+ "layer_cost": {
+  "In2.Cu": 1.5
+ }
+}

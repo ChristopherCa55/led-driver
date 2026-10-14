@@ -1,0 +1,1076 @@
+power: C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\step03\power_cu.json
+
+== islands (pieces >= 0.3 mm2 of each checked net, per layer; vias = barrels landing in the piece)
+F.Cu|Vin: 14 pieces
+     173.0 mm2 at [92.7, 79.5]  vias 55  pads 1 C40.1
+      53.0 mm2 at [85.0, 44.8]  vias 39  pads 1 C69.1
+      34.3 mm2 at [70.9, 43.6]  vias 27  pads 2 R1.1
+      25.9 mm2 at [55.1, 80.4]  vias 3  pads 0 
+      23.0 mm2 at [58.5, 39.4]  vias 2  pads 2 C79.1 C80.1
+      13.6 mm2 at [81.3, 61.2]  vias 3  pads 1 C85.1
+       5.2 mm2 at [95.4, 66.7]  vias 1  pads 1 U16.1
+       5.0 mm2 at [60.3, 68.2]  vias 2  pads 0 
+       3.2 mm2 at [98.6, 44.6]  vias 1  pads 1 C81.1
+       3.0 mm2 at [61.5, 31.4]  vias 1  pads 1 C83.1
+       2.7 mm2 at [63.9, 91.2]  vias 1  pads 1 U17.3
+       2.7 mm2 at [43.1, 107.7]  vias 1  pads 1 U1.3
+       1.9 mm2 at [62.0, 58.3]  vias 1  pads 1 C84.1
+       0.8 mm2 at [75.4, 31.4]  vias 1  pads 1 C82.1
+F.Cu|rsense_lo: 2 pieces
+      50.6 mm2 at [62.0, 40.5]  vias 33  pads 1 L1.2
+      36.2 mm2 at [71.0, 34.5]  vias 26  pads 2 R1.4
+F.Cu|LX: 3 pieces
+     199.1 mm2 at [68.5, 54.6]  vias 77  pads 3 L1.1 M1.2 M7.2
+      13.0 mm2 at [49.3, 63.2]  vias 6  pads 1 M6.2
+       2.1 mm2 at [88.5, 89.0]  vias 1  pads 1 M5.2
+F.Cu|GND: 15 pieces
+    2059.7 mm2 at [71.9, 86.3]  vias 143  pads 40 C21.2 C25.2 C33.2 C34.2 C35.2 C39.2 C40.2 C41.2
+     690.0 mm2 at [45.6, 45.2]  vias 111  pads 3 C80.2 C83.2 C88.2
+     106.9 mm2 at [80.5, 36.5]  vias 4  pads 8 C20.2 C30.2 C82.2 R104.2 U25.2 U25.3 U25.4 U25.7
+      29.4 mm2 at [82.4, 87.7]  vias 7  pads 1 C70.2
+      26.7 mm2 at [67.6, 47.3]  vias 3  pads 1 C86.2
+      16.0 mm2 at [64.3, 34.4]  vias 1  pads 1 C79.2
+      15.1 mm2 at [67.4, 75.1]  vias 5  pads 2 J10.1 J10.2
+      10.7 mm2 at [90.1, 84.5]  vias 4  pads 2 C4.2 C76.2
+       9.3 mm2 at [63.6, 60.4]  vias 1  pads 1 C84.2
+       8.5 mm2 at [37.3, 65.4]  vias 2  pads 1 C73.2
+       5.7 mm2 at [49.7, 98.6]  vias 1  pads 1 U11.2
+       5.3 mm2 at [65.8, 114.0]  vias 1  pads 1 U6.2
+       2.8 mm2 at [74.2, 66.0]  vias 3  pads 1 C1.2
+       1.4 mm2 at [33.8, 67.5]  vias 1  pads 1 C3.2
+       1.3 mm2 at [75.1, 63.6]  vias 2  pads 1 C72.2
+F.Cu|Vout_1: 6 pieces
+      66.6 mm2 at [71.3, 66.9]  vias 21  pads 4 C1.1 C72.1 C88.1 M2.2
+      14.1 mm2 at [73.9, 86.8]  vias 15  pads 1 C70.1
+      13.1 mm2 at [44.4, 112.9]  vias 1  pads 0 
+      11.6 mm2 at [70.6, 57.1]  vias 5  pads 1 C86.1
+       1.4 mm2 at [69.5, 89.4]  vias 1  pads 1 J10.13
+       0.4 mm2 at [45.9, 91.0]  vias 1  pads 0 
+F.Cu|Vout_2: 4 pieces
+     251.6 mm2 at [41.6, 72.4]  vias 101  pads 6 C3.1 C71.1 C73.1 C78.1 C87.1 M3.2
+      21.4 mm2 at [66.8, 73.6]  vias 2  pads 0 
+      13.1 mm2 at [32.8, 111.5]  vias 1  pads 0 
+       1.4 mm2 at [69.5, 91.9]  vias 1  pads 1 J10.15
+F.Cu|Vout_3: 6 pieces
+     144.4 mm2 at [91.8, 96.7]  vias 66  pads 4 C74.1 C75.1 C77.1 M4.2
+      13.1 mm2 at [62.5, 113.2]  vias 1  pads 0 
+      11.6 mm2 at [90.7, 86.4]  vias 3  pads 2 C4.1 C76.1
+       1.4 mm2 at [69.5, 94.5]  vias 1  pads 1 J10.17
+       0.4 mm2 at [100.6, 91.6]  vias 1  pads 0 
+       0.4 mm2 at [100.6, 92.5]  vias 1  pads 0 
+F.Cu|m2_source: 2 pieces
+      25.0 mm2 at [79.2, 66.3]  vias 3  pads 2 M2.3 M7.3
+       0.6 mm2 at [73.4, 61.0]  vias 1  pads 1 R76.1
+F.Cu|m4_source: 5 pieces
+      15.8 mm2 at [87.0, 101.4]  vias 2  pads 0 
+      12.9 mm2 at [79.2, 86.1]  vias 2  pads 0 
+      11.4 mm2 at [92.3, 89.0]  vias 2  pads 2 M4.3 M5.3
+       5.9 mm2 at [101.7, 91.2]  vias 1  pads 1 R73.1
+       5.5 mm2 at [83.8, 91.3]  vias 1  pads 1 R74.1
+F.Cu|Output1_drain: 3 pieces
+      13.1 mm2 at [50.9, 112.9]  vias 1  pads 0 
+       2.1 mm2 at [52.1, 98.5]  vias 1  pads 1 M10.2
+       1.4 mm2 at [66.9, 89.4]  vias 1  pads 1 J10.14
+F.Cu|Output2_drain: 3 pieces
+      13.1 mm2 at [39.3, 111.5]  vias 1  pads 0 
+       2.1 mm2 at [38.7, 87.1]  vias 1  pads 1 M9.2
+       1.4 mm2 at [66.9, 91.9]  vias 1  pads 1 J10.16
+F.Cu|Output3_drain: 2 pieces
+      44.7 mm2 at [58.2, 109.9]  vias 2  pads 1 M8.2
+       1.4 mm2 at [66.9, 94.5]  vias 1  pads 1 J10.18
+F.Cu|12V: 5 pieces
+      16.2 mm2 at [86.3, 73.0]  vias 3  pads 0 
+       5.7 mm2 at [82.7, 40.6]  vias 1  pads 1 C30.1
+       5.2 mm2 at [100.5, 66.7]  vias 1  pads 1 U16.3
+       4.0 mm2 at [99.1, 49.9]  vias 1  pads 2 C25.1 C6.1
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J10.19
+In1.Cu|Vin: 3 pieces
+      35.0 mm2 at [84.9, 44.2]  vias 39  pads 0 
+      13.8 mm2 at [70.3, 43.2]  vias 26  pads 0 
+       2.6 mm2 at [98.7, 83.0]  vias 1  pads 0 
+In1.Cu|LX: 4 pieces
+       2.1 mm2 at [77.4, 59.3]  vias 1  pads 1 M7.2
+       2.1 mm2 at [77.8, 48.5]  vias 1  pads 1 M1.2
+       2.1 mm2 at [49.2, 65.0]  vias 1  pads 1 M6.2
+       2.1 mm2 at [88.5, 89.0]  vias 1  pads 1 M5.2
+In1.Cu|Vout_1: 4 pieces
+      13.1 mm2 at [44.4, 112.9]  vias 1  pads 0 
+       2.1 mm2 at [77.4, 67.0]  vias 1  pads 1 M2.2
+       1.4 mm2 at [69.5, 89.4]  vias 1  pads 1 J10.13
+       0.4 mm2 at [45.9, 91.0]  vias 1  pads 0 
+In1.Cu|Vout_2: 4 pieces
+      14.4 mm2 at [49.4, 79.8]  vias 30  pads 0 
+      13.1 mm2 at [32.8, 111.5]  vias 1  pads 0 
+       2.1 mm2 at [41.6, 65.0]  vias 1  pads 1 M3.2
+       1.4 mm2 at [69.5, 91.9]  vias 1  pads 1 J10.15
+In1.Cu|Vout_3: 5 pieces
+      13.1 mm2 at [62.5, 113.2]  vias 1  pads 0 
+       2.1 mm2 at [96.1, 89.0]  vias 1  pads 1 M4.2
+       1.4 mm2 at [69.5, 94.5]  vias 1  pads 1 J10.17
+       0.4 mm2 at [100.6, 91.6]  vias 1  pads 0 
+       0.4 mm2 at [100.6, 92.5]  vias 1  pads 0 
+In1.Cu|m2_source: 2 pieces
+       2.1 mm2 at [77.4, 61.9]  vias 1  pads 1 M7.3
+       2.1 mm2 at [77.4, 64.4]  vias 1  pads 1 M2.3
+In1.Cu|m3_source: 2 pieces
+       2.1 mm2 at [46.7, 65.0]  vias 1  pads 1 M6.3
+       2.1 mm2 at [44.1, 65.0]  vias 1  pads 1 M3.3
+In1.Cu|m4_source: 2 pieces
+       2.1 mm2 at [91.1, 89.0]  vias 1  pads 1 M5.3
+       2.1 mm2 at [93.6, 89.0]  vias 1  pads 1 M4.3
+In1.Cu|Output1_drain: 3 pieces
+      13.1 mm2 at [50.9, 112.9]  vias 1  pads 0 
+       2.1 mm2 at [52.1, 98.5]  vias 1  pads 1 M10.2
+       1.4 mm2 at [66.9, 89.4]  vias 1  pads 1 J10.14
+In1.Cu|Output2_drain: 3 pieces
+      13.1 mm2 at [39.3, 111.5]  vias 1  pads 0 
+       2.1 mm2 at [38.7, 87.1]  vias 1  pads 1 M9.2
+       1.4 mm2 at [66.9, 91.9]  vias 1  pads 1 J10.16
+In1.Cu|Output3_drain: 3 pieces
+      13.1 mm2 at [56.0, 113.2]  vias 1  pads 0 
+       2.1 mm2 at [59.8, 100.6]  vias 1  pads 1 M8.2
+       1.4 mm2 at [66.9, 94.5]  vias 1  pads 1 J10.18
+In2.Cu|GND: 4 pieces
+    2317.4 mm2 at [54.5, 84.1]  vias 180  pads 10 J10.1 J10.11 J10.12 J10.2 J10.20 J10.21 J10.24 J10.25
+       9.0 mm2 at [77.9, 52.0]  vias 8  pads 1 M1.3
+       2.8 mm2 at [98.5, 73.8]  vias 1  pads 0 
+       0.8 mm2 at [65.6, 45.5]  vias 1  pads 0 
+In2.Cu|Vout_1: 4 pieces
+      13.1 mm2 at [44.4, 112.9]  vias 1  pads 0 
+       2.1 mm2 at [77.4, 67.0]  vias 1  pads 1 M2.2
+       1.4 mm2 at [69.5, 89.4]  vias 1  pads 1 J10.13
+       0.4 mm2 at [45.9, 91.0]  vias 1  pads 0 
+In2.Cu|Vout_2: 4 pieces
+      57.5 mm2 at [39.7, 59.8]  vias 29  pads 1 M3.2
+      23.7 mm2 at [74.8, 86.8]  vias 2  pads 1 J10.15
+      14.4 mm2 at [49.4, 79.8]  vias 30  pads 0 
+      13.1 mm2 at [32.8, 111.5]  vias 1  pads 0 
+In2.Cu|Vout_3: 3 pieces
+     187.9 mm2 at [97.2, 98.4]  vias 61  pads 1 M4.2
+      13.1 mm2 at [62.5, 113.2]  vias 1  pads 0 
+       1.4 mm2 at [69.5, 94.5]  vias 1  pads 1 J10.17
+In2.Cu|m3_source: 2 pieces
+      13.8 mm2 at [35.1, 59.5]  vias 2  pads 0 
+      10.8 mm2 at [45.4, 65.1]  vias 2  pads 2 M3.3 M6.3
+In2.Cu|Output1_drain: 3 pieces
+      13.1 mm2 at [50.9, 112.9]  vias 1  pads 0 
+       2.1 mm2 at [52.1, 98.5]  vias 1  pads 1 M10.2
+       1.4 mm2 at [66.9, 89.4]  vias 1  pads 1 J10.14
+In2.Cu|Output2_drain: 3 pieces
+      13.1 mm2 at [39.3, 111.5]  vias 1  pads 0 
+       2.1 mm2 at [38.7, 87.1]  vias 1  pads 1 M9.2
+       1.4 mm2 at [66.9, 91.9]  vias 1  pads 1 J10.16
+In2.Cu|Output3_drain: 3 pieces
+      13.1 mm2 at [56.0, 113.2]  vias 1  pads 0 
+       2.1 mm2 at [59.8, 100.6]  vias 1  pads 1 M8.2
+       1.4 mm2 at [66.9, 94.5]  vias 1  pads 1 J10.18
+In3.Cu|Vin: 3 pieces
+    1016.9 mm2 at [89.2, 57.8]  vias 127  pads 0 
+      22.5 mm2 at [57.6, 58.8]  vias 3  pads 0 
+       3.6 mm2 at [57.0, 68.7]  vias 2  pads 0 
+In3.Cu|LX: 4 pieces
+      27.4 mm2 at [74.8, 58.7]  vias 11  pads 1 M7.2
+       2.1 mm2 at [77.8, 48.5]  vias 1  pads 1 M1.2
+       2.1 mm2 at [49.2, 65.0]  vias 1  pads 1 M6.2
+       2.1 mm2 at [88.5, 89.0]  vias 1  pads 1 M5.2
+In3.Cu|GND: 9 pieces
+    1308.9 mm2 at [41.8, 63.7]  vias 139  pads 0 
+     546.4 mm2 at [62.7, 97.1]  vias 41  pads 8 J10.11 J10.12 J10.20 J10.21 J10.24 J10.25 J10.28 J10.29
+     162.7 mm2 at [94.4, 111.5]  vias 10  pads 0 
+      51.6 mm2 at [77.2, 51.7]  vias 8  pads 1 M1.3
+      37.2 mm2 at [58.7, 63.8]  vias 10  pads 0 
+      26.6 mm2 at [66.1, 75.5]  vias 5  pads 2 J10.1 J10.2
+      16.0 mm2 at [83.9, 88.3]  vias 6  pads 0 
+       2.8 mm2 at [98.5, 73.8]  vias 1  pads 0 
+       1.6 mm2 at [82.1, 107.1]  vias 1  pads 0 
+In3.Cu|Vout_1: 2 pieces
+     439.6 mm2 at [58.2, 79.3]  vias 28  pads 1 M2.2
+       1.4 mm2 at [69.5, 89.4]  vias 1  pads 1 J10.13
+In3.Cu|Vout_2: 5 pieces
+      49.2 mm2 at [39.3, 58.8]  vias 28  pads 0 
+      14.4 mm2 at [49.4, 79.8]  vias 30  pads 0 
+      13.1 mm2 at [32.8, 111.5]  vias 1  pads 0 
+       4.7 mm2 at [41.5, 65.2]  vias 1  pads 1 M3.2
+       1.4 mm2 at [69.5, 91.9]  vias 1  pads 1 J10.15
+In3.Cu|Vout_3: 2 pieces
+     549.3 mm2 at [86.2, 101.5]  vias 80  pads 1 M4.2
+       1.4 mm2 at [69.5, 94.5]  vias 1  pads 1 J10.17
+In3.Cu|m2_source: 2 pieces
+      12.6 mm2 at [77.5, 63.5]  vias 2  pads 2 M2.3 M7.3
+       6.1 mm2 at [65.0, 48.5]  vias 2  pads 0 
+In3.Cu|m4_source: 2 pieces
+      11.4 mm2 at [92.3, 89.0]  vias 2  pads 2 M4.3 M5.3
+       7.5 mm2 at [81.3, 91.7]  vias 3  pads 0 
+In3.Cu|Output1_drain: 3 pieces
+      13.1 mm2 at [50.9, 112.9]  vias 1  pads 0 
+       2.1 mm2 at [52.1, 98.5]  vias 1  pads 1 M10.2
+       1.4 mm2 at [66.9, 89.4]  vias 1  pads 1 J10.14
+In3.Cu|Output2_drain: 3 pieces
+      13.1 mm2 at [39.3, 111.5]  vias 1  pads 0 
+       2.1 mm2 at [38.7, 87.1]  vias 1  pads 1 M9.2
+       1.4 mm2 at [66.9, 91.9]  vias 1  pads 1 J10.16
+In3.Cu|Output3_drain: 3 pieces
+      13.1 mm2 at [56.0, 113.2]  vias 1  pads 0 
+       2.1 mm2 at [59.8, 100.6]  vias 1  pads 1 M8.2
+       1.4 mm2 at [66.9, 94.5]  vias 1  pads 1 J10.18
+In4.Cu|LX: 5 pieces
+      18.3 mm2 at [73.8, 58.1]  vias 9  pads 0 
+       6.4 mm2 at [77.5, 59.6]  vias 2  pads 1 M7.2
+       2.1 mm2 at [77.8, 48.5]  vias 1  pads 1 M1.2
+       2.1 mm2 at [49.2, 65.0]  vias 1  pads 1 M6.2
+       2.1 mm2 at [88.5, 89.0]  vias 1  pads 1 M5.2
+In4.Cu|GND: 15 pieces
+     774.2 mm2 at [48.2, 46.6]  vias 104  pads 1 M1.3
+     245.6 mm2 at [56.8, 104.8]  vias 14  pads 6 J10.20 J10.21 J10.24 J10.25 J10.28 J10.29
+     162.7 mm2 at [94.4, 111.5]  vias 10  pads 0 
+     111.7 mm2 at [77.3, 93.4]  vias 16  pads 0 
+      83.8 mm2 at [66.1, 82.9]  vias 12  pads 4 J10.1 J10.11 J10.12 J10.2
+      35.5 mm2 at [59.8, 67.2]  vias 15  pads 0 
+      21.5 mm2 at [49.4, 98.3]  vias 1  pads 0 
+      15.6 mm2 at [31.5, 98.4]  vias 2  pads 0 
+      11.9 mm2 at [58.0, 60.4]  vias 1  pads 0 
+      11.2 mm2 at [61.0, 109.0]  vias 4  pads 0 
+       6.9 mm2 at [87.4, 84.7]  vias 1  pads 0 
+       2.8 mm2 at [98.5, 73.8]  vias 1  pads 0 
+       2.2 mm2 at [38.5, 101.5]  vias 2  pads 0 
+       1.6 mm2 at [82.1, 107.1]  vias 1  pads 0 
+       0.7 mm2 at [65.6, 45.3]  vias 1  pads 0 
+In4.Cu|Vout_1: 3 pieces
+     243.5 mm2 at [74.0, 72.0]  vias 42  pads 2 J10.13 M2.2
+      13.1 mm2 at [44.4, 112.9]  vias 1  pads 0 
+       0.4 mm2 at [45.9, 91.0]  vias 1  pads 0 
+In4.Cu|Vout_2: 2 pieces
+     914.5 mm2 at [41.5, 83.2]  vias 115  pads 1 M3.2
+       1.4 mm2 at [69.5, 91.9]  vias 1  pads 1 J10.15
+In4.Cu|m2_source: 2 pieces
+      12.6 mm2 at [77.5, 63.5]  vias 2  pads 2 M2.3 M7.3
+       4.4 mm2 at [66.4, 57.7]  vias 2  pads 0 
+In4.Cu|m4_source: 2 pieces
+      28.5 mm2 at [87.6, 87.3]  vias 4  pads 2 M4.3 M5.3
+      15.8 mm2 at [99.8, 98.7]  vias 2  pads 0 
+In4.Cu|Output1_drain: 2 pieces
+      20.7 mm2 at [59.2, 93.6]  vias 2  pads 2 J10.14 M10.2
+      13.1 mm2 at [50.9, 112.9]  vias 1  pads 0 
+In4.Cu|Output2_drain: 3 pieces
+      13.1 mm2 at [39.3, 111.5]  vias 1  pads 0 
+       2.1 mm2 at [38.7, 87.1]  vias 1  pads 1 M9.2
+       1.4 mm2 at [66.9, 91.9]  vias 1  pads 1 J10.16
+In4.Cu|Output3_drain: 3 pieces
+      13.1 mm2 at [56.0, 113.2]  vias 1  pads 0 
+       2.1 mm2 at [59.8, 100.6]  vias 1  pads 1 M8.2
+       1.4 mm2 at [66.9, 94.5]  vias 1  pads 1 J10.18
+In4.Cu|12V: 2 pieces
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J10.19
+       1.3 mm2 at [75.8, 42.4]  vias 2  pads 0 
+B.Cu|Vin: 6 pieces
+      72.2 mm2 at [99.2, 82.6]  vias 30  pads 1 D30.2
+      25.1 mm2 at [46.0, 97.1]  vias 2  pads 1 D28.2
+      13.1 mm2 at [70.2, 43.1]  vias 26  pads 0 
+      12.8 mm2 at [58.5, 88.8]  vias 2  pads 1 D29.2
+       6.1 mm2 at [63.1, 65.2]  vias 2  pads 0 
+       2.4 mm2 at [60.3, 32.3]  vias 2  pads 0 
+B.Cu|LX: 4 pieces
+     187.5 mm2 at [88.3, 77.7]  vias 15  pads 1 M5.2
+      35.7 mm2 at [75.3, 47.7]  vias 19  pads 2 D19.1 M1.2
+      18.4 mm2 at [51.1, 67.9]  vias 19  pads 1 M6.2
+       2.1 mm2 at [77.4, 59.3]  vias 1  pads 1 M7.2
+B.Cu|GND: 18 pieces
+    1038.7 mm2 at [39.7, 64.1]  vias 129  pads 0 
+     572.5 mm2 at [81.8, 104.5]  vias 38  pads 13 C89.1 J10.1 J10.11 J10.12 J10.2 J10.20 J10.21 J10.24
+     321.0 mm2 at [85.1, 57.8]  vias 29  pads 2 D19.2 M1.3
+     263.0 mm2 at [98.6, 58.7]  vias 6  pads 0 
+     114.1 mm2 at [54.2, 97.1]  vias 7  pads 0 
+     105.4 mm2 at [80.3, 35.1]  vias 3  pads 2 R62.2 U19.9
+      79.7 mm2 at [60.0, 63.1]  vias 17  pads 1 C62.1
+      38.9 mm2 at [66.0, 41.8]  vias 1  pads 3 U19.2 U19.4 U19.5
+      29.9 mm2 at [100.4, 96.8]  vias 10  pads 0 
+      20.1 mm2 at [80.3, 84.7]  vias 1  pads 0 
+      17.1 mm2 at [64.8, 79.2]  vias 4  pads 0 
+      13.8 mm2 at [62.3, 86.5]  vias 2  pads 0 
+       9.9 mm2 at [58.7, 54.7]  vias 2  pads 2 U15.4 U15.5
+       9.8 mm2 at [65.8, 113.3]  vias 1  pads 0 
+       7.1 mm2 at [74.7, 40.1]  vias 1  pads 2 C31.2 U19.14
+       6.7 mm2 at [74.8, 65.7]  vias 4  pads 0 
+       6.6 mm2 at [52.2, 44.7]  vias 1  pads 3 C90.2 U10.4 U10.5
+       1.5 mm2 at [62.5, 36.0]  vias 1  pads 1 C48.2
+B.Cu|Vout_1: 5 pieces
+      50.1 mm2 at [69.9, 65.8]  vias 20  pads 0 
+      13.1 mm2 at [44.4, 112.9]  vias 1  pads 0 
+       2.4 mm2 at [45.1, 91.3]  vias 1  pads 1 D28.1
+       2.1 mm2 at [77.4, 67.0]  vias 1  pads 1 M2.2
+       1.4 mm2 at [69.5, 89.4]  vias 1  pads 1 J10.13
+B.Cu|Vout_2: 4 pieces
+      70.0 mm2 at [40.5, 57.3]  vias 29  pads 1 M3.2
+      18.3 mm2 at [49.6, 81.1]  vias 30  pads 1 D29.1
+      13.1 mm2 at [32.8, 111.5]  vias 1  pads 0 
+       1.4 mm2 at [69.5, 91.9]  vias 1  pads 1 J10.15
+B.Cu|Vout_3: 5 pieces
+      77.8 mm2 at [94.6, 94.5]  vias 52  pads 1 M4.2
+      25.2 mm2 at [95.0, 104.5]  vias 10  pads 0 
+      13.1 mm2 at [62.5, 113.2]  vias 1  pads 0 
+       4.2 mm2 at [101.6, 91.4]  vias 2  pads 1 D30.1
+       1.4 mm2 at [69.5, 94.5]  vias 1  pads 1 J10.17
+B.Cu|m2_source: 4 pieces
+      36.6 mm2 at [71.1, 59.2]  vias 5  pads 3 M2.3 M7.3 U15.9
+       3.0 mm2 at [69.4, 56.2]  vias 1  pads 2 C51.2 U15.14
+       2.1 mm2 at [62.2, 47.4]  vias 1  pads 1 C18.2
+       1.1 mm2 at [79.8, 73.3]  vias 1  pads 1 R75.1
+B.Cu|m3_source: 5 pieces
+      10.8 mm2 at [45.4, 65.1]  vias 2  pads 2 M3.3 M6.3
+       4.0 mm2 at [50.0, 55.7]  vias 1  pads 1 U10.14
+       3.7 mm2 at [54.5, 57.7]  vias 1  pads 2 C16.2 C50.2
+       1.4 mm2 at [56.7, 54.4]  vias 1  pads 1 U10.9
+       0.9 mm2 at [33.2, 63.1]  vias 1  pads 1 R61.1
+B.Cu|m4_source: 3 pieces
+      11.4 mm2 at [92.3, 89.0]  vias 2  pads 2 M4.3 M5.3
+       7.4 mm2 at [82.4, 95.6]  vias 2  pads 1 U8.14
+       6.5 mm2 at [76.1, 91.0]  vias 1  pads 3 C60.2 C61.2 U8.9
+B.Cu|Output1_drain: 2 pieces
+      93.8 mm2 at [49.0, 106.1]  vias 2  pads 1 M10.2
+       1.4 mm2 at [66.9, 89.4]  vias 1  pads 1 J10.14
+B.Cu|Output3_drain: 2 pieces
+      30.3 mm2 at [60.7, 102.8]  vias 2  pads 2 J10.18 M8.2
+      13.1 mm2 at [56.0, 113.2]  vias 1  pads 0 
+B.Cu|12V: 5 pieces
+      46.9 mm2 at [89.6, 53.0]  vias 5  pads 4 C31.1 D10.2 D21.2 U19.11
+       2.9 mm2 at [81.8, 80.9]  vias 2  pads 0 
+       2.2 mm2 at [81.7, 75.6]  vias 1  pads 1 D9.2
+       1.4 mm2 at [73.8, 43.2]  vias 1  pads 1 U19.16
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J10.19
+
+== slices (other-net tracks through a checked net's copper, runs >= 1.5 mm), by pour current x length
+B.Cu   GND            cut by analog_5V               14.2 mm  w 0.80 gap 0.35  mid [72.45, 107.05]  detour 15.6 mm  
+B.Cu   GND            cut by 12V                     13.4 mm  w 0.80 gap 0.30  mid [98.65, 58.44]  detour n/a  pieces 8 / 6 on this layer only meet through other layers  SEPARATES pieces [[6, 263.0], [8, 321.0]]
+B.Cu   GND            cut by 12V                     11.4 mm  w 0.50 gap 0.30  mid [88.26, 49.06]  detour n/a  pieces 8 / 6 on this layer only meet through other layers  SEPARATES pieces [[6, 263.0], [8, 321.0]]
+In4.Cu GND            cut by out_2_on                10.4 mm  w 0.20 gap 0.30  mid [48.05, 51.05]  detour 13.1 mm  
+In4.Cu GND            cut by M1_ON                    9.4 mm  w 0.20 gap 0.30  mid [56.05, 57.65]  detour n/a  pieces 3 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 774.2], [3, 12.0], [4, 35.5]]
+In3.Cu GND            cut by GATE_M4                  9.2 mm  w 0.30 gap 0.30  mid [84.12, 85.05]  detour n/a  pieces 6 / 7 on this layer only meet through other layers  SEPARATES pieces [[6, 546.4], [7, 16.0]]
+B.Cu   GND            cut by analog_5V                8.8 mm  w 0.80 gap 0.35  mid [52.25, 93.45]  detour 9.0 mm  
+In3.Cu GND            cut by Vin                      8.6 mm  w 1.00 gap 0.35  mid [61.73, 58.83]  detour n/a  pieces 3 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1308.9], [3, 37.2]]
+In3.Cu GND            cut by IREF1_input              8.6 mm  w 0.20 gap 0.30  mid [61.95, 104.55]  detour 13.2 mm  
+In3.Cu GND            cut by Net-(D10--)              8.6 mm  w 0.20 gap 0.30  mid [71.6, 51.2]  detour n/a  pieces 1 / 2 on this layer only meet through other layers  SEPARATES pieces [[1, 1308.9], [2, 51.6]]
+B.Cu   GND            cut by Output2_drain            8.2 mm  w 1.00 gap 0.30  mid [57.02, 91.33]  detour n/a  pieces 16 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1038.7], [16, 114.1]]
+F.Cu   GND            cut by m2_source                7.6 mm  w 1.00 gap 0.30  mid [81.95, 69.08]  detour 11.9 mm  
+In3.Cu GND            cut by ena_out_2                7.6 mm  w 0.30 gap 0.30  mid [51.33, 48.93]  detour 10.4 mm  
+F.Cu   GND            cut by SNS_CH2                  7.2 mm  w 0.30 gap 0.30  mid [44.15, 93.85]  detour 10.5 mm  
+In4.Cu GND            cut by ena_out_3                7.2 mm  w 0.20 gap 0.30  mid [75.69, 92.49]  detour 8.5 mm  
+In3.Cu GND            cut by 5V                       7.0 mm  w 0.80 gap 0.30  mid [59.15, 53.75]  detour 8.3 mm  
+In2.Cu GND            cut by analog_5V                6.6 mm  w 0.80 gap 0.30  mid [45.54, 98.55]  detour 8.1 mm  
+In2.Cu GND            cut by 5V                       6.6 mm  w 0.40 gap 0.30  mid [54.11, 76.21]  detour 7.6 mm  
+B.Cu   GND            cut by Vin                      6.2 mm  w 1.00 gap 0.35  mid [59.1, 89.15]  detour n/a  pieces 1 / 15 on this layer only meet through other layers  SEPARATES pieces [[1, 1038.7], [15, 13.8]]
+In2.Cu GND            cut by IREF2_input              6.2 mm  w 0.20 gap 0.30  mid [70.65, 110.4]  detour 10.0 mm  
+F.Cu   GND            cut by ena_out_1                5.8 mm  w 0.20 gap 0.30  mid [62.85, 61.99]  detour n/a  pieces 6 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 690.0], [6, 9.3]]
+B.Cu   GND            cut by Net-(D10--)              5.8 mm  w 0.30 gap 0.30  mid [85.22, 63.52]  detour 9.3 mm  
+F.Cu   GND            cut by 5V                       5.6 mm  w 0.40 gap 0.35  mid [79.15, 80.44]  detour 6.1 mm  
+F.Cu   GND            cut by IREF2_input              5.6 mm  w 0.30 gap 0.35  mid [45.95, 104.65]  detour 12.9 mm  
+F.Cu   GND            cut by Net-(U12-OUT)            5.6 mm  w 0.30 gap 0.35  mid [38.45, 92.8]  detour 8.7 mm  
+F.Cu   GND            cut by Vin                      5.4 mm  w 1.00 gap 0.35  mid [55.05, 80.65]  detour 34.9 mm  
+In4.Cu GND            cut by Net-(U6-OUT)             5.4 mm  w 0.20 gap 0.30  mid [59.48, 104.08]  detour 20.8 mm  
+B.Cu   GND            cut by Net-(D13--)              5.2 mm  w 0.60 gap 0.35  mid [100.24, 100.8]  detour n/a  pieces 17 / 12 on this layer only meet through other layers  SEPARATES pieces [[12, 572.5], [17, 29.9]]
+In4.Cu Vout_3         cut by m4_source                9.8 mm  w 1.00 gap 0.35  mid [98.52, 100.55]  detour 10.8 mm  
+B.Cu   GND            cut by 5V                       4.8 mm  w 0.80 gap 0.35  mid [74.96, 99.66]  detour 16.9 mm  
+B.Cu   GND            cut by 5V                       4.8 mm  w 0.80 gap 0.30  mid [64.61, 86.69]  detour n/a  pieces 15 / 12 on this layer only meet through other layers  SEPARATES pieces [[12, 572.5], [15, 13.8]]
+In4.Cu GND            cut by Current                  4.6 mm  w 0.20 gap 0.30  mid [58.85, 53.87]  detour 5.8 mm  
+F.Cu   GND            cut by analog_5V                4.4 mm  w 0.80 gap 0.30  mid [40.9, 102.0]  detour 25.9 mm  
+F.Cu   GND            cut by Vin                      4.0 mm  w 1.00 gap 0.30  mid [54.43, 89.47]  detour 4.7 mm  
+In4.Cu GND            cut by analog_5V                4.0 mm  w 0.80 gap 0.28  mid [58.95, 62.85]  detour n/a  pieces 4 / 3 on this layer only meet through other layers  SEPARATES pieces [[3, 12.0], [4, 35.5]]
+In3.Cu GND            cut by m4_source                4.0 mm  w 1.00 gap 0.33  mid [81.45, 92.78]  detour n/a  pieces 7 / 6 on this layer only meet through other layers  SEPARATES pieces [[6, 546.4], [7, 16.0]]
+In4.Cu GND            cut by Net-(U6-OUT)             3.8 mm  w 0.20 gap 0.30  mid [63.63, 108.23]  detour n/a  pieces 15 / 9 on this layer only meet through other layers  SEPARATES pieces [[9, 245.6], [15, 11.2]]
+In4.Cu GND            cut by Vin                      3.8 mm  w 1.00 gap 0.30  mid [54.96, 51.14]  detour 5.1 mm  
+B.Cu   GND            cut by SNS_CH3                  3.6 mm  w 0.30 gap 0.35  mid [65.4, 107.2]  detour 10.3 mm  
+B.Cu   GND            cut by 5V                       3.6 mm  w 0.40 gap 0.35  mid [64.79, 82.89]  detour n/a  pieces 13 / 15 on this layer only meet through other layers  SEPARATES pieces [[13, 17.1], [15, 13.8]]
+B.Cu   GND            cut by 5V                       3.6 mm  w 0.80 gap 0.30  mid [52.3, 46.85]  detour n/a  pieces 7 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1038.7], [7, 6.6]]
+B.Cu   GND            cut by 12V                      3.6 mm  w 0.80 gap 0.30  mid [98.4, 66.65]  detour 4.2 mm  
+In4.Cu GND            cut by Vout_3                   3.6 mm  w 1.00 gap 0.30  mid [71.95, 97.55]  detour n/a  pieces 8 / 9 on this layer only meet through other layers  SEPARATES pieces [[8, 111.7], [9, 245.6]]
+In3.Cu GND            cut by out_2_on                 3.6 mm  w 0.20 gap 0.30  mid [64.23, 80.05]  detour n/a  pieces 5 / 6 on this layer only meet through other layers  SEPARATES pieces [[5, 26.6], [6, 546.4]]
+F.Cu   GND            cut by Current                  3.4 mm  w 0.30 gap 0.30  mid [78.65, 32.96]  detour 9.9 mm  
+B.Cu   GND            cut by IREF3_input              3.4 mm  w 0.40 gap 0.33  mid [67.5, 113.46]  detour n/a  pieces 12 / 18 on this layer only meet through other layers  SEPARATES pieces [[12, 572.5], [18, 9.8]]
+B.Cu   GND            cut by Output3_drain            3.4 mm  w 1.00 gap 0.30  mid [64.6, 95.5]  detour n/a  pieces 16 / 12 on this layer only meet through other layers  SEPARATES pieces [[12, 572.5], [16, 114.1]]
+B.Cu   GND            cut by Net-(D8--)               3.4 mm  w 0.30 gap 0.30  mid [47.93, 59.49]  detour 4.9 mm  
+In4.Cu GND            cut by analog_5V                3.4 mm  w 0.40 gap 0.30  mid [46.15, 55.55]  detour 4.4 mm  
+F.Cu   GND            cut by Vin                      3.2 mm  w 1.00 gap 0.35  mid [60.78, 68.15]  detour 4.1 mm  
+F.Cu   GND            cut by M2_ON                    3.2 mm  w 0.20 gap 0.30  mid [58.05, 61.09]  detour 4.6 mm  
+In4.Cu LX             cut by GATE_M7                  3.2 mm  w 0.30 gap 0.55  mid [75.43, 58.9]  detour n/a  pieces 2 / 3 on this layer only meet through other layers  SEPARATES pieces [[2, 18.3], [3, 6.4]]
+In4.Cu GND            cut by out_3_on                 3.2 mm  w 0.20 gap 0.30  mid [80.25, 92.95]  detour 4.2 mm  
+In2.Cu GND            cut by 5V                       3.2 mm  w 0.80 gap 0.35  mid [62.15, 92.17]  detour 4.5 mm  
+F.Cu   GND            cut by out_3_on                 3.0 mm  w 0.30 gap 0.30  mid [64.85, 78.35]  detour n/a  pieces 11 / 5 on this layer only meet through other layers  SEPARATES pieces [[5, 2059.7], [11, 15.1]]
+B.Cu   GND            cut by Vout_2                   3.0 mm  w 1.00 gap 0.30  mid [50.27, 85.73]  detour 4.5 mm  
+B.Cu   GND            cut by Net-(D10--)              3.0 mm  w 0.30 gap 0.30  mid [82.02, 59.22]  detour 3.9 mm  
+In4.Cu GND            cut by 5V                       3.0 mm  w 0.80 gap 0.35  mid [59.9, 107.4]  detour n/a  pieces 9 / 15 on this layer only meet through other layers  SEPARATES pieces [[9, 245.6], [15, 11.2]]
+In3.Cu GND            cut by analog_5V                3.0 mm  w 0.80 gap 0.30  mid [61.24, 91.24]  detour 4.0 mm  
+In3.Cu GND            cut by analog_5V                3.0 mm  w 0.80 gap 0.30  mid [54.08, 62.85]  detour n/a  pieces 3 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1308.9], [3, 37.2]]
+F.Cu   GND            cut by Current                  2.8 mm  w 0.30 gap 0.33  mid [64.53, 32.35]  detour n/a  pieces 1 / 3 on this layer only meet through other layers  SEPARATES pieces [[1, 690.0], [3, 16.0]]
+F.Cu   GND            cut by m3_source                2.8 mm  w 1.00 gap 0.35  mid [36.95, 54.15]  detour 3.9 mm  
+F.Cu   GND            cut by m3_source                2.8 mm  w 1.00 gap 0.35  mid [43.42, 55.02]  detour 16.7 mm  
+In4.Cu Vin            cut by 12V                      2.4 mm  w 0.40 gap 0.35  mid [75.67, 42.23]  detour 3.1 mm  
+F.Cu   GND            cut by 5V                       2.6 mm  w 0.80 gap 0.30  mid [81.62, 104.33]  detour 3.1 mm  
+B.Cu   GND            cut by analog_5V                2.6 mm  w 0.80 gap 0.35  mid [78.75, 33.72]  detour 3.9 mm  
+B.Cu   GND            cut by Net-(D14--)              2.6 mm  w 0.40 gap 0.38  mid [34.75, 64.75]  detour 5.5 mm  
+In4.Cu GND            cut by IREF1_input              2.6 mm  w 0.20 gap 0.30  mid [49.58, 102.47]  detour n/a  pieces 9 / 11 on this layer only meet through other layers  SEPARATES pieces [[9, 245.6], [11, 21.5]]
+In4.Cu GND            cut by m4_source                2.6 mm  w 1.00 gap 0.38  mid [85.15, 85.25]  detour n/a  pieces 8 / 7 on this layer only meet through other layers  SEPARATES pieces [[7, 6.9], [8, 111.7]]
+In3.Cu GND            cut by 5V                       2.6 mm  w 0.40 gap 0.35  mid [56.6, 49.6]  detour 3.5 mm  
+B.Cu   Vout_3         cut by Net-(D13--)              4.6 mm  w 0.60 gap 0.35  mid [95.16, 100.8]  detour n/a  pieces 1 / 4 on this layer only meet through other layers  SEPARATES pieces [[1, 77.8], [4, 25.2]]
+B.Cu   GND            cut by Vin                      2.4 mm  w 1.00 gap 0.35  mid [54.72, 87.42]  detour 4.0 mm  
+B.Cu   GND            cut by Net-(U10-VDDA)           2.4 mm  w 0.30 gap 0.35  mid [52.49, 59.32]  detour n/a  pieces 10 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1038.7], [10, 79.7]]
+In4.Cu GND            cut by M1_ON                    2.4 mm  w 0.20 gap 0.35  mid [58.26, 69.66]  detour 3.1 mm  
+B.Cu   rsense_lo      cut by Vin                      1.8 mm  w 1.00 gap 0.30  mid [60.35, 32.35]  detour 2.6 mm  
+B.Cu   GND            cut by 12V                      2.2 mm  w 0.40 gap 0.30  mid [76.25, 38.35]  detour n/a  pieces 2 / 5 on this layer only meet through other layers  SEPARATES pieces [[2, 105.4], [5, 7.1]]
+In4.Cu GND            cut by IREF1_input              2.2 mm  w 0.20 gap 0.33  mid [48.85, 100.65]  detour 3.2 mm  
+In2.Cu GND            cut by Vout_2                   2.2 mm  w 1.00 gap 0.35  mid [71.27, 91.45]  detour 20.0 mm  
+In3.Cu GND            cut by ena_out_1                2.2 mm  w 0.20 gap 0.30  mid [70.75, 74.65]  detour n/a  pieces 6 / 5 on this layer only meet through other layers  SEPARATES pieces [[5, 26.6], [6, 546.4]]
+F.Cu   GND            cut by Net-(U12-OUT)            2.0 mm  w 0.30 gap 0.35  mid [40.25, 97.15]  detour 34.3 mm  
+B.Cu   GND            cut by analog_5V                2.0 mm  w 0.80 gap 0.35  mid [77.0, 32.45]  detour 2.1 mm  
+In4.Cu GND            cut by Output1_drain            2.0 mm  w 1.00 gap 0.30  mid [61.81, 91.35]  detour n/a  pieces 6 / 9 on this layer only meet through other layers  SEPARATES pieces [[6, 83.8], [9, 245.6]]
+In3.Cu GND            cut by m2_source                2.0 mm  w 1.00 gap 0.30  mid [66.24, 49.34]  detour 3.0 mm  
+In3.Cu GND            cut by Net-(D14--)              2.0 mm  w 0.40 gap 0.35  mid [44.5, 62.2]  detour 2.5 mm  
+F.Cu   Vin            cut by Current                  1.6 mm  w 0.30 gap 0.30  mid [60.79, 32.35]  detour n/a  pieces 1 / 3 on this layer only meet through other layers  SEPARATES pieces [[1, 3.0], [3, 23.0]]
+B.Cu   GND            cut by Output2_drain            1.8 mm  w 1.00 gap 0.30  mid [65.25, 91.85]  detour n/a  pieces 16 / 12 on this layer only meet through other layers  SEPARATES pieces [[12, 572.5], [16, 114.1]]
+B.Cu   GND            cut by Current                  1.8 mm  w 0.30 gap 0.35  mid [70.58, 100.62]  detour 6.9 mm  
+B.Cu   GND            cut by GATE_M3                  1.8 mm  w 0.70 gap 0.30  mid [36.45, 61.85]  detour 20.0 mm  
+In4.Cu GND            cut by analog_5V                1.8 mm  w 0.80 gap 0.30  mid [65.78, 98.28]  detour 5.8 mm  
+In3.Cu GND            cut by 5V                       1.8 mm  w 0.80 gap 0.30  mid [63.99, 64.35]  detour n/a  pieces 1 / 3 on this layer only meet through other layers  SEPARATES pieces [[1, 1308.9], [3, 37.2]]
+In3.Cu GND            cut by Net-(D14--)              1.8 mm  w 0.40 gap 0.35  mid [35.03, 63.97]  detour 2.9 mm  
+In3.Cu GND            cut by Net-(U15-VDDA)           1.8 mm  w 0.40 gap 0.35  mid [67.0, 53.75]  detour 2.7 mm  
+In3.Cu Vout_1         cut by Net-(U15-VDDA)           3.8 mm  w 0.40 gap 0.35  mid [67.0, 56.86]  detour 4.7 mm  
+F.Cu   GND            cut by m2_source                1.6 mm  w 1.00 gap 0.35  mid [80.99, 73.31]  detour 3.1 mm  
+B.Cu   GND            cut by 12V                      1.6 mm  w 0.80 gap 0.35  mid [95.15, 65.45]  detour 12.9 mm    SEPARATES pieces [[6, 263.0], [8, 321.0]]
+In4.Cu GND            cut by M1_ON                    1.6 mm  w 0.20 gap 0.30  mid [56.05, 64.25]  detour n/a  pieces 4 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 774.2], [4, 35.5]]
+In4.Cu GND            cut by Vout_1                   1.6 mm  w 1.00 gap 0.35  mid [70.83, 88.58]  detour n/a  pieces 6 / 8 on this layer only meet through other layers  SEPARATES pieces [[6, 83.8], [8, 111.7]]
+In4.Cu GND            cut by Output1_drain            1.6 mm  w 1.00 gap 0.30  mid [64.12, 91.35]  detour n/a  pieces 6 / 9 on this layer only meet through other layers  SEPARATES pieces [[6, 83.8], [9, 245.6]]
+In3.Cu Vout_1         cut by Vin                      2.8 mm  w 1.00 gap 0.30  mid [57.1, 68.75]  detour 3.9 mm  
+In4.Cu Vout_2         cut by 5V                       2.2 mm  w 0.40 gap 0.35  mid [54.37, 72.73]  detour 3.1 mm  
+In3.Cu Vout_2         cut by Net-(D14--)              2.2 mm  w 0.40 gap 0.25  mid [41.55, 63.55]  detour n/a  pieces 1 / 2 on this layer only meet through other layers  SEPARATES pieces [[1, 49.2], [2, 4.7]]
+F.Cu   m3_source      cut by Net-(D14--)              2.0 mm  w 0.40 gap 0.50  mid [45.2, 60.57]  detour 2.8 mm  
+
+== necks joining two wide regions
+In2.Cu LX             < 2 mm  at [74.9, 70.7]  bbox [71.1, 67.6, 78.8, 72.0]  regions [509.4, 543.1]  3.40 A/mm (LX L1->M5)
+F.Cu   LX             < 1 mm  at [74.1, 48.7]  bbox [72.2, 46.8, 76.2, 51.1]  regions [3.7, 143.5]  2.97 A/mm (LX L1->M1)
+In2.Cu LX             < 2 mm  at [75.4, 58.7]  bbox [72.8, 55.4, 78.6, 61.6]  regions [3.5, 509.4, 543.1]  2.47 A/mm (LX L1->M7)
+B.Cu   Output2_drain  < 2 mm  at [39.1, 96.5]  bbox [38.3, 95.9, 39.9, 97.5]  regions [5.4, 49.1]  2.44 A/mm (Output2_drain J7->M9)
+B.Cu   Output2_drain  < 2 mm  at [42.6, 97.1]  bbox [41.0, 94.9, 43.2, 99.6]  regions [5.4, 49.1, 64.8]  2.26 A/mm (Output2_drain J7->M9)
+In2.Cu LX             < 2 mm  at [75.8, 48.3]  bbox [70.7, 46.3, 80.5, 51.4]  regions [509.4, 543.1]  2.23 A/mm (LX L1->M1)
+F.Cu   Vout_2         < 2 mm  at [43.9, 67.7]  bbox [37.7, 59.0, 47.8, 74.2]  regions [50.0, 96.6]  2.17 A/mm (Vout_2 M3->bank+J8)
+In3.Cu Vin            < 2 mm  at [84.8, 44.2]  bbox [78.9, 41.8, 91.1, 47.3]  regions [166.9, 674.1]  2.11 A/mm (Vin J1->R1 (DC))
+In4.Cu Vin            < 2 mm  at [84.8, 44.2]  bbox [78.9, 41.8, 91.1, 47.3]  regions [164.3, 674.4]  2.01 A/mm (Vin J1->R1 (DC))
+In2.Cu LX             < 2 mm  at [90.2, 81.5]  bbox [83.5, 76.9, 94.2, 86.1]  regions [24.7, 543.1]  1.90 A/mm (LX L1->M5)
+In2.Cu LX             < 2 mm  at [88.3, 89.3]  bbox [87.2, 87.9, 89.5, 90.2]  regions [24.7, 31.3]  1.86 A/mm (LX L1->M5)
+In4.Cu Vin            < 1 mm  at [70.0, 42.7]  bbox [67.8, 39.2, 72.0, 46.8]  regions [19.6, 935.4]  1.74 A/mm (Vin J1->R1 (DC))
+In4.Cu Vin            < 2 mm  at [65.3, 45.5]  bbox [53.2, 38.9, 73.0, 53.2]  regions [3.3, 164.3]  1.74 A/mm (Vin J1->R1 (DC))
+In2.Cu Vin            < 2 mm  at [70.1, 42.7]  bbox [66.2, 38.9, 73.0, 46.2]  regions [14.5, 159.0]  1.73 A/mm (Vin J1->R1 (DC))
+F.Cu   Vout_2         < 1 mm  at [46.7, 67.7]  bbox [42.9, 66.5, 47.8, 70.1]  regions [4.6, 136.0]  1.72 A/mm (Vout_2 M3->bank+J8)
+F.Cu   Vout_2         < 1 mm  at [42.7, 68.6]  bbox [42.5, 67.1, 43.1, 70.1]  regions [4.6, 136.0]  1.70 A/mm (Vout_2 M3->bank+J8)
+In3.Cu Vin            < 2 mm  at [69.5, 43.4]  bbox [66.2, 38.9, 73.0, 47.3]  regions [14.5, 166.9]  1.66 A/mm (Vin J1->R1 (DC))
+In4.Cu rsense_lo      < 2 mm  at [70.4, 34.5]  bbox [67.9, 30.3, 73.0, 38.6]  regions [3.1, 191.3]  1.61 A/mm (rsense_lo R1->L1)
+B.Cu   Output1_drain  < 2 mm  at [50.4, 110.4]  bbox [49.3, 108.6, 51.9, 112.2]  regions [3.1, 15.4, 56.0]  1.60 A/mm (Output1_drain J4->M10)
+B.Cu   Output1_drain  < 2 mm  at [46.7, 110.0]  bbox [46.0, 108.7, 47.7, 111.3]  regions [15.4, 56.0]  1.57 A/mm (Output1_drain J4->M10)
+In3.Cu Vout_1         < 2 mm  at [58.2, 71.0]  bbox [56.6, 69.2, 59.6, 72.5]  regions [119.4, 217.1]  1.55 A/mm (Vout_1 M2->J3 (LED DC))
+In2.Cu LX             < 1 mm  at [51.9, 69.2]  bbox [50.4, 66.1, 53.8, 72.0]  regions [3.0, 6.8, 1235.3]  1.53 A/mm (LX L1->M6)
+In2.Cu rsense_lo      < 2 mm  at [70.8, 34.7]  bbox [68.0, 30.3, 73.0, 38.6]  regions [3.1, 199.2]  1.53 A/mm (rsense_lo R1->L1)
+In2.Cu LX             < 1 mm  at [74.2, 48.8]  bbox [72.6, 47.2, 75.8, 50.5]  regions [5.4, 1235.3]  1.52 A/mm (LX L1->M1)
+In4.Cu Vout_2         < 2 mm  at [45.6, 69.8]  bbox [41.4, 66.4, 51.0, 73.9]  regions [4.9, 760.9]  1.50 A/mm (Vout_2 M3->bank+J8)
+In2.Cu LX             < 2 mm  at [84.6, 87.8]  bbox [84.1, 86.9, 85.1, 88.7]  regions [24.7, 31.3]  1.49 A/mm (LX L1->M5)
+In3.Cu rsense_lo      < 2 mm  at [70.8, 34.8]  bbox [68.0, 30.3, 73.0, 38.6]  regions [3.1, 199.2]  1.47 A/mm (rsense_lo R1->L1)
+F.Cu   Vin            < 2 mm  at [90.8, 79.9]  bbox [86.7, 76.9, 94.6, 82.4]  regions [25.5, 75.5]  1.46 A/mm (Vin J1->R1 (DC))
+In2.Cu LX             < 1 mm  at [76.0, 50.7]  bbox [75.6, 50.4, 76.7, 51.1]  regions [5.4, 1235.3]  1.45 A/mm (LX L1->M1)
+In2.Cu Vin            < 1 mm  at [86.0, 44.1]  bbox [81.4, 42.2, 90.7, 46.1]  regions [201.2, 256.9]  1.41 A/mm (Vin J1->R1 (DC))
+B.Cu   Output2_drain  < 2 mm  at [41.5, 98.7]  bbox [40.8, 98.0, 42.0, 99.3]  regions [5.4, 64.8]  1.32 A/mm (Output2_drain J7->M9)
+B.Cu   LX             < 2 mm  at [90.6, 82.2]  bbox [83.0, 76.9, 94.2, 87.4]  regions [24.8, 115.5]  1.29 A/mm (LX L1->M5)
+B.Cu   Output2_drain  < 2 mm  at [39.4, 99.7]  bbox [38.6, 98.4, 40.3, 100.9]  regions [5.4, 64.8]  1.27 A/mm (Output2_drain J7->M9)
+In3.Cu Vout_1         < 2 mm  at [55.7, 67.5]  bbox [53.3, 66.4, 59.9, 70.3]  regions [119.4, 217.1]  1.13 A/mm (Vout_1 M2->J3 (LED DC))
+In3.Cu Vout_1         < 2 mm  at [77.4, 67.9]  bbox [76.4, 67.3, 78.5, 68.3]  regions [25.2, 119.4]  1.08 A/mm (Vout_1 M2->bank+J3)
+In4.Cu Vout_1         < 2 mm  at [77.4, 67.9]  bbox [76.4, 67.3, 78.5, 68.3]  regions [28.2, 86.9]  1.05 A/mm (Vout_1 M2->bank+J3)
+In2.Cu LX             < 1 mm  at [76.1, 46.7]  bbox [75.5, 46.3, 76.6, 47.2]  regions [5.4, 1235.3]  1.04 A/mm (LX L1->M1)
+In4.Cu Vout_2         < 2 mm  at [40.9, 59.7]  bbox [37.5, 55.0, 42.8, 67.3]  regions [4.9, 760.9]  1.03 A/mm (Vout_2 M3->bank+J8)
+F.Cu   Vout_3         < 2 mm  at [94.4, 95.1]  bbox [90.2, 86.5, 97.6, 101.2]  regions [5.0, 5.7, 7.9, 45.4]  0.99 A/mm (Vout_3 M4->bank+J5)
+In2.Cu LX             < 2 mm  at [77.5, 54.8]  bbox [76.5, 53.8, 78.5, 55.6]  regions [509.4, 543.1]  0.97 A/mm (LX L1->M5)
+In2.Cu LX             < 2 mm  at [92.3, 87.0]  bbox [90.0, 85.9, 93.8, 87.4]  regions [24.7, 543.1]  0.95 A/mm (LX L1->M5)
+In4.Cu Vout_2         < 2 mm  at [41.8, 96.8]  bbox [41.0, 96.4, 42.5, 97.5]  regions [4.8, 760.9]  0.88 A/mm (Vout_2 M3->J8 (LED DC))
+In2.Cu Vout_3         < 2 mm  at [95.1, 94.5]  bbox [90.5, 87.9, 101.4, 101.2]  regions [5.0, 10.3, 23.3, 69.4]  0.83 A/mm (Vout_3 M4->bank+J5)
+In3.Cu Vout_3         < 2 mm  at [95.1, 94.6]  bbox [90.2, 87.3, 101.4, 101.2]  regions [5.0, 10.6, 20.4, 69.4, 332.0]  0.82 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 2 mm  at [95.2, 94.6]  bbox [90.2, 87.3, 101.7, 101.1]  regions [3.1, 5.0, 6.3, 9.5, 20.7, 331.0]  0.82 A/mm (Vout_3 M4->bank+J5)
+F.Cu   LX             < 2 mm  at [62.4, 52.5]  bbox [58.5, 48.2, 65.2, 57.4]  regions [18.4, 100.4]  0.81 A/mm (LX L1->M1)
+In2.Cu LX             < 2 mm  at [79.5, 82.5]  bbox [79.0, 81.8, 80.6, 83.2]  regions [15.3, 543.1]  0.80 A/mm (LX L1->M5)
+F.Cu   LX             < 1 mm  at [77.8, 49.3]  bbox [77.2, 48.9, 78.4, 49.6]  regions [3.4, 3.7]  0.74 A/mm (LX L1->M1)
+In2.Cu LX             < 2 mm  at [83.4, 85.0]  bbox [82.9, 84.0, 84.0, 85.6]  regions [15.3, 24.7]  0.72 A/mm (LX L1->M5)
+F.Cu   Vout_3         < 1 mm  at [94.9, 90.7]  bbox [94.6, 90.5, 95.0, 91.0]  regions [5.5, 113.0]  0.71 A/mm (Vout_3 M4->bank+J5)
+B.Cu   LX             < 1 mm  at [77.8, 47.5]  bbox [77.4, 47.2, 78.3, 47.9]  regions [5.4, 18.6]  0.69 A/mm (LX L1->M1)
+B.Cu   Vout_2         < 2 mm  at [40.9, 59.7]  bbox [38.0, 54.6, 43.0, 66.4]  regions [9.7, 26.5]  0.68 A/mm (Vout_2 M3->bank+J8)
+B.Cu   Vout_3         < 1 mm  at [94.9, 90.7]  bbox [94.6, 90.5, 95.0, 91.0]  regions [6.4, 51.0]  0.67 A/mm (Vout_3 M4->bank+J5)
+In2.Cu Vout_2         < 2 mm  at [40.9, 59.6]  bbox [36.8, 55.0, 42.8, 66.4]  regions [8.8, 15.0]  0.67 A/mm (Vout_2 M3->bank+J8)
+F.Cu   Vout_1         < 1 mm  at [77.4, 68.0]  bbox [77.0, 67.5, 77.8, 68.3]  regions [3.2, 51.2]  0.65 A/mm (Vout_1 M2->bank+J3)
+In2.Cu LX             < 1 mm  at [77.8, 49.5]  bbox [77.6, 49.1, 78.0, 49.8]  regions [5.4, 1235.3]  0.61 A/mm (LX L1->M1)
+In3.Cu Vout_1         < 2 mm  at [77.0, 66.2]  bbox [75.4, 65.9, 78.6, 66.9]  regions [25.2, 119.4]  0.60 A/mm (Vout_1 M2->bank+J3)
+In2.Cu LX             < 1 mm  at [77.8, 47.5]  bbox [77.4, 47.2, 78.3, 47.9]  regions [5.4, 1235.3]  0.59 A/mm (LX L1->M1)
+In2.Cu Vout_3         < 1 mm  at [94.9, 90.7]  bbox [94.6, 90.5, 95.0, 91.0]  regions [6.3, 165.2]  0.59 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_1         < 2 mm  at [77.0, 66.2]  bbox [75.4, 65.9, 78.6, 66.9]  regions [28.2, 86.9]  0.59 A/mm (Vout_1 M2->bank+J3)
+F.Cu   Vout_3         < 1 mm  at [95.6, 91.7]  bbox [94.9, 91.1, 96.9, 92.3]  regions [5.5, 113.0]  0.58 A/mm (Vout_3 M4->bank+J5)
+In3.Cu Vout_3         < 1 mm  at [94.9, 90.7]  bbox [94.6, 90.5, 95.0, 91.0]  regions [6.4, 497.2]  0.58 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 1 mm  at [94.9, 90.7]  bbox [94.6, 90.5, 95.0, 91.0]  regions [6.4, 433.7]  0.58 A/mm (Vout_3 M4->bank+J5)
+B.Cu   rsense_lo      < 1 mm  at [60.8, 40.6]  bbox [58.8, 36.4, 63.1, 44.2]  regions [4.2, 153.8]  0.58 A/mm (rsense_lo R1->L1)
+In2.Cu LX             < 2 mm  at [82.6, 83.0]  bbox [82.1, 82.5, 83.1, 83.5]  regions [15.3, 543.1]  0.58 A/mm (LX L1->M5)
+F.Cu   LX             < 1 mm  at [77.8, 47.6]  bbox [77.3, 47.3, 78.4, 48.0]  regions [3.4, 3.7]  0.57 A/mm (LX L1->M1)
+B.Cu   LX             < 1 mm  at [77.8, 49.5]  bbox [77.6, 49.1, 78.0, 49.8]  regions [5.4, 18.6]  0.56 A/mm (LX L1->M1)
+B.Cu   Vout_3         < 1 mm  at [95.6, 91.7]  bbox [94.9, 91.1, 96.9, 92.3]  regions [6.4, 51.0]  0.53 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_1         < 2 mm  at [80.1, 77.4]  bbox [78.9, 75.8, 81.5, 79.1]  regions [5.3, 70.5]  0.51 A/mm (Vout_1 M2->bank+J3)
+In2.Cu Vout_3         < 1 mm  at [95.6, 91.7]  bbox [94.9, 91.1, 96.9, 92.3]  regions [6.3, 165.2]  0.48 A/mm (Vout_3 M4->bank+J5)
+In3.Cu Vout_3         < 1 mm  at [95.6, 91.7]  bbox [94.9, 91.1, 96.9, 92.3]  regions [6.4, 497.2]  0.47 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 1 mm  at [95.6, 91.7]  bbox [94.9, 91.1, 96.9, 92.3]  regions [6.4, 433.7]  0.46 A/mm (Vout_3 M4->bank+J5)
+In2.Cu LX             < 1 mm  at [48.1, 69.2]  bbox [47.9, 67.3, 48.5, 71.2]  regions [3.0, 6.8]  0.43 A/mm (LX L1->M6)
+In2.Cu LX             < 2 mm  at [74.2, 64.3]  bbox [73.0, 61.4, 75.6, 65.6]  regions [3.5, 509.4]  0.42 A/mm (LX L1->M7)
+In4.Cu Vin            < 2 mm  at [76.3, 33.8]  bbox [74.8, 31.5, 78.0, 35.4]  regions [3.9, 164.3]  0.42 A/mm (Vin J1->R1 (DC))
+F.Cu   Vout_2         < 1 mm  at [42.4, 65.1]  bbox [42.0, 64.5, 42.7, 65.7]  regions [4.6, 66.3]  0.41 A/mm (Vout_2 M3->bank+J8)
+In4.Cu Vout_2         < 2 mm  at [39.7, 99.5]  bbox [39.4, 98.3, 40.5, 100.8]  regions [4.8, 760.9]  0.41 A/mm (Vout_2 M3->J8 (LED DC))
+In2.Cu Vin            < 2 mm  at [76.2, 33.8]  bbox [74.9, 31.6, 78.0, 35.4]  regions [4.3, 159.0]  0.40 A/mm (Vin J1->R1 (DC))
+In3.Cu Vin            < 2 mm  at [76.2, 33.8]  bbox [74.9, 31.6, 78.0, 35.4]  regions [4.3, 166.9]  0.39 A/mm (Vin J1->R1 (DC))
+In2.Cu LX             < 1 mm  at [50.2, 65.1]  bbox [49.8, 64.6, 50.5, 65.5]  regions [6.8, 1235.3]  0.38 A/mm (LX L1->M6)
+In2.Cu LX             < 2 mm  at [82.5, 87.9]  bbox [82.0, 87.0, 82.9, 88.5]  regions [15.3, 31.3]  0.37 A/mm (LX L1->M5)
+In3.Cu Vout_1         < 1 mm  at [77.4, 68.0]  bbox [77.0, 67.5, 77.8, 68.3]  regions [26.8, 397.8]  0.34 A/mm (Vout_1 M2->bank+J3)
+In4.Cu Vout_1         < 1 mm  at [77.4, 68.0]  bbox [77.0, 67.5, 77.8, 68.3]  regions [102.9, 113.9]  0.33 A/mm (Vout_1 M2->bank+J3)
+F.Cu   Vout_3         < 1 mm  at [97.4, 92.8]  bbox [97.1, 91.8, 97.6, 93.8]  regions [5.5, 113.0]  0.32 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_2         < 2 mm  at [41.5, 98.7]  bbox [40.8, 98.0, 42.0, 99.3]  regions [4.8, 760.9]  0.32 A/mm (Vout_2 M3->J8 (LED DC))
+In3.Cu Vin            < 2 mm  at [73.8, 33.5]  bbox [73.4, 32.1, 74.6, 35.1]  regions [4.3, 166.9]  0.29 A/mm (Vin J1->R1 (DC))
+In2.Cu Vin            < 2 mm  at [73.8, 33.5]  bbox [73.4, 32.1, 74.6, 35.1]  regions [4.3, 159.0]  0.28 A/mm (Vin J1->R1 (DC))
+In4.Cu Vout_1         < 2 mm  at [79.2, 73.5]  bbox [78.9, 72.4, 79.7, 74.6]  regions [5.3, 28.2]  0.28 A/mm (Vout_1 M2->bank+J3)
+In2.Cu Vout_3         < 1 mm  at [98.6, 91.3]  bbox [97.3, 90.4, 99.6, 92.3]  regions [6.3, 165.2]  0.27 A/mm (Vout_3 M4->bank+J5)
+B.Cu   Vout_3         < 1 mm  at [99.1, 91.8]  bbox [97.3, 90.3, 100.0, 94.4]  regions [6.4, 51.0]  0.27 A/mm (Vout_3 M4->bank+J5)
+In2.Cu LX             < 1 mm  at [48.3, 65.1]  bbox [48.1, 64.5, 48.8, 65.6]  regions [6.8, 1235.3]  0.25 A/mm (LX L1->M6)
+In4.Cu Vout_1         < 2 mm  at [81.0, 73.5]  bbox [80.3, 72.5, 81.5, 74.5]  regions [5.3, 28.2]  0.25 A/mm (Vout_1 M2->bank+J3)
+In3.Cu Vout_3         < 1 mm  at [98.6, 91.2]  bbox [97.3, 90.3, 99.5, 92.3]  regions [6.4, 497.2]  0.24 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 1 mm  at [98.6, 91.2]  bbox [97.3, 90.3, 99.5, 92.3]  regions [6.4, 433.7]  0.24 A/mm (Vout_3 M4->bank+J5)
+In2.Cu LX             < 2 mm  at [81.0, 89.3]  bbox [80.8, 87.8, 81.7, 91.1]  regions [15.3, 31.3]  0.24 A/mm (LX L1->M5)
+In2.Cu Vout_3         < 2 mm  at [102.8, 95.0]  bbox [100.9, 93.3, 103.7, 97.2]  regions [10.3, 69.4]  0.22 A/mm (Vout_3 M4->bank+J5)
+In3.Cu Vout_3         < 2 mm  at [102.8, 95.0]  bbox [100.9, 93.3, 103.7, 97.2]  regions [10.6, 69.4]  0.22 A/mm (Vout_3 M4->bank+J5)
+F.Cu   Vin            < 1 mm  at [82.3, 60.8]  bbox [82.1, 60.6, 82.5, 61.0]  regions [3.5, 9.1]  0.19 A/mm (Vin J1->R1 (DC))
+F.Cu   Vin            < 1 mm  at [82.3, 61.6]  bbox [82.1, 61.4, 82.5, 61.7]  regions [3.5, 9.1]  0.19 A/mm (Vin J1->R1 (DC))
+In3.Cu Vout_1         < 1 mm  at [77.4, 66.2]  bbox [76.8, 66.0, 78.1, 66.5]  regions [26.8, 397.8]  0.18 A/mm (Vout_1 M2->bank+J3)
+In4.Cu Vout_1         < 1 mm  at [77.4, 66.2]  bbox [76.8, 66.0, 78.1, 66.5]  regions [102.9, 113.9]  0.18 A/mm (Vout_1 M2->bank+J3)
+B.Cu   m2_source      < 1 mm  at [76.6, 62.3]  bbox [76.1, 62.0, 77.1, 62.6]  regions [3.9, 8.1]  0.17 A/mm (m2_source M7->M2)
+In3.Cu Vout_3         < 1 mm  at [95.3, 89.0]  bbox [95.1, 88.3, 95.7, 89.6]  regions [6.4, 26.2]  0.16 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 1 mm  at [95.3, 89.0]  bbox [95.1, 88.3, 95.7, 89.6]  regions [6.4, 26.3]  0.16 A/mm (Vout_3 M4->bank+J5)
+F.Cu   Vout_1         < 1 mm  at [77.4, 66.2]  bbox [76.8, 66.0, 78.1, 66.5]  regions [3.2, 51.2]  0.15 A/mm (Vout_1 M2->bank+J3)
+F.Cu   Vout_2         < 1 mm  at [40.6, 65.1]  bbox [40.3, 64.6, 41.0, 65.5]  regions [4.6, 66.3]  0.15 A/mm (Vout_2 M3->bank+J8)
+In3.Cu Vout_3         < 1 mm  at [97.1, 89.0]  bbox [96.7, 88.6, 97.4, 89.4]  regions [6.4, 26.2]  0.14 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 1 mm  at [97.1, 89.0]  bbox [96.7, 88.6, 97.4, 89.4]  regions [6.4, 26.3]  0.14 A/mm (Vout_3 M4->bank+J5)
+F.Cu   Vout_3         < 2 mm  at [88.6, 93.4]  bbox [88.4, 92.6, 88.9, 94.1]  regions [7.9, 45.4]  0.14 A/mm (Vout_3 M4->bank+J5)
+F.Cu   Vout_3         < 2 mm  at [89.6, 93.5]  bbox [89.2, 93.4, 90.1, 93.6]  regions [7.9, 45.4]  0.10 A/mm (Vout_3 M4->bank+J5)
+In4.Cu m4_source      < 1 mm  at [91.0, 88.0]  bbox [90.6, 87.7, 91.4, 88.4]  regions [5.1, 17.1]  0.09 A/mm (m4_source M5->M4)
+In2.Cu Vin            < 2 mm  at [75.6, 30.6]  bbox [74.8, 30.3, 76.5, 31.2]  regions [4.3, 159.0]  0.09 A/mm (Vin J1->R1 (DC))
+In3.Cu Vin            < 2 mm  at [75.6, 30.6]  bbox [74.8, 30.3, 76.5, 31.2]  regions [4.3, 166.9]  0.08 A/mm (Vin J1->R1 (DC))
+In4.Cu Vin            < 2 mm  at [75.6, 30.6]  bbox [74.8, 30.3, 76.5, 31.2]  regions [3.9, 164.3]  0.08 A/mm (Vin J1->R1 (DC))
+In2.Cu LX             < 2 mm  at [81.5, 82.4]  bbox [81.2, 82.0, 81.7, 82.8]  regions [15.3, 543.1]  0.07 A/mm (LX L1->M5)
+In2.Cu Vout_3         < 2 mm  at [96.1, 104.3]  bbox [94.2, 101.5, 97.6, 106.3]  regions [23.3, 69.4]  0.07 A/mm (Vout_3 M4->bank+J5)
+In3.Cu Vout_3         < 2 mm  at [96.1, 104.3]  bbox [94.2, 101.5, 97.6, 106.3]  regions [69.4, 332.0]  0.07 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 2 mm  at [96.1, 104.0]  bbox [94.6, 101.8, 97.6, 106.3]  regions [39.1, 331.0]  0.06 A/mm (Vout_3 M4->J5 (LED DC))
+F.Cu   Vin            < 1 mm  at [82.3, 59.9]  bbox [81.8, 59.7, 82.8, 60.2]  regions [3.5, 9.1]  0.04 A/mm (Vin J1->R1 (DC))
+F.Cu   Vin            < 1 mm  at [82.3, 62.5]  bbox [81.8, 62.1, 82.8, 62.7]  regions [3.5, 9.1]  0.04 A/mm (Vin J1->R1 (DC))
+In4.Cu Vout_3         < 1 mm  at [96.0, 102.0]  bbox [94.8, 101.8, 97.2, 102.3]  regions [3.3, 40.4, 433.7]  0.04 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 1 mm  at [96.2, 106.1]  bbox [95.1, 105.7, 97.2, 106.3]  regions [3.3, 40.4, 433.7]  0.04 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_2         < 2 mm  at [53.2, 72.2]  bbox [52.1, 71.5, 54.2, 72.9]  regions [6.3, 760.9]  0.04 A/mm (Vout_2 M3->bank+J8)
+B.Cu   Output2_drain  < 2 mm  at [41.1, 111.5]  bbox [40.2, 110.6, 41.8, 112.5]  regions [3.1, 64.8]  0.04 A/mm (Output2_drain J7->M9)
+In4.Cu Vout_3         < 1 mm  at [95.5, 102.7]  bbox [95.4, 102.5, 95.6, 102.9]  regions [3.3, 433.7]  0.03 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 1 mm  at [95.5, 103.5]  bbox [95.4, 103.3, 95.6, 103.8]  regions [3.3, 433.7]  0.03 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 1 mm  at [95.5, 104.4]  bbox [95.4, 104.2, 95.6, 104.6]  regions [3.3, 433.7]  0.03 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 1 mm  at [95.5, 105.2]  bbox [95.4, 105.0, 95.6, 105.5]  regions [3.3, 433.7]  0.03 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 1 mm  at [96.8, 102.7]  bbox [96.7, 102.5, 96.9, 102.9]  regions [3.3, 40.4]  0.02 A/mm (Vout_3 M4->bank+J5)
+In3.Cu Vout_1         < 2 mm  at [68.7, 58.7]  bbox [68.2, 58.0, 69.7, 59.2]  regions [12.4, 119.4]  0.02 A/mm (Vout_1 M2->bank+J3)
+In3.Cu Vout_1         < 2 mm  at [71.4, 59.1]  bbox [70.8, 58.2, 71.7, 59.9]  regions [12.4, 119.4]  0.02 A/mm (Vout_1 M2->bank+J3)
+B.Cu   Output2_drain  < 2 mm  at [37.4, 111.5]  bbox [36.8, 110.6, 38.4, 112.5]  regions [3.1, 64.8]  0.02 A/mm (Output2_drain J7->M9)
+In4.Cu Vout_2         < 1 mm  at [53.4, 72.3]  bbox [52.9, 71.8, 54.0, 72.6]  regions [10.3, 868.3]  0.01 A/mm (Vout_2 M3->bank+J8)
+In4.Cu Vout_3         < 1 mm  at [96.8, 103.5]  bbox [96.7, 103.3, 96.9, 103.8]  regions [3.3, 40.4]  0.01 A/mm (Vout_3 M4->bank+J5)
+In4.Cu Vout_3         < 1 mm  at [96.8, 104.4]  bbox [96.7, 104.2, 96.9, 104.6]  regions [3.3, 40.4]  0.01 A/mm (Vout_3 M4->J5 (LED DC))
+In4.Cu Vout_3         < 1 mm  at [96.8, 105.2]  bbox [96.7, 105.0, 96.9, 105.5]  regions [3.3, 40.4]  0.01 A/mm (Vout_3 M4->J5 (LED DC))
+In3.Cu Vout_1         < 2 mm  at [70.2, 59.1]  bbox [70.1, 58.9, 70.4, 59.2]  regions [12.4, 119.4]  0.01 A/mm (Vout_1 M2->bank+J3)
+F.Cu   GND            < 1 mm  at [61.4, 30.5]  bbox [59.5, 30.3, 63.4, 30.9]  regions [3.7, 600.3]  
+F.Cu   GND            < 1 mm  at [98.7, 42.6]  bbox [97.8, 42.3, 99.6, 43.0]  regions [20.3, 546.4]  
+F.Cu   GND            < 1 mm  at [97.6, 46.1]  bbox [97.1, 45.5, 98.1, 46.8]  regions [20.3, 546.4]  
+F.Cu   GND            < 1 mm  at [57.5, 55.9]  bbox [56.2, 54.8, 58.3, 56.9]  regions [3.6, 600.3]  
+F.Cu   GND            < 1 mm  at [57.6, 57.4]  bbox [57.2, 57.1, 58.2, 58.0]  regions [3.6, 48.1]  
+F.Cu   GND            < 1 mm  at [57.6, 58.7]  bbox [57.4, 58.3, 57.8, 59.0]  regions [3.6, 48.1]  
+F.Cu   GND            < 1 mm  at [49.4, 69.4]  bbox [48.1, 67.5, 51.0, 71.2]  regions [4.2, 924.9]  
+F.Cu   GND            < 1 mm  at [79.0, 73.2]  bbox [78.7, 72.7, 79.4, 73.7]  regions [9.5, 12.8]  
+F.Cu   GND            < 1 mm  at [82.3, 73.8]  bbox [81.2, 72.9, 83.4, 74.9]  regions [9.5, 546.4]  
+F.Cu   GND            < 1 mm  at [80.1, 79.5]  bbox [79.5, 77.9, 80.8, 81.1]  regions [9.5, 45.0]  
+F.Cu   GND            < 1 mm  at [60.3, 80.1]  bbox [58.9, 79.6, 61.6, 80.7]  regions [7.7, 924.9]  
+F.Cu   GND            < 1 mm  at [70.7, 84.9]  bbox [70.4, 84.5, 71.2, 85.2]  regions [45.0, 924.9]  
+F.Cu   GND            < 1 mm  at [38.0, 89.3]  bbox [36.3, 87.8, 39.2, 91.5]  regions [26.2, 314.3]  
+F.Cu   GND            < 1 mm  at [99.9, 95.7]  bbox [97.9, 94.3, 102.1, 96.8]  regions [5.9, 924.9]  
+F.Cu   GND            < 1 mm  at [44.9, 98.2]  bbox [44.6, 97.6, 45.3, 98.9]  regions [26.9, 924.9]  
+F.Cu   GND            < 1 mm  at [60.8, 109.5]  bbox [60.6, 109.1, 61.0, 110.0]  regions [3.8, 924.9]  
+F.Cu   GND            < 1 mm  at [61.6, 109.5]  bbox [61.4, 109.4, 61.7, 109.7]  regions [3.8, 924.9]  
+F.Cu   GND            < 1 mm  at [62.3, 109.5]  bbox [62.1, 109.4, 62.4, 109.7]  regions [3.8, 924.9]  
+F.Cu   GND            < 1 mm  at [63.0, 109.5]  bbox [62.8, 109.4, 63.2, 109.7]  regions [3.8, 924.9]  
+F.Cu   GND            < 1 mm  at [63.9, 109.7]  bbox [63.5, 109.4, 64.2, 110.2]  regions [3.8, 924.9]  
+F.Cu   m3_source      < 1 mm  at [49.2, 57.0]  bbox [48.7, 56.6, 49.6, 57.3]  regions [15.9, 35.7]  0.00 A/mm (m3_source M6->M3)
+F.Cu   m3_source      < 1 mm  at [49.8, 57.6]  bbox [49.4, 57.2, 50.3, 58.1]  regions [15.9, 35.7]  0.00 A/mm (m3_source M6->M3)
+In1.Cu GND            < 1 mm  at [44.8, 69.7]  bbox [41.9, 65.4, 47.4, 74.0]  regions [5.1, 4597.5]  
+In1.Cu GND            < 1 mm  at [39.0, 66.5]  bbox [37.8, 66.2, 40.0, 66.9]  regions [5.1, 4597.5]  
+In1.Cu GND            < 1 mm  at [92.2, 93.2]  bbox [90.6, 90.7, 93.9, 95.7]  regions [7.3, 4597.5]  
+In1.Cu GND            < 1 mm  at [96.2, 93.3]  bbox [94.9, 92.4, 97.2, 94.3]  regions [7.3, 4597.5]  
+In2.Cu GND            < 1 mm  at [30.5, 61.1]  bbox [30.3, 59.1, 30.8, 63.1]  regions [513.8, 1690.9]  
+In2.Cu GND            < 1 mm  at [39.5, 66.7]  bbox [37.7, 66.3, 41.0, 67.4]  regions [3.1, 1690.9]  
+In2.Cu GND            < 1 mm  at [44.9, 70.4]  bbox [41.9, 66.7, 47.6, 74.1]  regions [3.1, 1690.9]  
+In2.Cu GND            < 1 mm  at [53.3, 72.4]  bbox [52.5, 72.3, 54.1, 72.8]  regions [15.4, 1690.9]  
+In2.Cu GND            < 1 mm  at [63.8, 74.4]  bbox [63.4, 74.1, 64.2, 74.9]  regions [5.2, 1690.9]  
+In2.Cu GND            < 1 mm  at [57.2, 77.8]  bbox [56.8, 76.9, 57.8, 78.5]  regions [15.4, 1690.9]  
+In2.Cu GND            < 1 mm  at [77.8, 91.4]  bbox [77.6, 91.1, 78.1, 91.7]  regions [5.8, 1690.9]  
+In2.Cu GND            < 1 mm  at [80.2, 92.2]  bbox [79.6, 91.5, 80.5, 93.1]  regions [5.8, 1690.9]  
+In2.Cu GND            < 1 mm  at [78.9, 92.2]  bbox [78.5, 91.9, 79.2, 92.4]  regions [5.8, 1690.9]  
+In3.Cu Vin            < 1 mm  at [61.6, 58.1]  bbox [61.0, 57.8, 62.1, 58.5]  regions [4.6, 16.3]  0.00 A/mm (Vin J1->R1 (DC))
+In3.Cu Vin            < 1 mm  at [61.2, 58.8]  bbox [61.0, 58.4, 61.4, 59.2]  regions [4.6, 16.3]  0.00 A/mm (Vin J1->R1 (DC))
+In3.Cu GND            < 1 mm  at [60.6, 46.4]  bbox [60.3, 46.0, 60.9, 46.7]  regions [4.7, 665.0]  
+In3.Cu GND            < 1 mm  at [61.6, 47.3]  bbox [61.2, 47.0, 62.1, 47.7]  regions [4.7, 665.0]  
+In3.Cu GND            < 1 mm  at [72.2, 50.9]  bbox [71.5, 50.3, 72.7, 51.6]  regions [6.2, 40.9]  
+In3.Cu GND            < 1 mm  at [60.2, 53.8]  bbox [59.7, 51.6, 60.7, 56.1]  regions [15.2, 665.0]  
+In3.Cu GND            < 1 mm  at [65.0, 55.6]  bbox [64.7, 54.5, 65.3, 56.8]  regions [15.2, 32.5]  
+In3.Cu GND            < 1 mm  at [64.1, 59.2]  bbox [62.8, 58.4, 65.2, 60.1]  regions [3.7, 15.2]  
+In3.Cu GND            < 1 mm  at [30.5, 61.1]  bbox [30.3, 59.1, 30.8, 63.1]  regions [518.8, 665.0]  
+In3.Cu GND            < 1 mm  at [60.4, 65.1]  bbox [58.2, 63.8, 62.8, 65.9]  regions [3.6, 28.6]  
+In3.Cu GND            < 1 mm  at [39.5, 66.7]  bbox [37.7, 66.3, 41.0, 67.4]  regions [3.1, 518.8]  
+In3.Cu GND            < 1 mm  at [44.9, 70.4]  bbox [41.9, 66.7, 47.5, 74.1]  regions [3.1, 518.8]  
+In3.Cu GND            < 1 mm  at [70.6, 84.9]  bbox [70.0, 84.3, 71.3, 85.6]  regions [19.1, 461.3]  
+In3.Cu GND            < 1 mm  at [79.1, 88.6]  bbox [78.7, 88.1, 79.5, 89.0]  regions [4.6, 4.8]  
+In3.Cu GND            < 1 mm  at [77.8, 91.4]  bbox [77.6, 91.1, 78.1, 91.7]  regions [4.6, 461.3]  
+In3.Cu GND            < 1 mm  at [80.2, 92.2]  bbox [79.6, 91.5, 80.6, 93.0]  regions [4.6, 461.3]  
+In3.Cu GND            < 1 mm  at [78.9, 92.2]  bbox [78.5, 91.9, 79.2, 92.4]  regions [4.6, 461.3]  
+In3.Cu GND            < 1 mm  at [48.3, 109.9]  bbox [47.5, 108.9, 49.4, 110.7]  regions [8.0, 461.3]  
+In3.Cu GND            < 1 mm  at [52.3, 114.3]  bbox [48.4, 110.9, 54.0, 115.7]  regions [8.0, 461.3]  
+In4.Cu Vin            < 1 mm  at [60.8, 46.6]  bbox [60.5, 46.2, 61.1, 46.9]  regions [9.3, 19.6]  0.00 A/mm (Vin J1->R1 (DC))
+In4.Cu Vin            < 1 mm  at [61.0, 47.4]  bbox [60.5, 47.0, 61.5, 47.7]  regions [9.3, 19.6]  0.00 A/mm (Vin J1->R1 (DC))
+In4.Cu GND            < 1 mm  at [65.0, 55.6]  bbox [64.7, 54.5, 65.3, 56.8]  regions [24.8, 110.9]  
+In4.Cu GND            < 1 mm  at [80.1, 89.7]  bbox [79.8, 89.4, 80.4, 90.1]  regions [10.9, 82.0]  
+In4.Cu GND            < 1 mm  at [82.4, 91.3]  bbox [81.9, 91.0, 82.7, 91.6]  regions [5.8, 10.9]  
+In4.Cu GND            < 1 mm  at [82.5, 94.8]  bbox [82.2, 94.1, 82.7, 95.5]  regions [5.8, 82.0]  
+In4.Cu GND            < 1 mm  at [81.1, 94.7]  bbox [80.8, 94.4, 81.5, 94.9]  regions [5.8, 82.0]  
+In4.Cu GND            < 1 mm  at [50.8, 99.8]  bbox [50.1, 99.1, 51.5, 100.4]  regions [3.4, 15.3]  
+In4.Cu GND            < 1 mm  at [52.2, 103.5]  bbox [51.7, 103.0, 52.9, 104.0]  regions [27.2, 144.7]  
+In4.Cu GND            < 1 mm  at [58.3, 103.8]  bbox [57.8, 103.4, 58.8, 104.3]  regions [5.9, 144.7]  
+In4.Cu GND            < 1 mm  at [48.4, 109.9]  bbox [47.3, 108.9, 49.4, 110.7]  regions [17.4, 27.2]  
+In4.Cu GND            < 1 mm  at [41.8, 112.2]  bbox [41.5, 110.5, 42.1, 114.0]  regions [17.4, 28.3]  
+In4.Cu GND            < 1 mm  at [44.4, 115.5]  bbox [41.9, 115.1, 46.9, 115.7]  regions [17.4, 28.3]  
+B.Cu   Vin            < 1 mm  at [56.5, 87.6]  bbox [55.8, 87.1, 57.2, 88.4]  regions [3.5, 8.2]  0.00 A/mm (Vin J1->R1 (DC))
+B.Cu   GND            < 1 mm  at [75.6, 30.6]  bbox [75.2, 30.3, 76.1, 31.0]  regions [17.7, 81.7]  
+B.Cu   GND            < 1 mm  at [75.7, 32.4]  bbox [75.1, 31.5, 76.7, 33.4]  regions [17.7, 81.7]  
+B.Cu   GND            < 1 mm  at [76.6, 35.4]  bbox [75.7, 34.9, 77.4, 36.0]  regions [17.7, 81.7]  
+B.Cu   GND            < 1 mm  at [48.3, 58.9]  bbox [47.6, 58.1, 49.0, 59.7]  regions [5.6, 508.4]  
+B.Cu   GND            < 1 mm  at [30.5, 61.1]  bbox [30.3, 59.1, 30.8, 63.1]  regions [460.7, 508.4]  
+B.Cu   GND            < 1 mm  at [60.0, 65.5]  bbox [57.6, 64.2, 62.4, 67.2]  regions [18.1, 46.3]  
+B.Cu   GND            < 1 mm  at [38.7, 66.7]  bbox [36.6, 66.2, 41.0, 67.4]  regions [3.1, 460.7]  
+B.Cu   GND            < 1 mm  at [44.9, 70.4]  bbox [41.9, 66.7, 47.5, 74.1]  regions [3.1, 460.7]  
+B.Cu   GND            < 1 mm  at [82.0, 73.8]  bbox [80.2, 72.3, 82.7, 75.2]  regions [3.3, 305.9]  
+B.Cu   GND            < 1 mm  at [56.8, 92.6]  bbox [56.4, 92.0, 57.3, 93.1]  regions [24.4, 63.0]  
+B.Cu   GND            < 1 mm  at [100.1, 95.6]  bbox [97.8, 94.5, 102.6, 96.8]  regions [3.9, 17.0]  
+B.Cu   GND            < 1 mm  at [79.4, 97.0]  bbox [79.0, 96.5, 79.9, 97.3]  regions [13.4, 481.6]  
+B.Cu   GND            < 1 mm  at [45.3, 102.6]  bbox [44.9, 97.1, 45.7, 108.1]  regions [6.9, 24.4]  
+B.Cu   GND            < 1 mm  at [76.9, 98.0]  bbox [74.6, 97.3, 79.1, 99.3]  regions [13.4, 481.6]  
+B.Cu   GND            < 1 mm  at [60.7, 109.5]  bbox [60.5, 109.1, 61.0, 110.0]  regions [4.0, 481.6]  
+B.Cu   GND            < 1 mm  at [61.6, 109.5]  bbox [61.4, 109.4, 61.7, 109.7]  regions [4.0, 481.6]  
+B.Cu   GND            < 1 mm  at [62.3, 109.5]  bbox [62.1, 109.4, 62.4, 109.7]  regions [4.0, 481.6]  
+B.Cu   GND            < 1 mm  at [63.0, 109.5]  bbox [62.8, 109.4, 63.2, 109.7]  regions [4.0, 481.6]  
+B.Cu   GND            < 1 mm  at [64.0, 109.7]  bbox [63.5, 109.4, 64.4, 110.2]  regions [4.0, 481.6]  
+B.Cu   m2_source      < 1 mm  at [73.6, 60.5]  bbox [73.0, 60.3, 74.4, 60.8]  regions [3.9, 19.2]  0.00 A/mm (m2_source M7->M2)
+B.Cu   m2_source      < 1 mm  at [77.4, 61.1]  bbox [76.8, 60.9, 78.1, 61.4]  regions [3.9, 8.1]  0.00 A/mm (m2_source M7->M2)
+B.Cu   m2_source      < 1 mm  at [73.4, 61.3]  bbox [73.0, 61.0, 73.6, 61.4]  regions [3.9, 19.2]  0.00 A/mm (m2_source M7->M2)
+B.Cu   Output3_drain  < 1 mm  at [59.2, 100.3]  bbox [58.8, 99.5, 59.9, 101.2]  regions [8.7, 18.9]  0.00 A/mm (Output3_drain J6->M8)
+B.Cu   Output3_drain  < 1 mm  at [60.4, 100.8]  bbox [59.9, 100.2, 60.7, 101.5]  regions [8.7, 18.9]  0.00 A/mm (Output3_drain J6->M8)
+F.Cu   GND            < 2 mm  at [98.2, 46.7]  bbox [96.5, 44.7, 99.7, 48.9]  regions [18.5, 503.9]  
+F.Cu   GND            < 2 mm  at [57.1, 56.2]  bbox [53.2, 51.0, 60.8, 62.6]  regions [16.4, 520.3]  
+F.Cu   GND            < 2 mm  at [60.0, 65.8]  bbox [57.8, 63.2, 63.6, 67.7]  regions [5.9, 16.4]  
+F.Cu   GND            < 2 mm  at [63.8, 67.5]  bbox [62.9, 66.6, 64.4, 68.4]  regions [5.9, 13.5]  
+F.Cu   GND            < 2 mm  at [82.1, 73.9]  bbox [80.1, 71.9, 84.4, 75.8]  regions [4.3, 503.9]  
+F.Cu   GND            < 2 mm  at [78.8, 73.8]  bbox [78.0, 72.4, 79.6, 75.1]  regions [4.3, 10.8]  
+F.Cu   GND            < 2 mm  at [95.6, 73.9]  bbox [94.9, 72.6, 96.5, 75.3]  regions [5.8, 503.9]  
+F.Cu   GND            < 2 mm  at [98.5, 76.8]  bbox [96.9, 75.8, 100.1, 77.4]  regions [5.8, 503.9]  
+F.Cu   GND            < 2 mm  at [79.2, 79.9]  bbox [77.0, 76.0, 81.1, 84.3]  regions [4.3, 38.8]  
+F.Cu   GND            < 2 mm  at [68.2, 88.4]  bbox [63.9, 84.3, 72.9, 93.8]  regions [38.8, 51.9, 55.9, 526.2]  
+F.Cu   GND            < 2 mm  at [84.2, 86.3]  bbox [82.0, 85.0, 85.8, 88.4]  regions [6.9, 9.2]  
+F.Cu   GND            < 2 mm  at [40.5, 85.7]  bbox [38.3, 85.1, 42.9, 86.6]  regions [146.7, 170.4]  
+F.Cu   GND            < 2 mm  at [80.7, 89.5]  bbox [79.4, 87.6, 82.5, 90.9]  regions [6.9, 9.2]  
+F.Cu   GND            < 2 mm  at [55.0, 90.8]  bbox [54.0, 89.7, 55.9, 91.8]  regions [51.9, 146.7]  
+F.Cu   GND            < 2 mm  at [82.2, 93.8]  bbox [78.5, 92.9, 86.5, 95.9]  regions [3.8, 526.2]  
+F.Cu   GND            < 2 mm  at [68.0, 102.4]  bbox [64.5, 94.5, 70.3, 110.2]  regions [4.3, 23.6, 55.9, 526.2]  
+F.Cu   GND            < 2 mm  at [42.7, 99.1]  bbox [38.9, 95.2, 45.9, 104.8]  regions [13.5, 22.1, 34.7, 146.7]  
+F.Cu   GND            < 2 mm  at [31.3, 102.1]  bbox [30.3, 96.8, 34.9, 106.9]  regions [30.4, 31.1, 170.4]  
+F.Cu   GND            < 2 mm  at [53.8, 101.1]  bbox [50.4, 97.6, 56.8, 104.5]  regions [3.4, 9.8, 55.9]  
+F.Cu   GND            < 2 mm  at [64.6, 99.3]  bbox [62.9, 98.1, 66.0, 100.7]  regions [4.3, 55.9]  
+F.Cu   GND            < 2 mm  at [48.7, 101.8]  bbox [47.8, 100.3, 49.9, 103.2]  regions [9.8, 13.5]  
+F.Cu   GND            < 2 mm  at [46.8, 103.8]  bbox [45.4, 103.0, 47.8, 104.5]  regions [9.8, 13.5]  
+F.Cu   GND            < 2 mm  at [42.1, 106.1]  bbox [40.9, 105.3, 43.4, 107.2]  regions [8.0, 34.7]  
+F.Cu   GND            < 2 mm  at [37.9, 108.4]  bbox [36.8, 107.6, 39.0, 109.2]  regions [8.0, 30.4]  
+F.Cu   GND            < 2 mm  at [41.8, 108.7]  bbox [41.0, 108.1, 42.5, 109.4]  regions [8.0, 34.7]  
+F.Cu   GND            < 2 mm  at [41.1, 114.5]  bbox [37.2, 110.0, 47.3, 115.7]  regions [30.4, 34.7]  
+In1.Cu GND            < 2 mm  at [70.1, 31.0]  bbox [68.1, 30.3, 72.0, 31.9]  regions [176.3, 4027.0]  
+In1.Cu GND            < 2 mm  at [70.1, 38.8]  bbox [68.0, 36.8, 72.6, 41.0]  regions [176.3, 4027.0]  
+In1.Cu GND            < 2 mm  at [71.2, 46.6]  bbox [69.0, 45.0, 72.5, 48.1]  regions [176.3, 4027.0]  
+In1.Cu GND            < 2 mm  at [77.9, 50.1]  bbox [75.0, 46.2, 80.9, 53.5]  regions [176.3, 4027.0]  
+In1.Cu GND            < 2 mm  at [74.3, 69.8]  bbox [71.1, 67.4, 77.0, 72.1]  regions [5.8, 4027.0]  
+In1.Cu GND            < 2 mm  at [76.2, 71.5]  bbox [74.9, 70.4, 77.6, 72.7]  regions [5.8, 4027.0]  
+In1.Cu GND            < 2 mm  at [65.7, 73.8]  bbox [64.7, 73.3, 66.6, 74.2]  regions [5.5, 4027.0]  
+In1.Cu GND            < 2 mm  at [68.0, 78.3]  bbox [63.8, 73.5, 71.9, 85.1]  regions [3.1, 3.3, 5.5, 4027.0]  
+In1.Cu GND            < 2 mm  at [63.8, 74.4]  bbox [63.0, 73.8, 64.5, 75.3]  regions [5.5, 4027.0]  
+In1.Cu GND            < 2 mm  at [101.3, 82.9]  bbox [96.5, 76.1, 103.7, 88.8]  regions [14.2, 4027.0]  
+In1.Cu GND            < 2 mm  at [72.5, 78.6]  bbox [71.8, 77.6, 73.1, 79.3]  regions [3.3, 4027.0]  
+In1.Cu GND            < 2 mm  at [71.0, 79.1]  bbox [70.4, 78.7, 71.7, 79.6]  regions [3.3, 4027.0]  
+In1.Cu GND            < 2 mm  at [68.4, 95.9]  bbox [63.4, 84.7, 73.7, 110.2]  regions [3.1, 4027.0]  
+In1.Cu GND            < 2 mm  at [66.9, 85.8]  bbox [66.3, 85.2, 67.5, 86.4]  regions [3.1, 4027.0]  
+In1.Cu GND            < 2 mm  at [95.8, 95.4]  bbox [89.3, 89.3, 103.7, 106.0]  regions [3.8, 14.2, 4027.0]  
+In1.Cu GND            < 2 mm  at [40.5, 96.0]  bbox [40.3, 95.9, 40.6, 96.2]  regions [6.4, 4027.0]  
+In1.Cu GND            < 2 mm  at [41.8, 96.5]  bbox [40.9, 95.9, 42.4, 97.5]  regions [6.4, 4027.0]  
+In1.Cu GND            < 2 mm  at [39.1, 96.6]  bbox [38.4, 96.0, 40.0, 97.5]  regions [6.4, 4027.0]  
+In1.Cu GND            < 2 mm  at [41.6, 98.7]  bbox [40.8, 98.0, 42.1, 99.3]  regions [6.4, 4027.0]  
+In1.Cu GND            < 2 mm  at [39.1, 100.3]  bbox [37.7, 98.4, 40.4, 101.9]  regions [6.4, 4027.0]  
+In2.Cu GND            < 2 mm  at [60.9, 73.1]  bbox [55.6, 72.3, 65.9, 75.5]  regions [5.1, 10.6]  
+In2.Cu GND            < 2 mm  at [56.8, 77.2]  bbox [55.2, 75.8, 58.0, 78.8]  regions [10.6, 1018.8]  
+In2.Cu GND            < 2 mm  at [65.2, 77.5]  bbox [63.7, 76.0, 66.9, 79.1]  regions [5.1, 1018.8]  
+In2.Cu GND            < 2 mm  at [68.2, 102.9]  bbox [65.5, 94.5, 70.3, 110.6]  regions [531.6, 1018.8]  
+In2.Cu GND            < 2 mm  at [40.5, 96.0]  bbox [40.3, 95.9, 40.6, 96.2]  regions [6.1, 1018.8]  
+In2.Cu GND            < 2 mm  at [41.8, 96.5]  bbox [40.9, 95.9, 42.4, 97.4]  regions [6.1, 1018.8]  
+In2.Cu GND            < 2 mm  at [39.0, 96.6]  bbox [38.5, 96.1, 40.0, 97.5]  regions [6.1, 1018.8]  
+In2.Cu GND            < 2 mm  at [41.4, 98.9]  bbox [40.8, 98.0, 42.0, 99.5]  regions [6.1, 1018.8]  
+In2.Cu GND            < 2 mm  at [39.1, 100.2]  bbox [37.7, 98.4, 40.3, 101.9]  regions [6.1, 1018.8]  
+In3.Cu GND            < 2 mm  at [78.3, 51.3]  bbox [74.4, 47.5, 81.5, 54.9]  regions [5.7, 10.5]  
+In3.Cu GND            < 2 mm  at [60.7, 56.1]  bbox [56.2, 49.1, 66.5, 63.6]  regions [25.3, 579.4]  
+In3.Cu GND            < 2 mm  at [72.5, 50.7]  bbox [70.8, 49.3, 74.4, 52.4]  regions [4.2, 5.7]  
+In3.Cu GND            < 2 mm  at [47.9, 74.5]  bbox [47.4, 73.9, 48.5, 75.1]  regions [11.5, 346.2]  
+In3.Cu GND            < 2 mm  at [80.8, 87.9]  bbox [76.4, 82.6, 86.5, 95.2]  regions [6.5, 54.5]  
+In3.Cu GND            < 2 mm  at [67.5, 87.5]  bbox [63.4, 83.8, 71.8, 91.4]  regions [14.8, 269.3]  
+In3.Cu GND            < 2 mm  at [69.1, 103.8]  bbox [65.5, 94.5, 71.5, 110.8]  regions [50.2, 54.5, 269.3]  
+In3.Cu GND            < 2 mm  at [41.7, 96.5]  bbox [40.2, 95.2, 42.7, 97.8]  regions [3.1, 346.2]  
+In3.Cu GND            < 2 mm  at [39.1, 96.6]  bbox [38.5, 96.1, 40.0, 97.4]  regions [3.1, 346.2]  
+In3.Cu GND            < 2 mm  at [31.0, 100.5]  bbox [30.3, 96.8, 32.9, 105.2]  regions [109.5, 346.2]  
+In3.Cu GND            < 2 mm  at [39.3, 99.8]  bbox [37.7, 97.6, 40.6, 101.9]  regions [3.1, 109.5]  
+In3.Cu GND            < 2 mm  at [51.3, 112.1]  bbox [46.7, 108.5, 58.2, 115.7]  regions [50.2, 269.3]  
+In4.Cu GND            < 2 mm  at [61.3, 48.4]  bbox [57.3, 47.4, 65.2, 50.4]  regions [7.5, 81.8]  
+In4.Cu GND            < 2 mm  at [56.7, 53.5]  bbox [54.0, 50.3, 58.4, 56.8]  regions [7.5, 522.4]  
+In4.Cu GND            < 2 mm  at [60.2, 55.4]  bbox [59.0, 51.9, 62.5, 58.1]  regions [3.7, 7.5]  
+In4.Cu GND            < 2 mm  at [64.1, 59.3]  bbox [61.7, 53.7, 65.5, 63.9]  regions [3.7, 81.8]  
+In4.Cu GND            < 2 mm  at [80.0, 58.3]  bbox [79.5, 57.8, 80.8, 59.2]  regions [6.5, 81.8]  
+In4.Cu GND            < 2 mm  at [82.3, 88.6]  bbox [79.6, 85.5, 84.9, 92.4]  regions [4.7, 4.9, 13.0]  
+In4.Cu GND            < 2 mm  at [78.3, 92.8]  bbox [75.4, 90.4, 79.9, 95.4]  regions [13.0, 13.9]  
+In4.Cu GND            < 2 mm  at [81.1, 94.6]  bbox [80.6, 93.7, 81.6, 95.1]  regions [4.7, 13.9]  
+In4.Cu GND            < 2 mm  at [77.4, 98.2]  bbox [74.7, 95.6, 79.8, 99.3]  regions [13.9, 39.2]  
+In4.Cu GND            < 2 mm  at [63.2, 99.0]  bbox [62.4, 98.0, 63.9, 99.8]  regions [34.9, 42.0]  
+In4.Cu GND            < 2 mm  at [54.1, 100.6]  bbox [53.4, 100.1, 55.2, 101.3]  regions [3.7, 34.9]  
+In4.Cu GND            < 2 mm  at [57.0, 103.3]  bbox [54.7, 102.0, 59.4, 105.4]  regions [3.7, 4.5]  
+In4.Cu GND            < 2 mm  at [52.5, 103.1]  bbox [50.9, 102.2, 54.0, 104.5]  regions [3.7, 25.0]  
+In4.Cu GND            < 2 mm  at [43.2, 112.5]  bbox [37.2, 108.6, 51.1, 115.7]  regions [9.7, 11.7, 25.0]  
+B.Cu   GND            < 2 mm  at [76.4, 32.9]  bbox [73.8, 30.3, 79.2, 36.2]  regions [12.7, 76.8]  
+B.Cu   GND            < 2 mm  at [90.7, 45.7]  bbox [89.5, 44.8, 92.1, 47.1]  regions [9.0, 224.3]  
+B.Cu   GND            < 2 mm  at [79.1, 58.2]  bbox [78.1, 57.4, 80.5, 59.0]  regions [44.1, 232.9]  
+B.Cu   GND            < 2 mm  at [88.5, 67.0]  bbox [86.3, 65.7, 90.2, 67.9]  regions [44.1, 232.9]  
+B.Cu   GND            < 2 mm  at [33.7, 66.7]  bbox [33.2, 66.1, 34.3, 67.3]  regions [5.1, 308.1]  
+B.Cu   GND            < 2 mm  at [34.5, 68.9]  bbox [33.4, 67.6, 35.6, 70.5]  regions [5.1, 308.1]  
+B.Cu   GND            < 2 mm  at [68.2, 93.6]  bbox [63.2, 72.7, 71.7, 110.8]  regions [3.2, 3.3, 4.8, 6.0, 13.8, 16.7]  
+B.Cu   GND            < 2 mm  at [47.9, 74.5]  bbox [47.4, 73.9, 48.4, 75.1]  regions [51.0, 308.1]  
+B.Cu   GND            < 2 mm  at [55.2, 89.1]  bbox [49.1, 86.1, 61.2, 91.0]  regions [51.0, 308.1]  
+B.Cu   GND            < 2 mm  at [56.4, 92.4]  bbox [55.3, 91.2, 57.6, 93.2]  regions [4.2, 45.2]  
+B.Cu   GND            < 2 mm  at [51.0, 92.3]  bbox [47.5, 91.3, 54.2, 94.1]  regions [4.2, 12.8]  
+B.Cu   GND            < 2 mm  at [61.4, 94.2]  bbox [60.9, 93.7, 62.0, 94.8]  regions [4.2, 45.2]  
+B.Cu   GND            < 2 mm  at [84.5, 96.9]  bbox [82.8, 94.5, 87.4, 100.4]  regions [3.1, 351.9]  
+B.Cu   GND            < 2 mm  at [61.0, 95.3]  bbox [60.9, 95.1, 61.2, 95.5]  regions [4.2, 45.2]  
+B.Cu   GND            < 2 mm  at [61.5, 96.7]  bbox [60.7, 95.6, 62.8, 98.1]  regions [4.2, 45.2]  
+B.Cu   GND            < 2 mm  at [77.4, 97.8]  bbox [74.2, 95.6, 80.2, 100.2]  regions [9.9, 17.1]  
+B.Cu   GND            < 2 mm  at [31.0, 100.5]  bbox [30.3, 96.8, 32.8, 105.2]  regions [43.0, 308.1]  
+B.Cu   GND            < 2 mm  at [88.0, 98.0]  bbox [86.7, 96.9, 88.8, 99.1]  regions [3.1, 351.9]  
+B.Cu   GND            < 2 mm  at [54.0, 100.2]  bbox [53.4, 99.6, 55.2, 100.9]  regions [3.6, 45.2]  
+B.Cu   GND            < 2 mm  at [81.7, 104.2]  bbox [80.7, 103.3, 82.5, 104.7]  regions [17.1, 351.9]  
+B.Cu   GND            < 2 mm  at [71.2, 107.1]  bbox [70.2, 105.8, 71.7, 108.5]  regions [3.2, 6.0]  
+B.Cu   GND            < 2 mm  at [35.8, 111.4]  bbox [35.0, 108.8, 36.5, 113.7]  regions [4.9, 43.0]  
+B.Cu   GND            < 2 mm  at [70.9, 110.4]  bbox [69.6, 109.3, 71.7, 111.8]  regions [3.2, 4.8]  
+B.Cu   GND            < 2 mm  at [68.4, 113.1]  bbox [68.0, 111.8, 69.2, 114.4]  regions [4.8, 351.9]  
+B.Cu   Output1_drain  < 2 mm  at [52.0, 114.0]  bbox [49.7, 111.8, 53.2, 115.2]  regions [3.1, 15.4]  0.00 A/mm (Output1_drain J4->M10)
+B.Cu   Output2_drain  < 2 mm  at [39.3, 113.2]  bbox [38.1, 112.3, 40.5, 113.8]  regions [3.1, 3.1]  0.00 A/mm (Output2_drain J7->M9)
+
+== hot spots (solver sheet current, A per mm of width; IPC rise of a long 1 mm strip at that density, for scale only)
+F.Cu   LX              3.79 A/mm ( 108.3 A/mm2)  at [np.float64(72.28), np.float64(51.58)]  area 0.25 mm2  1 mm strip  28.5 C  LX L1->M1
+F.Cu   Vout_1          3.60 A/mm ( 102.9 A/mm2)  at [np.float64(76.18), np.float64(68.28)]  area 0.24 mm2  1 mm strip  25.3 C  Vout_1 M2->bank+J3
+In2.Cu LX              3.40 A/mm ( 113.3 A/mm2)  at [np.float64(76.82), np.float64(71.22)]  area 3.84 mm2  1 mm strip 138.5 C  LX L1->M5
+In2.Cu LX              3.06 A/mm ( 102.0 A/mm2)  at [np.float64(87.22), np.float64(87.68)]  area 4.15 mm2  1 mm strip 109.1 C  LX L1->M5
+F.Cu   Output3_drain   3.02 A/mm (  86.3 A/mm2)  at [np.float64(58.58), np.float64(111.02)]  area 0.07 mm2  1 mm strip  17.0 C  Output3_drain J6->M8
+F.Cu   LX              2.97 A/mm (  85.0 A/mm2)  at [np.float64(72.18), np.float64(60.18)]  area 0.14 mm2  1 mm strip  16.4 C  LX L1->M1
+F.Cu   LX              2.97 A/mm (  84.9 A/mm2)  at [np.float64(76.12), np.float64(49.53)]  area 0.20 mm2  1 mm strip  16.4 C  LX L1->M1
+B.Cu   LX              2.97 A/mm (  85.0 A/mm2)  at [np.float64(87.22), np.float64(87.68)]  area 0.07 mm2  1 mm strip  16.4 C  LX L1->M5
+B.Cu   Output1_drain   2.85 A/mm (  81.5 A/mm2)  at [np.float64(50.88), np.float64(99.68)]  area 0.04 mm2  1 mm strip  14.9 C  Output1_drain J4->M10
+In2.Cu rsense_lo       2.61 A/mm (  87.1 A/mm2)  at [np.float64(65.43), np.float64(38.52)]  area 6.37 mm2  1 mm strip  76.3 C  rsense_lo R1->L1
+F.Cu   Net-(M9-S)      2.56 A/mm (  73.0 A/mm2)  at [np.float64(40.58), np.float64(87.93)]  area 0.01 mm2  1 mm strip  11.6 C  M9-S M9->R53
+F.Cu   Vout_1          2.51 A/mm (  71.6 A/mm2)  at [np.float64(75.58), np.float64(68.47)]  area 0.06 mm2  1 mm strip  11.1 C  Vout_1 M2->bank+J3
+In3.Cu rsense_lo       2.49 A/mm (  82.9 A/mm2)  at [np.float64(65.43), np.float64(38.52)]  area 1.69 mm2  1 mm strip  68.1 C  rsense_lo R1->L1
+F.Cu   LX              2.49 A/mm (  71.2 A/mm2)  at [np.float64(69.08), np.float64(51.53)]  area 0.02 mm2  1 mm strip  11.0 C  LX L1->M1
+In2.Cu LX              2.48 A/mm (  82.7 A/mm2)  at [np.float64(70.97), np.float64(47.78)]  area 16.10 mm2  1 mm strip  67.7 C  LX L1->M1
+In2.Cu LX              2.48 A/mm (  82.5 A/mm2)  at [np.float64(79.28), np.float64(60.53)]  area 5.07 mm2  1 mm strip  67.4 C  LX L1->M5
+In3.Cu Vout_1          2.48 A/mm (  82.8 A/mm2)  at [np.float64(55.62), np.float64(72.43)]  area 1.46 mm2  1 mm strip  67.9 C  Vout_1 M2->J3 (LED DC)
+In2.Cu LX              2.47 A/mm (  82.2 A/mm2)  at [np.float64(75.53), np.float64(60.88)]  area 0.11 mm2  1 mm strip  66.9 C  LX L1->M7
+F.Cu   LX              2.45 A/mm (  70.1 A/mm2)  at [np.float64(76.82), np.float64(48.88)]  area 0.21 mm2  1 mm strip  10.6 C  LX L1->M1
+F.Cu   Net-(M9-S)      2.45 A/mm (  70.0 A/mm2)  at [np.float64(41.82), np.float64(87.93)]  area 0.01 mm2  1 mm strip  10.6 C  M9-S M9->R53
+B.Cu   Output2_drain   2.44 A/mm (  69.6 A/mm2)  at [np.float64(39.58), np.float64(96.32)]  area 0.04 mm2  1 mm strip  10.4 C  Output2_drain J7->M9
+B.Cu   LX              2.40 A/mm (  68.5 A/mm2)  at [np.float64(88.22), np.float64(87.93)]  area 0.11 mm2  1 mm strip  10.1 C  LX L1->M5
+In4.Cu rsense_lo       2.33 A/mm (  77.8 A/mm2)  at [np.float64(65.43), np.float64(38.58)]  area 1.10 mm2  1 mm strip  58.9 C  rsense_lo R1->L1
+F.Cu   Vout_1          2.30 A/mm (  65.8 A/mm2)  at [np.float64(76.47), np.float64(67.32)]  area 0.03 mm2  1 mm strip   9.2 C  Vout_1 M2->bank+J3
+B.Cu   LX              2.29 A/mm (  65.5 A/mm2)  at [np.float64(76.88), np.float64(48.18)]  area 0.03 mm2  1 mm strip   9.1 C  LX L1->M1
+B.Cu   LX              2.29 A/mm (  65.4 A/mm2)  at [np.float64(76.82), np.float64(48.82)]  area 0.02 mm2  1 mm strip   9.1 C  LX L1->M1
+In4.Cu Vin             2.26 A/mm (  75.5 A/mm2)  at [np.float64(76.62), np.float64(44.68)]  area 6.77 mm2  1 mm strip  55.0 C  Vin J1->R1 (DC)
+B.Cu   Output2_drain   2.26 A/mm (  64.5 A/mm2)  at [np.float64(42.88), np.float64(95.82)]  area 0.07 mm2  1 mm strip   8.8 C  Output2_drain J7->M9
+In2.Cu Vin             2.23 A/mm (  74.2 A/mm2)  at [np.float64(73.47), np.float64(38.92)]  area 0.82 mm2  1 mm strip  53.0 C  Vin J1->R1 (DC)
+In2.Cu LX              2.23 A/mm (  74.2 A/mm2)  at [np.float64(76.82), np.float64(48.88)]  area 3.76 mm2  1 mm strip  52.9 C  LX L1->M1
+In3.Cu Vin             2.21 A/mm (  73.7 A/mm2)  at [np.float64(76.62), np.float64(44.68)]  area 7.12 mm2  1 mm strip  52.1 C  Vin J1->R1 (DC)
+In4.Cu Vin             2.21 A/mm (  73.5 A/mm2)  at [np.float64(81.88), np.float64(47.28)]  area 0.91 mm2  1 mm strip  51.9 C  Vin J1->R1 (DC)
+In3.Cu Vout_1          2.21 A/mm (  73.6 A/mm2)  at [np.float64(47.12), np.float64(88.32)]  area 0.65 mm2  1 mm strip  51.9 C  Vout_1 M2->J3 (LED DC)
+In3.Cu Vin             2.19 A/mm (  73.1 A/mm2)  at [np.float64(81.88), np.float64(47.22)]  area 0.90 mm2  1 mm strip  51.2 C  Vin J1->R1 (DC)
+F.Cu   Vout_2          2.17 A/mm (  62.0 A/mm2)  at [np.float64(42.58), np.float64(67.28)]  area 0.01 mm2  1 mm strip   8.0 C  Vout_2 M3->bank+J8
+F.Cu   LX              2.16 A/mm (  61.6 A/mm2)  at [np.float64(75.43), np.float64(51.28)]  area 0.02 mm2  1 mm strip   7.9 C  LX L1->M1
+F.Cu   Vout_1          2.16 A/mm (  61.8 A/mm2)  at [np.float64(75.68), np.float64(66.97)]  area 0.01 mm2  1 mm strip   8.0 C  Vout_1 M2->bank+J3
+In3.Cu Vin             2.15 A/mm (  71.6 A/mm2)  at [np.float64(73.47), np.float64(38.92)]  area 0.63 mm2  1 mm strip  48.8 C  Vin J1->R1 (DC)
+In3.Cu Vout_1          2.15 A/mm (  71.8 A/mm2)  at [np.float64(51.03), np.float64(84.93)]  area 0.57 mm2  1 mm strip  49.1 C  Vout_1 M2->J3 (LED DC)
+B.Cu   LX              2.12 A/mm (  60.5 A/mm2)  at [np.float64(89.48), np.float64(87.68)]  area 0.02 mm2  1 mm strip   7.6 C  LX L1->M5
+B.Cu   LX              2.10 A/mm (  59.9 A/mm2)  at [np.float64(76.93), np.float64(49.03)]  area 0.01 mm2  1 mm strip   7.4 C  LX L1->M1
+F.Cu   Vin             2.09 A/mm (  59.8 A/mm2)  at [np.float64(94.32), np.float64(82.38)]  area 0.01 mm2  1 mm strip   7.4 C  Vin J1->R1 (DC)
+F.Cu   Output3_drain   2.08 A/mm (  59.5 A/mm2)  at [np.float64(59.48), np.float64(101.68)]  area 0.01 mm2  1 mm strip   7.3 C  Output3_drain J6->M8
+In2.Cu Vin             2.06 A/mm (  68.6 A/mm2)  at [np.float64(76.68), np.float64(44.68)]  area 7.74 mm2  1 mm strip  44.2 C  Vin J1->R1 (DC)
+F.Cu   Vout_2          2.05 A/mm (  58.7 A/mm2)  at [np.float64(42.82), np.float64(66.68)]  area 0.01 mm2  1 mm strip   7.1 C  Vout_2 M3->bank+J8
+F.Cu   Vout_1          2.00 A/mm (  57.2 A/mm2)  at [np.float64(76.62), np.float64(67.62)]  area 0.01 mm2  1 mm strip   6.7 C  Vout_1 M2->bank+J3
+In4.Cu Vin             1.99 A/mm (  66.4 A/mm2)  at [np.float64(73.43), np.float64(38.98)]  area 0.37 mm2  1 mm strip  41.1 C  Vin J1->R1 (DC)
+In2.Cu Vin             1.81 A/mm (  60.4 A/mm2)  at [np.float64(72.32), np.float64(40.67)]  area 2.56 mm2  1 mm strip  33.1 C  Vin J1->R1 (DC)
+In2.Cu Vin             1.77 A/mm (  59.1 A/mm2)  at [np.float64(72.62), np.float64(44.08)]  area 0.70 mm2  1 mm strip  31.5 C  Vin J1->R1 (DC)
+In3.Cu rsense_lo       1.76 A/mm (  58.6 A/mm2)  at [np.float64(67.78), np.float64(37.78)]  area 1.80 mm2  1 mm strip  31.0 C  rsense_lo R1->L1
+In4.Cu Vin             1.74 A/mm (  58.0 A/mm2)  at [np.float64(71.62), np.float64(39.78)]  area 0.51 mm2  1 mm strip  30.2 C  Vin J1->R1 (DC)
+In4.Cu Vin             1.74 A/mm (  57.9 A/mm2)  at [np.float64(72.38), np.float64(40.62)]  area 1.13 mm2  1 mm strip  30.1 C  Vin J1->R1 (DC)
+In2.Cu Vin             1.73 A/mm (  57.6 A/mm2)  at [np.float64(71.62), np.float64(39.78)]  area 0.65 mm2  1 mm strip  29.8 C  Vin J1->R1 (DC)
+In3.Cu Vin             1.71 A/mm (  56.9 A/mm2)  at [np.float64(72.38), np.float64(40.67)]  area 1.41 mm2  1 mm strip  29.0 C  Vin J1->R1 (DC)
+In2.Cu Vin             1.70 A/mm (  56.6 A/mm2)  at [np.float64(74.58), np.float64(42.52)]  area 0.78 mm2  1 mm strip  28.6 C  Vin J1->R1 (DC)
+In4.Cu rsense_lo       1.68 A/mm (  55.9 A/mm2)  at [np.float64(67.82), np.float64(37.58)]  area 2.34 mm2  1 mm strip  27.8 C  rsense_lo R1->L1
+In3.Cu Vin             1.66 A/mm (  55.4 A/mm2)  at [np.float64(71.68), np.float64(39.78)]  area 0.58 mm2  1 mm strip  27.2 C  Vin J1->R1 (DC)
+In4.Cu Vout_2          1.66 A/mm (  55.3 A/mm2)  at [np.float64(42.68), np.float64(66.43)]  area 0.69 mm2  1 mm strip  27.1 C  Vout_2 M3->bank+J8
+In3.Cu Vin             1.62 A/mm (  53.9 A/mm2)  at [np.float64(86.02), np.float64(51.03)]  area 0.48 mm2  1 mm strip  25.6 C  Vin J1->R1 (DC)
+In3.Cu Vout_1          1.62 A/mm (  54.0 A/mm2)  at [np.float64(53.48), np.float64(71.93)]  area 0.49 mm2  1 mm strip  25.7 C  Vout_1 M2->J3 (LED DC)
+In4.Cu Vin             1.61 A/mm (  53.7 A/mm2)  at [np.float64(86.02), np.float64(51.03)]  area 0.48 mm2  1 mm strip  25.4 C  Vin J1->R1 (DC)
+In2.Cu rsense_lo       1.56 A/mm (  52.1 A/mm2)  at [np.float64(62.72), np.float64(35.98)]  area 0.35 mm2  1 mm strip  23.7 C  rsense_lo R1->L1
+In3.Cu Vout_1          1.55 A/mm (  51.6 A/mm2)  at [np.float64(58.72), np.float64(69.97)]  area 0.49 mm2  1 mm strip  23.2 C  Vout_1 M2->J3 (LED DC)
+In3.Cu Vout_1          1.54 A/mm (  51.4 A/mm2)  at [np.float64(76.22), np.float64(68.28)]  area 0.20 mm2  1 mm strip  23.0 C  Vout_1 M2->bank+J3
+In4.Cu Vout_1          1.50 A/mm (  50.1 A/mm2)  at [np.float64(76.28), np.float64(68.22)]  area 0.15 mm2  1 mm strip  21.6 C  Vout_1 M2->bank+J3
+In3.Cu rsense_lo       1.45 A/mm (  48.4 A/mm2)  at [np.float64(62.68), np.float64(35.98)]  area 0.18 mm2  1 mm strip  20.1 C  rsense_lo R1->L1
+In4.Cu rsense_lo       1.42 A/mm (  47.4 A/mm2)  at [np.float64(62.68), np.float64(35.92)]  area 0.16 mm2  1 mm strip  19.1 C  rsense_lo R1->L1
+In3.Cu LX              1.38 A/mm (  46.0 A/mm2)  at [np.float64(75.93), np.float64(58.18)]  area 0.15 mm2  1 mm strip  17.8 C  LX L1->M7
+In2.Cu rsense_lo       1.34 A/mm (  44.8 A/mm2)  at [np.float64(61.28), np.float64(36.72)]  area 0.10 mm2  1 mm strip  16.8 C  rsense_lo R1->L1
+In3.Cu rsense_lo       1.32 A/mm (  44.0 A/mm2)  at [np.float64(68.38), np.float64(35.78)]  area 0.17 mm2  1 mm strip  16.2 C  rsense_lo R1->L1
+In2.Cu rsense_lo       1.28 A/mm (  42.8 A/mm2)  at [np.float64(61.98), np.float64(34.92)]  area 0.11 mm2  1 mm strip  15.1 C  rsense_lo R1->L1
+In2.Cu rsense_lo       1.25 A/mm (  41.6 A/mm2)  at [np.float64(68.43), np.float64(34.88)]  area 0.05 mm2  1 mm strip  14.2 C  rsense_lo R1->L1
+In2.Cu rsense_lo       1.22 A/mm (  40.6 A/mm2)  at [np.float64(62.32), np.float64(38.78)]  area 0.07 mm2  1 mm strip  13.4 C  rsense_lo R1->L1
+In4.Cu Vout_1          1.21 A/mm (  40.4 A/mm2)  at [np.float64(76.43), np.float64(67.32)]  area 0.06 mm2  1 mm strip  13.3 C  Vout_1 M2->bank+J3
+In4.Cu Vout_2          1.20 A/mm (  39.9 A/mm2)  at [np.float64(36.42), np.float64(109.18)]  area 0.02 mm2  1 mm strip  12.9 C  Vout_2 M3->J8 (LED DC)
+In3.Cu rsense_lo       1.19 A/mm (  39.8 A/mm2)  at [np.float64(62.02), np.float64(34.92)]  area 0.05 mm2  1 mm strip  12.8 C  rsense_lo R1->L1
+In3.Cu rsense_lo       1.19 A/mm (  39.6 A/mm2)  at [np.float64(61.32), np.float64(36.72)]  area 0.04 mm2  1 mm strip  12.7 C  rsense_lo R1->L1
+In4.Cu rsense_lo       1.19 A/mm (  39.7 A/mm2)  at [np.float64(68.43), np.float64(34.83)]  area 0.02 mm2  1 mm strip  12.8 C  rsense_lo R1->L1
+In4.Cu rsense_lo       1.17 A/mm (  38.9 A/mm2)  at [np.float64(61.98), np.float64(34.98)]  area 0.03 mm2  1 mm strip  12.2 C  rsense_lo R1->L1
+In4.Cu Vout_2          1.17 A/mm (  39.0 A/mm2)  at [np.float64(42.88), np.float64(96.38)]  area 0.04 mm2  1 mm strip  12.3 C  Vout_2 M3->J8 (LED DC)
+In4.Cu rsense_lo       1.15 A/mm (  38.4 A/mm2)  at [np.float64(61.28), np.float64(36.72)]  area 0.03 mm2  1 mm strip  11.9 C  rsense_lo R1->L1
+In4.Cu Vout_2          1.15 A/mm (  38.3 A/mm2)  at [np.float64(42.88), np.float64(95.78)]  area 0.04 mm2  1 mm strip  11.7 C  Vout_2 M3->J8 (LED DC)
+In4.Cu Vout_2          1.10 A/mm (  36.6 A/mm2)  at [np.float64(34.72), np.float64(109.52)]  area 0.02 mm2  1 mm strip  10.6 C  Vout_2 M3->J8 (LED DC)
+In2.Cu m4_source       1.07 A/mm (  35.8 A/mm2)  at [np.float64(92.08), np.float64(88.93)]  area 0.01 mm2  1 mm strip  10.1 C  m4_source M5->M4
+In3.Cu m4_source       1.07 A/mm (  35.8 A/mm2)  at [np.float64(92.08), np.float64(88.93)]  area 0.01 mm2  1 mm strip  10.1 C  m4_source M5->M4
+In4.Cu m4_source       1.07 A/mm (  35.8 A/mm2)  at [np.float64(92.08), np.float64(88.93)]  area 0.01 mm2  1 mm strip  10.1 C  m4_source M5->M4
+In3.Cu LX              1.06 A/mm (  35.3 A/mm2)  at [np.float64(75.38), np.float64(59.62)]  area 0.01 mm2  1 mm strip   9.8 C  LX L1->M7
+In4.Cu Vout_2          1.03 A/mm (  34.3 A/mm2)  at [np.float64(47.12), np.float64(94.52)]  area 0.01 mm2  1 mm strip   9.2 C  Vout_2 M3->J8 (LED DC)
+In2.Cu m4_source       1.02 A/mm (  34.0 A/mm2)  at [np.float64(92.62), np.float64(89.18)]  area 0.00 mm2  1 mm strip   9.0 C  m4_source M5->M4
+In3.Cu m4_source       1.02 A/mm (  34.0 A/mm2)  at [np.float64(92.62), np.float64(89.18)]  area 0.00 mm2  1 mm strip   9.0 C  m4_source M5->M4
+In4.Cu m4_source       1.02 A/mm (  34.0 A/mm2)  at [np.float64(92.62), np.float64(89.18)]  area 0.00 mm2  1 mm strip   9.0 C  m4_source M5->M4
+In4.Cu Vout_1          1.02 A/mm (  33.9 A/mm2)  at [np.float64(76.68), np.float64(67.62)]  area 0.01 mm2  1 mm strip   8.9 C  Vout_1 M2->bank+J3
+In2.Cu m4_source       1.01 A/mm (  33.7 A/mm2)  at [np.float64(92.62), np.float64(88.82)]  area 0.00 mm2  1 mm strip   8.8 C  m4_source M5->M4
+In3.Cu m4_source       1.01 A/mm (  33.7 A/mm2)  at [np.float64(92.62), np.float64(88.82)]  area 0.00 mm2  1 mm strip   8.8 C  m4_source M5->M4
+In4.Cu m4_source       1.01 A/mm (  33.7 A/mm2)  at [np.float64(92.62), np.float64(88.82)]  area 0.00 mm2  1 mm strip   8.8 C  m4_source M5->M4
+
+== routing: track runs > 1.5x their end-to-end distance (>= 4 mm), worst 40
+F.Cu   Current                 46.3 mm for  27.0 mm (x1.7)  [57.65, 51.95] -> [78.65, 34.95]
+B.Cu   Net-(D8--)              19.3 mm for   9.7 mm (x2.0)  [53.8, 65.076] -> [46.05, 59.25]
+In2.Cu Vout_2                  21.4 mm for  12.7 mm (x1.7)  [72.05, 79.05] -> [70.15, 91.65]
+In3.Cu Vin                     16.4 mm for   9.5 mm (x1.7)  [53.75, 52.75] -> [61.45, 58.35]
+In2.Cu ena_out_2               14.1 mm for   8.6 mm (x1.6)  [69.65, 81.05] -> [65.55, 73.45]
+B.Cu   GATE_M3                 10.3 mm for   5.4 mm (x1.9)  [33.158, 61.561] -> [36.757, 65.577]
+In2.Cu IREF2_input             10.0 mm for   6.1 mm (x1.6)  [64.35, 110.35] -> [69.85, 107.75]
+B.Cu   5V                       6.2 mm for   2.5 mm (x2.5)  [59.133, 52.581] -> [59.133, 50.041]
+B.Cu   analog_5V                5.5 mm for   2.2 mm (x2.5)  [77.75, 34.95] -> [76.45, 33.15]
+
+== routing: acute corners (< 90 deg): 3
+   B.Cu   Net-(D8--)              45 deg at [49.872, 62.338]
+   B.Cu   Net-(D13--)             45 deg at [89.423, 95.027]
+   B.Cu   Net-(D2--)              45 deg at [72.271, 58.507]
+
+== routing: jogs (segments < 0.15 mm): 667 in 99 net/layers
+   5V|B.Cu                                  34
+   analog_5V|F.Cu                           27
+   12V|F.Cu                                 27
+   m4_source|In4.Cu                         26
+   12V|B.Cu                                 23
+   out_3_on|B.Cu                            22
+   GND|B.Cu                                 21
+   5V|In3.Cu                                21
+   Vin|F.Cu                                 20
+   analog_5V|B.Cu                           19
+   analog_5V|In4.Cu                         19
+   5V|In4.Cu                                19
+   12V|In3.Cu                               16
+   m4_source|F.Cu                           15
+   m3_source|F.Cu                           14
+   Current|F.Cu                             13
+   Vin|In3.Cu                               11
+   out_3_on|In3.Cu                          11
+   IREF2_input|F.Cu                         11
+   IREF2_input|In2.Cu                       10
+
+== reference: signal tracks with no plane copper (GND) under them on the neighbouring layer for >= 1 mm
+B.Cu   analog_5V              over In4.Cu 14.6 mm at [72.45, 110.7]  (under it: Vout_3 112, none 34)
+B.Cu   analog_5V              over In4.Cu 12.3 mm at [54.25, 83.7]  (under it: Vout_2 109, none 7, 5V 6)
+B.Cu   Net-(D13--)            over In4.Cu 11.2 mm at [102.32, 100.8]  (under it: Vout_3 45, none 11, m4_source 55)
+B.Cu   5V                     over In4.Cu  7.0 mm at [65.2, 69.25]  (under it: none 3, Vout_1 67)
+B.Cu   12V                    over In4.Cu  6.4 mm at [98.65, 52.6]  (under it: Vin 64)
+B.Cu   Current                over In4.Cu  6.3 mm at [71.45, 74.9]  (under it: Net-(D9--) 23, none 10, Vout_1 76)
+In3.Cu analog_5V              over In4.Cu  6.1 mm at [75.61, 81.09]  (under it: Vout_1 59, none 1)
+B.Cu   out_3_on               over In4.Cu  5.8 mm at [77.55, 79.4]  (under it: none 2, Vout_1 56)
+B.Cu   12V                    over In4.Cu  5.8 mm at [87.49, 48.29]  (under it: Vin 57)
+B.Cu   Net-(D10--)            over In4.Cu  5.7 mm at [83.19, 61.49]  (under it: Vin 56)
+B.Cu   analog_5V              over In4.Cu  5.5 mm at [65.7, 70.15]  (under it: Vout_1 55)
+B.Cu   12V                    over In4.Cu  5.5 mm at [82.05, 48.25]  (under it: Vin 54)
+B.Cu   Net-(D11--)            over In4.Cu  5.4 mm at [76.0, 62.9]  (under it: m2_source 28, none 3, Vout_1 22)
+In3.Cu out_3_on               over In4.Cu  5.1 mm at [66.4, 72.55]  (under it: Net-(D9--) 41, none 9, Current 1)
+B.Cu   12V                    over In4.Cu  5.1 mm at [98.61, 58.99]  (under it: Vin 50)
+B.Cu   GATE_M4                over In4.Cu  4.8 mm at [103.1, 98.37]  (under it: Vout_3 3, none 6, m4_source 39)
+B.Cu   Net-(D11--)            over In4.Cu  4.7 mm at [68.86, 62.1]  (under it: Vout_1 29, none 17)
+B.Cu   12V                    over In4.Cu  4.6 mm at [80.85, 46.55]  (under it: Vin 46)
+B.Cu   Net-(D2--)             over In4.Cu  4.6 mm at [66.85, 54.7]  (under it: none 11, Vout_1 13, m2_source 15, Net-(D11--) 7)
+B.Cu   5V                     over In4.Cu  4.5 mm at [76.75, 83.1]  (under it: Vout_1 45)
+B.Cu   M1_ON                  over In4.Cu  4.5 mm at [56.04, 50.16]  (under it: Vin 45)
+B.Cu   Current                over In4.Cu  4.5 mm at [71.55, 95.2]  (under it: none 3, Vout_3 42)
+In3.Cu Net-(U8-VDDA)          over In4.Cu  4.4 mm at [77.39, 86.11]  (under it: Vout_1 43)
+B.Cu   IREF3_input            over In4.Cu  4.3 mm at [67.5, 114.55]  (under it: Vout_3 35, none 8)
+B.Cu   analog_5V              over In4.Cu  4.3 mm at [55.6, 93.45]  (under it: none 2, Vout_2 41)
+B.Cu   M1_ON                  over In4.Cu  4.2 mm at [61.5, 46.16]  (under it: Vin 1, none 34, 5V 7)
+B.Cu   analog_5V              over In4.Cu  4.1 mm at [54.15, 71.3]  (under it: Vout_2 40)
+In3.Cu ena_out_2              over In4.Cu  4.1 mm at [55.85, 59.3]  (under it: none 51)
+B.Cu   analog_5V              over In4.Cu  4.0 mm at [78.65, 75.5]  (under it: none 40)
+B.Cu   out_3_on               over In4.Cu  4.0 mm at [77.59, 85.19]  (under it: Vout_1 32, none 2, m4_source 6)
+B.Cu   Net-(D13--)            over In4.Cu  4.0 mm at [89.37, 95.03]  (under it: Vout_3 40)
+In3.Cu out_2_on               over In4.Cu  3.8 mm at [62.76, 80.05]  (under it: none 4, ena_out_2 33)
+In3.Cu Net-(D14--)            over In4.Cu  3.8 mm at [39.75, 63.0]  (under it: Vout_2 37)
+B.Cu   Net-(D13--)            over In4.Cu  3.8 mm at [89.35, 98.9]  (under it: Vout_3 38)
+In3.Cu Net-(D9--)             over In4.Cu  3.5 mm at [74.3, 79.35]  (under it: none 35)
+B.Cu   Net-(D2--)             over In4.Cu  3.5 mm at [67.5, 59.85]  (under it: Vout_1 35)
+B.Cu   5V                     over In4.Cu  3.4 mm at [57.0, 44.85]  (under it: rsense_lo 33)
+B.Cu   Net-(D21--)            over In4.Cu  3.4 mm at [80.35, 78.92]  (under it: Vout_1 33)
+In3.Cu 12V                    over In4.Cu  3.3 mm at [80.41, 84.39]  (under it: Vout_1 32)
+In3.Cu Net-(U15-VDDA)         over In4.Cu  3.3 mm at [67.0, 57.95]  (under it: none 8, m2_source 14, Vout_1 11)
+B.Cu   Net-(D2--)             over In4.Cu  3.3 mm at [71.05, 59.8]  (under it: Vout_1 7, none 4, LX 21)
+B.Cu   analog_5V              over In4.Cu  3.2 mm at [70.24, 112.96]  (under it: Vout_3 31)
+B.Cu   M2_ON                  over In4.Cu  3.1 mm at [62.5, 72.85]  (under it: none 30)
+B.Cu   Net-(D11--)            over In4.Cu  3.1 mm at [80.17, 71.19]  (under it: Vout_1 31)
+B.Cu   12V                    over In4.Cu  3.0 mm at [99.4, 66.65]  (under it: Vin 30)
+B.Cu   out_2_on               over In4.Cu  2.9 mm at [57.65, 74.4]  (under it: Vout_2 10, none 13, Net-(D9--) 2, 5V 4)
+B.Cu   GATE_M4                over In4.Cu  2.9 mm at [85.4, 90.95]  (under it: Vout_3 29)
+B.Cu   Net-(D11--)            over In4.Cu  2.9 mm at [65.95, 62.1]  (under it: Vout_1 29)
+B.Cu   GATE_M2                over In4.Cu  2.8 mm at [81.25, 69.9]  (under it: Vout_1 28)
+B.Cu   Net-(U10-VDDA)         over In4.Cu  2.8 mm at [47.88, 57.18]  (under it: none 28)
+B.Cu   analog_5V              over In4.Cu  2.7 mm at [56.1, 85.6]  (under it: none 9, Vout_2 17)
+In3.Cu 5V                     over In4.Cu  2.7 mm at [59.15, 53.0]  (under it: none 27)
+B.Cu   M1_ON                  over In4.Cu  2.6 mm at [61.05, 72.4]  (under it: Net-(D9--) 26)
+B.Cu   12V                    over In4.Cu  2.6 mm at [80.68, 39.75]  (under it: Vin 25)
+B.Cu   Net-(D13--)            over In4.Cu  2.6 mm at [91.16, 100.76]  (under it: Vout_3 26)
+B.Cu   5V                     over In4.Cu  2.5 mm at [74.63, 99.33]  (under it: none 3, Vout_3 21)
+In3.Cu 5V                     over In4.Cu  2.5 mm at [79.35, 74.6]  (under it: Vout_1 25)
+B.Cu   GATE_M3                over In4.Cu  2.5 mm at [37.96, 63.36]  (under it: Vout_2 25)
+B.Cu   5V                     over In4.Cu  2.4 mm at [63.65, 70.6]  (under it: analog_5V 24)
+B.Cu   12V                    over In4.Cu  2.4 mm at [94.6, 64.95]  (under it: Vin 24)
+In3.Cu GATE_M4                over In4.Cu  2.4 mm at [86.51, 86.71]  (under it: m4_source 24)
+In3.Cu Net-(D14--)            over In4.Cu  2.4 mm at [42.7, 63.55]  (under it: Vout_2 23)
+B.Cu   analog_5V              over In4.Cu  2.3 mm at [59.11, 45.79]  (under it: none 22)
+In3.Cu GATE_M4                over In4.Cu  2.3 mm at [84.8, 85.05]  (under it: m4_source 22)
+B.Cu   5V                     over In4.Cu  2.2 mm at [66.6, 36.86]  (under it: rsense_lo 21)
+B.Cu   5V                     over In4.Cu  2.2 mm at [64.55, 67.1]  (under it: none 22)
+In3.Cu analog_5V              over In4.Cu  2.1 mm at [62.1, 92.1]  (under it: none 6, Output1_drain 15)
+B.Cu   GATE_M4                over In4.Cu  2.1 mm at [83.2, 91.05]  (under it: Vout_3 20)
+In3.Cu GATE_M4                over In4.Cu  2.1 mm at [88.6, 86.75]  (under it: m4_source 21)
+B.Cu   out_3_on               over In4.Cu  2.0 mm at [83.79, 99.79]  (under it: Vout_3 19)
+In3.Cu Net-(U8-VDDA)          over In4.Cu  2.0 mm at [77.35, 88.09]  (under it: Vout_1 19)
+B.Cu   M2_ON                  over In4.Cu  1.9 mm at [63.82, 74.12]  (under it: none 18)
+B.Cu   out_3_on               over In4.Cu  1.9 mm at [81.9, 99.75]  (under it: Vout_3 19)
+B.Cu   12V                    over In4.Cu  1.9 mm at [95.05, 62.6]  (under it: Vin 19)
+In3.Cu 12V                    over In4.Cu  1.9 mm at [78.15, 86.7]  (under it: Vout_1 16, none 3)
+B.Cu   Net-(U10-VDDA)         over In4.Cu  1.9 mm at [55.87, 71.59]  (under it: none 17, out_2_on 2)
+B.Cu   Net-(D8--)             over In4.Cu  1.9 mm at [52.64, 61.4]  (under it: out_2_on 1, none 15, analog_5V 2)
+B.Cu   GATE_M3                over In4.Cu  1.9 mm at [33.21, 61.56]  (under it: Vout_2 18)
+B.Cu   Net-(D2--)             over In4.Cu  1.9 mm at [70.99, 59.79]  (under it: Vout_1 10, none 6, LX 2)
+In3.Cu analog_5V              over In4.Cu  1.8 mm at [53.0, 62.85]  (under it: analog_5V 4, none 16, out_2_on 3, M1_ON 2)
+B.Cu   5V                     over In4.Cu  1.8 mm at [66.66, 35.11]  (under it: rsense_lo 18)
+B.Cu   5V                     over In4.Cu  1.8 mm at [63.59, 70.71]  (under it: analog_5V 7, none 10, Current 1)
+In3.Cu 5V                     over In4.Cu  1.8 mm at [77.19, 71.09]  (under it: Vout_1 12, none 6)
+B.Cu   GATE_M1                over In4.Cu  1.8 mm at [77.87, 45.2]  (under it: GATE_M1 2, none 3, Vin 12)
+In3.Cu GATE_M4                over In4.Cu  1.8 mm at [81.85, 85.8]  (under it: m4_source 11, none 6)
+B.Cu   Net-(D11--)            over In4.Cu  1.8 mm at [73.98, 62.52]  (under it: Vout_1 16, none 1)
+B.Cu   GATE_M3                over In4.Cu  1.8 mm at [36.81, 65.58]  (under it: Vout_2 10, none 3, GATE_M3 5)
+B.Cu   analog_5V              over In4.Cu  1.7 mm at [51.01, 93.69]  (under it: Vout_2 13, none 4)
+B.Cu   5V                     over In4.Cu  1.7 mm at [62.1, 80.25]  (under it: none 16)
+B.Cu   5V                     over In4.Cu  1.7 mm at [58.21, 80.01]  (under it: none 17)
+B.Cu   ena_out_3              over In4.Cu  1.7 mm at [82.99, 100.19]  (under it: Vout_3 16)
+B.Cu   Net-(D11--)            over In4.Cu  1.7 mm at [76.0, 68.25]  (under it: Vout_1 16)
+B.Cu   Net-(D21--)            over In4.Cu  1.7 mm at [80.39, 83.89]  (under it: Vout_1 13, none 2, m4_source 1)
+In3.Cu Net-(D9--)             over In4.Cu  1.7 mm at [78.6, 78.55]  (under it: none 3, Vout_1 14)
+B.Cu   5V                     over In4.Cu  1.6 mm at [59.8, 80.05]  (under it: ena_out_2 8, none 8)
+B.Cu   5V                     over In4.Cu  1.6 mm at [75.8, 88.35]  (under it: none 15)
+In3.Cu out_2_on               over In4.Cu  1.6 mm at [59.01, 80.01]  (under it: none 5, ena_out_2 10)
+B.Cu   12V                    over In4.Cu  1.6 mm at [82.0, 48.2]  (under it: Vin 16)
+In3.Cu 12V                    over In4.Cu  1.6 mm at [71.77, 95.43]  (under it: none 6, Vout_3 10)
+B.Cu   Net-(U10-VDDA)         over In4.Cu  1.6 mm at [49.0, 58.36]  (under it: none 15, analog_5V 1)
+B.Cu   Net-(D10--)            over In4.Cu  1.6 mm at [81.56, 58.76]  (under it: none 3, Vin 14)
+B.Cu   Net-(U15-VDDA)         over In4.Cu  1.6 mm at [66.0, 46.35]  (under it: Vin 15)
+B.Cu   5V                     over In4.Cu  1.5 mm at [64.51, 34.32]  (under it: rsense_lo 14)
+B.Cu   M1_ON                  over In4.Cu  1.5 mm at [59.95, 71.35]  (under it: none 9, 5V 6)
+In3.Cu ena_out_2              over In4.Cu  1.5 mm at [55.81, 53.41]  (under it: none 6, Vin 10)
+In3.Cu out_3_on               over In4.Cu  1.5 mm at [78.55, 76.1]  (under it: none 15)
+B.Cu   ena_out_3              over In4.Cu  1.5 mm at [81.5, 100.15]  (under it: Vout_3 15)
+In3.Cu Net-(D14--)            over In4.Cu  1.5 mm at [35.96, 63.04]  (under it: Vout_2 14)
+B.Cu   12V                    over In4.Cu  1.4 mm at [76.01, 38.21]  (under it: Vin 14)
+B.Cu   12V                    over In4.Cu  1.4 mm at [78.11, 39.79]  (under it: Vin 14)
+B.Cu   12V                    over In4.Cu  1.4 mm at [95.61, 65.91]  (under it: Vin 14)
+In3.Cu GATE_M4                over In4.Cu  1.4 mm at [89.61, 85.79]  (under it: Vout_3 7, none 3, m4_source 4)
+B.Cu   GATE_M7                over In4.Cu  1.4 mm at [73.86, 54.71]  (under it: none 14)
+B.Cu   GATE_M6                over In4.Cu  1.4 mm at [54.3, 63.8]  (under it: none 4, analog_5V 10)
+B.Cu   Net-(D13--)            over In4.Cu  1.4 mm at [85.35, 94.99]  (under it: Vout_3 14)
+In3.Cu analog_5V              over In4.Cu  1.3 mm at [71.15, 87.25]  (under it: none 4, Vout_1 9)
+B.Cu   5V                     over In4.Cu  1.3 mm at [73.45, 89.51]  (under it: none 11, ena_out_3 2)
+In3.Cu 5V                     over In4.Cu  1.3 mm at [75.9, 71.05]  (under it: Vout_1 13)
+B.Cu   M2_ON                  over In4.Cu  1.3 mm at [59.41, 72.81]  (under it: none 8, Net-(D9--) 3, 5V 1)
+B.Cu   Net-(U10-VDDA)         over In4.Cu  1.3 mm at [56.5, 63.33]  (under it: none 9, M1_ON 4)
+B.Cu   Net-(D8--)             over In4.Cu  1.3 mm at [53.91, 65.11]  (under it: analog_5V 9, none 4)
+B.Cu   5V                     over In4.Cu  1.2 mm at [67.5, 37.7]  (under it: rsense_lo 12)
+B.Cu   5V                     over In4.Cu  1.2 mm at [72.19, 69.29]  (under it: Vout_1 11)
+In3.Cu 5V                     over In4.Cu  1.2 mm at [56.2, 49.2]  (under it: Vin 10, none 2)
+B.Cu   M1_ON                  over In4.Cu  1.2 mm at [63.67, 72.44]  (under it: Net-(D9--) 3, none 9)
+In3.Cu out_3_on               over In4.Cu  1.2 mm at [78.65, 74.8]  (under it: none 12)
+B.Cu   12V                    over In4.Cu  1.2 mm at [91.6, 52.35]  (under it: Vin 11)
+B.Cu   12V                    over In4.Cu  1.2 mm at [77.35, 40.1]  (under it: Vin 11)
+B.Cu   12V                    over In4.Cu  1.2 mm at [81.95, 46.6]  (under it: Vin 11)
+B.Cu   Net-(U10-VDDA)         over In4.Cu  1.2 mm at [57.2, 70.2]  (under it: none 13, M1_ON 2)
+B.Cu   Net-(U10-VDDA)         over In4.Cu  1.2 mm at [50.2, 58.4]  (under it: none 9, out_2_on 3)
+B.Cu   GATE_M3                over In4.Cu  1.2 mm at [38.82, 64.4]  (under it: GATE_M3 5, none 4, Vout_2 3)
+B.Cu   analog_5V              over In4.Cu  1.1 mm at [78.75, 33.01]  (under it: Vin 10)
+B.Cu   analog_5V              over In4.Cu  1.1 mm at [77.21, 32.35]  (under it: Vin 10)
+B.Cu   5V                     over In4.Cu  1.1 mm at [77.4, 104.05]  (under it: Vout_3 11)
+B.Cu   5V                     over In4.Cu  1.1 mm at [63.69, 68.21]  (under it: none 8, Current 3)
+B.Cu   ena_out_1              over In4.Cu  1.1 mm at [60.71, 58.51]  (under it: Current 11)
+B.Cu   out_3_on               over In4.Cu  1.1 mm at [74.5, 72.15]  (under it: none 10)
+B.Cu   ena_out_3              over In4.Cu  1.1 mm at [80.69, 99.39]  (under it: none 3, Vout_3 8)
+B.Cu   12V                    over In4.Cu  1.1 mm at [94.02, 52.52]  (under it: Vin 11)
+B.Cu   12V                    over In4.Cu  1.1 mm at [96.9, 51.85]  (under it: Vin 11)
+B.Cu   12V                    over In4.Cu  1.1 mm at [92.93, 52.49]  (under it: Vin 10)
+B.Cu   12V                    over In4.Cu  1.1 mm at [95.17, 52.49]  (under it: Vin 10)
+B.Cu   GATE_M4                over In4.Cu  1.1 mm at [100.5, 88.65]  (under it: none 8, GATE_M4 2)
+B.Cu   GATE_M7                over In4.Cu  1.1 mm at [76.35, 55.7]  (under it: none 5, LX 6)
+B.Cu   GATE_M2                over In4.Cu  1.1 mm at [80.65, 68.21]  (under it: Vout_1 10)
+B.Cu   Net-(D8--)             over In4.Cu  1.1 mm at [55.29, 66.2]  (under it: none 7, out_2_on 3)
+B.Cu   GATE_M3                over In4.Cu  1.1 mm at [36.17, 61.63]  (under it: Vout_2 11)
+B.Cu   analog_5V              over In4.Cu  1.0 mm at [57.5, 47.35]  (under it: none 10)
+B.Cu   5V                     over In4.Cu  1.0 mm at [65.95, 34.35]  (under it: rsense_lo 10)
+B.Cu   5V                     over In4.Cu  1.0 mm at [61.25, 105.33]  (under it: none 8, Net-(U6-OUT) 2)
+In3.Cu 5V                     over In4.Cu  1.0 mm at [78.95, 72.8]  (under it: Vout_1 10)
+In3.Cu IREF1_input            over In4.Cu  1.0 mm at [59.5, 104.55]  (under it: none 8, Net-(U6-OUT) 2)
+B.Cu   Net-(D11--)            over In4.Cu  1.0 mm at [65.22, 61.42]  (under it: none 4, Vout_1 6)
+B.Cu   Net-(U8-VDDA)          over In4.Cu  1.0 mm at [78.19, 94.45]  (under it: none 7, ena_out_3 3)
+B.Cu   Net-(D8--)             over In4.Cu  1.0 mm at [56.36, 64.0]  (under it: none 6, M1_ON 4)
+B.Cu   Net-(D13--)            over In4.Cu  1.0 mm at [84.38, 93.97]  (under it: Vout_3 10)
+B.Cu   Net-(U15-VDDA)         over In4.Cu  1.0 mm at [69.84, 58.36]  (under it: Vout_1 10)

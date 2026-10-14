@@ -1,0 +1,108 @@
+{
+ "root": "dc4aa17e-0995-4bac-889e-471ae16ef44e",
+ "sheets": {
+  "POWER": {
+   "file": "BOOST_power_RC2.kicad_sch",
+   "uuid": "16ab5722-fa0c-56d0-91d1-33b4130b19c8",
+   "sheet_uuid": "6b059798-0464-519e-9216-f9ff9adc6e0d",
+   "paper": "D",
+   "shift": [
+    0,
+    0
+   ]
+  },
+  "CONTROL": {
+   "file": "BOOST_control_RC2.kicad_sch",
+   "uuid": "e787d626-5fd8-58e4-8fae-f7770db0d081",
+   "sheet_uuid": "1899b5c0-abce-530a-b571-c8988dfa4587",
+   "paper": "D",
+   "shift": [
+    0,
+    0
+   ]
+  }
+ },
+ "cuts": [
+  [
+   "Vout_3",
+   [
+    651.51,
+    241.3
+   ],
+   "CONTROL",
+   "POWER"
+  ],
+  [
+   "IREF1_input",
+   [
+    303.53,
+    454.66
+   ],
+   "POWER",
+   "CONTROL"
+  ],
+  [
+   "IREF3_input",
+   [
+    664.21,
+    337.82
+   ],
+   "POWER",
+   "CONTROL"
+  ],
+  [
+   "Output3_drain",
+   [
+    668.02,
+    297.18
+   ],
+   "POWER",
+   "CONTROL"
+  ],
+  [
+   "IREF2_input",
+   [
+    615.95,
+    508.0
+   ],
+   "POWER",
+   "CONTROL"
+  ],
+  [
+   "Output2_drain",
+   [
+    619.76,
+    467.36
+   ],
+   "POWER",
+   "CONTROL"
+  ],
+  [
+   "Output1_drain",
+   [
+    307.34,
+    414.02
+   ],
+   "POWER",
+   "CONTROL"
+  ],
+  [
+   "Vout_1",
+   [
+    289.56,
+    358.14
+   ],
+   "CONTROL",
+   "POWER"
+  ],
+  [
+   "Vout_2",
+   [
+    603.25,
+    411.48
+   ],
+   "CONTROL",
+   "POWER"
+  ]
+ ]
+}

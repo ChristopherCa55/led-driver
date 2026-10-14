@@ -1,0 +1,77 @@
+{
+ "_why": "J9 F courtyard hugs the pad rows (0.15 mm from the pads; the tie-slot block is kept); B courtyard unchanged (the wires run underneath). Row-1 labels I2 / SCL move up 1.275 mm above R106. H3's reference text 0.35 mm down, clear of R107's pad.",
+ "board": "BOOST_control_RC2.kicad_pcb",
+ "footprints": [
+  {
+   "ref": "J9",
+   "library": "BOOST.pretty/WirePads_11_Staggered_P1.27mm_Drill1.0mm_TieSlots.kicad_mod",
+   "courtyard": {
+    "layer": "F.CrtYd",
+    "pts": [
+     [
+      -4.5,
+      -3.33
+     ],
+     [
+      -1.2,
+      -3.33
+     ],
+     [
+      -1.2,
+      -1.15
+     ],
+     [
+      13.9,
+      -1.15
+     ],
+     [
+      13.9,
+      3.69
+     ],
+     [
+      -1.2,
+      3.69
+     ],
+     [
+      -1.2,
+      5.87
+     ],
+     [
+      -4.5,
+      5.87
+     ]
+    ]
+   },
+   "texts": [
+    {
+     "text": "I2",
+     "layer": "F.SilkS",
+     "at": [
+      5.08,
+      -3.1
+     ]
+    },
+    {
+     "text": "SCL",
+     "layer": "F.SilkS",
+     "at": [
+      7.32,
+      -3.1
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "H3",
+   "fields": [
+    {
+     "name": "Reference",
+     "at": [
+      0,
+      -3.8
+     ]
+    }
+   ]
+  }
+ ]
+}

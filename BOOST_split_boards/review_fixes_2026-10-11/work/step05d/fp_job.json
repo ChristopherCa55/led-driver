@@ -1,0 +1,25 @@
+{
+ "_why": "D1 pull-ups as 0402 (JLC C25900, basic): R106 (SCL) on B.Cu above U26's pin-1 corner, R107 (SDA) on B.Cu under J9 -- the only spots near the bus that are clear of the H1-H4 washer areas and route without cutting a GND plane; D2 R99 / R102 1k",
+ "blocks": [
+  {
+   "ref": "R106",
+   "block": "C:/Users/bubba/OneDrive/Documents/led-driver/BOOST_split_boards/review_fixes_2026-10-11/work/step05d/blocks/R106.block.txt",
+   "after": "R99"
+  },
+  {
+   "ref": "R107",
+   "block": "C:/Users/bubba/OneDrive/Documents/led-driver/BOOST_split_boards/review_fixes_2026-10-11/work/step05d/blocks/R107.block.txt",
+   "after": "R99"
+  }
+ ],
+ "values": [
+  {
+   "ref": "R99",
+   "value": "1k"
+  },
+  {
+   "ref": "R102",
+   "value": "1k"
+  }
+ ]
+}

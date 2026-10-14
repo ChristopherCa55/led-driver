@@ -1,0 +1,785 @@
+card: C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\step05d\card_cu.json
+
+== islands (pieces >= 0.3 mm2 of each checked net, per layer; vias = barrels landing in the piece)
+F.Cu|GND: 27 pieces
+     347.1 mm2 at [67.5, 108.8]  vias 24  pads 18 C104.2 C43.2 C54.2 J11.25 J11.28 J11.29 R16.2 R38.1
+      73.9 mm2 at [50.2, 75.8]  vias 5  pads 4 C12.2 C15.2 C22.2 R68.2
+      71.2 mm2 at [61.6, 84.9]  vias 9  pads 6 J11.11 J11.12 R102.2 R105.2 U101.7 U3.2
+      71.1 mm2 at [87.7, 81.7]  vias 6  pads 4 C8.1 C92.2 C99.2 U102.7
+      49.0 mm2 at [69.6, 74.5]  vias 5  pads 4 C52.2 J11.1 J11.2 R34.2
+      39.6 mm2 at [76.1, 99.4]  vias 4  pads 4 C10.1 C46.2 R46.1 U28.2
+      27.4 mm2 at [47.7, 95.6]  vias 2  pads 2 C63.2 U22.2
+      24.1 mm2 at [83.8, 89.7]  vias 3  pads 4 R36.2 R97.2 U105.7 U18.8
+      19.2 mm2 at [61.8, 97.8]  vias 4  pads 2 J11.20 J9.10
+      16.8 mm2 at [64.7, 101.6]  vias 1  pads 2 J11.24 R28.1
+      11.9 mm2 at [73.7, 89.1]  vias 2  pads 2 R54.2 U24.2
+       8.3 mm2 at [81.6, 97.2]  vias 1  pads 1 U103.7
+       6.3 mm2 at [55.5, 90.9]  vias 2  pads 1 C102.2
+       5.6 mm2 at [60.7, 92.5]  vias 1  pads 1 C26.2
+       4.5 mm2 at [77.5, 93.9]  vias 1  pads 1 R42.2
+       4.4 mm2 at [53.2, 87.7]  vias 1  pads 1 C59.2
+       3.6 mm2 at [80.0, 79.0]  vias 1  pads 1 C91.1
+       3.4 mm2 at [69.5, 100.0]  vias 2  pads 1 J11.21
+       3.0 mm2 at [79.6, 90.1]  vias 1  pads 1 C37.1
+       2.9 mm2 at [80.0, 109.7]  vias 1  pads 1 R92.2
+       2.0 mm2 at [47.8, 104.1]  vias 1  pads 1 C14.2
+       1.4 mm2 at [80.6, 92.8]  vias 1  pads 0 
+       1.4 mm2 at [82.0, 80.7]  vias 1  pads 0 
+       1.4 mm2 at [47.0, 86.5]  vias 1  pads 1 U14.2
+       1.3 mm2 at [80.9, 103.5]  vias 1  pads 0 
+       1.1 mm2 at [70.6, 113.4]  vias 1  pads 0 
+       1.1 mm2 at [56.8, 73.0]  vias 1  pads 0 
+F.Cu|5V: 14 pieces
+       4.5 mm2 at [80.1, 79.1]  vias 2  pads 2 C91.2 U102.14
+       3.6 mm2 at [52.7, 79.5]  vias 2  pads 2 C22.1 U101.14
+       3.0 mm2 at [49.9, 83.9]  vias 3  pads 3 C12.1 R69.2 U14.5
+       2.6 mm2 at [57.7, 92.9]  vias 2  pads 1 C26.1
+       2.2 mm2 at [88.4, 101.7]  vias 2  pads 2 C104.1 U103.14
+       2.2 mm2 at [73.5, 81.3]  vias 2  pads 2 C52.1 U18.16
+       1.4 mm2 at [66.9, 84.3]  vias 1  pads 1 J11.10
+       1.4 mm2 at [52.9, 92.2]  vias 1  pads 1 R103.1
+       1.2 mm2 at [78.1, 101.1]  vias 1  pads 1 U28.16
+       1.2 mm2 at [89.4, 81.4]  vias 1  pads 1 U105.14
+       0.8 mm2 at [89.0, 79.0]  vias 1  pads 1 C92.1
+       0.8 mm2 at [89.4, 107.5]  vias 1  pads 1 C54.1
+       0.7 mm2 at [89.8, 75.9]  vias 2  pads 1 C99.1
+       0.7 mm2 at [78.0, 113.7]  vias 2  pads 1 R82.1
+F.Cu|12V: 4 pieces
+       9.2 mm2 at [66.6, 80.3]  vias 2  pads 0 
+       3.1 mm2 at [71.2, 102.7]  vias 2  pads 0 
+       2.3 mm2 at [61.2, 95.9]  vias 1  pads 1 J9.9
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J11.19
+F.Cu|analog_5V: 5 pieces
+       2.8 mm2 at [64.4, 87.8]  vias 4  pads 1 U3.5
+       2.1 mm2 at [47.8, 89.4]  vias 1  pads 2 C63.1 U22.5
+       2.0 mm2 at [78.7, 91.9]  vias 1  pads 2 C37.2 U24.5
+       1.4 mm2 at [66.9, 99.5]  vias 1  pads 1 J11.22
+       1.2 mm2 at [83.7, 92.8]  vias 1  pads 1 R96.1
+In1.Cu|GND: 12 pieces
+     893.4 mm2 at [68.6, 96.1]  vias 55  pads 6 J11.20 J11.21 J11.24 J11.25 J11.28 J11.29
+      74.6 mm2 at [66.0, 74.9]  vias 4  pads 2 J11.1 J11.2
+      68.6 mm2 at [61.4, 85.9]  vias 7  pads 2 J11.11 J11.12
+      33.3 mm2 at [81.3, 89.0]  vias 5  pads 0 
+      31.1 mm2 at [73.2, 86.9]  vias 1  pads 0 
+      30.2 mm2 at [58.1, 92.3]  vias 3  pads 0 
+      14.0 mm2 at [60.2, 98.0]  vias 3  pads 1 J9.10
+      11.7 mm2 at [63.8, 91.8]  vias 1  pads 0 
+       4.7 mm2 at [79.0, 91.0]  vias 1  pads 0 
+       3.3 mm2 at [76.7, 94.0]  vias 1  pads 0 
+       2.5 mm2 at [55.4, 82.9]  vias 1  pads 0 
+       2.3 mm2 at [75.2, 80.2]  vias 1  pads 0 
+In1.Cu|12V: 3 pieces
+       4.2 mm2 at [75.0, 109.5]  vias 2  pads 0 
+       2.3 mm2 at [61.2, 95.9]  vias 1  pads 1 J9.9
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J11.19
+In2.Cu|GND: 11 pieces
+       2.4 mm2 at [62.5, 98.4]  vias 1  pads 1 J9.10
+       2.1 mm2 at [69.5, 74.1]  vias 1  pads 1 J11.1
+       1.4 mm2 at [66.9, 74.1]  vias 1  pads 1 J11.2
+       1.4 mm2 at [66.9, 86.8]  vias 1  pads 1 J11.12
+       1.4 mm2 at [69.5, 86.8]  vias 1  pads 1 J11.11
+       1.4 mm2 at [69.5, 99.5]  vias 1  pads 1 J11.21
+       1.4 mm2 at [66.9, 102.1]  vias 1  pads 1 J11.24
+       1.4 mm2 at [69.5, 104.6]  vias 1  pads 1 J11.25
+       1.4 mm2 at [66.9, 97.0]  vias 1  pads 1 J11.20
+       1.4 mm2 at [66.9, 107.2]  vias 1  pads 1 J11.28
+       1.4 mm2 at [69.5, 109.7]  vias 1  pads 1 J11.29
+In2.Cu|12V: 3 pieces
+       2.3 mm2 at [61.2, 95.9]  vias 1  pads 1 J9.9
+       1.8 mm2 at [58.3, 73.0]  vias 2  pads 0 
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J11.19
+In3.Cu|GND: 11 pieces
+    1066.1 mm2 at [69.5, 94.7]  vias 62  pads 5 J11.21 J11.24 J11.25 J11.29 J9.10
+     109.7 mm2 at [60.3, 86.3]  vias 8  pads 0 
+      21.4 mm2 at [73.2, 91.0]  vias 1  pads 0 
+      14.1 mm2 at [68.2, 75.6]  vias 2  pads 2 J11.1 J11.2
+      11.3 mm2 at [76.6, 93.1]  vias 2  pads 0 
+      11.0 mm2 at [68.2, 86.7]  vias 2  pads 2 J11.11 J11.12
+       7.2 mm2 at [73.3, 96.3]  vias 2  pads 0 
+       7.2 mm2 at [57.0, 75.0]  vias 1  pads 0 
+       6.2 mm2 at [67.1, 96.8]  vias 1  pads 1 J11.20
+       3.3 mm2 at [66.9, 107.4]  vias 1  pads 1 J11.28
+       1.7 mm2 at [56.9, 90.9]  vias 1  pads 0 
+In3.Cu|12V: 2 pieces
+      13.1 mm2 at [55.9, 86.9]  vias 2  pads 1 J9.9
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J11.19
+In4.Cu|GND: 9 pieces
+     625.4 mm2 at [59.4, 97.7]  vias 48  pads 7 J11.20 J11.21 J11.24 J11.25 J11.28 J11.29 J9.10
+     318.3 mm2 at [85.4, 90.2]  vias 15  pads 0 
+      64.0 mm2 at [77.5, 86.6]  vias 4  pads 0 
+      36.3 mm2 at [68.1, 76.6]  vias 4  pads 2 J11.1 J11.2
+      34.4 mm2 at [54.0, 91.4]  vias 3  pads 0 
+      30.1 mm2 at [79.3, 98.8]  vias 2  pads 0 
+      28.0 mm2 at [67.9, 87.6]  vias 4  pads 2 J11.11 J11.12
+      15.4 mm2 at [80.7, 93.5]  vias 2  pads 0 
+       1.1 mm2 at [80.1, 106.6]  vias 1  pads 0 
+In4.Cu|12V: 2 pieces
+       2.3 mm2 at [61.2, 95.9]  vias 1  pads 1 J9.9
+       1.4 mm2 at [69.5, 97.0]  vias 1  pads 1 J11.19
+In4.Cu|analog_5V: 3 pieces
+      12.6 mm2 at [81.4, 94.0]  vias 6  pads 0 
+       6.7 mm2 at [56.5, 86.3]  vias 3  pads 0 
+       1.4 mm2 at [66.9, 99.5]  vias 1  pads 1 J11.22
+B.Cu|GND: 20 pieces
+     314.5 mm2 at [61.0, 105.0]  vias 30  pads 19 C103.2 C11.1 C24.2 C28.2 C29.2 C32.2 C96.2 J11.20
+      92.7 mm2 at [86.0, 77.2]  vias 5  pads 3 C17.1 C57.1 C94.2
+      90.6 mm2 at [72.9, 77.6]  vias 7  pads 8 C36.1 C38.1 C65.2 C9.1 J11.1 J11.2 R95.2 U23.2
+      84.1 mm2 at [86.1, 106.3]  vias 4  pads 3 C95.2 C98.2 R19.2
+      55.0 mm2 at [61.7, 103.0]  vias 7  pads 4 C13.1 C93.2 J11.28 J9.10
+      48.1 mm2 at [83.9, 91.6]  vias 4  pads 1 U106.7
+      42.8 mm2 at [73.7, 86.9]  vias 4  pads 5 C68.2 J11.11 J11.12 R88.2 U13.2
+      36.9 mm2 at [48.7, 73.8]  vias 3  pads 3 C58.2 C97.2 R55.2
+      26.9 mm2 at [54.6, 88.6]  vias 3  pads 2 R99.2 U26.20
+      26.6 mm2 at [62.4, 81.6]  vias 1  pads 1 C101.2
+      14.5 mm2 at [61.8, 88.1]  vias 4  pads 3 C47.2 C66.2 U26.10
+      14.2 mm2 at [55.5, 82.7]  vias 2  pads 2 U104.7 U26.7
+      12.8 mm2 at [54.7, 75.3]  vias 2  pads 1 C19.2
+       7.1 mm2 at [60.8, 92.9]  vias 1  pads 1 U26.11
+       4.6 mm2 at [89.2, 97.7]  vias 1  pads 1 C23.2
+       3.7 mm2 at [78.4, 112.5]  vias 1  pads 1 C53.1
+       3.4 mm2 at [74.1, 89.5]  vias 1  pads 1 C42.2
+       2.9 mm2 at [76.4, 90.7]  vias 1  pads 1 C100.2
+       1.7 mm2 at [88.2, 84.2]  vias 1  pads 1 U7.2
+       0.5 mm2 at [77.2, 93.9]  vias 1  pads 0 
+B.Cu|5V: 16 pieces
+       5.7 mm2 at [76.6, 105.0]  vias 1  pads 4 C24.1 C98.1 U4.5 U5.5
+       2.5 mm2 at [89.0, 95.8]  vias 2  pads 2 C23.1 U106.14
+       2.3 mm2 at [49.9, 74.7]  vias 2  pads 2 C58.1 U104.14
+       2.2 mm2 at [72.4, 113.2]  vias 1  pads 2 C29.1 R17.2
+       2.0 mm2 at [72.2, 98.9]  vias 1  pads 2 C28.1 U2.5
+       1.8 mm2 at [78.1, 113.7]  vias 3  pads 2 C53.2 U21.5
+       1.4 mm2 at [66.9, 84.3]  vias 1  pads 1 J11.10
+       1.3 mm2 at [89.3, 79.6]  vias 2  pads 1 C57.2
+       1.1 mm2 at [51.7, 84.4]  vias 1  pads 1 R106.1
+       1.0 mm2 at [74.0, 96.5]  vias 1  pads 1 C96.1
+       0.9 mm2 at [56.6, 91.7]  vias 1  pads 1 U26.17
+       0.8 mm2 at [53.2, 71.2]  vias 1  pads 1 C97.1
+       0.8 mm2 at [80.8, 102.4]  vias 1  pads 1 R20.2
+       0.8 mm2 at [87.9, 104.4]  vias 1  pads 1 C95.1
+       0.8 mm2 at [89.9, 75.7]  vias 2  pads 1 C94.1
+       0.4 mm2 at [59.5, 106.6]  vias 1  pads 1 R107.1
+B.Cu|12V: 3 pieces
+       3.6 mm2 at [70.1, 95.7]  vias 3  pads 1 J11.19
+       2.3 mm2 at [61.2, 95.9]  vias 1  pads 1 J9.9
+       1.4 mm2 at [79.9, 110.1]  vias 1  pads 1 R84.1
+B.Cu|analog_5V: 7 pieces
+       7.2 mm2 at [71.6, 83.0]  vias 2  pads 2 C38.2 U23.5
+       5.4 mm2 at [82.5, 83.0]  vias 1  pads 3 C36.2 U13.5 U7.5
+       4.0 mm2 at [82.0, 109.9]  vias 1  pads 1 R91.1
+       1.6 mm2 at [51.1, 85.8]  vias 1  pads 1 R44.1
+       1.4 mm2 at [66.9, 99.5]  vias 1  pads 1 J11.22
+       1.3 mm2 at [76.5, 93.7]  vias 1  pads 1 C32.1
+       0.9 mm2 at [63.8, 88.4]  vias 1  pads 1 C66.1
+
+== slices (other-net tracks through a checked net's copper, runs >= 1.5 mm), by pour current x length
+In4.Cu GND            cut by 0err_hi                 15.4 mm  w 0.20 gap 0.30  mid [79.67, 101.66]  detour n/a  pieces 1 / 8 on this layer only meet through other layers  SEPARATES pieces [[1, 625.4], [2, 318.3], [8, 30.1], [9, 1.1]]
+In2.Cu 5V             cut by Net-(U23-In+)           13.6 mm  w 0.20 gap 0.25  mid [82.83, 96.62]  detour 16.1 mm  
+In1.Cu GND            cut by 0err_hi                 13.4 mm  w 0.20 gap 0.30  mid [59.33, 84.53]  detour 12.5 mm    SEPARATES pieces [[4, 68.6], [6, 2.5]]
+In1.Cu GND            cut by IREF3                   12.0 mm  w 0.20 gap 0.30  mid [74.16, 101.67]  detour 25.1 mm  
+In4.Cu GND            cut by Net-(D5--)              11.8 mm  w 0.20 gap 0.30  mid [76.83, 111.32]  detour n/a  pieces 1 / 2 on this layer only meet through other layers  SEPARATES pieces [[1, 625.4], [2, 318.3], [9, 1.1]]
+In3.Cu GND            cut by Net-(C8-Pad2)           11.0 mm  w 0.20 gap 0.30  mid [76.69, 111.46]  detour 15.9 mm  
+In2.Cu 5V             cut by Net-(D20--)             10.2 mm  w 0.20 gap 0.25  mid [86.28, 86.33]  detour 11.5 mm  
+In1.Cu GND            cut by OUT_1_ENA               10.0 mm  w 0.20 gap 0.30  mid [78.97, 103.08]  detour 49.2 mm  
+In2.Cu 5V             cut by ena_out_3                9.6 mm  w 0.20 gap 0.25  mid [74.94, 84.17]  detour 15.8 mm  
+In4.Cu GND            cut by Net-(U2-In+)             9.2 mm  w 0.15 gap 0.25  mid [74.65, 106.3]  detour 10.0 mm  
+In3.Cu GND            cut by Output1_drain            8.8 mm  w 0.30 gap 0.30  mid [67.39, 72.83]  detour n/a  pieces 3 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [3, 14.1]]
+B.Cu   GND            cut by 0err_hi                  8.6 mm  w 0.20 gap 0.28  mid [61.83, 108.42]  detour n/a  pieces 18 / 7 on this layer only meet through other layers  SEPARATES pieces [[7, 314.5], [18, 55.0]]
+In4.Cu GND            cut by VerrGT0                  8.6 mm  w 0.20 gap 0.30  mid [66.54, 72.88]  detour n/a    SEPARATES pieces [[1, 625.4], [3, 36.3]]
+In4.Cu GND            cut by Net-(U103B-Y)            8.6 mm  w 0.20 gap 0.30  mid [72.85, 86.9]  detour n/a  pieces 4 / 5 on this layer only meet through other layers  SEPARATES pieces [[4, 64.0], [5, 28.0]]
+In4.Cu GND            cut by Net-(U4-In+)             8.2 mm  w 0.20 gap 0.30  mid [78.17, 104.17]  detour 9.0 mm  
+In1.Cu GND            cut by Net-(U101A-Y)            8.0 mm  w 0.20 gap 0.25  mid [52.18, 84.98]  detour n/a  pieces 1 / 4 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [4, 68.6], [8, 30.2]]
+In1.Cu GND            cut by 12V                      8.0 mm  w 0.30 gap 0.30  mid [74.13, 108.23]  detour 9.9 mm  
+In3.Cu GND            cut by OUT_3_ENA                8.0 mm  w 0.20 gap 0.30  mid [83.78, 102.8]  detour 12.2 mm  
+In4.Cu GND            cut by analog_5V                7.8 mm  w 0.40 gap 0.30  mid [80.59, 91.33]  detour n/a  pieces 7 / 4 on this layer only meet through other layers  SEPARATES pieces [[4, 64.0], [7, 15.4]]
+In3.Cu GND            cut by OUT_1_ENA                7.8 mm  w 0.20 gap 0.30  mid [78.22, 93.39]  detour n/a    SEPARATES pieces [[1, 1066.1], [8, 11.3]]
+F.Cu   GND            cut by IREF1                    7.6 mm  w 0.20 gap 0.30  mid [63.44, 100.26]  detour n/a  pieces 20 / 23 on this layer only meet through other layers  SEPARATES pieces [[20, 19.2], [23, 16.8]]
+In1.Cu GND            cut by SDA                      7.6 mm  w 0.20 gap 0.30  mid [62.06, 100.83]  detour n/a  pieces 1 / 12 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [12, 14.0]]
+B.Cu   GND            cut by Net-(D26-+)              7.4 mm  w 0.20 gap 0.30  mid [83.6, 98.28]  detour n/a  pieces 19 / 11 on this layer only meet through other layers  SEPARATES pieces [[11, 48.1], [19, 84.1]]
+In3.Cu GND            cut by ena_out_3                7.4 mm  w 0.20 gap 0.30  mid [86.28, 90.05]  detour 6.2 mm  
+In3.Cu GND            cut by low_error_timeout        7.2 mm  w 0.20 gap 0.30  mid [56.75, 72.7]  detour n/a  pieces 1 / 2 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [2, 7.2]]
+In4.Cu GND            cut by analog_5V                7.0 mm  w 0.40 gap 0.30  mid [61.17, 86.28]  detour n/a  pieces 1 / 5 on this layer only meet through other layers  SEPARATES pieces [[1, 625.4], [5, 28.0]]
+In1.Cu GND            cut by Net-(U106A-B)            7.0 mm  w 0.20 gap 0.30  mid [62.86, 89.62]  detour n/a  pieces 9 / 4 on this layer only meet through other layers  SEPARATES pieces [[4, 68.6], [8, 30.2], [9, 11.7]]
+In4.Cu GND            cut by Voltage_err_2            6.8 mm  w 0.20 gap 0.25  mid [83.72, 87.35]  detour n/a  pieces 4 / 2 on this layer only meet through other layers  SEPARATES pieces [[2, 318.3], [4, 64.0]]
+F.Cu   GND            cut by Net-(U106C-B)            6.6 mm  w 0.20 gap 0.30  mid [82.4, 98.78]  detour n/a  pieces 18 / 19 on this layer only meet through other layers  SEPARATES pieces [[18, 39.6], [19, 8.4]]
+In4.Cu GND            cut by Net-(D20--)              6.6 mm  w 0.20 gap 0.30  mid [81.72, 77.83]  detour 7.1 mm  
+In1.Cu GND            cut by Net-(U24-In+)            6.6 mm  w 0.20 gap 0.30  mid [79.47, 89.53]  detour n/a  pieces 10 / 7 on this layer only meet through other layers  SEPARATES pieces [[7, 33.3], [10, 4.7]]
+In1.Cu GND            cut by Net-(D24-+)              6.6 mm  w 0.20 gap 0.25  mid [73.32, 111.72]  detour 6.5 mm  
+In1.Cu GND            cut by Net-(D5-+)               6.6 mm  w 0.20 gap 0.30  mid [84.02, 101.03]  detour 8.3 mm  
+In3.Cu GND            cut by IREF1                    6.6 mm  w 0.20 gap 0.35  mid [75.44, 90.81]  detour n/a  pieces 6 / 8 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [6, 21.4], [8, 11.3]]
+In3.Cu GND            cut by .1Vref_2                 6.4 mm  w 0.20 gap 0.30  mid [81.9, 78.15]  detour 18.9 mm  
+In1.Cu GND            cut by Out-                     6.0 mm  w 0.20 gap 0.30  mid [79.57, 80.08]  detour 5.8 mm  
+B.Cu   GND            cut by Net-(U106C-A)            5.8 mm  w 0.20 gap 0.30  mid [87.38, 80.83]  detour n/a  pieces 2 / 3 on this layer only meet through other layers  SEPARATES pieces [[2, 90.6], [3, 92.7]]
+In2.Cu 5V             cut by ena_out_3                5.8 mm  w 0.20 gap 0.20  mid [82.48, 83.53]  detour 6.0 mm  
+In1.Cu GND            cut by .1Vref_2                 5.8 mm  w 0.20 gap 0.30  mid [73.84, 97.56]  detour 8.6 mm  
+In1.Cu GND            cut by SDA                      5.8 mm  w 0.20 gap 0.25  mid [61.76, 92.01]  detour n/a  pieces 9 / 8 on this layer only meet through other layers  SEPARATES pieces [[4, 68.6], [8, 30.2], [9, 11.7]]
+In4.Cu GND            cut by OUT_3_ENA                5.6 mm  w 0.20 gap 0.30  mid [88.12, 93.64]  detour 4.7 mm  
+In4.Cu GND            cut by out_3_on                 5.6 mm  w 0.20 gap 0.30  mid [54.55, 83.88]  detour 6.8 mm  
+In3.Cu GND            cut by .1Vref_2                 5.6 mm  w 0.20 gap 0.25  mid [85.76, 83.01]  detour 6.4 mm  
+In4.Cu GND            cut by Net-(U103B-Y)            5.2 mm  w 0.20 gap 0.30  mid [78.65, 94.78]  detour n/a  pieces 7 / 8 on this layer only meet through other layers  SEPARATES pieces [[7, 15.4], [8, 30.1]]
+In1.Cu GND            cut by Net-(C8-Pad2)            5.2 mm  w 0.20 gap 0.30  mid [85.0, 102.4]  detour 9.4 mm  
+In2.Cu 5V             cut by IREF2                    5.0 mm  w 0.20 gap 0.20  mid [57.77, 93.0]  detour 52.3 mm  
+In2.Cu 5V             cut by 12V                      5.0 mm  w 0.30 gap 0.30  mid [58.32, 72.68]  detour 5.3 mm  
+In4.Cu GND            cut by Net-(D5--)               5.0 mm  w 0.20 gap 0.30  mid [80.95, 105.9]  detour n/a  pieces 8 / 2 on this layer only meet through other layers  SEPARATES pieces [[2, 318.3], [8, 30.1], [9, 1.1]]
+In1.Cu GND            cut by IREF2                    5.0 mm  w 0.15 gap 0.28  mid [81.99, 87.94]  detour 5.1 mm  
+In3.Cu GND            cut by OUT_2_ENA                5.0 mm  w 0.20 gap 0.30  mid [84.38, 96.93]  detour 6.4 mm  
+In4.Cu GND            cut by analog_5V                4.8 mm  w 0.30 gap 0.30  mid [79.78, 88.57]  detour 10.5 mm  
+In1.Cu GND            cut by Net-(D25-+)              4.8 mm  w 0.20 gap 0.30  mid [70.62, 72.97]  detour n/a  pieces 2 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [2, 74.6]]
+In3.Cu GND            cut by low_error_timeout        4.8 mm  w 0.20 gap 0.30  mid [52.84, 76.91]  detour 12.8 mm    SEPARATES pieces [[1, 1066.1], [2, 7.2]]
+In3.Cu GND            cut by Voltage_err_3            4.8 mm  w 0.20 gap 0.30  mid [80.25, 90.45]  detour 5.0 mm  
+B.Cu   GND            cut by Net-(U106C-A)            4.6 mm  w 0.20 gap 0.30  mid [82.8, 78.67]  detour n/a  pieces 2 / 3 on this layer only meet through other layers  SEPARATES pieces [[2, 90.6], [3, 92.7]]
+In3.Cu GND            cut by Voltage_err_1            4.6 mm  w 0.20 gap 0.28  mid [62.5, 89.5]  detour 5.4 mm  
+In3.Cu GND            cut by Output3_drain            4.6 mm  w 0.15 gap 0.25  mid [72.83, 95.22]  detour n/a  pieces 10 / 6 on this layer only meet through other layers  SEPARATES pieces [[6, 21.4], [10, 7.2]]
+In3.Cu GND            cut by IREF3_input              4.6 mm  w 0.20 gap 0.30  mid [65.67, 107.43]  detour n/a  pieces 11 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [11, 3.3]]
+F.Cu   GND            cut by V_err                    4.4 mm  w 0.15 gap 0.25  mid [75.84, 102.72]  detour n/a  pieces 21 / 18 on this layer only meet through other layers  SEPARATES pieces [[18, 39.6], [21, 347.1]]
+In3.Cu GND            cut by .1Vref_1                 4.4 mm  w 0.20 gap 0.30  mid [72.9, 98.0]  detour n/a  pieces 1 / 10 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [10, 7.2]]
+In3.Cu GND            cut by IREF2                    4.4 mm  w 0.15 gap 0.25  mid [79.75, 86.8]  detour n/a  
+In3.Cu GND            cut by Output1_drain            4.4 mm  w 0.30 gap 0.30  mid [65.58, 87.11]  detour n/a  pieces 5 / 4 on this layer only meet through other layers  SEPARATES pieces [[4, 109.7], [5, 11.0]]
+In2.Cu 5V             cut by Net-(U102A-Y)            4.2 mm  w 0.20 gap 0.23  mid [79.08, 81.42]  detour 38.3 mm  
+In1.Cu GND            cut by Net-(D25-+)              4.2 mm  w 0.15 gap 0.30  mid [76.58, 88.89]  detour n/a  pieces 5 / 7 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [5, 31.1], [7, 33.3]]
+In4.Cu GND            cut by Reset_raw                4.0 mm  w 0.20 gap 0.30  mid [64.33, 98.65]  detour 20.1 mm  
+In4.Cu GND            cut by Net-(D4-+)               4.0 mm  w 0.20 gap 0.30  mid [50.67, 92.0]  detour n/a  pieces 1 / 6 on this layer only meet through other layers  SEPARATES pieces [[1, 625.4], [6, 34.4]]
+In1.Cu GND            cut by IREF3                    4.0 mm  w 0.20 gap 0.30  mid [86.06, 95.19]  detour 5.0 mm  
+In3.Cu GND            cut by OUT_2_ENA                4.0 mm  w 0.20 gap 0.30  mid [84.22, 83.47]  detour 35.2 mm  
+In3.Cu GND            cut by OUT_2_ENA                4.0 mm  w 0.20 gap 0.30  mid [79.12, 78.28]  detour n/a  
+In3.Cu GND            cut by ARD_M1_INHIBIT           4.0 mm  w 0.20 gap 0.25  mid [57.25, 90.65]  detour n/a  pieces 7 / 4 on this layer only meet through other layers  SEPARATES pieces [[4, 109.7], [7, 1.7]]
+In3.Cu GND            cut by 12V                      4.0 mm  w 0.30 gap 0.25  mid [56.35, 91.35]  detour n/a  pieces 7 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [7, 1.7]]
+B.Cu   GND            cut by IREF1_input              3.8 mm  w 0.20 gap 0.28  mid [64.62, 98.95]  detour 18.6 mm  
+In1.Cu GND            cut by Net-(U101A-Y)            3.8 mm  w 0.20 gap 0.30  mid [50.73, 76.99]  detour 5.1 mm  
+In3.Cu GND            cut by low_error_timeout        3.8 mm  w 0.20 gap 0.33  mid [50.3, 79.15]  detour 4.0 mm  
+F.Cu   GND            cut by 12V                      3.6 mm  w 0.30 gap 0.30  mid [70.78, 99.96]  detour n/a  pieces 22 / 18 on this layer only meet through other layers  SEPARATES pieces [[18, 39.6], [22, 3.4]]
+B.Cu   GND            cut by IREF2_input              3.6 mm  w 0.20 gap 0.30  mid [65.67, 101.97]  detour n/a  pieces 7 / 18 on this layer only meet through other layers  SEPARATES pieces [[7, 314.5], [18, 55.0]]
+In2.Cu 5V             cut by M2_ON                    3.6 mm  w 0.20 gap 0.25  mid [65.45, 78.55]  detour 7.8 mm  
+In4.Cu GND            cut by VerrGT0                  3.6 mm  w 0.20 gap 0.30  mid [79.45, 73.15]  detour 5.7 mm  
+In4.Cu GND            cut by .1Vout_1                 3.6 mm  w 0.20 gap 0.30  mid [72.65, 95.3]  detour 4.3 mm  
+In4.Cu GND            cut by Net-(D4-+)               3.6 mm  w 0.20 gap 0.30  mid [50.52, 103.12]  detour 23.3 mm  
+In1.Cu GND            cut by Net-(D25-+)              3.6 mm  w 0.20 gap 0.25  mid [75.53, 84.38]  detour n/a  pieces 1 / 2 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [2, 74.6], [3, 2.3], [5, 31.1], [7, 33.3]]
+In3.Cu GND            cut by 12V                      3.6 mm  w 0.30 gap 0.30  mid [54.55, 78.55]  detour n/a  pieces 4 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [2, 7.2], [4, 109.7]]
+B.Cu   GND            cut by Net-(U106C-B)            3.4 mm  w 0.20 gap 0.30  mid [87.3, 101.35]  detour 4.6 mm  
+B.Cu   GND            cut by Net-(U106C-B)            3.4 mm  w 0.20 gap 0.30  mid [87.65, 96.75]  detour n/a  pieces 17 / 11 on this layer only meet through other layers  SEPARATES pieces [[11, 48.1], [17, 4.6]]
+In1.Cu GND            cut by ena_out_1                3.4 mm  w 0.20 gap 0.30  mid [74.07, 82.82]  detour n/a  pieces 2 / 5 on this layer only meet through other layers  SEPARATES pieces [[2, 74.6], [5, 31.1]]
+F.Cu   GND            cut by VerrGT0                  3.2 mm  w 0.20 gap 0.30  mid [87.03, 93.5]  detour n/a  pieces 8 / 3 on this layer only meet through other layers  SEPARATES pieces [[3, 71.1], [8, 24.1]]
+B.Cu   GND            cut by OUT_2_ENA                3.2 mm  w 0.20 gap 0.30  mid [84.17, 101.13]  detour 4.4 mm  
+B.Cu   GND            cut by set-                     3.2 mm  w 0.20 gap 0.30  mid [57.77, 79.97]  detour n/a  pieces 6 / 5 on this layer only meet through other layers  SEPARATES pieces [[4, 12.8], [5, 26.6], [6, 14.2]]
+B.Cu   GND            cut by low_error_timeout        3.2 mm  w 0.20 gap 0.25  mid [63.73, 73.28]  detour 4.3 mm  
+B.Cu   GND            cut by Net-(U102D-Y)            3.2 mm  w 0.20 gap 0.30  mid [64.78, 81.12]  detour 4.3 mm  
+In4.Cu GND            cut by ena_out_1                3.2 mm  w 0.20 gap 0.30  mid [86.02, 79.08]  detour 3.3 mm  
+In1.Cu GND            cut by Net-(D5-+)               3.2 mm  w 0.20 gap 0.30  mid [79.05, 109.35]  detour 23.3 mm  
+In1.Cu GND            cut by Net-(D20-+)              3.2 mm  w 0.20 gap 0.25  mid [88.42, 89.52]  detour 3.9 mm  
+In1.Cu GND            cut by Vref_3_arduino           3.2 mm  w 0.20 gap 0.30  mid [53.4, 90.85]  detour n/a  pieces 1 / 8 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [8, 30.2]]
+In1.Cu GND            cut by ena_out_2                3.2 mm  w 0.20 gap 0.30  mid [79.64, 77.67]  detour 4.3 mm  
+In3.Cu GND            cut by Net-(U106C-B)            3.2 mm  w 0.20 gap 0.30  mid [76.22, 95.83]  detour n/a  pieces 10 / 8 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [6, 21.4], [8, 11.3], [10, 7.2]]
+In3.Cu GND            cut by Net-(U102A-Y)            3.2 mm  w 0.20 gap 0.30  mid [63.34, 80.62]  detour n/a  pieces 1 / 4 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [4, 109.7]]
+F.Cu   GND            cut by 0err_hi                  3.0 mm  w 0.20 gap 0.30  mid [68.15, 86.4]  detour 3.0 mm  
+F.Cu   GND            cut by Net-(D5-+)               3.0 mm  w 0.20 gap 0.30  mid [67.23, 112.38]  detour 4.1 mm  
+B.Cu   GND            cut by M1_ON                    3.0 mm  w 0.20 gap 0.30  mid [64.75, 78.3]  detour n/a  pieces 2 / 5 on this layer only meet through other layers  SEPARATES pieces [[2, 90.6], [5, 26.6]]
+In2.Cu 5V             cut by Net-(D5-+)               3.0 mm  w 0.20 gap 0.25  mid [73.56, 111.59]  detour 8.7 mm  
+In2.Cu 5V             cut by Net-(U102A-Y)            3.0 mm  w 0.20 gap 0.23  mid [85.26, 78.14]  detour 3.5 mm  
+In2.Cu 5V             cut by SDA                      3.0 mm  w 0.20 gap 0.25  mid [60.75, 102.06]  detour 8.8 mm  
+In4.Cu GND            cut by SCL                      3.0 mm  w 0.20 gap 0.30  mid [57.33, 90.37]  detour n/a  pieces 1 / 6 on this layer only meet through other layers  SEPARATES pieces [[1, 625.4], [6, 34.4]]
+In3.Cu GND            cut by Net-(D24-+)              3.0 mm  w 0.20 gap 0.30  mid [69.1, 110.95]  detour 4.2 mm  
+In3.Cu GND            cut by ena_out_1                3.0 mm  w 0.20 gap 0.30  mid [76.01, 84.53]  detour 4.0 mm  
+F.Cu   GND            cut by Out-                     2.8 mm  w 0.20 gap 0.30  mid [63.55, 82.78]  detour 3.4 mm  
+B.Cu   GND            cut by SDA                      2.8 mm  w 0.20 gap 0.25  mid [59.67, 88.53]  detour n/a  pieces 10 / 12 on this layer only meet through other layers  SEPARATES pieces [[6, 14.2], [10, 14.5], [12, 26.9], [15, 7.1]]
+In2.Cu 5V             cut by 0A_hi                    2.8 mm  w 0.20 gap 0.25  mid [71.53, 96.58]  detour 43.7 mm  
+In4.Cu GND            cut by Net-(D4-+)               2.8 mm  w 0.20 gap 0.30  mid [49.62, 98.4]  detour 34.5 mm  
+In1.Cu GND            cut by Net-(D20-+)              2.8 mm  w 0.20 gap 0.30  mid [86.83, 74.65]  detour 3.9 mm  
+In1.Cu GND            cut by Net-(D25-+)              2.8 mm  w 0.20 gap 0.30  mid [74.49, 80.69]  detour n/a  pieces 2 / 3 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [2, 74.6], [3, 2.3]]
+F.Cu   GND            cut by Net-(D20-+)              2.6 mm  w 0.20 gap 0.30  mid [88.75, 72.4]  detour 3.6 mm  
+F.Cu   GND            cut by Net-(U23-In+)            2.6 mm  w 0.20 gap 0.30  mid [81.5, 106.85]  detour 33.7 mm    SEPARATES pieces [[21, 347.1], [26, 2.9]]
+F.Cu   GND            cut by 12V                      2.6 mm  w 0.30 gap 0.30  mid [71.67, 105.42]  detour 3.4 mm  
+B.Cu   GND            cut by Net-(U106C-A)            2.6 mm  w 0.20 gap 0.38  mid [79.6, 76.8]  detour n/a  pieces 2 / 3 on this layer only meet through other layers  SEPARATES pieces [[2, 90.6], [3, 92.7]]
+In2.Cu 5V             cut by IREF2                    2.6 mm  w 0.15 gap 0.25  mid [63.65, 88.3]  detour 68.0 mm  
+In2.Cu 5V             cut by IREF2                    2.6 mm  w 0.20 gap 0.20  mid [60.4, 90.7]  detour 55.2 mm  
+In4.Cu GND            cut by Net-(U7-In-)             2.6 mm  w 0.20 gap 0.30  mid [84.51, 84.38]  detour 2.8 mm  
+In1.Cu GND            cut by Net-(U26E-~{RESET})      2.6 mm  w 0.20 gap 0.30  mid [57.35, 93.72]  detour 4.4 mm  
+In3.Cu GND            cut by OUT_2_ENA                2.6 mm  w 0.20 gap 0.28  mid [77.88, 81.5]  detour n/a  
+In3.Cu GND            cut by IREF2                    2.6 mm  w 0.15 gap 0.30  mid [74.03, 87.53]  detour n/a  pieces 6 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [6, 21.4]]
+In3.Cu GND            cut by 12V                      2.6 mm  w 0.30 gap 0.30  mid [56.52, 75.6]  detour 3.0 mm    SEPARATES pieces [[1, 1066.1], [2, 7.2]]
+In3.Cu GND            cut by Vout_2                   2.6 mm  w 0.30 gap 0.30  mid [70.83, 74.8]  detour n/a  pieces 1 / 3 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [3, 14.1]]
+F.Cu   GND            cut by IREF3                    2.4 mm  w 0.20 gap 0.30  mid [62.28, 103.17]  detour n/a  pieces 21 / 23 on this layer only meet through other layers  SEPARATES pieces [[21, 347.1], [23, 16.8]]
+B.Cu   GND            cut by Verr2                    2.4 mm  w 0.20 gap 0.30  mid [81.68, 104.97]  detour n/a  pieces 7 / 19 on this layer only meet through other layers  SEPARATES pieces [[7, 314.5], [19, 84.1]]
+B.Cu   GND            cut by .1Vref_3                 2.4 mm  w 0.20 gap 0.28  mid [74.17, 88.12]  detour n/a  pieces 13 / 8 on this layer only meet through other layers  SEPARATES pieces [[8, 42.8], [13, 3.4]]
+In2.Cu 5V             cut by IREF2                    2.4 mm  w 0.15 gap 0.25  mid [71.75, 88.45]  detour 5.8 mm  
+In4.Cu GND            cut by Net-(U26E-A1)            2.4 mm  w 0.20 gap 0.30  mid [55.91, 93.22]  detour 3.7 mm  
+In1.Cu GND            cut by OUT_3_ENA                2.4 mm  w 0.20 gap 0.35  mid [78.49, 85.97]  detour n/a  pieces 7 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [5, 31.1], [7, 33.3]]
+In1.Cu GND            cut by 0A_hi                    2.4 mm  w 0.20 gap 0.25  mid [71.47, 85.22]  detour n/a  pieces 4 / 5 on this layer only meet through other layers  SEPARATES pieces [[4, 68.6], [5, 31.1]]
+In1.Cu GND            cut by set-                     2.4 mm  w 0.20 gap 0.28  mid [54.06, 72.29]  detour 8.6 mm  
+In1.Cu GND            cut by IREF3                    2.4 mm  w 0.20 gap 0.30  mid [64.71, 103.38]  detour 3.7 mm  
+In3.Cu GND            cut by Net-(C8-Pad2)            2.4 mm  w 0.20 gap 0.30  mid [80.68, 107.47]  detour 3.6 mm  
+F.Cu   GND            cut by 12V                      2.2 mm  w 0.30 gap 0.30  mid [71.58, 102.7]  detour n/a  pieces 21 / 18 on this layer only meet through other layers  SEPARATES pieces [[18, 39.6], [21, 347.1]]
+B.Cu   GND            cut by Vref_2                   2.2 mm  w 0.20 gap 0.30  mid [58.06, 103.92]  detour 5.5 mm    SEPARATES pieces [[7, 314.5], [18, 55.0]]
+B.Cu   GND            cut by Net-(D7--)               2.2 mm  w 0.20 gap 0.25  mid [66.08, 71.38]  detour 3.1 mm  
+In4.Cu GND            cut by analog_5V                2.2 mm  w 0.40 gap 0.30  mid [78.24, 85.78]  detour 3.2 mm  
+In1.Cu GND            cut by M1_ON                    2.2 mm  w 0.20 gap 0.30  mid [58.08, 87.58]  detour 2.9 mm  
+In1.Cu GND            cut by Net-(D24-+)              2.2 mm  w 0.20 gap 0.30  mid [70.45, 87.7]  detour n/a  pieces 4 / 5 on this layer only meet through other layers  SEPARATES pieces [[4, 68.6], [5, 31.1]]
+In1.Cu GND            cut by Net-(D23-+)              2.2 mm  w 0.20 gap 0.30  mid [49.97, 103.53]  detour 3.5 mm  
+In3.Cu GND            cut by .1Vref_2                 2.2 mm  w 0.20 gap 0.25  mid [79.43, 74.83]  detour n/a  
+In3.Cu GND            cut by OUT_3_ENA                2.2 mm  w 0.20 gap 0.30  mid [80.5, 109.85]  detour 6.0 mm  
+F.Cu   GND            cut by Verr2                    2.0 mm  w 0.20 gap 0.25  mid [80.24, 103.89]  detour n/a  pieces 21 / 24 on this layer only meet through other layers  SEPARATES pieces [[18, 39.6], [21, 347.1], [24, 1.3]]
+F.Cu   GND            cut by Net-(Q1-E)               2.0 mm  w 0.20 gap 0.30  mid [47.33, 105.03]  detour n/a  pieces 21 / 25 on this layer only meet through other layers  SEPARATES pieces [[21, 347.1], [25, 2.0]]
+B.Cu   GND            cut by SCL                      2.0 mm  w 0.20 gap 0.33  mid [57.12, 87.73]  detour 2.4 mm  
+B.Cu   GND            cut by Net-(U106B-B)            2.0 mm  w 0.20 gap 0.30  mid [80.97, 89.72]  detour n/a  pieces 11 / 8 on this layer only meet through other layers  SEPARATES pieces [[8, 42.8], [11, 48.1]]
+In2.Cu 5V             cut by Net-(U102A-Y)            2.0 mm  w 0.20 gap 0.25  mid [83.09, 80.31]  detour 32.1 mm  
+In2.Cu 5V             cut by ena_out_2                2.0 mm  w 0.20 gap 0.25  mid [71.1, 81.38]  detour 6.4 mm  
+In4.Cu GND            cut by .1Vref_3                 2.0 mm  w 0.20 gap 0.30  mid [59.17, 88.08]  detour n/a  pieces 1 / 5 on this layer only meet through other layers  SEPARATES pieces [[1, 625.4], [5, 28.0]]
+In1.Cu GND            cut by Output2_drain            2.0 mm  w 0.15 gap 0.30  mid [74.4, 94.53]  detour n/a  pieces 1 / 11 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [11, 3.3]]
+F.Cu   GND            cut by 12V                      1.8 mm  w 0.30 gap 0.28  mid [70.78, 87.6]  detour n/a  pieces 6 / 11 on this layer only meet through other layers  SEPARATES pieces [[6, 71.2], [11, 11.9]]
+B.Cu   GND            cut by analog_5V                1.8 mm  w 0.30 gap 0.35  mid [72.89, 81.54]  detour n/a  pieces 8 / 2 on this layer only meet through other layers  SEPARATES pieces [[2, 90.6], [8, 42.8]]
+B.Cu   GND            cut by OUT_2_ENA                1.8 mm  w 0.20 gap 0.30  mid [80.65, 107.88]  detour 10.0 mm  
+B.Cu   GND            cut by Net-(D26-+)              1.8 mm  w 0.20 gap 0.35  mid [78.4, 97.6]  detour n/a  pieces 7 / 11 on this layer only meet through other layers  SEPARATES pieces [[7, 314.5], [11, 48.1], [19, 84.1]]
+B.Cu   GND            cut by IREF2_input              1.8 mm  w 0.20 gap 0.28  mid [65.67, 97.77]  detour n/a  pieces 7 / 18 on this layer only meet through other layers  SEPARATES pieces [[7, 314.5], [18, 55.0]]
+In2.Cu 5V             cut by Verr1                    1.8 mm  w 0.20 gap 0.23  mid [71.29, 105.72]  detour 19.4 mm  
+In2.Cu 5V             cut by 0A_hi                    1.8 mm  w 0.20 gap 0.25  mid [73.36, 98.76]  detour 41.2 mm  
+In2.Cu 5V             cut by Net-(U26A-P0B)           1.8 mm  w 0.20 gap 0.25  mid [75.85, 90.62]  detour 3.1 mm  
+In4.Cu GND            cut by Net-(U103B-Y)            1.8 mm  w 0.20 gap 0.30  mid [76.28, 90.48]  detour n/a  pieces 4 / 5 on this layer only meet through other layers  SEPARATES pieces [[4, 64.0], [5, 28.0]]
+In1.Cu GND            cut by Net-(D5-+)               1.8 mm  w 0.20 gap 0.30  mid [80.6, 107.55]  detour 26.5 mm  
+In3.Cu GND            cut by .1Vref_2                 1.8 mm  w 0.20 gap 0.30  mid [73.64, 71.78]  detour n/a  
+In3.Cu GND            cut by Net-(U102A-Y)            1.8 mm  w 0.20 gap 0.30  mid [56.75, 78.2]  detour n/a  pieces 2 / 4 on this layer only meet through other layers  SEPARATES pieces [[2, 7.2], [4, 109.7]]
+F.Cu   GND            cut by VerrGT0                  1.6 mm  w 0.20 gap 0.30  mid [86.38, 89.12]  detour n/a  pieces 8 / 3 on this layer only meet through other layers  SEPARATES pieces [[3, 71.1], [8, 24.1]]
+F.Cu   GND            cut by Net-(U23-In+)            1.6 mm  w 0.20 gap 0.30  mid [81.28, 113.15]  detour 2.3 mm  
+F.Cu   GND            cut by Net-(U14-In+)            1.6 mm  w 0.20 gap 0.33  mid [47.98, 83.18]  detour 3.9 mm  
+B.Cu   GND            cut by Net-(U23-In+)            1.6 mm  w 0.20 gap 0.43  mid [77.7, 80.28]  detour 4.0 mm  
+In2.Cu 5V             cut by Verr1                    1.6 mm  w 0.20 gap 0.25  mid [65.58, 105.92]  detour 4.8 mm  
+In2.Cu 5V             cut by Net-(U26A-P0B)           1.6 mm  w 0.20 gap 0.25  mid [78.3, 90.55]  detour 10.4 mm  
+In2.Cu 5V             cut by SDA                      1.6 mm  w 0.20 gap 0.25  mid [60.75, 104.69]  detour 1.9 mm  
+In1.Cu GND            cut by Out-                     1.6 mm  w 0.20 gap 0.30  mid [58.06, 72.67]  detour n/a  pieces 2 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 893.4], [2, 74.6]]
+In3.Cu GND            cut by Net-(D24-+)              1.6 mm  w 0.20 gap 0.30  mid [67.97, 106.4]  detour n/a  pieces 11 / 1 on this layer only meet through other layers  SEPARATES pieces [[1, 1066.1], [11, 3.3]]
+In3.Cu GND            cut by Net-(U106C-B)            1.6 mm  w 0.20 gap 0.25  mid [74.79, 93.74]  detour n/a  pieces 6 / 8 on this layer only meet through other layers  SEPARATES pieces [[6, 21.4], [8, 11.3]]
+
+== necks joining two wide regions
+F.Cu   GND            < 1 mm  at [89.5, 70.9]  bbox [88.2, 70.3, 90.6, 72.1]  regions [6.7, 11.6]  
+F.Cu   GND            < 1 mm  at [88.1, 75.4]  bbox [87.8, 75.0, 88.4, 75.8]  regions [4.8, 6.7]  
+F.Cu   GND            < 1 mm  at [88.9, 75.5]  bbox [88.5, 75.3, 89.2, 75.8]  regions [4.8, 6.7]  
+F.Cu   GND            < 1 mm  at [90.1, 80.0]  bbox [88.9, 78.6, 90.6, 81.0]  regions [4.8, 9.6]  
+F.Cu   GND            < 1 mm  at [63.9, 83.8]  bbox [62.9, 83.1, 65.0, 84.6]  regions [9.2, 18.3]  
+F.Cu   GND            < 1 mm  at [56.6, 83.9]  bbox [56.3, 83.6, 57.0, 84.3]  regions [11.2, 18.3]  
+F.Cu   GND            < 1 mm  at [65.6, 84.6]  bbox [65.2, 84.2, 65.9, 84.9]  regions [4.5, 9.2]  
+F.Cu   GND            < 1 mm  at [87.0, 85.0]  bbox [86.7, 84.8, 87.4, 85.4]  regions [9.6, 22.7]  
+F.Cu   GND            < 1 mm  at [46.4, 93.4]  bbox [46.2, 92.5, 46.8, 94.4]  regions [3.1, 16.5]  
+F.Cu   GND            < 1 mm  at [90.3, 101.5]  bbox [89.6, 100.5, 90.6, 102.6]  regions [5.0, 28.6]  
+F.Cu   GND            < 1 mm  at [57.8, 104.8]  bbox [57.3, 104.3, 58.3, 105.6]  regions [22.5, 227.8]  
+F.Cu   GND            < 1 mm  at [90.4, 107.4]  bbox [90.0, 106.6, 90.6, 108.3]  regions [28.6, 29.3]  
+F.Cu   GND            < 1 mm  at [88.8, 108.2]  bbox [87.9, 107.3, 89.8, 109.0]  regions [28.6, 29.3]  
+F.Cu   GND            < 1 mm  at [78.5, 111.7]  bbox [77.0, 110.6, 79.7, 113.2]  regions [4.4, 227.8]  
+F.Cu   GND            < 1 mm  at [81.3, 114.5]  bbox [80.6, 114.1, 81.9, 114.7]  regions [4.4, 29.3]  
+In1.Cu GND            < 1 mm  at [70.8, 76.6]  bbox [70.4, 75.9, 71.1, 77.3]  regions [6.9, 50.0]  
+In1.Cu GND            < 1 mm  at [80.5, 78.3]  bbox [79.6, 77.5, 81.7, 79.5]  regions [3.5, 127.8]  
+In1.Cu GND            < 1 mm  at [81.8, 80.3]  bbox [81.3, 79.6, 82.6, 81.3]  regions [15.2, 127.8]  
+In1.Cu GND            < 1 mm  at [50.8, 83.9]  bbox [50.1, 83.1, 51.3, 84.6]  regions [4.0, 115.9]  
+In1.Cu GND            < 1 mm  at [50.1, 84.7]  bbox [49.8, 84.1, 50.4, 85.1]  regions [4.0, 115.9]  
+In1.Cu GND            < 1 mm  at [63.7, 85.5]  bbox [63.3, 85.0, 64.1, 86.1]  regions [10.4, 44.3]  
+In1.Cu GND            < 1 mm  at [49.8, 85.8]  bbox [49.6, 85.6, 50.1, 86.1]  regions [4.0, 115.9]  
+In1.Cu GND            < 1 mm  at [49.1, 86.9]  bbox [48.6, 86.2, 49.6, 87.5]  regions [13.2, 115.9]  
+In1.Cu GND            < 1 mm  at [50.1, 86.8]  bbox [49.8, 86.5, 50.4, 87.0]  regions [4.0, 13.2]  
+In1.Cu GND            < 1 mm  at [82.1, 89.8]  bbox [81.7, 89.2, 82.4, 90.4]  regions [12.7, 14.0]  
+In1.Cu GND            < 1 mm  at [49.9, 89.9]  bbox [49.6, 89.5, 50.1, 90.3]  regions [13.2, 115.9]  
+In1.Cu GND            < 1 mm  at [90.3, 90.7]  bbox [90.0, 90.1, 90.6, 91.2]  regions [125.6, 127.8]  
+In1.Cu GND            < 1 mm  at [49.7, 90.7]  bbox [49.5, 90.4, 49.9, 90.9]  regions [13.2, 115.9]  
+In1.Cu GND            < 1 mm  at [49.0, 91.2]  bbox [48.8, 90.9, 49.3, 91.4]  regions [13.2, 115.9]  
+In1.Cu GND            < 1 mm  at [46.4, 93.5]  bbox [46.2, 92.5, 46.8, 94.4]  regions [16.9, 115.9]  
+In1.Cu GND            < 1 mm  at [70.4, 96.6]  bbox [69.0, 95.0, 71.6, 98.5]  regions [4.0, 9.4]  
+In1.Cu GND            < 1 mm  at [84.8, 97.0]  bbox [84.4, 96.6, 85.3, 97.5]  regions [32.0, 125.6]  
+In1.Cu GND            < 1 mm  at [46.4, 100.8]  bbox [46.2, 99.9, 46.8, 101.8]  regions [16.9, 310.7]  
+In1.Cu GND            < 1 mm  at [69.8, 100.7]  bbox [69.3, 100.0, 70.3, 101.4]  regions [3.4, 21.6]  
+In1.Cu GND            < 1 mm  at [74.0, 110.0]  bbox [73.2, 109.4, 75.1, 110.6]  regions [4.2, 310.7]  
+In1.Cu GND            < 1 mm  at [76.5, 112.2]  bbox [76.1, 111.6, 77.0, 112.5]  regions [4.2, 125.6]  
+In1.Cu GND            < 1 mm  at [75.7, 113.1]  bbox [75.1, 112.7, 76.2, 113.6]  regions [4.2, 125.6]  
+In1.Cu GND            < 1 mm  at [75.0, 114.2]  bbox [74.1, 113.2, 76.5, 114.7]  regions [125.6, 310.7]  
+In2.Cu 5V             < 1 mm  at [58.9, 70.5]  bbox [58.4, 70.3, 59.3, 70.9]  regions [32.0, 201.2]  
+In2.Cu 5V             < 1 mm  at [59.1, 71.6]  bbox [58.5, 71.2, 59.6, 72.0]  regions [32.0, 201.2]  
+In2.Cu 5V             < 1 mm  at [68.6, 73.2]  bbox [66.4, 72.5, 71.2, 75.0]  regions [15.7, 32.0]  
+In2.Cu 5V             < 1 mm  at [72.0, 82.5]  bbox [71.7, 82.2, 72.3, 82.8]  regions [3.1, 21.9]  
+In2.Cu 5V             < 1 mm  at [63.5, 84.2]  bbox [62.4, 82.2, 64.7, 85.9]  regions [8.9, 9.6]  
+In2.Cu 5V             < 1 mm  at [71.6, 83.6]  bbox [71.1, 83.2, 72.0, 83.8]  regions [3.1, 21.9]  
+In2.Cu 5V             < 1 mm  at [67.0, 84.6]  bbox [66.0, 83.4, 68.0, 86.0]  regions [8.9, 9.6]  
+In2.Cu 5V             < 1 mm  at [85.1, 84.5]  bbox [84.2, 83.6, 85.7, 85.3]  regions [21.9, 497.8]  
+In2.Cu 5V             < 1 mm  at [65.5, 84.6]  bbox [65.1, 84.3, 65.9, 84.8]  regions [8.9, 9.6]  
+In2.Cu 5V             < 1 mm  at [70.8, 86.5]  bbox [70.4, 86.3, 71.2, 86.8]  regions [3.1, 497.8]  
+In2.Cu 5V             < 1 mm  at [64.8, 96.1]  bbox [64.1, 94.0, 65.1, 97.7]  regions [18.7, 255.6]  
+In2.Cu 5V             < 1 mm  at [49.6, 99.6]  bbox [48.5, 98.6, 50.4, 100.4]  regions [17.1, 255.6]  
+In2.Cu 5V             < 1 mm  at [46.4, 100.8]  bbox [46.2, 99.9, 46.8, 101.8]  regions [17.1, 255.6]  
+In2.Cu 5V             < 1 mm  at [70.6, 112.3]  bbox [70.2, 112.0, 71.1, 112.7]  regions [255.6, 497.8]  
+In3.Cu GND            < 1 mm  at [58.8, 70.5]  bbox [58.3, 70.3, 59.4, 70.9]  regions [29.8, 101.1]  
+In3.Cu GND            < 1 mm  at [58.9, 71.7]  bbox [57.7, 71.2, 59.7, 71.9]  regions [29.8, 101.1]  
+In3.Cu GND            < 1 mm  at [50.8, 83.9]  bbox [50.2, 83.2, 51.4, 84.4]  regions [18.1, 101.1]  
+In3.Cu GND            < 1 mm  at [50.1, 84.7]  bbox [49.8, 84.1, 50.4, 85.1]  regions [18.1, 101.1]  
+In3.Cu GND            < 1 mm  at [49.8, 85.8]  bbox [49.6, 85.6, 50.1, 86.1]  regions [18.1, 101.1]  
+In3.Cu GND            < 1 mm  at [49.1, 86.9]  bbox [48.6, 86.3, 49.6, 87.5]  regions [6.5, 101.1]  
+In3.Cu GND            < 1 mm  at [64.9, 86.9]  bbox [64.5, 86.4, 65.1, 87.4]  regions [30.2, 67.1]  
+In3.Cu GND            < 1 mm  at [50.1, 86.8]  bbox [49.8, 86.5, 50.4, 87.1]  regions [6.5, 18.1]  
+In3.Cu GND            < 1 mm  at [85.0, 88.5]  bbox [84.6, 86.7, 85.8, 90.1]  regions [3.2, 270.4]  
+In3.Cu GND            < 1 mm  at [63.6, 87.2]  bbox [63.3, 87.0, 64.0, 87.5]  regions [30.2, 67.1]  
+In3.Cu GND            < 1 mm  at [62.4, 87.9]  bbox [62.0, 87.6, 62.8, 88.1]  regions [30.2, 67.1]  
+In3.Cu GND            < 1 mm  at [62.0, 88.4]  bbox [61.7, 88.1, 62.2, 88.7]  regions [30.2, 67.1]  
+In3.Cu GND            < 1 mm  at [52.2, 88.7]  bbox [52.0, 88.3, 52.4, 89.0]  regions [6.5, 18.1]  
+In3.Cu GND            < 1 mm  at [82.4, 89.6]  bbox [81.7, 88.6, 83.3, 90.5]  regions [3.7, 15.0]  
+In3.Cu GND            < 1 mm  at [60.3, 89.3]  bbox [59.8, 89.0, 60.8, 89.7]  regions [30.2, 67.1]  
+In3.Cu GND            < 1 mm  at [49.9, 89.9]  bbox [49.6, 89.5, 50.1, 90.3]  regions [6.5, 101.1]  
+In3.Cu GND            < 1 mm  at [52.2, 90.0]  bbox [52.0, 89.6, 52.4, 90.3]  regions [6.5, 18.1]  
+In3.Cu GND            < 1 mm  at [80.9, 90.2]  bbox [80.6, 89.8, 81.3, 90.5]  regions [3.7, 15.0]  
+In3.Cu GND            < 1 mm  at [58.6, 91.1]  bbox [58.0, 90.6, 59.0, 91.7]  regions [30.2, 67.1]  
+In3.Cu GND            < 1 mm  at [81.6, 92.8]  bbox [80.3, 92.0, 82.8, 93.8]  regions [3.7, 425.1]  
+In3.Cu GND            < 1 mm  at [71.7, 92.6]  bbox [70.8, 92.1, 72.6, 93.2]  regions [4.7, 12.8]  
+In3.Cu GND            < 1 mm  at [55.3, 92.6]  bbox [55.0, 92.4, 55.6, 92.8]  regions [9.9, 18.1]  
+In3.Cu GND            < 1 mm  at [46.4, 93.5]  bbox [46.2, 92.5, 46.8, 94.4]  regions [17.0, 101.1]  
+In3.Cu GND            < 1 mm  at [85.2, 93.0]  bbox [84.9, 92.6, 85.7, 93.3]  regions [3.2, 270.4]  
+In3.Cu GND            < 1 mm  at [53.4, 93.2]  bbox [53.1, 93.1, 53.7, 93.4]  regions [9.9, 18.1]  
+In3.Cu GND            < 1 mm  at [49.8, 98.9]  bbox [49.2, 98.2, 50.4, 99.5]  regions [17.0, 425.1]  
+In3.Cu GND            < 1 mm  at [84.9, 99.9]  bbox [84.4, 99.3, 85.4, 100.5]  regions [270.4, 425.1]  
+In3.Cu GND            < 1 mm  at [46.4, 100.8]  bbox [46.2, 99.9, 46.8, 101.8]  regions [17.0, 425.1]  
+In3.Cu GND            < 1 mm  at [80.5, 108.6]  bbox [77.7, 105.8, 82.4, 110.9]  regions [270.4, 425.1]  
+In4.Cu GND            < 1 mm  at [68.4, 70.7]  bbox [67.3, 70.3, 69.6, 71.5]  regions [4.5, 16.4]  
+In4.Cu GND            < 1 mm  at [58.6, 71.9]  bbox [57.5, 71.2, 59.7, 73.0]  regions [16.4, 121.7]  
+In4.Cu GND            < 1 mm  at [67.8, 72.2]  bbox [67.2, 71.7, 68.4, 72.5]  regions [4.5, 16.4]  
+In4.Cu GND            < 1 mm  at [88.2, 79.0]  bbox [87.8, 78.8, 88.6, 79.3]  regions [86.4, 208.2]  
+In4.Cu GND            < 1 mm  at [90.3, 79.8]  bbox [89.9, 79.4, 90.6, 80.2]  regions [86.4, 208.2]  
+In4.Cu GND            < 1 mm  at [79.2, 85.0]  bbox [78.5, 84.6, 79.8, 85.3]  regions [17.7, 36.9]  
+In4.Cu GND            < 1 mm  at [56.5, 85.5]  bbox [56.1, 85.1, 56.9, 85.8]  regions [10.1, 121.7]  
+In4.Cu GND            < 1 mm  at [51.1, 92.7]  bbox [51.0, 92.1, 51.4, 93.4]  regions [6.1, 19.5]  
+In4.Cu GND            < 1 mm  at [46.4, 93.5]  bbox [46.2, 92.5, 46.8, 94.4]  regions [16.8, 121.7]  
+In4.Cu GND            < 1 mm  at [53.4, 93.2]  bbox [53.1, 93.1, 53.7, 93.4]  regions [6.1, 19.5]  
+In4.Cu GND            < 1 mm  at [63.2, 93.7]  bbox [63.0, 93.4, 63.5, 94.1]  regions [17.4, 370.3]  
+In4.Cu GND            < 1 mm  at [78.1, 97.3]  bbox [77.4, 96.9, 78.7, 97.8]  regions [4.4, 18.3]  
+In4.Cu GND            < 1 mm  at [77.8, 98.5]  bbox [77.2, 98.1, 78.4, 98.7]  regions [4.4, 18.3]  
+In4.Cu GND            < 1 mm  at [46.4, 100.8]  bbox [46.2, 99.9, 46.8, 101.8]  regions [16.8, 370.3]  
+B.Cu   GND            < 1 mm  at [81.0, 70.4]  bbox [80.1, 70.3, 81.9, 70.8]  regions [4.0, 64.8]  
+B.Cu   GND            < 1 mm  at [81.6, 79.0]  bbox [81.0, 78.6, 82.3, 79.4]  regions [4.0, 11.9]  
+B.Cu   GND            < 1 mm  at [90.4, 79.6]  bbox [90.1, 78.6, 90.6, 80.5]  regions [3.4, 64.8]  
+B.Cu   GND            < 1 mm  at [81.6, 80.5]  bbox [81.3, 79.9, 82.1, 81.5]  regions [4.0, 11.9]  
+B.Cu   GND            < 1 mm  at [88.4, 80.7]  bbox [87.6, 80.1, 89.1, 81.1]  regions [3.4, 64.8]  
+B.Cu   GND            < 1 mm  at [84.5, 82.0]  bbox [83.6, 81.3, 85.5, 82.4]  regions [4.0, 4.9]  
+B.Cu   GND            < 1 mm  at [90.3, 84.8]  bbox [89.8, 82.4, 90.6, 87.3]  regions [3.4, 3.5]  
+B.Cu   GND            < 1 mm  at [55.9, 88.0]  bbox [55.4, 87.6, 56.3, 88.4]  regions [7.8, 12.3]  
+B.Cu   GND            < 1 mm  at [54.8, 88.6]  bbox [54.6, 88.2, 55.0, 88.9]  regions [7.8, 12.3]  
+B.Cu   GND            < 1 mm  at [54.4, 91.2]  bbox [53.7, 89.9, 54.9, 92.3]  regions [7.8, 12.3]  
+B.Cu   GND            < 1 mm  at [90.3, 90.7]  bbox [89.9, 90.2, 90.6, 91.1]  regions [3.5, 4.9]  
+B.Cu   GND            < 1 mm  at [46.4, 93.5]  bbox [46.2, 92.5, 46.8, 94.4]  regions [15.6, 17.9]  
+B.Cu   GND            < 1 mm  at [73.0, 97.2]  bbox [72.6, 96.9, 73.6, 97.7]  regions [9.7, 12.2]  
+B.Cu   GND            < 1 mm  at [50.6, 98.4]  bbox [49.5, 97.1, 51.8, 100.4]  regions [14.2, 17.9]  
+B.Cu   GND            < 1 mm  at [69.9, 98.9]  bbox [69.4, 98.3, 70.4, 99.4]  regions [3.3, 15.7]  
+B.Cu   GND            < 1 mm  at [84.2, 98.7]  bbox [83.4, 98.6, 84.9, 99.0]  regions [12.3, 57.6]  
+B.Cu   GND            < 1 mm  at [46.4, 100.8]  bbox [46.2, 99.9, 46.8, 101.8]  regions [17.9, 145.9]  
+B.Cu   GND            < 1 mm  at [69.8, 100.8]  bbox [69.3, 100.0, 70.7, 101.5]  regions [3.3, 15.7]  
+B.Cu   GND            < 1 mm  at [73.2, 105.9]  bbox [70.3, 101.3, 75.7, 111.2]  regions [11.9, 15.7, 145.9]  
+B.Cu   GND            < 1 mm  at [60.9, 102.6]  bbox [60.6, 102.0, 61.1, 103.1]  regions [8.6, 20.6]  
+F.Cu   GND            < 2 mm  at [52.2, 71.2]  bbox [50.7, 70.3, 53.4, 72.4]  regions [3.8, 33.0]  
+F.Cu   GND            < 2 mm  at [71.3, 75.7]  bbox [64.9, 70.3, 77.5, 82.7]  regions [5.7, 8.4]  
+F.Cu   GND            < 2 mm  at [88.9, 75.0]  bbox [85.3, 70.3, 90.6, 81.1]  regions [6.1, 7.2]  
+F.Cu   GND            < 2 mm  at [56.4, 83.9]  bbox [53.7, 82.2, 59.1, 85.4]  regions [4.0, 8.5]  
+F.Cu   GND            < 2 mm  at [88.0, 88.5]  bbox [86.1, 83.1, 90.6, 93.4]  regions [7.2, 9.3]  
+F.Cu   GND            < 2 mm  at [58.1, 104.5]  bbox [55.5, 101.0, 60.6, 107.3]  regions [15.0, 144.5]  
+F.Cu   GND            < 2 mm  at [69.8, 107.2]  bbox [64.8, 102.3, 75.0, 112.7]  regions [3.2, 32.2, 144.5]  
+F.Cu   GND            < 2 mm  at [66.9, 111.4]  bbox [65.7, 110.5, 68.2, 112.0]  regions [3.2, 144.5]  
+F.Cu   GND            < 2 mm  at [78.7, 113.1]  bbox [74.4, 110.6, 82.4, 114.7]  regions [5.7, 32.2]  
+F.Cu   GND            < 2 mm  at [85.1, 113.9]  bbox [83.9, 112.9, 86.2, 114.7]  regions [5.7, 18.9]  
+In1.Cu GND            < 2 mm  at [68.0, 71.0]  bbox [66.2, 70.3, 69.6, 72.2]  regions [6.8, 22.2]  
+In1.Cu GND            < 2 mm  at [86.8, 70.7]  bbox [85.7, 70.3, 87.8, 71.9]  regions [13.2, 53.0]  
+In1.Cu GND            < 2 mm  at [54.4, 73.3]  bbox [52.8, 71.8, 56.2, 75.5]  regions [5.6, 6.5]  
+In1.Cu GND            < 2 mm  at [86.2, 72.6]  bbox [85.9, 72.2, 86.5, 72.9]  regions [13.2, 53.0]  
+In1.Cu GND            < 2 mm  at [66.9, 73.1]  bbox [66.6, 72.4, 67.2, 73.7]  regions [6.8, 22.2]  
+In1.Cu GND            < 2 mm  at [52.3, 74.2]  bbox [51.5, 72.9, 53.2, 75.2]  regions [5.6, 37.4]  
+In1.Cu GND            < 2 mm  at [69.4, 77.4]  bbox [63.3, 73.0, 75.1, 84.5]  regions [6.0, 6.8, 22.2]  
+In1.Cu GND            < 2 mm  at [88.9, 78.1]  bbox [87.2, 73.3, 90.6, 82.6]  regions [13.2, 23.6]  
+In1.Cu GND            < 2 mm  at [54.4, 78.2]  bbox [51.1, 75.8, 58.8, 80.6]  regions [5.6, 6.5]  
+In1.Cu GND            < 2 mm  at [79.9, 79.7]  bbox [75.7, 77.4, 83.8, 82.7]  regions [4.6, 53.0]  
+In1.Cu GND            < 2 mm  at [49.4, 79.2]  bbox [47.5, 77.7, 50.5, 80.7]  regions [14.8, 37.4]  
+In1.Cu GND            < 2 mm  at [46.4, 79.8]  bbox [46.2, 78.7, 47.1, 81.0]  regions [14.8, 37.4]  
+In1.Cu GND            < 2 mm  at [62.2, 86.6]  bbox [51.3, 81.4, 71.1, 90.0]  regions [4.0, 11.4]  
+In1.Cu GND            < 2 mm  at [62.7, 84.1]  bbox [57.8, 82.4, 66.3, 86.5]  regions [4.0, 6.1]  
+In1.Cu GND            < 2 mm  at [50.4, 87.3]  bbox [46.2, 82.8, 54.6, 92.6]  regions [4.4, 12.9, 14.8]  
+In1.Cu GND            < 2 mm  at [81.0, 88.3]  bbox [78.8, 85.5, 82.5, 91.2]  regions [8.3, 9.8]  
+In1.Cu GND            < 2 mm  at [90.2, 90.4]  bbox [89.1, 89.2, 90.6, 91.8]  regions [15.2, 23.6]  
+In1.Cu GND            < 2 mm  at [46.7, 92.3]  bbox [46.2, 90.1, 48.3, 95.0]  regions [12.9, 15.9]  
+In1.Cu GND            < 2 mm  at [59.0, 93.2]  bbox [56.1, 90.4, 61.8, 95.5]  regions [4.7, 9.9]  
+In1.Cu GND            < 2 mm  at [71.9, 105.7]  bbox [61.7, 94.0, 84.4, 114.7]  regions [3.4, 6.2, 10.0, 12.3, 29.2, 31.1, 42.9, 168.5]  
+In1.Cu GND            < 2 mm  at [87.3, 94.7]  bbox [86.4, 94.0, 88.0, 95.3]  regions [9.1, 15.2]  
+In1.Cu GND            < 2 mm  at [89.6, 97.0]  bbox [88.2, 94.8, 90.6, 99.4]  regions [7.0, 9.1, 15.2]  
+In1.Cu GND            < 2 mm  at [87.9, 95.3]  bbox [87.6, 95.0, 88.3, 95.7]  regions [9.1, 15.2]  
+In1.Cu GND            < 2 mm  at [74.2, 99.3]  bbox [70.7, 97.3, 76.8, 101.3]  regions [4.6, 10.0]  
+In1.Cu GND            < 2 mm  at [87.0, 99.4]  bbox [86.3, 98.4, 88.0, 100.0]  regions [7.0, 9.1]  
+In1.Cu GND            < 2 mm  at [47.6, 102.7]  bbox [46.2, 99.2, 49.7, 104.7]  regions [15.9, 168.5]  
+In1.Cu GND            < 2 mm  at [90.2, 101.4]  bbox [89.3, 100.2, 90.6, 102.5]  regions [7.0, 29.2]  
+In1.Cu GND            < 2 mm  at [88.4, 101.2]  bbox [87.9, 100.9, 89.0, 101.6]  regions [7.0, 29.2]  
+In1.Cu GND            < 2 mm  at [50.6, 104.7]  bbox [49.1, 102.4, 52.4, 107.3]  regions [42.9, 168.5]  
+In1.Cu GND            < 2 mm  at [60.4, 105.2]  bbox [59.6, 103.8, 61.6, 106.6]  regions [42.9, 168.5]  
+In1.Cu GND            < 2 mm  at [58.4, 106.6]  bbox [57.8, 106.0, 59.3, 107.3]  regions [42.9, 168.5]  
+In1.Cu GND            < 2 mm  at [89.5, 107.9]  bbox [87.6, 106.1, 90.6, 109.5]  regions [18.9, 29.2]  
+In1.Cu GND            < 2 mm  at [70.1, 113.4]  bbox [68.1, 111.3, 72.0, 114.7]  regions [6.2, 168.5]  
+In1.Cu GND            < 2 mm  at [85.1, 113.9]  bbox [84.0, 112.9, 86.2, 114.7]  regions [12.3, 18.9]  
+In2.Cu 5V             < 2 mm  at [50.9, 71.0]  bbox [48.1, 70.3, 54.0, 72.4]  regions [15.0, 43.8]  
+In2.Cu 5V             < 2 mm  at [57.3, 71.5]  bbox [54.4, 70.3, 61.0, 74.2]  regions [15.0, 21.1]  
+In2.Cu 5V             < 2 mm  at [69.4, 82.0]  bbox [60.7, 72.4, 82.8, 89.5]  regions [3.1, 3.7, 5.9, 20.6, 21.1]  
+In2.Cu 5V             < 2 mm  at [52.1, 73.0]  bbox [51.7, 72.6, 52.5, 73.5]  regions [15.0, 43.8]  
+In2.Cu 5V             < 2 mm  at [52.6, 74.3]  bbox [51.7, 73.6, 53.5, 75.1]  regions [15.0, 43.8]  
+In2.Cu 5V             < 2 mm  at [88.6, 78.1]  bbox [84.7, 74.2, 90.6, 81.6]  regions [61.0, 61.0]  
+In2.Cu 5V             < 2 mm  at [64.1, 74.9]  bbox [63.3, 74.3, 64.8, 75.8]  regions [3.1, 21.1]  
+In2.Cu 5V             < 2 mm  at [54.2, 75.1]  bbox [53.7, 74.6, 54.7, 75.5]  regions [15.0, 43.8]  
+In2.Cu 5V             < 2 mm  at [54.7, 77.2]  bbox [53.7, 75.8, 55.8, 78.6]  regions [3.6, 15.0, 43.8]  
+In2.Cu 5V             < 2 mm  at [52.4, 80.5]  bbox [47.5, 77.0, 55.1, 85.8]  regions [3.6, 3.8, 12.7, 20.2, 43.8]  
+In2.Cu 5V             < 2 mm  at [46.4, 79.8]  bbox [46.2, 78.8, 47.1, 81.0]  regions [20.2, 43.8]  
+In2.Cu 5V             < 2 mm  at [84.9, 84.6]  bbox [83.2, 82.7, 86.0, 86.9]  regions [3.8, 5.9]  
+In2.Cu 5V             < 2 mm  at [46.9, 85.1]  bbox [46.2, 83.3, 48.6, 86.8]  regions [4.1, 10.9, 20.2]  
+In2.Cu 5V             < 2 mm  at [50.0, 84.1]  bbox [48.9, 83.3, 51.6, 85.2]  regions [4.1, 12.7, 20.2]  
+In2.Cu 5V             < 2 mm  at [48.1, 83.9]  bbox [47.7, 83.5, 48.6, 84.3]  regions [4.1, 20.2]  
+In2.Cu 5V             < 2 mm  at [78.1, 85.1]  bbox [76.2, 83.8, 79.8, 86.4]  regions [7.7, 20.6]  
+In2.Cu 5V             < 2 mm  at [54.8, 90.5]  bbox [48.6, 85.4, 61.1, 95.7]  regions [3.5, 3.8, 4.0, 4.1, 4.7, 10.9, 12.7]  
+In2.Cu 5V             < 2 mm  at [76.4, 93.9]  bbox [66.5, 86.4, 82.9, 102.0]  regions [3.1, 5.1, 6.3, 7.7, 10.4, 15.9, 20.6]  
+In2.Cu 5V             < 2 mm  at [84.5, 88.4]  bbox [83.1, 87.2, 85.9, 90.0]  regions [3.8, 4.6]  
+In2.Cu 5V             < 2 mm  at [49.6, 89.9]  bbox [49.0, 89.0, 50.2, 90.4]  regions [4.0, 10.9]  
+In2.Cu 5V             < 2 mm  at [47.4, 92.2]  bbox [46.2, 90.7, 50.1, 95.0]  regions [3.5, 10.9, 16.2]  
+In2.Cu 5V             < 2 mm  at [85.5, 92.5]  bbox [84.8, 91.3, 86.2, 93.5]  regions [4.6, 61.0, 69.7]  
+In2.Cu 5V             < 2 mm  at [83.9, 92.7]  bbox [83.4, 91.4, 84.6, 94.1]  regions [4.6, 69.7]  
+In2.Cu 5V             < 2 mm  at [60.0, 96.5]  bbox [52.1, 91.9, 65.2, 98.5]  regions [7.5, 10.5]  
+In2.Cu 5V             < 2 mm  at [87.1, 93.9]  bbox [86.4, 93.2, 87.8, 94.7]  regions [61.0, 69.7]  
+In2.Cu 5V             < 2 mm  at [87.9, 95.3]  bbox [87.6, 94.9, 88.2, 95.7]  regions [61.0, 69.7]  
+In2.Cu 5V             < 2 mm  at [89.8, 97.1]  bbox [88.4, 95.4, 90.6, 98.8]  regions [61.0, 69.7]  
+In2.Cu 5V             < 2 mm  at [69.0, 100.8]  bbox [64.8, 96.6, 73.2, 105.4]  regions [4.3, 7.5, 16.5]  
+In2.Cu 5V             < 2 mm  at [48.6, 102.9]  bbox [46.2, 98.6, 51.1, 107.3]  regions [16.2, 207.7]  
+In2.Cu 5V             < 2 mm  at [62.9, 103.2]  bbox [60.5, 98.7, 66.3, 106.8]  regions [4.3, 7.5, 207.7]  
+In2.Cu 5V             < 2 mm  at [79.3, 107.4]  bbox [75.4, 102.1, 83.4, 112.1]  regions [5.9, 7.8, 10.7, 12.7, 15.9]  
+In2.Cu 5V             < 2 mm  at [83.1, 103.1]  bbox [82.5, 102.6, 84.0, 103.5]  regions [10.7, 69.7]  
+In2.Cu 5V             < 2 mm  at [85.1, 103.8]  bbox [84.5, 103.5, 85.7, 104.2]  regions [10.7, 69.7]  
+In2.Cu 5V             < 2 mm  at [85.8, 105.5]  bbox [85.2, 104.5, 86.3, 106.2]  regions [10.7, 69.7]  
+In2.Cu 5V             < 2 mm  at [70.7, 108.8]  bbox [66.2, 106.0, 74.3, 111.4]  regions [7.8, 207.7]  
+In2.Cu 5V             < 2 mm  at [89.6, 108.1]  bbox [87.7, 106.3, 90.6, 109.8]  regions [18.1, 69.7]  
+In2.Cu 5V             < 2 mm  at [76.0, 111.3]  bbox [75.1, 110.7, 76.8, 112.4]  regions [5.9, 11.6]  
+In2.Cu 5V             < 2 mm  at [70.4, 113.7]  bbox [68.1, 111.9, 73.7, 114.7]  regions [11.6, 207.7]  
+In2.Cu 5V             < 2 mm  at [77.9, 114.1]  bbox [74.2, 112.4, 82.2, 114.7]  regions [5.9, 11.6, 12.7]  
+In2.Cu 5V             < 2 mm  at [85.1, 113.9]  bbox [83.9, 112.9, 86.2, 114.7]  regions [12.7, 18.1]  
+In3.Cu GND            < 2 mm  at [54.2, 73.4]  bbox [47.5, 70.3, 61.0, 80.1]  regions [7.0, 14.7, 20.0, 41.7]  
+In3.Cu GND            < 2 mm  at [73.7, 77.8]  bbox [66.2, 70.3, 79.6, 84.1]  regions [3.7, 18.0, 20.0]  
+In3.Cu GND            < 2 mm  at [87.8, 78.4]  bbox [82.1, 73.3, 90.6, 81.9]  regions [57.7, 65.7]  
+In3.Cu GND            < 2 mm  at [61.2, 86.4]  bbox [53.4, 77.5, 66.2, 94.9]  regions [6.0, 15.9, 29.5]  
+In3.Cu GND            < 2 mm  at [46.4, 79.8]  bbox [46.2, 78.7, 47.1, 81.0]  regions [14.7, 41.7]  
+In3.Cu GND            < 2 mm  at [85.2, 87.6]  bbox [82.8, 80.7, 87.3, 94.3]  regions [13.7, 14.8, 57.7]  
+In3.Cu GND            < 2 mm  at [56.3, 83.8]  bbox [54.1, 82.3, 58.4, 85.7]  regions [6.0, 29.5]  
+In3.Cu GND            < 2 mm  at [52.1, 89.3]  bbox [46.2, 82.4, 58.2, 95.5]  regions [3.1, 3.5, 4.1, 12.6, 14.7]  
+In3.Cu GND            < 2 mm  at [81.9, 89.8]  bbox [79.8, 82.8, 83.8, 96.1]  regions [4.6, 4.9, 103.4]  
+In3.Cu GND            < 2 mm  at [49.6, 90.5]  bbox [48.7, 89.5, 50.3, 91.2]  regions [3.5, 12.6]  
+In3.Cu GND            < 2 mm  at [46.7, 92.3]  bbox [46.2, 90.1, 48.2, 95.0]  regions [12.6, 16.0]  
+In3.Cu GND            < 2 mm  at [87.2, 93.8]  bbox [86.3, 92.6, 88.0, 94.7]  regions [14.8, 57.7]  
+In3.Cu GND            < 2 mm  at [89.6, 97.0]  bbox [88.2, 94.8, 90.6, 99.4]  regions [7.3, 14.8, 57.7]  
+In3.Cu GND            < 2 mm  at [87.9, 95.3]  bbox [87.6, 95.0, 88.3, 95.7]  regions [14.8, 57.7]  
+In3.Cu GND            < 2 mm  at [78.9, 98.5]  bbox [77.3, 95.9, 81.0, 101.0]  regions [4.6, 103.4]  
+In3.Cu GND            < 2 mm  at [61.8, 100.1]  bbox [52.2, 96.2, 65.3, 107.5]  regions [51.0, 164.7]  
+In3.Cu GND            < 2 mm  at [85.0, 99.3]  bbox [84.0, 98.0, 86.1, 101.1]  regions [14.8, 103.4]  
+In3.Cu GND            < 2 mm  at [49.0, 102.9]  bbox [46.2, 98.1, 52.3, 107.3]  regions [16.0, 51.0, 164.7]  
+In3.Cu GND            < 2 mm  at [87.0, 99.3]  bbox [86.4, 98.3, 88.0, 100.1]  regions [7.3, 14.8]  
+In3.Cu GND            < 2 mm  at [69.7, 105.4]  bbox [66.0, 98.5, 76.7, 111.8]  regions [3.1, 5.4, 103.4]  
+In3.Cu GND            < 2 mm  at [90.2, 101.4]  bbox [89.3, 100.2, 90.6, 102.5]  regions [7.3, 32.3]  
+In3.Cu GND            < 2 mm  at [88.4, 101.2]  bbox [87.9, 100.9, 89.0, 101.5]  regions [7.3, 32.3]  
+In3.Cu GND            < 2 mm  at [79.9, 106.4]  bbox [75.5, 102.1, 83.4, 111.1]  regions [4.3, 103.4]  
+In3.Cu GND            < 2 mm  at [60.4, 105.2]  bbox [59.6, 103.8, 61.6, 106.6]  regions [51.0, 164.7]  
+In3.Cu GND            < 2 mm  at [58.4, 106.6]  bbox [57.8, 106.0, 59.3, 107.3]  regions [51.0, 164.7]  
+In3.Cu GND            < 2 mm  at [89.5, 107.9]  bbox [87.7, 106.1, 90.6, 109.5]  regions [18.9, 32.3]  
+In3.Cu GND            < 2 mm  at [79.4, 111.5]  bbox [78.6, 110.9, 80.1, 112.1]  regions [4.3, 12.3]  
+In3.Cu GND            < 2 mm  at [73.9, 112.4]  bbox [72.5, 111.0, 75.5, 113.4]  regions [3.1, 5.4]  
+In3.Cu GND            < 2 mm  at [69.9, 113.2]  bbox [68.1, 111.3, 71.6, 114.7]  regions [5.4, 164.7]  
+In3.Cu GND            < 2 mm  at [77.5, 114.0]  bbox [74.2, 111.8, 82.3, 114.7]  regions [4.3, 12.3]  
+In3.Cu GND            < 2 mm  at [78.7, 113.0]  bbox [78.0, 112.3, 79.2, 113.5]  regions [4.3, 12.3]  
+In3.Cu GND            < 2 mm  at [85.1, 113.9]  bbox [84.0, 112.9, 86.2, 114.7]  regions [12.3, 18.9]  
+In4.Cu GND            < 2 mm  at [52.3, 72.2]  bbox [50.7, 70.3, 53.8, 75.2]  regions [10.2, 46.8]  
+In4.Cu GND            < 2 mm  at [57.6, 71.7]  bbox [54.8, 70.3, 61.0, 74.3]  regions [10.2, 13.7]  
+In4.Cu GND            < 2 mm  at [79.7, 77.8]  bbox [77.1, 73.3, 82.9, 82.3]  regions [64.8, 68.3]  
+In4.Cu GND            < 2 mm  at [89.6, 78.1]  bbox [87.5, 73.3, 90.6, 81.9]  regions [64.8, 68.3]  
+In4.Cu GND            < 2 mm  at [54.2, 75.1]  bbox [53.7, 74.6, 54.7, 75.5]  regions [10.2, 46.8]  
+In4.Cu GND            < 2 mm  at [48.9, 79.4]  bbox [47.5, 78.6, 50.6, 80.1]  regions [18.3, 46.8]  
+In4.Cu GND            < 2 mm  at [46.4, 79.8]  bbox [46.2, 78.7, 47.1, 81.0]  regions [18.3, 46.8]  
+In4.Cu GND            < 2 mm  at [53.4, 85.2]  bbox [46.2, 83.1, 64.5, 89.1]  regions [5.9, 18.3]  
+In4.Cu GND            < 2 mm  at [79.6, 84.8]  bbox [77.0, 83.5, 82.1, 86.6]  regions [5.6, 24.4]  
+In4.Cu GND            < 2 mm  at [76.7, 89.2]  bbox [74.1, 86.4, 78.3, 92.0]  regions [6.2, 24.4]  
+In4.Cu GND            < 2 mm  at [46.7, 92.3]  bbox [46.2, 90.1, 48.3, 95.0]  regions [5.9, 15.9]  
+In4.Cu GND            < 2 mm  at [68.4, 101.4]  bbox [61.6, 93.1, 75.4, 111.6]  regions [5.4, 6.3, 9.8, 14.5, 27.8, 170.5]  
+In4.Cu GND            < 2 mm  at [89.5, 97.0]  bbox [88.1, 94.8, 90.6, 99.4]  regions [7.3, 10.9, 68.3]  
+In4.Cu GND            < 2 mm  at [85.4, 99.5]  bbox [85.0, 98.0, 86.1, 101.3]  regions [10.9, 31.5]  
+In4.Cu GND            < 2 mm  at [86.9, 99.5]  bbox [86.3, 98.3, 88.0, 100.1]  regions [7.3, 10.9]  
+In4.Cu GND            < 2 mm  at [48.4, 103.4]  bbox [46.2, 99.2, 51.1, 107.3]  regions [15.9, 170.5]  
+In4.Cu GND            < 2 mm  at [78.3, 104.9]  bbox [76.3, 99.4, 79.4, 110.3]  regions [3.7, 14.5]  
+In4.Cu GND            < 2 mm  at [90.2, 101.4]  bbox [89.3, 100.2, 90.6, 102.5]  regions [7.3, 31.5]  
+In4.Cu GND            < 2 mm  at [74.5, 102.0]  bbox [73.6, 100.7, 75.3, 103.2]  regions [14.5, 27.8]  
+In4.Cu GND            < 2 mm  at [88.4, 101.2]  bbox [87.9, 100.9, 89.0, 101.6]  regions [7.3, 31.5]  
+In4.Cu GND            < 2 mm  at [62.8, 103.0]  bbox [61.7, 102.4, 63.4, 103.7]  regions [50.5, 170.5]  
+In4.Cu GND            < 2 mm  at [60.4, 105.2]  bbox [59.6, 103.8, 61.6, 106.6]  regions [50.5, 170.5]  
+In4.Cu GND            < 2 mm  at [73.9, 105.6]  bbox [72.7, 104.0, 74.8, 107.2]  regions [6.3, 27.8]  
+In4.Cu GND            < 2 mm  at [80.9, 108.9]  bbox [77.4, 104.6, 83.2, 112.1]  regions [4.4, 12.3]  
+In4.Cu GND            < 2 mm  at [75.9, 107.2]  bbox [74.7, 105.5, 77.6, 109.1]  regions [3.7, 14.5]  
+In4.Cu GND            < 2 mm  at [58.4, 106.6]  bbox [57.8, 106.0, 59.3, 107.3]  regions [50.5, 170.5]  
+In4.Cu GND            < 2 mm  at [89.5, 107.9]  bbox [87.7, 106.1, 90.6, 109.5]  regions [18.9, 31.5]  
+In4.Cu GND            < 2 mm  at [74.7, 111.5]  bbox [72.5, 109.5, 76.7, 113.4]  regions [3.7, 5.4]  
+In4.Cu GND            < 2 mm  at [69.7, 113.3]  bbox [68.1, 111.8, 71.3, 114.7]  regions [5.4, 170.5]  
+In4.Cu GND            < 2 mm  at [77.5, 114.1]  bbox [74.2, 111.9, 82.3, 114.7]  regions [4.4, 12.3]  
+In4.Cu GND            < 2 mm  at [78.7, 113.0]  bbox [78.0, 112.3, 79.2, 113.5]  regions [4.4, 12.3]  
+In4.Cu GND            < 2 mm  at [85.1, 113.9]  bbox [84.0, 112.9, 86.2, 114.7]  regions [12.3, 18.9]  
+B.Cu   GND            < 2 mm  at [67.3, 75.0]  bbox [59.3, 71.9, 72.7, 79.1]  regions [4.2, 4.3, 7.8]  
+B.Cu   GND            < 2 mm  at [66.9, 73.1]  bbox [66.5, 72.6, 67.2, 73.7]  regions [4.2, 7.8]  
+B.Cu   GND            < 2 mm  at [78.4, 80.4]  bbox [67.5, 76.3, 88.7, 84.3]  regions [4.3, 9.3]  
+B.Cu   GND            < 2 mm  at [85.7, 89.6]  bbox [84.3, 84.7, 87.6, 94.6]  regions [6.9, 8.2]  
+B.Cu   GND            < 2 mm  at [46.6, 92.3]  bbox [46.2, 90.1, 48.3, 95.0]  regions [11.9, 16.1]  
+B.Cu   GND            < 2 mm  at [73.6, 96.1]  bbox [70.3, 92.0, 76.1, 99.3]  regions [3.4, 3.9]  
+B.Cu   GND            < 2 mm  at [72.1, 105.6]  bbox [66.0, 94.2, 83.0, 114.7]  regions [3.7, 3.9, 115.5]  
+B.Cu   GND            < 2 mm  at [60.7, 100.3]  bbox [52.2, 96.2, 64.2, 106.1]  regions [3.1, 6.4]  
+B.Cu   GND            < 2 mm  at [87.1, 100.1]  bbox [83.0, 98.6, 90.6, 102.1]  regions [8.7, 10.1]  
+B.Cu   GND            < 2 mm  at [47.4, 103.6]  bbox [46.2, 99.2, 51.1, 106.9]  regions [16.1, 115.5]  
+B.Cu   GND            < 2 mm  at [88.2, 103.3]  bbox [87.5, 102.2, 89.1, 104.2]  regions [8.7, 9.2]  
+B.Cu   GND            < 2 mm  at [85.6, 105.1]  bbox [83.4, 103.5, 87.6, 106.7]  regions [8.7, 9.2]  
+B.Cu   GND            < 2 mm  at [89.5, 107.9]  bbox [87.7, 106.1, 90.6, 109.5]  regions [9.2, 18.9]  
+
+== routing: track runs > 1.5x their end-to-end distance (>= 4 mm), worst 40
+In1.Cu SDA                     18.4 mm for   9.4 mm (x2.0)  [59.975, 99.275] -> [59.675, 89.925]
+In2.Cu 0A_hi                   18.9 mm for  10.0 mm (x1.9)  [73.575, 99.025] -> [70.875, 108.675]
+In1.Cu Net-(U24-In+)           10.4 mm for   3.3 mm (x3.1)  [75.325, 90.075] -> [78.575, 89.475]
+In2.Cu 0err_hi                 14.8 mm for   9.8 mm (x1.5)  [75.075, 99.025] -> [71.175, 107.975]
+F.Cu   M1_INHIBIT               7.2 mm for   3.2 mm (x2.3)  [55.125, 70.875] -> [56.275, 73.825]
+F.Cu   Net-(Q1-E)               9.2 mm for   5.6 mm (x1.6)  [47.925, 102.775] -> [50.175, 97.625]
+F.Cu   5V                       5.6 mm for   2.9 mm (x1.9)  [79.175, 77.875] -> [81.225, 79.925]
+In4.Cu Net-(U3-In-)             5.6 mm for   3.7 mm (x1.5)  [71.775, 92.125] -> [68.175, 91.275]
+
+== routing: acute corners (< 90 deg): 17
+   F.Cu   analog_5V                2 deg at [49.075, 88.675]
+   F.Cu   GND                      6 deg at [71.975, 79.425]
+   F.Cu   GND                     27 deg at [51.575, 77.325]
+   F.Cu   GND                     45 deg at [89.975, 95.675]
+   B.Cu   GND                      0 deg at [58.525, 84.775]
+   B.Cu   GND                      1 deg at [75.478, 81.271]
+   F.Cu   OUT_3_ENA               66 deg at [88.275, 95.775]
+   B.Cu   5V                       2 deg at [73.325, 96.525]
+   B.Cu   Net-(U26B-P1B)          45 deg at [59.175, 85.175]
+   F.Cu   Net-(U21-In+)           20 deg at [76.225, 112.725]
+   F.Cu   0err_hi                 13 deg at [49.975, 106.375]
+   B.Cu   Net-(U26E-HVC{slash}A0)   3 deg at [56.525, 84.775]
+   F.Cu   Net-(D3-+)              20 deg at [49.525, 109.725]
+   F.Cu   .1Vout_2                 0 deg at [72.925, 70.825]
+   F.Cu   Net-(U26A-P0B)          20 deg at [81.625, 90.325]
+   F.Cu   Net-(D23-+)             17 deg at [49.125, 104.825]
+   B.Cu   Net-(D23-+)             40 deg at [49.125, 104.825]
+
+== routing: jogs (segments < 0.15 mm): 2601 in 240 net/layers
+   0A_hi|In2.Cu                             74
+   12V|F.Cu                                 67
+   0err_hi|B.Cu                             53
+   12V|In3.Cu                               51
+   Net-(U106A-B)|In1.Cu                     50
+   Out-|F.Cu                                44
+   Net-(D24-+)|F.Cu                         44
+   Net-(D5--)|In4.Cu                        44
+   analog_5V|B.Cu                           43
+   IREF2_input|B.Cu                         40
+   Net-(D24-+)|In3.Cu                       33
+   GND|F.Cu                                 31
+   Net-(C8-Pad2)|In3.Cu                     31
+   5V|F.Cu                                  30
+   low_error_timeout|In4.Cu                 30
+   Net-(U7-In-)|F.Cu                        29
+   .1Vref_2|F.Cu                            28
+   OUT_3_ENA|In3.Cu                         27
+   M1_ON|In2.Cu                             26
+   Net-(D4-+)|In4.Cu                        26
+
+== reference: signal tracks with no plane copper (GND/5V) under them on the neighbouring layer for >= 1 mm
+In4.Cu Out-                   over In3.Cu  5.3 mm at [65.62, 82.97]  (under it: Output1_drain 1, none 49, Vout_2 3)
+In4.Cu VerrGT0                over In3.Cu  4.7 mm at [70.42, 72.88]  (under it: Output1_drain 44, none 3)
+In3.Cu Net-(D24-+)            over In2.Cu  4.7 mm at [65.62, 93.78]  (under it: none 7, analog_5V 39)
+In3.Cu Net-(D5--)             over In2.Cu  4.1 mm at [83.22, 90.39]  (under it: Net-(U23-In+) 23, none 18)
+F.Cu   Reset_raw              over In1.Cu  3.7 mm at [62.31, 92.46]  (under it: SDA 37)
+In4.Cu ena_out_2              over In3.Cu  3.6 mm at [62.12, 80.03]  (under it: none 2, Net-(U102A-Y) 33)
+In3.Cu .1Vref_2               over In2.Cu  3.5 mm at [72.98, 71.78]  (under it: none 25, Net-(D7--) 9)
+F.Cu   IREF1                  over In1.Cu  3.5 mm at [65.39, 98.31]  (under it: none 4, SDA 31)
+B.Cu   12V                    over In4.Cu  3.3 mm at [70.78, 92.13]  (under it: none 26, Net-(U3-In-) 3, IREF1 4)
+B.Cu   set-                   over In4.Cu  3.2 mm at [57.12, 75.93]  (under it: none 29, ena_out_2 3)
+F.Cu   4                      over In1.Cu  3.2 mm at [80.38, 82.22]  (under it: none 26, OUT_1_ENA 4, OUT_3_ENA 2)
+In3.Cu Net-(U102A-Y)          over In2.Cu  3.2 mm at [61.72, 80.03]  (under it: none 5, M1_ON 26)
+F.Cu   VerrGT0                over In1.Cu  3.0 mm at [85.53, 76.67]  (under it: none 36, OUT_1_ENA 4, Out- 1)
+B.Cu   Net-(D26-+)            over In4.Cu  2.9 mm at [81.84, 98.28]  (under it: none 22, Net-(D5--) 2, analog_5V 3, Voltage_err_2 2)
+B.Cu   Net-(Q1-E)             over In4.Cu  2.8 mm at [50.83, 90.83]  (under it: none 28)
+B.Cu   OUT_2_ENA              over In4.Cu  2.7 mm at [84.17, 100.1]  (under it: none 26)
+In4.Cu Net-(D4-+)             over In3.Cu  2.7 mm at [50.67, 91.04]  (under it: Net-(D23-+) 1, none 24, Vref_1 2)
+In3.Cu Net-(U102A-Y)          over In2.Cu  2.7 mm at [58.54, 79.99]  (under it: none 26)
+In4.Cu ena_out_2              over In3.Cu  2.7 mm at [58.54, 79.99]  (under it: Net-(U102A-Y) 26)
+F.Cu   Net-(U106A-B)          over In1.Cu  2.4 mm at [49.67, 94.83]  (under it: Net-(D23-+) 23)
+In3.Cu Vref_1                 over In2.Cu  2.4 mm at [49.67, 94.83]  (under it: Net-(U26C-P2B) 23)
+B.Cu   IREF2_input            over In4.Cu  2.4 mm at [65.72, 104.92]  (under it: none 21, IREF1_input 3)
+In3.Cu IREF3_input            over In2.Cu  2.4 mm at [65.17, 97.71]  (under it: none 24)
+B.Cu   Net-(Q1-E)             over In4.Cu  2.3 mm at [49.67, 94.83]  (under it: Net-(D4-+) 23)
+In2.Cu Net-(U26C-P2B)         over In3.Cu  2.3 mm at [49.67, 94.83]  (under it: Vref_1 23)
+In2.Cu ena_out_3              over In3.Cu  2.3 mm at [79.83, 83.17]  (under it: OUT_2_ENA 8, none 15)
+In2.Cu Net-(U23-In+)          over In3.Cu  2.3 mm at [83.12, 94.92]  (under it: none 3, Net-(D5--) 20)
+In4.Cu Net-(D4-+)             over In3.Cu  2.3 mm at [49.67, 94.83]  (under it: Vref_1 23)
+In4.Cu out_3_on               over In3.Cu  2.3 mm at [54.7, 83.88]  (under it: none 15, ARD_M1_INHIBIT 4, VerrGT0 4)
+F.Cu   VerrGT0                over In1.Cu  2.2 mm at [85.78, 81.17]  (under it: none 25)
+In2.Cu Net-(U23-In+)          over In3.Cu  2.2 mm at [83.22, 92.47]  (under it: Net-(D5--) 24, none 3)
+B.Cu   .1Vref_3               over In4.Cu  2.2 mm at [68.79, 88.12]  (under it: none 13, 0err_hi 18, Net-(U103B-Y) 4)
+B.Cu   SCL                    over In4.Cu  2.2 mm at [54.1, 84.15]  (under it: none 22)
+In4.Cu Net-(D20--)            over In3.Cu  2.0 mm at [82.01, 79.11]  (under it: none 19)
+F.Cu   VerrGT0                over In1.Cu  2.0 mm at [86.38, 85.48]  (under it: none 35)
+In4.Cu Reset_raw              over In3.Cu  2.0 mm at [64.88, 104.33]  (under it: none 7, IREF3_input 3, Net-(D24-+) 9)
+In2.Cu M1_ON                  over In3.Cu  2.0 mm at [61.12, 80.03]  (under it: Net-(U102A-Y) 20)
+F.Cu   Net-(D24-+)            over In1.Cu  2.0 mm at [70.67, 79.69]  (under it: none 13, ena_out_1 4, Net-(U102A-Y) 3)
+In2.Cu Net-(D7--)             over In3.Cu  2.0 mm at [75.13, 72.03]  (under it: none 17, .1Vref_2 3)
+B.Cu   IREF1_input            over In4.Cu  2.0 mm at [64.62, 100.01]  (under it: none 20)
+In4.Cu 0err_hi                over In3.Cu  1.9 mm at [70.51, 88.16]  (under it: none 11, Vout_2 4, 0A_hi 4)
+In2.Cu Vref_1_arduino         over In3.Cu  1.9 mm at [50.81, 93.61]  (under it: Vref_1 2, none 16)
+B.Cu   Vout_1                 over In4.Cu  1.9 mm at [70.17, 89.22]  (under it: Vout_1 2, none 14, 0err_hi 3)
+B.Cu   Voltage_err_2          over In4.Cu  1.8 mm at [83.63, 84.38]  (under it: Net-(U7-In-) 18)
+In4.Cu VerrGT0                over In3.Cu  1.8 mm at [77.29, 72.89]  (under it: none 13, .1Vref_2 4)
+F.Cu   Net-(D4-+)             over In1.Cu  1.8 mm at [51.02, 81.98]  (under it: none 14, Net-(U101A-Y) 4)
+In2.Cu Verr1                  over In3.Cu  1.7 mm at [67.65, 105.92]  (under it: Net-(D24-+) 11, none 8)
+In4.Cu SCL                    over In3.Cu  1.7 mm at [57.33, 91.87]  (under it: none 14, ARD_M1_INHIBIT 3)
+F.Cu   Reset_raw              over In1.Cu  1.6 mm at [58.03, 89.08]  (under it: none 16)
+In2.Cu M1_ON                  over In3.Cu  1.6 mm at [59.09, 79.99]  (under it: Net-(U102A-Y) 2, none 14)
+In2.Cu IREF2                  over In3.Cu  1.6 mm at [66.63, 90.62]  (under it: Net-(D24-+) 10, none 19)
+In2.Cu IREF2                  over In3.Cu  1.6 mm at [70.71, 89.49]  (under it: Vout_2 3, none 8, 0A_hi 5)
+In4.Cu Voltage_err_2          over In3.Cu  1.5 mm at [84.67, 95.83]  (under it: none 26, OUT_3_ENA 3)
+In4.Cu Voltage_err_2          over In3.Cu  1.5 mm at [83.72, 87.08]  (under it: Net-(D5--) 15)
+B.Cu   VerrGT0                over In4.Cu  1.5 mm at [52.99, 78.41]  (under it: ena_out_2 1, none 17, Net-(U26B-P1B) 1)
+In4.Cu Net-(U26A-P0B)         over In3.Cu  1.5 mm at [69.73, 90.67]  (under it: none 15, Net-(D24-+) 12)
+In3.Cu Output3_drain          over In2.Cu  1.5 mm at [69.08, 95.67]  (under it: 0A_hi 12, none 3)
+In2.Cu Net-(D7--)             over In3.Cu  1.5 mm at [69.08, 72.47]  (under it: none 15)
+In4.Cu VerrGT0                over In3.Cu  1.4 mm at [76.02, 71.67]  (under it: .1Vref_2 13)
+B.Cu   .1Vref_3               over In4.Cu  1.4 mm at [74.91, 88.16]  (under it: none 14)
+In4.Cu Net-(D5--)             over In3.Cu  1.4 mm at [78.22, 109.93]  (under it: Net-(C8-Pad2) 29)
+F.Cu   IREF1                  over In1.Cu  1.4 mm at [62.57, 100.92]  (under it: SDA 5, none 8)
+B.Cu   Net-(U106B-B)          over In4.Cu  1.4 mm at [81.27, 91.17]  (under it: analog_5V 14)
+F.Cu   .1Vref_2               over In1.Cu  1.3 mm at [68.22, 99.23]  (under it: .1Vref_1 10, none 3)
+In4.Cu Voltage_err_2          over In3.Cu  1.3 mm at [77.89, 80.19]  (under it: OUT_2_ENA 4, none 11, ena_out_1 3)
+B.Cu   OUT_2_ENA              over In4.Cu  1.3 mm at [83.58, 103.38]  (under it: none 12)
+F.Cu   .1Vout_3               over In1.Cu  1.3 mm at [77.27, 95.38]  (under it: none 13)
+B.Cu   Net-(U102D-Y)          over In4.Cu  1.3 mm at [67.12, 80.47]  (under it: ena_out_2 11, none 2)
+B.Cu   IREF2_input            over In4.Cu  1.3 mm at [65.67, 102.42]  (under it: none 15)
+B.Cu   IREF2_input            over In4.Cu  1.3 mm at [65.34, 88.59]  (under it: none 10, .1Vref_3 3)
+In4.Cu IREF1_input            over In3.Cu  1.3 mm at [65.99, 103.04]  (under it: none 7, Net-(D24-+) 3, IREF3_input 2)
+B.Cu   Verr2                  over In4.Cu  1.2 mm at [81.81, 104.94]  (under it: Net-(D5--) 12)
+In2.Cu M1_ON                  over In3.Cu  1.2 mm at [55.42, 85.62]  (under it: none 8, ARD_M1_INHIBIT 4)
+In4.Cu Net-(U26B-P1B)         over In3.Cu  1.2 mm at [52.26, 80.81]  (under it: none 8, 12V 4)
+In3.Cu Net-(D24-+)            over In2.Cu  1.2 mm at [65.67, 91.62]  (under it: none 12)
+In2.Cu ena_out_3              over In3.Cu  1.2 mm at [70.18, 84.17]  (under it: ena_out_3 2, none 17, Vout_2 3)
+F.Cu   .1Vout_3               over In1.Cu  1.2 mm at [74.58, 94.22]  (under it: none 12)
+F.Cu   IREF1                  over In1.Cu  1.2 mm at [61.12, 100.83]  (under it: SDA 8, none 4)
+In3.Cu Net-(U102A-Y)          over In2.Cu  1.2 mm at [63.6, 80.62]  (under it: none 9, M2_ON 3)
+In4.Cu out_3_on               over In3.Cu  1.2 mm at [66.27, 82.03]  (under it: out_3_on 2, none 6, Output1_drain 3)
+In4.Cu Voltage_err_2          over In3.Cu  1.1 mm at [83.76, 88.56]  (under it: Net-(D5--) 2, none 6, OUT_2_ENA 3)
+In4.Cu Net-(U3-In-)           over In3.Cu  1.1 mm at [69.27, 93.22]  (under it: 0A_hi 8, none 3)
+B.Cu   OUT_2_ENA              over In4.Cu  1.1 mm at [83.54, 104.66]  (under it: none 6, analog_5V 5)
+In4.Cu VerrGT0                over In3.Cu  1.1 mm at [55.49, 75.86]  (under it: none 8, 12V 4)
+In2.Cu 0A_hi                  over In3.Cu  1.1 mm at [72.16, 97.56]  (under it: .1Vref_1 8, none 3)
+In3.Cu ARD_M1_INHIBIT         over In2.Cu  1.1 mm at [55.67, 85.28]  (under it: none 7, M1_ON 4)
+F.Cu   Net-(U23-In+)          over In1.Cu  1.1 mm at [81.97, 105.38]  (under it: none 8, Net-(D5-+) 3)
+B.Cu   Net-(U23-In+)          over In4.Cu  1.1 mm at [77.77, 82.87]  (under it: none 11)
+In4.Cu low_error_timeout      over In3.Cu  1.1 mm at [71.09, 79.09]  (under it: none 7, Vout_2 4)
+In4.Cu Net-(U102D-Y)          over In3.Cu  1.1 mm at [70.94, 81.49]  (under it: none 7, Vout_2 4)
+F.Cu   12V                    over In1.Cu  1.1 mm at [65.47, 79.58]  (under it: none 9, out_2_on 2)
+In2.Cu Net-(D7--)             over In3.Cu  1.1 mm at [72.86, 72.08]  (under it: none 11)
+B.Cu   Output1_drain          over In4.Cu  1.1 mm at [73.41, 72.54]  (under it: none 11)
+B.Cu   IREF1_input            over In4.Cu  1.1 mm at [62.85, 93.35]  (under it: none 11)
+In4.Cu Net-(U7-In-)           over In3.Cu  1.0 mm at [81.66, 82.71]  (under it: none 8, ena_out_1 2)
+F.Cu   .1Vref_1               over In1.Cu  1.0 mm at [65.32, 94.67]  (under it: none 7, Voltage_err_1 3)
+F.Cu   Net-(U3-In-)           over In1.Cu  1.0 mm at [66.62, 90.67]  (under it: Net-(U106A-B) 10)
+In2.Cu 0A_hi                  over In3.Cu  1.0 mm at [69.13, 95.72]  (under it: Output3_drain 10)
+F.Cu   Reset_raw              over In1.Cu  1.0 mm at [65.12, 95.58]  (under it: SDA 10)
+B.Cu   set-                   over In4.Cu  1.0 mm at [58.17, 72.97]  (under it: none 6, VerrGT0 4)
+F.Cu   Net-(U26C-P2B)         over In1.Cu  1.0 mm at [52.42, 93.97]  (under it: none 10)
+F.Cu   4                      over In1.Cu  1.0 mm at [77.62, 80.83]  (under it: Out- 10)
+In4.Cu Net-(U102D-Y)          over In3.Cu  1.0 mm at [69.83, 80.58]  (under it: none 10)
+In4.Cu ena_out_2              over In3.Cu  1.0 mm at [67.28, 80.58]  (under it: none 10)
+B.Cu   SDA                    over In4.Cu  1.0 mm at [59.64, 88.39]  (under it: none 7, .1Vref_3 3)
+B.Cu   Net-(U106C-A)          over In4.Cu  1.0 mm at [77.73, 72.58]  (under it: none 7, VerrGT0 3)
+In2.Cu M2_ON                  over In3.Cu  1.0 mm at [63.69, 80.26]  (under it: none 8, Net-(U102A-Y) 2)

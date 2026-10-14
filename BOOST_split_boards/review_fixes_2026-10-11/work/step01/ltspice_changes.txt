@@ -1,0 +1,34 @@
+directive at (-6376, -4352): .ic now V(Out)=0 V(Out-)=1 (removed V(C10)=0 V(C5)=0 V(C2)=0)
+comment deleted at (-6416, -3488): ;.ic V(Vout_1)=30 V(Vout_2)=38 V(Vout_3)=30
+directive added at (-5520, -4024): .model aliases 1N4148W / B5819W / BAV21W / BAT54WS = D
+note added at (1921, -6383): one-hot from U18: picks Verr1/2/3
+note added at (1216, -5927): Q3 resets it: counts Q0-Q2 only / 5V by net name (SpiceModel)
+note added at (3488, -6096): latch: set- low turns M1 on / RESET- low turns it off
+note added at (4336, -6600): rc: slow turn on / diode: fast off
+note added at (-1974, -8524): DT = VCCI: / no dead time
+note added at (-3584, -6222): ch B unused
+note added at (672, -3440): same as channel 1
+note added at (4176, -3536): same as channel 1
+value set at (-2128, -5472): D21 = BAV21W (was the default D)
+value set at (-1616, -5808): D13 = B5819W (was the default D)
+value set at (-1616, -5648): D22 = B5819W (was the default D)
+value set at (-2000, -3296): D26 = BAT54WS (was the default D)
+value set at (-1616, -8768): D11 = B5819W (was the default D)
+value set at (-1616, -8608): D2 = B5819W (was the default D)
+value set at (-2128, -8432): D10 = BAV21W (was the default D)
+value set at (-1616, -7296): D14 = B5819W (was the default D)
+value set at (-1616, -7136): D8 = B5819W (was the default D)
+value set at (-2128, -6960): D9 = BAV21W (was the default D)
+value set at (1728, -3168): D25 = BAT54WS (was the default D)
+value set at (5232, -3264): D23 = BAT54WS (was the default D)
+value set at (432, -6336): D3 = 1N4148W (was the default D)
+value set at (480, -6304): D4 = 1N4148W (was the default D)
+value set at (3408, -6352): D6 = 1N4148W (was the default D)
+value set at (4288, -6768): D20 = 1N4148W (was the default D)
+value set at (4288, -6432): D7 = 1N4148W (was the default D)
+value set at (4288, -6128): D5 = 1N4148W (was the default D)
+value set at (4032, -7600): D24 = 1N4148W (was the default D)
+value set at (4064, -7408): D1 = 1N4148W (was the default D)
+value set at (4064, -7296): D15 = 1N4148W (was the default D)
+value set at (4128, -7040): D27 = 1N4148W (was the default D)
+wrote work/step01/LTspice/BOOST.asc

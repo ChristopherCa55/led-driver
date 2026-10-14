@@ -1,0 +1,73 @@
+{
+ "_why": "Remove the 5V F.Cu stretch between the 5V vias (58.425, 92.625) and (55.825, 94.225) (both vias land on the In2 5V pour; the user named them as the pull-ups' 5V); move the (55.825, 94.225) via 0.325 mm left so its hole clears R106's 5V pad, with a stub into the pad; R107's 5V pad gets a new via into the In2 pour",
+ "remove_segments": [
+  {
+   "net": "5V",
+   "layer": "F.Cu",
+   "bbox": [
+    55.7,
+    92.6,
+    58.5,
+    94.3
+   ]
+  }
+ ],
+ "remove_vias": [
+  {
+   "net": "5V",
+   "x": 55.825,
+   "y": 94.225
+  }
+ ],
+ "add_vias": [
+  {
+   "net": "5V",
+   "x": 55.5,
+   "y": 94.225,
+   "size": 0.5,
+   "drill": 0.3
+  },
+  {
+   "net": "5V",
+   "x": 53.35,
+   "y": 101.45,
+   "size": 0.5,
+   "drill": 0.3
+  }
+ ],
+ "add_segments": [
+  {
+   "net": "5V",
+   "layer": "F.Cu",
+   "width": 0.3,
+   "pts": [
+    [
+     55.5,
+     94.225
+    ],
+    [
+     56.1,
+     94.225
+    ]
+   ]
+  },
+  {
+   "net": "5V",
+   "layer": "F.Cu",
+   "width": 0.3,
+   "pts": [
+    [
+     53.35,
+     101.45
+    ],
+    [
+     54.2,
+     101.45
+    ]
+   ]
+  }
+ ],
+ "expect": {
+  "remove_segments": 12
+ }
+}

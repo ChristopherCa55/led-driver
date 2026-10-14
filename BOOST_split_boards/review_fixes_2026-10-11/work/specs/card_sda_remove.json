@@ -1,0 +1,3 @@
+{"_why": "C1 / C5: SDA's In1 run (via (59.675, 89.925) round J9's east end to J9.8) splits In1 GND twice and has Reset_raw and IREF1 stacked over it on F.Cu; removed (the stub J9.8 - via (59.975, 100.075) stays) and re-routed off In1",
+ "remove_segments": [{"net": "SDA", "layer": "In1.Cu", "bbox": [59.6, 89.8, 65.2, 99.0]},
+                     {"net": "SDA", "layer": "In1.Cu", "bbox": [60.0, 99.0, 65.2, 101.0]}]}

@@ -1,0 +1,51 @@
+{
+ "_why": "Card option (c), C1: Net-(U101A-Y) (U101.3 -> R4.2) leaves In1, where its 15 mm span alone split the In1 GND plane (pieces 893 / 68.6 / 30.2 mm2), and runs on In2 (the 5V pour) between the same two vias (51.675, 75.175) and (55.125, 87.925): 0.2 mm, routed by route_new.py. No route exists on In2 / F / B for the other long In1 splitter, 0err_hi.",
+ "remove_segments": [
+  {
+   "net": "Net-(U101A-Y)",
+   "layer": "In1.Cu",
+   "bbox": [
+    50.6,
+    75.1,
+    55.2,
+    88.0
+   ]
+  }
+ ],
+ "add_segments": [
+  {
+   "net": "Net-(U101A-Y)",
+   "layer": "In2.Cu",
+   "width": 0.2,
+   "pts": [
+    [
+     51.675,
+     75.175
+    ],
+    [
+     52.25,
+     75.75
+    ],
+    [
+     52.25,
+     82.85
+    ],
+    [
+     54.95,
+     85.55
+    ],
+    [
+     54.95,
+     87.7
+    ],
+    [
+     55.125,
+     87.925
+    ]
+   ]
+  }
+ ],
+ "expect": {
+  "remove_segments": 14
+ }
+}

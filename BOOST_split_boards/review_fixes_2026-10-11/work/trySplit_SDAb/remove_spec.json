@@ -1,0 +1,18 @@
+{
+ "_why": "Experiment: take SDA's 18 mm In1 run (via (59.675, 89.925) around J9's east end into J9.8) off so In1 heals; the via stays",
+ "remove_segments": [
+  {
+   "net": "SDA",
+   "layer": "In1.Cu",
+   "bbox": [
+    59,
+    89,
+    66,
+    101.5
+   ]
+  }
+ ],
+ "expect": {
+  "remove_segments": 28
+ }
+}

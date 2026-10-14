@@ -1,0 +1,46 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\BOOST_revised.net
+Start Time: Tue Oct  6 22:27:17 2026
+Options:gmin=100f reltol=0.001
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-13
+C69: Increased Cpar to 6.8e-10
+C40: Increased Cpar to 6.8e-10
+C85: Increased Cpar to 6.8e-10
+C86: Increased Cpar to 2.2e-10
+C70: Increased Cpar to 2.2e-10
+C88: Increased Cpar to 2.2e-10
+C87: Increased Cpar to 2.2e-10
+C71: Increased Cpar to 2.2e-10
+C78: Increased Cpar to 2.2e-10
+C74: Increased Cpar to 2.2e-10
+C75: Increased Cpar to 2.2e-10
+C77: Increased Cpar to 2.2e-10
+Per .tran options, skipping operating point for transient analysis.
+Warning: Simulation tolerance relaxed to achieve convergence from 3.2159999952067315e-04 to 3.2159999952067412e-04 seconds.
+
+Simulation stopped by user.
+Total elapsed time: 10.772 seconds.
+
+Files loaded:
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\BOOST_revised.net
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\TLV9001.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\MCP6561.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\CD4000_v.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\HYG180N10.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\INA241A4.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\L78L05.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\MC7812.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\CD74HC4066.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\74HC4051.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\MCP4451.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\CSS4J.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\TVS_5p0SMDJ.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\ltspice_layout_2026-10-05\work\UCC21520.lib
+

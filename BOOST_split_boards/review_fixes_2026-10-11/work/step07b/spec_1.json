@@ -1,0 +1,29 @@
+{
+ "_why": "Card option (c), C1/C2: stitch GND pieces that reach the planes through one via only: two GND vias in the In1 31.1 mm2 piece at (73.2, 86.9) named in the review, one in the In3 21.4 mm2 piece at (73.2, 91.0) (no legal spot in the In1 11.7 mm2 piece). Free GND vias, like the power board's stitching vias.",
+ "add_vias": [
+  {
+   "net": "GND",
+   "x": 72.291,
+   "y": 84.773,
+   "size": 0.5,
+   "drill": 0.3,
+   "free": true
+  },
+  {
+   "net": "GND",
+   "x": 74.691,
+   "y": 85.623,
+   "size": 0.5,
+   "drill": 0.3,
+   "free": true
+  },
+  {
+   "net": "GND",
+   "x": 73.74,
+   "y": 88.723,
+   "size": 0.5,
+   "drill": 0.3,
+   "free": true
+  }
+ ]
+}

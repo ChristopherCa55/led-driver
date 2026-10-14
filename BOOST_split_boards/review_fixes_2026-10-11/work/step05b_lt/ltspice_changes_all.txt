@@ -1,0 +1,6 @@
+value changed at (-6128, -6416): R102 10k -> 1k
+value changed at (-6000, -6416): R99 10k -> 1k
+part added at (-6448, -6672): R106 4.7k, pins (-6432, -6656) to 5V and (-6432, -6576) to SCL; wires (-6432, -6688)-(-6432, -6656) and (-6432, -6576)-(-6432, -6544); flags 5V at (-6432, -6688), SCL at (-6432, -6544)
+part added at (-6320, -6672): R107 4.7k, pins (-6304, -6656) to 5V and (-6304, -6576) to SDA; wires (-6304, -6688)-(-6304, -6656) and (-6304, -6576)-(-6304, -6544); flags 5V at (-6304, -6688), SDA at (-6304, -6544)
+note added at (-6480, -6480): I2C pull-ups (U26 has none)
+directive at (-6376, -4088): .options gmin=100f reltol=0.001 -> .options gmin=100f reltol=0.001 solver=alt (needed once R106 / R107 are in: the normal solver stops at 0.3216 ms)

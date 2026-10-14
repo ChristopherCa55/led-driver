@@ -1,0 +1,7 @@
+{
+ "_why": "D10 option (a): the ch2 loop via in C3.2's pad (33.85, 67.55) runs at 3.60x its IPC rating; two more GND vias in the same pad share the current (what-if: worst 1.72x; Vout_2 bank path +1.2 % from the In4 Vout_2 antipads).",
+ "add_vias": [
+  {"net": "GND", "x": 33.24, "y": 67.25, "size": 0.8, "drill": 0.4},
+  {"net": "GND", "x": 34.44, "y": 67.85, "size": 0.8, "drill": 0.4}
+ ]
+}

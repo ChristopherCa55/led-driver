@@ -1,0 +1,8 @@
+BOOST              parts 292/292, nets 186/186, differing nets 0, differing fields 0 -> SAME | ERC 0 {}
+BOOST_power_RC2    parts 126/126, nets 74/74, differing nets 0, differing fields 0 -> SAME | ERC 0 {}
+BOOST_control_RC2  parts 166/166, nets 133/133, differing nets 0, differing fields 0 -> SAME | ERC 0 {}
+BOOST_power_RC2    DRC 49 {'lib_footprint_mismatch': 1, 'silk_overlap': 2, 'silk_over_copper': 46}, unconnected 0, parity 0
+BOOST_power_RC2    gerbers: 29 files, 0 differ []
+BOOST_control_RC2  DRC 1 {'lib_footprint_mismatch': 1}, unconnected 0, parity 0
+BOOST_control_RC2  gerbers: 29 files, 0 differ []
+NETLISTS SAME

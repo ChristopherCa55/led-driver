@@ -1,0 +1,22 @@
+{
+ "_note": "The ONLY deviations from the original that the electrical check accepts. Approved by the user. Do not edit without the user's own-words OK.",
+ "instance_renames": {
+  "SIM_VBATT": "SIM_BATTERY",
+  "SIM_RCABLE": "SIM_CABLE_RESISTANCE",
+  "SIM_LCABLE": "SIM_CABLE_INDUCTANCE"
+ },
+ "comment_changes": {},
+ "asy_graphics_only": [
+  "INA241A4.asy",
+  "CSS4J_4026.asy",
+  "CD74HC4066.asy",
+  "MCP4451_POT.asy",
+  "MCP4451_CTRL.asy",
+  "UCC21520.asy"
+ ],
+ "_asy_note": "2026-10-07, user OK to fix the custom symbols' doubled pin text now. Drawing changes only; E5 still requires identical pins, pin order and electrical attributes.",
+ "removed_elements": [
+  "R14"
+ ],
+ "_removed_note": "2026-10-07, user's own words: delete the 1Meg resistor R14 (LX to GND) from LTspice, the KiCad schematic and the KiCad PCB."
+}

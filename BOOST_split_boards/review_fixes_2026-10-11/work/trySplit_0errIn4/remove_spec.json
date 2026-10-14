@@ -1,0 +1,18 @@
+{
+ "_why": "Experiment: take 0err_hi's In4 run R18.1 via (79.675, 99.275) -> U4.1 via (79.375, 107.975) off so In4 can heal; both vias stay",
+ "remove_segments": [
+  {
+   "net": "0err_hi",
+   "layer": "In4.Cu",
+   "bbox": [
+    79.0,
+    99.2,
+    80.2,
+    108.1
+   ]
+  }
+ ],
+ "expect": {
+  "remove_segments": 10
+ }
+}

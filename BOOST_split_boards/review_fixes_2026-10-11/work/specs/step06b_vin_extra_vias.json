@@ -1,0 +1,8 @@
+{
+ "_why": "X1 follow-up, second try: Option A moved current onto the R1 funnel's east column. Step 6's 0.9/0.5 vias at x 72.25 broke clearance to U19 pins 15/16 on B.Cu, so these are 0.8/0.4 (the board's minimum for Vin) at x 72.08: about 0.28-0.30 mm from U19's pads and 0.28 mm hole to hole from the x 71.35 column. Every layer there is Vin copper, so no plane is cut.",
+ "add_vias": [
+  {"net": "Vin", "x": 72.08, "y": 41.55, "size": 0.8, "drill": 0.4},
+  {"net": "Vin", "x": 72.08, "y": 42.4, "size": 0.8, "drill": 0.4},
+  {"net": "Vin", "x": 72.08, "y": 43.25, "size": 0.8, "drill": 0.4}
+ ]
+}

@@ -1,0 +1,6 @@
+{
+ "_why": "P2: the Vin crossing under ena_out_2 moves from In3 (inside the Vout_1 pour) to B.Cu.",
+ "remove_segments": [{"net": "Vin", "layer": "In3.Cu", "seg": [58.45, 68.75, 55.55, 68.75]}],
+ "add_segments": [{"net": "Vin", "layer": "B.Cu", "width": 1.0, "pts": [[58.45, 68.75], [55.55, 68.75]]}],
+ "expect": {"remove_segments": 1}
+}

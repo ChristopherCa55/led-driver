@@ -10,13 +10,13 @@ The BOM is schematic **rev6** (R1 = Bourns CSS4J-4026R-1L00F, U25 = INA241A4) **
 | | Power board | Control card | Total |
 |---|---|---|---|
 | Bare PCBs (5 each) | $69.57 | $56.83 | $126.40 |
-| JLC assembly of 2 each (fees + parts) | $204.79 | $162.46 | $367.25 |
+| JLC assembly of 2 each (fees + parts) | $203.17 | $162.46 | $365.63 |
 | Parts bought elsewhere (J10, J11, PTC) | | | $24.91 |
 | Hardware for 2 sets, without the thermal pad | | | $55.14 |
-| **Subtotal without the pad** | | | **$573.70** |
-| + McMaster 1272N32 pad (default) | | | **$600.61** |
-| + Parker G579 0.060 in pad instead | | | $702.45 |
-| + t-Global TG-AD30 1.5 mm instead | | | $573.70 + its price (not read) |
+| **Subtotal without the pad** | | | **$572.08** |
+| + McMaster 1272N32 pad (default) | | | **$598.99** |
+| + Parker G579 0.060 in pad instead | | | $700.83 |
+| + t-Global TG-AD30 1.5 mm instead | | | $572.08 + its price (not read) |
 | Shipping, tax | | | not included |
 
 Against the 2026-09-25 total ($760.83 with the McMaster pad):
@@ -77,7 +77,7 @@ Set-up $51.12 and stencil $16.42 per order (both boards are double-sided); feede
 
 | Board | Unique parts | Set-up | Stencil | Loading | Joints | Parts | Attrition | **Assembly** | PCB | **Order** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Power | 29 | $51.12 | $16.42 | $44.37 | $0.91 (570) | $84.64 | $7.33 | **$204.79** | $69.57 | **$274.36** |
+| Power | 28 | $51.12 | $16.42 | $42.84 | $0.91 (566) | $84.63 | $7.25 | **$203.17** | $69.57 | **$272.74** |
 | Card | 41 | $51.12 | $16.42 | $62.73 | $1.51 (944) | $22.53 | $8.15 | **$162.46** | $56.83 | **$219.29** |
 
 ## Stock on 2026-10-01 (JLC parts library)
@@ -120,7 +120,6 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | R1 | C2076400 | CSS4J-4026R-1L00F | 1 | $1.7086 | 2 (+0) | $3.42 |
 | R7 R52 R53 | C413486 | WSL2512R0500FEA | 3 | $0.2348 | 6 (+0) | $1.41 |
 | R13 R23 R47 | C22962 | 0603WAF2200T5E | 3 | $0.0035 | 6 (+20) | $0.09 |
-| R14 | C17514 | 0805W8F1004T5E | 1 | $0.0043 | 2 (+20) | $0.09 |
 | R15 | C17415 | 0805W8F100JT5E | 1 | $0.0040 | 2 (+20) | $0.09 |
 | R21 R48 R60 R72 | C17724 | 0805W8F510KT5E | 4 | $0.0041 | 8 (+20) | $0.11 |
 | R22 R50 R56 | C22775 | 0603WAF1000T5E | 3 | $0.0031 | 6 (+20) | $0.08 |
@@ -131,7 +130,7 @@ Re-check on the day you order: JLC's BOM page shows any shortage when you upload
 | U8 U10 U15 U19 | C601651 | UCC21520DWR | 4 | $0.8893 | 8 (+0) | $7.11 |
 | U16 | C231294 | MC7812BD2TR4G | 1 | $0.5316 | 2 (+0) | $1.06 |
 | U25 | C22427873 | INA241A4IDR | 1 | $3.5277 | 2 (+0) | $7.06 |
-| **Total** | | | | | | **$91.97** |
+| **Total** | | | | | | **$91.88** |
 
 ### Control card
 

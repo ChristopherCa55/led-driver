@@ -1,0 +1,19 @@
+{
+ "_why": "Step 10 (user, 2026-10-13: 'Add without hesitation: Vout_3, two vias on C4.1. They help their own loop a lot and barely touch anything else.'): the Vout_3 loop via (92.80, 86.40) in C4.1's pad runs at 2.80x its IPC rating; two more Vout_3 vias 0.4 / 0.8 at the pad's top and bottom edges share the current (what-if work/whatif_1013: worst 1.82x, loop R -12 %, LX L1 -> M5 +0.7 %). ch3 and ch1 not added (user).",
+ "add_vias": [
+  {
+   "net": "Vout_3",
+   "x": 92.38,
+   "y": 85.8,
+   "size": 0.8,
+   "drill": 0.4
+  },
+  {
+   "net": "Vout_3",
+   "x": 92.38,
+   "y": 87.0,
+   "size": 0.8,
+   "drill": 0.4
+  }
+ ]
+}

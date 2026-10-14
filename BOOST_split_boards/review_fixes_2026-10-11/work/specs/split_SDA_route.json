@@ -1,0 +1,73 @@
+{
+ "region": [
+  47,
+  85,
+  70,
+  106
+ ],
+ "clearance": 0.25,
+ "via": [
+  0.5,
+  0.3
+ ],
+ "via_cost": 1.5,
+ "turn_cost": 0.15,
+ "foreign_via_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0
+ },
+ "layers": [
+  "F.Cu",
+  "In1.Cu",
+  "In2.Cu",
+  "In3.Cu",
+  "In4.Cu",
+  "B.Cu"
+ ],
+ "fill_cost": {
+  "net": "GND",
+  "layer_nets": {
+   "In2.Cu": "5V"
+  },
+  "factor": {
+   "F.Cu": 12,
+   "In1.Cu": 12,
+   "In2.Cu": 12,
+   "In3.Cu": 12,
+   "In4.Cu": 12,
+   "B.Cu": 12
+  },
+  "via_factor": 4,
+  "radius": 0.4,
+  "via_radius": 0.55
+ },
+ "_why": "Experiment: re-route SDA from its U26 via to J9.8 (or the R107 link's via) where it removes the least plane; region [47, 85, 70, 106], weighted A* 2.5",
+ "connections": [
+  {
+   "start_xy": [
+    59.675,
+    89.925,
+    "B.Cu"
+   ],
+   "net": "SDA",
+   "goal": "points",
+   "goal_xy": [
+    [
+     59.955,
+     98.44
+    ],
+    [
+     55.6,
+     100.7
+    ]
+   ],
+   "width": 0.2
+  }
+ ],
+ "h_weight": 2.5,
+ "foreign_track_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0,
+  "V_err": 2.0
+ }
+}

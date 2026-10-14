@@ -1,0 +1,7 @@
+ok   approved battery/cable renames                                 expected PASS, got PASS 
+ok   R3 pin order reversed                                          expected FAIL on E1, got FAIL E1,E4
+ok   label SRV1 renamed SRV_1                                       expected FAIL on E1, got FAIL E1,E4
+ok   start-up comment deleted                                       expected FAIL on E3, got FAIL E3
+ok   R3 620k -> 621k                                                expected FAIL on E1, got FAIL E1
+ok   every 5V label renamed 5V_D (U18 would lose its supply)        expected FAIL on E2, got FAIL E1,E2
+SELF-TEST PASSED

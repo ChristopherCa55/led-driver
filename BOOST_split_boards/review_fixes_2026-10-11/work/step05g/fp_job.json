@@ -1,0 +1,25 @@
+{
+ "_why": "D1 pull-ups as 0603 like the card's other resistors (user, 2026-10-12; JLC C23162, the existing 4.7k line), F.Cu: R106 (SCL) in J9's row-1 label row above J9.5 / J9.7 (the I2 / SCL labels move up), R107 (SDA) below J9's I1 label, linked to J9.8 on In2; D2 R99 / R102 1k",
+ "blocks": [
+  {
+   "ref": "R106",
+   "block": "C:/Users/bubba/OneDrive/Documents/led-driver/BOOST_split_boards/review_fixes_2026-10-11/work/step05g/blocks/R106.block.txt",
+   "after": "R99"
+  },
+  {
+   "ref": "R107",
+   "block": "C:/Users/bubba/OneDrive/Documents/led-driver/BOOST_split_boards/review_fixes_2026-10-11/work/step05g/blocks/R107.block.txt",
+   "after": "R99"
+  }
+ ],
+ "values": [
+  {
+   "ref": "R99",
+   "value": "1k"
+  },
+  {
+   "ref": "R102",
+   "value": "1k"
+  }
+ ]
+}

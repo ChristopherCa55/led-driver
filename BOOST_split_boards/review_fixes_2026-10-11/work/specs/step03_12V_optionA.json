@@ -1,0 +1,17 @@
+{
+ "_why": "Option A for P1/P7/P8: 12V reaches C30/C31/U19 on B.Cu through one opened column (x=80.85) of the Vin via array; the In4 loop round M1, its two funnel vias and the In4/B via at (82.0,48.25) go. U19.16's own In4 hop under the OUTA track stays.",
+ "remove_segments": [
+  {"net": "12V", "layer": "In4.Cu", "bbox": [71.5, 45.5, 82.5, 56.0]},
+  {"net": "12V", "layer": "F.Cu", "bbox": [74.5, 43.5, 75.5, 46.1]},
+  {"net": "12V", "layer": "B.Cu", "bbox": [74.5, 43.3, 74.8, 43.9]}
+ ],
+ "remove_vias": [
+  {"net": "12V", "x": 74.75, "y": 43.85}, {"net": "12V", "x": 75.35, "y": 45.95}, {"net": "12V", "x": 82.0, "y": 48.25},
+  {"net": "Vin", "x": 80.85, "y": 42.7}, {"net": "Vin", "x": 80.85, "y": 43.7}, {"net": "Vin", "x": 80.85, "y": 44.7},
+  {"net": "Vin", "x": 80.85, "y": 45.7}
+ ],
+ "add_segments": [
+  {"net": "12V", "layer": "B.Cu", "width": 0.4, "pts": [[82.0, 48.25], [82.0, 46.6], [80.85, 46.6], [80.85, 42.0], [81.45, 41.4], [81.45, 39.75]]}
+ ],
+ "expect": {"remove_segments": 22}
+}

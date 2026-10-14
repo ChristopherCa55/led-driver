@@ -1,19 +1,19 @@
 {
  "power": {
   "board": "power",
-  "unique": 29,
-  "joints": 570,
+  "unique": 28,
+  "joints": 566,
   "pcb": 69.57,
   "fees": {
    "setup": 51.12,
    "stencil": 16.42,
-   "loading": 44.37,
+   "loading": 42.84,
    "joints": 0.91
   },
-  "parts": 84.64,
-  "attrition": 7.33,
-  "assembly": 204.79,
-  "total": 274.36,
+  "parts": 84.63,
+  "attrition": 7.25,
+  "assembly": 203.17,
+  "total": 272.74,
   "lines": [
    {
     "refs": "C1 C4 C73",
@@ -223,17 +223,6 @@
     "unit": 0.0035,
     "usd": 0.09,
     "stock": 1903983
-   },
-   {
-    "refs": "R14",
-    "lcsc": "C17514",
-    "mpn": "0805W8F1004T5E",
-    "per_board": 1,
-    "qty": 2,
-    "attr": 20,
-    "unit": 0.0043,
-    "usd": 0.09,
-    "stock": 2420510
    },
    {
     "refs": "R15",
@@ -930,10 +919,10 @@
    "price not read: URL for you"
   ]
  ],
- "base_without_pad": 573.7,
+ "base_without_pad": 572.08,
  "totals": {
-  "McMaster-Carr 1272N32, 3 W/m-K silicone, 0.060 in (1.52 mm), 4 x 4 in": 600.61,
-  "Parker 61-06-0909-G579, THERM-A-GAP 579, 0.060 in (1.524 mm), 9 x 9 in": 702.45,
+  "McMaster-Carr 1272N32, 3 W/m-K silicone, 0.060 in (1.52 mm), 4 x 4 in": 598.99,
+  "Parker 61-06-0909-G579, THERM-A-GAP 579, 0.060 in (1.524 mm), 9 x 9 in": 700.83,
   "t-Global TG-AD30, 3.0 W/m-K, 1.5 mm, smallest sheet": null
  }
 }

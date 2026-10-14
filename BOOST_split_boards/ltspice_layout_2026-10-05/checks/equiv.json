@@ -1,0 +1,58 @@
+{
+ "candidate": "C:\\Users\\bubba\\OneDrive\\Documents\\led-driver\\BOOST_split_boards\\ltspice_layout_2026-10-05\\work\\BOOST.asc",
+ "reference": "C:\\Users\\bubba\\OneDrive\\Documents\\led-driver\\BOOST_split_boards\\ltspice_layout_handoff_2026-10-05\\reference\\LTspice_original\\BOOST.asc",
+ "checks": {
+  "E1 netlist identity": {
+   "pass": true,
+   "details": [
+    "elements 302 -> 302, nets compared 152, differing 0",
+    "new net name on a previously auto-named net: Vbattery (was auto P001)",
+    "approved instance rename applied: SIM_VBATT -> SIM_BATTERY",
+    "approved instance rename applied: SIM_RCABLE -> SIM_CABLE_RESISTANCE",
+    "approved instance rename applied: SIM_LCABLE -> SIM_CABLE_INDUCTANCE"
+   ]
+  },
+  "E2 name-based connections": {
+   "pass": true,
+   "details": [
+    "U18 SpiceModel \"5V 0\"; net 5V present; labels 4..10 kept"
+   ]
+  },
+  "E3 directives and comments": {
+   "pass": true,
+   "details": [
+    "18 directive texts, 6 original comments checked",
+    "new comment (allowed: block titles, notes): 'simulation only - not on the PCB'",
+    "new comment (allowed: block titles, notes): 'simulation only - not on the PCB'",
+    "new comment (allowed: block titles, notes): 'simulation only - not on the PCB'",
+    "new comment (allowed: block titles, notes): 'simulation only - not on the PCB'",
+    "new comment (allowed: block titles, notes): '[PWR] Power path: battery, input caps, R1, L1, M1, output switches (power board)'",
+    "new comment (allowed: block titles, notes): '[ISNS] Input current sense (power board)'",
+    "new comment (allowed: block titles, notes): '[CREG1] Channel 1 LED current regulator (power board)'",
+    "new comment (allowed: block titles, notes): '[REF1] Channel 1 LED-current setpoint and headroom servo (control card)'",
+    "new comment (allowed: block titles, notes): 'C23: bypass of the 4066'",
+    "new comment (allowed: block titles, notes): 'package (U106A/B/C)'",
+    "new comment (allowed: block titles, notes): 'U26E: MCP4451 control unit, serves U26A/B/C'",
+    "new comment (allowed: block titles, notes): '[EA1] Channel 1 output-voltage error amplifier, Vout_1 -> Verr1 (control card)'"
+   ]
+  },
+  "E4 referenced identifiers": {
+   "pass": true,
+   "details": [
+    "note: V(C10) names no node in the ORIGINAL either (pre-existing, left as is)",
+    "note: V(C2) names no node in the ORIGINAL either (pre-existing, left as is)",
+    "note: V(C5) names no node in the ORIGINAL either (pre-existing, left as is)",
+    "checked V(): 0A_hi, C10, C2, C5, LX, Out, Out-, SRV1, SRV2, SRV3, Vref_1, Vref_2, Vref_3",
+    "checked I(): D19, L1",
+    "checked params: IREF1_DUTY, IREF2_DUTY, IREF3_DUTY, POT1_CODE, POT2_CODE, POT3_CODE"
+   ]
+  },
+  "E5 support files": {
+   "pass": true,
+   "details": [
+    "all .asy/.lib files identical to the original"
+   ]
+  }
+ },
+ "pass": true
+}

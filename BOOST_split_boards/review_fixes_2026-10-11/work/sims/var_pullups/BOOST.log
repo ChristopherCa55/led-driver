@@ -1,0 +1,49 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\BOOST.net
+Start Time: Sun Oct 11 12:59:12 2026
+Options:gmin=100f reltol=0.001 plotwinsize=0
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-13
+C86: Increased Cpar to 2.2e-10
+C70: Increased Cpar to 2.2e-10
+C88: Increased Cpar to 2.2e-10
+C87: Increased Cpar to 2.2e-10
+C71: Increased Cpar to 2.2e-10
+C78: Increased Cpar to 2.2e-10
+C74: Increased Cpar to 2.2e-10
+C75: Increased Cpar to 2.2e-10
+C77: Increased Cpar to 2.2e-10
+C69: Increased Cpar to 6.8e-10
+C40: Increased Cpar to 6.8e-10
+C85: Increased Cpar to 6.8e-10
+Per .tran options, skipping operating point for transient analysis.
+Warning: Simulation tolerance relaxed to achieve convergence from 3.2159537325175322e-04 to 3.2159537325175420e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 3.2159537325175718e-04 
+Convergence Failure:  Time step too small; time = 0.000321595, timestep = 1.25e-19: trouble with node "m7:di"
+
+Simulation Failed: Iteration limit reached
+
+Total elapsed time: 2.070 seconds.
+
+Files loaded:
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\BOOST.net
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\bubba\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\TLV9001.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\MCP6561.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\CD4000_v.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\HYG180N10.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\INA241A4.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\L78L05.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\MC7812.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\CD74HC4066.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\74HC4051.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\MCP4451.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\CSS4J.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\TVS_5p0SMDJ.lib
+C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\review_fixes_2026-10-11\work\sims\var_pullups\UCC21520.lib
+

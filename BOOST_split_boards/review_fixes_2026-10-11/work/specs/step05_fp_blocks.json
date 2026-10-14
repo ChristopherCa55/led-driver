@@ -1,0 +1,25 @@
+{
+ "_why": "D1 pull-ups as 0402 (JLC C25900, basic): R106 (SCL) on B.Cu above U26's pin-1 corner, R107 (SDA) on B.Cu under J9 -- the only spots near the bus that are clear of the H1-H4 washer areas and route without cutting a GND plane; D2 R99 / R102 1k",
+ "blocks": [
+  {
+   "ref": "R106",
+   "block": "(set by step05_card.sh)",
+   "after": "R99"
+  },
+  {
+   "ref": "R107",
+   "block": "(set by step05_card.sh)",
+   "after": "R99"
+  }
+ ],
+ "values": [
+  {
+   "ref": "R99",
+   "value": "1k"
+  },
+  {
+   "ref": "R102",
+   "value": "1k"
+  }
+ ]
+}

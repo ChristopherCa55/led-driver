@@ -1,0 +1,124 @@
+[
+ {
+  "step": "Step 1",
+  "title": "LTspice documentation (D5, D7, D8)",
+  "status": "in the copy (LTspice/BOOST.asc 1f008632 -> cc28c9fa)",
+  "ltspice": "step01/ltspice_changes.txt"
+ },
+ {
+  "step": "Step 2",
+  "title": "KiCad documentation: diode part names, Vin+/Vin-/Out1+... labels, title block, U26D (D7, D8)",
+  "status": "in the copy (label pictures approved by the user 2026-10-12)",
+  "sch": "step02d/kicad_changes.json"
+ },
+ {
+  "step": "Step 3",
+  "title": "12V route, Option A (X1)",
+  "status": "in the copy",
+  "pcb": [
+   [
+    "Power",
+    "step02d/kicad/BOOST_power_RC2.kicad_pcb",
+    "step03/kicad/BOOST_power_RC2.kicad_pcb"
+   ]
+  ]
+ },
+ {
+  "step": "Step 4",
+  "title": "ch2 loop vias (D10 option a)",
+  "status": "in the copy",
+  "pcb": [
+   [
+    "Power",
+    "step03/kicad/BOOST_power_RC2.kicad_pcb",
+    "step04/kicad/BOOST_power_RC2.kicad_pcb"
+   ]
+  ]
+ },
+ {
+  "step": "Step 6",
+  "title": "three more Vin vias in R1's funnel (X1 follow-up)",
+  "status": "in the copy",
+  "pcb": [
+   [
+    "Power",
+    "step05d/kicad/BOOST_power_RC2.kicad_pcb",
+    "step06b/kicad/BOOST_power_RC2.kicad_pcb"
+   ]
+  ],
+  "notes": [
+   "The first try (0.9/0.5 mm at x 72.25, work/step06) broke clearance to U19 pins 15/16 and was dropped."
+  ]
+ },
+ {
+  "step": "Step 5",
+  "title": "I2C pull-ups R106 / R107 as 0603 near J9 (D1, the user's 2026-10-12 retry) and R99 / R102 1k (D2)",
+  "status": "in the copy (placement approved by the user 2026-10-13)",
+  "ltspice": "step05b_lt/ltspice_changes.txt",
+  "sch": "step05g/sch_changes.json",
+  "pcb": [
+   [
+    "Control card",
+    "step04/kicad/BOOST_control_RC2.kicad_pcb",
+    "step05g/kicad/BOOST_control_RC2.kicad_pcb"
+   ]
+  ],
+  "notes": [
+   "LTspice: directive at (-6376, -4088) .options gmin=100f reltol=0.001 -> + solver=alt (approved 2026-10-12).",
+   "J9 footprint (board and KiCad/BOOST.pretty): F.CrtYd now 0.15 mm from the pad rows (local y -1.15 .. 3.69; the tie-slot block x -4.5 .. -1.2 kept full height); B.CrtYd unchanged. F.SilkS labels I2 and SCL moved from local y -1.825 to -3.1 (board y 94.075 -> 92.80), x unchanged (I2 56.145, SCL 58.385).",
+   "H3: Reference text on F.SilkS moved from local (0, -4.15) to (0, -3.8), board y 102.31 -> 102.66.",
+   "Card BOM: R99 / R102 move from the 10k line (C25804) to the existing 1k line (C21190); R106 / R107 join the existing 4.7k 0603 line (C23162). CPL: R106 57.1500 / -94.0000 Top 0; R107 55.1500 / -101.4500 Top 0."
+  ]
+ },
+ {
+  "step": "Step 7",
+  "title": "two GND stitching vias in the one-via In1 piece (C1)",
+  "status": "in the copy",
+  "pcb": [
+   [
+    "Control card",
+    "step05g/kicad/BOOST_control_RC2.kicad_pcb",
+    "step07e/kicad/BOOST_control_RC2.kicad_pcb"
+   ]
+  ]
+ },
+ {
+  "step": "Step 8",
+  "title": "Net-(U101A-Y) from In1 to In2 (C1)",
+  "status": "in the copy",
+  "pcb": [
+   [
+    "Control card",
+    "step07e/kicad/BOOST_control_RC2.kicad_pcb",
+    "step08c/kicad/BOOST_control_RC2.kicad_pcb"
+   ]
+  ]
+ },
+ {
+  "step": "Step 9",
+  "title": "Net-(D5--) re-routed so it no longer cuts the card's In4 GND in two (the user, 2026-10-12: longest GND splitters)",
+  "status": "in the copy (approved by the user 2026-10-13)",
+  "pcb": [
+   [
+    "Control card",
+    "step08c/kicad/BOOST_control_RC2.kicad_pcb",
+    "step09/kicad/BOOST_control_RC2.kicad_pcb"
+   ]
+  ],
+  "notes": [
+   "0err_hi and SDA were tried too and left where they are: every alternative split more plane (work/CARD_SPLITTERS.md)."
+  ]
+ },
+ {
+  "step": "Step 10",
+  "title": "two Vout_3 loop vias at C4.1 (the user, 2026-10-13: Vout_3 only, not ch3 / ch1)",
+  "status": "in the copy",
+  "pcb": [
+   [
+    "Power",
+    "step06b/kicad/BOOST_power_RC2.kicad_pcb",
+    "step10/kicad/BOOST_power_RC2.kicad_pcb"
+   ]
+  ]
+ }
+]

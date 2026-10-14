@@ -1,0 +1,18 @@
+{
+ "_why": "Experiment: take 0err_hi's 17 mm In1 run (via (51.275, 79.275) -> via (64.225, 86.925)) off so In1 heals; both vias stay",
+ "remove_segments": [
+  {
+   "net": "0err_hi",
+   "layer": "In1.Cu",
+   "bbox": [
+    50.5,
+    78.5,
+    65,
+    87.5
+   ]
+  }
+ ],
+ "expect": {
+  "remove_segments": 26
+ }
+}

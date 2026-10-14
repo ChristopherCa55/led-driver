@@ -1,0 +1,47 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Python313\Lib\concurrent\futures\process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "C:\Python313\Lib\concurrent\futures\process.py", line 203, in _process_chunk
+    return [fn(*args) for args in chunk]
+            ~~^^^^^^^
+  File "C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\tools\solve_copper6.py", line 454, in _solve
+    return solve_branch(_COP, br, stack, png, want_jmap)
+  File "C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\tools\solve_copper6.py", line 215, in solve_branch
+    V[free] = spla.spsolve(Lff, rhs, permc_spec='MMD_AT_PLUS_A')
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bubba\AppData\Roaming\Python\Python313\site-packages\scipy\sparse\linalg\_dsolve\linsolve.py", line 286, in spsolve
+    x, info = _superlu.gssv(N, A.nnz, A.data, indices, indptr,
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            b, flag, options=options)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: SUPERLU_MALLOC fails for buf in intCalloc() at line 173 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/memory.c
+
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\tools\solve_copper6.py", line 516, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\bubba\OneDrive\Documents\led-driver\BOOST_split_boards\power6_2026-10-01\tools\solve_copper6.py", line 485, in main
+    for br, r in zip(group, ex.map(_solve, [(br, stack, png, bool(jmap_path)) for br in group])):
+                 ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\process.py", line 617, in _chain_from_iterable_of_lists
+    for element in iterable:
+                   ^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+RuntimeError: SUPERLU_MALLOC fails for buf in intCalloc() at line 173 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/memory.c
+

@@ -1,0 +1,25 @@
+{
+ "_why": "D1 pull-ups R106 (SCL) / R107 (SDA), 4.7k 0402 (JLC C25900) on B.Cu under J9: the only spot near the bus that is clear of the H1-H4 washer areas and routes; D2 R99 / R102 1k",
+ "blocks": [
+  {
+   "ref": "R106",
+   "block": "try05b/blocksD/R106.block.txt",
+   "after": "R99"
+  },
+  {
+   "ref": "R107",
+   "block": "try05b/blocksD/R107.block.txt",
+   "after": "R99"
+  }
+ ],
+ "values": [
+  {
+   "ref": "R99",
+   "value": "1k"
+  },
+  {
+   "ref": "R102",
+   "value": "1k"
+  }
+ ]
+}

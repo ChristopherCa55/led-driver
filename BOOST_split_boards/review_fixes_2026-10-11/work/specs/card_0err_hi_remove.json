@@ -1,0 +1,3 @@
+{"_why": "C1: 0err_hi's In1 span (13.4 mm, between its vias (51.275, 79.275) and (64.225, 86.925)) splits the In1 GND plane; it is removed here and re-routed on In2 (the 5V pour) by route_new.py",
+ "remove_segments": [{"net": "0err_hi", "layer": "In1.Cu", "bbox": [51.2, 79.2, 64.3, 87.0]}],
+ "expect": {"remove_segments": 26}}

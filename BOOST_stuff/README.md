@@ -10,7 +10,10 @@ meant to be made and assembled by JLCPCB.
 | Power board | `KiCad/BOOST_power_RC2.kicad_pcb` | 74 x 86 mm (18 x 12 mm corner notch) | 6 (stackup JLC061611-7628D, specified at order) |
 | Control card | `KiCad/BOOST_control_RC2.kicad_pcb` | 45 x 45 mm | 6 |
 
-The schematic for both boards is `KiCad/BOOST.kicad_sch` (open `KiCad/BOOST.kicad_pro`). The `.pretty` folders,
+The schematic for both boards is `KiCad/BOOST.kicad_sch` (open `KiCad/BOOST.kicad_pro`). Each board also has its
+own schematic, linked to its PCB: open `KiCad/BOOST_power_RC2.kicad_pro` or `KiCad/BOOST_control_RC2.kicad_pro`
+(Switch to PCB Editor and Update PCB work there). These hold the same parts as the main schematic, so a change goes
+into both. The `.pretty` folders,
 `ltspice.kicad_sym`, `fp-lib-table` and `sym-lib-table` in `KiCad/` are the project's own footprint and symbol
 libraries; KiCad finds them automatically.
 
@@ -18,16 +21,6 @@ libraries; KiCad finds them automatically.
 - Each board has its own `.kicad_pro`, which carries its net classes and design rules. Open a board through (or
   beside) its own `.kicad_pro`; without it, DRC falls back to the defaults.
 - 3D models: the parts use KiCad's standard 3D library (`${KICAD10_3DMODEL_DIR}`), which comes with KiCad.
-
-## ERC and DRC
-- ERC: 0 errors, 0 warnings.
-- Power board: 0 errors, 0 unconnected. The 49 warnings are expected:
-  - 46 silk over copper: a top-side logo under L1 crosses L1's middle (mechanical) pad. It is hidden under L1, and
-    the gerbers cut silkscreen away from exposed pads.
-  - 2 silk overlaps: the can outlines of C87/C71 and C86/C88 touch.
-  - 1 library mismatch: J10's holes are drilled 1.05 mm on purpose (Samtec 0.64 mm square posts).
-- Control card: 0 errors, 0 unconnected. The 1 warning is expected: a library mismatch, because J11's holes are
-  drilled 1.05 mm on purpose (Samtec 0.64 mm square posts).
 
 ## LTspice
 `LTspice/BOOST.asc` uses:
@@ -41,6 +34,9 @@ libraries; KiCad finds them automatically.
 - D28-D30 (pre-charge diodes, S2MW) use an inline `.model S2MW` directive: LTspice's 1N4007 scaled to a 2 A die
   (VF 0.91 V at 2 A; data sheet max 1.1 V). Jingdao publishes no SPICE model.
 - The `LED_RED`/`LED_GREEN`/`LED_BLUE` models are unused on purpose; the LEDs use the `100W_` models.
+- D19 (5.0SMDJ54A) is modelled at its minimum breakdown, 60.0 V. Over 25-30 ms it conducts in 101 of 453 switching
+  cycles (22 %), 9.5 mW on average (0.15 % of its 6.5 W rating); most of its current is junction capacitance at the LX
+  edges. A typical part (about 63 V) would not conduct at all in steady state.
 
 **Parameters** (a `.param` line near the other directives):
 - `IREF1_DUTY`, `IREF2_DUTY`, `IREF3_DUTY`: the Arduino's IREF PWM duty in 256ths at 490 Hz. 256 = always on (the
@@ -50,7 +46,9 @@ libraries; KiCad finds them automatically.
   power-up the pot sits at mid-scale (128, about 1.98 A) until the firmware writes a code.
 - Parts named `SIM_...` exist only in the simulation: the battery, cable, LEDs and the Arduino outputs.
 
-**Results:** a 30 ms run at full duty converges in about 5-7 minutes. Over 25-30 ms the LEDs hold 2.635, 2.371 and
+**Results:** a 30 ms run at full duty converges in about 15-50 minutes. The `.options` line carries `solver=alt`:
+with the I2C pull-ups R106 / R107 in the netlist the normal solver stops at 0.3216 ms; `solver=alt` is about 3x
+slower and gives the same results. Over 25-30 ms the LEDs hold 2.635, 2.371 and
 2.371 A, the outputs sit at 23.3, 33.1 and 33.1 V, and LX peaks at about 61 V.
 
 **Start-up:** the two `.ic` lines start the servos and reference filters already settled, so the LEDs reach full
@@ -59,8 +57,20 @@ That shortcut start shows one 81 V LX spike at 0.15 ms, which real hardware does
 references at zero.
 
 **PWM dimming** (`IREFn_DUTY` below 256): each pulse keeps the full current down to about 19 % duty (red) and 25 %
-(green, blue); below that the pulses carry less current. Runs can stall while all LEDs are off; adding `solver=alt`
-to the `.options` line gets past it.
+(green, blue); below that the pulses carry less current. Runs can stall while all LEDs are off; the `solver=alt`
+on the `.options` line gets past that.
 
 **File size:** LTspice saves every node, so a 30 ms run writes about 22 GB (`BOOST.raw`). Make sure there is room,
 or add a `.save` line that lists only the signals you want.
+
+## ERC and DRC
+- ERC: 0 errors, 0 warnings for the main schematic and both board projects. The card schematic has PWR_FLAGs on 5V
+  and GND (they reach the card only through J11); the main schematic has none there, as U17 drives 5V.
+- DRC with schematic parity: 0 on both boards.
+- Power board: 0 errors, 0 unconnected. The 49 warnings are expected:
+  - 46 silk over copper: a top-side logo under L1 crosses L1's middle (mechanical) pad. It is hidden under L1, and
+    the gerbers cut silkscreen away from exposed pads.
+  - 2 silk overlaps: the can outlines of C87/C71 and C86/C88 touch.
+  - 1 library mismatch: J10's holes are drilled 1.05 mm on purpose (Samtec 0.64 mm square posts).
+- Control card: 0 errors, 0 unconnected. The 1 warning is expected: a library mismatch, because J11's holes are
+  drilled 1.05 mm on purpose (Samtec 0.64 mm square posts).

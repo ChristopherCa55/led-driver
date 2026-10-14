@@ -1,0 +1,51 @@
+{
+ "_why": "SDA from U26's via (59.675, 89.925) to J9.8's stub on In2 / B / F instead of In1",
+ "region": [
+  50,
+  84,
+  70,
+  108
+ ],
+ "clearance": 0.2,
+ "via": [
+  0.5,
+  0.3
+ ],
+ "via_cost": 3.0,
+ "turn_cost": 0.15,
+ "layers": [
+  "In2.Cu",
+  "B.Cu",
+  "F.Cu"
+ ],
+ "foreign_via_keepout": {
+  "Net-(U2-In+)": 2.0,
+  "Current": 2.0
+ },
+ "connections": [
+  {
+   "start_xy": [
+    59.675,
+    89.925,
+    "In2.Cu"
+   ],
+   "net": "SDA",
+   "goal": "points",
+   "goal_xy": [
+    [
+     59.975,
+     100.075
+    ],
+    [
+     59.955,
+     98.44
+    ]
+   ],
+   "width": 0.2
+  }
+ ],
+ "layer_cost": {
+  "B.Cu": 1.5,
+  "F.Cu": 1.5
+ }
+}

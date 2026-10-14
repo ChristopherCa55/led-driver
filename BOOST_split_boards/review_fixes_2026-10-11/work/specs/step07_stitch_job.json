@@ -1,0 +1,29 @@
+{
+ "_why": "Card option (c), C1/C2: stitch the GND pieces that reach the planes through one via only (In1 31.1 mm2 at (73.2, 86.9) named in the review, In1 11.7 mm2 at (63.8, 91.8), In3 21.4 mm2 at (73.2, 91.0)); a GND via joins the GND fills of every layer it passes",
+ "via": [
+  0.5,
+  0.3
+ ],
+ "clearance": 0.25,
+ "net": "GND",
+ "pieces": [
+  {
+   "layer": "In1.Cu",
+   "x": 73.2,
+   "y": 86.9,
+   "n": 2
+  },
+  {
+   "layer": "In1.Cu",
+   "x": 62.12,
+   "y": 90.07,
+   "n": 1
+  },
+  {
+   "layer": "In3.Cu",
+   "x": 73.2,
+   "y": 91.0,
+   "n": 1
+  }
+ ]
+}
